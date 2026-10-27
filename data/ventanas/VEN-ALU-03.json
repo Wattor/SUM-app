@@ -1,0 +1,1144 @@
+{
+  "schema_version": "1.0",
+  "meta": {
+    "id": "VEN-ALU-03",
+    "componente": "VEN",
+    "autor": "Juan Sandoval",
+    "estado_revision": "borrador",
+    "fecha_actualizacion": "2026-10-26",
+    "id_legado": "CR-VEN-03",
+    "origen_migracion": {
+      "archivo": "TP1_Ficha_Juan_Ventanas.xlsx",
+      "hoja": "Ficha (4) Europa"
+    }
+  },
+  "campos": {
+    "id": {
+      "estado": "dato",
+      "valor": "VEN-ALU-03",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "name": {
+      "estado": "dato",
+      "valor": "Ventana corrediza de aluminio Europa Clásica",
+      "fuentes": [
+        {
+          "ref": "F13"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Conocida en el mercado como “línea europea”."
+    },
+    "record_type": {
+      "estado": "dato",
+      "valor": "sistema",
+      "fuentes": [
+        {
+          "ref": "F13"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "component": {
+      "estado": "dato",
+      "valor": "VEN"
+    },
+    "subcategory": {
+      "estado": "dato",
+      "valor": "Ventana corrediza de aluminio – línea europea pesada",
+      "fuentes": [
+        {
+          "ref": "F13"
+        },
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Existe una versión para DVH (Extralum FT-129)."
+    },
+    "country": {
+      "estado": "dato",
+      "valor": "CR",
+      "fuentes": [
+        {
+          "ref": "F7"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "manufacturer": {
+      "estado": "dato",
+      "valor": "Extrusiones de Aluminio S.A. (Extralum)",
+      "fuentes": [
+        {
+          "ref": "F13"
+        },
+        {
+          "ref": "F7"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "supplier": {
+      "estado": "dato",
+      "valor": "Talleres y distribuidores de vidrio y aluminio (p. ej. VIDSA, Vitrocentro) y sucursales Extralum",
+      "fuentes": [
+        {
+          "ref": "F11"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "VIDSA ofrece el sistema Europa."
+    },
+    "description": {
+      "estado": "dato",
+      "valor": "Ventana y portón corredizo de aluminio con perfiles de 1,00–1,40 mm de pared y mayor sección, hojas de hasta 1,60 × 2,60 m, vidrio de 6 mm y cerraduras multipunto. Modulaciones OX y OXXO, con cedazo clásico o liviano.",
+      "fuentes": [
+        {
+          "ref": "F13"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Se usa en ventanas grandes y puertas de salida a terrazas."
+    },
+    "keywords": {
+      "estado": "dato",
+      "valor": [
+        "ventana corrediza",
+        "Europa",
+        "línea europea",
+        "portón",
+        "aluminio",
+        "multipunto",
+        "vidrio 6 mm"
+      ],
+      "fuentes": [
+        {
+          "ref": "F13"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "main_material": {
+      "estado": "dato",
+      "valor": "Aluminio extruido AA6063 temple T5",
+      "fuentes": [
+        {
+          "ref": "F13"
+        },
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "La FT-137 no indica aleación; todas las líneas Extralum usan AA6063."
+    },
+    "secondary_materials": {
+      "estado": "dato",
+      "valor": [
+        "Vidrio monolítico 6 mm",
+        "templado FUERTEX®",
+        "laminado VILAX® 3+3",
+        "EPDM",
+        "rodines de nylon o tándem",
+        "cerraduras multipunto",
+        "topes cortaviento",
+        "tapas de drenaje con válvula",
+        "cedazo"
+      ],
+      "fuentes": [
+        {
+          "ref": "F13"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "layers": {
+      "estado": "dato",
+      "valor": [
+        "1) Contramarco de 2 o 3 vías → 2) Marco de vidrio 6 mm y marco lateral agarradera → 3) Adaptador de enganche → 4) Empaque EPDM → 5) Vidrio → 6) Rodines, cerradura multipunto, topes cortaviento y tapas de drenaje → 7) Cedazo opcional"
+      ],
+      "fuentes": [
+        {
+          "ref": "F13"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Silicón en el perímetro del contramarco (lo indica la FT-137)."
+    },
+    "total_thickness": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "F13"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "La FT-137 no da la profundidad del contramarco."
+    },
+    "commercial_dimensions": {
+      "estado": "dato",
+      "valor": "Hoja móvil y fija: 402–1 600 ancho × 470–2 600 alto. Cedazo liviano: hasta 1 500 × 1 800",
+      "fuentes": [
+        {
+          "ref": "F13"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "El espesor de vidrio se define con la velocidad de viento y la altura sobre el terreno."
+    },
+    "density": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "surface_mass": {
+      "estado": "dato",
+      "valor": 22.0,
+      "calificador": "≈",
+      "unidad": "kg/m²",
+      "fuentes": [
+        {
+          "ref": "R07"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Estimado para OX de 1,20 × 1,20 m: perfiles 0,73–0,93 kg/m ≈ 7,4 kg/m² de aluminio + vidrio 6 mm ≈ 15 kg/m²."
+    },
+    "surface_finish": {
+      "estado": "dato",
+      "valor": "Anodizados y pinturas bajo pedido",
+      "fuentes": [
+        {
+          "ref": "F13"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Acabados y plazos según pedido."
+    },
+    "support_system": {
+      "estado": "dato",
+      "valor": "Contramarco perimetral apoyado en el buque; hojas sobre rodines de nylon de 40 kg por par o rodín tándem",
+      "fuentes": [
+        {
+          "ref": "F13"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "La FT-137 pide verificar la solidez de la estructura de soporte."
+    },
+    "fastening": {
+      "estado": "dato",
+      "valor": "Tornillos con taco al buque a través del contramarco; ensamble con escuadras de alineamiento",
+      "fuentes": [
+        {
+          "ref": "F13"
+        },
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "joints_seals": {
+      "estado": "dato",
+      "valor": "Sellos y empaques EPDM; topes cortaviento de 2 y 3 vías; tapas de drenaje con válvula; kit multipunto con manilla, cerradura doble de embutir o de impacto; haladeras",
+      "fuentes": [
+        {
+          "ref": "F13"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Kit multipunto a partir de 770 mm de altura de hoja."
+    },
+    "installation_sequence": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "tools_labor": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "critical_point": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "recommended_uses": {
+      "estado": "dato",
+      "valor": [
+        "Ventanales, puertas corredizas a terrazas y fachadas de vivienda, oficinas, locales comerciales, restaurantes, edificios, hospitales, bancos y supermercados"
+      ],
+      "fuentes": [
+        {
+          "ref": "F13"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "building_types": {
+      "estado": "dato",
+      "valor": [
+        "Vivienda",
+        "Comercial",
+        "Institucional",
+        "Salud"
+      ],
+      "fuentes": [
+        {
+          "ref": "F13"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "La FT-137 menciona hospitales y bancos."
+    },
+    "location": {
+      "estado": "dato",
+      "valor": "Exterior",
+      "fuentes": [
+        {
+          "ref": "F13"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "climates": {
+      "estado": "dato",
+      "valor": "Cálido húmedo, cálido seco y templado; zonas con más viento que la línea nacional",
+      "fuentes": [
+        {
+          "ref": "F13"
+        },
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Verificar el vidrio según la carga de viento del sitio."
+    },
+    "imn_subregions": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "compatibility": {
+      "estado": "dato",
+      "valor": "Mampostería, concreto y estructura metálica o liviana; aislar el contacto con acero",
+      "fuentes": [
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "use_restrictions": {
+      "estado": "dato",
+      "valor": "Sistema corredizo con control acústico limitado; la versión clásica no admite DVH (usar la versión FT-129 para DVH); el vidrio se dimensiona por viento y altura",
+      "fuentes": [
+        {
+          "ref": "F13"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "labor_specialization": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "F13"
+        },
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Hojas grandes y pesadas y herrajes multipunto."
+    },
+    "installation_complexity": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "F13"
+        },
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "national_availability": {
+      "estado": "dato",
+      "valor": 5,
+      "fuentes": [
+        {
+          "ref": "F7"
+        },
+        {
+          "ref": "F11"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Extruida en CR y ampliamente distribuida."
+    },
+    "installation_time": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Más tiempo por el tamaño y peso de las hojas."
+    },
+    "relative_cost": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "F4"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Línea europea: 40–70 % más cara que la nacional."
+    },
+    "price_range": {
+      "estado": "dato",
+      "min": 95000.0,
+      "max": 130000.0,
+      "calificador": "rango",
+      "unidad": "CRC/m²",
+      "fuentes": [
+        {
+          "ref": "F4"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Corrediza de línea española/europea con vidrio templado, sin instalación (abril 2026)."
+    },
+    "mechanical_resistance": {
+      "estado": "dato",
+      "valor": "AA6063-T5 (tracción mín. ≈ 150 MPa, ASTM B221); pared de 1,00–1,40 mm con perfiles de mayor sección",
+      "fuentes": [
+        {
+          "ref": "F13"
+        }
+      ],
+      "evidencia": "E3",
+      "nota": "Valor de la aleación, no ensayo del sistema."
+    },
+    "impact_resistance": {
+      "estado": "dato",
+      "valor": "Media–alta con FUERTEX® 6 mm o VILAX® 3+3",
+      "fuentes": [
+        {
+          "ref": "F13"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Sin ensayo del sistema."
+    },
+    "abrasion_resistance": {
+      "estado": "no_disponible",
+      "evidencia": "E1"
+    },
+    "durability_years": {
+      "estado": "dato",
+      "min": 25.0,
+      "max": 35.0,
+      "calificador": "rango",
+      "unidad": "años",
+      "fuentes": [
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Estimado."
+    },
+    "water_absorption": {
+      "estado": "no_aplica",
+      "fuentes": [
+        {
+          "ref": "F9"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "moisture_resistance": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "F13"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Tapas de drenaje con válvula y topes cortaviento."
+    },
+    "condensation_risk": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "F3"
+        },
+        {
+          "ref": "F8"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Marco sin rotura de puente térmico y vidrio sencillo."
+    },
+    "corrosion_resistance": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "uv_resistance": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "marine_environment": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Acabado de grado costero y herrajes inoxidables."
+    },
+    "vapor_permeability": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "thermal_conductivity": {
+      "estado": "dato",
+      "valor_texto_original": "≈ 200 (aluminio 6063); ≈ 1,0 (vidrio)",
+      "fuentes": [
+        {
+          "ref": "R03"
+        }
+      ],
+      "evidencia": "E4"
+    },
+    "specific_heat": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "thermal_resistance": {
+      "estado": "dato",
+      "valor": 0.17,
+      "calificador": "≈",
+      "unidad": "m²·K/W",
+      "fuentes": [
+        {
+          "ref": "R04"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "u_value": {
+      "estado": "dato",
+      "valor": 5.8,
+      "calificador": "≈",
+      "unidad": "W/(m²·K)",
+      "fuentes": [
+        {
+          "ref": "F3"
+        },
+        {
+          "ref": "F8"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Texto original: ≈ 5,8 (Ug vidrio claro 6 mm = 5,82; Uf metal sin RPT = 5,7) · Uw estimado."
+    },
+    "solar_reflectance": {
+      "estado": "dato",
+      "valor": 0.08,
+      "calificador": "≈",
+      "unidad": "0–1",
+      "fuentes": [
+        {
+          "ref": "F3"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "thermal_emittance": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "sri": {
+      "estado": "no_aplica",
+      "evidencia": "E1"
+    },
+    "sound_insulation": {
+      "estado": "dato",
+      "valor_texto_original": "≈ 25 – 28 (sistema); vidrio 6 mm solo = 30–32",
+      "fuentes": [
+        {
+          "ref": "F6"
+        },
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Mejor que las corredizas livianas por los topes cortaviento y el multipunto."
+    },
+    "sound_absorption": {
+      "estado": "no_aplica",
+      "evidencia": "E1"
+    },
+    "fire_reaction": {
+      "estado": "dato",
+      "valor": "A1 (vidrio y aluminio); accesorios combustibles en poca cantidad",
+      "fuentes": [
+        {
+          "ref": "F9"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "fire_resistance": {
+      "estado": "no_disponible",
+      "evidencia": "E1",
+      "nota": "No es cortafuego."
+    },
+    "smoke_class": {
+      "estado": "no_disponible",
+      "evidencia": "E1"
+    },
+    "voc_emissions": {
+      "estado": "no_disponible",
+      "evidencia": "E1"
+    },
+    "hazardous_substances": {
+      "estado": "dato",
+      "valor": [
+        "Ninguna declarada"
+      ],
+      "fuentes": [
+        {
+          "ref": "F13"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "cleanability": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "accessibility": {
+      "estado": "dato",
+      "valor": "Permite puertas corredizas de salida a nivel; manilla multipunto de fácil agarre; hojas pesadas exigen más esfuerzo",
+      "fuentes": [
+        {
+          "ref": "F13"
+        },
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Revisar el umbral del contramarco inferior para cumplir la Ley 7600 en puertas."
+    },
+    "healthcare_use": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "F13"
+        },
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "La FT-137 menciona hospitales; los rieles acumulan polvo, no apta para áreas limpias."
+    },
+    "maintenance_frequency": {
+      "estado": "dato",
+      "valor": 6,
+      "calificador": "=",
+      "unidad": "meses",
+      "fuentes": [
+        {
+          "ref": "F13"
+        },
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "maintenance_actions": {
+      "estado": "dato",
+      "valor": "Limpiar rieles y drenajes sin lubricantes; revisar rodines, multipunto, topes y silicón; lavar con agua y jabón neutro",
+      "fuentes": [
+        {
+          "ref": "F13"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "repairability": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "replaceability": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Hojas grandes y pesadas requieren dos personas."
+    },
+    "common_failures": {
+      "estado": "dato",
+      "valor": [
+        "Desgaste de rodines por peso",
+        "descuadre del multipunto",
+        "filtración en umbrales",
+        "corrosión en costa"
+      ],
+      "fuentes": [
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "failure_causes": {
+      "estado": "dato",
+      "valor": [
+        "Hojas sobredimensionadas para el rodín",
+        "drenajes obstruidos",
+        "sello deficiente",
+        "ambiente salino"
+      ],
+      "fuentes": [
+        {
+          "ref": "F13"
+        },
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "corrective_action": {
+      "estado": "dato",
+      "valor": "Cambiar rodines (o pasar a tándem), ajustar el multipunto, limpiar drenajes y resellar",
+      "fuentes": [
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "origin": {
+      "estado": "dato",
+      "valor": "Nacional",
+      "fuentes": [
+        {
+          "ref": "F7"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Lingote importado."
+    },
+    "transport_distance": {
+      "estado": "dato",
+      "valor_texto_original": "≈ 40 (GAM) – 250 (La Cruz)",
+      "fuentes": [
+        {
+          "ref": "F7"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Desde Grecia."
+    },
+    "recycled_content": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "F5"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Referencia de la extrusión en Norteamérica: 60 %."
+    },
+    "renewable": {
+      "estado": "dato",
+      "valor": "No",
+      "evidencia": "E1"
+    },
+    "reusable": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "recyclable": {
+      "estado": "dato",
+      "valor": "Sí",
+      "fuentes": [
+        {
+          "ref": "F5"
+        }
+      ],
+      "evidencia": "E4"
+    },
+    "installation_waste": {
+      "estado": "dato",
+      "valor": 2,
+      "fuentes": [
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "epd_available": {
+      "estado": "dato",
+      "valor": "No",
+      "fuentes": [
+        {
+          "ref": "F13"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "embodied_carbon": {
+      "estado": "dato",
+      "valor": 63.0,
+      "calificador": "≈",
+      "unidad": "kgCO2e/m²",
+      "fuentes": [
+        {
+          "ref": "R05"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Estimado: 7,4 kg de aluminio × 6,08 ≈ 45 + 15 kg de vidrio × ≈ 1,2 ≈ 18."
+    },
+    "embodied_carbon_modules": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "environmental_certification": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "F7"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "end_of_life": {
+      "estado": "dato",
+      "valor": [
+        "Reciclaje"
+      ],
+      "fuentes": [
+        {
+          "ref": "F5"
+        }
+      ],
+      "evidencia": "E4"
+    },
+    "cr_region": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "seismic_condition": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "tradition_type": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "cr_standard": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "plan_requirements": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "advantages": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "limitations": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "graphics": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "opening_type": {
+      "estado": "dato",
+      "valor": "Corrediza horizontal (OX, OXXO)",
+      "fuentes": [
+        {
+          "ref": "F13"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "frame_material": {
+      "estado": "dato",
+      "valor": "Aluminio AA6063-T5 sin rotura de puente térmico",
+      "fuentes": [
+        {
+          "ref": "F13"
+        },
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "air_tightness": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "F13"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "La FT-137 no publica ensayos y aclara que no garantiza desempeño."
+    },
+    "glass_type": {
+      "estado": "dato",
+      "valor": "Monolítico; templado FUERTEX®; laminado VILAX® 3+3",
+      "fuentes": [
+        {
+          "ref": "F13"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "glass_thickness": {
+      "estado": "dato",
+      "valor": 6.0,
+      "calificador": "=",
+      "unidad": "mm",
+      "fuentes": [
+        {
+          "ref": "F13"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Texto original: 6 (laminado 3+3 = 6,38)"
+    },
+    "chamber_count": {
+      "estado": "no_aplica",
+      "fuentes": [
+        {
+          "ref": "F13"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "shgc": {
+      "estado": "dato",
+      "valor": 0.82,
+      "calificador": "=",
+      "unidad": "0–1",
+      "fuentes": [
+        {
+          "ref": "F3"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Vidrio claro 6 mm."
+    },
+    "visible_transmittance": {
+      "estado": "dato",
+      "valor": 0.88,
+      "calificador": "=",
+      "unidad": "0–1",
+      "fuentes": [
+        {
+          "ref": "F3"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Vidrio claro 6 mm."
+    },
+    "water_tightness": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "F13"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "wind_load": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "F13"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "El vidrio se dimensiona con la velocidad de viento del sitio."
+    },
+    "effective_opening": {
+      "estado": "dato",
+      "valor": 50,
+      "calificador": "=",
+      "unidad": "%",
+      "fuentes": [
+        {
+          "ref": "F13"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "OX y OXXO abren el 50 %."
+    },
+    "solar_protection": {
+      "estado": "dato",
+      "valor": "No integrada",
+      "fuentes": [
+        {
+          "ref": "F13"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "safety_glass": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "F13"
+        },
+        {
+          "ref": "F20"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "FUERTEX® o VILAX®; la FT-137 cita INTE C312:2019 (apartados 7.2–7.4) para áreas de riesgo."
+    }
+  },
+  "fuentes": [
+    {
+      "id": "PROPIO",
+      "cita": "Elaboración propia del estudiante (TP1).",
+      "tipo": "elaboracion_propia"
+    },
+    {
+      "id": "F10",
+      "cita": "Investigación propia TP Ventanería (presentación, matriz de aplicabilidad y problemas comunes observados en Costa Rica)."
+    },
+    {
+      "id": "F11",
+      "cita": "VIDSA Costa Rica, Ventanas corredizas (sistema Tradicional). https://vidsa.cr/ventanas-corredizas/",
+      "url": "https://vidsa.cr/ventanas-corredizas/"
+    },
+    {
+      "id": "F13",
+      "cita": "Extralum. FT-137 Sistema de Ventanas y Portones Europa Clásica Corrediza V1, versión 4. https://www.extralum.com/wp-content/uploads/2024/08/FT-137-Sistema-Ventanas-y-Portones-Europa-Clasica-Corrediza-V1.pdf",
+      "url": "https://www.extralum.com/wp-content/uploads/2024/08/FT-137-Sistema-Ventanas-y-Portones-Europa-Clasica-Corrediza-V1.pdf"
+    },
+    {
+      "id": "F20",
+      "cita": "INTE C312:2019, vidrio de seguridad en áreas de riesgo (citada en las fichas Extralum FT-031 y FT-137)."
+    },
+    {
+      "id": "F3",
+      "cita": "Vitro Vidrio Arquitectónico. Ficha técnica Vidrio Claro (valores NFRC, LBNL Window 7.3). https://www.vitroglazings.com/media/vntko0ak/ficha-tecnica-claro.pdf",
+      "url": "https://www.vitroglazings.com/media/vntko0ak/ficha-tecnica-claro.pdf"
+    },
+    {
+      "id": "F4",
+      "cita": "Vitrocentro. \"Ventanas de aluminio: precio en Costa Rica\" (14-abr-2026). https://vitrocentro.com/consejos/ventanas-de-aluminio-precio/",
+      "url": "https://vitrocentro.com/consejos/ventanas-de-aluminio-precio/"
+    },
+    {
+      "id": "F5",
+      "cita": "Aluminum Association. EPD Extruded Aluminum (2022, válida a 2027). https://www.aluminum.org/sites/default/files/2022-10/104.1_EPD_AA_Extrusion.pdf",
+      "url": "https://www.aluminum.org/sites/default/files/2022-10/104.1_EPD_AA_Extrusion.pdf"
+    },
+    {
+      "id": "F6",
+      "cita": "Macrisal. Tabla de aislamiento acústico de vidrios (valores Rw). https://www.macrisal.com/articulos/tabla-aislamiento-acustico-vidrios/",
+      "url": "https://www.macrisal.com/articulos/tabla-aislamiento-acustico-vidrios/"
+    },
+    {
+      "id": "F7",
+      "cita": "Extralum. Conózcanos (planta en Parque Activa, Grecia, Alajuela). https://www.extralum.com/conozcanos/",
+      "url": "https://www.extralum.com/conozcanos/"
+    },
+    {
+      "id": "F8",
+      "cita": "ISO 10077-1 / CTE España, Catálogo de Elementos Constructivos: Uf de marco metálico sin rotura de puente térmico = 5,7 W/m²·K."
+    },
+    {
+      "id": "F9",
+      "cita": "EN 13501-1 y Decisión 96/603/CE: vidrio y aluminio clasificados A1 sin necesidad de ensayo."
+    },
+    {
+      "id": "R03",
+      "cita": "Literatura técnica"
+    },
+    {
+      "id": "R04",
+      "cita": "Cálculo con F3"
+    },
+    {
+      "id": "R05",
+      "cita": "Cálculo con F5"
+    },
+    {
+      "id": "R07",
+      "cita": "Cálculo con F13 y F3"
+    }
+  ]
+}

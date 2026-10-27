@@ -1,0 +1,1203 @@
+{
+  "schema_version": "1.0",
+  "meta": {
+    "id": "CUB-MET-02",
+    "componente": "CUB",
+    "autor": "Jorge Rodríguez",
+    "estado_revision": "borrador",
+    "fecha_actualizacion": "2026-10-26",
+    "id_legado": "CUB-MET-02",
+    "origen_migracion": {
+      "archivo": "TP1_Ficha_Jorge_Cubiertas_250927.xlsx",
+      "hoja": "Ficha CUB-MET-02"
+    }
+  },
+  "campos": {
+    "id": {
+      "estado": "dato",
+      "valor": "CUB-MET-02",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "name": {
+      "estado": "dato",
+      "valor": "Lámina ondulada de acero recubierto Zn-Al 55% sin pintar (tipo Galvalume/Zincalum; comercial en CR: Metalum)",
+      "fuentes": [
+        {
+          "ref": "R15"
+        }
+      ],
+      "nota": "Nombre genérico; 'Metalum' es la marca comercial de Metalco en Costa Rica. Galvalume es marca registrada; en el mercado se usan también 'zincalum', 'aluzinc'."
+    },
+    "record_type": {
+      "estado": "dato",
+      "valor": "producto",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ]
+    },
+    "component": {
+      "estado": "dato",
+      "valor": "CUB"
+    },
+    "subcategory": {
+      "estado": "dato",
+      "valor": "Lámina ondulada sin pintar",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ]
+    },
+    "country": {
+      "estado": "dato",
+      "valor": "CR",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ]
+    },
+    "manufacturer": {
+      "estado": "dato",
+      "valor": "Metalco S.A. (línea Metalum, planta en Colima de Tibás, San José)",
+      "fuentes": [
+        {
+          "ref": "R16"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Otros conformadores regionales ofrecen perfiles ondulados Zn-Al; no se verificaron fichas de otros fabricantes con presencia en CR."
+    },
+    "supplier": {
+      "estado": "dato",
+      "valor": "EPA | El Lagar | Novex | Distribuidores y ferreterías Metalco",
+      "fuentes": [
+        {
+          "ref": "R17"
+        },
+        {
+          "ref": "R18"
+        },
+        {
+          "ref": "R19"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Las ferreterías rotulan el producto como 'lámina galvanizada/hierro ondulada' aunque la línea Metalum es recubierta con Zn-Al 55%."
+    },
+    "description": {
+      "estado": "dato",
+      "valor": "Lámina de acero laminado en frío (full hard) con recubrimiento metálico de aleación 55% Al – 43,5% Zn – 1,5% Si (≈150 g/m²), conformada en perfil ondulado (sinusoidal) y sin pintura, que se fija con tornillos autoperforantes sobre clavadores metálicos. Es la cubierta más común y económica en vivienda y bodegas de Costa Rica; el recubrimiento Zn-Al ofrece mayor durabilidad y reflectancia que el galvanizado convencional.",
+      "fuentes": [
+        {
+          "ref": "R15"
+        },
+        {
+          "ref": "R20"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "keywords": {
+      "estado": "dato",
+      "valor": [
+        "lámina ondulada",
+        "zinc",
+        "zincalum",
+        "galvalume",
+        "aluzinc",
+        "Metalum",
+        "AZ150",
+        "ASTM A792",
+        "cubierta metálica",
+        "techo liviano"
+      ],
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ]
+    },
+    "main_material": {
+      "estado": "dato",
+      "valor": "Acero laminado en frío full hard recubierto con aleación Al-Zn 55% (≈150 g/m², equivalente a AZ150 según ASTM A792)",
+      "fuentes": [
+        {
+          "ref": "R15"
+        },
+        {
+          "ref": "R16"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Metalco declara 'Aluminio 55%, Zinc 43,5% y 1,5% Silicio' y 150 g/m²; la equivalencia con AZ150/ASTM A792 es interpretación propia (la ficha Metalco cita INTE C405/ASTM A653 para galvanizado)."
+    },
+    "secondary_materials": {
+      "estado": "dato",
+      "valor": [
+        "Aleación Al-Zn-Si (recubrimiento metálico)",
+        "Tornillos autoperforantes tipo Tek con arandela de neopreno/EPDM",
+        "Clavadores de acero galvanizado"
+      ],
+      "fuentes": [
+        {
+          "ref": "R20"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "layers": {
+      "estado": "dato",
+      "valor": [
+        "Lámina ondulada Zn-Al 55% sin pintar (exterior)",
+        "Clavadores/largueros metálicos (RT o perfil C galvanizado)",
+        "Estructura principal de techo (cerchas o vigas)",
+        "(Opcional) aislante/barrera bajo lámina y cielo raso"
+      ],
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Configuración típica de techo liviano en CR; el aislante no forma parte del producto."
+    },
+    "total_thickness": {
+      "estado": "dato",
+      "min": 0.32,
+      "max": 0.46,
+      "calificador": "rango",
+      "unidad": "mm",
+      "fuentes": [
+        {
+          "ref": "R20"
+        },
+        {
+          "ref": "R17"
+        },
+        {
+          "ref": "R21"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Espesor de la lámina: cal. 28 ≈0,32–0,36 mm; cal. 26 ≈0,45–0,46 mm. La altura de onda (peralte) es del orden de 18 mm según ficha Metalco (lectura de tabla poco clara)."
+    },
+    "commercial_dimensions": {
+      "estado": "dato",
+      "valor": "Ancho total 0,81 m (efectivo ≈0,72 m); largos comerciales 1,83 / 2,44 / 3,05 / 3,66 m; a pedido desde 1,83 m hasta 12 m",
+      "fuentes": [
+        {
+          "ref": "R20"
+        },
+        {
+          "ref": "R17"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Metalco también fabrica anchos de hasta 1,09 m (efectivo 0,99 m) según calibre."
+    },
+    "density": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "surface_mass": {
+      "estado": "dato",
+      "valor_texto_original": "≈3,9–4,0 (cal. 26); menor en cal. 28",
+      "fuentes": [
+        {
+          "ref": "R20"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Derivado de la tabla de Metalco (peso por unidad, p.ej. 4,31 kg por lámina de 1,09 × 1,00 m cal. 26); la extracción de la tabla es poco legible, verificar con ficha impresa. La DAP usa 8,91 kg de producto como unidad declarada."
+    },
+    "surface_finish": {
+      "estado": "dato",
+      "valor": "Metálico natural (sin pintar), brillo plateado con patrón de flor (spangle) característico del Zn-Al; se opaca con el envejecimiento",
+      "fuentes": [
+        {
+          "ref": "R15"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Descripción de apariencia: elaboración propia a partir de fabricante."
+    },
+    "support_system": {
+      "estado": "dato",
+      "valor": "Clavadores (largueros) metálicos galvanizados sobre cerchas o vigas; separación según calibre y tabla del fabricante (del orden de 0,8–1,2 m)",
+      "fuentes": [
+        {
+          "ref": "R20"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "La ficha Metalco indica que 'soporta una carga de 70 kg/m² según distancia entre clavadores indicada'; valores de separación leídos de tabla con extracción poco fiable."
+    },
+    "fastening": {
+      "estado": "dato",
+      "valor": "Tornillos autoperforantes tipo Tek A14 × 2,5\" o × 5\" con arandela de neopreno, colocados solo en crestas; mínimo 3,2 tornillos/m²",
+      "fuentes": [
+        {
+          "ref": "R20"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "U.S. Steel recomienda fijaciones con vida útil equivalente al recubrimiento Zn-Al (evitar tornillos de menor protección)."
+    },
+    "joints_seals": {
+      "estado": "dato",
+      "valor": "Traslapes lateral y longitudinal; arandelas de neopreno/EPDM en tornillos; cumbreras, botaguas y tapajuntas; sello/cinta en traslapes en pendientes bajas (opcional)",
+      "fuentes": [
+        {
+          "ref": "R20"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "installation_sequence": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "tools_labor": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "critical_point": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "recommended_uses": {
+      "estado": "dato",
+      "valor": [
+        "Cubierta de vivienda",
+        "Bodegas y naves industriales",
+        "Cubiertas agrícolas",
+        "Aleros, cocheras y techos provisionales",
+        "Cerramientos laterales"
+      ],
+      "fuentes": [
+        {
+          "ref": "R15"
+        },
+        {
+          "ref": "R21"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "building_types": {
+      "estado": "dato",
+      "valor": [
+        "Vivienda",
+        "Comercial",
+        "Industrial",
+        "Institucional"
+      ],
+      "fuentes": [
+        {
+          "ref": "R15"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Metalco menciona uso residencial e institucional; en salud solo con cielo raso y aislamiento."
+    },
+    "location": {
+      "estado": "dato",
+      "valor": "Exterior",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "climates": {
+      "estado": "dato",
+      "valor": "Cálido húmedo | Cálido seco | Templado de altura | Lluvioso (con pendiente y traslapes adecuados)",
+      "fuentes": [
+        {
+          "ref": "R22"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "No recomendado sin precauciones en ambiente marino severo (ver marine_environment)."
+    },
+    "imn_subregions": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "compatibility": {
+      "estado": "dato",
+      "valor": "Compatible con clavadores de acero galvanizado o Zn-Al y tornillos con recubrimiento equivalente. Evitar contacto o escorrentía de plomo, cobre, grafito, cemento/concreto húmedo y madera tratada; evitar agua que escurra desde cubiertas de cobre.",
+      "fuentes": [
+        {
+          "ref": "R22"
+        }
+      ],
+      "evidencia": "E3",
+      "nota": "U.S. Steel: 'Contact with lead, graphite, cement or copper… includes treated lumber'."
+    },
+    "use_restrictions": {
+      "estado": "dato",
+      "valor": "No apto sin precauciones en ambiente marino moderado/severo; no usar en pendientes bajas (<20% aprox.); evitar contacto con materiales incompatibles; sin aislamiento genera ruido de lluvia, ganancia térmica y condensación; no cortar con disco abrasivo ni sobre el techo; almacenar seco y ventilado (mancha de almacenamiento); diseñar fijaciones para succión de viento según Lineamientos CFIA.",
+      "fuentes": [
+        {
+          "ref": "R20"
+        },
+        {
+          "ref": "R22"
+        },
+        {
+          "ref": "R23"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "labor_specialization": {
+      "estado": "dato",
+      "valor": 2,
+      "fuentes": [
+        {
+          "ref": "R20"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Oficio de techador común en CR; requiere conocimiento básico de traslapes, pendientes y fijación en cresta."
+    },
+    "installation_complexity": {
+      "estado": "dato",
+      "valor": 2,
+      "fuentes": [
+        {
+          "ref": "R20"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Láminas livianas, corte con tijera/cizalla, fijación con atornillador; complejidad aumenta en limahoyas y encuentros con muros."
+    },
+    "national_availability": {
+      "estado": "dato",
+      "valor": 5,
+      "fuentes": [
+        {
+          "ref": "R17"
+        },
+        {
+          "ref": "R18"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Fabricación nacional (Metalco) y venta en ferreterías de todo el país."
+    },
+    "installation_time": {
+      "estado": "dato",
+      "valor": 1,
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Láminas de gran formato (hasta 12 m) y fijación rápida; entre las cubiertas de menor tiempo de instalación."
+    },
+    "relative_cost": {
+      "estado": "dato",
+      "valor": 1,
+      "fuentes": [
+        {
+          "ref": "R17"
+        },
+        {
+          "ref": "R21"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Es la cubierta de menor costo por m² en el mercado costarricense según precios de ferretería consultados."
+    },
+    "price_range": {
+      "estado": "dato",
+      "min": 3080.0,
+      "max": 4500.0,
+      "calificador": "rango",
+      "unidad": "CRC/m²",
+      "fuentes": [
+        {
+          "ref": "R17"
+        },
+        {
+          "ref": "R21"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "EPA (consultado sep-2026): ₡4 565 (cal. 28, 0,36 mm) y ₡6 675 (cal. 26, 0,46 mm) por lámina de 0,81 × 1,83 m (1,48 m² brutos). ≈₡3 460–5 070/m² sobre ancho útil 0,72 m. Solo lámina: sin clavadores, tornillos ni mano de obra."
+    },
+    "mechanical_resistance": {
+      "estado": "dato",
+      "valor": "Acero full hard; carga admisible 70 kg/m² con la separación de clavadores indicada por el fabricante",
+      "fuentes": [
+        {
+          "ref": "R20"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "impact_resistance": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "R20"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Sin clase ensayada. El fabricante indica que el acero full hard reduce abolladuras; lámina delgada susceptible a abolladura por tránsito o granizo."
+    },
+    "abrasion_resistance": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Sin dato ensayado; el recubrimiento metálico puede rayarse al arrastrar láminas o por tránsito."
+    },
+    "durability_years": {
+      "estado": "dato",
+      "min": 20.0,
+      "max": 30.0,
+      "calificador": "rango",
+      "unidad": "años",
+      "fuentes": [
+        {
+          "ref": "R22"
+        },
+        {
+          "ref": "R15"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Ensayos de exposición U.S. Steel para Galvalume AZ55 sin pintar: ~30 años rural, ~20 años industrial, ~10 años marino moderado, ~5 años marino severo (hasta 5% herrumbre roja). Metalco declara hasta el doble de durabilidad que el galvanizado estándar."
+    },
+    "water_absorption": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Material metálico no poroso; no se aplica ensayo de absorción."
+    },
+    "moisture_resistance": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "R22"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Impermeable; el recubrimiento Zn-Al resiste bien la humedad, pero es sensible a humedad atrapada entre láminas apiladas (mancha de almacenamiento) y a encharcamientos por baja pendiente."
+    },
+    "condensation_risk": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Lámina delgada de alta conductividad sin barrera ni aislamiento en clima cálido húmedo: condensación en la cara inferior frecuente en noches frías y zonas altas. La ficha Metalco advierte ventilación para evitar condensación en almacenamiento."
+    },
+    "corrosion_resistance": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "R22"
+        },
+        {
+          "ref": "R15"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Superior al galvanizado (≈2×); baja a 2 en ambiente marino severo y en bordes cortados/perforaciones."
+    },
+    "uv_resistance": {
+      "estado": "dato",
+      "valor": 5,
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Recubrimiento metálico sin componentes orgánicos: no se degrada por UV (sí pierde reflectancia por oxidación/ensuciamiento)."
+    },
+    "marine_environment": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "R22"
+        }
+      ],
+      "evidencia": "E3",
+      "nota": "U.S. Steel: ~10 años en marino moderado y ~5 años en marino severo; evitar franja costera con brisa salina o usar versión pintada/mayor recubrimiento."
+    },
+    "vapor_permeability": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "thermal_conductivity": {
+      "estado": "dato",
+      "valor": 50.0,
+      "calificador": "≈",
+      "unidad": "W/(m·K)",
+      "fuentes": [
+        {
+          "ref": "R24"
+        }
+      ],
+      "evidencia": "E3",
+      "nota": "Valor del acero base; la lámina no aporta aislamiento térmico."
+    },
+    "specific_heat": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "thermal_resistance": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Resistencia propia despreciable (0,4 mm de acero); el R del techo depende de cámaras de aire, aislante y cielo raso."
+    },
+    "u_value": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Depende del sistema completo (aislante, cámara, cielo); no hay valor publicado para la lámina sola."
+    },
+    "solar_reflectance": {
+      "estado": "dato",
+      "valor_texto_original": "0,68 inicial; 0,55 envejecida",
+      "fuentes": [
+        {
+          "ref": "R25"
+        },
+        {
+          "ref": "R26"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Otra fuente (LBNL vía The Roofing Brief) reporta 0,75 inicial y 0,50 tras 3 años. Emitancia térmica muy baja (≈0,05 inicial), lo que limita su desempeño como 'techo frío'."
+    },
+    "thermal_emittance": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "sri": {
+      "estado": "dato",
+      "valor_texto_original": "68 inicial; 26 envejecido (3 años)",
+      "fuentes": [
+        {
+          "ref": "R26"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Valores LBNL (2009) citados por fuente secundaria; SRI según ASTM E1980. No se encontró SRI de Metalum en ficha del fabricante."
+    },
+    "sound_insulation": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Sin valor publicado para la lámina sola; aislamiento acústico muy bajo por su masa (~4 kg/m²)."
+    },
+    "sound_absorption": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Superficie metálica lisa: absorción prácticamente nula (sin ensayo específico)."
+    },
+    "fire_reaction": {
+      "estado": "dato",
+      "valor": "A1 (EN 13501-1, sin necesidad de ensayo)",
+      "fuentes": [
+        {
+          "ref": "R27"
+        },
+        {
+          "ref": "R15"
+        }
+      ],
+      "evidencia": "E3",
+      "nota": "La Decisión 96/603/CE incluye 'hierro, acero y acero inoxidable, no en forma finamente dividida' como A1; recubrimiento metálico inorgánico. Metalco declara que 'no propaga fuego'."
+    },
+    "fire_resistance": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Lámina sola no aporta resistencia al fuego; depende del sistema (cielo, estructura)."
+    },
+    "smoke_class": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "La clase A1 no lleva subclase de humo; material inorgánico sin generación relevante de humo."
+    },
+    "voc_emissions": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Producto sin pintura ni recubrimiento orgánico; no se esperan emisiones de COV, pero no hay dato medido."
+    },
+    "hazardous_substances": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "No se encontró hoja de seguridad; el recubrimiento es Al-Zn-Si. Cortar con disco abrasivo genera chispas y partículas (desaconsejado por el fabricante)."
+    },
+    "cleanability": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Superficie lisa que se lava con agua; el perfil ondulado acumula suciedad y la limpieza exige acceso sobre la cubierta."
+    },
+    "accessibility": {
+      "estado": "dato",
+      "valor": "Sin contribución directa a la accesibilidad (elemento de cubierta)",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "healthcare_use": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Solo como cubierta exterior con cielo raso cerrado, aislamiento térmico/acústico y control de condensación; no como superficie interior expuesta."
+    },
+    "maintenance_frequency": {
+      "estado": "dato",
+      "valor": 12,
+      "calificador": "=",
+      "unidad": "meses",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Inspección anual recomendada y tras tormentas fuertes; limpieza de canoas antes de la estación lluviosa. En zona costera, cada 6 meses."
+    },
+    "maintenance_actions": {
+      "estado": "dato",
+      "valor": "Inspección visual de tornillos, arandelas y traslapes; reapriete o sustitución de tornillos; retiro de hojas y escombros; lavado con agua donde no llega la lluvia (aleros); sellado puntual de perforaciones; vigilancia de bordes cortados y zonas de contacto con otros metales.",
+      "fuentes": [
+        {
+          "ref": "R22"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "repairability": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Perforaciones y goteras se sellan fácilmente; la corrosión avanzada obliga a sustituir láminas; reparaciones con pintura alteran el aspecto."
+    },
+    "replaceability": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Láminas individuales se desatornillan y reemplazan; hay que liberar traslapes vecinos."
+    },
+    "common_failures": {
+      "estado": "dato",
+      "valor": [
+        "Filtraciones en tornillos y traslapes",
+        "Corrosión en bordes cortados y perforaciones",
+        "Mancha de almacenamiento (óxido blanco/oscuro)",
+        "Corrosión por contacto con materiales incompatibles",
+        "Abolladuras",
+        "Levantamiento por viento",
+        "Condensación bajo la lámina"
+      ],
+      "fuentes": [
+        {
+          "ref": "R22"
+        },
+        {
+          "ref": "R20"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "failure_causes": {
+      "estado": "dato",
+      "valor": [
+        "Tornillos mal colocados (en valle) o arandelas degradadas",
+        "Pendiente o traslapes insuficientes",
+        "Almacenaje húmedo o apilado mojado",
+        "Contacto con cobre, plomo, concreto o madera tratada",
+        "Tránsito sobre la lámina fuera de apoyos",
+        "Separación excesiva de clavadores o fijaciones insuficientes",
+        "Ausencia de barrera y ventilación"
+      ],
+      "fuentes": [
+        {
+          "ref": "R22"
+        },
+        {
+          "ref": "R20"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "corrective_action": {
+      "estado": "dato",
+      "valor": "Reemplazar tornillos/arandelas y sellar perforaciones con sellador compatible; sustituir láminas corroídas o dañadas; separar materiales incompatibles con cintas o barreras; aumentar fijaciones en bordes y esquinas según diseño por viento; agregar barrera/aislante y ventilación para condensación.",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "origin": {
+      "estado": "dato",
+      "valor": "Nacional",
+      "fuentes": [
+        {
+          "ref": "R16"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Conformado en Costa Rica (Metalco, Tibás); la DAP no declara la procedencia de la bobina de acero laminado en frío, que en la práctica es importada."
+    },
+    "transport_distance": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Depende de la ubicación de obra respecto a San José; la DAP no reporta distancias."
+    },
+    "recycled_content": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "R16"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "La DAP de Metalco no declara el contenido reciclado del acero base."
+    },
+    "renewable": {
+      "estado": "dato",
+      "valor": "No",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "reusable": {
+      "estado": "dato",
+      "valor": "Sí",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Láminas desmontables y reutilizables en usos secundarios, con perforaciones existentes."
+    },
+    "recyclable": {
+      "estado": "dato",
+      "valor": "Sí",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Acero 100% reciclable como chatarra ferrosa."
+    },
+    "installation_waste": {
+      "estado": "dato",
+      "valor": 2,
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Láminas cortadas a la medida en fábrica (hasta 12 m) reducen desperdicio; recortes en limas y encuentros son reciclables."
+    },
+    "epd_available": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "R16"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Metalco publicó una DAP de 'cuna a puerta' (EN 15804) para Cubierta Ondulada Metalum, con verificación interna (no por tercero) y validez hasta marzo 2025."
+    },
+    "embodied_carbon": {
+      "estado": "dato",
+      "valor": 3.44,
+      "calificador": "=",
+      "unidad": "kgCO2e/kg",
+      "fuentes": [
+        {
+          "ref": "R16"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "DAP Metalco: 30,61 kgCO₂e por unidad declarada de 8,91 kg de producto (A1–A3) = 3,44 kgCO₂e/kg. Con ≈4 kg/m² resultaría ≈14 kgCO₂e/m² (cálculo propio). DAP con verificación interna, vencida en mar-2025."
+    },
+    "embodied_carbon_modules": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "environmental_certification": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "R15"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Metalco indica que contribuye a puntos LEED, sin certificación ambiental de producto verificada por tercero."
+    },
+    "end_of_life": {
+      "estado": "dato",
+      "valor": [
+        "Reciclaje",
+        "Reutilización"
+      ],
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "cr_region": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "seismic_condition": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "tradition_type": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "cr_standard": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "plan_requirements": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "advantages": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "limitations": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "graphics": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "minimum_slope": {
+      "estado": "dato",
+      "valor": 20,
+      "calificador": "=",
+      "unidad": "%",
+      "fuentes": [
+        {
+          "ref": "R23"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Valor de ficha de lámina ondulada zincalum AZ150 (Villalba, Chile); no se encontró pendiente mínima en la ficha de Metalco. Verificar con el fabricante local."
+    },
+    "maximum_length": {
+      "estado": "dato",
+      "valor": 12,
+      "calificador": "=",
+      "unidad": "m",
+      "fuentes": [
+        {
+          "ref": "R20"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Largo máximo de fabricación; en tramos largos considerar dilatación térmica y manipulación."
+    },
+    "overlap_system": {
+      "estado": "dato",
+      "valor": "Traslape lateral de al menos una onda (93 mm en perfil de referencia) y traslape longitudinal en el sentido de la pendiente; instalar de canoa a cumbrera (de abajo hacia arriba); tornillos solo en crestas",
+      "fuentes": [
+        {
+          "ref": "R20"
+        },
+        {
+          "ref": "R23"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "La ficha Metalco no especifica dimensiones de traslape longitudinal; indica que el sello de trazabilidad debe quedar oculto en el traslape."
+    },
+    "waterproofing": {
+      "estado": "dato",
+      "valor": [
+        "Estanqueidad por pendiente y traslape",
+        "Arandelas de neopreno/EPDM en fijaciones",
+        "Sellos o cintas en traslapes (opcional)"
+      ],
+      "fuentes": [
+        {
+          "ref": "R20"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "wind_uplift": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "R28"
+        }
+      ],
+      "evidencia": "E3",
+      "nota": "No hay ensayo UL 580/FM 4471 publicado para el perfil. La succión se calcula por proyecto con los Lineamientos CFIA (2023): Vb mínima 90 km/h, 5 zonas de viento; mayores presiones en bordes, esquinas y aleros."
+    },
+    "rain_noise": {
+      "estado": "dato",
+      "valor": 74.0,
+      "calificador": "≈",
+      "unidad": "dB (LIA)",
+      "fuentes": [
+        {
+          "ref": "R29"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Lámina corrugada de acero 0,42 mm sin tratamiento: LIA 74,3 dB en ensayo ISO 10140-5 con lluvia intensa (40 mm/h). Sin aislamiento, ruido muy alto (5 en escala 1–5)."
+    },
+    "walkability": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "No transitable en uso normal; para mantenimiento pisar solo sobre los clavadores o usar tablones de reparto."
+    },
+    "insulation_compatibility": {
+      "estado": "dato",
+      "valor": [
+        "Aislante reflectivo (foil/burbuja) bajo lámina",
+        "Manta de fibra de vidrio con foil",
+        "Cielo raso con aislante",
+        "Espuma aplicada en cara inferior"
+      ],
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Compatible con aislantes colocados sobre o entre clavadores; evitar materiales que retengan humedad en contacto con la lámina."
+    },
+    "coating_life": {
+      "estado": "dato",
+      "min": 20.0,
+      "max": 30.0,
+      "calificador": "rango",
+      "unidad": "años",
+      "fuentes": [
+        {
+          "ref": "R22"
+        }
+      ],
+      "evidencia": "E3",
+      "nota": "Recubrimiento Zn-Al ≈150 g/m²: ~30 años rural, ~20 industrial, ~10 marino moderado, ~5 marino severo según U.S. Steel."
+    },
+    "roof_accessories": {
+      "estado": "dato",
+      "valor": [
+        "Cumbrera",
+        "Botaguas y tapajuntas",
+        "Tornillos Tek con arandela",
+        "Canoas y bajantes",
+        "Limahoyas",
+        "Cinta o sellador para traslapes"
+      ],
+      "fuentes": [
+        {
+          "ref": "R20"
+        }
+      ],
+      "evidencia": "E2"
+    }
+  },
+  "fuentes": [
+    {
+      "id": "PROPIO",
+      "cita": "Elaboración propia del estudiante (TP1).",
+      "tipo": "elaboracion_propia"
+    },
+    {
+      "id": "R15",
+      "cita": "Metalco, página Metalum https://metalco.net/metalum/",
+      "url": "https://metalco.net/metalum/"
+    },
+    {
+      "id": "R16",
+      "cita": "Metalco, DAP Cubierta Ondulada Metalum (2020) https://metalco.net/wp-content/uploads/2022/09/DAP-Ondulada-Metalum-080922-2.pdf",
+      "url": "https://metalco.net/wp-content/uploads/2022/09/DAP-Ondulada-Metalum-080922-2.pdf"
+    },
+    {
+      "id": "R17",
+      "cita": "EPA CR, lámina ondulada #28 0,36 mm 81x183 Metalum https://cr.epaenlinea.com/lamina-techo-ondulada-hierro-28-036-mm-81-x-183-cm-metalum-metalco.html",
+      "url": "https://cr.epaenlinea.com/lamina-techo-ondulada-hierro-28-036-mm-81-x-183-cm-metalum-metalco.html"
+    },
+    {
+      "id": "R18",
+      "cita": "Novex CR, lámina ondulada cal. 28 0,36 mm (cobertura metalum) https://novex.cr/producto/159445/Lamina-galvanizada-ondulada-calibre-28-036-mmx081x244-m.html",
+      "url": "https://novex.cr/producto/159445/Lamina-galvanizada-ondulada-calibre-28-036-mmx081x244-m.html"
+    },
+    {
+      "id": "R19",
+      "cita": "El Lagar https://www.ellagar.com/ECOMMERCE/DetalleArticulo/1049612/lamina-galv-ondulada-28-032-mm-081x366-m-metalum-metalco",
+      "url": "https://www.ellagar.com/ECOMMERCE/DetalleArticulo/1049612/lamina-galv-ondulada-28-032-mm-081x366-m-metalum-metalco"
+    },
+    {
+      "id": "R20",
+      "cita": "Metalco, Ficha técnica Cubierta Ondulada (2024) https://metalco.net/wp-content/uploads/2024/02/FT_Cubierta-Ondulada_130224.pdf",
+      "url": "https://metalco.net/wp-content/uploads/2024/02/FT_Cubierta-Ondulada_130224.pdf"
+    },
+    {
+      "id": "R21",
+      "cita": "EPA CR, lámina ondulada #26 0,46 mm 81x183 Metalum https://cr.epaenlinea.com/lamina-techo-ondulada-hierro-26-046-mm-81-x-183-cm-metalum-metalco.html",
+      "url": "https://cr.epaenlinea.com/lamina-techo-ondulada-hierro-26-046-mm-81-x-183-cm-metalum-metalco.html"
+    },
+    {
+      "id": "R22",
+      "cita": "U.S. Steel, Technical Bulletin GALVALUME Sheet Steel https://www.ussteel.com/documents/40705/43746/GALVALUME+Sheet+Steel.pdf/88b18f1e-6472-d218-e4f1-0b4e35a22000?t=1604476478714",
+      "url": "https://www.ussteel.com/documents/40705/43746/GALVALUME+Sheet+Steel.pdf/88b18f1e-6472-d218-e4f1-0b4e35a22000?t=1604476478714"
+    },
+    {
+      "id": "R23",
+      "cita": "Villalba (Chile), Ficha Onda 1/2 zincalum AZ150 https://www.villalba.cl/wp-content/uploads/2017/10/Ficha-Onda-1_2.pdf",
+      "url": "https://www.villalba.cl/wp-content/uploads/2017/10/Ficha-Onda-1_2.pdf"
+    },
+    {
+      "id": "R24",
+      "cita": "EN ISO 10456 (valor tabulado para acero)"
+    },
+    {
+      "id": "R25",
+      "cita": "Professional Roofing, 'Metal roofing is cool' (2006) https://www.professionalroofing.net/Articles/Metal-roofing-is-cool--09-01-2006/924",
+      "url": "https://www.professionalroofing.net/Articles/Metal-roofing-is-cool--09-01-2006/924"
+    },
+    {
+      "id": "R26",
+      "cita": "The Roofing Brief, Solar Reflectance & SRI Reference (cita LBNL 2009) https://theroofingbrief.com/roofing-solar-reflectance-sri-reference-2026/",
+      "url": "https://theroofingbrief.com/roofing-solar-reflectance-sri-reference-2026/"
+    },
+    {
+      "id": "R27",
+      "cita": "Decisión 96/603/CE (lista clase A1 sin ensayo) https://www.legislation.gov.uk/eudn/1996/603/adopted",
+      "url": "https://www.legislation.gov.uk/eudn/1996/603/adopted"
+    },
+    {
+      "id": "R28",
+      "cita": "CFIA, Lineamientos para el diseño por viento de edificaciones en CR (2023) https://cfia.or.cr/site/wp-content/uploads/2024/pdf/descargas/reglamentos/ejercicio/lineamientos-tecnicos-para-el-calculo-y-la-aplicacion-de-las-fuerzas-de-viento-en-el-disenio-y-construccion-de-edificaciones-en-costa-rica.pdf",
+      "url": "https://cfia.or.cr/site/wp-content/uploads/2024/pdf/descargas/reglamentos/ejercicio/lineamientos-tecnicos-para-el-calculo-y-la-aplicacion-de-las-fuerzas-de-viento-en-el-disenio-y-construccion-de-edificaciones-en-costa-rica.pdf"
+    },
+    {
+      "id": "R29",
+      "cita": "Acoustics Australia AAS2018 p32, ruido de lluvia en lámina perfilada https://acoustics.asn.au/conference_proceedings/AAS2018/papers/p32.pdf",
+      "url": "https://acoustics.asn.au/conference_proceedings/AAS2018/papers/p32.pdf"
+    }
+  ]
+}

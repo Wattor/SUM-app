@@ -1,0 +1,808 @@
+{
+  "schema_version": "1.0",
+  "meta": {
+    "id": "CIM-PIL-05",
+    "componente": "CIM",
+    "autor": "Michel Pardo Jara",
+    "estado_revision": "borrador",
+    "fecha_actualizacion": "2026-10-26",
+    "id_legado": "CR-CIM-05",
+    "origen_migracion": {
+      "archivo": "TP1 Fichas Cimentaciones Pardo.xlsx",
+      "hoja": "Ficha S5"
+    }
+  },
+  "campos": {
+    "id": {
+      "estado": "dato",
+      "valor": "CIM-PIL-05",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "name": {
+      "estado": "dato",
+      "valor": "Pilotes cortos y micropilotes",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§4.1.1"
+        }
+      ],
+      "evidencia": "E3",
+      "nota": "Nombre genérico: sistema colado en sitio, sin marca comercial."
+    },
+    "record_type": {
+      "estado": "dato",
+      "valor": "sistema"
+    },
+    "component": {
+      "estado": "dato",
+      "valor": "CIM"
+    },
+    "subcategory": {
+      "estado": "dato",
+      "valor": "Profunda (Df/B > 4)",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§4.1.1 y §5.1"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "country": {
+      "estado": "dato",
+      "valor": "CR"
+    },
+    "manufacturer": {
+      "estado": "no_aplica",
+      "nota": "Sistema genérico colado en sitio; no hay fabricante único."
+    },
+    "supplier": {
+      "estado": "no_disponible",
+      "nota": "PENDIENTE: identificar al menos dos proveedores con precio verificable y fecha de consulta."
+    },
+    "description": {
+      "estado": "dato",
+      "valor": "Elementos que transmiten la carga a estratos profundos por fricción, punta o ambas. En terreno blando arcilloso de vivienda se admiten pilotes cortos preexcavados o micropilotes.",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§5.1 y §5.11.6"
+        }
+      ],
+      "evidencia": "E3",
+      "nota": "El Código indica que la mayoría trabaja básicamente por fricción."
+    },
+    "keywords": {
+      "estado": "dato",
+      "valor": [
+        "pilote corto",
+        "micropilote",
+        "preexcavado",
+        "fricción negativa",
+        "licuación",
+        "viga de fundación"
+      ]
+    },
+    "main_material": {
+      "estado": "dato",
+      "valor": "Concreto colado en sitio (pilote) o lechada/mortero de cemento (micropilote)",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§5.2.1 y §5.11.6"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "secondary_materials": {
+      "estado": "dato",
+      "valor": [
+        "Acero corrugado con aros o helicoidal",
+        "en micropilote varilla (usualmente #6 a #9) o tubo de acero",
+        "cabezales y viga de fundación"
+      ],
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§5.2.1 y §5.11.6"
+        },
+        {
+          "ref": "CSCR",
+          "loc": "§13.10.2"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Bitumen en el tramo con fricción negativa, con reserva (CC §5.11.5)."
+    },
+    "layers": {
+      "estado": "dato",
+      "valor": [
+        "1 Estrato portante · 2 Fuste con armadura · 3 Cabezal · 4 Viga de fundación que une cabezas formando cuadros"
+      ],
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§5.2"
+        },
+        {
+          "ref": "CSCR",
+          "loc": "§13.10.2"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "total_thickness": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§5.11.6"
+        }
+      ],
+      "nota": "Elemento lineal: longitud 2,0–5,0 m en vivienda."
+    },
+    "commercial_dimensions": {
+      "estado": "dato",
+      "valor": "Pilote de vivienda Ø 20–30 cm, 2,0–5,0 m · micropilote Ø 0,10–0,20 m · pilote general Ø 0,25–0,60 m",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§5.11.6, §5.2.1 y §5.2.2"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "density": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "surface_mass": {
+      "estado": "no_disponible",
+      "nota": "Depende de diámetro y longitud de diseño."
+    },
+    "surface_finish": {
+      "estado": "no_aplica",
+      "nota": "Elemento enterrado."
+    },
+    "support_system": {
+      "estado": "dato",
+      "valor": "Estrato portante por fricción y punta. El suelo blando no aporta soporte sino carga: verificar fricción negativa, que puede igualar o superar la carga estructural.",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§4.2.10 y §5.11.5"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "fastening": {
+      "estado": "dato",
+      "valor": "Viga de fundación sobre cabezales, diseñada sin reacción del terreno, con refuerzo para momentos positivos y negativos y aros de confinamiento cerca de apoyos.",
+      "fuentes": [
+        {
+          "ref": "CSCR",
+          "loc": "§13.10.2 y §13.7"
+        }
+      ],
+      "evidencia": "E3",
+      "nota": "En suelo expansivo la viga debe quedar separada del terreno (CC §4.4.1.b)."
+    },
+    "joints_seals": {
+      "estado": "dato",
+      "valor": "Recubrimiento bituminoso en el tramo con fricción negativa, con reserva y comprobado con prueba de carga.",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§5.11.5"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "installation_sequence": {
+      "estado": "dato",
+      "valor": "Perforación · descenso del refuerzo · bombeo de concreto o inyección de lechada · descabezado · cabezales y vigas.",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§5.2.1 y §5.2.2"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "tools_labor": {
+      "estado": "no_disponible",
+      "nota": "PENDIENTE: equipo de perforación o hinca y presencia de ingeniería geotécnica en obra."
+    },
+    "critical_point": {
+      "estado": "dato",
+      "valor": "En suelo tixotrópico la vibración de la hinca o del SPT altera la lectura de resistencia.",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§1.2.5"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "recommended_uses": {
+      "estado": "dato",
+      "valor": [
+        "Terreno blando arcilloso, rellenos, freático alto, litoral",
+        "única opción en terreno licuable"
+      ],
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§4.4.3.c y §5.11.6"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "building_types": {
+      "estado": "dato",
+      "valor": [
+        "Vivienda",
+        "Comercial",
+        "Institucional",
+        "Salud",
+        "Industrial"
+      ],
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§5.11.6"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "location": {
+      "estado": "dato",
+      "valor": "Exterior",
+      "nota": "Bajo nivel de terreno."
+    },
+    "climates": {
+      "estado": "dato",
+      "valor": "Todas las zonas del país",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "cap. 1"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "La cimentación responde al suelo, no al clima; el clima actúa a través del suelo: alta temperatura y precipitación sobre material volcánico producen los suelos problemáticos (CC §1.2)."
+    },
+    "imn_subregions": {
+      "estado": "dato",
+      "valor": [
+        "TODAS"
+      ],
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "cap. 1"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Ver campo climates."
+    },
+    "compatibility": {
+      "estado": "dato",
+      "valor": "Compatible con cualquier superestructura mediante cabezales y viga de fundación.",
+      "fuentes": [
+        {
+          "ref": "CSCR",
+          "loc": "§13.7 y §13.10.2"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "use_restrictions": {
+      "estado": "dato",
+      "valor": "Fuera del diseño simplificado: exige siempre diseño estructural y geotécnico. En licuable, estabilidad por capas no licuables dentro del fuste.",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§4.4.3.c"
+        },
+        {
+          "ref": "CSCR",
+          "loc": "§13.7"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "labor_specialization": {
+      "estado": "dato",
+      "valor": 5,
+      "evidencia": "E1",
+      "nota": "Criterio del autor: equipo y geotecnia en obra."
+    },
+    "installation_complexity": {
+      "estado": "dato",
+      "valor": 5,
+      "evidencia": "E1",
+      "nota": "Criterio del autor."
+    },
+    "national_availability": {
+      "estado": "dato",
+      "valor": 2,
+      "evidencia": "E1",
+      "nota": "Disponibilidad regional del equipo fuera del Valle Central: pendiente."
+    },
+    "installation_time": {
+      "estado": "no_disponible",
+      "nota": "PENDIENTE: rendimientos con fuente costarricense."
+    },
+    "relative_cost": {
+      "estado": "dato",
+      "valor": 5,
+      "evidencia": "E1",
+      "nota": "Muy alto frente a las superficiales. Pendiente. Compararlo con S3 en el mismo terreno blando."
+    },
+    "price_range": {
+      "estado": "no_disponible",
+      "nota": "PENDIENTE: ₡/ml de pilote + cabezales y viga."
+    },
+    "mechanical_resistance": {
+      "estado": "dato",
+      "valor": "Capacidad por fricción y punta (CC §5.4); verificar pandeo en depósitos suaves",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§5.4 y §5.11"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "impact_resistance": {
+      "estado": "no_aplica",
+      "nota": "Elemento enterrado."
+    },
+    "abrasion_resistance": {
+      "estado": "no_aplica",
+      "nota": "Elemento enterrado."
+    },
+    "durability_years": {
+      "estado": "no_disponible",
+      "nota": "Vida de diseño igual a la edificación; sin dato cuantificado en las fuentes."
+    },
+    "water_absorption": {
+      "estado": "no_disponible"
+    },
+    "moisture_resistance": {
+      "estado": "dato",
+      "valor": 3,
+      "evidencia": "E1",
+      "nota": "Criterio del autor: fuste bajo freático."
+    },
+    "condensation_risk": {
+      "estado": "no_aplica",
+      "nota": "Elemento enterrado."
+    },
+    "corrosion_resistance": {
+      "estado": "no_disponible",
+      "nota": "VACÍO DECLARADO: no se localizó exigencia de ensayo de sulfatos ni cloruros para vivienda; el refuerzo bajo terreno es el primero en corroerse en franja costera."
+    },
+    "uv_resistance": {
+      "estado": "no_aplica",
+      "nota": "Elemento enterrado."
+    },
+    "marine_environment": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "evidencia": "E1",
+      "nota": "Sujeto al ensayo de agresividad química que la norma no exige (vacío declarado)."
+    },
+    "vapor_permeability": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "thermal_conductivity": {
+      "estado": "no_aplica",
+      "nota": "Elemento enterrado."
+    },
+    "specific_heat": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "thermal_resistance": {
+      "estado": "no_aplica",
+      "nota": "Elemento enterrado."
+    },
+    "u_value": {
+      "estado": "no_aplica",
+      "nota": "Elemento enterrado."
+    },
+    "solar_reflectance": {
+      "estado": "no_aplica",
+      "nota": "Elemento enterrado."
+    },
+    "thermal_emittance": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "sri": {
+      "estado": "no_aplica",
+      "nota": "Elemento enterrado."
+    },
+    "sound_insulation": {
+      "estado": "no_aplica"
+    },
+    "sound_absorption": {
+      "estado": "no_aplica"
+    },
+    "fire_reaction": {
+      "estado": "no_aplica",
+      "nota": "Elemento enterrado."
+    },
+    "fire_resistance": {
+      "estado": "no_aplica"
+    },
+    "smoke_class": {
+      "estado": "no_aplica"
+    },
+    "voc_emissions": {
+      "estado": "no_disponible"
+    },
+    "hazardous_substances": {
+      "estado": "dato",
+      "valor": [
+        "Bitumen en el fuste (uso con reserva)"
+      ],
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§5.11.5"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "cleanability": {
+      "estado": "no_aplica",
+      "nota": "Elemento enterrado."
+    },
+    "accessibility": {
+      "estado": "no_aplica"
+    },
+    "healthcare_use": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "evidencia": "E1",
+      "nota": "Sujeto al estudio de suelos y al filtro normativo del selector (caso EBAIS)."
+    },
+    "maintenance_frequency": {
+      "estado": "no_aplica",
+      "nota": "Sin mantenimiento: inaccesible después del colado."
+    },
+    "maintenance_actions": {
+      "estado": "dato",
+      "valor": "Instrumentación e inspección para verificar las condiciones interpretadas en el estudio de exploración.",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "cap. 9"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "repairability": {
+      "estado": "dato",
+      "valor": 1,
+      "evidencia": "E1",
+      "nota": "Reversibilidad nula; reparar implica recalce."
+    },
+    "replaceability": {
+      "estado": "dato",
+      "valor": 1,
+      "evidencia": "E1",
+      "nota": "Un piso se sustituye; una cimentación no."
+    },
+    "common_failures": {
+      "estado": "no_disponible",
+      "nota": "PENDIENTE. Hipótesis: fricción negativa; defecto de colado; longitud insuficiente; daño a vecinos por hinca (CC §5.11.4)."
+    },
+    "failure_causes": {
+      "estado": "dato",
+      "valor": [
+        "Ausencia o insuficiencia del estudio de suelos",
+        "control deficiente en obra"
+      ],
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "cap. 2"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Hipótesis a contrastar con expedientes LanammeUCR y entrevistas."
+    },
+    "corrective_action": {
+      "estado": "no_disponible",
+      "nota": "PENDIENTE."
+    },
+    "origin": {
+      "estado": "dato",
+      "valor": "Nacional",
+      "evidencia": "E1",
+      "nota": "Verificar origen del tubo del micropilote."
+    },
+    "transport_distance": {
+      "estado": "no_disponible",
+      "nota": "Depende del sitio; RESET 6.5.12 pide comparar escenario nacional vs. importado."
+    },
+    "recycled_content": {
+      "estado": "no_disponible",
+      "nota": "RESET 6.5.5 pide ≥ 10 % en un material principal."
+    },
+    "renewable": {
+      "estado": "dato",
+      "valor": "No",
+      "evidencia": "E1"
+    },
+    "reusable": {
+      "estado": "dato",
+      "valor": "No",
+      "evidencia": "E1",
+      "nota": "Permanece en sitio; reversibilidad nula."
+    },
+    "recyclable": {
+      "estado": "no_disponible",
+      "nota": "El reciclaje del concreto enterrado no se documenta en las fuentes del proyecto."
+    },
+    "installation_waste": {
+      "estado": "dato",
+      "valor": 2,
+      "evidencia": "E1"
+    },
+    "epd_available": {
+      "estado": "no_disponible"
+    },
+    "embodied_carbon": {
+      "estado": "no_disponible",
+      "nota": "Cuantificar con la calculadora del ICCYC o similar (RESET 6.5.12)."
+    },
+    "embodied_carbon_modules": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "environmental_certification": {
+      "estado": "dato",
+      "valor": "Puede reducir la sustitución frente al estándar (RESET 6.4.2)",
+      "fuentes": [
+        {
+          "ref": "R05"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Requiere plano con m³ a remover y comparación con el estándar."
+    },
+    "end_of_life": {
+      "estado": "dato",
+      "valor": [
+        "Otro"
+      ],
+      "evidencia": "E1",
+      "nota": "Permanece enterrado; no se recupera."
+    },
+    "cr_region": {
+      "estado": "dato",
+      "valor": "Caribe, llanuras aluviales de ríos grandes, depósitos piroclásticos recientes y llanuras de inundación del Pacífico",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§8.1.7"
+        }
+      ],
+      "evidencia": "E3",
+      "nota": "Zonas con amenaza de licuación."
+    },
+    "seismic_condition": {
+      "estado": "dato",
+      "valor": "Zonas II, III y IV; aef según tipo de sitio (S1–S4) y zona",
+      "fuentes": [
+        {
+          "ref": "CSCR",
+          "loc": "tabla 2.3"
+        }
+      ],
+      "evidencia": "E3",
+      "nota": "El tipo de sitio y la aef deben consignarse en planos (CSCR §16.2)."
+    },
+    "tradition_type": {
+      "estado": "dato",
+      "valor": "Contemporáneo",
+      "evidencia": "E1",
+      "nota": "Sistemas convencionales normados."
+    },
+    "cr_standard": {
+      "estado": "dato",
+      "valor": "CC §5.1, §5.2, §5.11, §8.1.7, cap. 9; CSCR §13.7, §13.10.2",
+      "evidencia": "E3"
+    },
+    "plan_requirements": {
+      "estado": "dato",
+      "valor": "Estudio de suelos (laboratorio acreditado ante el ECA), tipo de sitio y capacidad soportante consignados en planos.",
+      "fuentes": [
+        {
+          "ref": "CSCR",
+          "loc": "§16.2 y §16.3"
+        },
+        {
+          "ref": "R03"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "advantages": {
+      "estado": "dato",
+      "valor": "Única viable en estrato compresible profundo y sin restricción en licuable; minimiza la sustitución de suelo; única con inspección posterior.",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§4.4.3.c, §5.11.6, cap. 9"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "limitations": {
+      "estado": "dato",
+      "valor": "Costo y equipo; dependencia total del estudio geotécnico; la tixotropía distorsiona la interpretación de resistencia.",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§1.2.5, §5.11"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "graphics": {
+      "estado": "dato",
+      "valor": [
+        "Fotografía de pilotes (presentación TP1) · PENDIENTE esquema de pilote, micropilote y viga separada del terreno"
+      ]
+    },
+    "depth_class": {
+      "estado": "dato",
+      "valor": "Profunda (Df/B > 4)",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§4.1.1"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "design_criterion": {
+      "estado": "dato",
+      "valor": "Capacidad por fricción y punta; fricción negativa; licuación",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§5.4, §5.11"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "settlement_limit": {
+      "estado": "no_aplica",
+      "nota": "Gobierna la capacidad del pilote."
+    },
+    "angular_distortion": {
+      "estado": "dato",
+      "valor_texto_original": "Según la superestructura",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "Cuadro 3.5"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "expansive_soil": {
+      "estado": "dato",
+      "valor": "Recomendado",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§4.4.1.b"
+        }
+      ],
+      "evidencia": "E3",
+      "nota": "pilote bajo la capa activa con resistencia a tracción y viga separada del terreno"
+    },
+    "collapsible_soil": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§4.4.2.c"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "el Código cita pilotes profundos; el pilote corto debe superar la zona de saturación"
+    },
+    "liquefiable_soil": {
+      "estado": "dato",
+      "valor_texto_original": "Recomendado, con estabilidad garantizada por capas no licuables dentro del fuste",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§4.4.3.c"
+        }
+      ],
+      "evidencia": "E3",
+      "nota": "Casos documentados: Limón 1991 y Cóbano 1990, en infraestructura, no en edificación (CC §8.1.7)."
+    },
+    "min_exploration": {
+      "estado": "dato",
+      "valor": "Según Cuadro 2.1: de 2 perforaciones a 60 m y Df + 2 m (baja-baja) a 4 perforaciones a 20 m y Df + 5 m (alta-alta); en obra especial la define el geotecnista.",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "Cuadro 2.1"
+        },
+        {
+          "ref": "R03"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "El costo de exploración escala con la complejidad geotécnica, no con el tamaño del edificio. Laboratorios acreditados ante el ECA."
+    },
+    "seismic_zone_effect": {
+      "estado": "dato",
+      "valor": "Efectos sísmicos, fricción negativa y pandeo en depósitos suaves.",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§5.11"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "excavation_safety": {
+      "estado": "dato",
+      "valor": "Junto a cimientos más someros: excavar por secciones y apuntalar los existentes si hay peligro de asentamiento.",
+      "fuentes": [
+        {
+          "ref": "R04"
+        }
+      ],
+      "evidencia": "E3"
+    }
+  },
+  "fuentes": [
+    {
+      "id": "PROPIO",
+      "cita": "Elaboración propia del estudiante (TP1).",
+      "tipo": "elaboracion_propia"
+    },
+    {
+      "id": "CC",
+      "cita": "[CC] Sigla usada por el estudiante; completar la referencia APA."
+    },
+    {
+      "id": "CSCR",
+      "cita": "[CSCR] Sigla usada por el estudiante; completar la referencia APA."
+    },
+    {
+      "id": "R03",
+      "cita": "RC art. 11"
+    },
+    {
+      "id": "R04",
+      "cita": "RC art. 410"
+    },
+    {
+      "id": "R05",
+      "cita": "RESET 6.4.2"
+    }
+  ]
+}

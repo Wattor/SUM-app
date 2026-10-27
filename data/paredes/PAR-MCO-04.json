@@ -1,0 +1,1084 @@
+{
+  "schema_version": "1.0",
+  "meta": {
+    "id": "PAR-MCO-04",
+    "componente": "PAR",
+    "autor": "Óscar Quesada",
+    "estado_revision": "borrador",
+    "fecha_actualizacion": "2026-10-26",
+    "id_legado": "CR-PC-VID-04",
+    "origen_migracion": {
+      "archivo": "TP1_Fichas_Oscar_Paredes_5.xlsx",
+      "hoja": "Ficha_MuroCortina"
+    }
+  },
+  "campos": {
+    "id": {
+      "estado": "dato",
+      "valor": "PAR-MCO-04",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "name": {
+      "estado": "dato",
+      "valor": "Muro cortina de aluminio y vidrio",
+      "fuentes": [
+        {
+          "ref": "V1"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "record_type": {
+      "estado": "dato",
+      "valor": "sistema",
+      "fuentes": [
+        {
+          "ref": "S0"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "component": {
+      "estado": "dato",
+      "valor": "PAR"
+    },
+    "subcategory": {
+      "estado": "dato",
+      "valor": "Fachada ligera acristalada no portante",
+      "fuentes": [
+        {
+          "ref": "V1"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "country": {
+      "estado": "dato",
+      "valor": "CR",
+      "fuentes": [
+        {
+          "ref": "S0"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "manufacturer": {
+      "estado": "dato",
+      "valor": "Extralum (sistema EXOGLASS de referencia)",
+      "fuentes": [
+        {
+          "ref": "V1"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "supplier": {
+      "estado": "dato",
+      "valor": "Extralum y especialistas locales en vidrio/fachadas",
+      "fuentes": [
+        {
+          "ref": "V1"
+        },
+        {
+          "ref": "V2"
+        }
+      ],
+      "evidencia": "E4"
+    },
+    "description": {
+      "estado": "dato",
+      "valor": "Fachada no portante de montantes y travesaños de aluminio, vidrio de seguridad, anclajes, empaques, sellos y drenajes que transmite su peso y viento a la estructura principal.",
+      "fuentes": [
+        {
+          "ref": "V1"
+        },
+        {
+          "ref": "V3"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "keywords": {
+      "estado": "dato",
+      "valor": [
+        "muro cortina",
+        "aluminio",
+        "vidrio",
+        "EXOGLASS",
+        "fachada stick",
+        "fachada ligera"
+      ],
+      "fuentes": [
+        {
+          "ref": "V1"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "main_material": {
+      "estado": "dato",
+      "valor": "Perfiles de aluminio y paños de vidrio",
+      "fuentes": [
+        {
+          "ref": "V1"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "secondary_materials": {
+      "estado": "dato",
+      "valor": [
+        "Anclajes",
+        "tornillería",
+        "EPDM",
+        "calzos",
+        "presores",
+        "silicón",
+        "barrera cortafuego en borde de losa"
+      ],
+      "fuentes": [
+        {
+          "ref": "V1"
+        },
+        {
+          "ref": "V3"
+        }
+      ],
+      "evidencia": "E4"
+    },
+    "layers": {
+      "estado": "dato",
+      "valor": [
+        "Vidrio exterior o DVH",
+        "empaques y sellos",
+        "montantes/travesaños",
+        "cámara y antepecho cuando corresponda",
+        "conexión interior"
+      ],
+      "fuentes": [
+        {
+          "ref": "V1"
+        },
+        {
+          "ref": "V3"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "La estratigrafía varía por zona transparente u opaca."
+    },
+    "total_thickness": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "V1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Depende de sistema de perfil, vidrio y antepecho."
+    },
+    "commercial_dimensions": {
+      "estado": "dato",
+      "valor": "Serie 2: vidrio de 6–26 mm y montantes de 101.6 o 151.6 mm de profundidad como referencias de catálogo",
+      "fuentes": [
+        {
+          "ref": "V1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Confirmar límites vigentes y cálculo para cada paño."
+    },
+    "density": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "surface_mass": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "V1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Depende del vidrio y de la modulación."
+    },
+    "surface_finish": {
+      "estado": "dato",
+      "valor": "Aluminio anodizado o pintado; vidrio según especificación óptica y de seguridad",
+      "fuentes": [
+        {
+          "ref": "V1"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "support_system": {
+      "estado": "dato",
+      "valor": "Losa, vigas o elementos principales que reciben anclajes calculados",
+      "fuentes": [
+        {
+          "ref": "V1"
+        },
+        {
+          "ref": "V3"
+        }
+      ],
+      "evidencia": "E4"
+    },
+    "fastening": {
+      "estado": "dato",
+      "valor": "Anclajes mecánicos a estructura; presores/tapas o silicón estructural según variante",
+      "fuentes": [
+        {
+          "ref": "V1"
+        },
+        {
+          "ref": "V3"
+        }
+      ],
+      "evidencia": "E4"
+    },
+    "joints_seals": {
+      "estado": "dato",
+      "valor": "EPDM, silicones, juntas de movimiento, drenajes y sellos perimetrales",
+      "fuentes": [
+        {
+          "ref": "V1"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "installation_sequence": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "tools_labor": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "critical_point": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "recommended_uses": {
+      "estado": "dato",
+      "valor": [
+        "Fachadas de oficinas, comercio, hoteles e instituciones",
+        "iluminación natural y vistas"
+      ],
+      "fuentes": [
+        {
+          "ref": "V1"
+        },
+        {
+          "ref": "V2"
+        }
+      ],
+      "evidencia": "E4"
+    },
+    "building_types": {
+      "estado": "dato",
+      "valor": [
+        "Comercial",
+        "Institucional",
+        "Vivienda"
+      ],
+      "fuentes": [
+        {
+          "ref": "V1"
+        },
+        {
+          "ref": "V2"
+        }
+      ],
+      "evidencia": "E4"
+    },
+    "location": {
+      "estado": "dato",
+      "valor": "Exterior",
+      "fuentes": [
+        {
+          "ref": "V1"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "climates": {
+      "estado": "dato",
+      "valor": "Tropical húmedo y seco con diseño de lluvia impulsada, radiación, viento y condensación",
+      "fuentes": [
+        {
+          "ref": "V1"
+        },
+        {
+          "ref": "V3"
+        }
+      ],
+      "evidencia": "E4"
+    },
+    "imn_subregions": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "compatibility": {
+      "estado": "dato",
+      "valor": "Compatible con estructuras de concreto o acero mediante anclajes y juntas que admitan movimientos",
+      "fuentes": [
+        {
+          "ref": "V3"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "use_restrictions": {
+      "estado": "dato",
+      "valor": "No es estructura portante. Verificar viento, deriva sísmica, vidrio de seguridad, cortafuego y acceso de mantenimiento.",
+      "fuentes": [
+        {
+          "ref": "V1"
+        },
+        {
+          "ref": "V3"
+        }
+      ],
+      "evidencia": "E4"
+    },
+    "labor_specialization": {
+      "estado": "dato",
+      "valor": 5,
+      "fuentes": [
+        {
+          "ref": "V1"
+        },
+        {
+          "ref": "V3"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Diseño de fachada, fabricación, vidrio, izaje, sellado y pruebas especializados."
+    },
+    "installation_complexity": {
+      "estado": "dato",
+      "valor": 5,
+      "fuentes": [
+        {
+          "ref": "V1"
+        },
+        {
+          "ref": "V3"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Tolerancias, drenajes, sellos y secuencia de montaje críticos."
+    },
+    "national_availability": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "V1"
+        },
+        {
+          "ref": "V2"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Fabricación y proyectos documentados en Costa Rica; componentes especializados bajo pedido."
+    },
+    "installation_time": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "V1"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Fabricación previa acelera obra; instalación depende de acceso, izaje y pruebas."
+    },
+    "relative_cost": {
+      "estado": "dato",
+      "valor": 5,
+      "fuentes": [
+        {
+          "ref": "V1"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Alto dentro de los cinco sistemas por ingeniería, vidrio, perfiles, izaje y mantenimiento."
+    },
+    "price_range": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "V1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "No hay cotización pública comparable por m² instalado."
+    },
+    "mechanical_resistance": {
+      "estado": "dato",
+      "valor": "Resistencia a viento y deriva por cálculo del ensamble, anclajes y vidrio",
+      "fuentes": [
+        {
+          "ref": "V1"
+        },
+        {
+          "ref": "V3"
+        }
+      ],
+      "evidencia": "E4"
+    },
+    "impact_resistance": {
+      "estado": "dato",
+      "valor": "Depende del tipo de vidrio de seguridad especificado",
+      "fuentes": [
+        {
+          "ref": "V1"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "abrasion_resistance": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "V1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Depende del recubrimiento del aluminio y la superficie del vidrio."
+    },
+    "durability_years": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "V1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "No se encontró un valor verificable para este ensamble; requiere ficha, ensayo o cálculo del proyecto."
+    },
+    "water_absorption": {
+      "estado": "no_aplica",
+      "fuentes": [
+        {
+          "ref": "V1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "al vidrio; estanqueidad del ensamble depende de juntas y drenajes"
+    },
+    "moisture_resistance": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "V1"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Alta si empaques, sellos y drenajes están correctamente ejecutados y mantenidos."
+    },
+    "condensation_risk": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "V1"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Riesgo alto con vidrio monolítico y espacios climatizados; DVH y control higrotérmico pueden reducirlo."
+    },
+    "corrosion_resistance": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "V1"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Aluminio y tornillería apropiada resisten bien, con cuidado en uniones y ambiente marino."
+    },
+    "uv_resistance": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "V1"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Vidrio y aluminio resisten UV; sellos y acabados requieren selección adecuada."
+    },
+    "marine_environment": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "V1"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Especificar acabado, tornillería y sellos para cloruros; inspección más frecuente."
+    },
+    "vapor_permeability": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "thermal_conductivity": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "V1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Propiedad de cada vidrio y perfil; no del sistema genérico."
+    },
+    "specific_heat": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "thermal_resistance": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "V1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "No se encontró un valor verificable para este ensamble; requiere ficha, ensayo o cálculo del proyecto."
+    },
+    "u_value": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "V1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Solicitar U del ensamble seleccionado."
+    },
+    "solar_reflectance": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "V1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Solicitar propiedades ópticas del vidrio."
+    },
+    "thermal_emittance": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "sri": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "V1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "SRI no sustituye factor solar del vidrio."
+    },
+    "sound_insulation": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "V1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Depende de vidrio, cámara, sellos y tamaño del paño."
+    },
+    "sound_absorption": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "V1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "No se encontró un valor verificable para este ensamble; requiere ficha, ensayo o cálculo del proyecto."
+    },
+    "fire_reaction": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "V1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Verificar materiales de antepecho y sellos por sistema."
+    },
+    "fire_resistance": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "V1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Requiere barrera cortafuego y detalle ensayado en borde de losa."
+    },
+    "smoke_class": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "V1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "No se encontró un valor verificable para este ensamble; requiere ficha, ensayo o cálculo del proyecto."
+    },
+    "voc_emissions": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "V1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Selladores y recubrimientos requieren fichas específicas."
+    },
+    "hazardous_substances": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "V1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "No se encontró un valor verificable para este ensamble; requiere ficha, ensayo o cálculo del proyecto."
+    },
+    "cleanability": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "V1"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Vidrio lavable, pero accesos exteriores y altura encarecen limpieza."
+    },
+    "accessibility": {
+      "estado": "dato",
+      "valor": "Permite luz y vistas; controlar deslumbramiento y señalización de paños a nivel peatonal",
+      "fuentes": [
+        {
+          "ref": "V1"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "healthcare_use": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "V1"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Requiere control solar, limpieza, seguridad y privacidad según uso."
+    },
+    "maintenance_frequency": {
+      "estado": "dato",
+      "valor": 12,
+      "calificador": "=",
+      "unidad": "meses",
+      "fuentes": [
+        {
+          "ref": "V1"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Inspección anual de sellos y drenajes; limpieza según ambiente y altura."
+    },
+    "maintenance_actions": {
+      "estado": "dato",
+      "valor": "Limpiar vidrio y drenajes; revisar EPDM, silicones, tapas, anclajes visibles, daños de vidrio y juntas de movimiento",
+      "fuentes": [
+        {
+          "ref": "V1"
+        },
+        {
+          "ref": "V3"
+        }
+      ],
+      "evidencia": "E4"
+    },
+    "repairability": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "V1"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Vidrios y sellos sustituibles, con acceso e ingeniería de detalle."
+    },
+    "replaceability": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "V1"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Paños reemplazables con equipo y piezas compatibles."
+    },
+    "common_failures": {
+      "estado": "dato",
+      "valor": [
+        "Filtración",
+        "condensación",
+        "sellos envejecidos",
+        "drenajes obstruidos",
+        "vidrio roto",
+        "tapas flojas"
+      ],
+      "fuentes": [
+        {
+          "ref": "V1"
+        },
+        {
+          "ref": "V3"
+        }
+      ],
+      "evidencia": "E4"
+    },
+    "failure_causes": {
+      "estado": "dato",
+      "valor": [
+        "Drenaje insuficiente",
+        "sellado defectuoso",
+        "movimiento no previsto",
+        "selección incorrecta de vidrio",
+        "mantenimiento omitido"
+      ],
+      "fuentes": [
+        {
+          "ref": "V1"
+        },
+        {
+          "ref": "V3"
+        }
+      ],
+      "evidencia": "E4"
+    },
+    "corrective_action": {
+      "estado": "dato",
+      "valor": "Inspeccionar ruta del agua y movimientos; limpiar drenajes; renovar sellos y reemplazar vidrio o anclajes mediante especialista",
+      "fuentes": [
+        {
+          "ref": "V1"
+        },
+        {
+          "ref": "V3"
+        }
+      ],
+      "evidencia": "E4"
+    },
+    "origin": {
+      "estado": "dato",
+      "valor_texto_original": "Fabricación local con componentes nacionales e importados",
+      "fuentes": [
+        {
+          "ref": "V1"
+        },
+        {
+          "ref": "V2"
+        }
+      ],
+      "evidencia": "E4"
+    },
+    "transport_distance": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "V1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "No se encontró un valor verificable para este ensamble; requiere ficha, ensayo o cálculo del proyecto."
+    },
+    "recycled_content": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "V1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "No se encontró un valor verificable para este ensamble; requiere ficha, ensayo o cálculo del proyecto."
+    },
+    "renewable": {
+      "estado": "dato",
+      "valor": "No",
+      "fuentes": [
+        {
+          "ref": "V1"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "reusable": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "V1"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Desmontaje depende de silicones y estado del vidrio/perfiles."
+    },
+    "recyclable": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "V1"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Aluminio y vidrio son recuperables si se separan y existe gestor."
+    },
+    "installation_waste": {
+      "estado": "dato",
+      "valor": 2,
+      "fuentes": [
+        {
+          "ref": "V1"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Prefabricación limita recortes en obra; manejo de embalajes y vidrio roto."
+    },
+    "epd_available": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "V1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "No se encontró un valor verificable para este ensamble; requiere ficha, ensayo o cálculo del proyecto."
+    },
+    "embodied_carbon": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "V1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "No se encontró un valor verificable para este ensamble; requiere ficha, ensayo o cálculo del proyecto."
+    },
+    "embodied_carbon_modules": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "environmental_certification": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "V1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "No se encontró un valor verificable para este ensamble; requiere ficha, ensayo o cálculo del proyecto."
+    },
+    "end_of_life": {
+      "estado": "dato",
+      "valor_texto_original": "Reciclaje parcial de aluminio y vidrio; otros residuos según gestor",
+      "fuentes": [
+        {
+          "ref": "V1"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "cr_region": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "seismic_condition": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "tradition_type": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "cr_standard": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "plan_requirements": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "advantages": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "limitations": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "graphics": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "wall_function": {
+      "estado": "dato",
+      "valor": "Cerramiento exterior no portante",
+      "fuentes": [
+        {
+          "ref": "V1"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "system_thickness": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "V1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Perfil y vidrio según sistema seleccionado."
+    },
+    "maximum_height": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "V1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Definir por cálculo, apoyos y capacidad de perfiles/vidrio."
+    },
+    "modulation": {
+      "estado": "dato",
+      "valor": "Modulación de paños por proyecto y límites del sistema EXOGLASS",
+      "fuentes": [
+        {
+          "ref": "V1"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "lateral_load": {
+      "estado": "dato",
+      "valor": "Viento y deriva sísmica según cálculo de fachada y anclajes",
+      "fuentes": [
+        {
+          "ref": "V1"
+        },
+        {
+          "ref": "V3"
+        }
+      ],
+      "evidencia": "E4"
+    },
+    "capillary_absorption": {
+      "estado": "no_aplica",
+      "fuentes": [
+        {
+          "ref": "V1"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "al vidrio; vigilar estanqueidad de juntas"
+    },
+    "moisture_barrier": {
+      "estado": "dato",
+      "valor": "Drenaje y sellos en perfiles; continuidad de barrera en antepecho y encuentro con estructura",
+      "fuentes": [
+        {
+          "ref": "V1"
+        },
+        {
+          "ref": "V3"
+        }
+      ],
+      "evidencia": "E4"
+    },
+    "interior_finish": {
+      "estado": "dato",
+      "valor": "Vidrio y aluminio vistos; antepecho interior según proyecto",
+      "fuentes": [
+        {
+          "ref": "V1"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "exterior_finish": {
+      "estado": "dato",
+      "valor": "Vidrio y aluminio anodizado o pintado",
+      "fuentes": [
+        {
+          "ref": "V1"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "structural_connection": {
+      "estado": "dato",
+      "valor": "Anclajes calculados a losas o vigas, con tolerancia para movimiento térmico y deriva",
+      "fuentes": [
+        {
+          "ref": "V1"
+        },
+        {
+          "ref": "V3"
+        }
+      ],
+      "evidencia": "E4"
+    }
+  },
+  "fuentes": [
+    {
+      "id": "PROPIO",
+      "cita": "Elaboración propia del estudiante (TP1).",
+      "tipo": "elaboracion_propia"
+    },
+    {
+      "id": "S0",
+      "cita": "Definición del estudio y plantilla del curso."
+    },
+    {
+      "id": "V1",
+      "cita": "Extralum. FT-140 Sistema de muro cortina EXOGLASS Serie 2. https://www.extralum.com/wp-content/uploads/2023/01/FT-140-Sistema-de-Muro-Cortina-EXOGLASS-Serie-2.pdf",
+      "url": "https://www.extralum.com/wp-content/uploads/2023/01/FT-140-Sistema-de-Muro-Cortina-EXOGLASS-Serie-2.pdf"
+    },
+    {
+      "id": "V2",
+      "cita": "Extralum. Proyecto Atmos, Heredia. https://www.extralum.com/proyecto/comercial/atmos/",
+      "url": "https://www.extralum.com/proyecto/comercial/atmos/"
+    },
+    {
+      "id": "V3",
+      "cita": "Extralum. IT-063 Consideraciones constructivas de fachadas unitizadas. https://www.extralum.com/wp-content/uploads/2022/05/IT-063-Consideraciones-constructivas-para-la-instalacion-del-sistema-de-fachadas-prefabricadas-unitizadas-de-muro-cortina.pdf",
+      "url": "https://www.extralum.com/wp-content/uploads/2022/05/IT-063-Consideraciones-constructivas-para-la-instalacion-del-sistema-de-fachadas-prefabricadas-unitizadas-de-muro-cortina.pdf"
+    }
+  ]
+}

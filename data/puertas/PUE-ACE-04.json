@@ -1,0 +1,1036 @@
+{
+  "schema_version": "1.0",
+  "meta": {
+    "id": "PUE-ACE-04",
+    "componente": "PUE",
+    "autor": "Verónica",
+    "estado_revision": "borrador",
+    "fecha_actualizacion": "2026-10-26",
+    "id_legado": "PA-ACE-004",
+    "origen_migracion": {
+      "archivo": "TP1_Ficha_Veronica_Puertas_COMPLETADA.xlsx",
+      "hoja": "Solución D-Acero acorazado"
+    }
+  },
+  "campos": {
+    "id": {
+      "estado": "dato",
+      "valor": "PUE-ACE-04",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "name": {
+      "estado": "dato",
+      "valor": "Puerta de acero acorazado con blindaje estructural de seguridad",
+      "fuentes": [
+        {
+          "ref": "R116"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "record_type": {
+      "estado": "dato",
+      "valor": "sistema",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Hoja blindada + marco + cerradura multipunto, no un material aislado"
+    },
+    "component": {
+      "estado": "dato",
+      "valor": "PUE"
+    },
+    "subcategory": {
+      "estado": "dato",
+      "valor": "Puerta blindada / acorazada de alta seguridad",
+      "fuentes": [
+        {
+          "ref": "R116"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "country": {
+      "estado": "dato",
+      "valor": "CR",
+      "fuentes": [
+        {
+          "ref": "R04"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "manufacturer": {
+      "estado": "dato",
+      "valor": "Grupo Forte (marcas doormet/doormatic), Sirena Home Store, Casper (modelos básicos de liquidación)",
+      "fuentes": [
+        {
+          "ref": "R117"
+        },
+        {
+          "ref": "R118"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "supplier": {
+      "estado": "dato",
+      "valor": "Grupo Forte, Sirena Home Store, distribuidores de cilindros Mul-T-Lock (ASSA ABLOY)",
+      "fuentes": [
+        {
+          "ref": "R117"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "description": {
+      "estado": "dato",
+      "valor": "Hoja con bastidor de acero pesado reforzado por omegas verticales, planchas de acero electrogalvanizado, placas de manganeso anti-perforación en la zona de la cerradura, marco de aleación de zinc, bisagras soldadas de alta resistencia y cierre multipunto (9 a 12 bulones) con cilindro Mul-T-Lock de pines telescópicos.",
+      "fuentes": [
+        {
+          "ref": "R119"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "keywords": {
+      "estado": "dato",
+      "valor": [
+        "acero acorazado, blindaje, Mul-T-Lock, RC3-RC5, cierre multipunto, Grupo Forte, Sirena Home"
+      ],
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "main_material": {
+      "estado": "dato",
+      "valor": "Acero estructural (bastidor pesado + planchas electrogalvanizadas + placas de manganeso anti-perforación)",
+      "fuentes": [
+        {
+          "ref": "R119"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "secondary_materials": {
+      "estado": "dato",
+      "valor": [
+        "Aleación de zinc (marco), lana de roca o poliuretano inyectado (núcleo termoacústico), caucho sintético y silicona (juntas), cilindros Mul-T-Lock de pines telescópicos"
+      ],
+      "fuentes": [
+        {
+          "ref": "R120"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "layers": {
+      "estado": "dato",
+      "valor": [
+        "1) Premarco de acero pesado (3 mm)",
+        "2) Plancha electrogalvanizada perimetral",
+        "3) Placa de manganeso anti-perforación",
+        "4) Cerrojos multipunto (9 a 12 bulones)",
+        "5) Bisagras soldadas de alta resistencia"
+      ],
+      "fuentes": [
+        {
+          "ref": "R121"
+        },
+        {
+          "ref": "R119"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "total_thickness": {
+      "estado": "dato",
+      "min": 50.0,
+      "max": 70.0,
+      "calificador": "rango",
+      "unidad": "mm",
+      "fuentes": [
+        {
+          "ref": "R121"
+        },
+        {
+          "ref": "R119"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "commercial_dimensions": {
+      "estado": "dato",
+      "valor": "97-98 cm x 210 cm (accesos unifamiliares); premarco de acero de 3 mm",
+      "fuentes": [
+        {
+          "ref": "R119"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "density": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "surface_mass": {
+      "estado": "dato",
+      "valor_texto_original": "Peso de la hoja acorazada: más de 100-120 kg",
+      "fuentes": [
+        {
+          "ref": "R122"
+        },
+        {
+          "ref": "R123"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Valor derivado de las referencias de peso citadas al describir la mano de obra y las patologías, no de una ficha técnica de peso directa"
+    },
+    "surface_finish": {
+      "estado": "dato",
+      "valor": "Recubrimiento galvánico electrolítico anticorrosivo de zinc; lacado con pintura electrostática de poliéster termoendurecible texturizado (imitación de vetas de madera) o enchapado con láminas de madera natural tratada",
+      "fuentes": [
+        {
+          "ref": "R124"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "support_system": {
+      "estado": "dato",
+      "valor": "Paredes de alta capacidad portante: block de concreto relleno de mortero o concreto armado",
+      "fuentes": [
+        {
+          "ref": "R119"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "fastening": {
+      "estado": "dato",
+      "valor": "Pernos de expansión metálicos de 1/2\"x4\" @ 40 cm; garras metálicas de anclaje soldadas para el premarco",
+      "fuentes": [
+        {
+          "ref": "R124"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "joints_seals": {
+      "estado": "dato",
+      "valor": "Juntas perimetrales de caucho sintético; empaques amortiguadores de silicona; sellador elástico de silicona acrílica de alta densidad en encuentros con muros",
+      "fuentes": [
+        {
+          "ref": "R125"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "installation_sequence": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "tools_labor": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "critical_point": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "recommended_uses": {
+      "estado": "dato",
+      "valor": [
+        "Accesos residenciales de alta seguridad, entidades bancarias y bóvedas, centros de datos, infraestructura institucional vulnerable"
+      ],
+      "fuentes": [
+        {
+          "ref": "R117"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "building_types": {
+      "estado": "dato",
+      "valor": [
+        "Vivienda",
+        "Comercial",
+        "Institucional"
+      ],
+      "fuentes": [
+        {
+          "ref": "R117"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Valores tomados de la lista controlada 'building_type'"
+    },
+    "location": {
+      "estado": "dato",
+      "valor": "Exterior",
+      "fuentes": [
+        {
+          "ref": "R126"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "climates": {
+      "estado": "dato",
+      "valor": "Apto para todo el territorio nacional; expuesto al exterior requiere núcleo con lana de roca o poliuretano inyectado para mitigar el calentamiento del metal",
+      "fuentes": [
+        {
+          "ref": "R117"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "imn_subregions": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "compatibility": {
+      "estado": "dato",
+      "valor": "100% compatible con concreto estructural y block de cemento; compatible con cerraduras electrónicas modernas (Nexxt, Tri Circle)",
+      "fuentes": [
+        {
+          "ref": "R127"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "use_restrictions": {
+      "estado": "dato",
+      "valor": "Incompatible con muros ligeros de drywall sin marcos estructurales pesados; instalación costera limitada si la capa protectora de zinc sufre rayaduras severas",
+      "fuentes": [
+        {
+          "ref": "R128"
+        },
+        {
+          "ref": "R117"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "labor_specialization": {
+      "estado": "dato",
+      "valor": 5,
+      "fuentes": [
+        {
+          "ref": "R129"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Escala 1-5 propia"
+    },
+    "installation_complexity": {
+      "estado": "dato",
+      "valor": 5,
+      "fuentes": [
+        {
+          "ref": "R130"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Escala 1-5 propia"
+    },
+    "national_availability": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "R131"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Escala 1-5 propia"
+    },
+    "installation_time": {
+      "estado": "no_disponible"
+    },
+    "relative_cost": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "R132"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Escala 1-5 propia"
+    },
+    "price_range": {
+      "estado": "dato",
+      "valor_texto_original": "Modelos básicos de liquidación desde c32.800 (Casper); unidades multipunto importadas c100.000-c140.000 (USD169-229 individuales, hasta USD779 dobles con vidrio templado); modelos premium bajo norma UNE-EN 1627 superan ampliamente estos rangos",
+      "fuentes": [
+        {
+          "ref": "R133"
+        },
+        {
+          "ref": "R117"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "mechanical_resistance": {
+      "estado": "dato",
+      "valor": "Máximo desempeño anti-intrusión, clasificaciones certificadas RC3 a RC5+ según norma UNE-EN 1627",
+      "fuentes": [
+        {
+          "ref": "R134"
+        },
+        {
+          "ref": "R127"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "impact_resistance": {
+      "estado": "dato",
+      "valor": "Resistencia al ganzuado, bumping y ataques con herramientas motorizadas (taladros, palanca)",
+      "fuentes": [
+        {
+          "ref": "R127"
+        },
+        {
+          "ref": "R118"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "abrasion_resistance": {
+      "estado": "no_disponible"
+    },
+    "durability_years": {
+      "estado": "dato",
+      "valor_texto_original": "Supera los 35 años",
+      "fuentes": [
+        {
+          "ref": "R128"
+        },
+        {
+          "ref": "R117"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "water_absorption": {
+      "estado": "no_disponible",
+      "nota": "No aplica de forma significativa al acero; no se reporta un porcentaje"
+    },
+    "moisture_resistance": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "R135"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Escala propia; depende de mantener intacto el recubrimiento de zinc"
+    },
+    "condensation_risk": {
+      "estado": "no_disponible"
+    },
+    "corrosion_resistance": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "R136"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Escala propia; alta si el recubrimiento de zinc está intacto, pero vulnerable ante daños al recubrimiento"
+    },
+    "uv_resistance": {
+      "estado": "dato",
+      "valor": 5,
+      "fuentes": [
+        {
+          "ref": "R137"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Escala propia"
+    },
+    "marine_environment": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "R128"
+        },
+        {
+          "ref": "R138"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "vapor_permeability": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "thermal_conductivity": {
+      "estado": "dato",
+      "valor_texto_original": "Acero al carbono: aprox. 45-55 W/m.K (valor de referencia general del metal, muy superior al de la madera o el WPC)",
+      "fuentes": [
+        {
+          "ref": "R139"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Referencia general del material, no del ensamblaje completo con núcleo aislante"
+    },
+    "specific_heat": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "thermal_resistance": {
+      "estado": "no_disponible",
+      "nota": "Depende del núcleo interno (lana de roca o poliuretano), no reportado con un valor R específico"
+    },
+    "u_value": {
+      "estado": "no_disponible"
+    },
+    "solar_reflectance": {
+      "estado": "no_disponible"
+    },
+    "thermal_emittance": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "sri": {
+      "estado": "no_disponible"
+    },
+    "sound_insulation": {
+      "estado": "dato",
+      "valor_texto_original": "Sobresaliente con núcleos internos de lana de roca o poliuretano rígido (aislamiento acústico continuo para residencias urbanas, sin valor numérico en dB reportado)",
+      "fuentes": [
+        {
+          "ref": "R127"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "sound_absorption": {
+      "estado": "no_disponible"
+    },
+    "fire_reaction": {
+      "estado": "dato",
+      "valor": "Incombustible (acero); clasificación general Euroclase A1 (metales, sin ensayo adicional según EN 13501-1)",
+      "fuentes": [
+        {
+          "ref": "R140"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "La clase A1 es una referencia normativa general añadida por fuera de los informes entregados"
+    },
+    "fire_resistance": {
+      "estado": "dato",
+      "valor_texto_original": "RF30 a RF60 (con núcleo de lana de roca o poliuretano rígido)",
+      "fuentes": [
+        {
+          "ref": "R134"
+        },
+        {
+          "ref": "R127"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "smoke_class": {
+      "estado": "no_disponible"
+    },
+    "voc_emissions": {
+      "estado": "no_disponible"
+    },
+    "hazardous_substances": {
+      "estado": "no_disponible",
+      "nota": "No se reportan sustancias peligrosas; se advierte evitar limpieza con cloro o ácidos fuertes que dañan el zinc (por corrosión, no por toxicidad)"
+    },
+    "cleanability": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "R141"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Escala propia"
+    },
+    "accessibility": {
+      "estado": "dato",
+      "valor": "En accesos planos requiere marcos de jamba en rampa; no se reporta más detalle de accesibilidad universal",
+      "fuentes": [
+        {
+          "ref": "R127"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "healthcare_use": {
+      "estado": "no_disponible",
+      "nota": "No se reporta como solución típica para edificios de salud; orientada a bancos, bóvedas, centros de datos y vivienda de alta seguridad"
+    },
+    "maintenance_frequency": {
+      "estado": "dato",
+      "valor": 12.0,
+      "calificador": "=",
+      "unidad": "meses",
+      "fuentes": [
+        {
+          "ref": "R142"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "maintenance_actions": {
+      "estado": "dato",
+      "valor": "Lubricación anual de la cerradura multipunto y el cilindro Mul-T-Lock con spray seco de grafito; limpieza periódica de empaques (evitar cloro/ácidos)",
+      "fuentes": [
+        {
+          "ref": "R143"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "repairability": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "R144"
+        },
+        {
+          "ref": "R145"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Escala propia"
+    },
+    "replaceability": {
+      "estado": "no_disponible"
+    },
+    "common_failures": {
+      "estado": "dato",
+      "valor": [
+        "Oxidación química de marcos, fisuras de fatiga en boquetes, desalineamiento y traba de bulones de cierre, corrosión costera por rayaduras superficiales"
+      ],
+      "fuentes": [
+        {
+          "ref": "R146"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "failure_causes": {
+      "estado": "dato",
+      "valor": [
+        "Limpieza con cloro concentrado o ácidos fuertes (Valle Central, San José, Escazú)",
+        "mampostería sin refuerzo bajo hojas de más de 120 kg con cierres bruscos",
+        "asentamientos diferenciales en la GAM",
+        "rayaduras superficiales sin protección de aleros en zonas costeras (Jacó, Manuel Antonio)"
+      ],
+      "fuentes": [
+        {
+          "ref": "R146"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "corrective_action": {
+      "estado": "dato",
+      "valor": "Evitar cloro/ácidos en la limpieza; anclar sobre paredes con refuerzo estructural adecuado; proteger con aleros en fachadas costeras; lubricación y revisión periódica de bulones",
+      "fuentes": [
+        {
+          "ref": "R146"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "origin": {
+      "estado": "dato",
+      "valor": "Importado",
+      "fuentes": [
+        {
+          "ref": "R128"
+        },
+        {
+          "ref": "R117"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "España, Italia, Asia"
+    },
+    "transport_distance": {
+      "estado": "no_disponible"
+    },
+    "recycled_content": {
+      "estado": "no_disponible"
+    },
+    "renewable": {
+      "estado": "dato",
+      "valor": "No",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "reusable": {
+      "estado": "no_disponible",
+      "nota": "No se reporta reutilización de puertas acorazadas usadas en los informes"
+    },
+    "recyclable": {
+      "estado": "dato",
+      "valor": "Sí",
+      "fuentes": [
+        {
+          "ref": "R147"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "installation_waste": {
+      "estado": "dato",
+      "valor": 1,
+      "fuentes": [
+        {
+          "ref": "R148"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Escala propia"
+    },
+    "epd_available": {
+      "estado": "no_disponible"
+    },
+    "embodied_carbon": {
+      "estado": "no_disponible"
+    },
+    "embodied_carbon_modules": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "environmental_certification": {
+      "estado": "no_disponible"
+    },
+    "end_of_life": {
+      "estado": "dato",
+      "valor": [
+        "Reciclaje"
+      ],
+      "fuentes": [
+        {
+          "ref": "R127"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "cr_region": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "seismic_condition": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "tradition_type": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "cr_standard": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "plan_requirements": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "advantages": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "limitations": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "graphics": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "opening_type": {
+      "estado": "dato",
+      "valor": "Batiente (blindada)",
+      "fuentes": [
+        {
+          "ref": "R116"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "frame_material": {
+      "estado": "dato",
+      "valor": "Acero pesado con aleación de zinc",
+      "fuentes": [
+        {
+          "ref": "R119"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "air_tightness": {
+      "estado": "no_disponible",
+      "nota": "El sistema prioriza seguridad estructural sobre estanqueidad; no se reporta una clase de hermeticidad certificada"
+    },
+    "leaf_count": {
+      "estado": "dato",
+      "valor": 1,
+      "calificador": "=",
+      "fuentes": [
+        {
+          "ref": "R149"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Texto original: 1 (también disponible en configuración doble según Sirena Home Store)"
+    },
+    "nominal_dimensions": {
+      "estado": "dato",
+      "valor": "970x2100 a 980x2100 mm",
+      "fuentes": [
+        {
+          "ref": "R119"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "clear_width": {
+      "estado": "dato",
+      "valor_texto_original": "Aprox. 850-950 mm",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Estimación propia; no es un valor de paso libre medido o certificado en los informes"
+    },
+    "leaf_material": {
+      "estado": "dato",
+      "valor": "Acero con blindaje de planchas electrogalvanizadas y placas de manganeso anti-perforación",
+      "fuentes": [
+        {
+          "ref": "R119"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "use_frequency": {
+      "estado": "dato",
+      "valor": "Frecuente (accesos principales de uso diario en vivienda de alta seguridad, bancos y centros de datos)",
+      "fuentes": [
+        {
+          "ref": "R117"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "opening_force": {
+      "estado": "no_disponible"
+    },
+    "hardware": {
+      "estado": "dato",
+      "valor": [
+        "Cerrojos multipunto (9 a 12 bulones), bisagras soldadas de alta resistencia sobre balines, cilindro Mul-T-Lock de pines telescópicos, escudos anti-taladro, pasadores anti-palanca",
+        "cerraduras electrónicas compatibles (Nexxt c58.500, Tri Circle c20.959)"
+      ],
+      "fuentes": [
+        {
+          "ref": "R150"
+        },
+        {
+          "ref": "R133"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "access_control": {
+      "estado": "dato",
+      "valor": "Cilindro mecánico de alta seguridad Mul-T-Lock (pines telescópicos, resistente a ganzuado/bumping/duplicado); compatible con cerraduras electrónicas modernas",
+      "fuentes": [
+        {
+          "ref": "R127"
+        }
+      ],
+      "evidencia": "E5"
+    }
+  },
+  "fuentes": [
+    {
+      "id": "PROPIO",
+      "cita": "Elaboración propia del estudiante (TP1).",
+      "tipo": "elaboracion_propia"
+    },
+    {
+      "id": "R04",
+      "cita": "Ficha (dato de encabezado)"
+    },
+    {
+      "id": "R116",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.5, título (pág. 11)"
+    },
+    {
+      "id": "R117",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.5.2 (pág. 12)"
+    },
+    {
+      "id": "R118",
+      "cita": "estudio-tecnico-puertas.pdf, secc. 5.2 (pág. 11)"
+    },
+    {
+      "id": "R119",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.5.1 (pág. 11)"
+    },
+    {
+      "id": "R120",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.5.1 (pág. 11) y 5.5.2 (pág. 12)"
+    },
+    {
+      "id": "R121",
+      "cita": "Sistemas_Constructivos_para_Puertas_-_Costa_Rica.pdf, Solución D - 1/4"
+    },
+    {
+      "id": "R122",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.5.2 (pág. 12): 'bloque de acero acorazado de más de 120 kg'"
+    },
+    {
+      "id": "R123",
+      "cita": "secc. 5.5.4 (pág. 13)"
+    },
+    {
+      "id": "R124",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.5.1 (pág. 11-12)"
+    },
+    {
+      "id": "R125",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.5.1 (pág. 12)"
+    },
+    {
+      "id": "R126",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.5.2 (pág. 12): accesos perimetrales expuestos directamente al exterior"
+    },
+    {
+      "id": "R127",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.5.3 (pág. 12-13)"
+    },
+    {
+      "id": "R128",
+      "cita": "Sistemas_Constructivos_para_Puertas_-_Costa_Rica.pdf, Solución D - 2/4"
+    },
+    {
+      "id": "R129",
+      "cita": "Sistemas_Constructivos_para_Puertas_-_Costa_Rica.pdf, Solución D - 2/4 ('Extremadamente alta - cerrajeros certificados')"
+    },
+    {
+      "id": "R130",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.5.2 (pág. 12): 'complejidad de instalación extremadamente alta'"
+    },
+    {
+      "id": "R131",
+      "cita": "Sistemas_Constructivos_para_Puertas_-_Costa_Rica.pdf, Solución D - 2/4 ('Moderada - importación España/Italia/Asia')"
+    },
+    {
+      "id": "R132",
+      "cita": "Sistemas_Constructivos_para_Puertas_-_Costa_Rica.pdf, Solución D - 2/4 (marcador de costo relativo en 'Alto')"
+    },
+    {
+      "id": "R133",
+      "cita": "estudio-tecnico-puertas.pdf, pág. 11"
+    },
+    {
+      "id": "R134",
+      "cita": "Sistemas_Constructivos_para_Puertas_-_Costa_Rica.pdf, Solución D - 3/4"
+    },
+    {
+      "id": "R135",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.5.3 (pág. 12-13): no sufre cambios volumétricos higroscópicos"
+    },
+    {
+      "id": "R136",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.5.4 (pág. 13): se degrada rápidamente ante rayaduras, limpieza con cloro/ácidos o asentamientos que fracturan el marco"
+    },
+    {
+      "id": "R137",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.5.3 (pág. 12-13): soporta radiación ultravioleta continuada sin perder integridad material"
+    },
+    {
+      "id": "R138",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.5.2 (pág. 12): apto pero con instalación limitada si la capa de zinc sufre rayaduras severas"
+    },
+    {
+      "id": "R139",
+      "cita": "Valor estándar de ingeniería de materiales para acero al carbono - fuera de los 4 PDF"
+    },
+    {
+      "id": "R140",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.5.3 (pág. 12-13). Clasificación A1: norma EN 13501-1 - fuera de los 4 PDF"
+    },
+    {
+      "id": "R141",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.5.4 (pág. 13): superficie lacada fácil de limpiar, pero sensible a productos ácidos/clorados que dañan el zinc"
+    },
+    {
+      "id": "R142",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.5.2 (pág. 12): 'lubricar de manera anual los engranajes...'"
+    },
+    {
+      "id": "R143",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.5.2 (pág. 12) y 5.5.4 (pág. 13)"
+    },
+    {
+      "id": "R144",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.5.3 (pág. 12-13): herrajes y llavines reparables en sitio"
+    },
+    {
+      "id": "R145",
+      "cita": "abolladuras severas requieren sustitución de paneles"
+    },
+    {
+      "id": "R146",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.5.4 (pág. 13)"
+    },
+    {
+      "id": "R147",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.5.3 (pág. 12-13): 'el acero... es un material 100% reciclable en fundiciones siderúrgicas nacionales de alta eficiencia'"
+    },
+    {
+      "id": "R148",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.5.3 (pág. 12-13): residuos metalmecánicos de instalación mínimos"
+    },
+    {
+      "id": "R149",
+      "cita": "estudio-tecnico-puertas.pdf, secc. 5.2 (pág. 11): 'hasta 779 USD en configuraciones de puertas dobles'"
+    },
+    {
+      "id": "R150",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.5.1 (pág. 11-12) y 5.5.3 (pág. 12-13)"
+    }
+  ]
+}

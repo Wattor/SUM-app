@@ -1,0 +1,1152 @@
+{
+  "schema_version": "1.0",
+  "meta": {
+    "id": "PIS-MAD-05",
+    "componente": "PIS",
+    "autor": "Alejandro Sáenz Castro",
+    "estado_revision": "borrador",
+    "fecha_actualizacion": "2026-10-26",
+    "id_legado": "PIS-CR-05",
+    "origen_migracion": {
+      "archivo": "TP1_PISOS_ALEJANDRO_SAENZ_FUSION final.xlsx",
+      "hoja": "Ficha_05_Madera"
+    }
+  },
+  "campos": {
+    "id": {
+      "estado": "dato",
+      "valor": "PIS-MAD-05",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "name": {
+      "estado": "dato",
+      "valor": "Madera: parquet de ingeniería y duela de teca",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "record_type": {
+      "estado": "dato",
+      "valor": "sistema",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "component": {
+      "estado": "dato",
+      "valor": "PIS"
+    },
+    "subcategory": {
+      "estado": "dato",
+      "valor": "Revestimiento de madera (parquet de ingeniería y madera maciza)",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "country": {
+      "estado": "dato",
+      "valor": "CR",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "manufacturer": {
+      "estado": "dato",
+      "valor": "Parador (Austria) y otros para parquet; teca de plantaciones nacionales",
+      "fuentes": [
+        {
+          "ref": "R06"
+        },
+        {
+          "ref": "R43"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "supplier": {
+      "estado": "dato",
+      "valor": "Hacienda El Tecal; Tech Deck and Flooring",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "description": {
+      "estado": "dato",
+      "valor": "Capa noble de madera sobre núcleo multicapa (contrachapado o HDF), o duela maciza de especies tropicales densas como la teca; se instala flotante o adherida con barrera de vapor y junta de expansión perimetral.",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "keywords": {
+      "estado": "dato",
+      "valor": [
+        "parquet de ingeniería",
+        "teca",
+        "duela",
+        "capa noble",
+        "HDF",
+        "barrera de vapor",
+        "junta de expansión",
+        "termitas"
+      ],
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "main_material": {
+      "estado": "dato",
+      "valor": "Madera (roble, teca, nogal, fresno) sobre núcleo multicapa, o teca maciza",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "secondary_materials": {
+      "estado": "dato",
+      "valor": [
+        "Barrera de vapor",
+        "espuma o base acústica",
+        "adhesivo elástico (instalación pegada)",
+        "barniz de poliuretano o aceite natural",
+        "zócalos"
+      ],
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "layers": {
+      "estado": "dato",
+      "valor": [
+        "1) Barrera de vapor sobre losa",
+        "2) capa de instalación: base flotante o adhesivo elástico",
+        "3) parquet de ingeniería o duela maciza",
+        "4) acabado (aceite o poliuretano)",
+        "+ junta de expansión perimetral bajo zócalo"
+      ],
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "total_thickness": {
+      "estado": "dato",
+      "min": 11.5,
+      "max": 20.0,
+      "calificador": "rango",
+      "unidad": "mm",
+      "fuentes": [
+        {
+          "ref": "R06"
+        },
+        {
+          "ref": "R44"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Parquet 11,5–15 mm; duela maciza 15–20 mm."
+    },
+    "commercial_dimensions": {
+      "estado": "dato",
+      "valor": "Parquet Parador 2 200×185 mm (11,5–13 mm) y 1 882×190 mm (15 mm); capa noble 2–6 mm; duela maciza 15–20 mm",
+      "fuentes": [
+        {
+          "ref": "R44"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "density": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "surface_mass": {
+      "estado": "dato",
+      "valor_texto_original": "Teca ≈ 600–700 kg/m³; parquet ≈ 7–9 kg/m²",
+      "fuentes": [
+        {
+          "ref": "R08"
+        },
+        {
+          "ref": "R45"
+        }
+      ],
+      "evidencia": "E4"
+    },
+    "surface_finish": {
+      "estado": "dato",
+      "valor": "Aceite natural, barniz o laca de poliuretano; cepillado o raspado a mano",
+      "fuentes": [
+        {
+          "ref": "R43"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "support_system": {
+      "estado": "dato",
+      "valor": "Losa o contrapiso seco y nivelado; entramado de madera elevado",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "fastening": {
+      "estado": "dato",
+      "valor": "Flotante con sistema clic (sin adhesivo) o adherida con adhesivo elástico",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "joints_seals": {
+      "estado": "dato",
+      "valor": "Junta de expansión perimetral obligatoria bajo el zócalo; cuñas de expansión durante la instalación; perfiles de transición",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "installation_sequence": {
+      "estado": "dato",
+      "valor": "Verificar humedad y planitud de la losa · barrera de vapor · base acústica (flotante) o adhesivo elástico (adherido) · colocar con cuñas y junta perimetral de 10–15 mm · zócalos y perfiles · en maciza: lijado y acabado en sitio.",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "tools_labor": {
+      "estado": "dato",
+      "valor": "Empresa del rubro; sierras, higrómetro, lijadora de piso (maciza), cuñas.",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "PENDIENTE: rendimiento en m²/jornada."
+    },
+    "critical_point": {
+      "estado": "dato",
+      "valor": "Control de humedad (barrera de vapor y HR ambiente) y junta perimetral: evitan abombamiento y hongos.",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "recommended_uses": {
+      "estado": "dato",
+      "valor": [
+        "Dormitorios, salas y áreas sociales",
+        "hospitalidad de gama media-alta y alta"
+      ],
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "building_types": {
+      "estado": "dato",
+      "valor": [
+        "Vivienda",
+        "Comercial"
+      ],
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Hospitalidad y oficinas de alto nivel."
+    },
+    "location": {
+      "estado": "dato",
+      "valor": "Interior",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "El deck exterior es otro sistema."
+    },
+    "climates": {
+      "estado": "dato",
+      "valor": "Ambientes con humedad relativa 35–65 % y 17–25 °C; climatizados en zonas muy húmedas",
+      "fuentes": [
+        {
+          "ref": "R06"
+        },
+        {
+          "ref": "R43"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "En época lluviosa la HR supera el 80 % en buena parte del país."
+    },
+    "imn_subregions": {
+      "estado": "dato",
+      "valor_texto_original": "Solo con HR 35–65 % o climatizado; en época lluviosa la HR supera el 80 % en buena parte del país.",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "compatibility": {
+      "estado": "dato",
+      "valor": "Compatible con piso radiante (según fabricante); incompatible con humedad ascendente sin barrera de vapor",
+      "fuentes": [
+        {
+          "ref": "R06"
+        },
+        {
+          "ref": "R43"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "use_restrictions": {
+      "estado": "dato",
+      "valor": "No recomendado en baños, cocinas ni áreas húmedas; sensible a agua en exceso, termitas y humedad relativa alta",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "labor_specialization": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Oficio menos extendido, concentrado en empresas del rubro."
+    },
+    "installation_complexity": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Flotante sencillo; adherido y macizo más exigentes."
+    },
+    "national_availability": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "installation_time": {
+      "estado": "dato",
+      "valor": 2,
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Flotante rápido; maciza con lijado y acabado en sitio más lenta."
+    },
+    "relative_cost": {
+      "estado": "dato",
+      "valor": 5,
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Entre los más altos de las soluciones analizadas."
+    },
+    "price_range": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "R43"
+        },
+        {
+          "ref": "R46"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Precio solo bajo cotización."
+    },
+    "mechanical_resistance": {
+      "estado": "dato",
+      "valor": "Dureza Janka teca ≈ 4 400 N; roble ≈ 5 400 N",
+      "fuentes": [
+        {
+          "ref": "R47"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "impact_resistance": {
+      "estado": "dato",
+      "valor": "Media: se marca con impactos y tacones",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "abrasion_resistance": {
+      "estado": "dato",
+      "valor": "Media; depende del acabado (restaurable por lijado)",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "durability_years": {
+      "estado": "dato",
+      "valor_texto_original": "25–50+",
+      "fuentes": [
+        {
+          "ref": "R06"
+        },
+        {
+          "ref": "R48"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Con lijados y mantenimiento; maciza más larga."
+    },
+    "water_absorption": {
+      "estado": "no_disponible",
+      "evidencia": "E1",
+      "nota": "Higroscópica: contenido de humedad de equilibrio 10–14 % según ambiente."
+    },
+    "moisture_resistance": {
+      "estado": "dato",
+      "valor": 2,
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "condensation_risk": {
+      "estado": "dato",
+      "valor": 1,
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Superficie tibia."
+    },
+    "corrosion_resistance": {
+      "estado": "no_aplica",
+      "evidencia": "E1",
+      "nota": "Riesgo biológico (termitas, hongos) en lugar de corrosión."
+    },
+    "uv_resistance": {
+      "estado": "dato",
+      "valor": 2,
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Cambia de tono con la luz solar."
+    },
+    "marine_environment": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Solo interior climatizado."
+    },
+    "vapor_permeability": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "thermal_conductivity": {
+      "estado": "dato",
+      "min": 0.13,
+      "max": 0.18,
+      "calificador": "rango",
+      "unidad": "W/(m·K)",
+      "fuentes": [
+        {
+          "ref": "R08"
+        }
+      ],
+      "evidencia": "E3",
+      "nota": "Madera de 500–700 kg/m³."
+    },
+    "specific_heat": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "thermal_resistance": {
+      "estado": "dato",
+      "min": 0.07,
+      "max": 0.11,
+      "calificador": "rango",
+      "unidad": "m²·K/W",
+      "fuentes": [
+        {
+          "ref": "R08"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Para 13–15 mm (e/λ)."
+    },
+    "u_value": {
+      "estado": "no_aplica",
+      "evidencia": "E1"
+    },
+    "solar_reflectance": {
+      "estado": "no_disponible",
+      "evidencia": "E1"
+    },
+    "thermal_emittance": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "sri": {
+      "estado": "no_disponible",
+      "evidencia": "E1"
+    },
+    "sound_insulation": {
+      "estado": "dato",
+      "valor_texto_original": "Mejora de ruido de impacto con base acústica (ΔLw ≈ 15–20 dB)",
+      "fuentes": [
+        {
+          "ref": "R42"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "sound_absorption": {
+      "estado": "dato",
+      "min": 0.05,
+      "max": 0.1,
+      "calificador": "rango",
+      "unidad": "NRC",
+      "fuentes": [
+        {
+          "ref": "R35"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Texto original: ≈ 0,05–0,10 (αw)"
+    },
+    "fire_reaction": {
+      "estado": "dato",
+      "valor": "Dfl-s1 (madera ≥ 400 kg/m³); Cfl-s1 con tratamiento",
+      "fuentes": [
+        {
+          "ref": "R11"
+        },
+        {
+          "ref": "R49"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "fire_resistance": {
+      "estado": "no_aplica",
+      "evidencia": "E1"
+    },
+    "smoke_class": {
+      "estado": "dato",
+      "valor": "s1",
+      "fuentes": [
+        {
+          "ref": "R11"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "voc_emissions": {
+      "estado": "dato",
+      "valor": 100.0,
+      "calificador": "≤",
+      "unidad": "g/L",
+      "fuentes": [
+        {
+          "ref": "R50"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Texto original: < 100 (acabados de poliuretano base agua) · Acabados solventados emiten más."
+    },
+    "hazardous_substances": {
+      "estado": "dato",
+      "valor": [
+        "Formaldehído en núcleos HDF (clase E1/E0)",
+        "preservantes contra termitas"
+      ],
+      "fuentes": [
+        {
+          "ref": "R51"
+        },
+        {
+          "ref": "R37"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "cleanability": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "No admite agua en exceso."
+    },
+    "accessibility": {
+      "estado": "dato",
+      "valor": "Superficie firme y tibia; cuidar transiciones con otros pisos",
+      "fuentes": [
+        {
+          "ref": "R18"
+        }
+      ],
+      "evidencia": "E4"
+    },
+    "healthcare_use": {
+      "estado": "dato",
+      "valor": "No",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Juntas y porosidad no asépticas."
+    },
+    "maintenance_frequency": {
+      "estado": "dato",
+      "valor": 12,
+      "calificador": "=",
+      "unidad": "meses",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Limpieza semanal; inspección anual contra termitas; reaceitado o lijado cada varios años."
+    },
+    "maintenance_actions": {
+      "estado": "dato",
+      "valor": "Paño húmedo sin exceso de agua; productos según acabado (aceite o laca); inspección anual de termitas; lijado y reacabado periódico",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "repairability": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Restaurable mediante lijado."
+    },
+    "replaceability": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "common_failures": {
+      "estado": "dato",
+      "valor": [
+        "Ataque de termitas y hongos",
+        "hinchamiento y abombamiento",
+        "separación de juntas",
+        "desgaste del acabado"
+      ],
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "failure_causes": {
+      "estado": "dato",
+      "valor": [
+        "Especies blandas sin tratamiento",
+        "ausencia de barrera de vapor",
+        "falta de junta perimetral",
+        "humedad relativa alta",
+        "exceso de agua al limpiar"
+      ],
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "corrective_action": {
+      "estado": "dato",
+      "valor": "Tratamiento contra termitas y sustitución de piezas; secado y reinstalación con barrera de vapor; abrir juntas perimetrales; lijado y reacabado",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "origin": {
+      "estado": "dato",
+      "valor": "Nacional",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Teca nacional; parquet de ingeniería importado de Europa. · Valor alterno (national_or_imported): Nacional e importado"
+    },
+    "transport_distance": {
+      "estado": "no_disponible",
+      "evidencia": "E1",
+      "nota": "Teca nacional < 200 km; parquet europeo > 9 000 km."
+    },
+    "recycled_content": {
+      "estado": "no_disponible",
+      "evidencia": "E1"
+    },
+    "renewable": {
+      "estado": "dato",
+      "valor": "Sí",
+      "evidencia": "E4",
+      "nota": "Si proviene de plantación o bosque certificado."
+    },
+    "reusable": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Duela maciza y parquet clic reutilizables."
+    },
+    "recyclable": {
+      "estado": "dato",
+      "valor": "Sí",
+      "evidencia": "E4",
+      "nota": "Biomasa o tableros."
+    },
+    "installation_waste": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Recortes de tablas."
+    },
+    "epd_available": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "evidencia": "E4",
+      "nota": "Parador y marcas europeas publican EPD."
+    },
+    "embodied_carbon": {
+      "estado": "dato",
+      "valor_texto_original": "≈ 0,3 kgCO₂e/kg (fósil, madera aserrada; sin carbono biogénico)",
+      "fuentes": [
+        {
+          "ref": "R16"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Orden de magnitud; almacena carbono biogénico."
+    },
+    "embodied_carbon_modules": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "environmental_certification": {
+      "estado": "dato",
+      "valor": "Condicionado (FSC / PEFC)",
+      "fuentes": [
+        {
+          "ref": "R44"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Parador declara bosques certificados."
+    },
+    "end_of_life": {
+      "estado": "dato",
+      "valor": [
+        "Reutilización"
+      ],
+      "evidencia": "E4",
+      "nota": "O valorización como biomasa."
+    },
+    "cr_region": {
+      "estado": "dato",
+      "valor": "Dormitorios y salas de vivienda de gama alta; hospitalidad y oficinas de alto nivel.",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "seismic_condition": {
+      "estado": "dato",
+      "valor": "No gobierna el acabado; las juntas del piso deben coincidir con las juntas estructurales y de la losa.",
+      "fuentes": [
+        {
+          "ref": "R19"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "tradition_type": {
+      "estado": "dato",
+      "valor": "Tradicional",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "La duela de madera es tradicional; el parquet de ingeniería, contemporáneo."
+    },
+    "cr_standard": {
+      "estado": "dato",
+      "valor": "Sin norma nacional localizada en las fuentes del trabajo; reacción al fuego según EN 13501-1. Ley 7600 y su reglamento (superficie firme, estable y antideslizante en rutas accesibles).",
+      "fuentes": [
+        {
+          "ref": "R20"
+        }
+      ],
+      "evidencia": "E3",
+      "nota": "PENDIENTE: verificar normas INTE de madera."
+    },
+    "plan_requirements": {
+      "estado": "dato",
+      "valor": "Especificar especie, espesor de capa noble, tipo de instalación, barrera de vapor, acabado y tratamiento contra termitas.",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "advantages": {
+      "estado": "dato",
+      "valor": "Único recurso renovable; almacena carbono; superficie tibia y acústica; restaurable por lijado; teca nacional.",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "limitations": {
+      "estado": "dato",
+      "valor": "Costo más alto; sensible a agua, termitas y HR alta; no apto para áreas húmedas ni salud; precio solo bajo cotización.",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "graphics": {
+      "estado": "dato",
+      "valor": [
+        "Fotografías de la presentación TP1 · PENDIENTE: detalle de barrera de vapor y junta perimetral."
+      ],
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Consignar fuente de cada imagen."
+    },
+    "traffic_level": {
+      "estado": "dato",
+      "valor": [
+        "Liviano",
+        "Medio"
+      ],
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "slip_resistance": {
+      "estado": "dato",
+      "valor": "R9 (barnizado)",
+      "fuentes": [
+        {
+          "ref": "R41"
+        }
+      ],
+      "evidencia": "E4"
+    },
+    "chemical_resistance": {
+      "estado": "dato",
+      "valor": "Baja",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "stain_resistance": {
+      "estado": "dato",
+      "valor": "Media (según acabado)",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "substrate": {
+      "estado": "dato",
+      "valor": [
+        "Losa de concreto seca con barrera de vapor",
+        "contrapiso nivelado",
+        "entramado de madera"
+      ],
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "adhesive": {
+      "estado": "dato",
+      "valor": "Sin adhesivo (clic flotante) o adhesivo elástico de poliuretano o silano (adherido)",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "installation_thickness": {
+      "estado": "dato",
+      "min": 11.5,
+      "max": 20.0,
+      "calificador": "rango",
+      "unidad": "mm",
+      "fuentes": [
+        {
+          "ref": "R06"
+        },
+        {
+          "ref": "R43"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "joint_requirements": {
+      "estado": "dato",
+      "valor": "Junta de expansión perimetral 10–15 mm oculta bajo zócalo; juntas de expansión en umbrales y tramos largos",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E4"
+    },
+    "accessible_route": {
+      "estado": "dato",
+      "valor": "Sí",
+      "fuentes": [
+        {
+          "ref": "R18"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Con transiciones enrasadas."
+    }
+  },
+  "fuentes": [
+    {
+      "id": "PROPIO",
+      "cita": "Elaboración propia del estudiante (TP1).",
+      "tipo": "elaboracion_propia"
+    },
+    {
+      "id": "R01",
+      "cita": "TP1 Pisos – documento ampliado y presentación (Sáenz, 2026)"
+    },
+    {
+      "id": "R06",
+      "cita": "DOC"
+    },
+    {
+      "id": "R08",
+      "cita": "ISO 10456 (valores de diseño tabulados)"
+    },
+    {
+      "id": "R11",
+      "cita": "EN 13501-1"
+    },
+    {
+      "id": "R16",
+      "cita": "ICE Database v3.0 (Universidad de Bath)"
+    },
+    {
+      "id": "R18",
+      "cita": "Ley 7600"
+    },
+    {
+      "id": "R19",
+      "cita": "Criterio constructivo"
+    },
+    {
+      "id": "R20",
+      "cita": "Ver hoja Referencias"
+    },
+    {
+      "id": "R35",
+      "cita": "Tablas de absorción"
+    },
+    {
+      "id": "R37",
+      "cita": "fichas de fabricantes"
+    },
+    {
+      "id": "R41",
+      "cita": "DIN 51130"
+    },
+    {
+      "id": "R42",
+      "cita": "Fichas de fabricantes"
+    },
+    {
+      "id": "R43",
+      "cita": "Tech Deck and Flooring"
+    },
+    {
+      "id": "R44",
+      "cita": "Tech Deck and Flooring (Parador)"
+    },
+    {
+      "id": "R45",
+      "cita": "fichas Parador"
+    },
+    {
+      "id": "R46",
+      "cita": "Hacienda El Tecal"
+    },
+    {
+      "id": "R47",
+      "cita": "Wood Handbook (USDA FPL)"
+    },
+    {
+      "id": "R48",
+      "cita": "Tech Deck and Flooring (garantía 25 años)"
+    },
+    {
+      "id": "R49",
+      "cita": "Decisión 2007/348/CE"
+    },
+    {
+      "id": "R50",
+      "cita": "Fichas de acabados"
+    },
+    {
+      "id": "R51",
+      "cita": "EN 13986"
+    }
+  ]
+}

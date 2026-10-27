@@ -1,0 +1,1407 @@
+{
+  "schema_version": "1.0",
+  "meta": {
+    "id": "CUB-TAS-06",
+    "componente": "CUB",
+    "autor": "Jorge Rodríguez",
+    "estado_revision": "borrador",
+    "fecha_actualizacion": "2026-10-26",
+    "id_legado": "CUB-TAS-01",
+    "origen_migracion": {
+      "archivo": "TP1_Ficha_Jorge_Cubiertas_250927.xlsx",
+      "hoja": "Ficha CUB-TAS-01"
+    }
+  },
+  "campos": {
+    "id": {
+      "estado": "dato",
+      "valor": "CUB-TAS-06",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "name": {
+      "estado": "dato",
+      "valor": "Cubierta de teja asfáltica (shingle) laminada/arquitectónica de fibra de vidrio sobre entablado OSB/plywood",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ]
+    },
+    "record_type": {
+      "estado": "dato",
+      "valor": "sistema",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ]
+    },
+    "component": {
+      "estado": "dato",
+      "valor": "CUB"
+    },
+    "subcategory": {
+      "estado": "dato",
+      "valor": "Teja asfáltica",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ]
+    },
+    "country": {
+      "estado": "dato",
+      "valor": "CR",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ]
+    },
+    "manufacturer": {
+      "estado": "dato",
+      "valor": "Varios: Owens Corning (Oakridge/Duration), GAF (Timberline HDZ), IKO (Cambridge/Dynasty), Atlas Roofing (Pinnacle/ProLam), CertainTeed (Landmark), Tegola",
+      "fuentes": [
+        {
+          "ref": "R70"
+        },
+        {
+          "ref": "R71"
+        },
+        {
+          "ref": "R72"
+        },
+        {
+          "ref": "R73"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Sistema genérico; en CR se comercializan principalmente marcas importadas de EE.UU./Canadá. Los datos técnicos provienen de fichas de fabricante; no se verificó ficha de CertainTeed ni Tegola."
+    },
+    "supplier": {
+      "estado": "dato",
+      "valor": "SevenRoof (Atlas Roofing, Cartago) | Tecnotechos (GAF) | Cobos Costa Rica (IKO) | Instalaciones Dalorzo | Ferreterías (EPA, Colono) según disponibilidad",
+      "fuentes": [
+        {
+          "ref": "R73"
+        },
+        {
+          "ref": "R74"
+        },
+        {
+          "ref": "R75"
+        },
+        {
+          "ref": "R76"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "EPA CR tiene categoría 'Tejas asfálticas y plásticas' pero su sitio no pudo consultarse para verificar marcas/precios. Confirmar existencias con cada distribuidor."
+    },
+    "description": {
+      "estado": "dato",
+      "valor": "Sistema de cubierta inclinada formado por tejas asfálticas laminadas (dos capas) con alma de velo de fibra de vidrio, saturadas y recubiertas de asfalto y protegidas con gránulos minerales cerámicos; se clavan sobre un entablado continuo de OSB o plywood cubierto con fieltro asfáltico, subcapa sintética o membrana autoadherible. Autosellado por bandas de adhesivo activadas por calor; aspecto tridimensional tipo pizarra/madera.",
+      "fuentes": [
+        {
+          "ref": "R71"
+        },
+        {
+          "ref": "R72"
+        },
+        {
+          "ref": "R77"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "keywords": {
+      "estado": "dato",
+      "valor": [
+        "teja asfáltica",
+        "shingle",
+        "teja laminada",
+        "teja arquitectónica",
+        "fibra de vidrio",
+        "gránulos minerales",
+        "autosellante",
+        "OSB",
+        "fieltro",
+        "membrana autoadherible",
+        "cubierta inclinada",
+        "ASTM D3462"
+      ],
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ]
+    },
+    "main_material": {
+      "estado": "dato",
+      "valor": "Teja de asfalto oxidado con velo de fibra de vidrio (ASTM D3462) y gránulos minerales cerámicos; autosellante tipo 1 (ASTM D3018)",
+      "fuentes": [
+        {
+          "ref": "R71"
+        },
+        {
+          "ref": "R72"
+        },
+        {
+          "ref": "R78"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Composición típica de la teja (EPD ARMA, % del sistema): asfalto 18 %, velo de fibra de vidrio 2 %, gránulos minerales 27 %, estabilizador mineral (relleno) 34 %."
+    },
+    "secondary_materials": {
+      "estado": "dato",
+      "valor": [
+        "Entablado OSB o plywood",
+        "Fieltro asfáltico (ASTM D226/D4869) o subcapa sintética (ASTM D8257)",
+        "Membrana autoadherible (ASTM D1970)",
+        "Clavos galvanizados/acero inoxidable (ASTM F1667)",
+        "Cemento asfáltico (ASTM D4586)",
+        "Tapajuntas/goterón metálico",
+        "Teja de arranque y de cumbrera"
+      ],
+      "fuentes": [
+        {
+          "ref": "R77"
+        },
+        {
+          "ref": "R79"
+        },
+        {
+          "ref": "R78"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "layers": {
+      "estado": "dato",
+      "valor": [
+        "Estructura (cerchas/clavadores de madera o perfiles metálicos)",
+        "Entablado OSB ≥11,1 mm o plywood ≥9,5 mm",
+        "Goterón metálico en alero",
+        "Membrana autoadherible en aleros, limahoyas y penetraciones",
+        "Fieltro/subcapa sintética en toda la superficie",
+        "Hilada de arranque",
+        "Tejas laminadas clavadas",
+        "Cumbrera con teja de cumbrera y ventilación"
+      ],
+      "fuentes": [
+        {
+          "ref": "R77"
+        },
+        {
+          "ref": "R79"
+        },
+        {
+          "ref": "R80"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "El aislamiento térmico, si se usa, se coloca bajo el entablado (cielo o entre cerchas) con cámara ventilada."
+    },
+    "total_thickness": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "R77"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "No se verificó espesor de la teja laminada. Entablado mínimo: OSB 7/16\" (11,1 mm) o plywood 3/8\" (9,5 mm) según Owens Corning; SevenRoof CR recomienda OSB ≥11 mm."
+    },
+    "commercial_dimensions": {
+      "estado": "dato",
+      "valor": "Teja laminada ≈337 × 1000 mm (13 1/4\" × 39 3/8\"), exposición 143 mm, 64 piezas y 3 paquetes por cuadrado (≈9,1–9,3 m²); IKO Cambridge 349 × 1038 mm, exposición 149 mm, 20 piezas/paquete = 3,1 m²; OC México 30,5 × 91,4 cm, 3,05 m²/paquete",
+      "fuentes": [
+        {
+          "ref": "R71"
+        },
+        {
+          "ref": "R72"
+        },
+        {
+          "ref": "R70"
+        },
+        {
+          "ref": "R81"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "density": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "surface_mass": {
+      "estado": "dato",
+      "valor": 11,
+      "calificador": "=",
+      "unidad": "kg/m²",
+      "fuentes": [
+        {
+          "ref": "R78"
+        },
+        {
+          "ref": "R82"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Teja sola ≈11 kg/m² (89 % de 12,39 kg/m² del sistema instalado de la EPD ARMA, que incluye fieltro, membrana, arranque y cumbrera). Pesajes independientes de tejas laminadas: 188–244 lb/cuadrado (≈9,2–11,9 kg/m²). No incluye el entablado OSB (≈6–7 kg/m², no verificado)."
+    },
+    "surface_finish": {
+      "estado": "dato",
+      "valor": "Gránulos minerales cerámicos coloreados (varios colores, con gránulos antialgas con cobre en muchas líneas); aspecto laminado 3D tipo pizarra o madera; reverso con arena/talco",
+      "fuentes": [
+        {
+          "ref": "R71"
+        },
+        {
+          "ref": "R81"
+        },
+        {
+          "ref": "R73"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "support_system": {
+      "estado": "dato",
+      "valor": "Entablado continuo y sólido (plywood ≥9,5 mm u OSB ≥11,1 mm, APA) con separación 3–6 mm entre tableros, sobre cerchas o clavadores de madera o perfiles metálicos",
+      "fuentes": [
+        {
+          "ref": "R77"
+        },
+        {
+          "ref": "R79"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "La teja asfáltica exige entablado sólido; no puede instalarse sobre clavadores abiertos."
+    },
+    "fastening": {
+      "estado": "dato",
+      "valor": "Clavado: 4 clavos por teja (6 en zonas de viento alto o pendientes >21:12, más cemento asfáltico); clavos galvanizados, inoxidables o de aluminio, vástago ≥12 ga (2,7 mm), cabeza ≥9,5 mm, penetración ≥19 mm en el entablado o 6 mm a través (ASTM F1667); más autosellado por banda adhesiva",
+      "fuentes": [
+        {
+          "ref": "R77"
+        },
+        {
+          "ref": "R79"
+        },
+        {
+          "ref": "R72"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "joints_seals": {
+      "estado": "dato",
+      "valor": "Traslape escalonado de hiladas con bandas de sellante autoadherente activadas por calor; hilada de arranque en aleros; tejas de cumbrera; limahoyas abiertas metálicas o cerradas/tejidas con membrana; tapajuntas escalonados en muros; botaguas y goterón metálico; cemento asfáltico en puntos singulares",
+      "fuentes": [
+        {
+          "ref": "R77"
+        },
+        {
+          "ref": "R72"
+        },
+        {
+          "ref": "R71"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "installation_sequence": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "tools_labor": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "critical_point": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "recommended_uses": {
+      "estado": "dato",
+      "valor": [
+        "Viviendas unifamiliares y condominios",
+        "Cabañas y hoteles de baja altura",
+        "Comercio de baja altura",
+        "Iglesias y edificios institucionales pequeños",
+        "Cubiertas inclinadas con geometría compleja (limatesas, buhardillas)",
+        "Re-techado"
+      ],
+      "fuentes": [
+        {
+          "ref": "R70"
+        },
+        {
+          "ref": "R74"
+        },
+        {
+          "ref": "R73"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "building_types": {
+      "estado": "dato",
+      "valor": [
+        "Vivienda",
+        "Comercial",
+        "Institucional"
+      ],
+      "fuentes": [
+        {
+          "ref": "R70"
+        },
+        {
+          "ref": "R74"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Uso predominante residencial; comercial e institucional de baja altura. No habitual en industrial por las grandes luces y baja pendiente."
+    },
+    "location": {
+      "estado": "dato",
+      "valor": "Exterior",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "climates": {
+      "estado": "dato",
+      "valor": "Tropical húmedo lluvioso (con antialgas y ventilación) | Tropical seco | Zonas de montaña/frías | Zonas de viento alto (con clasificación D7158 Clase H/D3161 Clase F y 6 clavos) | Costero (condicionado)",
+      "fuentes": [
+        {
+          "ref": "R83"
+        },
+        {
+          "ref": "R70"
+        },
+        {
+          "ref": "R84"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "ARMA indica que el alga crece en climas húmedos y costeros; conviene especificar gránulos antialgas. El autosellado requiere calor, lo que favorece climas cálidos."
+    },
+    "imn_subregions": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "compatibility": {
+      "estado": "dato",
+      "valor": "Compatible con entablado de madera (OSB/plywood), estructura de madera o acero, fieltros y membranas asfálticas, tapajuntas de acero galvanizado, aluminio o cobre y aislamientos bajo entablado. Evitar solventes y selladores no asfálticos incompatibles, lavado a presión y contacto con aceites; evitar colocar sobre entablado húmedo.",
+      "fuentes": [
+        {
+          "ref": "R77"
+        },
+        {
+          "ref": "R83"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "use_restrictions": {
+      "estado": "pendiente",
+      "fuentes": [
+        {
+          "ref": "R79"
+        },
+        {
+          "ref": "R77"
+        },
+        {
+          "ref": "R72"
+        },
+        {
+          "ref": "R85"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "labor_specialization": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "R77"
+        },
+        {
+          "ref": "R71"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Técnica de clavado sencilla, pero las garantías exigen instaladores capacitados y precisión en la línea de clavado, limahoyas, tapajuntas y ventilación; en CR la instalan contratistas especializados."
+    },
+    "installation_complexity": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "R77"
+        },
+        {
+          "ref": "R79"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Muchos pasos (entablado, subcapa, membrana, arranque, hiladas, cumbrera, tapajuntas) aunque con herramientas simples; se adapta bien a geometrías complejas."
+    },
+    "national_availability": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "R73"
+        },
+        {
+          "ref": "R74"
+        },
+        {
+          "ref": "R75"
+        },
+        {
+          "ref": "R76"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Varios distribuidores/instaladores importan marcas de EE.UU./Canadá (Atlas, GAF, IKO); disponibilidad en ferreterías masivas limitada y no verificada."
+    },
+    "installation_time": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Más lento que lámina metálica por la colocación del entablado, subcapa y piezas pequeñas; más rápido que teja de barro o concreto."
+    },
+    "relative_cost": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "R74"
+        },
+        {
+          "ref": "R86"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Material competitivo, pero el sistema completo (OSB, subcapa, membrana, accesorios y mano de obra) lo sitúa por encima de la lámina ondulada y cerca de o por debajo de la teja de barro."
+    },
+    "price_range": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "R86"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "No se pudo verificar precio publicado en CR (sitio de EPA no accesible; instaladores CR no publican precios). Referencia México: teja Owens Corning Supreme (3 lengüetas, no laminada) MXN 769 por paquete de 3,05 m² (≈MXN 252/m², solo material). Solicitar cotización a SevenRoof, Tecnotechos o Cobos."
+    },
+    "mechanical_resistance": {
+      "estado": "dato",
+      "valor": "Cumple ASTM D3462 (requisitos físicos de tejas de fibra de vidrio: resistencia a desgarre, a la tracción, pliegue, etc.) y ASTM D3018 Tipo 1 (autosellante)",
+      "fuentes": [
+        {
+          "ref": "R71"
+        },
+        {
+          "ref": "R72"
+        },
+        {
+          "ref": "R70"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "impact_resistance": {
+      "estado": "dato",
+      "valor": "Líneas estándar sin clasificación; líneas de impacto UL 2218 Clase 4 disponibles (p.ej. Owens Corning Duration STORM)",
+      "fuentes": [
+        {
+          "ref": "R87"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Timberline HDZ, Oakridge y Cambridge no declaran UL 2218 en sus fichas estándar."
+    },
+    "abrasion_resistance": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "La protección superficial la dan los gránulos minerales; la pérdida de gránulos es un indicador de desgaste. No se encontró ensayo de abrasión normalizado."
+    },
+    "durability_years": {
+      "estado": "dato",
+      "valor": 30,
+      "calificador": "=",
+      "unidad": "años",
+      "fuentes": [
+        {
+          "ref": "R88"
+        },
+        {
+          "ref": "R73"
+        },
+        {
+          "ref": "R70"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "InterNACHI: teja arquitectónica ≈30 años (3 lengüetas ≈20). Garantías de fabricante: 30 años a 'de por vida limitada'; SevenRoof indica 25–50 años según modelo. En trópico húmedo la vida real depende de ventilación y mantenimiento."
+    },
+    "water_absorption": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "No se encontró valor publicado en fichas técnicas; la teja es esencialmente impermeable."
+    },
+    "moisture_resistance": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "R77"
+        },
+        {
+          "ref": "R83"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "La teja y la subcapa son impermeables, pero el entablado de madera es sensible a humedad prolongada y el alga/musgo proliferan en climas húmedos."
+    },
+    "condensation_risk": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "R89"
+        },
+        {
+          "ref": "R77"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "El entablado de madera amortigua la condensación frente a lámina metálica, pero sin ventilación de ático adecuada se genera humedad que causa ampollas, ondulación y deterioro del OSB."
+    },
+    "corrosion_resistance": {
+      "estado": "dato",
+      "valor": 5,
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "La teja no es metálica y no se corroe; el riesgo se concentra en clavos y tapajuntas, que deben ser galvanizados, inoxidables o de aluminio."
+    },
+    "uv_resistance": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "R89"
+        },
+        {
+          "ref": "R73"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Los gránulos cerámicos protegen el asfalto de la radiación UV; con el envejecimiento aparecen microfisuras (craze cracking) y pérdida de gránulos por UV y ciclos térmicos."
+    },
+    "marine_environment": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "R83"
+        },
+        {
+          "ref": "R77"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "La teja no se corroe, pero en la costa conviene usar clavos de acero inoxidable y tapajuntas de aluminio o inoxidable, especificar gránulos antialgas y verificar la clasificación de viento. Las fichas consultadas no traen exclusiones costeras."
+    },
+    "vapor_permeability": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "thermal_conductivity": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "No se encontró λ publicado; ver resistencia térmica."
+    },
+    "specific_heat": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "thermal_resistance": {
+      "estado": "dato",
+      "valor": 0.08,
+      "calificador": "=",
+      "unidad": "m²·K/W",
+      "fuentes": [
+        {
+          "ref": "R90"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "R = 0,44 h·ft²·°F/Btu para teja asfáltica (≈0,077 m²·K/W). Solo la teja; no incluye entablado ni aislamiento."
+    },
+    "u_value": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Depende de la composición completa del ensamble (entablado, cámara, aislamiento, cielo)."
+    },
+    "solar_reflectance": {
+      "estado": "dato",
+      "min": 0.18,
+      "max": 0.2,
+      "calificador": "rango",
+      "unidad": "0–1",
+      "fuentes": [
+        {
+          "ref": "R81"
+        },
+        {
+          "ref": "R91"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Valores envejecidos CRRC de la línea 'COOL' Duration de Owens Corning. DOE indica que las tejas 'cool' tienen SR ≤0,30; los colores oscuros convencionales son menores (valor no verificado)."
+    },
+    "thermal_emittance": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "sri": {
+      "estado": "dato",
+      "min": 16.0,
+      "max": 19.0,
+      "calificador": "rango",
+      "unidad": "adimensional",
+      "fuentes": [
+        {
+          "ref": "R81"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Línea Duration COOL (CRRC). Las tejas oscuras convencionales tienen SRI menor. GAF Timberline HDZ solo certificado ENERGY STAR en color blanco."
+    },
+    "sound_insulation": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "sound_absorption": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "fire_reaction": {
+      "estado": "dato",
+      "valor": "Clase A (UL 790 / ASTM E108)",
+      "fuentes": [
+        {
+          "ref": "R71"
+        },
+        {
+          "ref": "R72"
+        },
+        {
+          "ref": "R70"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Clasificación de exposición a fuego exterior de la cubierta; depende del entablado y subcapa del ensayo."
+    },
+    "fire_resistance": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "No aplica una clasificación de resistencia al fuego en minutos al sistema de teja por sí solo."
+    },
+    "smoke_class": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "voc_emissions": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "La teja no declara COV; los cementos asfálticos y selladores con solvente sí emiten COV (verificar en su ficha)."
+    },
+    "hazardous_substances": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Tejas de fibra de vidrio modernas no contienen asbesto; los humos de asfalto caliente y el polvo del corte/retiro requieren protección. Verificar hoja de seguridad del fabricante."
+    },
+    "cleanability": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "R83"
+        }
+      ],
+      "evidencia": "E3",
+      "nota": "Se limpia con solución 50:50 de cloro y agua y enjuague a baja presión; no se debe usar hidrolavadora porque desprende gránulos."
+    },
+    "accessibility": {
+      "estado": "no_aplica",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "directamente (componente de cubierta)"
+    },
+    "healthcare_use": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Posible en edificios de salud de baja altura con cubierta inclinada; en CR los centros de salud suelen usar lámina metálica o losa. Requiere control de algas y ventilación."
+    },
+    "maintenance_frequency": {
+      "estado": "dato",
+      "valor": 6,
+      "calificador": "=",
+      "unidad": "meses",
+      "fuentes": [
+        {
+          "ref": "R83"
+        },
+        {
+          "ref": "R89"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Inspección semestral (antes y después de la estación lluviosa) y tras tormentas o vientos fuertes; limpieza de canoas y hojas con mayor frecuencia bajo árboles."
+    },
+    "maintenance_actions": {
+      "estado": "dato",
+      "valor": "Inspección visual de tejas levantadas, faltantes, ampolladas u onduladas; revisión de tapajuntas, cumbreras y sellos en penetraciones; limpieza de hojas y canoas con soplador; poda de ramas; limpieza de algas/musgo con cloro diluido 50:50 y enjuague a baja presión (sin hidrolavadora); verificación de ventilación del ático; reposición puntual de tejas y resellado con cemento asfáltico",
+      "fuentes": [
+        {
+          "ref": "R83"
+        },
+        {
+          "ref": "R89"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "repairability": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Tejas individuales se sustituyen levantando las hiladas superiores y reclavando; el reto es igualar el color en tejas envejecidas."
+    },
+    "replaceability": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Re-techado sencillo con herramientas manuales; el entablado se reutiliza si está sano."
+    },
+    "common_failures": {
+      "estado": "dato",
+      "valor": [
+        "Desprendimiento/voladura de tejas por viento",
+        "Falla del sello adhesivo",
+        "Pérdida de gránulos",
+        "Ampollas",
+        "Ondulación (curling)",
+        "Microfisuras",
+        "Manchas de algas y musgo",
+        "Filtraciones en tapajuntas, limahoyas y penetraciones",
+        "Clavos levantados",
+        "Pudrición/deformación del entablado OSB"
+      ],
+      "fuentes": [
+        {
+          "ref": "R89"
+        },
+        {
+          "ref": "R83"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "failure_causes": {
+      "estado": "dato",
+      "valor": [
+        "Clavado fuera de la zona indicada o en número insuficiente",
+        "Instalación en frío sin activar el sello",
+        "Ventilación de ático insuficiente",
+        "Humedad atrapada en el entablado",
+        "Envejecimiento por UV y ciclos térmicos",
+        "Granizo",
+        "Sombra y humedad persistente (algas/musgo)",
+        "Tapajuntas mal ejecutados",
+        "Pendiente insuficiente o subcapa inadecuada",
+        "Defectos de fabricación",
+        "Limpieza con hidrolavadora"
+      ],
+      "fuentes": [
+        {
+          "ref": "R89"
+        },
+        {
+          "ref": "R83"
+        },
+        {
+          "ref": "R77"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "corrective_action": {
+      "estado": "dato",
+      "valor": "Sustitución de tejas dañadas y reclavado con 4–6 clavos y cemento asfáltico; resellado de tejas levantadas; reparación o reemplazo de tapajuntas; limpieza antialgas; mejora de la ventilación del ático; en deterioro generalizado, re-techado completo con cambio de subcapa y del OSB afectado",
+      "fuentes": [
+        {
+          "ref": "R77"
+        },
+        {
+          "ref": "R83"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "origin": {
+      "estado": "dato",
+      "valor": "Importado",
+      "fuentes": [
+        {
+          "ref": "R73"
+        },
+        {
+          "ref": "R74"
+        },
+        {
+          "ref": "R75"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Marcas fabricadas en EE.UU./Canadá (Atlas, GAF, IKO, Owens Corning). El OSB/plywood también suele importarse."
+    },
+    "transport_distance": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Importación marítima desde EE.UU. (varios miles de km); distancia exacta no determinada."
+    },
+    "recycled_content": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "R78"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "La EPD de ARMA aplica el enfoque de corte y no declara contenido reciclado."
+    },
+    "renewable": {
+      "estado": "dato",
+      "valor": "No",
+      "fuentes": [
+        {
+          "ref": "R78"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Asfalto derivado del petróleo, fibra de vidrio y minerales; solo el entablado de madera es renovable."
+    },
+    "reusable": {
+      "estado": "dato",
+      "valor": "No",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Las tejas retiradas se dañan al desclavarlas y no se reutilizan en cubiertas."
+    },
+    "recyclable": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "R92"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Se reciclan como asfalto reciclado de tejas (RAS) en mezclas asfálticas de pavimento (673 000 t en EE.UU. en 2022); en CR no se identificó un programa de reciclaje."
+    },
+    "installation_waste": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Recortes en limatesas, limahoyas y bordes; en cubiertas de geometría compleja el desperdicio aumenta; empaques y retiro de techo existente."
+    },
+    "epd_available": {
+      "estado": "dato",
+      "valor": "Sí",
+      "fuentes": [
+        {
+          "ref": "R78"
+        }
+      ],
+      "evidencia": "E3",
+      "nota": "EPD de industria ARMA (UL Environment), emitida en 2023, actualizada en 2024, válida 5 años; varios fabricantes (p.ej. GAF, IKO) publican documentación ambiental propia."
+    },
+    "embodied_carbon": {
+      "estado": "dato",
+      "valor": 4.38,
+      "calificador": "=",
+      "unidad": "kgCO2e/m²",
+      "fuentes": [
+        {
+          "ref": "R78"
+        }
+      ],
+      "evidencia": "E3",
+      "nota": "EPD ARMA, A1–A3 por 1 m² de sistema de teja clavada (12,39 kg/m², incluye subcapa, membrana, arranque y cumbrera). Con construcción y fin de vida: 5,88 kgCO₂e/m². No incluye el entablado OSB ni el transporte a CR."
+    },
+    "embodied_carbon_modules": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "environmental_certification": {
+      "estado": "dato",
+      "valor": "EPD de industria ARMA; ENERGY STAR y CRRC en líneas 'cool' o blancas; posibilidad de aportar a LEED (reflectancia/EPD)",
+      "fuentes": [
+        {
+          "ref": "R78"
+        },
+        {
+          "ref": "R71"
+        },
+        {
+          "ref": "R81"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "end_of_life": {
+      "estado": "dato",
+      "valor": [
+        "Vertedero",
+        "Reciclaje"
+      ],
+      "fuentes": [
+        {
+          "ref": "R78"
+        },
+        {
+          "ref": "R92"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "La EPD asume 100 % a vertedero; el reciclaje en pavimentos existe en EE.UU., pero no se verificó en CR."
+    },
+    "cr_region": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "seismic_condition": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "tradition_type": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "cr_standard": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "plan_requirements": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "advantages": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "limitations": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "graphics": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "minimum_slope": {
+      "estado": "dato",
+      "valor": 17,
+      "calificador": "=",
+      "unidad": "%",
+      "fuentes": [
+        {
+          "ref": "R79"
+        },
+        {
+          "ref": "R77"
+        },
+        {
+          "ref": "R72"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "2:12 (≈17 %; ≈9,5°) con doble subcapa o membrana autoadherible; pendiente normal ≥4:12 (33 %). SevenRoof CR recomienda ≥20 %; OC México indica 20°."
+    },
+    "maximum_length": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "No aplica una longitud máxima de faldón para piezas pequeñas traslapadas; limitada por el drenaje y el diseño de canoas."
+    },
+    "overlap_system": {
+      "estado": "dato",
+      "valor": "Hiladas horizontales traslapadas con exposición de 143–149 mm y desfase de juntas de ≈25 cm (10\") entre hiladas, selladas por bandas adhesivas activadas por calor; subcapa traslapada en sentido del agua (≥5 cm en fieltro; mitad del ancho + 5 cm en doble capa)",
+      "fuentes": [
+        {
+          "ref": "R72"
+        },
+        {
+          "ref": "R71"
+        },
+        {
+          "ref": "R77"
+        },
+        {
+          "ref": "R79"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "waterproofing": {
+      "estado": "dato",
+      "valor": [
+        "Tejas traslapadas autosellantes",
+        "Fieltro asfáltico o subcapa sintética",
+        "Membrana autoadherible en aleros, limahoyas y penetraciones",
+        "Tapajuntas metálicos"
+      ],
+      "fuentes": [
+        {
+          "ref": "R77"
+        },
+        {
+          "ref": "R79"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "wind_uplift": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "R84"
+        },
+        {
+          "ref": "R71"
+        },
+        {
+          "ref": "R70"
+        }
+      ],
+      "evidencia": "E3",
+      "nota": "Se clasifica por velocidad, no por presión: ASTM D3161 Clase F (ensayo a 110 mph ≈177 km/h) y ASTM D7158/UL 2390 Clase H (Vult hasta 190 mph ≈306 km/h). Garantías: 130 mph (≈210 km/h) OC; sin límite GAF con accesorios; 210 km/h IKO Dynasty y Atlas. Verificar contra la presión mínima de 80 kg/m² (≈785 Pa) de los Lineamientos CFIA."
+    },
+    "rain_noise": {
+      "estado": "dato",
+      "valor": 1,
+      "calificador": "=",
+      "unidad": "dB",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Muy bajo: la masa de la teja y el entablado continuo amortiguan el impacto de la lluvia, en contraste con la lámina metálica. No se encontró medición en dB."
+    },
+    "walkability": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "R83"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Transitable con cuidado solo para mantenimiento, con calzado blando y evitando días de calor (se marca) o superficie húmeda con algas (resbaladiza)."
+    },
+    "insulation_compatibility": {
+      "estado": "dato",
+      "valor": [
+        "Fibra de vidrio en cielo o entre cerchas",
+        "Lana mineral",
+        "Poliestireno o poliisocianurato bajo el entablado con cámara ventilada",
+        "Barrera radiante bajo entablado"
+      ],
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "El aislamiento va bajo el entablado; debe preservarse la ventilación del ático exigida por los fabricantes."
+    },
+    "coating_life": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "R81"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Los gránulos no son un recubrimiento separado; garantía contra algas de 10 años en Owens Corning y GAF."
+    },
+    "roof_accessories": {
+      "estado": "dato",
+      "valor": [
+        "Entablado OSB/plywood",
+        "Fieltro o subcapa sintética",
+        "Membrana autoadherible",
+        "Goterón metálico",
+        "Teja de arranque",
+        "Teja de cumbrera",
+        "Ventilación de cumbrera y alero",
+        "Tapajuntas escalonados y botaguas",
+        "Limahoyas metálicas",
+        "Clavos para techo",
+        "Cemento asfáltico",
+        "Canoas y bajantes"
+      ],
+      "fuentes": [
+        {
+          "ref": "R71"
+        },
+        {
+          "ref": "R77"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "GAF exige arranque, protección de entablado, cumbrera y membrana o ventilación de su marca para la garantía extendida."
+    }
+  },
+  "fuentes": [
+    {
+      "id": "PROPIO",
+      "cita": "Elaboración propia del estudiante (TP1).",
+      "tipo": "elaboracion_propia"
+    },
+    {
+      "id": "R70",
+      "cita": "Owens Corning México, Ficha Teja Duration - https://owenscorning.com.mx/wp-content/uploads/2021/01/Ficha-TEJA-DURATION.pdf",
+      "url": "https://owenscorning.com.mx/wp-content/uploads/2021/01/Ficha-TEJA-DURATION.pdf"
+    },
+    {
+      "id": "R71",
+      "cita": "GAF, Timberline HDZ Product Data - https://cms5.revize.com/revize/boroughofhaddonfield/HPC/2024/HPC%202024-0361%20-%2019%20Grove%20St%20-%20Timberline-HDZ-High-Definition-Lifetime-Shingles-Product-Data-1907393.pdf",
+      "url": "https://cms5.revize.com/revize/boroughofhaddonfield/HPC/2024/HPC%202024-0361%20-%2019%20Grove%20St%20-%20Timberline-HDZ-High-Definition-Lifetime-Shingles-Product-Data-1907393.pdf"
+    },
+    {
+      "id": "R72",
+      "cita": "IKO, Cambridge Technical Data Sheet - https://www.iko.com/na/wp-content/uploads/2024/12/4220XXX_IKO_TDS_Cambridge_EN.pdf",
+      "url": "https://www.iko.com/na/wp-content/uploads/2024/12/4220XXX_IKO_TDS_Cambridge_EN.pdf"
+    },
+    {
+      "id": "R73",
+      "cita": "SevenRoof CR (Atlas Roofing), Teja asfáltica - https://www.svnroof.com/teja-asfaltica/",
+      "url": "https://www.svnroof.com/teja-asfaltica/"
+    },
+    {
+      "id": "R74",
+      "cita": "Tecnotechos CR (GAF), Teja asfáltica - https://www.tecnotechos.co.cr/teja-asfaltica/",
+      "url": "https://www.tecnotechos.co.cr/teja-asfaltica/"
+    },
+    {
+      "id": "R75",
+      "cita": "Cobos Costa Rica (IKO), Teja asfáltica - https://www.coboscr.com/en/teja-asfaltica/",
+      "url": "https://www.coboscr.com/en/teja-asfaltica/"
+    },
+    {
+      "id": "R76",
+      "cita": "Instalaciones Dalorzo CR - https://instalaciones-dalorzo.com/",
+      "url": "https://instalaciones-dalorzo.com/"
+    },
+    {
+      "id": "R77",
+      "cita": "Owens Corning, Oakridge Installation Instructions - https://dcpd6wotaa0mb.cloudfront.net/mdms/dms/Roofing/10003280/10003280-Oakridge-and-TruDefinition-Oakridge-Install-Instructions.pdf",
+      "url": "https://dcpd6wotaa0mb.cloudfront.net/mdms/dms/Roofing/10003280/10003280-Oakridge-and-TruDefinition-Oakridge-Install-Instructions.pdf"
+    },
+    {
+      "id": "R78",
+      "cita": "ARMA/UL Environment, EPD Asphalt Shingle Roofing System (Fastened) 2023/2024 - https://www.asphaltroofing.org/wp-content/uploads/2024/02/111.2_ARMA-Asphalt-Shingles.pdf",
+      "url": "https://www.asphaltroofing.org/wp-content/uploads/2024/02/111.2_ARMA-Asphalt-Shingles.pdf"
+    },
+    {
+      "id": "R79",
+      "cita": "Roofing Contractor, IBC codes pertaining to asphalt shingles - https://www.roofingcontractor.com/articles/85865-technical-details-ibc-codes-pertaining-to-asphalt-shingles",
+      "url": "https://www.roofingcontractor.com/articles/85865-technical-details-ibc-codes-pertaining-to-asphalt-shingles"
+    },
+    {
+      "id": "R80",
+      "cita": "SevenRoof CR, Venta e instalación de teja asfáltica - https://www.tejaasfalticacr.com/",
+      "url": "https://www.tejaasfalticacr.com/"
+    },
+    {
+      "id": "R81",
+      "cita": "Owens Corning, TruDefinition Duration COOL Data Sheet - https://pdf.lowes.com/productdocuments/acd39fd0-323f-4c3a-98ed-eebc12326a96/48821546.pdf",
+      "url": "https://pdf.lowes.com/productdocuments/acd39fd0-323f-4c3a-98ed-eebc12326a96/48821546.pdf"
+    },
+    {
+      "id": "R82",
+      "cita": "Roofing Insights, Shingle weight analysis - https://roofinginsights.com/who-makes-the-best-shingles-by-weight/",
+      "url": "https://roofinginsights.com/who-makes-the-best-shingles-by-weight/"
+    },
+    {
+      "id": "R83",
+      "cita": "ARMA, Algae & Moss Prevention and Cleaning - https://www.asphaltroofing.org/algae-moss-prevention-cleaning-asphalt-roofing-systems/",
+      "url": "https://www.asphaltroofing.org/algae-moss-prevention-cleaning-asphalt-roofing-systems/"
+    },
+    {
+      "id": "R84",
+      "cita": "Professional Roofing (NRCA), The wind resistance of shingles (2018) - https://www.professionalroofing.net/Articles/The-wind-resistance-of-shingles--09-01-2018/4302",
+      "url": "https://www.professionalroofing.net/Articles/The-wind-resistance-of-shingles--09-01-2018/4302"
+    },
+    {
+      "id": "R85",
+      "cita": "CFIA, Lineamientos para el diseño por viento de edificaciones en Costa Rica (2023) - https://cfia.or.cr/site/wp-content/uploads/2024/pdf/descargas/reglamentos/ejercicio/lineamientos-tecnicos-para-el-calculo-y-la-aplicacion-de-las-fuerzas-de-viento-en-el-disenio-y-construccion-de-edificaciones-en-costa-rica.pdf",
+      "url": "https://cfia.or.cr/site/wp-content/uploads/2024/pdf/descargas/reglamentos/ejercicio/lineamientos-tecnicos-para-el-calculo-y-la-aplicacion-de-las-fuerzas-de-viento-en-el-disenio-y-construccion-de-edificaciones-en-costa-rica.pdf"
+    },
+    {
+      "id": "R86",
+      "cita": "Home Depot México, Teja asfáltica Supreme Owens Corning - https://www.homedepot.com.mx/p/owens-corning-teja-asfaltica-supreme-cafe-305-x-914-cm-supreme-500224",
+      "url": "https://www.homedepot.com.mx/p/owens-corning-teja-asfaltica-supreme-cafe-305-x-914-cm-supreme-500224"
+    },
+    {
+      "id": "R87",
+      "cita": "Owens Corning, TruDefinition Duration STORM - https://www.owenscorning.com/en-us/roofing/shingles/trudefinition-duration-storm",
+      "url": "https://www.owenscorning.com/en-us/roofing/shingles/trudefinition-duration-storm"
+    },
+    {
+      "id": "R88",
+      "cita": "InterNACHI, Standard Estimated Life Expectancy Chart - https://www.nachi.org/life-expectancy.htm",
+      "url": "https://www.nachi.org/life-expectancy.htm"
+    },
+    {
+      "id": "R89",
+      "cita": "A House on a Rock, Identifying asphalt shingle defects - https://ahouseonarock.com/identifying-asphalt-shingle-roofing-defects/",
+      "url": "https://ahouseonarock.com/identifying-asphalt-shingle-roofing-defects/"
+    },
+    {
+      "id": "R90",
+      "cita": "AHFC, R-Value of Building Materials - https://www.ahfc.us/iceimages/manuals/building_manual_ap_1.pdf",
+      "url": "https://www.ahfc.us/iceimages/manuals/building_manual_ap_1.pdf"
+    },
+    {
+      "id": "R91",
+      "cita": "US DOE, Cool Asphalt Shingles - https://www.energy.gov/cmei/buildings/articles/cool-asphalt-shingles",
+      "url": "https://www.energy.gov/cmei/buildings/articles/cool-asphalt-shingles"
+    },
+    {
+      "id": "R92",
+      "cita": "ARMA, Asphalt Shingle Recycling - https://www.asphaltroofing.org/asphalt-shingle-recycling/",
+      "url": "https://www.asphaltroofing.org/asphalt-shingle-recycling/"
+    }
+  ]
+}

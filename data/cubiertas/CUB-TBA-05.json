@@ -1,0 +1,1243 @@
+{
+  "schema_version": "1.0",
+  "meta": {
+    "id": "CUB-TBA-05",
+    "componente": "CUB",
+    "autor": "Jorge Rodríguez",
+    "estado_revision": "borrador",
+    "fecha_actualizacion": "2026-10-26",
+    "id_legado": "CUB-TBA-01",
+    "origen_migracion": {
+      "archivo": "TP1_Ficha_Jorge_Cubiertas_250927.xlsx",
+      "hoja": "Ficha CUB-TBA-01"
+    }
+  },
+  "campos": {
+    "id": {
+      "estado": "dato",
+      "valor": "CUB-TBA-05",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "name": {
+      "estado": "dato",
+      "valor": "Cubierta de teja de barro (arcilla cocida) curva tipo colonial/española sobre clavadores o soporte continuo",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ]
+    },
+    "record_type": {
+      "estado": "dato",
+      "valor": "sistema",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ]
+    },
+    "component": {
+      "estado": "dato",
+      "valor": "CUB"
+    },
+    "subcategory": {
+      "estado": "dato",
+      "valor": "Teja de barro",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ]
+    },
+    "country": {
+      "estado": "dato",
+      "valor": "CR",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ]
+    },
+    "manufacturer": {
+      "estado": "dato",
+      "valor": "Tejares/ladrilleras nacionales (teja colonial e imperial nacional) | Fabricantes importados de Nicaragua, El Salvador, México, Colombia y Ecuador | Referencia europea: Tejas Borja, La Escandella (España)",
+      "fuentes": [
+        {
+          "ref": "R55"
+        },
+        {
+          "ref": "R56"
+        },
+        {
+          "ref": "R57"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Ladrillera Sabana Oeste comercializa teja colonial e imperial de origen nacional e importadas (Nicaragua nueva y reciclada, El Salvador, México, Colombia, Ecuador). No se localizaron fichas web de tejares específicos (Coris, El Carmen, Cartago); los fabricantes españoles se citan solo como referencia normativa (EN 1304), sin confirmar distribución en CR."
+    },
+    "supplier": {
+      "estado": "dato",
+      "valor": "Ladrillera Sabana Oeste | EPA | Novex | SevenRoof (teja barro plana Cartago, Construex)",
+      "fuentes": [
+        {
+          "ref": "R55"
+        },
+        {
+          "ref": "R58"
+        },
+        {
+          "ref": "R59"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "SevenRoof aparece en Construex con 'Teja Barro Plana Cartago' (página no accesible, 403). Colono lista 'Teja colonial tica 16x21x40' (no se pudo verificar la ficha)."
+    },
+    "description": {
+      "estado": "dato",
+      "valor": "Cubierta inclinada discontinua de piezas curvas de arcilla cocida colocadas en hiladas alternas de canal y cobija (teja árabe/colonial), apoyadas sobre clavadores de madera o metálicos, o sobre un soporte continuo (entablado, losa, fibrocemento o lámina) con membrana impermeable bajo teja. Aporta masa, cámara de aire ventilada y la estética tradicional costarricense; exige pendiente pronunciada y estructura capaz de soportar 28–40 kg/m².",
+      "fuentes": [
+        {
+          "ref": "R55"
+        },
+        {
+          "ref": "R60"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "keywords": {
+      "estado": "dato",
+      "valor": [
+        "teja de barro",
+        "teja de arcilla",
+        "teja colonial",
+        "teja española",
+        "teja árabe",
+        "teja curva",
+        "canal y cobija",
+        "teja imperial",
+        "cubierta cerámica",
+        "clavadores",
+        "cumbrera",
+        "techo tradicional"
+      ],
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ]
+    },
+    "main_material": {
+      "estado": "dato",
+      "valor": "Arcilla cocida (cerámica roja no esmaltada; densidad ≈2000 kg/m³)",
+      "fuentes": [
+        {
+          "ref": "R57"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "secondary_materials": {
+      "estado": "dato",
+      "valor": [
+        "Madera tratada o acero galvanizado (clavadores)",
+        "Membrana asfáltica o sintética bajo teja",
+        "Clavos, tornillos o ganchos galvanizados/inoxidables",
+        "Alambre de cobre o galvanizado",
+        "Espuma de poliuretano",
+        "Mortero de cemento-cal (cumbreras, tradicional)"
+      ],
+      "fuentes": [
+        {
+          "ref": "R60"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "layers": {
+      "estado": "dato",
+      "valor": [
+        "Estructura (cerchas/vigas de madera o acero)",
+        "Soporte continuo opcional (entablado, losa, fibrocemento o lámina metálica)",
+        "Membrana impermeable bajo teja",
+        "Rastreles/contraclavadores para cámara ventilada",
+        "Clavadores",
+        "Teja canal",
+        "Teja cobija",
+        "Piezas de cumbrera y remates"
+      ],
+      "fuentes": [
+        {
+          "ref": "R60"
+        },
+        {
+          "ref": "R61"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "En estructura abierta (solo clavadores, sin soporte continuo ni membrana) la estanqueidad depende exclusivamente de la pendiente y del solape."
+    },
+    "total_thickness": {
+      "estado": "dato",
+      "valor": 15,
+      "calificador": "=",
+      "unidad": "mm",
+      "fuentes": [
+        {
+          "ref": "R58"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Espesor de la pieza (1,5 cm). El paquete del sistema depende de la altura del perfil curvo, clavadores y soporte; no hay valor normalizado."
+    },
+    "commercial_dimensions": {
+      "estado": "dato",
+      "valor": "26 × 41,5 × 1,5 cm (EPA); ≈43 cm de largo, 1,75–2,0 kg/pieza (colonial nacional); 28 × 45 cm (Novex); 16 × 21 × 40 cm (Colono, 'teja colonial tica')",
+      "fuentes": [
+        {
+          "ref": "R58"
+        },
+        {
+          "ref": "R55"
+        },
+        {
+          "ref": "R59"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Dimensión de Colono tomada del título del producto en buscador; ficha no verificada."
+    },
+    "density": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "surface_mass": {
+      "estado": "dato",
+      "min": 28.0,
+      "max": 38.0,
+      "calificador": "rango",
+      "unidad": "kg/m²",
+      "fuentes": [
+        {
+          "ref": "R55"
+        },
+        {
+          "ref": "R62"
+        },
+        {
+          "ref": "R60"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Colonial nacional 28–38 kg/m²; imperial nacional 36–38; importadas 24–40 kg/m². Ludowici Spanish: 800 lb/100 ft² ≈39 kg/m². Guía Hispalyt: 35–50 kg/m² en teja curva. Peso aumenta al saturarse (absorción). Densidad del material ≈2000 kg/m³ (EPD)."
+    },
+    "surface_finish": {
+      "estado": "dato",
+      "valor": "Natural (terracota) no esmaltado; variantes envejecida, esmaltada o engobada",
+      "fuentes": [
+        {
+          "ref": "R55"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "support_system": {
+      "estado": "dato",
+      "valor": "Clavadores de madera tratada o perfiles metálicos galvanizados (tubo/RT) sobre cerchas o vigas; alternativamente losa o entablado con membrana y rastreles que generen cámara ventilada",
+      "fuentes": [
+        {
+          "ref": "R60"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Intereje de clavadores según largo de pieza y solape (guía Hispalyt: 18–35 cm)."
+    },
+    "fastening": {
+      "estado": "dato",
+      "valor": "Clavo o tornillo galvanizado/inoxidable por la perforación de la pieza | Gancho o clip metálico | Alambre de cobre o galvanizado atado al clavador | Espuma/adhesivo de poliuretano (densidad ≥25 kg/m³) | Mortero (práctica tradicional en cumbreras y aleros)",
+      "fuentes": [
+        {
+          "ref": "R60"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Guía Hispalyt, pendiente 26–70 %: fijar todas las canales y las cobijas cada cinco hiladas; >70 %: fijar todas las piezas. En CR (zona sísmica y vientos) se recomienda fijar todas las piezas (E1)."
+    },
+    "joints_seals": {
+      "estado": "dato",
+      "valor": "Solape canal-cobija | Cumbreras/caballetes fijados en seco o con mortero | Peineta o barrera antipájaros en alero | Remates laterales | Limahoyas con canal metálico o membrana | Tejas de ventilación",
+      "fuentes": [
+        {
+          "ref": "R60"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "installation_sequence": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "tools_labor": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "critical_point": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "recommended_uses": {
+      "estado": "dato",
+      "valor": [
+        "Cubiertas inclinadas de vivienda",
+        "Edificios institucionales y patrimoniales",
+        "Hoteles y proyectos turísticos",
+        "Restauración de arquitectura colonial, adobe y bahareque",
+        "Aleros y corredores"
+      ],
+      "fuentes": [
+        {
+          "ref": "R55"
+        },
+        {
+          "ref": "R63"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Hacienda asocia la teja de barro a tipologías de vivienda de gama media-alta y alta."
+    },
+    "building_types": {
+      "estado": "dato",
+      "valor": [
+        "Vivienda",
+        "Institucional",
+        "Comercial"
+      ],
+      "fuentes": [
+        {
+          "ref": "R55"
+        },
+        {
+          "ref": "R63"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "location": {
+      "estado": "dato",
+      "valor": "Exterior",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "climates": {
+      "estado": "dato",
+      "valor": "Cálido húmedo | Cálido seco | Templado de altura (Valle Central) | Lluvioso con pendiente adecuada",
+      "fuentes": [
+        {
+          "ref": "R61"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Ludowici declara aptitud para todas las zonas climáticas; en CR no hay heladas. En zonas de lluvia intensa con viento aumentar pendiente/solape y usar membrana."
+    },
+    "imn_subregions": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "compatibility": {
+      "estado": "dato",
+      "valor": "Compatible con madera tratada, acero galvanizado, losas de concreto y membranas bajo teja. Usar fijaciones inoxidables, de cobre o galvanizadas en caliente; evitar morteros rígidos que fisuren con movimiento sísmico y contacto directo de clavadores sin tratar con piezas húmedas.",
+      "fuentes": [
+        {
+          "ref": "R60"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "use_restrictions": {
+      "estado": "pendiente",
+      "fuentes": [
+        {
+          "ref": "R60"
+        },
+        {
+          "ref": "R55"
+        },
+        {
+          "ref": "R64"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "labor_specialization": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "R60"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Requiere oficio para replanteo de clavadores, alineación de hiladas, solapes, cortes y remates; la mano de obra tradicional existe en CR pero es cada vez más escasa."
+    },
+    "installation_complexity": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "R60"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Colocación pieza a pieza, fijaciones múltiples, cumbreras, limatesas, limahoyas y ventilación; mayor que láminas."
+    },
+    "national_availability": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "R55"
+        },
+        {
+          "ref": "R58"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Existe producción nacional (colonial e imperial) y oferta importada en ladrilleras y ferreterías (EPA, Novex), pero con pocos proveedores y stock variable."
+    },
+    "installation_time": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Instalación manual pieza por pieza (del orden de decenas de piezas por m²), mucho más lenta que la lámina metálica."
+    },
+    "relative_cost": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "R63"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Material y mano de obra superiores a lámina metálica; además exige estructura más robusta. Hacienda la vincula a tipologías de mayor valor."
+    },
+    "price_range": {
+      "estado": "dato",
+      "valor": 720,
+      "calificador": "=",
+      "unidad": "CRC/m²",
+      "fuentes": [
+        {
+          "ref": "R58"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "EPA: ₡720 por teja colonial de arcilla 26 × 41,5 cm (consulta 2026, solo material, sin instalación). El costo por m² depende del rendimiento (piezas/m², no publicado por el proveedor). No se encontró precio instalado por m² verificable."
+    },
+    "mechanical_resistance": {
+      "estado": "dato",
+      "valor": "≥1000 N (flexión, EN 538/EN 1304); ≥1334 N seco y ≥1112 N húmedo (NTC 2086)",
+      "fuentes": [
+        {
+          "ref": "R65"
+        },
+        {
+          "ref": "R66"
+        },
+        {
+          "ref": "R56"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "ASTM C1167 exige resistencia transversal a la rotura (valores no consultados). Ejemplo DoP Tejas Borja (teja mixta): ≥900 N."
+    },
+    "impact_resistance": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Material cerámico frágil: se rompe por pisadas, caída de objetos o granizo. No se encontró clasificación de impacto."
+    },
+    "abrasion_resistance": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "No es un requisito aplicable a cubiertas de teja."
+    },
+    "durability_years": {
+      "estado": "dato",
+      "min": 75.0,
+      "max": 150.0,
+      "calificador": "rango",
+      "unidad": "años",
+      "fuentes": [
+        {
+          "ref": "R57"
+        },
+        {
+          "ref": "R61"
+        },
+        {
+          "ref": "R63"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "EPD La Escandella: vida útil de referencia 150 años. Ludowici: garantía de material 75 años. Hacienda asigna 60–120 años a tipologías con teja de barro (vida del inmueble). La teja artesanal de mayor absorción puede durar menos; fijaciones, clavadores y membrana tienen vida menor."
+    },
+    "water_absorption": {
+      "estado": "dato",
+      "valor": 8,
+      "calificador": "=",
+      "unidad": "%",
+      "fuentes": [
+        {
+          "ref": "R55"
+        },
+        {
+          "ref": "R62"
+        },
+        {
+          "ref": "R66"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Colonial nacional <8 %; imperial nacional <6 %; importadas <4–10 %; Ludowici (ASTM C1167 Grado 1) <2 %; NTC 2086 (ej. Colombia) 10 %. Impermeabilidad EN 539-1 (ej. DoP Borja ≤0,5 cm³/cm²·día)."
+    },
+    "moisture_resistance": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "R56"
+        },
+        {
+          "ref": "R55"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Cerámica cocida estable frente a humedad; la absorción (hasta 8–10 % en teja artesanal) favorece musgo y aumento de peso, y los clavadores de madera son vulnerables."
+    },
+    "condensation_risk": {
+      "estado": "dato",
+      "valor": 2,
+      "fuentes": [
+        {
+          "ref": "R60"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Cubierta porosa y ventilada (microventilación bajo teja) con baja probabilidad de goteo por condensación, a diferencia de la lámina metálica."
+    },
+    "corrosion_resistance": {
+      "estado": "dato",
+      "valor": 5,
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "La arcilla no se corroe; los puntos débiles son las fijaciones metálicas y los clavadores de acero."
+    },
+    "uv_resistance": {
+      "estado": "dato",
+      "valor": 5,
+      "fuentes": [
+        {
+          "ref": "R61"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Color integral de la cerámica; Ludowici garantiza estabilidad de color 75 años."
+    },
+    "marine_environment": {
+      "estado": "dato",
+      "valor": "Sí",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "La cerámica no se ve afectada por cloruros; usar fijaciones inoxidables o de cobre y clavadores protegidos."
+    },
+    "vapor_permeability": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "thermal_conductivity": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "No se verificó un valor en fuente abierta. Los valores tabulados para cerámica densa (ISO 10456) rondan 1 W/m·K, sin confirmar aquí. Densidad ≈2000 kg/m³ (EPD)."
+    },
+    "specific_heat": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "thermal_resistance": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "R67"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "La pieza aporta R despreciable; el beneficio proviene de la cámara ventilada: ORNL midió R equivalente de 0,19–0,76 m²·K/W en teja de arcilla de perfil alto según clima y tipo de montaje."
+    },
+    "u_value": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Depende del soporte y del aislamiento bajo teja."
+    },
+    "solar_reflectance": {
+      "estado": "dato",
+      "min": 0.4,
+      "max": 0.5,
+      "calificador": "rango",
+      "unidad": "0–1",
+      "fuentes": [
+        {
+          "ref": "R68"
+        },
+        {
+          "ref": "R69"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "CARB Cool California: terracota roja no esmaltada 0,40–0,50 (inicial). Otras fuentes secundarias reportan ≈0,33 en terracota estándar. La masa y la cámara ventilada reducen el flujo de calor pico (≈70 % frente a teja asfáltica según Construction Specifier)."
+    },
+    "thermal_emittance": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "sri": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "No se encontró SRI medido verificable para teja de barro natural."
+    },
+    "sound_insulation": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Depende del soporte; la masa de la teja (28–40 kg/m²) mejora el aislamiento frente a lámina, pero sin ensayo localizado."
+    },
+    "sound_absorption": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "fire_reaction": {
+      "estado": "dato",
+      "valor": "A1 (EN 13501-1); Broof sin ensayo; Clase A (ASTM E108/UL 790)",
+      "fuentes": [
+        {
+          "ref": "R56"
+        },
+        {
+          "ref": "R62"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "EN 1304: tejas de arcilla clasificadas A1 y consideradas Broof sin ensayo. Ludowici: Class A Fire Rated."
+    },
+    "fire_resistance": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Depende de la estructura de soporte (madera/acero)."
+    },
+    "smoke_class": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Material A1 no combustible (no aplica clase s); verificar membranas y espumas."
+    },
+    "voc_emissions": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "La teja cerámica no contiene compuestos orgánicos; las emisiones provendrían de espumas PU, adhesivos o membranas."
+    },
+    "hazardous_substances": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "R56"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "La DoP consultada no declara sustancias peligrosas. Verificar esmaltes en tejas vidriadas importadas."
+    },
+    "cleanability": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "R61"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Superficie porosa que acumula musgo, algas y líquenes; limpieza con lavado a baja presión, sin pisar la cubierta."
+    },
+    "accessibility": {
+      "estado": "dato",
+      "valor": "Sin contribución directa a la accesibilidad universal.",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "healthcare_use": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Adecuada como cubierta exterior; en salud se exige cielo raso continuo, control de polvo/fauna en cámara y fijación sísmica rigurosa."
+    },
+    "maintenance_frequency": {
+      "estado": "dato",
+      "valor": 12,
+      "calificador": "=",
+      "unidad": "meses",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Inspección anual antes de la estación lluviosa y tras sismos o vientos fuertes."
+    },
+    "maintenance_actions": {
+      "estado": "dato",
+      "valor": "Inspección visual de piezas rotas o desplazadas; reposición de piezas; limpieza de musgo y hojas; revisión de cumbreras, limahoyas y canoas; revisión de fijaciones y estado de clavadores/membrana.",
+      "fuentes": [
+        {
+          "ref": "R61"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "repairability": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Las piezas se sustituyen individualmente; la dificultad está en acceder sin romper otras (pisar en solapes) y conseguir piezas del mismo modelo."
+    },
+    "replaceability": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Sustitución puntual sencilla; el reemplazo total implica desmontaje manual pero permite reutilizar piezas sanas."
+    },
+    "common_failures": {
+      "estado": "dato",
+      "valor": [
+        "Teja rota o fisurada",
+        "Desplazamiento o deslizamiento de piezas",
+        "Filtraciones en solapes, limahoyas y cumbreras",
+        "Musgo, algas y líquenes",
+        "Desprendimiento de cumbreras con mortero",
+        "Pudrición de clavadores de madera",
+        "Caída de tejas en sismo o viento"
+      ],
+      "fuentes": [
+        {
+          "ref": "R64"
+        },
+        {
+          "ref": "R61"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "failure_causes": {
+      "estado": "dato",
+      "valor": [
+        "Tránsito sobre la cubierta",
+        "Pendiente o solape insuficientes",
+        "Fijación ausente o corroída",
+        "Sismos y deformación de la estructura",
+        "Humedad persistente y sombra",
+        "Mortero rígido fisurado",
+        "Absorción elevada de teja artesanal",
+        "Membrana bajo teja ausente o degradada"
+      ],
+      "fuentes": [
+        {
+          "ref": "R60"
+        },
+        {
+          "ref": "R64"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "corrective_action": {
+      "estado": "dato",
+      "valor": "Reponer piezas dañadas con fijación mecánica; recolocar hiladas desplazadas; sustituir clavadores podridos; rehacer cumbreras en seco o con fijación flexible; instalar o renovar membrana bajo teja en zonas de filtración; limpiar biocrecimiento.",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "origin": {
+      "estado": "dato",
+      "valor_texto_original": "Nacional | Importado",
+      "fuentes": [
+        {
+          "ref": "R55"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "transport_distance": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Producción nacional cercana al Valle Central; importadas de Centroamérica, México, Colombia y Ecuador con distancias mucho mayores (sin cifra verificada)."
+    },
+    "recycled_content": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "renewable": {
+      "estado": "dato",
+      "valor": "No",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "La arcilla es un recurso mineral no renovable, aunque abundante."
+    },
+    "reusable": {
+      "estado": "dato",
+      "valor": "Sí",
+      "fuentes": [
+        {
+          "ref": "R55"
+        },
+        {
+          "ref": "R57"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "En CR se comercializa teja nicaragüense 'antigua' usada, seleccionada y limpiada. El escenario de la EPD considera 75 % de reutilización."
+    },
+    "recyclable": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "R57"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Puede triturarse como árido/relleno o chamota; no hay circuito formal en CR."
+    },
+    "installation_waste": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Roturas en transporte y manipulación y cortes en limas y remates; los desperdicios son inertes."
+    },
+    "epd_available": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "R57"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Existen EPD de fabricantes europeos (p. ej., La Escandella, GlobalEPD); no se localizaron EPD de teja nacional."
+    },
+    "embodied_carbon": {
+      "estado": "dato",
+      "valor": 12.0,
+      "calificador": "≈",
+      "unidad": "kgCO2e/m²",
+      "fuentes": [
+        {
+          "ref": "R57"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "EPD La Escandella: 322 kgCO₂e/t (A1–A3). Con 35–40 kg/m² ≈ 11–13 kgCO₂e/m² de teja (sin estructura, membrana ni transporte). Cálculo propio; la teja artesanal de horno de leña puede diferir."
+    },
+    "embodied_carbon_modules": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "environmental_certification": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Solo EPD de fabricantes europeos; ninguna certificación para teja nacional."
+    },
+    "end_of_life": {
+      "estado": "dato",
+      "valor": [
+        "Reutilización",
+        "Reciclaje",
+        "Vertedero"
+      ],
+      "fuentes": [
+        {
+          "ref": "R57"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Escenario EPD: 75 % reutilización, 25 % vertedero."
+    },
+    "cr_region": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "seismic_condition": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "tradition_type": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "cr_standard": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "plan_requirements": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "advantages": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "limitations": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "graphics": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "minimum_slope": {
+      "estado": "dato",
+      "valor": 26,
+      "calificador": "=",
+      "unidad": "%",
+      "fuentes": [
+        {
+          "ref": "R60"
+        },
+        {
+          "ref": "R62"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Guía Hispalyt (teja curva, zona más favorable): 26 % (15°) con solape de 150 mm; con >46 % (25°) basta 70 mm; zonas más expuestas ≥32 % (18°). Ludowici Spanish: mínimo 4:12 (≈33 %). En CR, con lluvia intensa y viento, conviene ≥30–35 % o membrana continua (E1)."
+    },
+    "maximum_length": {
+      "estado": "dato",
+      "valor": 12,
+      "calificador": "=",
+      "unidad": "m",
+      "fuentes": [
+        {
+          "ref": "R60"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Faldones >12 m requieren estudio particular según fabricante."
+    },
+    "overlap_system": {
+      "estado": "dato",
+      "valor": "Hiladas alternas de canal y cobija (teja árabe); solape longitudinal de 70–150 mm según pendiente y zona (a menor pendiente, mayor solape); la cobija cubre los bordes de dos canales contiguas",
+      "fuentes": [
+        {
+          "ref": "R60"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "waterproofing": {
+      "estado": "dato",
+      "valor": [
+        "Solape canal-cobija",
+        "Membrana impermeable bajo teja (asfáltica o sintética)",
+        "Soporte continuo de lámina metálica o fibrocemento bajo teja",
+        "Losa impermeabilizada"
+      ],
+      "fuentes": [
+        {
+          "ref": "R60"
+        },
+        {
+          "ref": "R61"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Membrana altamente recomendada en pendientes cercanas a la mínima y en zonas de lluvia con viento."
+    },
+    "wind_uplift": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "No se encontró valor en Pa. Depende de la fijación; referencias: ASTM C1568 (EE. UU.) y reglas de fijación de la guía Hispalyt. En CR aplicar cargas de viento de la normativa estructural vigente."
+    },
+    "rain_noise": {
+      "estado": "dato",
+      "valor": 1,
+      "calificador": "=",
+      "unidad": "dB",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "La masa de la cerámica y la cámara de aire amortiguan el impacto de la lluvia; ruido muy bajo frente a lámina metálica. Sin medición en dB localizada."
+    },
+    "walkability": {
+      "estado": "dato",
+      "valor": "No",
+      "fuentes": [
+        {
+          "ref": "R64"
+        },
+        {
+          "ref": "R61"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "No transitable; para mantenimiento pisar solo sobre solapes (zona de 5–8 cm) o usar pasarelas/escaleras de techo."
+    },
+    "insulation_compatibility": {
+      "estado": "dato",
+      "valor": [
+        "Cámara de aire ventilada bajo teja",
+        "Aislamiento sobre losa o entablado (poliestireno extruido, lana mineral)",
+        "Barrera radiante de baja emisividad"
+      ],
+      "fuentes": [
+        {
+          "ref": "R60"
+        },
+        {
+          "ref": "R67"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "coating_life": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "R61"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "No aplica en teja natural (color integral). En tejas coloreadas/esmaltadas, Ludowici garantiza color 75 años."
+    },
+    "roof_accessories": {
+      "estado": "dato",
+      "valor": [
+        "Cumbreras/caballetes",
+        "Remates laterales",
+        "Tejas de ventilación",
+        "Barrera antipájaros/peineta de alero",
+        "Piezas de limatesa",
+        "Canal o membrana en limahoyas",
+        "Canoas y bajantes",
+        "Clavadores y rastreles",
+        "Clavos, ganchos o alambre de fijación"
+      ],
+      "fuentes": [
+        {
+          "ref": "R60"
+        }
+      ],
+      "evidencia": "E2"
+    }
+  },
+  "fuentes": [
+    {
+      "id": "PROPIO",
+      "cita": "Elaboración propia del estudiante (TP1).",
+      "tipo": "elaboracion_propia"
+    },
+    {
+      "id": "R55",
+      "cita": "Ladrillera Sabana Oeste, Tejas de arcilla - http://ladrillerasabanaoeste.com/tejas/",
+      "url": "http://ladrillerasabanaoeste.com/tejas/"
+    },
+    {
+      "id": "R56",
+      "cita": "Tejas Borja, Declaración de prestaciones Alicantina-12 (EN 1304) - https://tejasborja.com/wp-content/uploads/2024/09/CE_ALICANTINA-12.pdf",
+      "url": "https://tejasborja.com/wp-content/uploads/2024/09/CE_ALICANTINA-12.pdf"
+    },
+    {
+      "id": "R57",
+      "cita": "La Escandella, GlobalEPD Tejas cerámicas (EN 15804+A2) - https://www.laescandella.com/wp-content/uploads/2024/10/GlobalEPD_Tejas.pdf",
+      "url": "https://www.laescandella.com/wp-content/uploads/2024/10/GlobalEPD_Tejas.pdf"
+    },
+    {
+      "id": "R58",
+      "cita": "EPA Costa Rica, Teja colonial 1,5 x 26 x 41,5 cm - https://cr.epaenlinea.com/teja-colonial-15-x-26-x-415-cm.html",
+      "url": "https://cr.epaenlinea.com/teja-colonial-15-x-26-x-415-cm.html"
+    },
+    {
+      "id": "R59",
+      "cita": "Novex CR, Teja romana colonial 28x45 cm - https://novex.cr/producto/67621/Teja-romana-colonial-de-28x45-cm.html",
+      "url": "https://novex.cr/producto/67621/Teja-romana-colonial-de-28x45-cm.html"
+    },
+    {
+      "id": "R60",
+      "cita": "Hispalyt/Tejas Borja, Guía de diseño y ejecución en seco de cubiertas con teja cerámica - https://tejasborja.com/wp-content/uploads/2024/11/guia_de_diseno_y_ejecucion_en_seco_de_cubiertas.pdf",
+      "url": "https://tejasborja.com/wp-content/uploads/2024/11/guia_de_diseno_y_ejecucion_en_seco_de_cubiertas.pdf"
+    },
+    {
+      "id": "R61",
+      "cita": "Ludowici, FAQ - https://ludowici.com/resources/faqs/",
+      "url": "https://ludowici.com/resources/faqs/"
+    },
+    {
+      "id": "R62",
+      "cita": "Ludowici, Spanish 18 3/8 in barrel tile - https://ludowici.com/wp-content/uploads/LRT-504-Spanish-18-Clay-Roof-Tile-1017.pdf",
+      "url": "https://ludowici.com/wp-content/uploads/LRT-504-Spanish-18-Clay-Roof-Tile-1017.pdf"
+    },
+    {
+      "id": "R63",
+      "cita": "Ministerio de Hacienda CR, Manual de Valores Base Unitarios por Tipología Constructiva - https://www.hacienda.go.cr/docs/ManualdeValoresBaseUnitariosporTipologiaConstructiva.pdf",
+      "url": "https://www.hacienda.go.cr/docs/ManualdeValoresBaseUnitariosporTipologiaConstructiva.pdf"
+    },
+    {
+      "id": "R64",
+      "cita": "Ecomateriales CR, Tejas de barro - https://ecomaterialescr.com/en/tejas-de-barro/",
+      "url": "https://ecomaterialescr.com/en/tejas-de-barro/"
+    },
+    {
+      "id": "R65",
+      "cita": "IETcc-CSIC, Catálogo de soluciones cerámicas (2008) - https://www.ietcc.csic.es/wp-content/uploads/2020/06/Catalogo-soluciones-ceramicas.pdf",
+      "url": "https://www.ietcc.csic.es/wp-content/uploads/2020/06/Catalogo-soluciones-ceramicas.pdf"
+    },
+    {
+      "id": "R66",
+      "cita": "Ladrillera San Benito (Colombia), Ficha Teja Muñeca NTC 2086 - https://ladrillerasanbenito.com/wp-content/uploads/2020/10/TEJA-MUNECA.pdf",
+      "url": "https://ladrillerasanbenito.com/wp-content/uploads/2020/10/TEJA-MUNECA.pdf"
+    },
+    {
+      "id": "R67",
+      "cita": "Miller et al., Equivalent thermal resistance of tile roofs (ORNL, Buildings XII 2013) - https://web.ornl.gov/sci/buildings/conf-archive/2013%20B12%20papers/163-Olson.pdf",
+      "url": "https://web.ornl.gov/sci/buildings/conf-archive/2013%20B12%20papers/163-Olson.pdf"
+    },
+    {
+      "id": "R68",
+      "cita": "CARB Cool California, Roof product comparison - https://coolcalifornia.arb.ca.gov/roof-product-comparison",
+      "url": "https://coolcalifornia.arb.ca.gov/roof-product-comparison"
+    },
+    {
+      "id": "R69",
+      "cita": "Construction Specifier, Building on solar reflectance: clay and concrete tile - https://www.constructionspecifier.com/building-on-solar-reflectance-meeting-cool-roof-standards-with-concrete-and-clay-tile/",
+      "url": "https://www.constructionspecifier.com/building-on-solar-reflectance-meeting-cool-roof-standards-with-concrete-and-clay-tile/"
+    }
+  ]
+}

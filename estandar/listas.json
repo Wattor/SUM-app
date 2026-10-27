@@ -1,0 +1,56 @@
+{
+  "_version": "1.0",
+  "_nota": "Dominios controlados de la Ficha SUM. Para ampliar una lista, abrir un Pull Request que modifique este archivo; nunca escribir valores fuera de lista en las fichas.",
+
+  "estado": ["dato", "no_disponible", "no_aplica", "pendiente"],
+  "calificador": ["=", "≈", "≥", "≤", "rango"],
+  "evidencia": {
+    "E1": "Criterio propio o estimación del estudiante",
+    "E2": "Ficha técnica del fabricante",
+    "E3": "Norma o ensayo normalizado",
+    "E4": "Fuente independiente (literatura arbitrada, laboratorio, institución)",
+    "E5": "Varias fuentes concordantes"
+  },
+  "certeza": {
+    "verificado": "Valor puntual respaldado por la fuente citada",
+    "rango_literatura": "Rango típico de literatura, no valor del producto",
+    "estimado_analogia": "Estimado a partir de un material análogo; explicitar la analogía en la nota"
+  },
+  "estado_revision": ["borrador", "revisado", "aprobado"],
+
+  "component": {
+    "CIM": {"nombre": "Cimentaciones", "id_bd": "C1"},
+    "PIS": {"nombre": "Pisos", "id_bd": "C2"},
+    "PAR": {"nombre": "Paredes y cerramientos", "id_bd": "C3"},
+    "CUB": {"nombre": "Cubiertas", "id_bd": "C4"},
+    "CIE": {"nombre": "Cielos", "id_bd": "C5"},
+    "PUE": {"nombre": "Puertas", "id_bd": "C9"},
+    "VEN": {"nombre": "Ventanas", "id_bd": "C9"}
+  },
+  "_nota_component": "id_bd enlaza con T_COMPONENTE de BD_Clima_Materiales_CR. CIE→C5 (Acabados) y PUE/VEN→C9 (Elementos tipológicos) son asignaciones PROVISIONALES por confirmar.",
+
+  "record_type": ["material", "producto", "sistema"],
+  "country": ["CR", "MX", "Otro"],
+  "si_no": ["Sí", "No", "Condicionado"],
+  "aptitud": ["Recomendado", "Condicionado", "No recomendado", "No admitido"],
+  "location": ["Interior", "Exterior", "Ambos"],
+  "building_type": ["Vivienda", "Comercial", "Institucional", "Salud", "Educativo", "Industrial"],
+  "origin": ["Local", "Nacional", "Importado", "Mixto"],
+  "end_of_life": ["Reutilización", "Reciclaje", "Valorización", "Vertedero", "Permanece en sitio", "Otro"],
+  "tradition_type": ["Tradicional", "Contemporáneo", "Mixto"],
+  "traffic_level": ["Liviano", "Medio", "Alto", "Industrial"],
+  "lca_modules": ["A1–A3", "A1–A5", "A1–C4", "A1–D", "No declarado"],
+  "imn_subregion": ["TODAS",
+    "PN1", "PN2", "PN3", "PN4",
+    "PC1", "PC2", "PC3",
+    "PS1", "PS2", "PS3", "PS4", "PS5",
+    "RMS1", "RMS2",
+    "VC1", "VC2", "VC3",
+    "RN1", "RN2", "RN3", "RN4", "RN5",
+    "RA1", "RA2", "RA3", "RA4", "RA5"],
+  "_fuente_imn_subregion": "Solano, J. y Villalobos, R. (1996). Regiones y subregiones climáticas de Costa Rica. IMN. Códigos según T_ZONA de BD_Clima_Materiales_CR.",
+
+  "escala_1_5": {"1": "Muy bajo", "2": "Bajo", "3": "Medio", "4": "Alto", "5": "Muy alto"},
+
+  "tipo_fuente": ["norma", "ficha_tecnica", "articulo_arbitrado", "libro", "informe_institucional", "tesis", "web", "elaboracion_propia"]
+}

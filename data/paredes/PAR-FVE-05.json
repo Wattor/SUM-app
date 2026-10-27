@@ -1,0 +1,1190 @@
+{
+  "schema_version": "1.0",
+  "meta": {
+    "id": "PAR-FVE-05",
+    "componente": "PAR",
+    "autor": "Óscar Quesada",
+    "estado_revision": "borrador",
+    "fecha_actualizacion": "2026-10-26",
+    "id_legado": "CR-PC-FAV-05",
+    "origen_migracion": {
+      "archivo": "TP1_Fichas_Oscar_Paredes_5.xlsx",
+      "hoja": "Ficha_FachadaVentilada"
+    }
+  },
+  "campos": {
+    "id": {
+      "estado": "dato",
+      "valor": "PAR-FVE-05",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "name": {
+      "estado": "dato",
+      "valor": "Fachada ventilada de ACM o acero patinable",
+      "fuentes": [
+        {
+          "ref": "F1"
+        },
+        {
+          "ref": "F3"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Dos alternativas de piel dentro de la misma familia; sus propiedades no son intercambiables."
+    },
+    "record_type": {
+      "estado": "dato",
+      "valor": "sistema",
+      "fuentes": [
+        {
+          "ref": "S0"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "component": {
+      "estado": "dato",
+      "valor": "PAR"
+    },
+    "subcategory": {
+      "estado": "dato",
+      "valor": "Segunda piel exterior con cámara ventilada",
+      "fuentes": [
+        {
+          "ref": "F1"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "country": {
+      "estado": "dato",
+      "valor": "CR",
+      "fuentes": [
+        {
+          "ref": "S0"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "manufacturer": {
+      "estado": "dato",
+      "valor": "ACM: Extralum ACOM de referencia; acero patinable: SSAB COR-TEN A de referencia",
+      "fuentes": [
+        {
+          "ref": "F2"
+        },
+        {
+          "ref": "F3"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "supplier": {
+      "estado": "dato",
+      "valor": "ACM: Extralum y fabricadores locales; acero patinable: proveedor por proyecto",
+      "fuentes": [
+        {
+          "ref": "F2"
+        },
+        {
+          "ref": "F3"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Confirmar disponibilidad nacional y trazabilidad del acero real."
+    },
+    "description": {
+      "estado": "dato",
+      "valor": "Revestimiento exterior no portante separado del muro de respaldo por subestructura y cámara ventilada y drenada. La piel puede ser ACM o acero patinable real, con detalles distintos de fuego, corrosión y escorrentía.",
+      "fuentes": [
+        {
+          "ref": "F1"
+        },
+        {
+          "ref": "F2"
+        },
+        {
+          "ref": "F3"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "keywords": {
+      "estado": "dato",
+      "valor": [
+        "fachada ventilada",
+        "segunda piel",
+        "ACM",
+        "aluminio compuesto",
+        "acero patinable",
+        "COR-TEN"
+      ],
+      "fuentes": [
+        {
+          "ref": "F1"
+        },
+        {
+          "ref": "F3"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "main_material": {
+      "estado": "dato",
+      "valor": "Panel ACM o chapa de acero patinable como piel exterior",
+      "fuentes": [
+        {
+          "ref": "F2"
+        },
+        {
+          "ref": "F3"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "secondary_materials": {
+      "estado": "dato",
+      "valor": [
+        "Ménsulas",
+        "perfiles",
+        "anclajes",
+        "barrera de agua/aire",
+        "aislante opcional",
+        "remates",
+        "tornillería"
+      ],
+      "fuentes": [
+        {
+          "ref": "F1"
+        },
+        {
+          "ref": "F3"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "layers": {
+      "estado": "dato",
+      "valor": [
+        "Piel exterior",
+        "cámara ventilada y drenada",
+        "subestructura",
+        "aislamiento opcional",
+        "barrera de agua/aire",
+        "muro de respaldo"
+      ],
+      "fuentes": [
+        {
+          "ref": "F1"
+        },
+        {
+          "ref": "F3"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "total_thickness": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "F1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Depende de profundidad de cámara, subestructura, aislante y muro de respaldo."
+    },
+    "commercial_dimensions": {
+      "estado": "dato",
+      "valor": "ACOM: 4 mm de espesor y lámina 1500 × 5000 mm; acero patinable: dimensiones según proveedor y diseño",
+      "fuentes": [
+        {
+          "ref": "F2"
+        },
+        {
+          "ref": "F3"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "ACOM ofrece variante PE y FR; verificar el núcleo especificado."
+    },
+    "density": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "surface_mass": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "F2"
+        },
+        {
+          "ref": "F3"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "ACM ACOM PE: 5.56 kg/m²; FR: 7.42 kg/m². Acero: según espesor. No hay un peso único para ambas variantes ni para el sistema completo."
+    },
+    "surface_finish": {
+      "estado": "dato",
+      "valor": "ACM con recubrimiento PVDF/FEVE; acero patinable desarrolla pátina bajo ciclos de mojado y secado",
+      "fuentes": [
+        {
+          "ref": "F2"
+        },
+        {
+          "ref": "F3"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "support_system": {
+      "estado": "dato",
+      "valor": "Muro de respaldo y estructura principal capaces de recibir ménsulas, viento y peso de paneles",
+      "fuentes": [
+        {
+          "ref": "F1"
+        },
+        {
+          "ref": "F3"
+        }
+      ],
+      "evidencia": "E4"
+    },
+    "fastening": {
+      "estado": "dato",
+      "valor": "Ménsulas y perfiles con anclajes calculados; panel fijado mecánicamente según sistema",
+      "fuentes": [
+        {
+          "ref": "F1"
+        },
+        {
+          "ref": "F3"
+        }
+      ],
+      "evidencia": "E4"
+    },
+    "joints_seals": {
+      "estado": "dato",
+      "valor": "Juntas abiertas o drenadas, remates, mallas antiinsectos, cortafuegos de cámara y sellos en encuentros",
+      "fuentes": [
+        {
+          "ref": "F1"
+        },
+        {
+          "ref": "F3"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "La ficha ACOM describe una fachada sellada; la cámara ventilada requiere detalle específico de proyecto."
+    },
+    "installation_sequence": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "tools_labor": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "critical_point": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "recommended_uses": {
+      "estado": "dato",
+      "valor": [
+        "Revestimiento de fachadas comerciales, institucionales y de vivienda",
+        "rehabilitación y control solar con diseño adecuado"
+      ],
+      "fuentes": [
+        {
+          "ref": "F1"
+        },
+        {
+          "ref": "F3"
+        }
+      ],
+      "evidencia": "E4"
+    },
+    "building_types": {
+      "estado": "dato",
+      "valor": [
+        "Comercial",
+        "Institucional",
+        "Vivienda"
+      ],
+      "fuentes": [
+        {
+          "ref": "F1"
+        },
+        {
+          "ref": "F3"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "location": {
+      "estado": "dato",
+      "valor": "Exterior",
+      "fuentes": [
+        {
+          "ref": "F1"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "climates": {
+      "estado": "dato",
+      "valor": "Tropical húmedo y seco si la cámara drena y seca; acero patinable requiere evaluar salinidad y humedad persistente",
+      "fuentes": [
+        {
+          "ref": "F1"
+        },
+        {
+          "ref": "F3"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "imn_subregions": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "compatibility": {
+      "estado": "dato",
+      "valor": "Compatible con muro de concreto, mampostería o bastidor diseñado; evitar pares galvánicos y coordinar barreras",
+      "fuentes": [
+        {
+          "ref": "F1"
+        },
+        {
+          "ref": "F3"
+        }
+      ],
+      "evidencia": "E4"
+    },
+    "use_restrictions": {
+      "estado": "dato",
+      "valor": "No es muro portante ni barrera de agua por sí solo. Verificar núcleo/reacción al fuego del ACM y evitar acero patinable en ambientes salinos o de humedad continua sin evaluación.",
+      "fuentes": [
+        {
+          "ref": "F1"
+        },
+        {
+          "ref": "F2"
+        },
+        {
+          "ref": "F3"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "labor_specialization": {
+      "estado": "dato",
+      "valor": 5,
+      "fuentes": [
+        {
+          "ref": "F1"
+        },
+        {
+          "ref": "F3"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Requiere proyecto de fachada, taller, montaje en altura, anclajes y control de agua."
+    },
+    "installation_complexity": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "F1"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Modulación, ménsulas, continuidad de barrera, cámara, remates y dilataciones."
+    },
+    "national_availability": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "F2"
+        },
+        {
+          "ref": "F3"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "ACM y fabricación local disponibles; acero patinable específico puede requerir importación."
+    },
+    "installation_time": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "F1"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Paneles prefabricados agilizan montaje, pero subestructura y remates requieren precisión."
+    },
+    "relative_cost": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "F1"
+        },
+        {
+          "ref": "F2"
+        },
+        {
+          "ref": "F3"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Alto/variable; acero patinable y detalles de cámara pueden elevar costo."
+    },
+    "price_range": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "F1"
+        },
+        {
+          "ref": "F2"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Cotizar por m² de sistema completo, con subestructura, barrera, remates y acceso."
+    },
+    "mechanical_resistance": {
+      "estado": "dato",
+      "valor": "Viento y peso propio resueltos por panel, fijaciones, subestructura y anclajes calculados",
+      "fuentes": [
+        {
+          "ref": "F1"
+        },
+        {
+          "ref": "F3"
+        }
+      ],
+      "evidencia": "E4"
+    },
+    "impact_resistance": {
+      "estado": "dato",
+      "valor": "ACM: ensayo de recubrimiento 1.45 kg·m; acero: depende de espesor y soporte",
+      "fuentes": [
+        {
+          "ref": "F2"
+        },
+        {
+          "ref": "F3"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "El ensayo citado no equivale a resistencia al impacto de la fachada instalada."
+    },
+    "abrasion_resistance": {
+      "estado": "dato",
+      "valor": "ACOM: pérdida de peso de recubrimiento 37 mg en ASTM D4060-14",
+      "fuentes": [
+        {
+          "ref": "F2"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Dato de acabado, no del sistema completo."
+    },
+    "durability_years": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "F2"
+        },
+        {
+          "ref": "F3"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Depende de ambiente, fijaciones, recubrimiento y mantenimiento."
+    },
+    "water_absorption": {
+      "estado": "dato",
+      "valor_texto_original": "Paneles metálicos no absorben agua; la estanqueidad corresponde al respaldo y detalles",
+      "fuentes": [
+        {
+          "ref": "F1"
+        },
+        {
+          "ref": "F3"
+        }
+      ],
+      "evidencia": "E4"
+    },
+    "moisture_resistance": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "F1"
+        },
+        {
+          "ref": "F3"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Buena si cámara, drenaje y barrera se mantienen; acero requiere secado."
+    },
+    "condensation_risk": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "F1"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Depende de aislamiento, puentes térmicos, barrera de aire y ventilación de cámara."
+    },
+    "corrosion_resistance": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "F2"
+        },
+        {
+          "ref": "F3"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "ACM resiste corrosión; acero patinable requiere ambiente apto y escurrimiento controlado."
+    },
+    "uv_resistance": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "F2"
+        },
+        {
+          "ref": "F3"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "ACM usa acabado exterior; acero patinable resiste intemperie en ambiente adecuado."
+    },
+    "marine_environment": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "F3"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "El acero patinable no debe asumirse apto para atmósferas salinas; especificar alternativa o protección."
+    },
+    "vapor_permeability": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "thermal_conductivity": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "F1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Depende de materiales y aislamiento."
+    },
+    "specific_heat": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "thermal_resistance": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "F1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Calcular para respaldo, aislamiento y puentes térmicos."
+    },
+    "u_value": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "F1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "La cámara y el aislamiento son variables de proyecto."
+    },
+    "solar_reflectance": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "F2"
+        },
+        {
+          "ref": "F3"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Depende de color y pátina."
+    },
+    "thermal_emittance": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "sri": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "F2"
+        },
+        {
+          "ref": "F3"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "No se encontró un valor verificable para este ensamble; requiere ficha, ensayo o cálculo del proyecto."
+    },
+    "sound_insulation": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "F1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "La piel exterior no define el aislamiento del cerramiento completo."
+    },
+    "sound_absorption": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "F1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "No se encontró un valor verificable para este ensamble; requiere ficha, ensayo o cálculo del proyecto."
+    },
+    "fire_reaction": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "F2"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Varía entre núcleo PE y FR del ACM; solicitar clasificación del producto y sistema."
+    },
+    "fire_resistance": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "F1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Requiere detalle de cortafuego de cámara y ensamble ensayado."
+    },
+    "smoke_class": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "F2"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Depende del núcleo ACM y otros componentes."
+    },
+    "voc_emissions": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "F2"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Depende de recubrimientos y sellos específicos."
+    },
+    "hazardous_substances": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "F2"
+        },
+        {
+          "ref": "F3"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "No se encontró un valor verificable para este ensamble; requiere ficha, ensayo o cálculo del proyecto."
+    },
+    "cleanability": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "F2"
+        },
+        {
+          "ref": "F3"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "ACM puede limpiarse; la pátina del acero requiere protocolo y control de manchas."
+    },
+    "accessibility": {
+      "estado": "dato",
+      "valor": "Sistema exterior sin función directa de accesibilidad; remates y bordes deben evitar riesgos a peatones",
+      "fuentes": [
+        {
+          "ref": "F1"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "healthcare_use": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "F1"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Requiere criterios de fuego, limpieza, seguridad y mantenimiento del edificio."
+    },
+    "maintenance_frequency": {
+      "estado": "dato",
+      "valor": 12,
+      "calificador": "=",
+      "unidad": "meses",
+      "fuentes": [
+        {
+          "ref": "F1"
+        },
+        {
+          "ref": "F3"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Inspección anual y tras viento fuerte; ajustar según ambiente."
+    },
+    "maintenance_actions": {
+      "estado": "dato",
+      "valor": "Revisar paneles, fijaciones, subestructura visible, cámara, drenajes, barreras, remates y manchas de escorrentía; limpiar ACM según fabricante",
+      "fuentes": [
+        {
+          "ref": "F1"
+        },
+        {
+          "ref": "F3"
+        }
+      ],
+      "evidencia": "E4"
+    },
+    "repairability": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "F1"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Paneles modulares pueden repararse o sustituirse si hay acceso y repuestos."
+    },
+    "replaceability": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "F1"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Piel exterior relativamente sustituible; detalle de fijación determina facilidad."
+    },
+    "common_failures": {
+      "estado": "dato",
+      "valor": [
+        "Filtración por barrera o remates",
+        "paneles sueltos",
+        "dilatación",
+        "corrosión galvánica",
+        "manchas por escorrentía del acero"
+      ],
+      "fuentes": [
+        {
+          "ref": "F1"
+        },
+        {
+          "ref": "F3"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "failure_causes": {
+      "estado": "dato",
+      "valor": [
+        "Anclajes insuficientes",
+        "cámara obstruida",
+        "juntas mal diseñadas",
+        "contacto de metales incompatibles",
+        "humedad/salinidad persistente"
+      ],
+      "fuentes": [
+        {
+          "ref": "F1"
+        },
+        {
+          "ref": "F3"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "corrective_action": {
+      "estado": "dato",
+      "valor": "Inspeccionar fijaciones y barrera; restablecer ventilación/drenaje; sustituir paneles dañados; corregir contacto galvánico y escorrentía",
+      "fuentes": [
+        {
+          "ref": "F1"
+        },
+        {
+          "ref": "F3"
+        }
+      ],
+      "evidencia": "E4"
+    },
+    "origin": {
+      "estado": "dato",
+      "valor_texto_original": "ACM: suministro local con componentes industrializados; acero patinable: procedencia por confirmar",
+      "fuentes": [
+        {
+          "ref": "F2"
+        },
+        {
+          "ref": "F3"
+        }
+      ],
+      "evidencia": "E4"
+    },
+    "transport_distance": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "F2"
+        },
+        {
+          "ref": "F3"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "No se encontró un valor verificable para este ensamble; requiere ficha, ensayo o cálculo del proyecto."
+    },
+    "recycled_content": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "F2"
+        },
+        {
+          "ref": "F3"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "No se encontró un valor verificable para este ensamble; requiere ficha, ensayo o cálculo del proyecto."
+    },
+    "renewable": {
+      "estado": "dato",
+      "valor": "No",
+      "fuentes": [
+        {
+          "ref": "F2"
+        },
+        {
+          "ref": "F3"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "reusable": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "F1"
+        },
+        {
+          "ref": "F3"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Paneles recuperables si uniones son desmontables y estado lo permite."
+    },
+    "recyclable": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "F2"
+        },
+        {
+          "ref": "F3"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Acero es reciclable; ACM requiere separación de aluminio y núcleo mediante gestor."
+    },
+    "installation_waste": {
+      "estado": "dato",
+      "valor": 2,
+      "fuentes": [
+        {
+          "ref": "F1"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Taller y modulación reducen recortes; manejar perfiles, núcleo y embalaje."
+    },
+    "epd_available": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "F2"
+        },
+        {
+          "ref": "F3"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "No se encontró un valor verificable para este ensamble; requiere ficha, ensayo o cálculo del proyecto."
+    },
+    "embodied_carbon": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "F2"
+        },
+        {
+          "ref": "F3"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "No se encontró un valor verificable para este ensamble; requiere ficha, ensayo o cálculo del proyecto."
+    },
+    "embodied_carbon_modules": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "environmental_certification": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "F2"
+        },
+        {
+          "ref": "F3"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "No se encontró un valor verificable para este ensamble; requiere ficha, ensayo o cálculo del proyecto."
+    },
+    "end_of_life": {
+      "estado": "dato",
+      "valor_texto_original": "Reciclaje de metales; ACM sujeto a separación y gestor; resto según tratamiento",
+      "fuentes": [
+        {
+          "ref": "F2"
+        },
+        {
+          "ref": "F3"
+        }
+      ],
+      "evidencia": "E4"
+    },
+    "cr_region": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "seismic_condition": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "tradition_type": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "cr_standard": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "plan_requirements": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "advantages": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "limitations": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "graphics": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "wall_function": {
+      "estado": "dato",
+      "valor": "Revestimiento exterior no portante; el respaldo cierra y controla aire/agua",
+      "fuentes": [
+        {
+          "ref": "F1"
+        },
+        {
+          "ref": "F3"
+        }
+      ],
+      "evidencia": "E4"
+    },
+    "system_thickness": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "F1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Espesor total depende de cámara, aislante, subestructura y respaldo."
+    },
+    "maximum_height": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "F1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Definir por viento, anclajes, dilataciones y normativa."
+    },
+    "modulation": {
+      "estado": "dato",
+      "valor": "ACM lámina 1500 × 5000 mm antes de fabricar; módulos finales por diseño. Acero según proveedor.",
+      "fuentes": [
+        {
+          "ref": "F2"
+        },
+        {
+          "ref": "F3"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "lateral_load": {
+      "estado": "dato",
+      "valor": "Viento transferido por panel, perfiles, ménsulas y anclajes calculados",
+      "fuentes": [
+        {
+          "ref": "F1"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "capillary_absorption": {
+      "estado": "no_aplica",
+      "fuentes": [
+        {
+          "ref": "F1"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "a piel metálica; controlar humedad capilar del respaldo"
+    },
+    "moisture_barrier": {
+      "estado": "dato",
+      "valor": "Barrera continua sobre respaldo, vierteaguas y cámara drenada con entradas/salidas de aire",
+      "fuentes": [
+        {
+          "ref": "F1"
+        }
+      ],
+      "evidencia": "E4"
+    },
+    "interior_finish": {
+      "estado": "dato",
+      "valor": "Lo define el muro de respaldo; la segunda piel no suele quedar expuesta al interior",
+      "fuentes": [
+        {
+          "ref": "F1"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "exterior_finish": {
+      "estado": "dato",
+      "valor": "ACM pintado PVDF/FEVE o acero patinable real con pátina; no equiparar imitación Corten",
+      "fuentes": [
+        {
+          "ref": "F2"
+        },
+        {
+          "ref": "F3"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "structural_connection": {
+      "estado": "dato",
+      "valor": "Ménsulas ancladas a estructura y perfiles portapanel con juntas de movimiento calculadas",
+      "fuentes": [
+        {
+          "ref": "F1"
+        },
+        {
+          "ref": "F3"
+        }
+      ],
+      "evidencia": "E4"
+    }
+  },
+  "fuentes": [
+    {
+      "id": "PROPIO",
+      "cita": "Elaboración propia del estudiante (TP1).",
+      "tipo": "elaboracion_propia"
+    },
+    {
+      "id": "F1",
+      "cita": "Extralum. Guía 049 Instalación de aluminio compuesto en fachada ventilada. https://www.extralum.com/wp-content/uploads/2023/02/Guia-049-Instalacion-aluminio-compuesto-Fachada-ventilada.pdf",
+      "url": "https://www.extralum.com/wp-content/uploads/2023/02/Guia-049-Instalacion-aluminio-compuesto-Fachada-ventilada.pdf"
+    },
+    {
+      "id": "F2",
+      "cita": "Extralum. FT-106 Lámina de aluminio compuesto ACOM. https://www.extralum.com/wp-content/uploads/2023/08/FT-106-Lamina-Aluminio-Compuesto-ACOM.pdf",
+      "url": "https://www.extralum.com/wp-content/uploads/2023/08/FT-106-Lamina-Aluminio-Compuesto-ACOM.pdf"
+    },
+    {
+      "id": "F3",
+      "cita": "SSAB. COR-TEN A for façades: condiciones de uso y diseño. https://www.ssab.com/en/brands-and-products/ssab-cor-ten/product-offer/ssab-cor-ten-a-for-facades",
+      "url": "https://www.ssab.com/en/brands-and-products/ssab-cor-ten/product-offer/ssab-cor-ten-a-for-facades"
+    },
+    {
+      "id": "S0",
+      "cita": "Definición del estudio y plantilla del curso."
+    }
+  ]
+}

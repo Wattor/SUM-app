@@ -1,0 +1,1032 @@
+{
+  "schema_version": "1.0",
+  "meta": {
+    "id": "PAR-PRE-02",
+    "componente": "PAR",
+    "autor": "Óscar Quesada",
+    "estado_revision": "borrador",
+    "fecha_actualizacion": "2026-10-26",
+    "id_legado": "CR-PC-PRE-02",
+    "origen_migracion": {
+      "archivo": "TP1_Fichas_Oscar_Paredes_5.xlsx",
+      "hoja": "Ficha_Prefabricado"
+    }
+  },
+  "campos": {
+    "id": {
+      "estado": "dato",
+      "valor": "PAR-PRE-02",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "name": {
+      "estado": "dato",
+      "valor": "Prefabricado horizontal de columnas y baldosas",
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "record_type": {
+      "estado": "dato",
+      "valor": "sistema",
+      "fuentes": [
+        {
+          "ref": "S0"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "component": {
+      "estado": "dato",
+      "valor": "PAR"
+    },
+    "subcategory": {
+      "estado": "dato",
+      "valor": "Columnas y baldosas prefabricadas de concreto",
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "country": {
+      "estado": "dato",
+      "valor": "CR",
+      "fuentes": [
+        {
+          "ref": "S0"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "manufacturer": {
+      "estado": "dato",
+      "valor": "Holcim Modular Solutions",
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "supplier": {
+      "estado": "dato",
+      "valor": "Holcim Costa Rica y distribuidores autorizados",
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Confirmar vigencia y disponibilidad comercial antes de cotizar."
+    },
+    "description": {
+      "estado": "dato",
+      "valor": "Sistema modular de columnas ranuradas de concreto pretensado y baldosas horizontales de concreto reforzado. Dados y tirante de fundación, mortero de juntas y solera superior completan el conjunto.",
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "keywords": {
+      "estado": "dato",
+      "valor": [
+        "prefabricado horizontal",
+        "columna y baldosa",
+        "concreto pretensado",
+        "sistema Prefa"
+      ],
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "main_material": {
+      "estado": "dato",
+      "valor": "Columnas pretensadas y baldosas reforzadas de concreto",
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "secondary_materials": {
+      "estado": "dato",
+      "valor": [
+        "Concreto de dados",
+        "tirante perimetral",
+        "mortero",
+        "solera",
+        "anclajes",
+        "sellador y pintura"
+      ],
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "layers": {
+      "estado": "dato",
+      "valor": [
+        "Acabado exterior",
+        "baldosa de concreto",
+        "acabado interior. En juntas: mortero",
+        "en bordes: columnas ranuradas y solera."
+      ],
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "La pared se entiende como sistema modular, no como placa aislada."
+    },
+    "total_thickness": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Varía con modelo de baldosa y acabados; confirmar dimensiones de la pieza seleccionada."
+    },
+    "commercial_dimensions": {
+      "estado": "dato",
+      "valor": "Columna estándar 120 × 120 mm; longitudes 2.94–3.78 m; baldosa de aproximadamente 630 mm de alto",
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "El manual incluye columnas 120 × 140 mm para casos más altos."
+    },
+    "density": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "surface_mass": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Peso por m² del ensamble no publicado."
+    },
+    "surface_finish": {
+      "estado": "dato",
+      "valor": "Una cara lisa y otra más rugosa; pintura, repello o revestimiento compatible",
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "support_system": {
+      "estado": "dato",
+      "valor": "Dados de fundación unidos por tirante perimetral; columnas empotradas y solera superior",
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "fastening": {
+      "estado": "dato",
+      "valor": "Baldosas deslizadas por ranuras; mortero en encuentros; solera fijada a conexiones roscadas de columnas",
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "joints_seals": {
+      "estado": "dato",
+      "valor": "Juntas de mortero entre baldosas y columnas, sellado de encuentros y botaguas",
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "installation_sequence": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "tools_labor": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "critical_point": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "recommended_uses": {
+      "estado": "dato",
+      "valor": [
+        "Vivienda unifamiliar de un nivel",
+        "aulas",
+        "centros de salud",
+        "tapias con piezas y diseño apropiados"
+      ],
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "building_types": {
+      "estado": "dato",
+      "valor": [
+        "Vivienda",
+        "Institucional",
+        "Salud"
+      ],
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "location": {
+      "estado": "dato",
+      "valor": "Ambos",
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "climates": {
+      "estado": "dato",
+      "valor": "Tropical húmedo y seco con control de agua en juntas, base, vanos y cubierta",
+      "fuentes": [
+        {
+          "ref": "P1"
+        },
+        {
+          "ref": "P2"
+        }
+      ],
+      "evidencia": "E4"
+    },
+    "imn_subregions": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "compatibility": {
+      "estado": "dato",
+      "valor": "Compatible con soleras de madera o acero, cubiertas livianas, repellos y pinturas especificados",
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "use_restrictions": {
+      "estado": "dato",
+      "valor": "Sistema de referencia para construcciones de un nivel. No cortar columnas pretensadas; muros de retención exigen piezas y diseño especiales.",
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Seguir los planos del fabricante y el diseño estructural."
+    },
+    "labor_specialization": {
+      "estado": "dato",
+      "valor": 2,
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Montaje manual con cuadrilla de cuatro personas; requiere control de alineación, plomo y juntas."
+    },
+    "installation_complexity": {
+      "estado": "dato",
+      "valor": 2,
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Replanteo, excavación, dados, colocación de columnas y baldosas, solera y juntas."
+    },
+    "national_availability": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Sistema de uso local; confirmar oferta del proveedor por región."
+    },
+    "installation_time": {
+      "estado": "dato",
+      "valor": 2,
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Menor tiempo relativo que mampostería tradicional en repetición; escala 1=rápido."
+    },
+    "relative_cost": {
+      "estado": "dato",
+      "valor": 2,
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Bajo a medio relativo a los cinco sistemas; requiere cotización por m² terminado."
+    },
+    "price_range": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "No hay precio vigente y comparable para sistema terminado."
+    },
+    "mechanical_resistance": {
+      "estado": "dato",
+      "valor": "Diseño del sistema conforme a solicitaciones sísmicas y de viento; columna de referencia f'c=315 kg/cm²",
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "f'c corresponde a la columna, no a la capacidad del muro completo."
+    },
+    "impact_resistance": {
+      "estado": "dato",
+      "valor": "Media, valoración cualitativa",
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Evitar golpes y caídas durante transporte y montaje de baldosas."
+    },
+    "abrasion_resistance": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "No se encontró un valor verificable para este ensamble; requiere ficha, ensayo o cálculo del proyecto."
+    },
+    "durability_years": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "No se encontró un valor verificable para este ensamble; requiere ficha, ensayo o cálculo del proyecto."
+    },
+    "water_absorption": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "No se encontró un valor verificable para este ensamble; requiere ficha, ensayo o cálculo del proyecto."
+    },
+    "moisture_resistance": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "P1"
+        },
+        {
+          "ref": "P2"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "La estanqueidad depende del relleno de juntas, botaguas, zócalo y acabado."
+    },
+    "condensation_risk": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Depende de clima, ventilación y acabado; requiere evaluación por proyecto."
+    },
+    "corrosion_resistance": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "El acero embebido requiere integridad del concreto y control de humedad."
+    },
+    "uv_resistance": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Concreto mineral estable; pintura y sellos gobiernan envejecimiento visible."
+    },
+    "marine_environment": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Verificar recubrimientos, exposición a cloruros, juntas y mantenimiento."
+    },
+    "vapor_permeability": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "thermal_conductivity": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "No se encontró un valor verificable para este ensamble; requiere ficha, ensayo o cálculo del proyecto."
+    },
+    "specific_heat": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "thermal_resistance": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "No se encontró un valor verificable para este ensamble; requiere ficha, ensayo o cálculo del proyecto."
+    },
+    "u_value": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "No se encontró un valor verificable para este ensamble; requiere ficha, ensayo o cálculo del proyecto."
+    },
+    "solar_reflectance": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Depende del acabado."
+    },
+    "thermal_emittance": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "sri": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Depende del acabado."
+    },
+    "sound_insulation": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "No se encontró un valor verificable para este ensamble; requiere ficha, ensayo o cálculo del proyecto."
+    },
+    "sound_absorption": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "No se encontró un valor verificable para este ensamble; requiere ficha, ensayo o cálculo del proyecto."
+    },
+    "fire_reaction": {
+      "estado": "dato",
+      "valor": "Concreto mineral; clase ensayada del conjunto no disponible",
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "fire_resistance": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "No se encontró un valor verificable para este ensamble; requiere ficha, ensayo o cálculo del proyecto."
+    },
+    "smoke_class": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "No se encontró un valor verificable para este ensamble; requiere ficha, ensayo o cálculo del proyecto."
+    },
+    "voc_emissions": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Depende de pinturas, sellos y revestimientos."
+    },
+    "hazardous_substances": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "No se encontró un valor verificable para este ensamble; requiere ficha, ensayo o cálculo del proyecto."
+    },
+    "cleanability": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Buena con acabado liso y lavable; juntas abiertas acumulan suciedad."
+    },
+    "accessibility": {
+      "estado": "dato",
+      "valor": "Puede recibir apoyos y accesorios si se prevén refuerzos y fijaciones; el diseño define anchos y circulaciones",
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "healthcare_use": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Históricamente usado en centros de salud; acabado y requisitos sanitarios deben especificarse."
+    },
+    "maintenance_frequency": {
+      "estado": "dato",
+      "valor": 12,
+      "calificador": "=",
+      "unidad": "meses",
+      "fuentes": [
+        {
+          "ref": "P2"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Inspección visual anual y después de sismos, inundaciones o filtraciones."
+    },
+    "maintenance_actions": {
+      "estado": "dato",
+      "valor": "Revisar juntas entre baldosas, solera, botaguas, repellos, fisuras, humedad y verticalidad; resellar y repintar según condición",
+      "fuentes": [
+        {
+          "ref": "P1"
+        },
+        {
+          "ref": "P2"
+        }
+      ],
+      "evidencia": "E4"
+    },
+    "repairability": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "P1"
+        },
+        {
+          "ref": "P2"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Juntas y acabados reparables; daño en columnas o baldosas exige evaluación."
+    },
+    "replaceability": {
+      "estado": "dato",
+      "valor": 2,
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "La pieza queda integrada a ranuras, juntas, solera y acabados."
+    },
+    "common_failures": {
+      "estado": "dato",
+      "valor": [
+        "Juntas abiertas",
+        "filtración",
+        "fisuras o despuntes de baldosas",
+        "desprendimiento de repello",
+        "pérdida de plomo"
+      ],
+      "fuentes": [
+        {
+          "ref": "P1"
+        },
+        {
+          "ref": "P2"
+        }
+      ],
+      "evidencia": "E4"
+    },
+    "failure_causes": {
+      "estado": "dato",
+      "valor": [
+        "Manipulación brusca",
+        "relleno insuficiente de juntas",
+        "drenaje deficiente",
+        "asentamiento",
+        "montaje fuera de tolerancia"
+      ],
+      "fuentes": [
+        {
+          "ref": "P1"
+        },
+        {
+          "ref": "P2"
+        }
+      ],
+      "evidencia": "E4"
+    },
+    "corrective_action": {
+      "estado": "dato",
+      "valor": "Diagnosticar causa y estabilidad; corregir agua y junta; sustituir o reforzar piezas solo mediante solución aprobada por profesional",
+      "fuentes": [
+        {
+          "ref": "P2"
+        }
+      ],
+      "evidencia": "E4"
+    },
+    "origin": {
+      "estado": "dato",
+      "valor": "Nacional",
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "transport_distance": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Depende de planta y obra."
+    },
+    "recycled_content": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "No se encontró un valor verificable para este ensamble; requiere ficha, ensayo o cálculo del proyecto."
+    },
+    "renewable": {
+      "estado": "dato",
+      "valor": "No",
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "reusable": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Recuperación intacta limitada por morteros, daños y geometría."
+    },
+    "recyclable": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Concreto puede triturarse y acero separarse donde exista gestor."
+    },
+    "installation_waste": {
+      "estado": "dato",
+      "valor": 2,
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Piezas seriadas minimizan recortes y formaleta; puede haber roturas."
+    },
+    "epd_available": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "No se encontró un valor verificable para este ensamble; requiere ficha, ensayo o cálculo del proyecto."
+    },
+    "embodied_carbon": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "No se encontró un valor verificable para este ensamble; requiere ficha, ensayo o cálculo del proyecto."
+    },
+    "embodied_carbon_modules": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "environmental_certification": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "No se encontró un valor verificable para este ensamble; requiere ficha, ensayo o cálculo del proyecto."
+    },
+    "end_of_life": {
+      "estado": "dato",
+      "valor_texto_original": "Reciclaje; vertedero según separación y gestor",
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "cr_region": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "seismic_condition": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "tradition_type": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "cr_standard": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "plan_requirements": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "advantages": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "limitations": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "graphics": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "wall_function": {
+      "estado": "dato",
+      "valor": "Portante o cerramiento según diseño del sistema",
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "system_thickness": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "No fijar espesor del conjunto sin baldosa y acabados seleccionados."
+    },
+    "maximum_height": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Configuración de referencia de un nivel; altura exacta depende de piezas y planos."
+    },
+    "modulation": {
+      "estado": "dato",
+      "valor": "Altura de baldosa de referencia ≈630 mm; separación de columnas según plano",
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "lateral_load": {
+      "estado": "dato",
+      "valor": "Resistencia a sismo y viento definida por diseño del sistema",
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "capillary_absorption": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "No se encontró un valor verificable para este ensamble; requiere ficha, ensayo o cálculo del proyecto."
+    },
+    "moisture_barrier": {
+      "estado": "dato",
+      "valor": "Sellos y mortero en juntas, botaguas, zócalo y drenaje perimetral",
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "interior_finish": {
+      "estado": "dato",
+      "valor": "Pintura, repello o revestimiento sobre cara adecuada",
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "exterior_finish": {
+      "estado": "dato",
+      "valor": "Pintura o revestimiento exterior con juntas y coronación protegidas",
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "structural_connection": {
+      "estado": "dato",
+      "valor": "Columnas empotradas en dados y unidas por tirante inferior y solera superior",
+      "fuentes": [
+        {
+          "ref": "P1"
+        }
+      ],
+      "evidencia": "E2"
+    }
+  },
+  "fuentes": [
+    {
+      "id": "PROPIO",
+      "cita": "Elaboración propia del estudiante (TP1).",
+      "tipo": "elaboracion_propia"
+    },
+    {
+      "id": "P1",
+      "cita": "Holcim Costa Rica. Manual Técnico Sistema Prefa Holcim, cap. 9. https://www.holcim.cr/sites/costarica/files/2023-02/9_capitulo_prefa_hms.pdf",
+      "url": "https://www.holcim.cr/sites/costarica/files/2023-02/9_capitulo_prefa_hms.pdf"
+    },
+    {
+      "id": "P2",
+      "cita": "MIVAH. Guía de campo: evaluación rápida de viviendas, actualización 2022. https://www.mivah.go.cr/Documentos/emergencias/Guia-de-Campo-2025.pdf",
+      "url": "https://www.mivah.go.cr/Documentos/emergencias/Guia-de-Campo-2025.pdf"
+    },
+    {
+      "id": "S0",
+      "cita": "Definición del estudio y plantilla del curso."
+    }
+  ]
+}

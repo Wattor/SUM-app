@@ -1,0 +1,1223 @@
+{
+  "schema_version": "1.0",
+  "meta": {
+    "id": "PAR-MAM-01",
+    "componente": "PAR",
+    "autor": "Óscar Quesada",
+    "estado_revision": "borrador",
+    "fecha_actualizacion": "2026-10-26",
+    "id_legado": "CR-PC-MAM-01",
+    "origen_migracion": {
+      "archivo": "TP1_Fichas_Oscar_Paredes_5.xlsx",
+      "hoja": "Ficha_Mamposteria"
+    }
+  },
+  "campos": {
+    "id": {
+      "estado": "dato",
+      "valor": "PAR-MAM-01",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "name": {
+      "estado": "dato",
+      "valor": "Mampostería reforzada con bloque de concreto N-15",
+      "fuentes": [
+        {
+          "ref": "S1"
+        },
+        {
+          "ref": "S2"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Sistema genérico; el bloque PEDREGAL N-15 se usa como referencia comercial."
+    },
+    "record_type": {
+      "estado": "dato",
+      "valor": "sistema",
+      "fuentes": [
+        {
+          "ref": "S0"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Integra unidades, mortero, acero, grout, juntas y acabados."
+    },
+    "component": {
+      "estado": "dato",
+      "valor": "PAR"
+    },
+    "subcategory": {
+      "estado": "dato",
+      "valor": "Mampostería estructural reforzada",
+      "fuentes": [
+        {
+          "ref": "S2"
+        }
+      ],
+      "evidencia": "E3",
+      "nota": "Puede funcionar como muro portante o como cerramiento, según diseño."
+    },
+    "country": {
+      "estado": "dato",
+      "valor": "CR",
+      "fuentes": [
+        {
+          "ref": "S0"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Costa Rica."
+    },
+    "manufacturer": {
+      "estado": "dato",
+      "valor": "PEDREGAL",
+      "fuentes": [
+        {
+          "ref": "S1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Fabricante de la unidad de referencia; el sistema admite unidades equivalentes que cumplan especificación."
+    },
+    "supplier": {
+      "estado": "dato",
+      "valor": "PEDREGAL y distribuidores nacionales",
+      "fuentes": [
+        {
+          "ref": "S1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Confirmar inventario, planta de origen y condiciones de entrega al cotizar."
+    },
+    "description": {
+      "estado": "dato",
+      "valor": "Pared ejecutada con unidades huecas de concreto, juntas de mortero, refuerzo vertical y horizontal y relleno de grout en las celdas definidas por el diseño. Se completa con viga corona, encuentros y revestimientos acordes con la exposición.",
+      "fuentes": [
+        {
+          "ref": "S1"
+        },
+        {
+          "ref": "S2"
+        },
+        {
+          "ref": "S3"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "La geometría y el refuerzo final deben provenir de planos y memoria estructural."
+    },
+    "keywords": {
+      "estado": "dato",
+      "valor": [
+        "bloque de concreto",
+        "N-15",
+        "mampostería reforzada",
+        "mampostería integral",
+        "muro",
+        "cerramiento"
+      ],
+      "fuentes": [
+        {
+          "ref": "S1"
+        },
+        {
+          "ref": "S2"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Términos de búsqueda y clasificación."
+    },
+    "main_material": {
+      "estado": "dato",
+      "valor": "Unidad hueca de concreto N-15",
+      "fuentes": [
+        {
+          "ref": "S1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Tamaño nominal 15 × 20 × 40 cm."
+    },
+    "secondary_materials": {
+      "estado": "dato",
+      "valor": [
+        "Mortero de pega",
+        "acero de refuerzo",
+        "grout",
+        "viga corona",
+        "repello",
+        "sellador o pintura"
+      ],
+      "fuentes": [
+        {
+          "ref": "S1"
+        },
+        {
+          "ref": "S2"
+        },
+        {
+          "ref": "S3"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "La dosificación, calidad y ubicación dependen de la especificación y del diseño."
+    },
+    "layers": {
+      "estado": "dato",
+      "valor": [
+        "Acabado exterior",
+        "repello exterior",
+        "bloque + mortero + acero + grout",
+        "repello interior",
+        "acabado interior"
+      ],
+      "fuentes": [
+        {
+          "ref": "S2"
+        },
+        {
+          "ref": "S3"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "En bloque aparente se omiten repellos, pero deben resolverse absorción, juntas y protección superficial."
+    },
+    "total_thickness": {
+      "estado": "dato",
+      "valor": 180,
+      "calificador": "=",
+      "unidad": "mm",
+      "fuentes": [
+        {
+          "ref": "S1"
+        },
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Espesor de referencia: bloque de 150 mm más repello aproximado de 15 mm por cara; no es una dimensión universal."
+    },
+    "commercial_dimensions": {
+      "estado": "dato",
+      "valor": "Nominal 150 × 200 × 400 mm; real 150 × 190 × 390 mm; 12.5 unidades/m²",
+      "fuentes": [
+        {
+          "ref": "S1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Tolerancia dimensional declarada: ±3 mm."
+    },
+    "density": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "surface_mass": {
+      "estado": "dato",
+      "valor": 152.5,
+      "calificador": "=",
+      "unidad": "kg/m²",
+      "fuentes": [
+        {
+          "ref": "S1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Peso aproximado de las unidades: 12.2 kg × 12.5 unidades/m². Excluye mortero, grout, acero y acabados."
+    },
+    "surface_finish": {
+      "estado": "dato",
+      "valor": "Repello cementicio y pintura; alternativamente bloque aparente con tratamiento compatible",
+      "fuentes": [
+        {
+          "ref": "S1"
+        },
+        {
+          "ref": "S3"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "El acabado exterior debe responder a lluvia, radiación UV y mantenimiento previsto."
+    },
+    "support_system": {
+      "estado": "dato",
+      "valor": "Cimentación o viga de fundación diseñada para recibir el muro; continuidad mediante refuerzo y viga corona",
+      "fuentes": [
+        {
+          "ref": "S2"
+        }
+      ],
+      "evidencia": "E3",
+      "nota": "No definir fundaciones ni refuerzo sin cálculo estructural y estudio del sitio."
+    },
+    "fastening": {
+      "estado": "dato",
+      "valor": "Barras verticales ancladas a la fundación; refuerzo horizontal y conexiones a vigas o elementos de borde según diseño",
+      "fuentes": [
+        {
+          "ref": "S2"
+        }
+      ],
+      "evidencia": "E3",
+      "nota": "La continuidad del refuerzo y el llenado de celdas son críticos para el desempeño sísmico."
+    },
+    "joints_seals": {
+      "estado": "dato",
+      "valor": "Juntas de mortero; juntas de control o construcción donde lo indique el diseño; sellado en vanos, coronación y penetraciones",
+      "fuentes": [
+        {
+          "ref": "S2"
+        },
+        {
+          "ref": "S3"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Evitar juntas incompletas y entradas de agua en coronas y encuentros."
+    },
+    "installation_sequence": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "tools_labor": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "critical_point": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "recommended_uses": {
+      "estado": "dato",
+      "valor": [
+        "Muros portantes diseñados",
+        "cerramientos exteriores",
+        "divisiones interiores",
+        "mampostería integral o confinada"
+      ],
+      "fuentes": [
+        {
+          "ref": "S1"
+        },
+        {
+          "ref": "S2"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Muros de retención, tanques y piscinas exigen diseño y especificaciones particulares."
+    },
+    "building_types": {
+      "estado": "dato",
+      "valor": [
+        "Vivienda",
+        "Comercial",
+        "Institucional"
+      ],
+      "fuentes": [
+        {
+          "ref": "S1"
+        },
+        {
+          "ref": "S3"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Aplicación común; edificios de mayor complejidad requieren coordinación estructural y de instalaciones."
+    },
+    "location": {
+      "estado": "dato",
+      "valor": "Ambos",
+      "fuentes": [
+        {
+          "ref": "S1"
+        },
+        {
+          "ref": "S3"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "En exterior requiere estrategia de control de agua y acabado compatible."
+    },
+    "climates": {
+      "estado": "dato",
+      "valor": "Tropical húmedo; tropical seco; zonas altas, con detalle de humedad y acondicionamiento térmico",
+      "fuentes": [
+        {
+          "ref": "S3"
+        },
+        {
+          "ref": "S4"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "El bloque sin estrategia térmica puede resultar insuficiente en climas fríos de altura."
+    },
+    "imn_subregions": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "compatibility": {
+      "estado": "dato",
+      "valor": "Compatible con cimentaciones y marcos de concreto, repellos cementicios y recubrimientos formulados para mampostería",
+      "fuentes": [
+        {
+          "ref": "S2"
+        },
+        {
+          "ref": "S3"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Coordinar anclajes, instalaciones, juntas y movimientos diferenciales con otros sistemas."
+    },
+    "use_restrictions": {
+      "estado": "dato",
+      "valor": "No usar unidades clase C como mampostería estructural. No ejecutar muros de retención ni alturas especiales sin diseño. Evitar cortes, rozas o perforaciones no coordinadas.",
+      "fuentes": [
+        {
+          "ref": "S2"
+        }
+      ],
+      "evidencia": "E3",
+      "nota": "La capacidad pertenece al ensamble diseñado, no solo al bloque."
+    },
+    "labor_specialization": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "R02"
+        },
+        {
+          "ref": "S2"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Nivel medio. Cuadrilla típica: albañil, ayudante y armador; requiere control de plomo, nivel, juntas, refuerzo y grout."
+    },
+    "installation_complexity": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "R03"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Complejidad media. Herramientas: mezcladora, herramientas de albañilería, nivel/plomada, cortadora y equipo para colocar/compactar grout."
+    },
+    "national_availability": {
+      "estado": "dato",
+      "valor": 5,
+      "fuentes": [
+        {
+          "ref": "S1"
+        },
+        {
+          "ref": "S6"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Disponibilidad muy alta por uso extendido y oferta de fabricantes nacionales; verificar existencias regionales."
+    },
+    "installation_time": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "R04"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Tiempo relativo medio: proceso húmedo y secuencial, condicionado por rendimiento, curado, refuerzo y acabados."
+    },
+    "relative_cost": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "R04"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Costo relativo medio dentro de los cinco sistemas del estudio; depende de refuerzo, grout, acabados, logística y desperdicio."
+    },
+    "price_range": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "S1"
+        },
+        {
+          "ref": "S6"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "No se encontró un precio trazable y estable para el sistema completo; cotizar por m² con alcance definido."
+    },
+    "mechanical_resistance": {
+      "estado": "dato",
+      "valor": "Unidad N-15: resistencia mínima a compresión de 133 kg/cm²",
+      "fuentes": [
+        {
+          "ref": "S1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Dato de la unidad. La resistencia del muro depende también de mortero, grout, refuerzo, geometría y ejecución."
+    },
+    "impact_resistance": {
+      "estado": "dato",
+      "valor": "Alta, valoración cualitativa",
+      "fuentes": [
+        {
+          "ref": "R02"
+        },
+        {
+          "ref": "S2"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "La masa y rigidez favorecen el impacto cotidiano; impactos severos pueden fisurar unidades y juntas."
+    },
+    "abrasion_resistance": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "S1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "No se identificó un valor de ensayo para la superficie terminada; el acabado controla el desgaste expuesto."
+    },
+    "durability_years": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "S1"
+        },
+        {
+          "ref": "S2"
+        },
+        {
+          "ref": "S3"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "La vida útil verificable depende del ambiente, detalle, ejecución, recubrimientos y mantenimiento."
+    },
+    "water_absorption": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "S1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "La ficha consultada no publica absorción de agua del N-15."
+    },
+    "moisture_resistance": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "R05"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Resistencia alta cuando hay repello o protección, juntas completas, coronación y control de agua; baja si esos detalles fallan."
+    },
+    "condensation_risk": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "R06"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Riesgo medio y dependiente del clima, ventilación, puentes térmicos y temperatura interior; requiere análisis higrotérmico si es crítico."
+    },
+    "corrosion_resistance": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "R03"
+        },
+        {
+          "ref": "S3"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "El concreto protege el acero si el grout, el recubrimiento y el control de humedad son adecuados; cloruros y filtraciones elevan el riesgo."
+    },
+    "uv_resistance": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "R05"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "El sustrato mineral tolera UV; la durabilidad visible depende principalmente del revestimiento o pintura."
+    },
+    "marine_environment": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "S2"
+        },
+        {
+          "ref": "S3"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "En costa se deben reforzar control de humedad, recubrimiento del acero, sellos, revestimientos y mantenimiento."
+    },
+    "vapor_permeability": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "thermal_conductivity": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "S1"
+        },
+        {
+          "ref": "S4"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Se requiere conductividad del bloque y definición completa del ensamble."
+    },
+    "specific_heat": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "thermal_resistance": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "S1"
+        },
+        {
+          "ref": "S4"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "No se calculó R porque faltan propiedades verificadas de cada capa."
+    },
+    "u_value": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "S1"
+        },
+        {
+          "ref": "S4"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "La transmitancia debe calcularse para el ensamble y los puentes térmicos reales."
+    },
+    "solar_reflectance": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "S1"
+        },
+        {
+          "ref": "S4"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Depende del color y del acabado exterior, no del sistema genérico."
+    },
+    "thermal_emittance": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "sri": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "S1"
+        },
+        {
+          "ref": "S4"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Depende del acabado exterior y de sus propiedades ópticas y térmicas."
+    },
+    "sound_insulation": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "S1"
+        },
+        {
+          "ref": "S2"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "No se encontró Rw/STC verificable para este ensamble específico de 15 cm con sus acabados."
+    },
+    "sound_absorption": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "S1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "La absorción sonora depende del acabado y de la geometría superficial."
+    },
+    "fire_reaction": {
+      "estado": "dato",
+      "valor": "Material mineral; clasificación del ensamble no disponible",
+      "fuentes": [
+        {
+          "ref": "S1"
+        },
+        {
+          "ref": "S2"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "No confundir naturaleza no combustible del bloque con una clasificación ensayada del muro completo."
+    },
+    "fire_resistance": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "S1"
+        },
+        {
+          "ref": "S2"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Se requiere ensayo o sistema listado con espesor, relleno, juntas y acabados equivalentes."
+    },
+    "smoke_class": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "S1"
+        },
+        {
+          "ref": "S2"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "No se identificó una clasificación de humo para el ensamble completo."
+    },
+    "voc_emissions": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "S1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "El bloque mineral no define las emisiones de pinturas, selladores y recubrimientos del sistema."
+    },
+    "hazardous_substances": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "S1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Revisar fichas de seguridad de cemento, morteros, pinturas y productos de corte antes de ejecutar."
+    },
+    "cleanability": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "R04"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Alta con acabado liso, continuo y lavable; menor en bloque aparente rugoso o con juntas deterioradas."
+    },
+    "accessibility": {
+      "estado": "dato",
+      "valor": "Permite paredes continuas y robustas; debe coordinar anchos libres, radios de giro, pasamanos, accesorios y refuerzos",
+      "fuentes": [
+        {
+          "ref": "S3"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "La accesibilidad depende del diseño espacial y de los elementos incorporados, no del bloque por sí solo."
+    },
+    "healthcare_use": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "S3"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Puede utilizarse si el acabado es higiénico, lavable y resistente a limpieza; coordinar instalaciones y requisitos sanitarios."
+    },
+    "maintenance_frequency": {
+      "estado": "dato",
+      "valor": 12,
+      "calificador": "=",
+      "unidad": "meses",
+      "fuentes": [
+        {
+          "ref": "R07"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Inspección visual anual y adicional después de sismos, impactos, inundaciones o filtraciones relevantes."
+    },
+    "maintenance_actions": {
+      "estado": "dato",
+      "valor": "Revisar fisuras, desprendimientos, juntas, sellos, pintura, humedad, eflorescencia, coronación y base; limpiar y corregir la fuente de agua antes de resanar",
+      "fuentes": [
+        {
+          "ref": "S5"
+        },
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Registrar ubicación y evolución de fisuras; no ocultar daño activo con acabado."
+    },
+    "repairability": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "R07"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Las reparaciones locales son viables si se diagnostica la causa; daño estructural requiere profesional competente."
+    },
+    "replaceability": {
+      "estado": "dato",
+      "valor": 2,
+      "fuentes": [
+        {
+          "ref": "R04"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Sustitución baja: es un sistema húmedo, pesado e integrado; demoler paños afecta acabados, instalaciones y conexiones."
+    },
+    "common_failures": {
+      "estado": "dato",
+      "valor": [
+        "Fisuras diagonales",
+        "fisuras en vanos o encuentros",
+        "humedad y eflorescencia",
+        "desprendimiento de repello",
+        "juntas incompletas",
+        "vacíos de grout"
+      ],
+      "fuentes": [
+        {
+          "ref": "S2"
+        },
+        {
+          "ref": "S5"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Fisuras activas, diagonales o con desplazamiento requieren valoración técnica."
+    },
+    "failure_causes": {
+      "estado": "dato",
+      "valor": [
+        "Movimiento sísmico o diferencial",
+        "discontinuidad de refuerzo",
+        "mala ejecución de mortero o grout",
+        "entrada de agua",
+        "falta de juntas o mantenimiento"
+      ],
+      "fuentes": [
+        {
+          "ref": "S2"
+        },
+        {
+          "ref": "S5"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "La apariencia de la fisura no basta para determinar la causa sin inspección."
+    },
+    "corrective_action": {
+      "estado": "dato",
+      "valor": "Diagnosticar estabilidad y origen de humedad; detener la causa; reparar juntas o repello y restituir recubrimiento. Ante daño estructural, restringir el área y solicitar evaluación profesional.",
+      "fuentes": [
+        {
+          "ref": "S5"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "La solución se define según severidad, actividad de la fisura y condición del refuerzo."
+    },
+    "origin": {
+      "estado": "dato",
+      "valor": "Nacional",
+      "fuentes": [
+        {
+          "ref": "S1"
+        },
+        {
+          "ref": "S6"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Producto fabricado en Costa Rica; confirmar planta de origen para cada pedido."
+    },
+    "transport_distance": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "S1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Depende de la planta, distribuidor y ubicación de la obra."
+    },
+    "recycled_content": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "S1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "PEDREGAL declara incorporación de material reciclado y RESIN8 según planta, pero no publica el porcentaje en esta ficha."
+    },
+    "renewable": {
+      "estado": "dato",
+      "valor": "No",
+      "fuentes": [
+        {
+          "ref": "S1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "El bloque es un producto mineral manufacturado; no se clasifica como recurso renovable."
+    },
+    "reusable": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "R04"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "La unidad recuperada rara vez se reutiliza intacta después de mortero y grout; puede haber rescate en casos puntuales."
+    },
+    "recyclable": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "S1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "PEDREGAL declara el producto 100 % reciclable y recepción en Belén según condiciones vigentes; el muro debe demolerse y separarse."
+    },
+    "installation_waste": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "R04"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Residuos medios por cortes, roturas, mortero, grout y empaques; reducir mediante modulación, pedidos y segregación."
+    },
+    "epd_available": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "S1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "No se identificó una DAP/EPD específica del N-15 en la fuente consultada."
+    },
+    "embodied_carbon": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "S1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Se requiere DAP o ACV verificable con límites y unidad funcional compatibles."
+    },
+    "embodied_carbon_modules": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "environmental_certification": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "S1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "La ficha consultada cita normas técnicas del producto, no una certificación ambiental."
+    },
+    "end_of_life": {
+      "estado": "dato",
+      "valor_texto_original": "Reciclaje; vertedero si no existe separación o recepción",
+      "fuentes": [
+        {
+          "ref": "S1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Priorizar separación y reciclaje; confirmar condiciones de recepción antes de transportar."
+    },
+    "cr_region": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "seismic_condition": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "tradition_type": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "cr_standard": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "plan_requirements": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "advantages": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "limitations": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "graphics": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "wall_function": {
+      "estado": "dato",
+      "valor": "Portante o cerramiento",
+      "fuentes": [
+        {
+          "ref": "S1"
+        },
+        {
+          "ref": "S2"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "La función debe quedar definida en planos; no asumir capacidad portante por apariencia."
+    },
+    "system_thickness": {
+      "estado": "dato",
+      "valor": 150,
+      "calificador": "=",
+      "unidad": "mm",
+      "fuentes": [
+        {
+          "ref": "S1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Espesor nominal del bloque de referencia; excluye repellos y acabados."
+    },
+    "maximum_height": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "S2"
+        }
+      ],
+      "evidencia": "E3",
+      "nota": "La altura depende de longitud, espesor, apoyos, cargas, refuerzo y categoría del edificio; requiere diseño."
+    },
+    "modulation": {
+      "estado": "dato",
+      "valor": "200 × 400 mm nominal; 12.5 unidades/m²",
+      "fuentes": [
+        {
+          "ref": "S1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Modular vanos, longitudes y alturas para reducir cortes y residuos."
+    },
+    "lateral_load": {
+      "estado": "dato",
+      "valor": "Definida por diseño conforme al Código Sísmico de Costa Rica",
+      "fuentes": [
+        {
+          "ref": "S2"
+        }
+      ],
+      "evidencia": "E3",
+      "nota": "No existe una capacidad única para el sistema genérico; depende del ensamble y sus conexiones."
+    },
+    "capillary_absorption": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "S1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "No se encontró valor de absorción capilar para la unidad o el muro terminado."
+    },
+    "moisture_barrier": {
+      "estado": "dato",
+      "valor": "Control de agua mediante repello o recubrimiento exterior, sellos en vanos y penetraciones, protección de coronación y detalle de base contra ascenso capilar",
+      "fuentes": [
+        {
+          "ref": "S3"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "La barrera exacta debe especificarse según exposición, soporte y acabado."
+    },
+    "interior_finish": {
+      "estado": "dato",
+      "valor": "Repello fino y pintura; alternativamente revestimiento compatible o bloque aparente sellado",
+      "fuentes": [
+        {
+          "ref": "S3"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "En espacios lavables, especificar acabado continuo compatible con el uso."
+    },
+    "exterior_finish": {
+      "estado": "dato",
+      "valor": "Repello y pintura exterior o revestimiento compatible; bloque aparente solo con detalle y tratamiento de protección",
+      "fuentes": [
+        {
+          "ref": "S1"
+        },
+        {
+          "ref": "S3"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Resolver goterones, coronas, zócalos, vanos y encuentros antes del acabado."
+    },
+    "structural_connection": {
+      "estado": "dato",
+      "valor": "Barras verticales ancladas a fundación o viga; refuerzo horizontal y viga corona conectados a elementos de borde conforme al diseño",
+      "fuentes": [
+        {
+          "ref": "S2"
+        }
+      ],
+      "evidencia": "E3",
+      "nota": "La conexión debe figurar en planos estructurales y verificarse durante la ejecución."
+    }
+  },
+  "fuentes": [
+    {
+      "id": "PROPIO",
+      "cita": "Elaboración propia del estudiante (TP1).",
+      "tipo": "elaboracion_propia"
+    },
+    {
+      "id": "R01",
+      "cita": "criterio técnico"
+    },
+    {
+      "id": "R02",
+      "cita": "Criterio técnico basado en S1"
+    },
+    {
+      "id": "R03",
+      "cita": "Criterio técnico basado en S2"
+    },
+    {
+      "id": "R04",
+      "cita": "Criterio técnico"
+    },
+    {
+      "id": "R05",
+      "cita": "Criterio técnico basado en S3"
+    },
+    {
+      "id": "R06",
+      "cita": "Criterio técnico basado en S4"
+    },
+    {
+      "id": "R07",
+      "cita": "Criterio técnico basado en S5"
+    },
+    {
+      "id": "S0",
+      "cita": "Definición del estudio y plantilla del curso."
+    },
+    {
+      "id": "S1",
+      "cita": "PEDREGAL. Bloque Estándar N-15, ficha técnica. https://pedregal.co.cr/assets/files/Bloque-estandarN15ficha.pdf",
+      "url": "https://pedregal.co.cr/assets/files/Bloque-estandarN15ficha.pdf"
+    },
+    {
+      "id": "S2",
+      "cita": "CFIA. Código Sísmico de Costa Rica 2010, revisión 2014, capítulo 9 Mampostería estructural. https://www.codigosismico.or.cr/descargas/CSCR2010.pdf",
+      "url": "https://www.codigosismico.or.cr/descargas/CSCR2010.pdf"
+    },
+    {
+      "id": "S3",
+      "cita": "MIVAH. Decreto 45094, Anexo 1: Especificaciones técnicas de materiales y elementos, versión 2.0, abril 2026. https://www.mivah.go.cr/Documentos/Decreto_45094/Decreto-45094-Anexo-1-Especificaciones-T%C3%A9cnicas-Materiales-Elementos.pdf",
+      "url": "https://www.mivah.go.cr/Documentos/Decreto_45094/Decreto-45094-Anexo-1-Especificaciones-T%C3%A9cnicas-Materiales-Elementos.pdf"
+    },
+    {
+      "id": "S4",
+      "cita": "MIVAH. Decreto 45094, Anexo 2: Tipologías constructivas. https://www.mivah.go.cr/Documentos/Decreto_45094/Decreto-45094-Anexo-2-Tipolog%C3%ADas-Constructivas.pdf",
+      "url": "https://www.mivah.go.cr/Documentos/Decreto_45094/Decreto-45094-Anexo-2-Tipolog%C3%ADas-Constructivas.pdf"
+    },
+    {
+      "id": "S5",
+      "cita": "MIVAH y entidades participantes. Guía de campo: evaluación rápida de viviendas ante una emergencia, actualización marzo 2022. https://www.mivah.go.cr/Documentos/emergencias/Guia-de-Campo-2025.pdf",
+      "url": "https://www.mivah.go.cr/Documentos/emergencias/Guia-de-Campo-2025.pdf"
+    },
+    {
+      "id": "S6",
+      "cita": "CONCREPAL. Bloques de concreto: oferta y datos técnicos de Block 15. https://www.concrepal.com/productos/bloques-de-concreto-2/",
+      "url": "https://www.concrepal.com/productos/bloques-de-concreto-2/"
+    }
+  ]
+}

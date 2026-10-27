@@ -1,0 +1,1353 @@
+{
+  "schema_version": "1.0",
+  "meta": {
+    "id": "CUB-MET-04",
+    "componente": "CUB",
+    "autor": "Jorge Rodríguez",
+    "estado_revision": "borrador",
+    "fecha_actualizacion": "2026-10-26",
+    "id_legado": "CUB-MET-04",
+    "origen_migracion": {
+      "archivo": "TP1_Ficha_Jorge_Cubiertas_250927.xlsx",
+      "hoja": "Ficha CUB-MET-04"
+    }
+  },
+  "campos": {
+    "id": {
+      "estado": "dato",
+      "valor": "CUB-MET-04",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "name": {
+      "estado": "dato",
+      "valor": "Panel sándwich metálico aislado para techo (termopanel PUR/PIR, 50 mm)",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "nota": "También llamado termopanel, panel termoacústico o panel aislado."
+    },
+    "record_type": {
+      "estado": "dato",
+      "valor": "sistema",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ]
+    },
+    "component": {
+      "estado": "dato",
+      "valor": "CUB"
+    },
+    "subcategory": {
+      "estado": "dato",
+      "valor": "Panel sándwich aislado",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ]
+    },
+    "country": {
+      "estado": "dato",
+      "valor": "CR",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ]
+    },
+    "manufacturer": {
+      "estado": "dato",
+      "valor": "Varios: Panel Sandwich Group (España), GlobeRoof (Italia, vía Aislamart), Metecno/Glamet (México), Kingspan (internacional)",
+      "fuentes": [
+        {
+          "ref": "R40"
+        },
+        {
+          "ref": "R41"
+        },
+        {
+          "ref": "R42"
+        },
+        {
+          "ref": "R43"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "No se verificó fabricación local en CR; Panelco CR fabrica panel de malla con EPS para paredes, no panel metálico de techo (verificado en su sitio)."
+    },
+    "supplier": {
+      "estado": "dato",
+      "valor": "Panel Sandwich Group CR, Aislamart, In-Transit, Construpanel y distribuidores de Metecno/Kingspan",
+      "fuentes": [
+        {
+          "ref": "R40"
+        },
+        {
+          "ref": "R41"
+        },
+        {
+          "ref": "R44"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Distribuidores con sitio web en CR; Metalco y otros no se verificaron en línea para este producto."
+    },
+    "description": {
+      "estado": "dato",
+      "valor": "Panel autoportante de cubierta formado por dos láminas de acero galvanizado o Zn-Al prepintado, con núcleo de espuma rígida de poliuretano (PUR) o poliisocianurato (PIR) inyectado de ~40 kg/m³. En un solo elemento resuelve la cubierta, el aislamiento térmico y el cielo. Se fija a largueros metálicos con tornillos autoperforantes.",
+      "fuentes": [
+        {
+          "ref": "R45"
+        },
+        {
+          "ref": "R42"
+        },
+        {
+          "ref": "R46"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "keywords": {
+      "estado": "dato",
+      "valor": [
+        "panel sándwich",
+        "termopanel",
+        "panel aislado",
+        "panel termoacústico",
+        "poliuretano",
+        "PIR",
+        "cubierta metálica aislada",
+        "cuarto frío"
+      ],
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ]
+    },
+    "main_material": {
+      "estado": "dato",
+      "valor": "Acero prepintado (galvanizado o Zn-Al) + espuma rígida PUR/PIR",
+      "fuentes": [
+        {
+          "ref": "R45"
+        },
+        {
+          "ref": "R42"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "secondary_materials": {
+      "estado": "dato",
+      "valor": [
+        "Espuma PUR o PIR (~40 kg/m³)",
+        "Recubrimiento de zinc o Zn-Al",
+        "Pintura poliéster o PVDF",
+        "Adhesivo/imprimación",
+        "Tornillos autoperforantes con arandela",
+        "Sellos y cintas butílicas"
+      ],
+      "fuentes": [
+        {
+          "ref": "R45"
+        },
+        {
+          "ref": "R47"
+        },
+        {
+          "ref": "R42"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "layers": {
+      "estado": "dato",
+      "valor": [
+        "Lámina exterior de acero prepintado grecada (0,4–0,6 mm)",
+        "Núcleo de espuma PUR/PIR 30–120 mm (típico 50 mm)",
+        "Lámina interior de acero prepintado lisa o microperfilada (0,4–0,5 mm)"
+      ],
+      "fuentes": [
+        {
+          "ref": "R45"
+        },
+        {
+          "ref": "R48"
+        },
+        {
+          "ref": "R47"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "total_thickness": {
+      "estado": "dato",
+      "valor": 50,
+      "calificador": "=",
+      "unidad": "mm",
+      "fuentes": [
+        {
+          "ref": "R45"
+        },
+        {
+          "ref": "R44"
+        },
+        {
+          "ref": "R49"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Espesor del aislante sin la greca. Espesores comerciales de 30 a 120 mm. La greca exterior suma ~30–42 mm (Glamet: peralte 42 mm)."
+    },
+    "commercial_dimensions": {
+      "estado": "dato",
+      "valor": "Ancho útil de 1000 mm; largos a medida de 1–16 m (Glamet de 1,8 a 12,2/14,7 m; GlobeRoof de 11,90 m estándar)",
+      "fuentes": [
+        {
+          "ref": "R45"
+        },
+        {
+          "ref": "R42"
+        },
+        {
+          "ref": "R50"
+        },
+        {
+          "ref": "R41"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "density": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "surface_mass": {
+      "estado": "dato",
+      "valor": 10.65,
+      "calificador": "=",
+      "unidad": "kg/m²",
+      "fuentes": [
+        {
+          "ref": "R45"
+        },
+        {
+          "ref": "R42"
+        },
+        {
+          "ref": "R47"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Para 50 mm: 10,65 kg/m² (PSG, lámina 0,5/0,5); Glamet 2\" 9,70 kg/m²; Deformac 10,7 kg/m². Densidad del núcleo: ~40 kg/m³."
+    },
+    "surface_finish": {
+      "estado": "dato",
+      "valor": "Acero prepintado con poliéster (estándar) o PVDF/HDX (opcional); exterior grecado (3 o 5 grecas o teja); interior liso, microranurado o tableado; colores RAL 9002/9010, rojo teja y otros",
+      "fuentes": [
+        {
+          "ref": "R45"
+        },
+        {
+          "ref": "R48"
+        },
+        {
+          "ref": "R47"
+        },
+        {
+          "ref": "R41"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "support_system": {
+      "estado": "dato",
+      "valor": "Largueros metálicos (perfiles C/Z o RT) sobre estructura de acero; separación según tabla de carga (típico 1,5–3,0 m para 50 mm)",
+      "fuentes": [
+        {
+          "ref": "R51"
+        },
+        {
+          "ref": "R47"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Separación de apoyos según tabla de carga del fabricante y cálculo de viento."
+    },
+    "fastening": {
+      "estado": "dato",
+      "valor": "Tornillos autoperforantes a través de la greca, con arandela de neopreno/EPDM y capellote (tapajuntas); algunos modelos llevan fijación oculta con clips",
+      "fuentes": [
+        {
+          "ref": "R45"
+        },
+        {
+          "ref": "R51"
+        },
+        {
+          "ref": "R46"
+        },
+        {
+          "ref": "R42"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "joints_seals": {
+      "estado": "dato",
+      "valor": "Traslape lateral machihembrado o de greca con junta de sellado; tapajuntas; cinta butílica y sellador en traslapes de cabeza; cierres de greca; cumbreras, botaguas y remates en el mismo acero prepintado",
+      "fuentes": [
+        {
+          "ref": "R42"
+        },
+        {
+          "ref": "R51"
+        },
+        {
+          "ref": "R46"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "installation_sequence": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "tools_labor": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "critical_point": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "recommended_uses": {
+      "estado": "dato",
+      "valor": [
+        "Cubiertas de naves industriales y bodegas",
+        "Locales comerciales",
+        "Cuartos fríos y cámaras frigoríficas",
+        "Edificios de salud y alimentarios",
+        "Viviendas y ampliaciones que requieran aislamiento"
+      ],
+      "fuentes": [
+        {
+          "ref": "R40"
+        },
+        {
+          "ref": "R44"
+        },
+        {
+          "ref": "R50"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "building_types": {
+      "estado": "dato",
+      "valor": [
+        "Comercial",
+        "Industrial",
+        "Salud",
+        "Institucional",
+        "Vivienda"
+      ],
+      "fuentes": [
+        {
+          "ref": "R40"
+        },
+        {
+          "ref": "R44"
+        },
+        {
+          "ref": "R50"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "location": {
+      "estado": "dato",
+      "valor": "Exterior",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Cubierta exterior. La cara interior queda expuesta como cielo terminado."
+    },
+    "climates": {
+      "estado": "dato",
+      "valor": "Cálido-húmedo | Cálido-seco | Templado de altura | Lluvioso | Costero (con recubrimiento adecuado)",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Muy útil para reducir la ganancia de calor por radiación solar en el clima tropical de CR. En zona costera se requiere Zn-Al y pintura de mejor desempeño."
+    },
+    "imn_subregions": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "compatibility": {
+      "estado": "dato",
+      "valor": "Compatible con estructura de acero galvanizado o pintado y con accesorios del mismo acero prepintado. Evitar el contacto con cobre, plomo, madera tratada con CCA, concreto húmedo o escorrentía de estos, que corroen el Zn-Al. Sellos y tornillos deben ser compatibles (arandela EPDM, acabado anticorrosivo clase 3 o superior).",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "use_restrictions": {
+      "estado": "pendiente",
+      "fuentes": [
+        {
+          "ref": "R43"
+        },
+        {
+          "ref": "R50"
+        },
+        {
+          "ref": "R45"
+        },
+        {
+          "ref": "R46"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "labor_specialization": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Requiere cuadrilla con experiencia en cubiertas metálicas, izaje de paneles largos y remates. Es más especializado que la lámina simple, pero no exige certificación."
+    },
+    "installation_complexity": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "El montaje es sencillo, un solo elemento, pero exige alineación, fijación a largueros, sellado de traslapes y manejo de piezas de hasta 16 m."
+    },
+    "national_availability": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "R40"
+        },
+        {
+          "ref": "R41"
+        },
+        {
+          "ref": "R44"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Varios distribuidores en CR ofrecen entrega inmediata o fabricación a medida, pero el producto es importado."
+    },
+    "installation_time": {
+      "estado": "dato",
+      "valor": 2,
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Es rápido: cubierta, aislamiento y cielo se instalan en una sola operación (1 m de ancho útil por pieza)."
+    },
+    "relative_cost": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "El costo por m² es mayor que el de la lámina ondulada o trapezoidal sola, aunque integra aislamiento y cielo."
+    },
+    "price_range": {
+      "estado": "dato",
+      "valor": 444.13,
+      "calificador": "=",
+      "unidad": "MXN/m²",
+      "fuentes": [
+        {
+          "ref": "R50"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Precio de referencia en México (Glamet de Metecno, venta mínima de 100 m²), equivalente a unos USD 24/m². Los proveedores en CR no publican precio y cotizan a pedido (calculadora de PSG, WhatsApp). No se encontró precio en EPA ni Colono."
+    },
+    "mechanical_resistance": {
+      "estado": "dato",
+      "valor": "Carga admisible de ~280 kg/m² con apoyos a 1,5 m y ~85 kg/m² a 5,0 m (tapajuntas, 0,5/0,5 mm); flecha L/200",
+      "fuentes": [
+        {
+          "ref": "R51"
+        },
+        {
+          "ref": "R47"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Depende del espesor y del calibre. Hay que consultar la tabla de carga del modelo."
+    },
+    "impact_resistance": {
+      "estado": "dato",
+      "valor": "FM 4471 Clase 1 incluye ensayo de granizo (según modelo aprobado)",
+      "fuentes": [
+        {
+          "ref": "R52"
+        },
+        {
+          "ref": "R42"
+        }
+      ],
+      "evidencia": "E3",
+      "nota": "Glamet cuenta con certificación FM 4471. Por la poca rigidez de la lámina de 0,5 mm pueden quedar abolladuras por impactos puntuales."
+    },
+    "abrasion_resistance": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Depende del sistema de pintura; no se encontró valor ensayado."
+    },
+    "durability_years": {
+      "estado": "dato",
+      "valor": 25,
+      "calificador": "=",
+      "unidad": "años",
+      "fuentes": [
+        {
+          "ref": "R40"
+        },
+        {
+          "ref": "R43"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Garantía ampliada de 25 años (PSG CR); Kingspan da 25 años de desempeño y hasta 40 de recubrimiento; Aislamart ofrece 10 años. La vida real depende del ambiente."
+    },
+    "water_absorption": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "La espuma PUR/PIR es de celda cerrada y queda encapsulada entre aceros; no se halló un valor ensayado en fichas consultadas."
+    },
+    "moisture_resistance": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "R42"
+        },
+        {
+          "ref": "R47"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Las caras de acero son impermeables y el núcleo es de celda cerrada. Puede entrar humedad por bordes cortados o juntas mal selladas."
+    },
+    "condensation_risk": {
+      "estado": "dato",
+      "valor": 2,
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "El aislamiento continuo mantiene la cara interior cerca de la temperatura del ambiente y reduce mucho la condensación frente a la lámina sola. El riesgo queda en juntas, tornillos y cuartos fríos."
+    },
+    "corrosion_resistance": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "R48"
+        },
+        {
+          "ref": "R47"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Zn-Al/galvanizado + pintura. Vulnerables: cortes, tornillos, raspaduras y bordes de la espuma expuestos."
+    },
+    "uv_resistance": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "R47"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Con pintura poliéster estándar (25 µm) aparecen caleo y decoloración a largo plazo; con PVDF u HDX la resistencia es mayor. La espuma debe quedar protegida del UV en los bordes."
+    },
+    "marine_environment": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "R49"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Requiere Zn-Al con pintura de alto desempeño (PVDF/HDX), tornillería inoxidable o clase 4 y sellado de bordes. Hay versiones con acero inoxidable bajo pedido (Aislamart)."
+    },
+    "vapor_permeability": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "thermal_conductivity": {
+      "estado": "dato",
+      "valor": 0.024,
+      "calificador": "=",
+      "unidad": "W/(m·K)",
+      "fuentes": [
+        {
+          "ref": "R47"
+        },
+        {
+          "ref": "R46"
+        },
+        {
+          "ref": "R43"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "PUR/PIR ~0,021–0,024 W/m·K; Kingspan QuadCore 0,018."
+    },
+    "specific_heat": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "thermal_resistance": {
+      "estado": "dato",
+      "valor": 2.33,
+      "calificador": "=",
+      "unidad": "m²·K/W",
+      "fuentes": [
+        {
+          "ref": "R45"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Calculada como 1/U para U = 0,43 W/m²·K (50 mm). Solo el núcleo: 0,050/0,024 ≈ 2,08 m²·K/W."
+    },
+    "u_value": {
+      "estado": "dato",
+      "valor": 0.43,
+      "calificador": "=",
+      "unidad": "W/(m²·K)",
+      "fuentes": [
+        {
+          "ref": "R45"
+        },
+        {
+          "ref": "R42"
+        },
+        {
+          "ref": "R46"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Para 50 mm: 0,43 (PSG); Glamet 2\" 0,445; 30 mm ≈ 0,67–0,68."
+    },
+    "solar_reflectance": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Depende del color de la pintura; los proveedores no publican el SR. Los tonos blancos RAL 9002/9010 tienen reflectancia alta, pero no hay dato verificado."
+    },
+    "thermal_emittance": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "sri": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Sin dato publicado por los proveedores consultados."
+    },
+    "sound_insulation": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "R44"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "In-Transit anuncia una reducción de hasta 20 dB, dato comercial sin ensayo. Glamet reporta ensayo ASTM E90, pero no publica el valor. En panel de lana de roca de 50 mm, Rw ≈ 27 dB (PSG, no PUR)."
+    },
+    "sound_absorption": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Las caras de acero lisas son reflectantes; solo absorben las versiones microperforadas con lana de roca."
+    },
+    "fire_reaction": {
+      "estado": "dato",
+      "valor": "PUR: C-s3,d0 (B-s3,d0 en 30 mm); PIR: B-s2,d0 o B-s1,d0 (EN 13501-1); BROOF(t4) en Kingspan; FM 4880/4471 en Glamet",
+      "fuentes": [
+        {
+          "ref": "R45"
+        },
+        {
+          "ref": "R47"
+        },
+        {
+          "ref": "R43"
+        },
+        {
+          "ref": "R42"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "fire_resistance": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "El PUR/PIR no tiene clasificación de resistencia al fuego (REI) en las fichas consultadas. Si se exige, hay que usar panel de lana de roca."
+    },
+    "smoke_class": {
+      "estado": "dato",
+      "valor": "s3 (PUR) / s2–s1 (PIR)",
+      "fuentes": [
+        {
+          "ref": "R45"
+        },
+        {
+          "ref": "R43"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "voc_emissions": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "No reportado en las fichas. La espuma curada tiene emisión baja, pero no se verificó ningún ensayo."
+    },
+    "hazardous_substances": {
+      "estado": "dato",
+      "valor": [
+        "Isocianatos (MDI) en la fabricación de la espuma",
+        "Gases tóxicos (CO, HCN) en la combustión del PUR/PIR",
+        "Agentes espumantes (pentano/HFC según fabricante)"
+      ],
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Valoración técnica general; no aplica al producto instalado en uso normal."
+    },
+    "cleanability": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "R50"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "La superficie lisa prepintada se lava con agua a presión moderada; existen versiones sanitarias (Glamet Clean, con aprobación USDA)."
+    },
+    "accessibility": {
+      "estado": "no_aplica",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "directamente; el panel no contribuye a la accesibilidad física"
+    },
+    "healthcare_use": {
+      "estado": "dato",
+      "valor": "Sí",
+      "fuentes": [
+        {
+          "ref": "R50"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Se usa en áreas limpias, alimentarias y cuartos fríos. Glamet tiene aprobación USDA y hay versión Clean. Si hay requisitos de fuego, preferir PIR."
+    },
+    "maintenance_frequency": {
+      "estado": "dato",
+      "valor": 12,
+      "calificador": "=",
+      "unidad": "meses",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Inspección anual (y después de temporales) de tornillos, sellos, canoas y remates. En zona costera, cada 6 meses."
+    },
+    "maintenance_actions": {
+      "estado": "dato",
+      "valor": "Limpieza de la superficie y de las canoas; revisión y reapriete o sustitución de tornillos y arandelas; resellado de traslapes y remates; retoque de pintura en rayones y cortes; retiro de hojas y escombros.",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "repairability": {
+      "estado": "dato",
+      "valor": 2,
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Los daños locales en la lámina se reparan con parches o sellado, pero un panel abollado o con la espuma húmeda suele requerir sustitución completa."
+    },
+    "replaceability": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Se sustituye por pieza completa (1 m × largo total). Implica desmontar tornillos y remates y conseguir el mismo perfil y color."
+    },
+    "common_failures": {
+      "estado": "dato",
+      "valor": [
+        "Filtraciones en traslapes y tornillos",
+        "Corrosión en bordes cortados y tornillería",
+        "Delaminación de lámina y espuma",
+        "Abolladuras por tránsito",
+        "Caleo y decoloración de la pintura",
+        "Condensación en juntas"
+      ],
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "failure_causes": {
+      "estado": "pendiente",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "corrective_action": {
+      "estado": "dato",
+      "valor": "Sustituir arandelas o tornillos, resellar traslapes con butilo o sellador de poliuretano, proteger los bordes con tapajuntas, retocar la pintura y reemplazar los paneles delaminados o con núcleo húmedo.",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "origin": {
+      "estado": "dato",
+      "valor": "Importado",
+      "fuentes": [
+        {
+          "ref": "R40"
+        },
+        {
+          "ref": "R41"
+        },
+        {
+          "ref": "R42"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "España (PSG), Italia (GlobeRoof) y México (Metecno), entre otros."
+    },
+    "transport_distance": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Depende del origen (México, EE. UU., Europa); no se verificó la ruta logística."
+    },
+    "recycled_content": {
+      "estado": "dato",
+      "min": 15.0,
+      "max": 25.0,
+      "calificador": "rango",
+      "unidad": "%",
+      "fuentes": [
+        {
+          "ref": "R43"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Contenido reciclado del acero (Kingspan). Se desconoce en otros fabricantes."
+    },
+    "renewable": {
+      "estado": "dato",
+      "valor": "No",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Acero y espuma de origen fósil."
+    },
+    "reusable": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Se puede reutilizar si se desmonta sin dañar y los agujeros coinciden; es poco habitual."
+    },
+    "recyclable": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "El acero es reciclable, pero hay que separarlo de la espuma adherida; el PUR/PIR se recicla poco en CR."
+    },
+    "installation_waste": {
+      "estado": "dato",
+      "valor": 2,
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Se fabrica a medida y genera pocos recortes; los desperdicios de espuma y acero son difíciles de separar."
+    },
+    "epd_available": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "R53"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Kingspan KS1000RW tiene EPD (EPD-IES-0000846:003, vigente hasta 2027-10). No se hallaron EPD para las marcas distribuidas en CR."
+    },
+    "embodied_carbon": {
+      "estado": "dato",
+      "valor": 42.9,
+      "calificador": "=",
+      "unidad": "kgCO2e/m²",
+      "fuentes": [
+        {
+          "ref": "R54"
+        },
+        {
+          "ref": "R43"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Etapas A1–A3, Kingspan KS1000RW 70 mm (42,90); QuadCore 42,01. Es valor indicativo para 50 mm."
+    },
+    "embodied_carbon_modules": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "environmental_certification": {
+      "estado": "dato",
+      "valor": "Glamet declara que puede aportar puntos LEED; Kingspan tiene EPD verificada. No hay certificación ambiental específica de las marcas en CR.",
+      "fuentes": [
+        {
+          "ref": "R42"
+        },
+        {
+          "ref": "R53"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "end_of_life": {
+      "estado": "dato",
+      "valor": [
+        "Reciclaje",
+        "Vertedero"
+      ],
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "El acero se recupera como chatarra y la espuma suele terminar en vertedero."
+    },
+    "cr_region": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "seismic_condition": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "tradition_type": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "cr_standard": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "plan_requirements": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "advantages": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "limitations": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "graphics": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "minimum_slope": {
+      "estado": "dato",
+      "valor": 7,
+      "calificador": "=",
+      "unidad": "%",
+      "fuentes": [
+        {
+          "ref": "R50"
+        },
+        {
+          "ref": "R43"
+        },
+        {
+          "ref": "R46"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Glamet recomienda 7 %; Kingspan pide 4° después de la deflexión (≈7 %); Magon exige traslapes mayores con pendientes bajas."
+    },
+    "maximum_length": {
+      "estado": "dato",
+      "valor": 16,
+      "calificador": "=",
+      "unidad": "m",
+      "fuentes": [
+        {
+          "ref": "R45"
+        },
+        {
+          "ref": "R44"
+        },
+        {
+          "ref": "R42"
+        },
+        {
+          "ref": "R43"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Proveedores en CR: hasta 16 m, limitado por el transporte. Glamet: 12,2–14,7 m; Kingspan: hasta 29,2 m."
+    },
+    "overlap_system": {
+      "estado": "dato",
+      "valor": "Traslape lateral por greca solapada o machihembrado con junta; traslape de cabeza con retiro de espuma y lámina exterior sobrepuesta, mínimo 152 mm (6\") o 200–300 mm según pendiente, con cinta butílica y sellador",
+      "fuentes": [
+        {
+          "ref": "R50"
+        },
+        {
+          "ref": "R46"
+        },
+        {
+          "ref": "R42"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "waterproofing": {
+      "estado": "dato",
+      "valor": [
+        "Lámina metálica prepintada continua",
+        "Juntas con sello y cinta butílica",
+        "Tornillos con arandela EPDM/neopreno y capellote",
+        "Tapajuntas y remates"
+      ],
+      "fuentes": [
+        {
+          "ref": "R45"
+        },
+        {
+          "ref": "R51"
+        },
+        {
+          "ref": "R42"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "wind_uplift": {
+      "estado": "dato",
+      "valor": 4309,
+      "calificador": "=",
+      "unidad": "Pa",
+      "fuentes": [
+        {
+          "ref": "R52"
+        },
+        {
+          "ref": "R42"
+        }
+      ],
+      "evidencia": "E3",
+      "nota": "Clasificación mínima FM 4471 Clase 1-90 (90 psf ≈ 4309 Pa de ensayo; carga de diseño de 45 psf ≈ 2155 Pa con factor 2). Aplica solo a modelos aprobados por FM (p. ej. Glamet). Para diseño en CR, verificar con los Lineamientos para el diseño por viento de edificaciones en Costa Rica (CFIA) y con la fijación y separación de largueros reales."
+    },
+    "rain_noise": {
+      "estado": "dato",
+      "valor": 2,
+      "calificador": "=",
+      "unidad": "dB",
+      "fuentes": [
+        {
+          "ref": "R44"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "El núcleo de espuma amortigua el ruido de lluvia frente a la lámina sola. In-Transit anuncia una reducción de hasta 20 dB (dato comercial, sin ensayo)."
+    },
+    "walkability": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "R52"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "FM 4471 incluye ensayo de tránsito peatonal. Pisar solo sobre apoyos o crestas, con tablones; no es una cubierta transitable."
+    },
+    "insulation_compatibility": {
+      "estado": "dato",
+      "valor": [
+        "Integrado"
+      ],
+      "fuentes": [
+        {
+          "ref": "R45"
+        },
+        {
+          "ref": "R42"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "El aislamiento PUR/PIR es parte del panel; no necesita aislante adicional."
+    },
+    "coating_life": {
+      "estado": "dato",
+      "min": 10.0,
+      "max": 40.0,
+      "calificador": "rango",
+      "unidad": "años",
+      "fuentes": [
+        {
+          "ref": "R41"
+        },
+        {
+          "ref": "R40"
+        },
+        {
+          "ref": "R43"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Depende del sistema de pintura y del ambiente: garantía de 10 años (Aislamart), 25 años (PSG) y hasta 40 años de recubrimiento (Kingspan, sistemas premium)."
+    },
+    "roof_accessories": {
+      "estado": "dato",
+      "valor": [
+        "Cumbrera",
+        "Botaguas y remates laterales",
+        "Canoas y bajantes",
+        "Tapajuntas",
+        "Tornillos autoperforantes con arandela EPDM",
+        "Capellotes",
+        "Cinta butílica y sellador",
+        "Cierres de greca",
+        "Perfiles de cierre y goteros"
+      ],
+      "fuentes": [
+        {
+          "ref": "R51"
+        },
+        {
+          "ref": "R45"
+        },
+        {
+          "ref": "R42"
+        }
+      ],
+      "evidencia": "E5"
+    }
+  },
+  "fuentes": [
+    {
+      "id": "PROPIO",
+      "cita": "Elaboración propia del estudiante (TP1).",
+      "tipo": "elaboracion_propia"
+    },
+    {
+      "id": "R40",
+      "cita": "Panel Sandwich Group CR – Panel Sandwich Techo https://panelsandwich.cr/panel-sandwich-techo",
+      "url": "https://panelsandwich.cr/panel-sandwich-techo"
+    },
+    {
+      "id": "R41",
+      "cita": "Aislamart – Termopanel Cubierta CR https://termopanelcostarica.aislamart.co.cr/",
+      "url": "https://termopanelcostarica.aislamart.co.cr/"
+    },
+    {
+      "id": "R42",
+      "cita": "Max Acero – Panel Glamet (Metecno) https://maxacero.com/paneles-aislantes/panel-metecno/glamet/",
+      "url": "https://maxacero.com/paneles-aislantes/panel-metecno/glamet/"
+    },
+    {
+      "id": "R43",
+      "cita": "NBS Source – Kingspan QuadCore KS1000RW https://source.thenbs.com/product/quadcore-ks1000rw-roof-panel/3Rc7JdyRADwoNfqHaBfmaz/36pa5EaXjijVm5T4GtgneZ",
+      "url": "https://source.thenbs.com/product/quadcore-ks1000rw-roof-panel/3Rc7JdyRADwoNfqHaBfmaz/36pa5EaXjijVm5T4GtgneZ"
+    },
+    {
+      "id": "R44",
+      "cita": "In-Transit CR – Productos https://www.intransitcr.com/productos",
+      "url": "https://www.intransitcr.com/productos"
+    },
+    {
+      "id": "R45",
+      "cita": "Panel Sandwich Group CR – Panel Tres Grecas https://panelsandwich.cr/panel-sandwich-techo/panel-sandwich-tres-grecas",
+      "url": "https://panelsandwich.cr/panel-sandwich-techo/panel-sandwich-tres-grecas"
+    },
+    {
+      "id": "R46",
+      "cita": "Magon – Panel sándwich cubierta MASTER-C https://magon.es/productos/panel-sandwich-cubierta/",
+      "url": "https://magon.es/productos/panel-sandwich-cubierta/"
+    },
+    {
+      "id": "R47",
+      "cita": "Deformac – Ficha técnica panel cubierta DF-C3G https://deformac.com/wp-content/uploads/2020/10/ficha-tecnica-panel-cubierta-DF-C3G.pdf",
+      "url": "https://deformac.com/wp-content/uploads/2020/10/ficha-tecnica-panel-cubierta-DF-C3G.pdf"
+    },
+    {
+      "id": "R48",
+      "cita": "Metecno México – Glamet (techmet) https://metecnomexico.com/producto/glamet-techmet",
+      "url": "https://metecnomexico.com/producto/glamet-techmet"
+    },
+    {
+      "id": "R49",
+      "cita": "Aislamart – GlobeRoof 50 mm https://aislamart.co.cr/panel-aislante-cubierta-san-jose/",
+      "url": "https://aislamart.co.cr/panel-aislante-cubierta-san-jose/"
+    },
+    {
+      "id": "R50",
+      "cita": "Innovacero – Panel aislado techo Glamet https://www.innovacero.com/tienda/panel-aislado-techo-glamet-metecno/",
+      "url": "https://www.innovacero.com/tienda/panel-aislado-techo-glamet-metecno/"
+    },
+    {
+      "id": "R51",
+      "cita": "Panel Sandwich Group CR – Panel Cubierta Tapajuntas https://panelsandwich.cr/panel-sandwich-techo/panel-sandwich-cubierta-tapajuntas",
+      "url": "https://panelsandwich.cr/panel-sandwich-techo/panel-sandwich-cubierta-tapajuntas"
+    },
+    {
+      "id": "R52",
+      "cita": "MBCI – FM 4471 https://www.mbci.com/tag/fm-4471/",
+      "url": "https://www.mbci.com/tag/fm-4471/"
+    },
+    {
+      "id": "R53",
+      "cita": "EPD Australasia – Kingspan KS1000RW EPD-IES-0000846:003 https://epd-australasia.com/epd/kingspan-insulated-panels-roof-panels/",
+      "url": "https://epd-australasia.com/epd/kingspan-insulated-panels-roof-panels/"
+    },
+    {
+      "id": "R54",
+      "cita": "rebuilt.eco – Kingspan KS1000RW 70 mm https://rebuilt.eco/product/6355d0c9-4851-4f1c-adde-6ddfa76bf2da",
+      "url": "https://rebuilt.eco/product/6355d0c9-4851-4f1c-adde-6ddfa76bf2da"
+    }
+  ]
+}

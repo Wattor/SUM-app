@@ -1,0 +1,1141 @@
+{
+  "schema_version": "1.0",
+  "meta": {
+    "id": "PIS-SPC-04",
+    "componente": "PIS",
+    "autor": "Alejandro Sáenz Castro",
+    "estado_revision": "borrador",
+    "fecha_actualizacion": "2026-10-26",
+    "id_legado": "PIS-CR-04",
+    "origen_migracion": {
+      "archivo": "TP1_PISOS_ALEJANDRO_SAENZ_FUSION final.xlsx",
+      "hoja": "Ficha_04_SPC_LVT"
+    }
+  },
+  "campos": {
+    "id": {
+      "estado": "dato",
+      "valor": "PIS-SPC-04",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "name": {
+      "estado": "dato",
+      "valor": "Piso vinílico rígido SPC / LVT",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "record_type": {
+      "estado": "dato",
+      "valor": "sistema",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "component": {
+      "estado": "dato",
+      "valor": "PIS"
+    },
+    "subcategory": {
+      "estado": "dato",
+      "valor": "Revestimiento sintético flotante (vinílico rígido)",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "country": {
+      "estado": "dato",
+      "valor": "CR",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "manufacturer": {
+      "estado": "dato",
+      "valor": "Importado, mayoritariamente de China; líneas premium europeas sin PVC",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "supplier": {
+      "estado": "dato",
+      "valor": "Samboro, Tradeco, Tech Deck and Flooring, Bambú y Maderas, EPA",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "description": {
+      "estado": "dato",
+      "valor": "Tabla con núcleo mineral rígido (carbonato de calcio, PVC virgen y estabilizantes), capa decorativa impresa y capa de desgaste transparente; se instala flotante con encastre tipo clic sobre una base intermedia.",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "keywords": {
+      "estado": "dato",
+      "valor": [
+        "SPC",
+        "LVT",
+        "vinílico",
+        "clic",
+        "flotante",
+        "capa de desgaste",
+        "underlayment",
+        "holgura perimetral",
+        "remodelación"
+      ],
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "main_material": {
+      "estado": "dato",
+      "valor": "Compuesto de piedra y plástico (SPC): CaCO₃ + PVC",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "secondary_materials": {
+      "estado": "dato",
+      "valor": [
+        "Base intermedia (underlayment) con barrera de vapor",
+        "capa de desgaste de PVC/PU",
+        "zócalos y perfiles de transición"
+      ],
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "layers": {
+      "estado": "dato",
+      "valor": [
+        "1) Sustrato firme y nivelado (o cerámica existente)",
+        "2) barrera de vapor + underlayment",
+        "3) núcleo rígido SPC o base de PVC (LVT)",
+        "4) capa decorativa impresa",
+        "5) capa de desgaste con protección UV"
+      ],
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "total_thickness": {
+      "estado": "dato",
+      "min": 5.0,
+      "max": 7.0,
+      "calificador": "rango",
+      "unidad": "mm",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "commercial_dimensions": {
+      "estado": "dato",
+      "valor": "Tablas 18,3×122 cm (y similares); formatos tipo baldosa",
+      "fuentes": [
+        {
+          "ref": "R06"
+        },
+        {
+          "ref": "R21"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "density": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "surface_mass": {
+      "estado": "dato",
+      "valor_texto_original": "≈ 9–12 kg/m²; densidad del núcleo ≈ 1 900–2 100 kg/m³",
+      "fuentes": [
+        {
+          "ref": "R31"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "surface_finish": {
+      "estado": "dato",
+      "valor": "Impresión símil madera, piedra o textil; texturas en registro",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "support_system": {
+      "estado": "dato",
+      "valor": "Sustrato firme, seco y nivelado (planitud ≈ 3 mm en 2 m)",
+      "fuentes": [
+        {
+          "ref": "R32"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "fastening": {
+      "estado": "dato",
+      "valor": "Flotante con encastre tipo clic (SPC); adherido con adhesivo en algunas líneas LVT",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "joints_seals": {
+      "estado": "dato",
+      "valor": "Holgura perimetral de expansión de 8–10 mm bajo el zócalo; perfiles de transición; juntas de expansión en tramos largos",
+      "fuentes": [
+        {
+          "ref": "R06"
+        },
+        {
+          "ref": "R33"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "installation_sequence": {
+      "estado": "dato",
+      "valor": "Verificar planitud (≈ 3 mm en 2 m) y humedad del sustrato · extender barrera de vapor y base · aclimatar tablas · colocar en clic dejando holgura perimetral de 8–10 mm · instalar zócalos y perfiles de transición.",
+      "fuentes": [
+        {
+          "ref": "R32"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "tools_labor": {
+      "estado": "dato",
+      "valor": "Instalador general; cúter, mazo de goma, taco de golpeo, cuñas de expansión.",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "PENDIENTE: rendimiento en m²/jornada."
+    },
+    "critical_point": {
+      "estado": "dato",
+      "valor": "Holgura perimetral y control del sol directo: sin ellos el piso se levanta (peaking).",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "recommended_uses": {
+      "estado": "dato",
+      "valor": [
+        "Remodelación de vivienda",
+        "oficinas",
+        "locales comerciales",
+        "cocinas, baños y áreas de servicio"
+      ],
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "building_types": {
+      "estado": "dato",
+      "valor": [
+        "Vivienda",
+        "Comercial"
+      ],
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "location": {
+      "estado": "dato",
+      "valor": "Interior",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "climates": {
+      "estado": "dato",
+      "valor": "Cálido-húmedo interior; no expuesto a sol directo prolongado",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "imn_subregions": {
+      "estado": "dato",
+      "valor_texto_original": "Interiores en cualquier zona, sin sol directo prolongado.",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "compatibility": {
+      "estado": "dato",
+      "valor": "Sobre cerámica existente en buen estado, concreto o madera contrachapada; compatible con piso radiante de baja temperatura según fabricante",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "use_restrictions": {
+      "estado": "dato",
+      "valor": "No apto para exterior ni sol directo prolongado; no apto para cargas puntuales muy altas ni cigarrillos o calor",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "labor_specialization": {
+      "estado": "dato",
+      "valor": 2,
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Instalación en seco, sencilla."
+    },
+    "installation_complexity": {
+      "estado": "dato",
+      "valor": 2,
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "national_availability": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "installation_time": {
+      "estado": "dato",
+      "valor": 1,
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Muy rápida, sin obra húmeda ni fraguado."
+    },
+    "relative_cost": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Medio."
+    },
+    "price_range": {
+      "estado": "dato",
+      "valor_texto_original": "≈ ₡8 000–₡10 000 / m² (material, IVA incl.)",
+      "fuentes": [
+        {
+          "ref": "R09"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Líneas premium sin PVC más caras."
+    },
+    "mechanical_resistance": {
+      "estado": "dato",
+      "valor": "Alta rigidez del núcleo; resistencia a indentación según EN ISO 24343-1",
+      "fuentes": [
+        {
+          "ref": "R31"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "impact_resistance": {
+      "estado": "dato",
+      "valor": "Buena (núcleo rígido)",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "abrasion_resistance": {
+      "estado": "dato",
+      "valor": "Capa de desgaste 0,3–0,7 mm; clase de uso 23/33 (EN ISO 10874)",
+      "fuentes": [
+        {
+          "ref": "R31"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "durability_years": {
+      "estado": "dato",
+      "min": 10.0,
+      "max": 20.0,
+      "calificador": "rango",
+      "unidad": "años",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Garantías de fábrica de 10 años o más."
+    },
+    "water_absorption": {
+      "estado": "dato",
+      "valor": 0.0,
+      "calificador": "≈",
+      "unidad": "%",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "100 % impermeable en la capa de uso."
+    },
+    "moisture_resistance": {
+      "estado": "dato",
+      "valor": 5,
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Hongos posibles bajo el piso si el sustrato retiene humedad."
+    },
+    "condensation_risk": {
+      "estado": "dato",
+      "valor": 2,
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Superficie más tibia que la cerámica."
+    },
+    "corrosion_resistance": {
+      "estado": "dato",
+      "valor": 5,
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "uv_resistance": {
+      "estado": "dato",
+      "valor": 2,
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Decoloración en piezas de baja calidad."
+    },
+    "marine_environment": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Solo en interiores protegidos."
+    },
+    "vapor_permeability": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "thermal_conductivity": {
+      "estado": "dato",
+      "min": 0.2,
+      "max": 0.5,
+      "calificador": "rango",
+      "unidad": "W/(m·K)",
+      "fuentes": [
+        {
+          "ref": "R08"
+        },
+        {
+          "ref": "R34"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Varía con la proporción de carga mineral."
+    },
+    "specific_heat": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "thermal_resistance": {
+      "estado": "dato",
+      "min": 0.01,
+      "max": 0.03,
+      "calificador": "rango",
+      "unidad": "m²·K/W",
+      "fuentes": [
+        {
+          "ref": "R08"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Para 6 mm (e/λ)."
+    },
+    "u_value": {
+      "estado": "no_aplica",
+      "evidencia": "E1"
+    },
+    "solar_reflectance": {
+      "estado": "no_disponible",
+      "evidencia": "E1"
+    },
+    "thermal_emittance": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "sri": {
+      "estado": "no_disponible",
+      "evidencia": "E1"
+    },
+    "sound_insulation": {
+      "estado": "dato",
+      "valor_texto_original": "Mejora de ruido de impacto ΔLw ≈ 15–20 dB con underlayment",
+      "fuentes": [
+        {
+          "ref": "R31"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Depende de la base acústica."
+    },
+    "sound_absorption": {
+      "estado": "dato",
+      "valor": 0.03,
+      "calificador": "≈",
+      "unidad": "NRC",
+      "fuentes": [
+        {
+          "ref": "R35"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Texto original: ≈ 0,03 (αw)"
+    },
+    "fire_reaction": {
+      "estado": "dato",
+      "valor": "Bfl-s1",
+      "fuentes": [
+        {
+          "ref": "R11"
+        },
+        {
+          "ref": "R36"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Clase típica declarada; verificar línea."
+    },
+    "fire_resistance": {
+      "estado": "no_aplica",
+      "evidencia": "E1"
+    },
+    "smoke_class": {
+      "estado": "dato",
+      "valor": "s1",
+      "fuentes": [
+        {
+          "ref": "R11"
+        },
+        {
+          "ref": "R37"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "voc_emissions": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "R38"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Se certifica por emisiones en aire (µg/m³), no en g/L."
+    },
+    "hazardous_substances": {
+      "estado": "dato",
+      "valor": [
+        "PVC",
+        "plastificantes (ftalatos en líneas de baja calidad)"
+      ],
+      "fuentes": [
+        {
+          "ref": "R39"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Preferir líneas libres de ftalatos."
+    },
+    "cleanability": {
+      "estado": "dato",
+      "valor": 5,
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "accessibility": {
+      "estado": "dato",
+      "valor": "Superficie continua y tibia; resistencia al deslizamiento moderada",
+      "fuentes": [
+        {
+          "ref": "R18"
+        }
+      ],
+      "evidencia": "E4"
+    },
+    "healthcare_use": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Mejor vinílico heterogéneo en rollo con juntas termosoldadas."
+    },
+    "maintenance_frequency": {
+      "estado": "dato",
+      "valor": 1,
+      "calificador": "=",
+      "unidad": "meses",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Barrido y trapeado frecuentes."
+    },
+    "maintenance_actions": {
+      "estado": "dato",
+      "valor": "Barrido y trapeado con paño húmedo y limpiador pH neutro; sin ceras ni abrasivos; revisar holguras y zócalos",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "repairability": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Se reemplazan tablas desmontando la fila."
+    },
+    "replaceability": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "common_failures": {
+      "estado": "dato",
+      "valor": [
+        "Pandeo o levantamiento en juntas (peaking)",
+        "fractura del clic",
+        "decoloración UV",
+        "hongos en cara inferior"
+      ],
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "failure_causes": {
+      "estado": "dato",
+      "valor": [
+        "Sin holgura perimetral",
+        "sol directo",
+        "sustrato no nivelado",
+        "humedad retenida en el sustrato"
+      ],
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "corrective_action": {
+      "estado": "dato",
+      "valor": "Recortar para abrir holgura perimetral; reinstalar sobre sustrato nivelado; sustituir tablas dañadas; controlar humedad",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "origin": {
+      "estado": "dato",
+      "valor": "Importado",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "transport_distance": {
+      "estado": "dato",
+      "valor": 15000.0,
+      "calificador": "≥",
+      "unidad": "km",
+      "fuentes": [
+        {
+          "ref": "R40"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "recycled_content": {
+      "estado": "no_disponible",
+      "evidencia": "E1",
+      "nota": "Algunas líneas declaran núcleo con contenido reciclado."
+    },
+    "renewable": {
+      "estado": "dato",
+      "valor": "No",
+      "evidencia": "E4"
+    },
+    "reusable": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "El clic permite desmontar si no se daña."
+    },
+    "recyclable": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "evidencia": "E4",
+      "nota": "Reciclaje de PVC poco disponible en el país."
+    },
+    "installation_waste": {
+      "estado": "dato",
+      "valor": 2,
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "epd_available": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "evidencia": "E4",
+      "nota": "Solo algunas marcas internacionales."
+    },
+    "embodied_carbon": {
+      "estado": "no_disponible",
+      "evidencia": "E1",
+      "nota": "Requiere EPD del producto específico."
+    },
+    "embodied_carbon_modules": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "environmental_certification": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "evidencia": "E4",
+      "nota": "FloorScore en algunas líneas."
+    },
+    "end_of_life": {
+      "estado": "dato",
+      "valor": [
+        "Vertedero"
+      ],
+      "evidencia": "E4"
+    },
+    "cr_region": {
+      "estado": "dato",
+      "valor": "Remodelación de vivienda, oficinas y locales comerciales, sobre todo en la GAM.",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "seismic_condition": {
+      "estado": "dato",
+      "valor": "No gobierna el acabado; las juntas del piso deben coincidir con las juntas estructurales y de la losa.",
+      "fuentes": [
+        {
+          "ref": "R19"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "tradition_type": {
+      "estado": "dato",
+      "valor": "Contemporáneo",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "cr_standard": {
+      "estado": "dato",
+      "valor": "Sin norma nacional localizada: EN ISO 10874 (clase de uso), EN ISO 24343-1 (indentación), EN 13501-1. Ley 7600 y su reglamento (superficie firme, estable y antideslizante en rutas accesibles).",
+      "fuentes": [
+        {
+          "ref": "R20"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "plan_requirements": {
+      "estado": "dato",
+      "valor": "Especificar clase de uso, espesor de capa de desgaste, base acústica, holgura perimetral y perfiles de transición.",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "advantages": {
+      "estado": "dato",
+      "valor": "Instalación muy rápida y en seco; sobre piso existente; liviano; impermeable; desmontable.",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "limitations": {
+      "estado": "dato",
+      "valor": "Solo interior; baja resistencia UV; PVC de origen fósil; importado > 15 000 km; vida útil corta; sin reciclaje local.",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "graphics": {
+      "estado": "dato",
+      "valor": [
+        "Fotografías de la presentación TP1 · PENDIENTE: detalle de holgura perimetral bajo zócalo."
+      ],
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Consignar fuente de cada imagen."
+    },
+    "traffic_level": {
+      "estado": "dato",
+      "valor": [
+        "Medio"
+      ],
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "slip_resistance": {
+      "estado": "dato",
+      "valor": "R9–R10",
+      "fuentes": [
+        {
+          "ref": "R41"
+        },
+        {
+          "ref": "R34"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "chemical_resistance": {
+      "estado": "dato",
+      "valor": "Buena frente a limpiadores domésticos",
+      "fuentes": [
+        {
+          "ref": "R42"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "stain_resistance": {
+      "estado": "dato",
+      "valor": "Alta",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "substrate": {
+      "estado": "dato",
+      "valor": [
+        "Concreto",
+        "cerámica existente",
+        "madera contrachapada"
+      ],
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "adhesive": {
+      "estado": "dato",
+      "valor": "Sin adhesivo (clic flotante); adhesivo acrílico en LVT pegado",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "installation_thickness": {
+      "estado": "dato",
+      "min": 5.0,
+      "max": 7.0,
+      "calificador": "rango",
+      "unidad": "mm",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "joint_requirements": {
+      "estado": "dato",
+      "valor": "Holgura perimetral 8–10 mm oculta bajo el zócalo; juntas de expansión y perfiles en tramos > 10–15 m o cambios de ambiente",
+      "fuentes": [
+        {
+          "ref": "R32"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "accessible_route": {
+      "estado": "dato",
+      "valor": "Sí",
+      "fuentes": [
+        {
+          "ref": "R18"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Con perfiles de transición enrasados."
+    }
+  },
+  "fuentes": [
+    {
+      "id": "PROPIO",
+      "cita": "Elaboración propia del estudiante (TP1).",
+      "tipo": "elaboracion_propia"
+    },
+    {
+      "id": "R01",
+      "cita": "TP1 Pisos – documento ampliado y presentación (Sáenz, 2026)"
+    },
+    {
+      "id": "R06",
+      "cita": "DOC"
+    },
+    {
+      "id": "R08",
+      "cita": "ISO 10456 (valores de diseño tabulados)"
+    },
+    {
+      "id": "R09",
+      "cita": "Samboro Costa Rica, catálogo en línea (2026)"
+    },
+    {
+      "id": "R11",
+      "cita": "EN 13501-1"
+    },
+    {
+      "id": "R18",
+      "cita": "Ley 7600"
+    },
+    {
+      "id": "R19",
+      "cita": "Criterio constructivo"
+    },
+    {
+      "id": "R20",
+      "cita": "Ver hoja Referencias"
+    },
+    {
+      "id": "R21",
+      "cita": "Samboro Costa Rica"
+    },
+    {
+      "id": "R31",
+      "cita": "Fichas de fabricantes SPC"
+    },
+    {
+      "id": "R32",
+      "cita": "Fichas de instalación SPC"
+    },
+    {
+      "id": "R33",
+      "cita": "fichas de instalación"
+    },
+    {
+      "id": "R34",
+      "cita": "fichas SPC"
+    },
+    {
+      "id": "R35",
+      "cita": "Tablas de absorción"
+    },
+    {
+      "id": "R36",
+      "cita": "fichas de fabricantes SPC"
+    },
+    {
+      "id": "R37",
+      "cita": "fichas de fabricantes"
+    },
+    {
+      "id": "R38",
+      "cita": "FloorScore / Indoor Air Comfort (si aplica)"
+    },
+    {
+      "id": "R39",
+      "cita": "Literatura de materiales"
+    },
+    {
+      "id": "R40",
+      "cita": "Estimación: ruta marítima Asia–Costa Rica"
+    },
+    {
+      "id": "R41",
+      "cita": "DIN 51130"
+    },
+    {
+      "id": "R42",
+      "cita": "Fichas de fabricantes"
+    }
+  ]
+}

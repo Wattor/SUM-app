@@ -1,0 +1,1176 @@
+{
+  "schema_version": "1.0",
+  "meta": {
+    "id": "CUB-MET-03",
+    "componente": "CUB",
+    "autor": "Jorge Rodríguez",
+    "estado_revision": "borrador",
+    "fecha_actualizacion": "2026-10-26",
+    "id_legado": "CUB-MET-03",
+    "origen_migracion": {
+      "archivo": "TP1_Ficha_Jorge_Cubiertas_250927.xlsx",
+      "hoja": "Ficha CUB-MET-03"
+    }
+  },
+  "campos": {
+    "id": {
+      "estado": "dato",
+      "valor": "CUB-MET-03",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "name": {
+      "estado": "dato",
+      "valor": "Teja metálica (lámina de acero prepintada con perfil tipo teja de barro)",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "nota": "Referencias comerciales en CR: Metalco Teja Colonial y Teja Toledo; también se comercializan Arquiteja (Ferromax) y teja española de otros fabricantes regionales. Variante premium: acero Zn-Al con gránulos de piedra (tipo DECRA)."
+    },
+    "record_type": {
+      "estado": "dato",
+      "valor": "producto",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ]
+    },
+    "component": {
+      "estado": "dato",
+      "valor": "CUB"
+    },
+    "subcategory": {
+      "estado": "dato",
+      "valor": "Teja metálica",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ]
+    },
+    "country": {
+      "estado": "dato",
+      "valor": "CR",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ]
+    },
+    "manufacturer": {
+      "estado": "dato",
+      "valor": "Metalco S.A. (CR) | Ternium | Grupo Ferromax | DECRA (acero con gránulos)",
+      "fuentes": [
+        {
+          "ref": "R30"
+        },
+        {
+          "ref": "R31"
+        },
+        {
+          "ref": "R32"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Metalco fabrica en CR Teja Colonial y Teja Toledo. No se pudo verificar ficha de Demasa para teja metálica."
+    },
+    "supplier": {
+      "estado": "dato",
+      "valor": "EPA | Colono | Novex | El Lagar | ferreterías y distribuidores Metalco",
+      "fuentes": [
+        {
+          "ref": "R33"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Presencia en catálogos de ferreterías nacionales verificada a nivel de categoría/producto; precios no visibles en línea."
+    },
+    "description": {
+      "estado": "dato",
+      "valor": "Lámina de acero calibre 26 (≈0,45 mm) con recubrimiento metálico (Zn Z180 o Zn-Al AZ) y pintura horneada, conformada por rolado y estampado en gradas de 30–38 cm que imitan la teja de barro; se instala sobre clavadores/largueros con tornillos autoperforantes. Cubierta liviana de uso residencial con estética tradicional.",
+      "fuentes": [
+        {
+          "ref": "R34"
+        },
+        {
+          "ref": "R31"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "keywords": {
+      "estado": "dato",
+      "valor": [
+        "teja metálica",
+        "teja colonial",
+        "teja española",
+        "teja Toledo",
+        "lámina esmaltada",
+        "acero prepintado",
+        "cubierta liviana",
+        "Zn-Al",
+        "galvalume"
+      ],
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ]
+    },
+    "main_material": {
+      "estado": "dato",
+      "valor": "Acero al carbono laminado en frío con recubrimiento metálico por inmersión en caliente (galvanizado Z180 según ASTM A653, o Zn-Al 55% AZ150 según ASTM A792) y prepintado (ASTM A755)",
+      "fuentes": [
+        {
+          "ref": "R34"
+        },
+        {
+          "ref": "R35"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Metalco declara Z180 galvanizado (INTE C405/ASTM A653); otras marcas usan Zn-Al (ASTM A792). Verificar en ficha del producto específico."
+    },
+    "secondary_materials": {
+      "estado": "dato",
+      "valor": [
+        "Recubrimiento de zinc o aleación Al-Zn",
+        "Imprimante (primer)",
+        "Pintura poliéster horneada",
+        "Backer (cara inferior)",
+        "Gránulos de piedra/cerámica y resina acrílica (variante texturizada)"
+      ],
+      "fuentes": [
+        {
+          "ref": "R34"
+        },
+        {
+          "ref": "R32"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "layers": {
+      "estado": "dato",
+      "valor": [
+        "Pintura de acabado (cara superior, ≈18 µm)",
+        "Primer (≈5 µm)",
+        "Tratamiento de conversión",
+        "Recubrimiento metálico Zn o Zn-Al",
+        "Acero base",
+        "Recubrimiento metálico",
+        "Primer",
+        "Backer (cara inferior, ≈10 µm)"
+      ],
+      "fuentes": [
+        {
+          "ref": "R34"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Espesores de pintura según Metalco: primer 5 µm, backer 10 µm, color 18 µm. Formetal: superior 18 µm, inferior 10 µm. En sitio se agrega membrana/fieltro bajo cubierta opcional."
+    },
+    "total_thickness": {
+      "estado": "dato",
+      "valor": 0.46,
+      "calificador": "=",
+      "unidad": "mm",
+      "fuentes": [
+        {
+          "ref": "R34"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Calibre 26: 0,46 mm (Metalco); 0,45 mm recubierto / 0,42 mm base (Ternium); 0,44 mm (Formetal). Altura del perfil (canal) ≈47,5–49 mm."
+    },
+    "commercial_dimensions": {
+      "estado": "dato",
+      "valor": "Ancho total 1,05–1,10 m; ancho útil 0,97–1,03 m; gradas de 30–35 cm; largos de 2 a 15 gradas (≈0,70 a 4,5 m); p. ej. Colonial 1,05 x 3,66 m",
+      "fuentes": [
+        {
+          "ref": "R34"
+        },
+        {
+          "ref": "R31"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Metalco Colonial: ancho útil 0,97 m, grada 35 cm, 2–10 gradas. Toledo: ancho útil 1,03 m, grada 30 cm, 2–15 gradas. Ternium: cubriente 1,05 m, largos 0,96–6,06 m."
+    },
+    "density": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "surface_mass": {
+      "estado": "dato",
+      "valor": 4.1,
+      "calificador": "=",
+      "unidad": "kg/m²",
+      "fuentes": [
+        {
+          "ref": "R31"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Ternium 4,08 kg/m² (±7%). Navecon 0,40 mm: 4,40 kg/m². Variante con gránulos de piedra ≈7,3 kg/m² instalada (DECRA 150 lb/100 ft²)."
+    },
+    "surface_finish": {
+      "estado": "dato",
+      "valor": "Pintura poliéster horneada lisa, colores rojo teja, rojo colonial, vintage y café; opcional texturizado o con gránulos de piedra",
+      "fuentes": [
+        {
+          "ref": "R34"
+        },
+        {
+          "ref": "R32"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "support_system": {
+      "estado": "dato",
+      "valor": "Clavadores/largueros de perfil metálico (RT, C) o madera, a 0,60–0,90 m según perfil (múltiplos del paso de grada)",
+      "fuentes": [
+        {
+          "ref": "R34"
+        },
+        {
+          "ref": "R31"
+        },
+        {
+          "ref": "R36"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Metalco: Colonial clavadores a 0,70 m y Toledo a 0,60 m para 85 kg/m². Ternium: múltiplos de 30 cm, máximo 90 cm. Formetal: 0,76 m (cada 2 gradas)."
+    },
+    "fastening": {
+      "estado": "dato",
+      "valor": "Tornillo autoperforante punta broca con arandela metálica y sello de neopreno/EPDM, ≈5–6 por m²; Colonial fija en valles y cose en crestas, Toledo fija en crestas",
+      "fuentes": [
+        {
+          "ref": "R34"
+        },
+        {
+          "ref": "R36"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "joints_seals": {
+      "estado": "dato",
+      "valor": "Traslape longitudinal con lagrimal anti-capilaridad; traslape lateral de una onda; cumbrera, limatesa, limahoya, botaguas, tapichel y sellador de poliuretano o butilo",
+      "fuentes": [
+        {
+          "ref": "R30"
+        },
+        {
+          "ref": "R32"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "installation_sequence": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "tools_labor": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "critical_point": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "recommended_uses": {
+      "estado": "dato",
+      "valor": [
+        "Cubiertas inclinadas de vivienda",
+        "Remodelación de techos de teja de barro",
+        "Aleros y corredores",
+        "Edificios comerciales pequeños con estética tradicional"
+      ],
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "building_types": {
+      "estado": "dato",
+      "valor": [
+        "Vivienda",
+        "Comercial",
+        "Institucional"
+      ],
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "location": {
+      "estado": "dato",
+      "valor": "Exterior",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "climates": {
+      "estado": "dato",
+      "valor": "Cálido húmedo | Templado de altura | Lluvioso | Cálido seco (con aislamiento bajo cubierta)",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Adecuada para todo el territorio de CR; en zonas cálidas requiere aislamiento/ventilación por la alta temperatura superficial del acero."
+    },
+    "imn_subregions": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "compatibility": {
+      "estado": "dato",
+      "valor": "Compatible con estructura de acero galvanizado y madera tratada. Evitar contacto con cobre, plomo, acero inoxidable sin aislamiento, concreto/mortero húmedo y madera tratada con CCA/ACQ sin barrera; usar tornillería galvanizada o recubierta compatible. Las virutas de corte deben retirarse para evitar óxido.",
+      "fuentes": [
+        {
+          "ref": "R36"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Recomendación de corte sin calor/abrasión según Formetal; compatibilidad galvánica según práctica general del acero recubierto."
+    },
+    "use_restrictions": {
+      "estado": "pendiente",
+      "fuentes": [
+        {
+          "ref": "R31"
+        },
+        {
+          "ref": "R37"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "labor_specialization": {
+      "estado": "dato",
+      "valor": 2,
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Instalación similar a lámina ondulada/esmaltada; requiere cuidado en alineación de gradas, traslapes y fijación, pero mano de obra común de techadores en CR."
+    },
+    "installation_complexity": {
+      "estado": "dato",
+      "valor": 2,
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Láminas livianas y de gran formato; mayor complejidad que lámina ondulada por la modulación de clavadores al paso de grada y los remates."
+    },
+    "national_availability": {
+      "estado": "dato",
+      "valor": 5,
+      "fuentes": [
+        {
+          "ref": "R30"
+        },
+        {
+          "ref": "R33"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Fabricación nacional (Metalco) y amplia distribución en ferreterías (EPA, Colono, Novex, El Lagar)."
+    },
+    "installation_time": {
+      "estado": "dato",
+      "valor": 2,
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Rápida: láminas de hasta ≈4,5 m cubren >4 m² por pieza; más lenta que lámina rectangular por remates."
+    },
+    "relative_cost": {
+      "estado": "dato",
+      "valor": 2,
+      "fuentes": [
+        {
+          "ref": "R38"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Más cara que lámina ondulada/rectangular pero bastante más barata que teja de barro o teja con gránulos de piedra (esta última sería 4)."
+    },
+    "price_range": {
+      "estado": "dato",
+      "valor": 13.7,
+      "calificador": "≈",
+      "unidad": "USD/m²",
+      "fuentes": [
+        {
+          "ref": "R38"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Texto original: ≈13,7 (USD 48,50 por lámina 1,05 x 3,66 m) · Precio de referencia en El Salvador (Metalco Colonial cal. 26), sobre ancho útil 0,97 m ≈3,55 m². No se logró verificar precio en línea en ferreterías de CR (EPA/Colono/El Lagar no muestran precio sin JavaScript). Sin estructura, accesorios ni instalación."
+    },
+    "mechanical_resistance": {
+      "estado": "dato",
+      "valor": "Carga admisible 85 kg/m² con clavadores a 0,70 m (Colonial) o 0,60 m (Toledo); acero base grado comercial CS, fy mín. ≈30 ksi (207 MPa)",
+      "fuentes": [
+        {
+          "ref": "R34"
+        },
+        {
+          "ref": "R31"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "impact_resistance": {
+      "estado": "dato",
+      "valor": "Versión lisa: No disponible. Versión con gránulos de piedra: UL 2218 Clase 4",
+      "fuentes": [
+        {
+          "ref": "R32"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "La teja lisa calibre 26 se abolla con granizo o pisadas; no se encontró ensayo de impacto."
+    },
+    "abrasion_resistance": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Sin ensayo publicado; la pintura se daña con herramientas abrasivas o tránsito."
+    },
+    "durability_years": {
+      "estado": "dato",
+      "min": 25.0,
+      "max": 40.0,
+      "calificador": "rango",
+      "unidad": "años",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Estimación: acero Zn-Al prepintado en ambiente no agresivo; menor para Z180 galvanizado en costa. Versión con gránulos ofrece garantía limitada de 50 años/vitalicia (DECRA). No se encontró garantía publicada por Metalco/Ternium."
+    },
+    "water_absorption": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Sin ensayo publicado. Acero recubierto y pintado: material no poroso, absorción despreciable."
+    },
+    "moisture_resistance": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Impermeable; riesgo de corrosión en bordes cortados, perforaciones y zonas de agua estancada."
+    },
+    "condensation_risk": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "R34"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Lámina metálica delgada sin aislamiento: alta condensación por enfriamiento radiativo nocturno; Metalco advierte almacenar con ventilación para evitar condensación. Mitigar con barrera/aislante bajo cubierta."
+    },
+    "corrosion_resistance": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "R34"
+        },
+        {
+          "ref": "R35"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Z180 galvanizado: moderada; AZ150 Zn-Al: buena. Sistema de pintura de ≈18 µm es liviano frente a sistemas premium (≥25 µm)."
+    },
+    "uv_resistance": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Poliéster estándar presenta decoloración y caleo en 5–10 años bajo alta radiación; tonos rojos son sensibles. Mejora con SMP/PVDF o gránulos de piedra."
+    },
+    "marine_environment": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Solo con recubrimiento Zn-Al AZ150 o superior, pintura de mayor espesor y tornillería resistente; evitar galvanizado Z180 en primera línea de costa. Ningún fabricante consultado declara aptitud marina."
+    },
+    "vapor_permeability": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "thermal_conductivity": {
+      "estado": "dato",
+      "valor": 50.0,
+      "calificador": "≈",
+      "unidad": "W/(m·K)",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Valor típico de literatura para acero al carbono; no declarado en fichas."
+    },
+    "specific_heat": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "thermal_resistance": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Resistencia de la lámina despreciable (0,46 mm / 50 W/m·K ≈ 0,00001 m²·K/W). El R del sistema depende de cámara de aire y aislamiento."
+    },
+    "u_value": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Depende del sistema (cámara, cielo, aislamiento); la lámina sola sin aislamiento ≈ U de películas superficiales (~6–7 W/m²K) - no verificado."
+    },
+    "solar_reflectance": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "No declarado por fabricantes; depende del color (rojo teja/café suelen ser de reflectancia baja-media). Solicitar valor CRRC/ASTM C1549."
+    },
+    "thermal_emittance": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "sri": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "No declarado; calcular según ASTM E1980 con reflectancia y emisividad del color específico."
+    },
+    "sound_insulation": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Lámina sola de muy bajo peso (~4 kg/m²): aislamiento acústico bajo."
+    },
+    "sound_absorption": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "fire_reaction": {
+      "estado": "dato",
+      "valor": "Incombustible (acero); versión con gránulos: ASTM E108/UL 790 Clase A",
+      "fuentes": [
+        {
+          "ref": "R32"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "El acero es incombustible; la pintura orgánica (<40 µm) aporta carga combustible mínima. Sin clasificación EN 13501 ni ASTM E84 publicada para teja lisa."
+    },
+    "fire_resistance": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "La lámina sola no aporta resistencia al fuego estructural."
+    },
+    "smoke_class": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "voc_emissions": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Pintura curada en fábrica (coil coating); emisiones en uso consideradas despreciables, sin dato publicado."
+    },
+    "hazardous_substances": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Fichas no declaran; primers antiguos podían contener cromatos. Solicitar hoja de seguridad del recubrimiento."
+    },
+    "cleanability": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Superficie lisa se lava con agua y detergente suave; versión con gránulos acumula más suciedad/musgo."
+    },
+    "accessibility": {
+      "estado": "no_aplica",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "directamente (elemento de cubierta)"
+    },
+    "healthcare_use": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Apta como cubierta exterior siempre que exista cielo raso; controlar ruido de lluvia y condensación."
+    },
+    "maintenance_frequency": {
+      "estado": "dato",
+      "valor": 12,
+      "calificador": "=",
+      "unidad": "meses",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Inspección anual y tras temporadas de lluvias/vientos fuertes; limpieza de canoas cada 6–12 meses."
+    },
+    "maintenance_actions": {
+      "estado": "dato",
+      "valor": "Inspección de tornillos y arandelas (reapriete/sustitución), limpieza de hojas y sedimentos, lavado con agua y detergente neutro, retoque de pintura en rayones y bordes, revisión de sellos en cumbreras y botaguas, repintado con pintura para metal al final de la vida del recubrimiento.",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "repairability": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Retoques y sellos sencillos; abolladuras no se reparan y requieren cambio de lámina completa, difícil de igualar color envejecido."
+    },
+    "replaceability": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Láminas individuales se desatornillan y reemplazan; el perfil debe coincidir con el fabricante original."
+    },
+    "common_failures": {
+      "estado": "dato",
+      "valor": [
+        "Corrosión en bordes cortados y traslapes",
+        "Filtraciones en tornillos y traslapes",
+        "Decoloración y caleo de la pintura",
+        "Abolladuras por pisadas o impacto",
+        "Levantamiento por viento",
+        "Condensación y goteo interior",
+        "Ruido de lluvia"
+      ],
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "failure_causes": {
+      "estado": "dato",
+      "valor": [
+        "Arandelas de EPDM degradadas o tornillos mal apretados",
+        "Pendiente insuficiente o traslape corto",
+        "Virutas de corte y cortes con esmeril",
+        "Contacto galvánico o ambiente salino",
+        "Clavadores fuera de modulación",
+        "Fijación insuficiente en bordes y esquinas",
+        "Falta de aislamiento/ventilación"
+      ],
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "corrective_action": {
+      "estado": "dato",
+      "valor": "Sustituir tornillos/arandelas, sellar traslapes con sellador compatible, tratar corrosión con lijado y primer anticorrosivo más pintura de acabado, reemplazar láminas dañadas, añadir fijaciones en zonas de borde y colocar barrera/aislante bajo cubierta.",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "origin": {
+      "estado": "dato",
+      "valor": "Nacional",
+      "fuentes": [
+        {
+          "ref": "R34"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Conformada en CR por Metalco (bobina de acero importada). Otras marcas son importadas de la región."
+    },
+    "transport_distance": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Depende de planta (GAM) y obra; bobina importada."
+    },
+    "recycled_content": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "No declarado para teja nacional. DECRA indica máximo 30% de acero reciclado."
+    },
+    "renewable": {
+      "estado": "dato",
+      "valor": "No",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "reusable": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Puede desmontarse y reutilizarse si no está corroída ni deformada, aunque las perforaciones de tornillos limitan su reuso."
+    },
+    "recyclable": {
+      "estado": "dato",
+      "valor": "Sí",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Acero reciclable como chatarra ferrosa; la pintura se elimina en el horno."
+    },
+    "installation_waste": {
+      "estado": "dato",
+      "valor": 2,
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Láminas a medida por número de gradas; desperdicio principalmente en cortes de limatesas y remates."
+    },
+    "epd_available": {
+      "estado": "dato",
+      "valor": "No",
+      "fuentes": [
+        {
+          "ref": "R39"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "No se encontró EPD para teja metálica nacional; existen EPD de acero prepintado de otros fabricantes (BlueScope)."
+    },
+    "embodied_carbon": {
+      "estado": "dato",
+      "valor": 12.6,
+      "calificador": "≈",
+      "unidad": "kgCO2e/m²",
+      "fuentes": [
+        {
+          "ref": "R39"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Texto original: ≈12,6 (referencia) · Valor A1–A3 de lámina COLORBOND 0,45 mm AM100 prepintada (3,57 kg/m², plana). Para teja perfilada el consumo de acero por m² cubierto es mayor (~4,1 kg/m²), por lo que ≈14–15 kgCO₂e/m² es estimación. Proxy, no del producto CR."
+    },
+    "embodied_carbon_modules": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "environmental_certification": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "end_of_life": {
+      "estado": "dato",
+      "valor": [
+        "Reciclaje",
+        "Reutilización"
+      ],
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "cr_region": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "seismic_condition": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "tradition_type": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "cr_standard": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "plan_requirements": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "advantages": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "limitations": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "graphics": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "minimum_slope": {
+      "estado": "dato",
+      "valor": 25,
+      "calificador": "=",
+      "unidad": "%",
+      "fuentes": [
+        {
+          "ref": "R31"
+        },
+        {
+          "ref": "R36"
+        },
+        {
+          "ref": "R32"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Mínima 25% (≈14°), recomendada 30% (Ternium, Formetal). DECRA: 3:12 (25%). Metalco no publica pendiente mínima en su ficha."
+    },
+    "maximum_length": {
+      "estado": "dato",
+      "valor": 4.5,
+      "calificador": "=",
+      "unidad": "m",
+      "fuentes": [
+        {
+          "ref": "R34"
+        },
+        {
+          "ref": "R31"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Metalco Colonial hasta 10 gradas (3,5 m) y Toledo hasta 15 gradas (4,5 m). Ternium fabrica hasta 6,06 m."
+    },
+    "overlap_system": {
+      "estado": "dato",
+      "valor": "Traslape longitudinal de una grada con lagrimal (corte de capilaridad); traslape lateral de una onda/cresta en sentido contrario a vientos dominantes, cosido en crestas",
+      "fuentes": [
+        {
+          "ref": "R30"
+        },
+        {
+          "ref": "R34"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "waterproofing": {
+      "estado": "dato",
+      "valor": [
+        "Lámina metálica prepintada (autoimpermeable)",
+        "Sellos EPDM en tornillos",
+        "Sellador en traslapes",
+        "Fieltro o membrana bajo cubierta opcional"
+      ],
+      "fuentes": [
+        {
+          "ref": "R32"
+        },
+        {
+          "ref": "R36"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "wind_uplift": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "R37"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Sin ensayo UL 580/FM 4471 publicado para teja lisa. DECRA declara resistencia a vientos hasta 120 mph (≈193 km/h). Diseñar fijaciones según Lineamientos técnicos de viento de CR (2021)."
+    },
+    "rain_noise": {
+      "estado": "dato",
+      "valor": 5,
+      "calificador": "=",
+      "unidad": "dB",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Lámina metálica delgada sin aislamiento: ruido de lluvia muy alto; la versión con gránulos de piedra lo reduce."
+    },
+    "walkability": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "R31"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "No transitable sobre la grada; pisar solo sobre apoyos/clavadores con calzado blando o usar tablones."
+    },
+    "insulation_compatibility": {
+      "estado": "dato",
+      "valor": [
+        "Membrana reflectiva (foil)",
+        "Lana mineral o fibra de vidrio sobre cielo",
+        "Espuma de poliuretano proyectada",
+        "Paneles EPS/PIR bajo cubierta"
+      ],
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "coating_life": {
+      "estado": "dato",
+      "min": 10.0,
+      "max": 20.0,
+      "calificador": "rango",
+      "unidad": "años",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Poliéster estándar ≈18 µm: retención de color aceptable 10–15 años en clima tropical (estimación). No se encontró garantía de pintura publicada por Metalco/Ternium; Ternium renuncia a garantías en su hoja técnica."
+    },
+    "roof_accessories": {
+      "estado": "dato",
+      "valor": [
+        "Cumbrera tipo teja",
+        "Limatesa",
+        "Limahoya",
+        "Botaguas",
+        "Tapichel/remate lateral",
+        "Tapón de cumbrera",
+        "Tornillos autoperforantes con arandela EPDM",
+        "Sellador",
+        "Canoas y bajantes"
+      ],
+      "fuentes": [
+        {
+          "ref": "R32"
+        }
+      ],
+      "evidencia": "E5"
+    }
+  },
+  "fuentes": [
+    {
+      "id": "PROPIO",
+      "cita": "Elaboración propia del estudiante (TP1).",
+      "tipo": "elaboracion_propia"
+    },
+    {
+      "id": "R30",
+      "cita": "Metalco web Tejas https://metalco.net/tejas/",
+      "url": "https://metalco.net/tejas/"
+    },
+    {
+      "id": "R31",
+      "cita": "Ternium Teja Española hoja técnica https://amcen.ternium.com/media/puunhvle/ternium-teja-espanola-ca.pdf",
+      "url": "https://amcen.ternium.com/media/puunhvle/ternium-teja-espanola-ca.pdf"
+    },
+    {
+      "id": "R32",
+      "cita": "DECRA Guide Specification Shake (acero con gránulos de piedra) https://decra.com/hubfs/DECRA-Guide-Specification-Shake.pdf",
+      "url": "https://decra.com/hubfs/DECRA-Guide-Specification-Shake.pdf"
+    },
+    {
+      "id": "R33",
+      "cita": "EPA Costa Rica, categoría Láminas metálicas teja https://cr.epaenlinea.com/metalicas-teja.html",
+      "url": "https://cr.epaenlinea.com/metalicas-teja.html"
+    },
+    {
+      "id": "R34",
+      "cita": "Metalco FT Tejas Colonial y Toledo (2024) https://metalco.net/wp-content/uploads/2024/02/FT_Teja_130224.pdf",
+      "url": "https://metalco.net/wp-content/uploads/2024/02/FT_Teja_130224.pdf"
+    },
+    {
+      "id": "R35",
+      "cita": "Navecon Aluzinc modelo teja ficha técnica https://naveconperu.com/wp-content/uploads/2025/02/ALUZINC-TEJA-1.pdf",
+      "url": "https://naveconperu.com/wp-content/uploads/2025/02/ALUZINC-TEJA-1.pdf"
+    },
+    {
+      "id": "R36",
+      "cita": "Formetal Tejagala ficha técnica https://formetalpanama.com/wp-content/uploads/2022/03/Ficha-Tecnica-Tejagala.pdf",
+      "url": "https://formetalpanama.com/wp-content/uploads/2022/03/Ficha-Tecnica-Tejagala.pdf"
+    },
+    {
+      "id": "R37",
+      "cita": "Código Sísmico CR, consultas viento (Lineamientos técnicos de viento 2021) https://www.codigosismico.or.cr/respuestas_viento.htm",
+      "url": "https://www.codigosismico.or.cr/respuestas_viento.htm"
+    },
+    {
+      "id": "R38",
+      "cita": "Almacenes Vidrí (El Salvador), Lámina teja colonial Metalco 1,05x3,66 cal. 26 https://www.vidri.com.sv/producto/133436/lamina-tipo-teja-366-metros-calibre-26.html",
+      "url": "https://www.vidri.com.sv/producto/133436/lamina-tipo-teja-366-metros-calibre-26.html"
+    },
+    {
+      "id": "R39",
+      "cita": "EPD COLORBOND steel 0,45 mm AM100 (EPD-IES-0022238) https://www.environdec.com/library/epd22238",
+      "url": "https://www.environdec.com/library/epd22238"
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+clave,seccion,campo,tipo,unidad,unidades_alternativas,dominio,obligatorio,dimension,componentes,clave_legacy,regla
+id,Identificación,Código único,texto,,,,Sí,ID,TODOS,id,"Formato COMP-SUB-NN, p. ej. PIS-CER-01"
+name,Identificación,Nombre genérico o comercial,texto,,,,Sí,ID,TODOS,name,
+record_type,Identificación,Tipo de registro,lista,,,record_type,Sí,ID,TODOS,record_type,
+component,Identificación,Componente,lista,,,component,Sí,ID,TODOS,component,"Código de componente (CIM, PIS, PAR, CUB, CIE, PUE, VEN)"
+subcategory,Identificación,Subcategoría,texto,,,,Sí,ID,TODOS,subcategory,
+country,Identificación,País de referencia,lista,,,country,Sí,ID,TODOS,country,"País del estudio, no de fabricación"
+manufacturer,Identificación,Fabricante,texto,,,,No,ID,TODOS,manufacturer,Solo para identificar la tecnología documentada
+supplier,Identificación,Proveedor,texto,,,,No,ID,TODOS,supplier,
+description,Identificación,Descripción breve,texto_largo,,,,Sí,ID,TODOS,description,
+keywords,Identificación,Palabras clave,lista_multiple,,,,Sí,ID,TODOS,keywords,Separar con |
+main_material,Configuración,Material principal,texto,,,,Sí,CON,TODOS,main_material,
+secondary_materials,Configuración,Materiales secundarios,lista_multiple,,,,No,CON,TODOS,secondary_materials,
+layers,Configuración,"Capas del sistema, en orden",lista_multiple,,,,Sí,CON,TODOS,layers,Ordenar del interior al exterior (o del recinto al soporte) y declarar el sentido
+total_thickness,Configuración,Espesor total,numero,mm,,,No,CON,TODOS,total_thickness_mm,
+commercial_dimensions,Configuración,Dimensiones comerciales,texto,mm,,,No,CON,TODOS,commercial_dimensions,largo × ancho × espesor en mm
+density,Configuración,Densidad aparente del material principal,numero,kg/m³,,,No,TER,TODOS,weight_density,Antes compartía campo con la masa superficial: se separan
+surface_mass,Configuración,Masa superficial del elemento,numero,kg/m²,,,No,MEC,TODOS,weight_density|surface_weight,Indicar en nota si incluye estructura de soporte
+surface_finish,Configuración,Acabado superficial,texto,,,,No,CON,TODOS,surface_finish,
+support_system,Configuración,Sistema de soporte,texto,,,,No,CON,TODOS,support_system,
+fastening,Configuración,Tipo de fijación,texto,,,,No,CON,TODOS,fastening,
+joints_seals,Configuración,"Juntas, sellos y accesorios",texto,,,,No,CON,TODOS,joints_seals,
+installation_sequence,Sistema constructivo,Secuencia de ejecución,texto_largo,,,,Sí,CON,TODOS,installation_sequence,Promovido al núcleo desde Cimentaciones y Pisos
+tools_labor,Sistema constructivo,Herramientas y mano de obra,texto,,,,Sí,CON,TODOS,tools_labor,
+critical_point,Sistema constructivo,Punto crítico de ejecución,texto,,,,No,CON,TODOS,critical_point,
+recommended_uses,Aplicación,Usos recomendados,lista_multiple,,,,Sí,APL,TODOS,recommended_uses,
+building_types,Aplicación,Tipología edificatoria,lista_multiple,,,building_type,Sí,APL,TODOS,building_types,
+location,Aplicación,Ubicación interior/exterior,lista,,,location,Sí,APL,TODOS,location,
+climates,Aplicación,Condiciones climáticas apropiadas (descripción),texto,,,,Sí,APL,TODOS,climates,
+imn_subregions,Aplicación,Subregiones climáticas IMN aptas,lista_multiple,,,imn_subregion,No,APL,TODOS,climate_zone,"Códigos IMN (VC1, RA4…) o TODAS; enlaza con BD_Clima_Materiales_CR"
+compatibility,Aplicación,Compatibilidad con otros materiales,texto,,,,No,CON,TODOS,compatibility,
+use_restrictions,Aplicación,Restricciones de uso,texto,,,,Sí,APL,TODOS,use_restrictions,
+labor_specialization,Aplicación,Especialización de mano de obra,escala,1–5,,,Sí,CON,TODOS,labor_specialization,Escala con justificación obligatoria
+installation_complexity,Aplicación,Complejidad de instalación,escala,1–5,,,Sí,CON,TODOS,installation_complexity,
+national_availability,Aplicación,Disponibilidad nacional,escala,1–5,,,Sí,CON,TODOS,national_availability|regional_availability,Absorbe regional_availability
+installation_time,Aplicación,Tiempo relativo de instalación,escala,1–5,,,No,CON,TODOS,installation_time,
+relative_cost,Aplicación,Costo relativo,escala,1–5,,,Sí,APL,TODOS,relative_cost,
+price_range,Aplicación,Rango de precio de referencia,numero,CRC/m²,USD/m²|CRC/unidad|USD/unidad|CRC/ml|USD/ml|MXN/m²,,No,APL,TODOS,price_range,Opcional; declarar fecha de consulta en la nota
+mechanical_resistance,Desempeño físico,Resistencia mecánica,valor_o_clase,MPa,kN/m|kN/m²|N|kPa|clase,,No,MEC,TODOS,mechanical_resistance,"Si es número, unidad obligatoria; si es clase, citar el sistema de clasificación"
+impact_resistance,Desempeño físico,Resistencia al impacto,valor_o_clase,J,clase|IK|kg·cm/cm²,,No,MEC,TODOS,impact_resistance,
+abrasion_resistance,Desempeño físico,Resistencia a abrasión,valor_o_clase,clase,mm³|g,,No,DUR,TODOS,abrasion_resistance,
+durability_years,Desempeño físico,Vida útil de servicio estimada,numero,años,,,No,DUR,TODOS,durability_years,No equiparar garantía comercial con vida útil
+water_absorption,Agua y ambiente,Absorción de agua,numero,%,,,No,HIG,TODOS,water_absorption,
+moisture_resistance,Agua y ambiente,Resistencia a humedad,escala,1–5,,,Sí,HIG,TODOS,moisture_resistance,
+condensation_risk,Agua y ambiente,Riesgo de condensación,escala,1–5,,,No,HIG,TODOS,condensation_risk,
+corrosion_resistance,Agua y ambiente,Resistencia a corrosión,escala,1–5,,,No,DUR,TODOS,corrosion_resistance,
+uv_resistance,Agua y ambiente,Resistencia a radiación UV,escala,1–5,,,No,DUR,TODOS,uv_resistance,
+marine_environment,Agua y ambiente,Aptitud para ambiente marino,booleano,,,si_no,No,DUR,TODOS,marine_environment,
+vapor_permeability,Agua y ambiente,Factor de resistencia al vapor μ,numero,adimensional,,,No,HIG,TODOS,,Nuevo (marco de 6 dimensiones)
+thermal_conductivity,Térmico,Conductividad térmica λ,numero,W/(m·K),,,No,TER,TODOS,thermal_conductivity,Distinguir valor en seco de valor en servicio
+specific_heat,Térmico,Calor específico,numero,J/(kg·K),,,No,TER,TODOS,,Nuevo (marco de 6 dimensiones)
+thermal_resistance,Térmico,Resistencia térmica R,numero,m²·K/W,,,No,TER,TODOS,thermal_resistance,
+u_value,Térmico,Transmitancia térmica U,numero,W/(m²·K),,,No,TER,TODOS,u_value,
+solar_reflectance,Térmico,Reflectancia solar,numero,0–1,,,No,TER,TODOS,solar_reflectance,
+thermal_emittance,Térmico,Emisividad térmica,numero,0–1,,,No,TER,TODOS,,Nuevo (marco de 6 dimensiones)
+sri,Térmico,Índice de reflectancia solar SRI,numero,adimensional,,,No,TER,TODOS,sri,
+sound_insulation,Acústico,Aislamiento acústico,numero,dB (Rw),dB (STC),,No,CON,TODOS,sound_insulation,
+sound_absorption,Acústico,Absorción acústica,numero,NRC,αw,,No,CON,TODOS,sound_absorption,
+fire_reaction,Fuego,Reacción al fuego,valor_o_clase,clase,,,No,SAL,TODOS,fire_reaction,"Citar sistema: EN 13501-1, ASTM E84, ASTM E162…"
+fire_resistance,Fuego,Resistencia al fuego del ensamble,numero,min,,,No,SAL,TODOS,fire_resistance,
+smoke_class,Fuego,Generación de humo,valor_o_clase,clase,,,No,SAL,TODOS,smoke_class,
+voc_emissions,Salud y seguridad,Emisiones de COV,numero,g/L,µg/m³,,No,SAL,TODOS,voc_emissions,
+hazardous_substances,Salud y seguridad,Sustancias peligrosas,lista_multiple,,,,No,SAL,TODOS,hazardous_substances,
+cleanability,Salud y seguridad,Facilidad de limpieza,escala,1–5,,,Sí,SAL,TODOS,cleanability,
+accessibility,Salud y seguridad,Contribución a accesibilidad,texto,,,,No,SAL,TODOS,accessibility,Referir Ley 7600 cuando aplique
+healthcare_use,Salud y seguridad,Aplicación en edificios de salud,booleano,,,si_no,No,SAL,TODOS,healthcare_use,
+maintenance_frequency,Mantenimiento,Frecuencia de mantenimiento,numero,meses,,,Sí,DUR,TODOS,maintenance_frequency,
+maintenance_actions,Mantenimiento,Actividades de mantenimiento,texto,,,,Sí,DUR,TODOS,maintenance_actions,
+repairability,Mantenimiento,Facilidad de reparación,escala,1–5,,,Sí,DUR,TODOS,repairability,
+replaceability,Mantenimiento,Facilidad de sustitución,escala,1–5,,,No,DUR,TODOS,replaceability,
+common_failures,Mantenimiento,Principales fallas (patologías),lista_multiple,,,,Sí,DUR,TODOS,common_failures,
+failure_causes,Mantenimiento,Causas probables,lista_multiple,,,,Sí,DUR,TODOS,failure_causes,
+corrective_action,Mantenimiento,Acción correctiva habitual,texto,,,,No,DUR,TODOS,corrective_action,
+origin,Ambiental,Procedencia,lista,,,origin,Sí,AMB,TODOS,origin|national_or_imported,Absorbe national_or_imported
+transport_distance,Ambiental,Distancia aproximada de transporte,numero,km,,,No,AMB,TODOS,transport_distance,
+recycled_content,Ambiental,Contenido reciclado,numero,%,,,No,AMB,TODOS,recycled_content,
+renewable,Ambiental,Material renovable,booleano,,,si_no,No,AMB,TODOS,renewable,
+reusable,Ambiental,Reutilizable,booleano,,,si_no,Sí,AMB,TODOS,reusable,
+recyclable,Ambiental,Reciclable,booleano,,,si_no,Sí,AMB,TODOS,recyclable,
+installation_waste,Ambiental,Residuos de instalación,escala,1–5,,,No,AMB,TODOS,installation_waste,
+epd_available,Ambiental,EPD bajo EN 15804 / ISO 14025,booleano,,,si_no,No,AMB,TODOS,epd_available,
+embodied_carbon,Ambiental,Carbono incorporado,numero,kgCO2e/m²,kgCO2e/kg|kgCO2e/m³|kgCO2e/unidad,,No,AMB,TODOS,embodied_carbon,Unidad funcional explícita
+embodied_carbon_modules,Ambiental,Módulos de ciclo de vida del dato de carbono,lista,,,lca_modules,No,AMB,TODOS,,"Nuevo: A1–A3, A1–A5, A–C…"
+environmental_certification,Ambiental,Certificación ambiental,texto,,,,No,AMB,TODOS,environmental_certification,
+end_of_life,Ambiental,Gestión al final de vida,lista_multiple,,,end_of_life,No,AMB,TODOS,end_of_life,
+cr_region,Contexto Costa Rica,Región o uso predominante en CR,texto,,,,Sí,CR,TODOS,cr_region,Promovido al núcleo
+seismic_condition,Contexto Costa Rica,Condición sísmica relevante,texto,,,,No,CR,TODOS,seismic_condition,CSCR-2010 (rev. 2014)
+tradition_type,Contexto Costa Rica,Sistema tradicional o contemporáneo,lista,,,tradition_type,Sí,CR,TODOS,tradition_type,
+cr_standard,Contexto Costa Rica,Normativa costarricense aplicable,texto,,,,Sí,CR,TODOS,cr_standard,"CSCR, Reglamento de Construcciones, INTE, RESET (INTE C170), Ley 7600"
+plan_requirements,Contexto Costa Rica,Requisitos en planos y especificaciones,texto,,,,Sí,CR,TODOS,plan_requirements,
+advantages,Síntesis,Ventajas,texto_largo,,,,Sí,SIN,TODOS,advantages,
+limitations,Síntesis,Limitaciones,texto_largo,,,,Sí,SIN,TODOS,limitations,
+graphics,Síntesis,"Fotografías, diagramas o detalles",lista_multiple,,,,Sí,SIN,TODOS,graphics,Ruta relativa en /media/<ID>/ + fuente de cada imagen
+depth_class,Específico,Clasificación por Df/B,texto,,,,Sí,MEC,CIM,depth_class,
+design_criterion,Específico,Criterio que gobierna el dimensionamiento,texto,,,,Sí,MEC,CIM,design_criterion,
+settlement_limit,Específico,Asentamiento total admisible,numero,cm,,,No,MEC,CIM,settlement_limit,
+angular_distortion,Específico,Distorsión angular límite,numero,adimensional,,,No,MEC,CIM,angular_distortion,"Expresar como fracción δ/L (p. ej. 0,002)"
+expansive_soil,Específico,Aptitud en suelo expansivo,lista,,,aptitud,Sí,MEC,CIM,expansive_soil,Condición en nota
+collapsible_soil,Específico,Aptitud en suelo colapsable,lista,,,aptitud,Sí,MEC,CIM,collapsible_soil,
+liquefiable_soil,Específico,Aptitud en terreno licuable,lista,,,aptitud,Sí,MEC,CIM,liquefiable_soil,
+min_exploration,Específico,Exploración geotécnica mínima previa,texto,,,,Sí,MEC,CIM,min_exploration,
+seismic_zone_effect,Específico,Efecto de la zona sísmica,texto,,,,No,MEC,CIM,seismic_zone_effect,
+excavation_safety,Específico,Seguridad de excavación junto a colindancias,texto,,,,No,SAL,CIM,excavation_safety,Movido desde Salud y seguridad
+traffic_level,Específico,Nivel de tránsito,lista_multiple,,,traffic_level,Sí,DUR,PIS,traffic_level,
+slip_resistance,Específico,Resistencia al deslizamiento,valor_o_clase,clase,DCOF|PTV|R,,Sí,SAL,PIS,slip_resistance,"Citar método: ANSI A326.3 (DCOF), EN 16165, DIN 51130"
+chemical_resistance,Específico,Resistencia química,valor_o_clase,clase,,,No,DUR,PIS,chemical_resistance,
+stain_resistance,Específico,Resistencia a manchas,valor_o_clase,clase,,,No,DUR,PIS,stain_resistance,
+substrate,Específico,Tipo de sustrato,lista_multiple,,,,Sí,CON,PIS,substrate,
+adhesive,Específico,Adhesivo o fijación,texto,,,,Sí,CON,PIS,adhesive,
+installation_thickness,Específico,Espesor de instalación,numero,mm,,,No,CON,PIS,installation_thickness,
+joint_requirements,Específico,Requisitos de juntas,texto,,,,Sí,CON,PIS,joint_requirements,
+accessible_route,Específico,Apto para ruta accesible (Ley 7600),booleano,,,si_no,Sí,SAL,PIS,accessible_route,
+wall_function,Específico,Función portante o de cerramiento,texto,,,,Sí,MEC,PAR,wall_function,
+system_thickness,Específico,Espesor del sistema,numero,mm,,,Sí,CON,PAR,system_thickness,
+maximum_height,Específico,Altura máxima,numero,m,,,No,MEC,PAR,maximum_height,
+modulation,Específico,Modulación,texto,mm,,,No,CON,PAR|CIE,modulation,
+lateral_load,Específico,Resistencia a carga lateral,valor_o_clase,kPa,kN/m|clase,,No,MEC,PAR,lateral_load,
+capillary_absorption,Específico,Coeficiente de absorción capilar,valor_o_clase,kg/(m²·√h),clase,,No,HIG,PAR,capillary_absorption,EN ISO 15148
+moisture_barrier,Específico,Barrera de humedad,texto,,,,Sí,HIG,PAR,moisture_barrier,
+interior_finish,Específico,Revestimiento interior,texto,,,,No,CON,PAR,interior_finish,
+exterior_finish,Específico,Revestimiento exterior,texto,,,,No,CON,PAR,exterior_finish,
+structural_connection,Específico,Fijación a estructura,texto,,,,Sí,MEC,PAR,structural_connection,
+minimum_slope,Específico,Pendiente mínima,numero,%,,,Sí,HIG,CUB,minimum_slope,
+maximum_length,Específico,Longitud máxima recomendada,numero,m,,,No,CON,CUB,maximum_length,
+overlap_system,Específico,Sistema de traslape,texto,,,,Sí,HIG,CUB,overlap_system,
+waterproofing,Específico,Estrategia de impermeabilización,lista_multiple,,,,Sí,HIG,CUB,waterproofing,
+wind_uplift,Específico,Resistencia a succión de viento,numero,Pa,kPa,,No,MEC,CUB,wind_uplift,
+rain_noise,Específico,Ruido por impacto de lluvia,numero,dB,dB (LIA),,No,CON,CUB,rain_noise,Corrige unidad 1–5 usada en una ficha
+walkability,Específico,Transitabilidad,booleano,,,si_no,Sí,CON,CUB,walkability,
+insulation_compatibility,Específico,Compatibilidad con aislamiento,lista_multiple,,,,Sí,TER,CUB,insulation_compatibility,
+coating_life,Específico,Vida útil del recubrimiento,numero,años,,,No,DUR,CUB,coating_life,
+roof_accessories,Específico,Accesorios requeridos,lista_multiple,,,,Sí,CON,CUB,roof_accessories,
+suspension_type,Específico,Tipo de suspensión,texto,,,,Sí,CON,CIE,suspension_type,
+minimum_plenum,Específico,Altura mínima de plénum,numero,mm,,,No,CON,CIE,minimum_plenum,
+accessibility_above,Específico,Registrabilidad del plénum,booleano,,,si_no,Sí,CON,CIE,accessibility_above,
+cac,Específico,Aislamiento entre recintos por el plénum,numero,dB (CAC),dB (STC)|dB (Rw),,No,CON,CIE,cac,
+sag_resistance,Específico,Resistencia a pandeo por humedad,valor_o_clase,clase,mm|%,,No,HIG,CIE,sag_resistance,
+services_integration,Específico,Integración de luminarias e instalaciones,texto,,,,Sí,CON,CIE,services_integration,
+wet_area_use,Específico,Uso en zonas húmedas o clínicas,booleano,,,si_no,Sí,HIG,CIE,wet_area_use,
+opening_type,Específico,Tipo de apertura,texto,,,,Sí,CON,PUE|VEN,opening_type,
+frame_material,Específico,Material del marco,texto,,,,Sí,CON,PUE|VEN,frame_material,
+air_tightness,Específico,Hermeticidad al aire,valor_o_clase,clase,m³/(h·m²)|L/(s·m²),,No,HIG,PUE|VEN,air_tightness|airtightness,Unifica airtightness (Puertas) y air_tightness (Ventanas)
+leaf_count,Específico,Número de hojas,entero,,,,Sí,CON,PUE,leaf_count,
+nominal_dimensions,Específico,Dimensiones nominales,texto,mm,,,Sí,CON,PUE,nominal_dimensions,
+clear_width,Específico,Paso libre,numero,mm,,,Sí,SAL,PUE,clear_width,Ley 7600: verificar ancho mínimo
+leaf_material,Específico,Material de la hoja,texto,,,,Sí,CON,PUE,leaf_material,
+use_frequency,Específico,Frecuencia de uso,texto,,,,Sí,DUR,PUE,use_frequency,
+opening_force,Específico,Fuerza de apertura,numero,N,,,No,SAL,PUE,opening_force,
+hardware,Específico,Herrajes,lista_multiple,,,,Sí,CON,PUE,hardware,
+access_control,Específico,Control de acceso,texto,,,,No,SAL,PUE,access_control,
+glass_type,Específico,Tipo de vidrio,texto,,,,Sí,TER,VEN,glass_type,
+glass_thickness,Específico,Espesor del vidrio,numero,mm,,,Sí,MEC,VEN,glass_thickness,
+chamber_count,Específico,Número de cámaras del perfil,entero,,,,No,TER,VEN,chamber_count,
+shgc,Específico,Coeficiente de ganancia solar SHGC,numero,0–1,,,No,TER,VEN,shgc,
+visible_transmittance,Específico,Transmitancia visible,numero,0–1,,,No,TER,VEN,visible_transmittance,
+water_tightness,Específico,Estanqueidad al agua,valor_o_clase,Pa,clase,,No,HIG,VEN,water_tightness,
+wind_load,Específico,Resistencia a carga de viento,numero,Pa,kPa,,No,MEC,VEN,wind_load,
+effective_opening,Específico,Apertura efectiva para ventilación,numero,%,,,Sí,TER,VEN,effective_opening,
+solar_protection,Específico,Protección solar integrada,texto,,,,No,TER,VEN,solar_protection,
+safety_glass,Específico,Vidrio de seguridad (INTE C312),booleano,,,si_no,Sí,SAL,VEN,safety_glass,

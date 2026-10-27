@@ -1,0 +1,1199 @@
+{
+  "schema_version": "1.0",
+  "meta": {
+    "id": "CUB-MET-01",
+    "componente": "CUB",
+    "autor": "Jorge Rodríguez",
+    "estado_revision": "borrador",
+    "fecha_actualizacion": "2026-10-26",
+    "id_legado": "CUB-MET-01",
+    "origen_migracion": {
+      "archivo": "TP1_Ficha_Jorge_Cubiertas_250927.xlsx",
+      "hoja": "Ficha CUB-MET-01"
+    }
+  },
+  "campos": {
+    "id": {
+      "estado": "dato",
+      "valor": "CUB-MET-01",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "name": {
+      "estado": "dato",
+      "valor": "Lámina rectangular esmaltada calibre 26 (acero galvanizado prepintado)",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ]
+    },
+    "record_type": {
+      "estado": "dato",
+      "valor": "producto",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ]
+    },
+    "component": {
+      "estado": "dato",
+      "valor": "CUB"
+    },
+    "subcategory": {
+      "estado": "dato",
+      "valor": "Lámina metálica trapezoidal esmaltada",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ]
+    },
+    "country": {
+      "estado": "dato",
+      "valor": "CR",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ]
+    },
+    "manufacturer": {
+      "estado": "dato",
+      "valor": "Metalco (referencia) | Ternium | Demasa | otros conformadores locales",
+      "fuentes": [
+        {
+          "ref": "R01"
+        },
+        {
+          "ref": "R02"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Solución referenciada a la Cubierta Rectangular de Metalco (sustrato galvanizado Z180). Ternium ofrece en CR una versión con sustrato Zn-Al (Pintro Alum). No se logró abrir la ficha de Demasa."
+    },
+    "supplier": {
+      "estado": "dato",
+      "valor": "EPA | El Lagar | Colono | distribuidores de acero y techos (p.ej. Roofland)",
+      "fuentes": [
+        {
+          "ref": "R03"
+        },
+        {
+          "ref": "R04"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "description": {
+      "estado": "dato",
+      "valor": "Lámina de acero full hard con galvanizado por inmersión en caliente Z180 (ASTM A653 / INTE C405) y pintura horneada en línea continua en ambas caras (ASTM A755 / INTE C406), conformada en perfil trapezoidal de nervios rectangulares, calibre 26 (0,46 mm), fijada con tornillo autotaladrante con arandela de neopreno en crestas sobre clavadores de acero.",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "keywords": {
+      "estado": "dato",
+      "valor": [
+        "lámina esmaltada",
+        "lámina rectangular",
+        "lámina estructural",
+        "trapezoidal",
+        "galvanizada",
+        "prepintada",
+        "ASTM A653",
+        "ASTM A755",
+        "techo metálico"
+      ],
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ]
+    },
+    "main_material": {
+      "estado": "dato",
+      "valor": "Acero al carbono full hard (JIS G3141 SPCC) galvanizado Z180 y prepintado",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Galvanizado Z180 = 180 g/m² de zinc (suma de ambas caras). Alternativa de mayor durabilidad: sustrato Zn-Al 55% (ASTM A792), p.ej. Ternium Pintro Alum."
+    },
+    "secondary_materials": {
+      "estado": "dato",
+      "valor": [
+        "Recubrimiento de zinc",
+        "primer",
+        "pintura de acabado RUV4 (poliéster)",
+        "backer",
+        "tornillos autotaladrantes",
+        "arandelas de neopreno",
+        "sellador butílico o poliuretano"
+      ],
+      "fuentes": [
+        {
+          "ref": "R01"
+        },
+        {
+          "ref": "R05"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "layers": {
+      "estado": "dato",
+      "valor": [
+        "Pintura de color RUV4 (≥18 µm)",
+        "primer (≥5 µm)",
+        "galvanizado Z180",
+        "núcleo de acero",
+        "galvanizado Z180",
+        "backer RUV4 (≥10 µm)"
+      ],
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Orden de exterior a interior. Espesores mínimos de pintura según Metalco."
+    },
+    "total_thickness": {
+      "estado": "dato",
+      "valor": 0.46,
+      "calificador": "=",
+      "unidad": "mm",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Espesor final calibre 26 según Metalco. Ojo: en ferretería se vende \"#26 comercial\" de 0,38 mm (EPA); verificar el espesor real al especificar."
+    },
+    "commercial_dimensions": {
+      "estado": "dato",
+      "valor": "Ancho total 1,06 m / ancho útil 0,83 m; largos de 1 a 14 m a la medida; hojas estándar de ferretería 1,07 × 3,66 m",
+      "fuentes": [
+        {
+          "ref": "R01"
+        },
+        {
+          "ref": "R03"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "density": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "surface_mass": {
+      "estado": "dato",
+      "valor": 4.19,
+      "calificador": "=",
+      "unidad": "kg/m²",
+      "fuentes": [
+        {
+          "ref": "R06"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Ternium Estructural-76 calibre 26 BWG (0.45 mm): 3.187 kg/m lineal; 4.193 kg/m² (área útil). La ficha Metalco indica 0.83 kg/m², valor físicamente inconsistente con 0.46 mm de acero (~3.6 kg/m²), probablemente error."
+    },
+    "surface_finish": {
+      "estado": "dato",
+      "valor": "Esmaltado horneado en línea continua (pintura RUV4, poliéster) por ambas caras; colores: blanco, blanco 4011, almendra, rojo, rojo colonial, rojo teja, azul, verde, café",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Metalco también ofrece la versión solo galvanizada (sin pintura)."
+    },
+    "support_system": {
+      "estado": "dato",
+      "valor": "Clavadores (largueros) de acero galvanizado tipo perfil C o RT; separación según tabla de carga del fabricante",
+      "fuentes": [
+        {
+          "ref": "R01"
+        },
+        {
+          "ref": "R04"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Metalco: carga máxima de 70 kg/m² con las distancias entre clavadores de su tabla. Roofland: calibre 26 hasta 90 kg/m² con clavadores a 1,20 m."
+    },
+    "fastening": {
+      "estado": "dato",
+      "valor": "Tornillo autotaladrante Tek A14 con arandela de neopreno, solo en crestas; mínimo 3,2 tornillos/m²",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "joints_seals": {
+      "estado": "dato",
+      "valor": "Traslape lateral de una cresta con sellador butílico o poliuretano; traslape transversal ≥20 cm con sellador; cumbreras, botaguas, tapajuntas y cierres de onda",
+      "fuentes": [
+        {
+          "ref": "R01"
+        },
+        {
+          "ref": "R07"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "installation_sequence": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "tools_labor": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "critical_point": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "recommended_uses": {
+      "estado": "dato",
+      "valor": [
+        "Techos residenciales",
+        "bodegas",
+        "naves industriales",
+        "locales comerciales",
+        "cerramientos de pared/fachadas",
+        "construcción general"
+      ],
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "building_types": {
+      "estado": "dato",
+      "valor": [
+        "Vivienda",
+        "Comercial",
+        "Industrial",
+        "Institucional"
+      ],
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Salud: posible como cubierta exterior con cielo raso y aislamiento; no se lista por no ser uso declarado."
+    },
+    "location": {
+      "estado": "dato",
+      "valor": "Exterior",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Cubierta y cerramiento de muros exteriores."
+    },
+    "climates": {
+      "estado": "dato",
+      "valor": "Tropical húmedo | tropical seco | montaña/templado | costero moderado (condicionado)",
+      "fuentes": [
+        {
+          "ref": "R02"
+        },
+        {
+          "ref": "R08"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Con sustrato galvanizado Z180 la resistencia en costa es menor que con Zn-Al; en primera línea de playa las garantías suelen excluirse (Sheffield Metals)."
+    },
+    "imn_subregions": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "compatibility": {
+      "estado": "dato",
+      "valor": "Compatible con largueros de acero galvanizado, tornillería galvanizada/zincada con arandela EPDM/neopreno, aislantes (lana de vidrio, foil, espumas). Evitar contacto con cobre, plomo, madera tratada húmeda, concreto/mortero fresco y escurrimiento de agua desde cobre; las virutas de corte deben retirarse.",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Recomendaciones habituales para acero galvanizado prepintado; Metalco prohíbe el corte con disco abrasivo."
+    },
+    "use_restrictions": {
+      "estado": "dato",
+      "valor": "No cortar con disco abrasivo; no almacenar a la intemperie ni con humedad atrapada; pendiente mínima según fabricante (20% Ternium); uso en ambiente marino severo o industrial agresivo condicionado a PVDF/mayor recubrimiento; requiere diseño por viento (Lineamientos CFIA 2023); no apta como superficie transitable habitual.",
+      "fuentes": [
+        {
+          "ref": "R01"
+        },
+        {
+          "ref": "R07"
+        },
+        {
+          "ref": "R09"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "labor_specialization": {
+      "estado": "dato",
+      "valor": 2,
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Instalación conocida por cuadrillas generales en CR; requiere cuidado en alineación, torque de tornillos y traslapes."
+    },
+    "installation_complexity": {
+      "estado": "dato",
+      "valor": 2,
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Sistema de fijación expuesta simple; complejidad en remates, canoas y cumbreras."
+    },
+    "national_availability": {
+      "estado": "dato",
+      "valor": 5,
+      "fuentes": [
+        {
+          "ref": "R01"
+        },
+        {
+          "ref": "R03"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Fabricación/conformado local por varios productores y amplia venta en ferreterías."
+    },
+    "installation_time": {
+      "estado": "dato",
+      "valor": 2,
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Láminas largas (hasta 14 m) y livianas cubren rápido; tiempo relativo bajo."
+    },
+    "relative_cost": {
+      "estado": "dato",
+      "valor": 2,
+      "fuentes": [
+        {
+          "ref": "R03"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Entre las cubiertas más económicas; algo más cara que ondulada galvanizada."
+    },
+    "price_range": {
+      "estado": "dato",
+      "min": 4380.0,
+      "max": 5650.0,
+      "calificador": "rango",
+      "unidad": "CRC/m²",
+      "fuentes": [
+        {
+          "ref": "R03"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "EPA (consultado 22-sep-2026): ₡17 150 por lámina #26 (0,38 mm) de 1,07 × 3,66 m, blanca, Metalco. ≈₡4 380/m² de área bruta y ≈₡5 650/m² de área útil (0,83 m). Solo lámina: sin clavadores, tornillos, accesorios ni mano de obra."
+    },
+    "mechanical_resistance": {
+      "estado": "dato",
+      "valor": "70 kg/m² de carga máxima (calibre 26, separaciones según tabla del fabricante)",
+      "fuentes": [
+        {
+          "ref": "R01"
+        },
+        {
+          "ref": "R04"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Roofland indica hasta 90 kg/m² con clavadores a 1,20 m. Los Lineamientos de viento CFIA 2023 piden verificar componentes para carga mínima de 80 kg/m² (sección 4.4.3.1)."
+    },
+    "impact_resistance": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Se abolla ante granizo grande o impacto puntual; no se encontraron ensayos (p.ej. UL 2218) para productos CR."
+    },
+    "abrasion_resistance": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Pintura poliéster susceptible a rayado; PVDF más duro. Sin valor ensayado."
+    },
+    "durability_years": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "R08"
+        },
+        {
+          "ref": "R02"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Metalco no publica vida útil ni garantía. Como referencia, el sustrato Zn-Al (Galvalume) tiene garantías de ~25 años (Sheffield Metals); el galvanizado Z180 tiene vida menor, variable con el ambiente."
+    },
+    "water_absorption": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Sin ensayo publicado. El acero recubierto es un material no poroso; absorción despreciable."
+    },
+    "moisture_resistance": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "R02"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Impermeable; riesgo en bordes cortados, traslapes y agua estancada."
+    },
+    "condensation_risk": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Lámina sin aislamiento con alta conductividad: condensación en la cara inferior frecuente en clima húmedo; Metalco advierte condensación en almacenamiento."
+    },
+    "corrosion_resistance": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Galvanizado Z180 + pintura por ambas caras: buena en clima interior del país; menor que Zn-Al en costa y zonas industriales. Puntos débiles: bordes cortados, traslapes y virutas."
+    },
+    "uv_resistance": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "R08"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Poliéster: color garantizado ~10 años (tiza/decoloración); PVDF: 4–5."
+    },
+    "marine_environment": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "R08"
+        },
+        {
+          "ref": "R05"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Usar PVDF, mayor masa de recubrimiento y tornillería inoxidable/clase 4; garantías suelen excluir zonas de rompiente."
+    },
+    "vapor_permeability": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "thermal_conductivity": {
+      "estado": "dato",
+      "valor": 50,
+      "calificador": "=",
+      "unidad": "W/(m·K)",
+      "fuentes": [
+        {
+          "ref": "R10"
+        }
+      ],
+      "evidencia": "E3",
+      "nota": "Valor genérico del acero; la capa de pintura es despreciable."
+    },
+    "specific_heat": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "thermal_resistance": {
+      "estado": "dato",
+      "valor": 1e-05,
+      "calificador": "=",
+      "unidad": "m²·K/W",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "R = 0.00046 m / 50 W/m·K ≈ 1×10⁻⁵; despreciable sin aislamiento."
+    },
+    "u_value": {
+      "estado": "dato",
+      "min": 4.8,
+      "max": 7.1,
+      "calificador": "rango",
+      "unidad": "W/(m²·K)",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Cálculo propio solo con resistencias superficiales ISO 6946 (Rse 0.04; Rsi 0.17 flujo descendente / 0.10 ascendente). No incluye cielo raso ni cámara de aire."
+    },
+    "solar_reflectance": {
+      "estado": "dato",
+      "min": 0.25,
+      "max": 0.65,
+      "calificador": "rango",
+      "unidad": "0–1",
+      "fuentes": [
+        {
+          "ref": "R11"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Blancos 0.52–0.65; rojo colonial 0.26; azul 0.31–0.35; verde 0.29–0.42. Datos de lámina prepintada de fabricante estadounidense (referencia, no producto CR)."
+    },
+    "thermal_emittance": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "sri": {
+      "estado": "dato",
+      "min": 24.0,
+      "max": 78.0,
+      "calificador": "rango",
+      "unidad": "adimensional",
+      "fuentes": [
+        {
+          "ref": "R11"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Blancos 59–78; rojos 24–25. Referencia de producto similar, no verificada para marcas CR."
+    },
+    "sound_insulation": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Lámina simple de baja masa (~4 kg/m²): aislamiento aéreo bajo; sin ensayo disponible."
+    },
+    "sound_absorption": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Superficie metálica lisa: absorción prácticamente nula; sin ensayo."
+    },
+    "fire_reaction": {
+      "estado": "dato",
+      "valor": "A1 (EN 13501-1), condicionado",
+      "fuentes": [
+        {
+          "ref": "R12"
+        }
+      ],
+      "evidencia": "E3",
+      "nota": "Clase A1 sin ensayo para chapa metálica recubierta con poliéster ≤25 µm, ≤70 g/m², PCS ≤1.0 MJ/m² y t 0.40–1.50 mm. Metalco: 5+18 µm en cara expuesta. Chapa #26 comercial de 0.38 mm queda fuera del rango. Incombustible."
+    },
+    "fire_resistance": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Lámina sola no aporta resistencia al fuego (EI)."
+    },
+    "smoke_class": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "R12"
+        }
+      ],
+      "evidencia": "E3",
+      "nota": "La clase A1 no lleva subclasificación de humo (s)."
+    },
+    "voc_emissions": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Pintura curada en fábrica; no se aplica recubrimiento en obra. Sin dato de emisiones."
+    },
+    "hazardous_substances": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "No se encontró declaración de sustancias (p.ej. cromatos en pretratamiento) para productos CR."
+    },
+    "cleanability": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Superficie lisa, se lava con agua y jabón neutro; acumulación en valles."
+    },
+    "accessibility": {
+      "estado": "no_aplica",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "(componente de cubierta)"
+    },
+    "healthcare_use": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Admisible como cubierta exterior con cielo raso, aislamiento y control de condensación y ruido."
+    },
+    "maintenance_frequency": {
+      "estado": "dato",
+      "valor": 12,
+      "calificador": "=",
+      "unidad": "meses",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Inspección anual y tras temporadas de lluvia/viento; en costa cada 6 meses."
+    },
+    "maintenance_actions": {
+      "estado": "dato",
+      "valor": "Limpieza de hojas y sedimentos en valles y canoas; lavado con agua; revisar/ajustar o sustituir tornillos y arandelas; renovar sellos en traslapes y remates; retocar rayones con pintura compatible; eliminar contacto con metales disímiles.",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "repairability": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Retoque de pintura y sellado sencillos; perforaciones o corrosión avanzada exigen sustituir lámina."
+    },
+    "replaceability": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Láminas atornilladas individualmente, se sustituyen sin afectar la estructura."
+    },
+    "common_failures": {
+      "estado": "dato",
+      "valor": [
+        "Goteras en tornillos y traslapes",
+        "corrosión en bordes cortados y traslapes",
+        "decoloración y entizado de la pintura",
+        "condensación",
+        "abolladuras",
+        "desprendimiento por viento",
+        "ruido por lluvia y dilatación"
+      ],
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "failure_causes": {
+      "estado": "dato",
+      "valor": [
+        "Arandelas degradadas o tornillos sobre/sub-apretados",
+        "falta de sellador en traslapes",
+        "virutas de corte oxidadas",
+        "pendiente insuficiente o agua estancada",
+        "ambiente marino/industrial",
+        "fijación insuficiente en bordes y esquinas",
+        "tránsito sobre valles"
+      ],
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "corrective_action": {
+      "estado": "dato",
+      "valor": "Sustituir tornillos/arandelas dañados, sellar traslapes con butílico o poliuretano, tratar corrosión localizada y repintar; reemplazar láminas perforadas; reforzar fijación en zonas de borde y esquina.",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "origin": {
+      "estado": "dato",
+      "valor_texto_original": "Nacional | Importado",
+      "fuentes": [
+        {
+          "ref": "R01"
+        },
+        {
+          "ref": "R02"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Conformado y pintado en CR (Metalco); la bobina de acero es importada."
+    },
+    "transport_distance": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "recycled_content": {
+      "estado": "dato",
+      "valor": 6,
+      "calificador": "=",
+      "unidad": "%",
+      "fuentes": [
+        {
+          "ref": "R13"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Referencia internacional (COLORBOND, Australia): 6% posconsumo. Sin dato para productos CR; el acero de horno eléctrico puede tener mucho más."
+    },
+    "renewable": {
+      "estado": "dato",
+      "valor": "No",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "reusable": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Láminas desmontadas en buen estado pueden reutilizarse, pero con perforaciones de tornillo."
+    },
+    "recyclable": {
+      "estado": "dato",
+      "valor": "Sí",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Metalco declara el material reciclable; el acero es 100% reciclable como chatarra."
+    },
+    "installation_waste": {
+      "estado": "dato",
+      "valor": 2,
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Láminas a la medida (1–14 m) reducen desperdicio; residuos de cortes en limatesas y remates."
+    },
+    "epd_available": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "R13"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "No se encontró EPD para productos fabricados en CR; existen EPD internacionales de acero prepintado (p.ej. BlueScope)."
+    },
+    "embodied_carbon": {
+      "estado": "dato",
+      "valor": 13.7,
+      "calificador": "=",
+      "unidad": "kgCO2e/m²",
+      "fuentes": [
+        {
+          "ref": "R13"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "GWP A1–A3 por m² de chapa plana de 0,45 mm (COLORBOND Ultra, Australia, sustrato Zn-Al-Mg). Valor de referencia, no del producto de CR; por m² de cubierta el perfil agrega material (~10–15 %, estimación propia)."
+    },
+    "embodied_carbon_modules": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "environmental_certification": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "end_of_life": {
+      "estado": "dato",
+      "valor": [
+        "Reciclaje",
+        "Reutilización"
+      ],
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "cr_region": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "seismic_condition": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "tradition_type": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "cr_standard": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "plan_requirements": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "advantages": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "limitations": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "graphics": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "minimum_slope": {
+      "estado": "dato",
+      "valor": 20,
+      "calificador": "=",
+      "unidad": "%",
+      "fuentes": [
+        {
+          "ref": "R07"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Ternium indica 20 % para perfiles de nervio ~25 mm (Estructural-76 / TR-101). La ficha Metalco no especifica pendiente mínima: confirmar con el fabricante."
+    },
+    "maximum_length": {
+      "estado": "dato",
+      "valor": 14,
+      "calificador": "=",
+      "unidad": "m",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Metalco fabrica de 1 a 14 m. En largos grandes considerar la dilatación térmica."
+    },
+    "overlap_system": {
+      "estado": "dato",
+      "valor": "Traslape lateral de una cresta con sellador butílico o poliuretano y marca de trazabilidad oculta; traslape de extremo ≥20 cm con sellador; instalar de canoa a cumbrera y contra el viento dominante",
+      "fuentes": [
+        {
+          "ref": "R01"
+        },
+        {
+          "ref": "R07"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Traslape de extremo ≥20 cm tomado de Ternium (El Salvador); Metalco no lo especifica."
+    },
+    "waterproofing": {
+      "estado": "dato",
+      "valor": [
+        "Lámina metálica pintada",
+        "sellos en traslapes",
+        "arandelas de neopreno"
+      ],
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "wind_uplift": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "R06"
+        },
+        {
+          "ref": "R09"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "No se encontraron ensayos UL 580/FM 4471 para productos CR. Ternium declara diseño para vientos de 200 km/h con 4 tornillos por perfil C. La succión de diseño debe calcularse con los Lineamientos de viento CFIA 2023 (zonas de borde y esquina)."
+    },
+    "rain_noise": {
+      "estado": "dato",
+      "valor": 68,
+      "calificador": "=",
+      "unidad": "dB",
+      "fuentes": [
+        {
+          "ref": "R14"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "LIA,norm ≈68 dB bajo lluvia intensa (ISO 10140-5, 40 mm/h) para lámina de acero 0.42–0.48 mm sin amortiguar; en escala 5 (muy alto). Se reduce ~10 dB con amortiguante o más con aislamiento y cielo raso."
+    },
+    "walkability": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Pisar solo sobre los largueros/valles apoyados con calzado blando; el tránsito deforma nervios y raya pintura."
+    },
+    "insulation_compatibility": {
+      "estado": "dato",
+      "valor": [
+        "Sí"
+      ],
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Admite foil reflectivo, lana de vidrio o mineral con barrera de vapor bajo la lámina, o migrar a panel sándwich."
+    },
+    "coating_life": {
+      "estado": "dato",
+      "min": 10.0,
+      "max": 20.0,
+      "calificador": "rango",
+      "unidad": "años",
+      "fuentes": [
+        {
+          "ref": "R08"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Referencia de garantías de pintura poliéster en EE. UU.: adhesión hasta ~20 años, color ~10 años (Sheffield Metals). Metalco no publica garantía de pintura."
+    },
+    "roof_accessories": {
+      "estado": "dato",
+      "valor": [
+        "Tornillos autotaladrantes con arandela",
+        "cumbreras",
+        "botaguas",
+        "tapajuntas/limatesas",
+        "canoas y bajantes",
+        "sellador butílico/poliuretano",
+        "cierres de onda",
+        "largueros de acero"
+      ],
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    }
+  },
+  "fuentes": [
+    {
+      "id": "PROPIO",
+      "cita": "Elaboración propia del estudiante (TP1).",
+      "tipo": "elaboracion_propia"
+    },
+    {
+      "id": "R01",
+      "cita": "Ficha técnica Cubierta Rectangular Metalco (2024) https://metalco.net/wp-content/uploads/2024/02/FT_Cubierta-Rectangular_130224.pdf",
+      "url": "https://metalco.net/wp-content/uploads/2024/02/FT_Cubierta-Rectangular_130224.pdf"
+    },
+    {
+      "id": "R02",
+      "cita": "Ternium Zintro Alum https://amcen.ternium.com/es/productos/aceros-revestidos/ternium-zintro-alum",
+      "url": "https://amcen.ternium.com/es/productos/aceros-revestidos/ternium-zintro-alum"
+    },
+    {
+      "id": "R03",
+      "cita": "EPA Costa Rica, lámina rectangular #26 Metalco https://cr.epaenlinea.com/lamina-techo-rectangular-acero-26-038-mm-107-x-366-cm-blanca-metalco.html",
+      "url": "https://cr.epaenlinea.com/lamina-techo-rectangular-acero-26-038-mm-107-x-366-cm-blanca-metalco.html"
+    },
+    {
+      "id": "R04",
+      "cita": "Roofland CR, lámina rectangular https://rooflandcr.com/rectangular.html",
+      "url": "https://rooflandcr.com/rectangular.html"
+    },
+    {
+      "id": "R05",
+      "cita": "Ficha técnica acero recubierto Acesco https://www.acesco.com.co/descargas/fichastecnicas/ficha-tecnica-acero-recubierto.pdf",
+      "url": "https://www.acesco.com.co/descargas/fichastecnicas/ficha-tecnica-acero-recubierto.pdf"
+    },
+    {
+      "id": "R06",
+      "cita": "Catálogo de soluciones Ternium Costa Rica https://amcen.ternium.com/media/y0lbqomh/cata-logo-de-soluciones-tx-costa-rica.pdf",
+      "url": "https://amcen.ternium.com/media/y0lbqomh/cata-logo-de-soluciones-tx-costa-rica.pdf"
+    },
+    {
+      "id": "R07",
+      "cita": "Catálogo de soluciones Ternium El Salvador https://amcen.ternium.com/media/waipbbqt/cata-logo-de-soluciones-tx-el-salvador-2.pdf",
+      "url": "https://amcen.ternium.com/media/waipbbqt/cata-logo-de-soluciones-tx-el-salvador-2.pdf"
+    },
+    {
+      "id": "R08",
+      "cita": "Sheffield Metals, garantías de pintura https://sheffieldmetals.com/learning-center/metal-roofing-paint-warranties/",
+      "url": "https://sheffieldmetals.com/learning-center/metal-roofing-paint-warranties/"
+    },
+    {
+      "id": "R09",
+      "cita": "Lineamientos técnicos fuerzas de viento CR (CFIA 2023) https://cfia.or.cr/site/wp-content/uploads/2024/pdf/descargas/reglamentos/ejercicio/lineamientos-tecnicos-para-el-calculo-y-la-aplicacion-de-las-fuerzas-de-viento-en-el-disenio-y-construccion-de-edificaciones-en-costa-rica.pdf",
+      "url": "https://cfia.or.cr/site/wp-content/uploads/2024/pdf/descargas/reglamentos/ejercicio/lineamientos-tecnicos-para-el-calculo-y-la-aplicacion-de-las-fuerzas-de-viento-en-el-disenio-y-construccion-de-edificaciones-en-costa-rica.pdf"
+    },
+    {
+      "id": "R10",
+      "cita": "Valor tabulado del acero al carbono (EN ISO 10456)"
+    },
+    {
+      "id": "R11",
+      "cita": "Dean Steel Buildings, SR/SRI por color https://www.deansteelbuildings.com/products/panels/sr-sri-by-color/",
+      "url": "https://www.deansteelbuildings.com/products/panels/sr-sri-by-color/"
+    },
+    {
+      "id": "R12",
+      "cita": "Decisión 2010/737/UE (reacción al fuego chapas con poliéster) https://www.legislation.gov.uk/eudn/2010/737",
+      "url": "https://www.legislation.gov.uk/eudn/2010/737"
+    },
+    {
+      "id": "R13",
+      "cita": "EPD-IES-0022236 COLORBOND Ultra 0.45 mm https://www.environdec.com/library/epd22236",
+      "url": "https://www.environdec.com/library/epd22236"
+    },
+    {
+      "id": "R14",
+      "cita": "AAS 2018 p32, ruido de lluvia en lámina de acero https://acoustics.asn.au/conference_proceedings/AAS2018/papers/p32.pdf",
+      "url": "https://acoustics.asn.au/conference_proceedings/AAS2018/papers/p32.pdf"
+    }
+  ]
+}

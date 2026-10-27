@@ -1,0 +1,952 @@
+{
+  "schema_version": "1.0",
+  "meta": {
+    "id": "PUE-WPC-03",
+    "componente": "PUE",
+    "autor": "Verónica",
+    "estado_revision": "borrador",
+    "fecha_actualizacion": "2026-10-26",
+    "id_legado": "PA-WPC-003",
+    "origen_migracion": {
+      "archivo": "TP1_Ficha_Veronica_Puertas_COMPLETADA.xlsx",
+      "hoja": "Solución C-Compuesto WPC"
+    }
+  },
+  "campos": {
+    "id": {
+      "estado": "dato",
+      "valor": "PUE-WPC-03",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "name": {
+      "estado": "dato",
+      "valor": "Puerta de compuesto madera-plástico (WPC) para interiores",
+      "fuentes": [
+        {
+          "ref": "R91"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "record_type": {
+      "estado": "dato",
+      "valor": "sistema",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Hoja + marco + herrajes en kit precolgado, no un material aislado"
+    },
+    "component": {
+      "estado": "dato",
+      "valor": "PUE"
+    },
+    "subcategory": {
+      "estado": "dato",
+      "valor": "Puerta batiente de compuesto WPC (kit precolgado)",
+      "fuentes": [
+        {
+          "ref": "R91"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "country": {
+      "estado": "dato",
+      "valor": "CR",
+      "fuentes": [
+        {
+          "ref": "R04"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "manufacturer": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "R92"
+        }
+      ],
+      "nota": "El kit se comercializa bajo distribución de Carbone Store; el fabricante del compuesto extruido no se identifica (plantas en Alemania, España y Asia)"
+    },
+    "supplier": {
+      "estado": "dato",
+      "valor": "Carbone Store, Depósito Jiménez",
+      "fuentes": [
+        {
+          "ref": "R92"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "description": {
+      "estado": "dato",
+      "valor": "Hoja batiente extruida de WPC (partículas de madera reciclada y resina termoplástica de PVC o polietileno), con marco perimetral ajustable de WPC, juntas elásticas amortiguadoras, bisagras de acero inoxidable AISI 304 y tapajuntas telescópicos; se distribuye en kit precolgado de fábrica.",
+      "fuentes": [
+        {
+          "ref": "R93"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "keywords": {
+      "estado": "dato",
+      "valor": [
+        "WPC, compuesto madera-plástico, kit precolgado, Carbone Store, marco telescópico, impermeable"
+      ],
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "main_material": {
+      "estado": "dato",
+      "valor": "Compuesto madera-plástico (WPC): partículas de madera reciclada (aserrín de pino o eucalipto) + resina termoplástica de PVC o polietileno de alta densidad",
+      "fuentes": [
+        {
+          "ref": "R93"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "secondary_materials": {
+      "estado": "dato",
+      "valor": [
+        "Bisagras de acero inoxidable AISI 304, juntas elásticas de caucho sintético, cuñas plásticas de nivelación, tornillería autorroscante galvanizada, sellador acrílico/silicona acética"
+      ],
+      "fuentes": [
+        {
+          "ref": "R93"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "layers": {
+      "estado": "dato",
+      "valor": [
+        "1) Marco ajustable de WPC",
+        "2) Hoja extruida de WPC (45 mm)",
+        "3) Junta elástica amortiguadora perimetral",
+        "4) Bisagras de acero inoxidable AISI 304",
+        "5) Tapajuntas telescópico a presión"
+      ],
+      "fuentes": [
+        {
+          "ref": "R94"
+        },
+        {
+          "ref": "R93"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "total_thickness": {
+      "estado": "dato",
+      "valor": 45.0,
+      "calificador": "=",
+      "unidad": "mm",
+      "fuentes": [
+        {
+          "ref": "R94"
+        },
+        {
+          "ref": "R93"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Texto original: 45 (estándar)"
+    },
+    "commercial_dimensions": {
+      "estado": "dato",
+      "valor": "Hojas de 70, 85, 95 y 100 cm de ancho x 210-215 cm de alto; jamba de marco telescópico de 10 a 15 cm",
+      "fuentes": [
+        {
+          "ref": "R93"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "density": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "surface_mass": {
+      "estado": "no_disponible",
+      "nota": "No se reporta la densidad del compuesto WPC ni el peso de la hoja terminada"
+    },
+    "surface_finish": {
+      "estado": "dato",
+      "valor": "Preacabado de fábrica con película de PVC termoendurecida que imita vetas de madera (fresno, pino blanco, roble oscuro, wengué, beige); no requiere pintura, sellador, lija ni laca en obra",
+      "fuentes": [
+        {
+          "ref": "R93"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "support_system": {
+      "estado": "dato",
+      "valor": "Mampostería de concreto/block repellada o tabiquería de drywall con perfiles de acero galvanizado calibre 20",
+      "fuentes": [
+        {
+          "ref": "R93"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "fastening": {
+      "estado": "dato",
+      "valor": "Tornillería autorroscante especial de acero galvanizado de 2\" para el marco; cuñas plásticas de nivelación",
+      "fuentes": [
+        {
+          "ref": "R93"
+        },
+        {
+          "ref": "R94"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "joints_seals": {
+      "estado": "dato",
+      "valor": "Juntas elásticas amortiguadoras de caucho sintético; sellado con acrílico o silicona acética en encuentros con la pared; tapajuntas telescópicos a presión",
+      "fuentes": [
+        {
+          "ref": "R93"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "installation_sequence": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "tools_labor": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "critical_point": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "recommended_uses": {
+      "estado": "dato",
+      "valor": [
+        "Baños, cocinas y lavanderías",
+        "consultorios y clínicas",
+        "hoteles y hospitales"
+      ],
+      "fuentes": [
+        {
+          "ref": "R92"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "building_types": {
+      "estado": "dato",
+      "valor": [
+        "Vivienda",
+        "Comercial",
+        "Salud"
+      ],
+      "fuentes": [
+        {
+          "ref": "R95"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Valores tomados de la lista controlada 'building_type'"
+    },
+    "location": {
+      "estado": "dato",
+      "valor": "Interior",
+      "fuentes": [
+        {
+          "ref": "R96"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "climates": {
+      "estado": "dato",
+      "valor": "Humedad relativa extrema (RH > 80%), zonas montañosas frías y lluviosas (Heredia, Coronado, Cartago, Alajuela), brisa costera constante",
+      "fuentes": [
+        {
+          "ref": "R92"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "imn_subregions": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "compatibility": {
+      "estado": "dato",
+      "valor": "Compatible con cerramientos de concreto repellado y estructuras ligeras de drywall",
+      "fuentes": [
+        {
+          "ref": "R97"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "use_restrictions": {
+      "estado": "dato",
+      "valor": "Incompatible con exteriores expuestos de forma continua a la radiación solar de mediodía; sobre 60 grados C en superficie se degradan las resinas termoplásticas internas",
+      "fuentes": [
+        {
+          "ref": "R98"
+        },
+        {
+          "ref": "R92"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "labor_specialization": {
+      "estado": "dato",
+      "valor": 2,
+      "fuentes": [
+        {
+          "ref": "R99"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Escala 1-5 propia"
+    },
+    "installation_complexity": {
+      "estado": "dato",
+      "valor": 2,
+      "fuentes": [
+        {
+          "ref": "R100"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Escala 1-5 propia"
+    },
+    "national_availability": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "R101"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Escala 1-5 propia"
+    },
+    "installation_time": {
+      "estado": "no_disponible"
+    },
+    "relative_cost": {
+      "estado": "dato",
+      "valor": 2,
+      "fuentes": [
+        {
+          "ref": "R102"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Escala 1-5 propia"
+    },
+    "price_range": {
+      "estado": "dato",
+      "valor_texto_original": "Kit precolgado completo (marco + bisagras + juntas): aprox. c119.124,04 IVAI (aprox. USD 150-220)",
+      "fuentes": [
+        {
+          "ref": "R103"
+        },
+        {
+          "ref": "R92"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "mechanical_resistance": {
+      "estado": "dato",
+      "valor": "Alta resistencia a impactos mecánicos diarios, sin astillamiento ni agrietamiento longitudinal; rigidez y estabilidad dimensional excelentes en tránsito interno normal",
+      "fuentes": [
+        {
+          "ref": "R97"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "impact_resistance": {
+      "estado": "dato",
+      "valor": "Alta en uso normal; reparabilidad baja-moderada ante golpes destructivos profundos (no admite resane, requiere sustitución de la hoja)",
+      "fuentes": [
+        {
+          "ref": "R97"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "abrasion_resistance": {
+      "estado": "no_disponible"
+    },
+    "durability_years": {
+      "estado": "dato",
+      "valor_texto_original": "Supera los 30 años",
+      "fuentes": [
+        {
+          "ref": "R98"
+        },
+        {
+          "ref": "R92"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "water_absorption": {
+      "estado": "dato",
+      "valor": 0.0,
+      "calificador": "=",
+      "unidad": "%",
+      "fuentes": [
+        {
+          "ref": "R104"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Traducido de la descripción cualitativa '100% impermeable' a un valor de 0% de absorción"
+    },
+    "moisture_resistance": {
+      "estado": "dato",
+      "valor": 5,
+      "fuentes": [
+        {
+          "ref": "R105"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Escala propia"
+    },
+    "condensation_risk": {
+      "estado": "dato",
+      "valor": 1,
+      "fuentes": [
+        {
+          "ref": "R106"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Escala propia"
+    },
+    "corrosion_resistance": {
+      "estado": "no_disponible",
+      "nota": "No aplica en sentido estricto al compuesto plástico; las bisagras de acero inoxidable AISI 304 sí resisten corrosión, pero no se reporta un valor específico"
+    },
+    "uv_resistance": {
+      "estado": "dato",
+      "valor": 2,
+      "fuentes": [
+        {
+          "ref": "R107"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Escala propia; moderada-baja pese a la impermeabilidad, por la degradación térmica de la resina bajo sol directo"
+    },
+    "marine_environment": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "R108"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "vapor_permeability": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "thermal_conductivity": {
+      "estado": "no_disponible",
+      "nota": "No se reporta un valor de conductividad térmica del compuesto WPC en los informes ni se identificó una referencia general fiable y específica"
+    },
+    "specific_heat": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "thermal_resistance": {
+      "estado": "no_disponible"
+    },
+    "u_value": {
+      "estado": "no_disponible"
+    },
+    "solar_reflectance": {
+      "estado": "no_disponible"
+    },
+    "thermal_emittance": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "sri": {
+      "estado": "no_disponible"
+    },
+    "sound_insulation": {
+      "estado": "dato",
+      "valor_texto_original": "Adecuado aislamiento termoacústico para dormitorios y oficinas, atribuido a la densidad de la hoja de 45 mm y al sellado amortiguador perimetral (sin valor numérico en dB reportado)",
+      "fuentes": [
+        {
+          "ref": "R97"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "sound_absorption": {
+      "estado": "no_disponible"
+    },
+    "fire_reaction": {
+      "estado": "dato",
+      "valor": "La resina de PVC actúa como retardante natural del fuego, con características autoextinguibles y de baja propagación de llama",
+      "fuentes": [
+        {
+          "ref": "R109"
+        },
+        {
+          "ref": "R97"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "fire_resistance": {
+      "estado": "no_disponible",
+      "nota": "No se reporta una clasificación certificada RF/EI en minutos, solo el comportamiento autoextinguible cualitativo"
+    },
+    "smoke_class": {
+      "estado": "no_disponible"
+    },
+    "voc_emissions": {
+      "estado": "no_disponible"
+    },
+    "hazardous_substances": {
+      "estado": "no_disponible",
+      "nota": "No se reportan sustancias peligrosas; material inerte preacabado de fábrica"
+    },
+    "cleanability": {
+      "estado": "dato",
+      "valor": 5,
+      "fuentes": [
+        {
+          "ref": "R110"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Escala propia"
+    },
+    "accessibility": {
+      "estado": "no_disponible",
+      "nota": "No se reporta una condición específica de accesibilidad para esta solución"
+    },
+    "healthcare_use": {
+      "estado": "dato",
+      "valor": "Sí",
+      "fuentes": [
+        {
+          "ref": "R111"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "maintenance_frequency": {
+      "estado": "no_disponible",
+      "nota": "El mantenimiento se describe como prácticamente nulo, sin una frecuencia periódica definida más allá de la limpieza superficial"
+    },
+    "maintenance_actions": {
+      "estado": "dato",
+      "valor": "Limpieza superficial periódica con paño húmedo y jabón líquido neutro; no requiere relijado ni barnizado",
+      "fuentes": [
+        {
+          "ref": "R92"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "repairability": {
+      "estado": "dato",
+      "valor": 2,
+      "fuentes": [
+        {
+          "ref": "R112"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Escala propia"
+    },
+    "replaceability": {
+      "estado": "no_disponible"
+    },
+    "common_failures": {
+      "estado": "dato",
+      "valor": [
+        "Pandeo por radiación solar directa, desprendimiento mecánico de bisagras, desajuste de tapajuntas telescópicos"
+      ],
+      "fuentes": [
+        {
+          "ref": "R113"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "failure_causes": {
+      "estado": "dato",
+      "valor": [
+        "Acumulación térmica sobre 60 grados C en superficies de color oscuro (wengué, roble oscuro) en Guanacaste y Puntarenas",
+        "uso de tornillos comunes de rosca delgada en vez de la tornillería gruesa autorroscante del kit",
+        "desplomes de boquete mayores a 1,5 cm en la GAM"
+      ],
+      "fuentes": [
+        {
+          "ref": "R113"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "corrective_action": {
+      "estado": "dato",
+      "valor": "Evitar exposición solar directa continua; usar exclusivamente la tornillería autorroscante gruesa suministrada en el kit; rellenar desplomes con espuma de poliuretano expandido",
+      "fuentes": [
+        {
+          "ref": "R113"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "origin": {
+      "estado": "dato",
+      "valor": "Importado",
+      "fuentes": [
+        {
+          "ref": "R92"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "material base extruido en plantas de Alemania, España y Asia; distribución local por Carbone Store y Depósito Jiménez"
+    },
+    "transport_distance": {
+      "estado": "no_disponible"
+    },
+    "recycled_content": {
+      "estado": "no_disponible",
+      "nota": "Se fabrica con aserrín de madera reciclada, pero no se reporta el porcentaje exacto de contenido reciclado"
+    },
+    "renewable": {
+      "estado": "dato",
+      "valor": "No",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "reusable": {
+      "estado": "no_disponible",
+      "nota": "No se reporta reutilización de hojas de WPC en los informes"
+    },
+    "recyclable": {
+      "estado": "dato",
+      "valor": "Sí",
+      "fuentes": [
+        {
+          "ref": "R114"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "installation_waste": {
+      "estado": "dato",
+      "valor": 1,
+      "fuentes": [
+        {
+          "ref": "R115"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Escala propia"
+    },
+    "epd_available": {
+      "estado": "no_disponible"
+    },
+    "embodied_carbon": {
+      "estado": "no_disponible"
+    },
+    "embodied_carbon_modules": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "environmental_certification": {
+      "estado": "no_disponible"
+    },
+    "end_of_life": {
+      "estado": "dato",
+      "valor": [
+        "Reciclaje"
+      ],
+      "fuentes": [
+        {
+          "ref": "R97"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "cr_region": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "seismic_condition": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "tradition_type": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "cr_standard": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "plan_requirements": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "advantages": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "limitations": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "graphics": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "opening_type": {
+      "estado": "dato",
+      "valor": "Batiente",
+      "fuentes": [
+        {
+          "ref": "R91"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "frame_material": {
+      "estado": "dato",
+      "valor": "Marco telescópico ajustable de WPC",
+      "fuentes": [
+        {
+          "ref": "R93"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "air_tightness": {
+      "estado": "no_disponible",
+      "nota": "Cuenta con junta elástica amortiguadora perimetral, pero no se reporta una clase de hermeticidad certificada"
+    },
+    "leaf_count": {
+      "estado": "dato",
+      "valor": 1,
+      "calificador": "=",
+      "fuentes": [
+        {
+          "ref": "R93"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Los informes describen módulos de una sola hoja; no se reportan configuraciones de doble hoja"
+    },
+    "nominal_dimensions": {
+      "estado": "dato",
+      "valor": "700x2100 a 1000x2150 mm",
+      "fuentes": [
+        {
+          "ref": "R93"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "clear_width": {
+      "estado": "dato",
+      "valor_texto_original": "Aprox. 600-900 mm",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Estimación propia; no es un valor de paso libre medido o certificado en los informes"
+    },
+    "leaf_material": {
+      "estado": "dato",
+      "valor": "Compuesto WPC extruido (45 mm)",
+      "fuentes": [
+        {
+          "ref": "R93"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "use_frequency": {
+      "estado": "dato",
+      "valor": "Frecuente (baños, cocinas y consultorios de uso diario)",
+      "fuentes": [
+        {
+          "ref": "R92"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "opening_force": {
+      "estado": "no_disponible"
+    },
+    "hardware": {
+      "estado": "dato",
+      "valor": [
+        "Bisagras de acero inoxidable AISI 304",
+        "tapajuntas telescópicos a presión",
+        "cuñas plásticas de nivelación",
+        "tornillería autorroscante galvanizada de 2\""
+      ],
+      "fuentes": [
+        {
+          "ref": "R93"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "access_control": {
+      "estado": "no_disponible",
+      "nota": "No se reporta un tipo específico de cerradura o control de acceso para esta solución"
+    }
+  },
+  "fuentes": [
+    {
+      "id": "PROPIO",
+      "cita": "Elaboración propia del estudiante (TP1).",
+      "tipo": "elaboracion_propia"
+    },
+    {
+      "id": "R04",
+      "cita": "Ficha (dato de encabezado)"
+    },
+    {
+      "id": "R100",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.4.2 (pág. 9): 'complejidad de instalación baja-media'"
+    },
+    {
+      "id": "R101",
+      "cita": "Sistemas_Constructivos_para_Puertas_-_Costa_Rica.pdf, Solución C - 2/4 ('Alta - importación Alemania, España, Asia')"
+    },
+    {
+      "id": "R102",
+      "cita": "Sistemas_Constructivos_para_Puertas_-_Costa_Rica.pdf, Solución C - 2/4 (marcador de costo relativo en 'Medio')"
+    },
+    {
+      "id": "R103",
+      "cita": "estudio-tecnico-puertas.pdf, pág. 8"
+    },
+    {
+      "id": "R104",
+      "cita": "Sistemas_Constructivos_para_Puertas_-_Costa_Rica.pdf, Solución C - 3/4 ('100% impermeable')"
+    },
+    {
+      "id": "R105",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.4.3 (pág. 9-10): '100% impermeable, inmune a la humedad ambiental extrema'"
+    },
+    {
+      "id": "R106",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.4.3 (pág. 9-10): material no higroscópico, sin cambios volumétricos por humedad"
+    },
+    {
+      "id": "R107",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.4.4 (pág. 10): pandeo por radiación solar directa en colores oscuros"
+    },
+    {
+      "id": "R108",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.4.2 (pág. 9): apto para brisa costera constante en interiores, pero incompatible con exteriores de radiación solar directa de mediodía"
+    },
+    {
+      "id": "R109",
+      "cita": "Sistemas_Constructivos_para_Puertas_-_Costa_Rica.pdf, Solución C - 3/4"
+    },
+    {
+      "id": "R110",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.4.3 (pág. 9-10): superficie no porosa, limpieza con paño húmedo y jabón neutro, repele moho y bacterias"
+    },
+    {
+      "id": "R111",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.4.2 (pág. 9): consultorios médicos, clínicas veterinarias, hospitales"
+    },
+    {
+      "id": "R112",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.4.3 (pág. 9-10): no admite resane tradicional, golpes profundos requieren sustitución de la hoja completa"
+    },
+    {
+      "id": "R113",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.4.4 (pág. 10)"
+    },
+    {
+      "id": "R114",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.4.3 (pág. 9-10): 'los excedentes de perfiles de WPC son 100% reciclables mecánicamente mediante trituración y extrusión secundaria'"
+    },
+    {
+      "id": "R115",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.4.3 (pág. 9-10): mínimos residuos, la hoja viene predimensionada de fábrica"
+    },
+    {
+      "id": "R91",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.4, título (pág. 8)"
+    },
+    {
+      "id": "R92",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.4.2 (pág. 9)"
+    },
+    {
+      "id": "R93",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.4.1 (pág. 8)"
+    },
+    {
+      "id": "R94",
+      "cita": "Sistemas_Constructivos_para_Puertas_-_Costa_Rica.pdf, Solución C - 1/4"
+    },
+    {
+      "id": "R95",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.4.2 (pág. 9): consultorios, clínicas, hospitales y hoteles"
+    },
+    {
+      "id": "R96",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.4.2 (pág. 9) y restricción crítica de uso exterior"
+    },
+    {
+      "id": "R97",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.4.3 (pág. 9-10)"
+    },
+    {
+      "id": "R98",
+      "cita": "Sistemas_Constructivos_para_Puertas_-_Costa_Rica.pdf, Solución C - 2/4"
+    },
+    {
+      "id": "R99",
+      "cita": "Sistemas_Constructivos_para_Puertas_-_Costa_Rica.pdf, Solución C - 2/4 ('Baja-media - kit precolgado industrializado')"
+    }
+  ]
+}

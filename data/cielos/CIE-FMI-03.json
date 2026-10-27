@@ -1,0 +1,685 @@
+{
+  "schema_version": "1.0",
+  "meta": {
+    "id": "CIE-FMI-03",
+    "componente": "CIE",
+    "autor": "Sebastián",
+    "estado_revision": "borrador",
+    "fecha_actualizacion": "2026-10-26",
+    "id_legado": "CIE-03",
+    "origen_migracion": {
+      "archivo": "TP1_Ficha_Sebastian_Cielos_Completado.xlsx",
+      "hoja": "Ficha_Fibra_mineral"
+    }
+  },
+  "campos": {
+    "id": {
+      "estado": "dato",
+      "valor": "CIE-FMI-03",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "name": {
+      "estado": "dato",
+      "valor": "Plycem Fibra Mineral 603 × 603 × 14 mm, código 1330131",
+      "fuentes": [
+        {
+          "ref": "R10"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "record_type": {
+      "estado": "dato",
+      "valor": "sistema",
+      "fuentes": [
+        {
+          "ref": "R10"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Clasificación del conjunto de cielo y soporte descrito."
+    },
+    "component": {
+      "estado": "dato",
+      "valor": "CIE"
+    },
+    "subcategory": {
+      "estado": "dato",
+      "valor": "Fibra mineral en retícula T",
+      "fuentes": [
+        {
+          "ref": "R10"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "country": {
+      "estado": "dato",
+      "valor": "CR",
+      "nota": "País de referencia de la plantilla. No indica país de fabricación."
+    },
+    "manufacturer": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "R10"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "La ficha identifica la marca Plycem, pero no una planta o fabricante legal específico."
+    },
+    "supplier": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "description": {
+      "estado": "dato",
+      "valor": "Plafón de fibra mineral moldeada en húmedo para cielo liviano suspendido.",
+      "fuentes": [
+        {
+          "ref": "R10"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "keywords": {
+      "estado": "dato",
+      "valor": [
+        "Fibra mineral, suspendido, retícula T, acústico"
+      ],
+      "fuentes": [
+        {
+          "ref": "R10"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "main_material": {
+      "estado": "dato",
+      "valor": "Fibra mineral moldeada en húmedo",
+      "fuentes": [
+        {
+          "ref": "R10"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "secondary_materials": {
+      "estado": "dato",
+      "valor": [
+        "Pintura látex vinílica, perfiles T y alambre galvanizado calibre 18."
+      ],
+      "fuentes": [
+        {
+          "ref": "R11"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Acabado de pintura documentado en ficha de Fibra Mineral, p.1."
+    },
+    "layers": {
+      "estado": "dato",
+      "valor": [
+        "Desde el recinto: pintura texturada, panel de fibra mineral, retícula T y tensores."
+      ],
+      "fuentes": [
+        {
+          "ref": "R11"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Composición del panel documentada en ficha, p.1."
+    },
+    "total_thickness": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "R10"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Panel: 14 mm. Espesor total de sistema con cámara no declarado."
+    },
+    "commercial_dimensions": {
+      "estado": "dato",
+      "valor": "603 × 603 × 14 mm",
+      "fuentes": [
+        {
+          "ref": "R10"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Variante seleccionada 1330131, de 1,30 kg/unidad. Alternativa: 603 × 1210 mm."
+    },
+    "density": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "surface_mass": {
+      "estado": "dato",
+      "valor": 3.575269,
+      "calificador": "=",
+      "unidad": "kg/m²",
+      "fuentes": [
+        {
+          "ref": "R10"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "kg/m² de panel: 1,30 kg dividido por 0,603 × 0,603 m. Excluye retícula."
+    },
+    "surface_finish": {
+      "estado": "dato",
+      "valor": "Texturado y pintado con látex vinílico, listo para instalar.",
+      "fuentes": [
+        {
+          "ref": "R10"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "support_system": {
+      "estado": "dato",
+      "valor": "Retícula T con perfiles principales, secundarios y angular perimetral.",
+      "fuentes": [
+        {
+          "ref": "R11"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "fastening": {
+      "estado": "dato",
+      "valor": "Tensores de alambre galvanizado calibre 18 sobre perfiles principales.",
+      "fuentes": [
+        {
+          "ref": "R12"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "joints_seals": {
+      "estado": "dato",
+      "valor": "Borde recto o biselado; asegurar placas con pasadores o prensas.",
+      "fuentes": [
+        {
+          "ref": "R12"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Opciones de borde en ficha de Fibra Mineral, p.1."
+    },
+    "installation_sequence": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "tools_labor": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "critical_point": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "recommended_uses": {
+      "estado": "dato",
+      "valor": [
+        "Cielos suspendidos en espacios confinados y con aire acondicionado."
+      ],
+      "fuentes": [
+        {
+          "ref": "R10"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "building_types": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "location": {
+      "estado": "dato",
+      "valor": "Interior",
+      "fuentes": [
+        {
+          "ref": "R10"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Derivado del uso documentado en espacios confinados y climatizados."
+    },
+    "climates": {
+      "estado": "dato",
+      "valor": "Espacios con aire acondicionado y humedad ambiental controlada.",
+      "fuentes": [
+        {
+          "ref": "R10"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "La ficha reporta 70–90% para pandeo/humedad, sin desglosar condiciones de ensayo."
+    },
+    "imn_subregions": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "compatibility": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "use_restrictions": {
+      "estado": "dato",
+      "valor": "Transportar y almacenar cubierto, seco y protegido contra humedad.",
+      "fuentes": [
+        {
+          "ref": "R13"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "labor_specialization": {
+      "estado": "no_disponible",
+      "nota": "Las fuentes no definen una calificación verificable de 1 a 5."
+    },
+    "installation_complexity": {
+      "estado": "no_disponible",
+      "nota": "Las fuentes no definen una calificación verificable de 1 a 5."
+    },
+    "national_availability": {
+      "estado": "no_disponible",
+      "nota": "Las fuentes no definen una calificación verificable de 1 a 5."
+    },
+    "installation_time": {
+      "estado": "no_disponible",
+      "nota": "Las fuentes no definen una calificación verificable de 1 a 5."
+    },
+    "relative_cost": {
+      "estado": "no_disponible",
+      "nota": "Las fuentes no definen una calificación verificable de 1 a 5."
+    },
+    "price_range": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "mechanical_resistance": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "impact_resistance": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "abrasion_resistance": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "durability_years": {
+      "estado": "no_disponible",
+      "nota": "No se equipara garantía comercial con vida útil."
+    },
+    "water_absorption": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "moisture_resistance": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "R10"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Pandeo/humedad: 70–90%. No hay equivalencia documentada a escala 1–5."
+    },
+    "condensation_risk": {
+      "estado": "no_disponible",
+      "nota": "Las fuentes no definen una calificación verificable de 1 a 5."
+    },
+    "corrosion_resistance": {
+      "estado": "no_disponible",
+      "nota": "Las fuentes no definen una calificación verificable de 1 a 5."
+    },
+    "uv_resistance": {
+      "estado": "no_disponible",
+      "nota": "Las fuentes no definen una calificación verificable de 1 a 5."
+    },
+    "marine_environment": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "vapor_permeability": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "thermal_conductivity": {
+      "estado": "dato",
+      "valor": 0.065,
+      "calificador": "=",
+      "unidad": "W/(m·K)",
+      "fuentes": [
+        {
+          "ref": "R10"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Límite superior: λ ≤ 0,065 W/m·K. No es valor exacto de ensayo."
+    },
+    "specific_heat": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "thermal_resistance": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "u_value": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "solar_reflectance": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "R10"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Reflectancia lumínica: 85%. No se transfiere a reflectancia solar."
+    },
+    "thermal_emittance": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "sri": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "sound_insulation": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "sound_absorption": {
+      "estado": "dato",
+      "valor": 0.55,
+      "calificador": "=",
+      "unidad": "NRC",
+      "fuentes": [
+        {
+          "ref": "R10"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "NRC. No corresponde a αw."
+    },
+    "fire_reaction": {
+      "estado": "dato",
+      "valor": "Clase A",
+      "fuentes": [
+        {
+          "ref": "R10"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Propagación de llama <25, ASTM E84. La etiqueta de la ficha no expresa minutos."
+    },
+    "fire_resistance": {
+      "estado": "no_disponible",
+      "nota": "No se dispone de minutos para un ensamble completo identificado."
+    },
+    "smoke_class": {
+      "estado": "dato",
+      "valor": "Desarrollo de humo: 0",
+      "fuentes": [
+        {
+          "ref": "R10"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "ASTM E84 y CAN/ULC S102."
+    },
+    "voc_emissions": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "R10"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Declara cumplimiento CDPH/EHLB v1.1 (2010), pero no valor en g/L."
+    },
+    "hazardous_substances": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "cleanability": {
+      "estado": "no_disponible",
+      "nota": "Las fuentes no definen una calificación verificable de 1 a 5."
+    },
+    "accessibility": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "healthcare_use": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "maintenance_frequency": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "maintenance_actions": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "repairability": {
+      "estado": "no_disponible",
+      "nota": "Las fuentes no definen una calificación verificable de 1 a 5."
+    },
+    "replaceability": {
+      "estado": "no_disponible",
+      "nota": "Las fuentes no definen una calificación verificable de 1 a 5."
+    },
+    "common_failures": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "failure_causes": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "corrective_action": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "origin": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "transport_distance": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "recycled_content": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "renewable": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "reusable": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "recyclable": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "installation_waste": {
+      "estado": "no_disponible",
+      "nota": "Las fuentes no definen una calificación verificable de 1 a 5."
+    },
+    "epd_available": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "embodied_carbon": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "embodied_carbon_modules": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "environmental_certification": {
+      "estado": "dato",
+      "valor": "Cumplimiento CDPH/EHLB v1.1 (2010) declarado.",
+      "fuentes": [
+        {
+          "ref": "R10"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "La ficha cita lineamientos LEED y ANSI/ASHRAE/USGBC/IES 189. No acredita un edificio LEED."
+    },
+    "end_of_life": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "cr_region": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "seismic_condition": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "tradition_type": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "cr_standard": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "plan_requirements": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "advantages": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "limitations": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "graphics": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "modulation": {
+      "estado": "dato",
+      "valor": "Retícula nominal 610 × 610 para panel de 603 × 603",
+      "fuentes": [
+        {
+          "ref": "R11"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Se distinguen dimensiones del panel y módulo de perfiles."
+    },
+    "suspension_type": {
+      "estado": "dato",
+      "valor": "Suspendida mediante retícula T y tensores",
+      "fuentes": [
+        {
+          "ref": "R11"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "minimum_plenum": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "accessibility_above": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "R12"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Placas apoyadas en T, aseguradas con pasadores/prensas. El retiro requiere liberar la sujeción."
+    },
+    "cac": {
+      "estado": "dato",
+      "valor": 35,
+      "calificador": "=",
+      "unidad": "dB (CAC)",
+      "fuentes": [
+        {
+          "ref": "R10"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "CAC. No se convierte a STC ni Rw."
+    },
+    "sag_resistance": {
+      "estado": "dato",
+      "valor": "Resistencia a pandeo/humedad: 70–90%",
+      "fuentes": [
+        {
+          "ref": "R10"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Rango declarado sin desglose de ensayo. No se interpreta como garantía a 100% HR."
+    },
+    "services_integration": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "wet_area_use": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "R10"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Resiste bacterias, manchas y moho según fabricante. No declara uso en salas clínicas críticas."
+    }
+  },
+  "fuentes": [
+    {
+      "id": "PROPIO",
+      "cita": "Elaboración propia del estudiante (TP1).",
+      "tipo": "elaboracion_propia"
+    },
+    {
+      "id": "R10",
+      "cita": "Plycem, ficha Fibra Mineral (abr.2023), p.1"
+    },
+    {
+      "id": "R11",
+      "cita": "Plycem, guía rápida Fibra Mineral, p.1–2"
+    },
+    {
+      "id": "R12",
+      "cita": "Plycem, guía rápida Fibra Mineral, p.2"
+    },
+    {
+      "id": "R13",
+      "cita": "Plycem, guía rápida Fibra Mineral, p.1"
+    }
+  ]
+}

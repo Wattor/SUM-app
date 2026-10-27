@@ -1,0 +1,783 @@
+{
+  "schema_version": "1.0",
+  "meta": {
+    "id": "CIM-PRS-03",
+    "componente": "CIM",
+    "autor": "Michel Pardo Jara",
+    "estado_revision": "borrador",
+    "fecha_actualizacion": "2026-10-26",
+    "id_legado": "CR-CIM-03",
+    "origen_migracion": {
+      "archivo": "TP1 Fichas Cimentaciones Pardo.xlsx",
+      "hoja": "Ficha S3"
+    }
+  },
+  "campos": {
+    "id": {
+      "estado": "dato",
+      "valor": "CIM-PRS-03",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "name": {
+      "estado": "dato",
+      "valor": "Placa sobre relleno de sustitución",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§4.1.1"
+        }
+      ],
+      "evidencia": "E3",
+      "nota": "Nombre genérico: sistema colado en sitio, sin marca comercial."
+    },
+    "record_type": {
+      "estado": "dato",
+      "valor": "sistema"
+    },
+    "component": {
+      "estado": "dato",
+      "valor": "CIM"
+    },
+    "subcategory": {
+      "estado": "dato",
+      "valor": "Superficial sobre suelo mejorado",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§4.1.1 y §4.3.3"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "country": {
+      "estado": "dato",
+      "valor": "CR"
+    },
+    "manufacturer": {
+      "estado": "no_aplica",
+      "nota": "Sistema genérico colado en sitio; no hay fabricante único."
+    },
+    "supplier": {
+      "estado": "no_disponible",
+      "nota": "PENDIENTE: identificar al menos dos proveedores con precio verificable y fecha de consulta."
+    },
+    "description": {
+      "estado": "dato",
+      "valor": "Cimiento aislado o corrido apoyado sobre un relleno de material selecto que transmite la carga hasta la capa soportante cuando el estrato resistente no está a profundidad adecuada.",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§4.1.1 y §4.3.3"
+        }
+      ],
+      "evidencia": "E3",
+      "nota": "Es la operación que RESET 6.4.2 pide minimizar."
+    },
+    "keywords": {
+      "estado": "dato",
+      "valor": [
+        "relleno de sustitución",
+        "lastre-cemento",
+        "concreto pobre",
+        "Proctor",
+        "suelo expansivo",
+        "suelo colapsable"
+      ]
+    },
+    "main_material": {
+      "estado": "dato",
+      "valor": "Concreto pobre o lastre-cemento ≥ 3000 kPa a 28 días, o material granular compactado",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§4.3.3.b-c"
+        }
+      ],
+      "evidencia": "E3",
+      "nota": "El Código prefiere concreto pobre o lastre-cemento para evitar rupturas en el borde de la sustitución."
+    },
+    "secondary_materials": {
+      "estado": "dato",
+      "valor": [
+        "Placa de concreto reforzado sobre el bloque"
+      ],
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§4.3.3.a"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "layers": {
+      "estado": "dato",
+      "valor": [
+        "1 Suelo blando original · 2 Bloque de sustitución · 3 Placa de fundación · 4 Estructura"
+      ],
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§4.3.3.a"
+        }
+      ],
+      "evidencia": "E3",
+      "nota": "El Código lo trata como medio estratificado: capa dura sobre capa suave."
+    },
+    "total_thickness": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§4.3.3"
+        }
+      ],
+      "nota": "Depende del espesor sustituido T que fija el estudio de suelos; profundidad máxima usual 4 a 5 m."
+    },
+    "commercial_dimensions": {
+      "estado": "dato",
+      "valor": "Ancho de sustitución = B + T (distribución 2:1) · capas ≤ 0,30 m compactadas · profundidad máxima usual 4 a 5 m",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§4.1.1 y §4.3.3.c"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "density": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "surface_mass": {
+      "estado": "no_disponible",
+      "nota": "Volumen = (B + T) × (L + T) × T por placa; depende del estudio de suelos."
+    },
+    "surface_finish": {
+      "estado": "no_aplica",
+      "nota": "Elemento enterrado."
+    },
+    "support_system": {
+      "estado": "dato",
+      "valor": "Suelo fabricado: granular al 95 % del Proctor Modificado en capas ≤ 0,30 m con humedad próxima y algo inferior a la óptima; o concreto pobre / lastre-cemento ≥ 3000 kPa a 28 días.",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§4.3.3.b-c"
+        }
+      ],
+      "evidencia": "E3",
+      "nota": "Verificar que la presión bajo el relleno no exceda la capacidad del suelo blando."
+    },
+    "fastening": {
+      "estado": "dato",
+      "valor": "Placa sobre bloque: el encuentro crítico es placa-bloque y bloque-suelo blando.",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§4.3.3.b"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "joints_seals": {
+      "estado": "dato",
+      "valor": "Sin juntas."
+    },
+    "installation_sequence": {
+      "estado": "dato",
+      "valor": "Excavación del volumen a sustituir · retiro del material blando · bloque por capas de 0,30 m con control de humedad y densidad · verificación de compactación · placa · estudio de asentamientos posterior.",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§4.3.3.c-d"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "tools_labor": {
+      "estado": "no_disponible",
+      "nota": "PENDIENTE: maquinaria de movimiento de tierra, compactadora y control de laboratorio por capa (laboratorio acreditado ante el ECA, RC art. 11)."
+    },
+    "critical_point": {
+      "estado": "dato",
+      "valor": "Compactación por capas y ruptura en el borde del material sustituido.",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§4.3.3.b-c"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "recommended_uses": {
+      "estado": "dato",
+      "valor": [
+        "Estrato resistente a 4–5 m",
+        "suelos expansivos y colapsables"
+      ],
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§4.1.1, §4.4.1.b y §4.4.2.c"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "building_types": {
+      "estado": "dato",
+      "valor": [
+        "Vivienda",
+        "Comercial",
+        "Institucional",
+        "Salud"
+      ],
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§4.3.3"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "location": {
+      "estado": "dato",
+      "valor": "Exterior",
+      "nota": "Bajo nivel de terreno."
+    },
+    "climates": {
+      "estado": "dato",
+      "valor": "Todas las zonas del país",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "cap. 1"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "La cimentación responde al suelo, no al clima; el clima actúa a través del suelo: alta temperatura y precipitación sobre material volcánico producen los suelos problemáticos (CC §1.2)."
+    },
+    "imn_subregions": {
+      "estado": "dato",
+      "valor": [
+        "TODAS"
+      ],
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "cap. 1"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Ver campo climates."
+    },
+    "compatibility": {
+      "estado": "dato",
+      "valor": "Compatible con placa corrida o aislada encima.",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§4.3.3"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "use_restrictions": {
+      "estado": "dato",
+      "valor": "Profundidad máxima usual 4 a 5 m. Verificar presión sobre el suelo blando inferior. Estudio de asentamientos obligatorio.",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§4.1.1 y §4.3.3"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "labor_specialization": {
+      "estado": "dato",
+      "valor": 4,
+      "evidencia": "E1",
+      "nota": "Criterio del autor: control de compactación por capa."
+    },
+    "installation_complexity": {
+      "estado": "dato",
+      "valor": 4,
+      "evidencia": "E1",
+      "nota": "Criterio del autor."
+    },
+    "national_availability": {
+      "estado": "dato",
+      "valor": 4,
+      "evidencia": "E1",
+      "nota": "Depende de tajos cercanos. Verificar."
+    },
+    "installation_time": {
+      "estado": "no_disponible",
+      "nota": "PENDIENTE: rendimientos con fuente costarricense."
+    },
+    "relative_cost": {
+      "estado": "dato",
+      "valor": 4,
+      "evidencia": "E1",
+      "nota": "Alto. Pendiente."
+    },
+    "price_range": {
+      "estado": "no_disponible",
+      "nota": "PENDIENTE: ₡/m³ de sustitución + placa, normalizado por huella."
+    },
+    "mechanical_resistance": {
+      "estado": "dato",
+      "valor": "Bloque ≥ 3000 kPa a 28 días (lastre-cemento o concreto pobre) o 95 % Proctor Modificado",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§4.3.3.b-c"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "impact_resistance": {
+      "estado": "no_aplica",
+      "nota": "Elemento enterrado."
+    },
+    "abrasion_resistance": {
+      "estado": "no_aplica",
+      "nota": "Elemento enterrado."
+    },
+    "durability_years": {
+      "estado": "no_disponible",
+      "nota": "Vida de diseño igual a la edificación; sin dato cuantificado en las fuentes."
+    },
+    "water_absorption": {
+      "estado": "no_disponible"
+    },
+    "moisture_resistance": {
+      "estado": "dato",
+      "valor": 3,
+      "evidencia": "E1",
+      "nota": "Criterio del autor: el granular depende de su humedad de compactación."
+    },
+    "condensation_risk": {
+      "estado": "no_aplica",
+      "nota": "Elemento enterrado."
+    },
+    "corrosion_resistance": {
+      "estado": "no_disponible",
+      "nota": "VACÍO DECLARADO: no se localizó exigencia de ensayo de sulfatos ni cloruros para vivienda; el refuerzo bajo terreno es el primero en corroerse en franja costera."
+    },
+    "uv_resistance": {
+      "estado": "no_aplica",
+      "nota": "Elemento enterrado."
+    },
+    "marine_environment": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "evidencia": "E1",
+      "nota": "Sujeto al ensayo de agresividad química que la norma no exige (vacío declarado)."
+    },
+    "vapor_permeability": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "thermal_conductivity": {
+      "estado": "no_aplica",
+      "nota": "Elemento enterrado."
+    },
+    "specific_heat": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "thermal_resistance": {
+      "estado": "no_aplica",
+      "nota": "Elemento enterrado."
+    },
+    "u_value": {
+      "estado": "no_aplica",
+      "nota": "Elemento enterrado."
+    },
+    "solar_reflectance": {
+      "estado": "no_aplica",
+      "nota": "Elemento enterrado."
+    },
+    "thermal_emittance": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "sri": {
+      "estado": "no_aplica",
+      "nota": "Elemento enterrado."
+    },
+    "sound_insulation": {
+      "estado": "no_aplica"
+    },
+    "sound_absorption": {
+      "estado": "no_aplica"
+    },
+    "fire_reaction": {
+      "estado": "no_aplica",
+      "nota": "Elemento enterrado."
+    },
+    "fire_resistance": {
+      "estado": "no_aplica"
+    },
+    "smoke_class": {
+      "estado": "no_aplica"
+    },
+    "voc_emissions": {
+      "estado": "no_disponible"
+    },
+    "hazardous_substances": {
+      "estado": "no_disponible"
+    },
+    "cleanability": {
+      "estado": "no_aplica",
+      "nota": "Elemento enterrado."
+    },
+    "accessibility": {
+      "estado": "no_aplica"
+    },
+    "healthcare_use": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "evidencia": "E1",
+      "nota": "Sujeto al estudio de suelos y al filtro normativo del selector (caso EBAIS)."
+    },
+    "maintenance_frequency": {
+      "estado": "no_aplica",
+      "nota": "Sin mantenimiento: inaccesible después del colado."
+    },
+    "maintenance_actions": {
+      "estado": "dato",
+      "valor": "Ninguna. Control indirecto: vigilar fisuración de repellos (distorsión 0,001 l) y humedad en arranques de muro.",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "Cuadro 3.5"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "repairability": {
+      "estado": "dato",
+      "valor": 1,
+      "evidencia": "E1",
+      "nota": "Reversibilidad nula; reparar implica recalce."
+    },
+    "replaceability": {
+      "estado": "dato",
+      "valor": 1,
+      "evidencia": "E1",
+      "nota": "Un piso se sustituye; una cimentación no."
+    },
+    "common_failures": {
+      "estado": "no_disponible",
+      "nota": "PENDIENTE. Hipótesis: capas más gruesas que 0,30 m; humedad lejana de la óptima; ruptura de borde en granular; presión sobre suelo blando no verificada."
+    },
+    "failure_causes": {
+      "estado": "dato",
+      "valor": [
+        "Ausencia o insuficiencia del estudio de suelos",
+        "control deficiente en obra"
+      ],
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "cap. 2"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Hipótesis a contrastar con expedientes LanammeUCR y entrevistas."
+    },
+    "corrective_action": {
+      "estado": "no_disponible",
+      "nota": "PENDIENTE."
+    },
+    "origin": {
+      "estado": "dato",
+      "valor": "Local",
+      "evidencia": "E1",
+      "nota": "Tajos y quebradores locales. Verificar. · Valor alterno (national_or_imported): Nacional"
+    },
+    "transport_distance": {
+      "estado": "no_disponible",
+      "nota": "Depende del sitio; RESET 6.5.12 pide comparar escenario nacional vs. importado."
+    },
+    "recycled_content": {
+      "estado": "no_disponible",
+      "nota": "RESET 6.5.5 pide ≥ 10 % en un material principal."
+    },
+    "renewable": {
+      "estado": "dato",
+      "valor": "No",
+      "evidencia": "E1"
+    },
+    "reusable": {
+      "estado": "dato",
+      "valor": "No",
+      "evidencia": "E1",
+      "nota": "Permanece en sitio; reversibilidad nula."
+    },
+    "recyclable": {
+      "estado": "no_disponible",
+      "nota": "El reciclaje del concreto enterrado no se documenta en las fuentes del proyecto."
+    },
+    "installation_waste": {
+      "estado": "dato",
+      "valor": 5,
+      "evidencia": "E1",
+      "nota": "Material blando retirado + acarreos (RESET 6.4.3)."
+    },
+    "epd_available": {
+      "estado": "no_disponible"
+    },
+    "embodied_carbon": {
+      "estado": "no_disponible",
+      "nota": "Cuantificar con la calculadora del ICCYC o similar (RESET 6.5.12)."
+    },
+    "embodied_carbon_modules": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "environmental_certification": {
+      "estado": "dato",
+      "valor": "Penalizada por definición: RESET 6.4.2 (minimizar sustitución) y 6.4.3 (corte < 0,5 × área de huella)",
+      "fuentes": [
+        {
+          "ref": "R09"
+        }
+      ],
+      "evidencia": "E3",
+      "nota": "CONFLICTO: el CC la recomienda en suelo expansivo y colapsable (§4.4.1.b, §4.4.2.c)."
+    },
+    "end_of_life": {
+      "estado": "dato",
+      "valor": [
+        "Otro"
+      ],
+      "evidencia": "E1",
+      "nota": "Permanece enterrado; no se recupera."
+    },
+    "cr_region": {
+      "estado": "dato",
+      "valor": "Zonas con estrato resistente somero-medio; suelos expansivos y colapsables",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§1.2"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "seismic_condition": {
+      "estado": "dato",
+      "valor": "Zonas II, III y IV; aef según tipo de sitio (S1–S4) y zona",
+      "fuentes": [
+        {
+          "ref": "CSCR",
+          "loc": "tabla 2.3"
+        }
+      ],
+      "evidencia": "E3",
+      "nota": "El tipo de sitio y la aef deben consignarse en planos (CSCR §16.2)."
+    },
+    "tradition_type": {
+      "estado": "dato",
+      "valor": "Contemporáneo",
+      "evidencia": "E1",
+      "nota": "Sistemas convencionales normados."
+    },
+    "cr_standard": {
+      "estado": "dato",
+      "valor": "CC §4.1.1, §4.3.3, §4.4.1-2; RESET 6.4.2-6.4.5",
+      "evidencia": "E3"
+    },
+    "plan_requirements": {
+      "estado": "dato",
+      "valor": "Estudio de suelos (laboratorio acreditado ante el ECA), tipo de sitio y capacidad soportante consignados en planos.",
+      "fuentes": [
+        {
+          "ref": "CSCR",
+          "loc": "§16.2 y §16.3"
+        },
+        {
+          "ref": "R03"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "advantages": {
+      "estado": "dato",
+      "valor": "Permite cimentación superficial donde no la habría; reduce altura de columnas del primer nivel; vía recomendada en expansivo y colapsable.",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§4.1.1, §4.4.1-2"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "limitations": {
+      "estado": "dato",
+      "valor": "Límite de 4–5 m; movimiento y disposición de tierra; dependencia total del control de compactación; penalización ambiental directa.",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§4.3.3"
+        },
+        {
+          "ref": "R10"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "graphics": {
+      "estado": "dato",
+      "valor": [
+        "Fotografía de compactación (presentación TP1) · PENDIENTE esquema de las dos geometrías de sustitución (2:1)"
+      ]
+    },
+    "depth_class": {
+      "estado": "dato",
+      "valor": "Superficial o semiprofunda según T (1 < Df/B ≤ 4)",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§4.1.1"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Clasificación del autor según espesor sustituido."
+    },
+    "design_criterion": {
+      "estado": "dato",
+      "valor": "Presión transmitida al suelo blando subyacente, no la del bloque",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§4.3.3.a"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "settlement_limit": {
+      "estado": "dato",
+      "valor_texto_original": "Según la placa que soporta",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "Cuadro 3.5"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "angular_distortion": {
+      "estado": "dato",
+      "valor_texto_original": "Según la placa que soporta",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "Cuadro 3.5"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "expansive_soil": {
+      "estado": "dato",
+      "valor": "Recomendado",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§4.4.1.b y g"
+        }
+      ],
+      "evidencia": "E3",
+      "nota": "sustitución para apoyar bajo la capa activa"
+    },
+    "collapsible_soil": {
+      "estado": "dato",
+      "valor": "Recomendado",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§4.4.2.c"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "liquefiable_soil": {
+      "estado": "dato",
+      "valor_texto_original": "No admitido con alto potencial demostrado",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§4.4.3.c"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "min_exploration": {
+      "estado": "dato",
+      "valor": "Según Cuadro 2.1: de 2 perforaciones a 60 m y Df + 2 m (baja-baja) a 4 perforaciones a 20 m y Df + 5 m (alta-alta); en obra especial la define el geotecnista.",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "Cuadro 2.1"
+        },
+        {
+          "ref": "R03"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "El costo de exploración escala con la complejidad geotécnica, no con el tamaño del edificio. Laboratorios acreditados ante el ECA."
+    },
+    "seismic_zone_effect": {
+      "estado": "no_disponible",
+      "nota": "Por diseño."
+    },
+    "excavation_safety": {
+      "estado": "dato",
+      "valor": "Junto a cimientos más someros: excavar por secciones y apuntalar los existentes si hay peligro de asentamiento.",
+      "fuentes": [
+        {
+          "ref": "R04"
+        }
+      ],
+      "evidencia": "E3"
+    }
+  },
+  "fuentes": [
+    {
+      "id": "PROPIO",
+      "cita": "Elaboración propia del estudiante (TP1).",
+      "tipo": "elaboracion_propia"
+    },
+    {
+      "id": "CC",
+      "cita": "[CC] Sigla usada por el estudiante; completar la referencia APA."
+    },
+    {
+      "id": "CSCR",
+      "cita": "[CSCR] Sigla usada por el estudiante; completar la referencia APA."
+    },
+    {
+      "id": "R03",
+      "cita": "RC art. 11"
+    },
+    {
+      "id": "R04",
+      "cita": "RC art. 410"
+    },
+    {
+      "id": "R09",
+      "cita": "RESET 6.4.2 y 6.4.3"
+    },
+    {
+      "id": "R10",
+      "cita": "RESET 6.4.2-6.4.3"
+    }
+  ]
+}

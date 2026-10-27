@@ -1,0 +1,1168 @@
+{
+  "schema_version": "1.0",
+  "meta": {
+    "id": "PIS-CON-03",
+    "componente": "PIS",
+    "autor": "Alejandro Sáenz Castro",
+    "estado_revision": "borrador",
+    "fecha_actualizacion": "2026-10-26",
+    "id_legado": "PIS-CR-03",
+    "origen_migracion": {
+      "archivo": "TP1_PISOS_ALEJANDRO_SAENZ_FUSION final.xlsx",
+      "hoja": "Ficha_03_Concreto"
+    }
+  },
+  "campos": {
+    "id": {
+      "estado": "dato",
+      "valor": "PIS-CON-03",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "name": {
+      "estado": "dato",
+      "valor": "Concreto pulido y afinado",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "record_type": {
+      "estado": "dato",
+      "valor": "sistema",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Tratamiento superficial del elemento estructural, no un revestimiento aplicado."
+    },
+    "component": {
+      "estado": "dato",
+      "valor": "PIS"
+    },
+    "subcategory": {
+      "estado": "dato",
+      "valor": "Acabado monolítico (tratamiento de losa)",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "country": {
+      "estado": "dato",
+      "valor": "CR",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "manufacturer": {
+      "estado": "dato",
+      "valor": "Concreto premezclado local; densificadores y selladores de fabricantes químicos",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "supplier": {
+      "estado": "dato",
+      "valor": "COTECO, SIPCO, Pulitecnicas, Elitecrete, Aditec Químicos, CRM Pisos (pulido y densificado)",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "description": {
+      "estado": "dato",
+      "valor": "Losa o carpeta de concreto de alta resistencia cuya superficie se desbasta con discos diamantados de granulometría decreciente, se densifica químicamente con silicatos y se sella; incluye juntas de construcción, aislamiento y contracción.",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "keywords": {
+      "estado": "dato",
+      "valor": [
+        "concreto pulido",
+        "afinado",
+        "densificador",
+        "silicato de litio",
+        "juntas de contracción",
+        "junta sinusoidal",
+        "mapeo",
+        "crazing"
+      ],
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "main_material": {
+      "estado": "dato",
+      "valor": "Concreto hidráulico de alta resistencia (losa o carpeta)",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "secondary_materials": {
+      "estado": "dato",
+      "valor": [
+        "Densificador de silicato (litio, sodio o potasio)",
+        "sellador",
+        "relleno semirrígido de juntas (epóxico o poliurea)",
+        "perfiles de junta de acero",
+        "relleno flexible"
+      ],
+      "fuentes": [
+        {
+          "ref": "R06"
+        },
+        {
+          "ref": "R23"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "layers": {
+      "estado": "dato",
+      "valor": [
+        "1) Base granular y barrera de vapor",
+        "2) losa o carpeta de concreto",
+        "3) desbaste diamantado progresivo",
+        "4) densificación química",
+        "5) sellado final",
+        "+ juntas de construcción, aislamiento y contracción"
+      ],
+      "fuentes": [
+        {
+          "ref": "R06"
+        },
+        {
+          "ref": "R23"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "total_thickness": {
+      "estado": "dato",
+      "min": 100.0,
+      "max": 200.0,
+      "calificador": "rango",
+      "unidad": "mm",
+      "fuentes": [
+        {
+          "ref": "R23"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Espesor de losa sobre terreno; en carpeta sobre losa 50–75 mm."
+    },
+    "commercial_dimensions": {
+      "estado": "dato",
+      "valor": "Sin formatos: acabado monolítico. Niveles de desbaste cremoso, fino (≈ 1,5 mm), medio y grueso (≈ 6 mm, agregado expuesto)",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "density": {
+      "estado": "dato",
+      "min": 2300.0,
+      "max": 2400.0,
+      "calificador": "rango",
+      "unidad": "kg/m³",
+      "fuentes": [
+        {
+          "ref": "R08"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "surface_mass": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "surface_finish": {
+      "estado": "dato",
+      "valor": "Cremoso, fino, medio o grueso; mate, satinado o alto brillo; variante afinada (llaneado mecánico)",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "support_system": {
+      "estado": "dato",
+      "valor": "Terreno compactado con base granular y barrera de vapor, o losa estructural",
+      "fuentes": [
+        {
+          "ref": "R23"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "fastening": {
+      "estado": "no_aplica",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Es el propio elemento estructural."
+    },
+    "joints_seals": {
+      "estado": "dato",
+      "valor": "Junta de construcción con perfil sinusoidal de acero; junta de aislamiento circular en columnas (colado posterior y sello flexible); juntas de contracción cortadas con sierra a ¼ del espesor con relleno semirrígido",
+      "fuentes": [
+        {
+          "ref": "R24"
+        },
+        {
+          "ref": "R23"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "installation_sequence": {
+      "estado": "dato",
+      "valor": "Base granular compactada y barrera de vapor · colado de losa o carpeta · llaneado · corte de juntas de contracción en las primeras horas · curado · desbaste diamantado progresivo · densificación · pulido y sellado · relleno de juntas.",
+      "fuentes": [
+        {
+          "ref": "R23"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "tools_labor": {
+      "estado": "dato",
+      "valor": "Empresa especializada con pulidoras planetarias, discos diamantados, extracción de polvo y sierra de juntas.",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "PENDIENTE: rendimiento; ficha indica 100 m² en 2–5 días de pulido."
+    },
+    "critical_point": {
+      "estado": "dato",
+      "valor": "Corte oportuno de las juntas de contracción y curado: de ellos depende evitar fisuras y mapeo.",
+      "fuentes": [
+        {
+          "ref": "R23"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "recommended_uses": {
+      "estado": "dato",
+      "valor": [
+        "Bodegas y centros de distribución",
+        "comercio de gran formato",
+        "oficinas de planta abierta",
+        "vivienda contemporánea",
+        "piso radiante"
+      ],
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "building_types": {
+      "estado": "dato",
+      "valor": [
+        "Vivienda",
+        "Comercial",
+        "Institucional",
+        "Industrial"
+      ],
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "location": {
+      "estado": "dato",
+      "valor": "Ambos",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Exterior preferiblemente afinado o con textura (pulido resbaladizo mojado)."
+    },
+    "climates": {
+      "estado": "dato",
+      "valor": "Cálido-húmedo; templado; lluvioso (con barrera de vapor bajo la losa)",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "imn_subregions": {
+      "estado": "dato",
+      "valor": [
+        "TODAS"
+      ],
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "compatibility": {
+      "estado": "dato",
+      "valor": "Compatible con piso radiante y con recubrimientos posteriores (epóxico) si no se sella con productos incompatibles",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "use_restrictions": {
+      "estado": "dato",
+      "valor": "Requiere juntas de control a tiempo; sensible a manchas de aceite y ácidos si no se sella; presenta mapeo superficial inevitable",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "labor_specialization": {
+      "estado": "dato",
+      "valor": 5,
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Empresas con maquinaria propia."
+    },
+    "installation_complexity": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "national_availability": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "installation_time": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "100 m² en 2–5 días de pulido (más curado de la losa)."
+    },
+    "relative_cost": {
+      "estado": "dato",
+      "valor": 2,
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Bajo a medio."
+    },
+    "price_range": {
+      "estado": "dato",
+      "valor_texto_original": "₡3 000–₡15 000 / m² (pulido según técnica)",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "No incluye la losa de concreto."
+    },
+    "mechanical_resistance": {
+      "estado": "dato",
+      "valor": "f'c 25–35 MPa típico en pisos industriales",
+      "fuentes": [
+        {
+          "ref": "R23"
+        }
+      ],
+      "evidencia": "E3",
+      "nota": "Según diseño de la losa."
+    },
+    "impact_resistance": {
+      "estado": "dato",
+      "valor": "Alta",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Riesgo de despostillado en bordes de juntas sin relleno."
+    },
+    "abrasion_resistance": {
+      "estado": "dato",
+      "valor": "Alta (superficie densificada)",
+      "fuentes": [
+        {
+          "ref": "R06"
+        },
+        {
+          "ref": "R25"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "durability_years": {
+      "estado": "dato",
+      "valor": 50.0,
+      "calificador": "≥",
+      "unidad": "años",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Vida útil de la losa con resellado periódico."
+    },
+    "water_absorption": {
+      "estado": "dato",
+      "valor_texto_original": "≈ 3–8 sin sellar; baja con densificado y sellado",
+      "fuentes": [
+        {
+          "ref": "R26"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Depende de la relación a/c y del sellado."
+    },
+    "moisture_resistance": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Depende del sellador y de la barrera de vapor."
+    },
+    "condensation_risk": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Superficie fría."
+    },
+    "corrosion_resistance": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Riesgo solo en acero de refuerzo si hay fisuras abiertas."
+    },
+    "uv_resistance": {
+      "estado": "dato",
+      "valor": 5,
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "marine_environment": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "R23"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Requiere concreto de baja permeabilidad y recubrimiento adecuado."
+    },
+    "vapor_permeability": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "thermal_conductivity": {
+      "estado": "dato",
+      "min": 1.65,
+      "max": 2.0,
+      "calificador": "rango",
+      "unidad": "W/(m·K)",
+      "fuentes": [
+        {
+          "ref": "R08"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "specific_heat": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "thermal_resistance": {
+      "estado": "dato",
+      "min": 0.05,
+      "max": 0.06,
+      "calificador": "rango",
+      "unidad": "m²·K/W",
+      "fuentes": [
+        {
+          "ref": "R08"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Losa de 100 mm (e/λ)."
+    },
+    "u_value": {
+      "estado": "no_aplica",
+      "evidencia": "E1",
+      "nota": "Depende del sistema completo."
+    },
+    "solar_reflectance": {
+      "estado": "dato",
+      "min": 0.35,
+      "max": 0.45,
+      "calificador": "rango",
+      "unidad": "0–1",
+      "fuentes": [
+        {
+          "ref": "R27"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Texto original: 0,35–0,45 (concreto gris nuevo) · Interés principal: reflectancia lumínica interior."
+    },
+    "thermal_emittance": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "sri": {
+      "estado": "dato",
+      "min": 35.0,
+      "max": 45.0,
+      "calificador": "rango",
+      "unidad": "adimensional",
+      "fuentes": [
+        {
+          "ref": "R27"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Concreto gris; aplica sobre todo en exterior."
+    },
+    "sound_insulation": {
+      "estado": "no_aplica",
+      "evidencia": "E1"
+    },
+    "sound_absorption": {
+      "estado": "dato",
+      "valor": 0.02,
+      "calificador": "≈",
+      "unidad": "NRC",
+      "fuentes": [
+        {
+          "ref": "R10"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Texto original: ≈ 0,02 (αw)"
+    },
+    "fire_reaction": {
+      "estado": "dato",
+      "valor": "A1fl",
+      "fuentes": [
+        {
+          "ref": "R11"
+        },
+        {
+          "ref": "R12"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "fire_resistance": {
+      "estado": "no_aplica",
+      "evidencia": "E1",
+      "nota": "Depende de la losa."
+    },
+    "smoke_class": {
+      "estado": "dato",
+      "valor": "Sin aporte (A1fl)",
+      "fuentes": [
+        {
+          "ref": "R11"
+        },
+        {
+          "ref": "R12"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "voc_emissions": {
+      "estado": "dato",
+      "valor": 50.0,
+      "calificador": "≤",
+      "unidad": "g/L",
+      "fuentes": [
+        {
+          "ref": "R28"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Texto original: < 50 (densificadores base agua) · Los selladores solventados emiten más."
+    },
+    "hazardous_substances": {
+      "estado": "dato",
+      "valor": [
+        "Polvo de sílice cristalina durante el desbaste"
+      ],
+      "fuentes": [
+        {
+          "ref": "R29"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Desbaste con extracción de polvo o húmedo."
+    },
+    "cleanability": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "accessibility": {
+      "estado": "dato",
+      "valor": "Superficie continua sin cambios de nivel; buena para rutas accesibles si se controla el deslizamiento",
+      "fuentes": [
+        {
+          "ref": "R18"
+        }
+      ],
+      "evidencia": "E4"
+    },
+    "healthcare_use": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Posible en áreas de apoyo; en áreas críticas se prefiere epóxico."
+    },
+    "maintenance_frequency": {
+      "estado": "dato",
+      "valor": 12,
+      "calificador": "=",
+      "unidad": "meses",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Limpieza diaria; resellado cada 12–24 meses según tránsito; revisión anual de juntas."
+    },
+    "maintenance_actions": {
+      "estado": "dato",
+      "valor": "Barrido y trapeado con limpiador neutro; resellado periódico; limpieza y resellado de juntas; reparación de pop-outs",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "repairability": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Reparaciones locales posibles; difícil igualar tono."
+    },
+    "replaceability": {
+      "estado": "dato",
+      "valor": 1,
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Implica demoler la losa o carpeta."
+    },
+    "common_failures": {
+      "estado": "dato",
+      "valor": [
+        "Fisuración por retracción",
+        "fisuras en mapa (mapeo)",
+        "descascaramiento",
+        "eflorescencia",
+        "despostillado de juntas",
+        "pop-outs"
+      ],
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "failure_causes": {
+      "estado": "dato",
+      "valor": [
+        "Juntas de contracción tardías o mal espaciadas",
+        "curado deficiente",
+        "agua añadida al acabar",
+        "humedad ascendente sin barrera de vapor",
+        "juntas sin sello o relleno"
+      ],
+      "fuentes": [
+        {
+          "ref": "R06"
+        },
+        {
+          "ref": "R23"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "corrective_action": {
+      "estado": "dato",
+      "valor": "Rellenar juntas con epóxico o poliurea; sellar fisuras; reparar pop-outs con mortero epóxico; repulir y resellar",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "origin": {
+      "estado": "dato",
+      "valor": "Nacional",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Cemento y agregados de producción nacional."
+    },
+    "transport_distance": {
+      "estado": "dato",
+      "valor": 50.0,
+      "calificador": "≤",
+      "unidad": "km",
+      "fuentes": [
+        {
+          "ref": "R30"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "recycled_content": {
+      "estado": "no_disponible",
+      "evidencia": "E1",
+      "nota": "Posible uso de adiciones (escoria, ceniza) según cemento."
+    },
+    "renewable": {
+      "estado": "dato",
+      "valor": "No",
+      "evidencia": "E4"
+    },
+    "reusable": {
+      "estado": "dato",
+      "valor": "No",
+      "evidencia": "E4"
+    },
+    "recyclable": {
+      "estado": "dato",
+      "valor": "Sí",
+      "evidencia": "E4",
+      "nota": "Triturable como agregado reciclado."
+    },
+    "installation_waste": {
+      "estado": "dato",
+      "valor": 2,
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Lodos y polvo de desbaste."
+    },
+    "epd_available": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "evidencia": "E4",
+      "nota": "EPD de cemento o concreto de algunos productores."
+    },
+    "embodied_carbon": {
+      "estado": "dato",
+      "valor_texto_original": "≈ 0,10–0,15 kgCO₂e/kg de concreto (≈ 25–35 kgCO₂e/m² para 100 mm)",
+      "fuentes": [
+        {
+          "ref": "R16"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Orden de magnitud; el pulido añade poco."
+    },
+    "embodied_carbon_modules": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "environmental_certification": {
+      "estado": "no_disponible",
+      "evidencia": "E1"
+    },
+    "end_of_life": {
+      "estado": "dato",
+      "valor": [
+        "Reciclaje"
+      ],
+      "evidencia": "E4",
+      "nota": "Como agregado reciclado."
+    },
+    "cr_region": {
+      "estado": "dato",
+      "valor": "Bodegas, comercio de gran formato y oficinas; creciente en vivienda contemporánea.",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "seismic_condition": {
+      "estado": "dato",
+      "valor": "Es parte de la losa: su diseño estructural sigue el Código Sísmico; el acabado no agrega requisito.",
+      "fuentes": [
+        {
+          "ref": "R19"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "tradition_type": {
+      "estado": "dato",
+      "valor": "Contemporáneo",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "El afinado es tradicional; el pulido densificado, contemporáneo."
+    },
+    "cr_standard": {
+      "estado": "dato",
+      "valor": "Diseño y juntas según ACI 302.1R y ACI 360R (práctica usual en el país). Ley 7600 y su reglamento (superficie firme, estable y antideslizante en rutas accesibles).",
+      "fuentes": [
+        {
+          "ref": "R20"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "plan_requirements": {
+      "estado": "dato",
+      "valor": "Planta de juntas (contracción, construcción y aislamiento), espesor de losa, resistencia f'c, barrera de vapor, nivel de desbaste y brillo especificado.",
+      "fuentes": [
+        {
+          "ref": "R23"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "advantages": {
+      "estado": "dato",
+      "valor": "Sin capa adicional; muy durable (50+ años); alta resistencia a abrasión; nacional; reciclable como agregado.",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "limitations": {
+      "estado": "dato",
+      "valor": "Fisuras y mapeo inevitables; sensible a ácidos y aceites sin sellar; resbaladizo mojado a alto brillo; mano de obra muy especializada.",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "graphics": {
+      "estado": "dato",
+      "valor": [
+        "Registro fotográfico propio de obra (juntas y pulido) · PENDIENTE: planta de juntas tipo."
+      ],
+      "fuentes": [
+        {
+          "ref": "R24"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Consignar fuente de cada imagen."
+    },
+    "traffic_level": {
+      "estado": "dato",
+      "valor": [
+        "Alto",
+        "Industrial"
+      ],
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "slip_resistance": {
+      "estado": "dato",
+      "valor": "DCOF ≈ 0,42+ en pulido seco (verificar); R9–R10",
+      "fuentes": [
+        {
+          "ref": "R17"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Resbaladizo mojado a alto brillo."
+    },
+    "chemical_resistance": {
+      "estado": "dato",
+      "valor": "Baja frente a ácidos; media con sellador",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "stain_resistance": {
+      "estado": "dato",
+      "valor": "Media (depende del sellador)",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "substrate": {
+      "estado": "dato",
+      "valor": [
+        "Terreno con base granular y barrera de vapor",
+        "losa estructural"
+      ],
+      "fuentes": [
+        {
+          "ref": "R23"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "adhesive": {
+      "estado": "no_aplica",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Monolítico, sin adhesivo."
+    },
+    "installation_thickness": {
+      "estado": "dato",
+      "valor_texto_original": "100–200 (losa) o 50–75 (carpeta)",
+      "fuentes": [
+        {
+          "ref": "R23"
+        }
+      ],
+      "evidencia": "E4"
+    },
+    "joint_requirements": {
+      "estado": "dato",
+      "valor": "Juntas de contracción a 24–36 veces el espesor, corte a ¼ del espesor en las primeras horas, paños con relación ≤ 1,5; juntas de aislamiento en columnas y muros; juntas de construcción entre colados; relleno semirrígido con tránsito de ruedas duras",
+      "fuentes": [
+        {
+          "ref": "R23"
+        }
+      ],
+      "evidencia": "E3",
+      "nota": "Confirmado con registro fotográfico propio."
+    },
+    "accessible_route": {
+      "estado": "dato",
+      "valor": "Sí",
+      "fuentes": [
+        {
+          "ref": "R18"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Superficie continua; controlar el brillo en zonas húmedas."
+    }
+  },
+  "fuentes": [
+    {
+      "id": "PROPIO",
+      "cita": "Elaboración propia del estudiante (TP1).",
+      "tipo": "elaboracion_propia"
+    },
+    {
+      "id": "R01",
+      "cita": "TP1 Pisos – documento ampliado y presentación (Sáenz, 2026)"
+    },
+    {
+      "id": "R06",
+      "cita": "DOC"
+    },
+    {
+      "id": "R08",
+      "cita": "ISO 10456 (valores de diseño tabulados)"
+    },
+    {
+      "id": "R10",
+      "cita": "Tablas de absorción de materiales duros"
+    },
+    {
+      "id": "R11",
+      "cita": "EN 13501-1"
+    },
+    {
+      "id": "R12",
+      "cita": "Decisión 96/603/CE (clases A1 sin ensayo)"
+    },
+    {
+      "id": "R16",
+      "cita": "ICE Database v3.0 (Universidad de Bath)"
+    },
+    {
+      "id": "R17",
+      "cita": "DIN 51130 / ANSI A326.3 (DCOF)"
+    },
+    {
+      "id": "R18",
+      "cita": "Ley 7600"
+    },
+    {
+      "id": "R19",
+      "cita": "Criterio constructivo"
+    },
+    {
+      "id": "R20",
+      "cita": "Ver hoja Referencias"
+    },
+    {
+      "id": "R23",
+      "cita": "ACI 302.1R / ACI 360R"
+    },
+    {
+      "id": "R24",
+      "cita": "DOC (registro fotográfico propio)"
+    },
+    {
+      "id": "R25",
+      "cita": "ACI 302.1R"
+    },
+    {
+      "id": "R26",
+      "cita": "Literatura técnica de concreto"
+    },
+    {
+      "id": "R27",
+      "cita": "Literatura de pavimentos (LBNL)"
+    },
+    {
+      "id": "R28",
+      "cita": "Fichas técnicas de densificadores"
+    },
+    {
+      "id": "R29",
+      "cita": "Buenas prácticas de pulido"
+    },
+    {
+      "id": "R30",
+      "cita": "Estimación: planta de premezclado a obra en la GAM"
+    }
+  ]
+}

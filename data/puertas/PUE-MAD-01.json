@@ -1,0 +1,1171 @@
+{
+  "schema_version": "1.0",
+  "meta": {
+    "id": "PUE-MAD-01",
+    "componente": "PUE",
+    "autor": "Verónica",
+    "estado_revision": "borrador",
+    "fecha_actualizacion": "2026-10-26",
+    "id_legado": "PA-MAD-001",
+    "origen_migracion": {
+      "archivo": "TP1_Ficha_Veronica_Puertas_COMPLETADA.xlsx",
+      "hoja": "Solución A-Madera maciza"
+    }
+  },
+  "campos": {
+    "id": {
+      "estado": "dato",
+      "valor": "PUE-MAD-01",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "name": {
+      "estado": "dato",
+      "valor": "Puerta batiente de madera sólida (cedro amargo o laurel)",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "record_type": {
+      "estado": "dato",
+      "valor": "sistema",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Es un conjunto marco + hoja + herrajes, no un material aislado"
+    },
+    "component": {
+      "estado": "dato",
+      "valor": "PUE"
+    },
+    "subcategory": {
+      "estado": "dato",
+      "valor": "Puerta batiente / abatible de madera maciza",
+      "fuentes": [
+        {
+          "ref": "R03"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "country": {
+      "estado": "dato",
+      "valor": "CR",
+      "fuentes": [
+        {
+          "ref": "R04"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "manufacturer": {
+      "estado": "no_disponible",
+      "nota": "Producción artesanal/ebanistería local; ningún informe identifica un fabricante único (a diferencia de Extralum o Carbone Store en otras soluciones)"
+    },
+    "supplier": {
+      "estado": "dato",
+      "valor": "El Lagar, Construplaza, Depósito Jiménez, Colono Construcción, Ferconce (red ferretera nacional)",
+      "fuentes": [
+        {
+          "ref": "R05"
+        },
+        {
+          "ref": "R06"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "description": {
+      "estado": "dato",
+      "valor": "Hoja batiente de madera sólida (cedro amargo o laurel) sobre bastidor perimetral con peinazos y paneles flotantes (5 a 7 tableros), anclada a un marco de seguridad de madera; incluye bisagras de acero y burlete/guardapolvo de PVC en la base.",
+      "fuentes": [
+        {
+          "ref": "R07"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "keywords": {
+      "estado": "dato",
+      "valor": [
+        "madera maciza, cedro amargo, laurel, puerta batiente, bastidor, panel flotante, ebanistería, marco de seguridad"
+      ],
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "main_material": {
+      "estado": "dato",
+      "valor": "Madera maciza (laurel - Cordia alliodora - o cedro amargo - Cedrela odorata -)",
+      "fuentes": [
+        {
+          "ref": "R07"
+        },
+        {
+          "ref": "R08"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "secondary_materials": {
+      "estado": "dato",
+      "valor": [
+        "Acero (bisagras 3\"x3\"), PVC (burlete/guardapolvo Hunter), adhesivo PVA D3/D4, masilla acrílica elástica, sales de boro (tratamiento inmunizante)"
+      ],
+      "fuentes": [
+        {
+          "ref": "R09"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "layers": {
+      "estado": "dato",
+      "valor": [
+        "1) Marco de seguridad de madera (laurel/pino) 38x100 mm",
+        "2) Bastidor perimetral con peinazos",
+        "3) Panel flotante, 5 a 7 tableros por hoja",
+        "4) Bisagras de acero 3\"x3\" (3 a 4 unidades)",
+        "5) Burlete/guardapolvo de PVC de 90 cm en la base"
+      ],
+      "fuentes": [
+        {
+          "ref": "R10"
+        },
+        {
+          "ref": "R09"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "total_thickness": {
+      "estado": "dato",
+      "min": 38.0,
+      "max": 45.0,
+      "calificador": "rango",
+      "unidad": "mm",
+      "fuentes": [
+        {
+          "ref": "R10"
+        },
+        {
+          "ref": "R07"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "commercial_dimensions": {
+      "estado": "dato",
+      "valor": "Hojas: 850x2100, 950x2100 y 1000x2100 mm (acceso principal); 750x2100 y 800x2100 mm (dormitorios/interior). Marco de seguridad: 38x100 mm x 2,1 m",
+      "fuentes": [
+        {
+          "ref": "R07"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "density": {
+      "estado": "dato",
+      "valor_texto_original": "Densidad básica de la madera (no del elemento fabricado): laurel (Cordia alliodora) 380-620 kg/m3 en CR, prom. ~450-500 kg/m3; cedro amargo (Cedrela odorata) ~340-390 kg/m3",
+      "fuentes": [
+        {
+          "ref": "R11"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Dato de densidad de la madera en bruto, no del peso de la hoja ya fabricada; no aparece en los informes entregados"
+    },
+    "surface_mass": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "surface_finish": {
+      "estado": "dato",
+      "valor": "Madera natural cepillada; en interior imprimación con sales de boro; en exterior lasur de base acuosa de poro abierto con filtro UV (se recomienda evitar lacas de poliuretano sintético)",
+      "fuentes": [
+        {
+          "ref": "R12"
+        },
+        {
+          "ref": "R13"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "support_system": {
+      "estado": "dato",
+      "valor": "Boquetes de mampostería de concreto curado o subestructura metálica pesada en drywall reforzado",
+      "fuentes": [
+        {
+          "ref": "R12"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "fastening": {
+      "estado": "dato",
+      "valor": "Tornillos expansivos 3\"x1/4\" @ 60 cm para fijar el marco; uniones espigadas del bastidor con adhesivo PVA D3/D4",
+      "fuentes": [
+        {
+          "ref": "R12"
+        },
+        {
+          "ref": "R10"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "joints_seals": {
+      "estado": "dato",
+      "valor": "Masilla acrílica elástica pintable en juntas marco-mampostería; burlete/guardapolvo de PVC Hunter de 90 cm; molduras batientes de laurel 12x50 mm o 12x25 mm en los remates",
+      "fuentes": [
+        {
+          "ref": "R12"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "installation_sequence": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "tools_labor": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "critical_point": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "recommended_uses": {
+      "estado": "dato",
+      "valor": [
+        "Accesos principales monumentales, vestíbulos, puertas de dormitorios y despensas"
+      ],
+      "fuentes": [
+        {
+          "ref": "R14"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "building_types": {
+      "estado": "dato",
+      "valor": [
+        "Vivienda",
+        "Comercial"
+      ],
+      "fuentes": [
+        {
+          "ref": "R15"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Valores tomados de la lista controlada 'building_type' de la hoja Listas"
+    },
+    "location": {
+      "estado": "dato",
+      "valor": "Ambos",
+      "fuentes": [
+        {
+          "ref": "R16"
+        },
+        {
+          "ref": "R14"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "uso predominante en interior; en exterior solo con alero >= 1,20 m de proyección"
+    },
+    "climates": {
+      "estado": "dato",
+      "valor": "Climas secos, humedad moderada o interiores con aire acondicionado; en fachadas exteriores requiere protección física permanente (aleros, pórticos o marquesinas) contra la escorrentía directa",
+      "fuentes": [
+        {
+          "ref": "R16"
+        },
+        {
+          "ref": "R14"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "imn_subregions": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "compatibility": {
+      "estado": "dato",
+      "valor": "Alta compatibilidad con concreto, acero y mampostería común; compatible con llavines de doble paso y cerraduras de embutir tipo Yale",
+      "fuentes": [
+        {
+          "ref": "R17"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "use_restrictions": {
+      "estado": "dato",
+      "valor": "Incompatible con contacto directo con suelos húmedos o tierra, zonas costeras salinas de alta escorrentía, y baños cerrados con ventilación deficiente",
+      "fuentes": [
+        {
+          "ref": "R16"
+        },
+        {
+          "ref": "R14"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "labor_specialization": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "R18"
+        },
+        {
+          "ref": "R19"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Escala 1-5 propia, construida a partir de la descripción cualitativa 'media-alta' del informe"
+    },
+    "installation_complexity": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "R20"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Escala 1-5 propia sobre la misma descripción 'media-alta'"
+    },
+    "national_availability": {
+      "estado": "dato",
+      "valor": 5,
+      "fuentes": [
+        {
+          "ref": "R21"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "installation_time": {
+      "estado": "no_disponible",
+      "nota": "Los informes no reportan un dato de tiempo de instalación distinto al de complejidad de instalación"
+    },
+    "relative_cost": {
+      "estado": "dato",
+      "valor": 1,
+      "fuentes": [
+        {
+          "ref": "R22"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "El informe marca 'Bajo' para la gama económica (pino/laurel); el cedro (premium) se ubica en 'Medio-Alto' según el mismo gráfico"
+    },
+    "price_range": {
+      "estado": "dato",
+      "valor_texto_original": "Gama económica: c18.900 (puerta blanca interna) a c33.752 (pino interior). Gama media: c89.950-99.950 (laurel 5-6 tableros). Gama alta: c87.000 (cedro 7 tableros) + marco de laurel c26.470,25. Todo en colones costarricenses IVAI",
+      "fuentes": [
+        {
+          "ref": "R23"
+        },
+        {
+          "ref": "R06"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "mechanical_resistance": {
+      "estado": "dato",
+      "valor": "Alta: excelente resistencia estructural frente a impactos dinámicos, sobre todo en maderas densas (cedro/teca)",
+      "fuentes": [
+        {
+          "ref": "R17"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "impact_resistance": {
+      "estado": "dato",
+      "valor": "Alta en maderas preciosas densas (cedro, teca); moderada a baja en laurel/pino de menor densidad",
+      "fuentes": [
+        {
+          "ref": "R24"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "abrasion_resistance": {
+      "estado": "no_disponible",
+      "nota": "Ningún informe reporta un valor o clase específico de resistencia a la abrasión superficial"
+    },
+    "durability_years": {
+      "estado": "dato",
+      "valor_texto_original": "10-15 años (laurel/pino tratados); 35+ años (cedro/teca densos)",
+      "fuentes": [
+        {
+          "ref": "R16"
+        },
+        {
+          "ref": "R06"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "water_absorption": {
+      "estado": "no_disponible",
+      "nota": "Los informes describen el fenómeno como 'material higroscópico inestable' de forma cualitativa, sin reportar un porcentaje de absorción de agua"
+    },
+    "moisture_resistance": {
+      "estado": "dato",
+      "valor": 2,
+      "fuentes": [
+        {
+          "ref": "R25"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Escala propia; 2 = baja resistencia a la humedad"
+    },
+    "condensation_risk": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "R26"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Escala propia; 4 = riesgo alto"
+    },
+    "corrosion_resistance": {
+      "estado": "no_disponible",
+      "nota": "No aplica en sentido estricto: la madera no sufre corrosión (fenómeno propio de metales); su deterioro es de tipo biológico e higroscópico, ya cubierto en otros campos"
+    },
+    "uv_resistance": {
+      "estado": "dato",
+      "valor": 1,
+      "fuentes": [
+        {
+          "ref": "R27"
+        },
+        {
+          "ref": "R28"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Escala propia; 1 = muy baja resistencia a UV sin tratamiento protector"
+    },
+    "marine_environment": {
+      "estado": "dato",
+      "valor": "No",
+      "fuentes": [
+        {
+          "ref": "R29"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "vapor_permeability": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "thermal_conductivity": {
+      "estado": "dato",
+      "valor_texto_original": "Aprox. 0,12-0,17 W/m.K (rango típico de referencia para madera blanda/semidura)",
+      "fuentes": [
+        {
+          "ref": "R30"
+        },
+        {
+          "ref": "R31"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Estimación general para madera de densidad media-baja; no es un valor de ensayo específico de laurel o cedro amargo"
+    },
+    "specific_heat": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "thermal_resistance": {
+      "estado": "dato",
+      "valor_texto_original": "R aprox. 0,28 m2.K/W (hoja de 40 mm; calculado como e/lambda = 0,04 m / 0,145 W/m.K)",
+      "fuentes": [
+        {
+          "ref": "R32"
+        },
+        {
+          "ref": "R33"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Derivado, no medido. Depende directamente de la conductividad térmica estimada en la fila 47"
+    },
+    "u_value": {
+      "estado": "dato",
+      "valor_texto_original": "Referencia general (no de esta ficha): aprox. 1,8-2,9 W/m2.K para puertas de madera maciza sin núcleo cortafuego, espesor 40-57mm (ej. puerta EI30 Vicaima de 44-57mm: UD=1,8 W/m2.K)",
+      "fuentes": [
+        {
+          "ref": "R34"
+        },
+        {
+          "ref": "R35"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Valor de catálogos europeos de puertas de madera maciza en general; no específico de cedro/laurel costarricense ni ensayado para este sistema"
+    },
+    "solar_reflectance": {
+      "estado": "no_disponible"
+    },
+    "thermal_emittance": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "sri": {
+      "estado": "no_disponible"
+    },
+    "sound_insulation": {
+      "estado": "dato",
+      "valor_texto_original": "25-30 dB (Rw aprox.) en hojas de 45 mm",
+      "fuentes": [
+        {
+          "ref": "R36"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "sound_absorption": {
+      "estado": "no_disponible"
+    },
+    "fire_reaction": {
+      "estado": "dato",
+      "valor": "Combustible; velocidad de carbonización lenta y uniforme (aprox. 0,6 mm/minuto) en maderas densas. Como referencia general de clasificación europea, la madera maciza (densidad >390 kg/m3, espesor >=14mm) se clasifica sin ensayo adicional como D-s2,d0",
+      "fuentes": [
+        {
+          "ref": "R37"
+        },
+        {
+          "ref": "R38"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "La clase D-s2,d0 es una referencia normativa general añadida por fuera de los informes entregados"
+    },
+    "fire_resistance": {
+      "estado": "dato",
+      "valor_texto_original": "El sistema descrito (sin núcleo cortafuego) no alcanza una clasificación certificada. Como referencia general, puertas de madera maciza con bastidor + tablero + juntas intumescentes sí certifican EI30 (30 min) según EN 1634-1/EN 13501-2 (equivalente a RF-30 en normativa NBE-CPI)",
+      "fuentes": [
+        {
+          "ref": "R39"
+        },
+        {
+          "ref": "R40"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Valor de referencia para la categoría general \"puerta de madera maciza certificada\"; el sistema de los informes de Verónica no reporta núcleo cortafuego, por lo que no aplicaría automáticamente"
+    },
+    "smoke_class": {
+      "estado": "dato",
+      "valor": "s2 (típico en madera sin tratamiento ignífugo adicional, dentro de la clasificación por defecto D-s2,d0 de la norma EN 13501-1)",
+      "fuentes": [
+        {
+          "ref": "R41"
+        }
+      ],
+      "evidencia": "E4"
+    },
+    "voc_emissions": {
+      "estado": "no_disponible",
+      "nota": "Los informes no reportan mediciones de COV; sí prohíben expresamente tratamientos caseros con diésel, cloro o aceite quemado por toxicidad del aire interior (ver hazardous_substances)"
+    },
+    "hazardous_substances": {
+      "estado": "dato",
+      "valor": [
+        "Ninguna en la madera tratada con sales de boro (tratamiento recomendado). Se prohíbe expresamente el tratamiento casero con diésel, cloro o aceite quemado por su toxicidad y riesgo de incendio"
+      ],
+      "fuentes": [
+        {
+          "ref": "R42"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "cleanability": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "No hay un dato explícito de facilidad de limpieza en los informes; valor estimado según el tipo de acabado superficial"
+    },
+    "accessibility": {
+      "estado": "dato",
+      "valor": "Requiere marcos sin umbrales sobresalientes para garantizar accesos de movilidad reducida",
+      "fuentes": [
+        {
+          "ref": "R17"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "healthcare_use": {
+      "estado": "no_disponible",
+      "nota": "No se reporta como solución recomendada para edificios de salud; los informes la orientan a vivienda y oficinas de baja rotación"
+    },
+    "maintenance_frequency": {
+      "estado": "dato",
+      "min": 12.0,
+      "max": 18.0,
+      "calificador": "rango",
+      "unidad": "meses",
+      "fuentes": [
+        {
+          "ref": "R43"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "maintenance_actions": {
+      "estado": "dato",
+      "valor": "Relijado suave y reaplicación de lasur de poro abierto (piezas exteriores); limpieza periódica de polvo superficial (interior); tratamiento inicial con sales de boro",
+      "fuentes": [
+        {
+          "ref": "R44"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "repairability": {
+      "estado": "dato",
+      "valor": 5,
+      "fuentes": [
+        {
+          "ref": "R45"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "replaceability": {
+      "estado": "no_disponible"
+    },
+    "common_failures": {
+      "estado": "dato",
+      "valor": [
+        "Alabeo (cupping), torcedura (twisting), hinchazón y traba mecánica, meteorización y pérdida de lignina, ataque de comején (subterráneo y de madera seca) y psócidos"
+      ],
+      "fuentes": [
+        {
+          "ref": "R46"
+        },
+        {
+          "ref": "R47"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "failure_causes": {
+      "estado": "dato",
+      "valor": [
+        "Absorción desigual de humedad entre caras y condensación nocturna (Coronado, Heredia, Cartago)",
+        "picos de lluvia en Pacífico Sur y Caribe con hinchazón de hasta 3,5 mm",
+        "radiación UV directa en Guanacaste/Puntarenas",
+        "termitas subterráneas sin barrera al suelo",
+        "psócidos alimentándose de moho en juntas húmedas (ciclo de 18,1 días a 35 grados C)"
+      ],
+      "fuentes": [
+        {
+          "ref": "R46"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "corrective_action": {
+      "estado": "dato",
+      "valor": "Tratamiento con sales de boro (inyección al vacío en albura); sellado de cantos; lasures de poro abierto con filtro UV; barrera física con burlete de PVC en la base; nunca usar diésel, cloro o aceite quemado como tratamiento casero",
+      "fuentes": [
+        {
+          "ref": "R42"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "origin": {
+      "estado": "dato",
+      "valor": "Nacional",
+      "fuentes": [
+        {
+          "ref": "R14"
+        },
+        {
+          "ref": "R13"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "laurel, pino y melina de plantaciones forestales bajo control de la ONF); parcialmente Importado en maderas preciosas como teca o cenízaro bajo manejo sostenible o procedentes de Centroamérica"
+    },
+    "transport_distance": {
+      "estado": "no_disponible"
+    },
+    "recycled_content": {
+      "estado": "dato",
+      "valor": 0.0,
+      "calificador": "=",
+      "unidad": "%",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Madera virgen proveniente de plantación forestal, no de material reciclado"
+    },
+    "renewable": {
+      "estado": "dato",
+      "valor": "Sí",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "reusable": {
+      "estado": "dato",
+      "valor": "Sí",
+      "fuentes": [
+        {
+          "ref": "R48"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "recyclable": {
+      "estado": "dato",
+      "valor": "Sí",
+      "fuentes": [
+        {
+          "ref": "R49"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "installation_waste": {
+      "estado": "dato",
+      "valor": 2,
+      "fuentes": [
+        {
+          "ref": "R50"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Escala propia; 2 = residuo bajo, biodegradable"
+    },
+    "epd_available": {
+      "estado": "no_disponible"
+    },
+    "embodied_carbon": {
+      "estado": "no_disponible"
+    },
+    "embodied_carbon_modules": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "environmental_certification": {
+      "estado": "no_disponible",
+      "nota": "No se menciona una certificación ambiental formal (ej. FSC); sí se indica que las maderas preciosas provienen de bosques bajo planes de manejo legal sostenible"
+    },
+    "end_of_life": {
+      "estado": "dato",
+      "valor": [
+        "Reutilización",
+        "Reciclaje"
+      ],
+      "fuentes": [
+        {
+          "ref": "R17"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "cr_region": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "seismic_condition": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "tradition_type": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "cr_standard": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "plan_requirements": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "advantages": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "limitations": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "graphics": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "opening_type": {
+      "estado": "dato",
+      "valor": "Batiente / abatible",
+      "fuentes": [
+        {
+          "ref": "R51"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "frame_material": {
+      "estado": "dato",
+      "valor": "Madera de laurel o pino cepillado (marco de seguridad 38x100 mm)",
+      "fuentes": [
+        {
+          "ref": "R07"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "air_tightness": {
+      "estado": "no_disponible",
+      "nota": "No se reporta una clase de hermeticidad certificada; a diferencia de los sistemas de aluminio, esta solución no usa empaques herméticos tipo EPDM"
+    },
+    "leaf_count": {
+      "estado": "dato",
+      "valor": 1,
+      "calificador": "=",
+      "fuentes": [
+        {
+          "ref": "R52"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Los informes describen módulos de una sola hoja; no se reportan configuraciones de doble hoja para esta solución"
+    },
+    "nominal_dimensions": {
+      "estado": "dato",
+      "valor": "850x2100, 950x2100, 1000x2100 mm (acceso principal); 750x2100, 800x2100 mm (interior)",
+      "fuentes": [
+        {
+          "ref": "R07"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "clear_width": {
+      "estado": "dato",
+      "valor_texto_original": "Aprox. 750-950 mm",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Estimación propia; no es un valor de paso libre medido o certificado en los informes"
+    },
+    "leaf_material": {
+      "estado": "dato",
+      "valor": "Madera maciza (cedro amargo o laurel) en bastidor con panel flotante",
+      "fuentes": [
+        {
+          "ref": "R07"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "use_frequency": {
+      "estado": "dato",
+      "valor": "Frecuente (accesos principales y dormitorios de uso diario)",
+      "fuentes": [
+        {
+          "ref": "R14"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "opening_force": {
+      "estado": "no_disponible"
+    },
+    "hardware": {
+      "estado": "dato",
+      "valor": [
+        "Bisagras de acero 3\"x3\" (3 a 4 unidades",
+        "ej. National c2.075, Yale c3.700)",
+        "cerradura/llavín de doble paso de embutir (Yale 610/810-50 c21.450-c25.450",
+        "Vera/Hermex c8.450-c9.995)",
+        "burlete de PVC Hunter en la base"
+      ],
+      "fuentes": [
+        {
+          "ref": "R53"
+        },
+        {
+          "ref": "R17"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "access_control": {
+      "estado": "dato",
+      "valor": "Cerradura mecánica de doble paso con llave convencional; no se reporta control de acceso electrónico para esta solución",
+      "fuentes": [
+        {
+          "ref": "R17"
+        }
+      ],
+      "evidencia": "E5"
+    }
+  },
+  "fuentes": [
+    {
+      "id": "PROPIO",
+      "cita": "Elaboración propia del estudiante (TP1).",
+      "tipo": "elaboracion_propia"
+    },
+    {
+      "id": "R01",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.2 (pág. 1)"
+    },
+    {
+      "id": "R03",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.2, título (pág. 1)"
+    },
+    {
+      "id": "R04",
+      "cita": "Ficha (dato de encabezado)"
+    },
+    {
+      "id": "R05",
+      "cita": "estudio-tecnico-puertas.pdf, pág. 2 (tabla de precios)"
+    },
+    {
+      "id": "R06",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.2.2 (pág. 3)"
+    },
+    {
+      "id": "R07",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.2.1 (pág. 1)"
+    },
+    {
+      "id": "R08",
+      "cita": "guia-tecnica-materiales-puertas.pdf, secc. 1 (pág. 2)"
+    },
+    {
+      "id": "R09",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.2.1 (pág. 1-2)"
+    },
+    {
+      "id": "R10",
+      "cita": "Sistemas_Constructivos_para_Puertas_-_Costa_Rica.pdf, Solución A - 1/4"
+    },
+    {
+      "id": "R11",
+      "cita": "PROSEA (prosea.prota4u.org, ficha Cordia alliodora) y Rev. Biol. Trop. 36(1):67-73, 1988, Arnáez y Flores, 'Cedrela odorata en Costa Rica' - fuentes fuera de los 4 PDF"
+    },
+    {
+      "id": "R12",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.2.1 (pág. 2)"
+    },
+    {
+      "id": "R13",
+      "cita": "guia-tecnica-materiales-puertas.pdf, secc. 1.A (pág. 2)"
+    },
+    {
+      "id": "R14",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.2.2 (pág. 2)"
+    },
+    {
+      "id": "R15",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.2.2 (pág. 2): viviendas unifamiliares, condominios y oficinas corporativas de baja rotación"
+    },
+    {
+      "id": "R16",
+      "cita": "Sistemas_Constructivos_para_Puertas_-_Costa_Rica.pdf, Solución A - 2/4"
+    },
+    {
+      "id": "R17",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.2.3 (pág. 4)"
+    },
+    {
+      "id": "R18",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.2.2 (pág. 2-3): 'complejidad media-alta"
+    },
+    {
+      "id": "R19",
+      "cita": "requiere ebanista calificado o carpintero de obra blanca'"
+    },
+    {
+      "id": "R20",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.2.2 (pág. 2-3)"
+    },
+    {
+      "id": "R21",
+      "cita": "Sistemas_Constructivos_para_Puertas_-_Costa_Rica.pdf, Solución A - 2/4 ('Muy alta - red ferretera nacional')"
+    },
+    {
+      "id": "R22",
+      "cita": "Sistemas_Constructivos_para_Puertas_-_Costa_Rica.pdf, Solución A - 2/4 (marcador de costo relativo en 'Bajo')"
+    },
+    {
+      "id": "R23",
+      "cita": "estudio-tecnico-puertas.pdf, pág. 2-3 (tabla de precios)"
+    },
+    {
+      "id": "R24",
+      "cita": "guia-tecnica-materiales-puertas.pdf, secc. 1.A y 1.B (pág. 2)"
+    },
+    {
+      "id": "R25",
+      "cita": "Sistemas_Constructivos_para_Puertas_-_Costa_Rica.pdf, Solución A - 3/4 ('Material higroscópico inestable... absorbe agua y vapor con rapidez ante RH > 80%')"
+    },
+    {
+      "id": "R26",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.2.4 (pág. 4-5): alta incidencia de alabeo/torcedura por condensación nocturna en Coronado, Heredia y Cartago"
+    },
+    {
+      "id": "R27",
+      "cita": "Sistemas_Constructivos_para_Puertas_-_Costa_Rica.pdf, Solución A - 3/4"
+    },
+    {
+      "id": "R28",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.2.4 (pág. 4-5, 'Meteorización y pérdida de lignina')"
+    },
+    {
+      "id": "R29",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.2.2 (pág. 2): restricción crítica, incompatible con zonas costeras salinas de alta escorrentía"
+    },
+    {
+      "id": "R30",
+      "cita": "Valor de referencia general de ciencia de materiales, fuera de los 4 PDF"
+    },
+    {
+      "id": "R31",
+      "cita": "los informes solo confirman la tendencia cualitativa: Sistemas_Constructivos_para_Puertas_-_Costa_Rica.pdf, Solución A - 3/4 ('muy baja conductividad térmica')"
+    },
+    {
+      "id": "R32",
+      "cita": "Cálculo propio a partir del espesor de hoja (fila 18, prom. 40mm) y la conductividad térmica de referencia general (fila 47)"
+    },
+    {
+      "id": "R33",
+      "cita": "no es un valor medido ni reportado en los informes"
+    },
+    {
+      "id": "R34",
+      "cita": "Vicaima, ficha técnica Portaro EI30 (hicontract.com)"
+    },
+    {
+      "id": "R35",
+      "cita": "catálogo Irastorza Evo (documentacion.generadordeprecios.info) - fuentes fuera de los 4 PDF"
+    },
+    {
+      "id": "R36",
+      "cita": "Sistemas_Constructivos_para_Puertas_-_Costa_Rica.pdf, Solución A - 3/4 ('Aislamiento acústico sobresaliente: atenuación de 25 a 30 dB en hojas de 45 mm')"
+    },
+    {
+      "id": "R37",
+      "cita": "Carbonización: Sistemas_Constructivos_para_Puertas_-_Costa_Rica.pdf, Solución A - 3/4"
+    },
+    {
+      "id": "R38",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.2.3 (pág. 4). Clasificación D-s2,d0: norma EN 13501-1 (clasificación por defecto para madera maciza) - fuera de los 4 PDF"
+    },
+    {
+      "id": "R39",
+      "cita": "Vicaima, fichas técnicas Portaro EI30 / Block EI30 (hicontract.com)"
+    },
+    {
+      "id": "R40",
+      "cita": "INTI Argentina, Listado de puertas clasificadas - fuera de los 4 PDF"
+    },
+    {
+      "id": "R41",
+      "cita": "Norma EN 13501-1 (clasificación de reacción al fuego de productos de madera) - fuera de los 4 PDF"
+    },
+    {
+      "id": "R42",
+      "cita": "estudio-tecnico-puertas.pdf, secc. 2.3 (pág. 5)"
+    },
+    {
+      "id": "R43",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.2.2 (pág. 3): 'relijar suavemente y reaplicar una mano de lasur de poro abierto cada 12 a 18 meses si la pieza está expuesta al exterior'"
+    },
+    {
+      "id": "R44",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.2.2 (pág. 3) y 5.2.1 (pág. 2)"
+    },
+    {
+      "id": "R45",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.2.3 (pág. 4): rayones, grietas y abolladuras se corrigen en sitio con cepillado local, masillas acrílicas elastoméricas y sellado cromático"
+    },
+    {
+      "id": "R46",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.2.4 (pág. 4-5)"
+    },
+    {
+      "id": "R47",
+      "cita": "estudio-tecnico-puertas.pdf, secc. 2.1-2.2 (pág. 4)"
+    },
+    {
+      "id": "R48",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.2.3 (pág. 4): las puertas desechadas son 'altamente reutilizables en talleres para la fabricación de elementos decorativos menores'"
+    },
+    {
+      "id": "R49",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.2.3 (pág. 4): pueden triturarse para la elaboración de tableros de partículas aglomeradas"
+    },
+    {
+      "id": "R50",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.2.3 (pág. 4): genera aserrín, virutas y recortes biodegradables no peligrosos"
+    },
+    {
+      "id": "R51",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.2, título de la solución"
+    },
+    {
+      "id": "R52",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.2.1"
+    },
+    {
+      "id": "R53",
+      "cita": "estudio-tecnico-puertas.pdf, pág. 10 (tabla de herrajes)"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+# Mover este archivo a .github/workflows/validar.yml al crear el repositorio en GitHub.
+name: Validar fichas SUM
+
+on:
+  pull_request:
+    paths: ["data/**", "estandar/**"]
+  push:
+    branches: [main]
+
+jobs:
+  validar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install openpyxl jsonschema
+      - name: Schema al día con el diccionario
+        run: |
+          python scripts/generar_schema.py
+          git diff --exit-code estandar/ficha_sum.schema.json
+      - name: Validar fichas
+        run: python scripts/validar.py --reporte reportes/validacion_ci.md
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: reporte-validacion
+          path: reportes/validacion_ci.md

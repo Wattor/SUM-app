@@ -1,0 +1,1150 @@
+{
+  "schema_version": "1.0",
+  "meta": {
+    "id": "VEN-ALU-04",
+    "componente": "VEN",
+    "autor": "Juan Sandoval",
+    "estado_revision": "borrador",
+    "fecha_actualizacion": "2026-10-26",
+    "id_legado": "CR-VEN-04",
+    "origen_migracion": {
+      "archivo": "TP1_Ficha_Juan_Ventanas.xlsx",
+      "hoja": "Ficha (5) EXT45"
+    }
+  },
+  "campos": {
+    "id": {
+      "estado": "dato",
+      "valor": "VEN-ALU-04",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "name": {
+      "estado": "dato",
+      "valor": "Ventana abatible / oscilobatiente de aluminio EXT45",
+      "fuentes": [
+        {
+          "ref": "F14"
+        },
+        {
+          "ref": "F15"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Sistema de alta gama de Extralum; también existe en corrediza y elevable."
+    },
+    "record_type": {
+      "estado": "dato",
+      "valor": "sistema",
+      "fuentes": [
+        {
+          "ref": "F14"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "component": {
+      "estado": "dato",
+      "valor": "VEN"
+    },
+    "subcategory": {
+      "estado": "dato",
+      "valor": "Ventana abatible de aluminio – alta gama con DVH",
+      "fuentes": [
+        {
+          "ref": "F14"
+        },
+        {
+          "ref": "F15"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "country": {
+      "estado": "dato",
+      "valor": "CR",
+      "fuentes": [
+        {
+          "ref": "F7"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "manufacturer": {
+      "estado": "dato",
+      "valor": "Extrusiones de Aluminio S.A. (Extralum)",
+      "fuentes": [
+        {
+          "ref": "F14"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "supplier": {
+      "estado": "dato",
+      "valor": "Sucursales Extralum y talleres certificados",
+      "fuentes": [
+        {
+          "ref": "F15"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Se recomienda taller con experiencia en herrajes de apertura interna."
+    },
+    "description": {
+      "estado": "dato",
+      "valor": "Ventana abatible de apertura interna u oscilobatiente, con marco de 75 mm y contramarco de 54,5 mm, sistema de clipado premontado, bisagras ocultas y hojas de hasta 1,60 × 2,70 m y 130 kg. Admite vidrio templado, laminado o DVH de 24–30 mm.",
+      "fuentes": [
+        {
+          "ref": "F14"
+        },
+        {
+          "ref": "F15"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "keywords": {
+      "estado": "dato",
+      "valor": [
+        "ventana abatible",
+        "oscilobatiente",
+        "EXT45",
+        "DVH",
+        "alta gama",
+        "aluminio",
+        "herraje perimetral"
+      ],
+      "fuentes": [
+        {
+          "ref": "F14"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "main_material": {
+      "estado": "dato",
+      "valor": "Aluminio extruido AA6063 temple T5",
+      "fuentes": [
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Todas las líneas Extralum usan AA6063; la FT-146 no lo indica."
+    },
+    "secondary_materials": {
+      "estado": "dato",
+      "valor": [
+        "Vidrio templado FUERTEX®",
+        "laminado VILAX® (incluye SentryGlass®)",
+        "DVH con separador",
+        "EPDM",
+        "herrajes (cremona, bisagras, compás, limitadores)",
+        "sellador"
+      ],
+      "fuentes": [
+        {
+          "ref": "F14"
+        },
+        {
+          "ref": "F15"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "layers": {
+      "estado": "dato",
+      "valor": [
+        "1) Contramarco 54,5 mm (fijo al buque) → 2) Marco de apertura interna 75 mm → 3) Hoja → 4) Envidriador (4,4–24,4 mm) + empaque EPDM → 5) Vidrio o DVH → 6) Herrajes: bisagras, cremona, manija, cerraderos, limitadores"
+      ],
+      "fuentes": [
+        {
+          "ref": "F14"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "total_thickness": {
+      "estado": "dato",
+      "valor": 75,
+      "calificador": "=",
+      "unidad": "mm",
+      "fuentes": [
+        {
+          "ref": "F14"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Profundidad del marco de apertura interna (EX3089)."
+    },
+    "commercial_dimensions": {
+      "estado": "dato",
+      "valor": "Hoja: 200–1 600 ancho × 520–2 700 alto; peso máximo de hoja 130 kg (180 kg bajo pedido)",
+      "fuentes": [
+        {
+          "ref": "F14"
+        },
+        {
+          "ref": "F15"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "density": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "surface_mass": {
+      "estado": "dato",
+      "valor": 38.0,
+      "calificador": "≈",
+      "unidad": "kg/m²",
+      "fuentes": [
+        {
+          "ref": "R08"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Texto original: ≈ 38 (con DVH 6+12+6) · Estimado: perfiles 0,97–1,31 kg/m ≈ 8 kg/m² de aluminio + DVH 6+6 ≈ 30 kg/m²."
+    },
+    "surface_finish": {
+      "estado": "dato",
+      "valor": "Anodizado natural o negro; pintura blanca o negra texturizada",
+      "fuentes": [
+        {
+          "ref": "F14"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "support_system": {
+      "estado": "dato",
+      "valor": "Contramarco perimetral al buque; la hoja cuelga de bisagras (ocultas) y gira hacia el interior",
+      "fuentes": [
+        {
+          "ref": "F14"
+        },
+        {
+          "ref": "F15"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "El buque debe resistir el peso de hojas de hasta 130 kg."
+    },
+    "fastening": {
+      "estado": "dato",
+      "valor": "Anclaje mecánico del contramarco al buque; perfiles con sistema de clipado premontado y bulones premontados",
+      "fuentes": [
+        {
+          "ref": "F15"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "joints_seals": {
+      "estado": "dato",
+      "valor": "Empaques EPDM en el envidriador y el marco; herraje perimetral con cierre multipunto; sello perimetral de silicón",
+      "fuentes": [
+        {
+          "ref": "F14"
+        },
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "installation_sequence": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "tools_labor": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "critical_point": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "recommended_uses": {
+      "estado": "dato",
+      "valor": [
+        "Viviendas de gama alta, oficinas, hoteles, hospitales y edificios que requieren hermeticidad, DVH y ventilación controlada"
+      ],
+      "fuentes": [
+        {
+          "ref": "F14"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "La FT-146 menciona viviendas, oficinas, restaurantes, edificios, hospitales y bancos."
+    },
+    "building_types": {
+      "estado": "dato",
+      "valor": [
+        "Vivienda",
+        "Comercial",
+        "Institucional",
+        "Salud"
+      ],
+      "fuentes": [
+        {
+          "ref": "F14"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "location": {
+      "estado": "dato",
+      "valor": "Exterior",
+      "fuentes": [
+        {
+          "ref": "F14"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "climates": {
+      "estado": "dato",
+      "valor": "Todos, incluido lluvioso con viento (Caribe, zona norte) y espacios climatizados",
+      "fuentes": [
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "El cierre perimetral con EPDM supera a las corredizas frente a lluvia con viento."
+    },
+    "imn_subregions": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "compatibility": {
+      "estado": "dato",
+      "valor": "Mampostería, concreto y estructura metálica; el buque debe soportar hojas pesadas",
+      "fuentes": [
+        {
+          "ref": "F14"
+        },
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "use_restrictions": {
+      "estado": "dato",
+      "valor": "La hoja abierta invade el interior (considerar muebles y cortinas); costo alto; no tiene rotura de puente térmico declarada",
+      "fuentes": [
+        {
+          "ref": "F14"
+        },
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "labor_specialization": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Herrajes perimetrales y ajuste fino."
+    },
+    "installation_complexity": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "El clipado premontado reduce tiempos en taller."
+    },
+    "national_availability": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "F7"
+        },
+        {
+          "ref": "F15"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Extruido en CR; menos talleres lo trabajan."
+    },
+    "installation_time": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "relative_cost": {
+      "estado": "dato",
+      "valor": 5,
+      "fuentes": [
+        {
+          "ref": "F4"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Rango alto del mercado."
+    },
+    "price_range": {
+      "estado": "dato",
+      "min": 150000.0,
+      "max": 220000.0,
+      "calificador": "rango",
+      "unidad": "CRC/m²",
+      "fuentes": [
+        {
+          "ref": "F4"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Referencia: oscilobatiente de línea española con vidrio insulado (abril 2026), sin instalación."
+    },
+    "mechanical_resistance": {
+      "estado": "dato",
+      "valor": "AA6063-T5; soporta hojas de hasta 130 kg (180 kg bajo pedido)",
+      "fuentes": [
+        {
+          "ref": "F14"
+        },
+        {
+          "ref": "F15"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "impact_resistance": {
+      "estado": "dato",
+      "valor": "Alta: FUERTEX® 6–12 mm y VILAX® con SentryGlass®",
+      "fuentes": [
+        {
+          "ref": "F15"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Sin ensayo del sistema."
+    },
+    "abrasion_resistance": {
+      "estado": "no_disponible",
+      "evidencia": "E1"
+    },
+    "durability_years": {
+      "estado": "dato",
+      "min": 30.0,
+      "max": 40.0,
+      "calificador": "rango",
+      "unidad": "años",
+      "fuentes": [
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Estimado; herrajes y empaques se revisan antes."
+    },
+    "water_absorption": {
+      "estado": "no_aplica",
+      "fuentes": [
+        {
+          "ref": "F9"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "moisture_resistance": {
+      "estado": "dato",
+      "valor": 5,
+      "fuentes": [
+        {
+          "ref": "F14"
+        },
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Cierre perimetral con EPDM."
+    },
+    "condensation_risk": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "F8"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "El DVH reduce la condensación en el vidrio, pero el marco sin RPT sigue frío en recintos climatizados."
+    },
+    "corrosion_resistance": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Herrajes de acero requieren grado costero."
+    },
+    "uv_resistance": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "marine_environment": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Herrajes inoxidables y acabado grado costero."
+    },
+    "vapor_permeability": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "thermal_conductivity": {
+      "estado": "dato",
+      "valor_texto_original": "≈ 200 (aluminio 6063); ≈ 1,0 (vidrio)",
+      "fuentes": [
+        {
+          "ref": "R03"
+        }
+      ],
+      "evidencia": "E4"
+    },
+    "specific_heat": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "thermal_resistance": {
+      "estado": "dato",
+      "valor": 0.36,
+      "calificador": "≈",
+      "unidad": "m²·K/W",
+      "fuentes": [
+        {
+          "ref": "R09"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "R = 1/Ug con DVH de aire (Ug ≈ 2,8)."
+    },
+    "u_value": {
+      "estado": "dato",
+      "valor_texto_original": "≈ 3,7 con DVH de aire (Ug ≈ 2,8; Uf metal sin RPT = 5,7)",
+      "fuentes": [
+        {
+          "ref": "F8"
+        },
+        {
+          "ref": "F17"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Uw estimado = 0,7 × Ug + 0,3 × Uf. Con vidrio monolítico ≈ 5,8."
+    },
+    "solar_reflectance": {
+      "estado": "dato",
+      "min": 0.12,
+      "max": 0.15,
+      "calificador": "rango",
+      "unidad": "0–1",
+      "fuentes": [
+        {
+          "ref": "R03"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "DVH claro/claro."
+    },
+    "thermal_emittance": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "sri": {
+      "estado": "no_aplica",
+      "evidencia": "E1"
+    },
+    "sound_insulation": {
+      "estado": "dato",
+      "min": 30.0,
+      "max": 35.0,
+      "calificador": "rango",
+      "unidad": "dB (Rw)",
+      "fuentes": [
+        {
+          "ref": "F6"
+        },
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Estimado con DVH y cierre perimetral; muy superior a las corredizas."
+    },
+    "sound_absorption": {
+      "estado": "no_aplica",
+      "evidencia": "E1"
+    },
+    "fire_reaction": {
+      "estado": "dato",
+      "valor": "A1 (vidrio y aluminio); empaques combustibles en poca cantidad",
+      "fuentes": [
+        {
+          "ref": "F9"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "fire_resistance": {
+      "estado": "no_disponible",
+      "evidencia": "E1",
+      "nota": "No es cortafuego."
+    },
+    "smoke_class": {
+      "estado": "no_disponible",
+      "evidencia": "E1"
+    },
+    "voc_emissions": {
+      "estado": "no_disponible",
+      "evidencia": "E1"
+    },
+    "hazardous_substances": {
+      "estado": "dato",
+      "valor": [
+        "Ninguna declarada"
+      ],
+      "fuentes": [
+        {
+          "ref": "F14"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "cleanability": {
+      "estado": "dato",
+      "valor": 5,
+      "fuentes": [
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "La cara exterior se limpia desde adentro al abrir la hoja."
+    },
+    "accessibility": {
+      "estado": "dato",
+      "valor": "Manija única de palanca; apertura oscilante permite ventilar con seguridad",
+      "fuentes": [
+        {
+          "ref": "F14"
+        },
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Ubicar la manija a altura accesible (Ley 7600); hojas grandes requieren fuerza."
+    },
+    "healthcare_use": {
+      "estado": "dato",
+      "valor": "Sí",
+      "fuentes": [
+        {
+          "ref": "F14"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "La FT-146 menciona hospitales; sin rieles que acumulen polvo."
+    },
+    "maintenance_frequency": {
+      "estado": "dato",
+      "valor": 12,
+      "calificador": "=",
+      "unidad": "meses",
+      "fuentes": [
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Revisión y lubricación anual de herrajes."
+    },
+    "maintenance_actions": {
+      "estado": "dato",
+      "valor": "Lubricar y ajustar herrajes (bisagras, cremona); limpiar drenajes; revisar empaques EPDM y silicón; lavar con jabón neutro",
+      "fuentes": [
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "repairability": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Herrajes específicos del sistema."
+    },
+    "replaceability": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Hojas pesadas; cambio del DVH por especialista."
+    },
+    "common_failures": {
+      "estado": "dato",
+      "valor": [
+        "Descuelgue de la hoja",
+        "desajuste del herraje",
+        "pérdida de hermeticidad del DVH (empañamiento interno)",
+        "desgaste de empaques"
+      ],
+      "fuentes": [
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "failure_causes": {
+      "estado": "dato",
+      "valor": [
+        "Sobrepeso de la hoja",
+        "falta de ajuste y lubricación",
+        "mala instalación del DVH",
+        "sol y humedad"
+      ],
+      "fuentes": [
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "corrective_action": {
+      "estado": "dato",
+      "valor": "Ajustar bisagras y cremona, cambiar empaques, reemplazar la unidad DVH empañada",
+      "fuentes": [
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "origin": {
+      "estado": "dato",
+      "valor": "Nacional",
+      "fuentes": [
+        {
+          "ref": "F7"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Perfil nacional; herrajes y lingote importados."
+    },
+    "transport_distance": {
+      "estado": "dato",
+      "valor_texto_original": "≈ 40 (GAM) – 250 (La Cruz)",
+      "fuentes": [
+        {
+          "ref": "F7"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "recycled_content": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "F5"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "renewable": {
+      "estado": "dato",
+      "valor": "No",
+      "evidencia": "E1"
+    },
+    "reusable": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "recyclable": {
+      "estado": "dato",
+      "valor": "Sí",
+      "fuentes": [
+        {
+          "ref": "F5"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Separar DVH, herrajes y empaques."
+    },
+    "installation_waste": {
+      "estado": "dato",
+      "valor": 2,
+      "fuentes": [
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "epd_available": {
+      "estado": "dato",
+      "valor": "No",
+      "fuentes": [
+        {
+          "ref": "F14"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "embodied_carbon": {
+      "estado": "dato",
+      "valor": 85.0,
+      "calificador": "≈",
+      "unidad": "kgCO2e/m²",
+      "fuentes": [
+        {
+          "ref": "R05"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Texto original: ≈ 85 (con DVH) · Estimado: 8 kg de aluminio × 6,08 ≈ 49 + 30 kg de vidrio × ≈ 1,2 ≈ 36."
+    },
+    "embodied_carbon_modules": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "environmental_certification": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "F7"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "end_of_life": {
+      "estado": "dato",
+      "valor": [
+        "Reciclaje"
+      ],
+      "fuentes": [
+        {
+          "ref": "F5"
+        }
+      ],
+      "evidencia": "E4"
+    },
+    "cr_region": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "seismic_condition": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "tradition_type": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "cr_standard": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "plan_requirements": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "advantages": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "limitations": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "graphics": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "opening_type": {
+      "estado": "dato",
+      "valor": "Abatible de apertura interna; oscilobatiente",
+      "fuentes": [
+        {
+          "ref": "F14"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "La serie EXT45 también ofrece corrediza (FT-142) y elevable (FT-143 a FT-145)."
+    },
+    "frame_material": {
+      "estado": "dato",
+      "valor": "Aluminio AA6063-T5 sin rotura de puente térmico declarada",
+      "fuentes": [
+        {
+          "ref": "F14"
+        },
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "air_tightness": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "F14"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Sin ensayo publicado; por el cierre perimetral se espera una hermeticidad alta."
+    },
+    "glass_type": {
+      "estado": "dato",
+      "valor": "Templado FUERTEX®; laminado VILAX® (incluye SentryGlass®); DVH",
+      "fuentes": [
+        {
+          "ref": "F14"
+        },
+        {
+          "ref": "F15"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "glass_thickness": {
+      "estado": "dato",
+      "valor_texto_original": "6 – 12 (monolítico); DVH 24 – 30",
+      "fuentes": [
+        {
+          "ref": "F14"
+        },
+        {
+          "ref": "F15"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Separador del DVH de 11,5–16 mm."
+    },
+    "chamber_count": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "F14"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Perfil tubular de aluminio; no declara cámaras aislantes."
+    },
+    "shgc": {
+      "estado": "dato",
+      "min": 0.7,
+      "max": 0.76,
+      "calificador": "rango",
+      "unidad": "0–1",
+      "fuentes": [
+        {
+          "ref": "R03"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "DVH claro/claro de aire; con vidrio de control solar puede bajar a 0,3–0,4."
+    },
+    "visible_transmittance": {
+      "estado": "dato",
+      "min": 0.78,
+      "max": 0.81,
+      "calificador": "rango",
+      "unidad": "0–1",
+      "fuentes": [
+        {
+          "ref": "R03"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "DVH claro/claro."
+    },
+    "water_tightness": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "F14"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Sin ensayo publicado."
+    },
+    "wind_load": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "F14"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Sin ensayo publicado."
+    },
+    "effective_opening": {
+      "estado": "dato",
+      "valor": 100.0,
+      "calificador": "≈",
+      "unidad": "%",
+      "fuentes": [
+        {
+          "ref": "F14"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "La hoja abatible libera todo el vano; en posición oscilante solo ventila por arriba."
+    },
+    "solar_protection": {
+      "estado": "dato",
+      "valor": "No integrada",
+      "fuentes": [
+        {
+          "ref": "F14"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Puede especificarse DVH con vidrio de control solar o bajo emisivo."
+    },
+    "safety_glass": {
+      "estado": "dato",
+      "valor": "Sí",
+      "fuentes": [
+        {
+          "ref": "F14"
+        },
+        {
+          "ref": "F15"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Solo se ofrece con FUERTEX® templado, VILAX® laminado o DVH."
+    }
+  },
+  "fuentes": [
+    {
+      "id": "PROPIO",
+      "cita": "Elaboración propia del estudiante (TP1).",
+      "tipo": "elaboracion_propia"
+    },
+    {
+      "id": "F10",
+      "cita": "Investigación propia TP Ventanería (presentación, matriz de aplicabilidad y problemas comunes observados en Costa Rica)."
+    },
+    {
+      "id": "F14",
+      "cita": "Extralum. FT-146 Sistema Abatible EXT45, versión 9. https://www.extralum.com/wp-content/uploads/2023/07/FT-146-Sistema-Abatible-EXT-45.pdf",
+      "url": "https://www.extralum.com/wp-content/uploads/2023/07/FT-146-Sistema-Abatible-EXT-45.pdf"
+    },
+    {
+      "id": "F15",
+      "cita": "Extralum. Ventanas abatibles – EXT45 (página del sistema). https://www.extralum.com/sistemas/ventanas/abatibles/",
+      "url": "https://www.extralum.com/sistemas/ventanas/abatibles/"
+    },
+    {
+      "id": "F17",
+      "cita": "Ficha técnica Sistema Euro-Design 60 (Abasur, distribuidor REHAU, 2025). https://abasur.com.uy/wp-content/uploads/2025/02/Euro-design-60-_Ficha.pdf",
+      "url": "https://abasur.com.uy/wp-content/uploads/2025/02/Euro-design-60-_Ficha.pdf"
+    },
+    {
+      "id": "F4",
+      "cita": "Vitrocentro. \"Ventanas de aluminio: precio en Costa Rica\" (14-abr-2026). https://vitrocentro.com/consejos/ventanas-de-aluminio-precio/",
+      "url": "https://vitrocentro.com/consejos/ventanas-de-aluminio-precio/"
+    },
+    {
+      "id": "F5",
+      "cita": "Aluminum Association. EPD Extruded Aluminum (2022, válida a 2027). https://www.aluminum.org/sites/default/files/2022-10/104.1_EPD_AA_Extrusion.pdf",
+      "url": "https://www.aluminum.org/sites/default/files/2022-10/104.1_EPD_AA_Extrusion.pdf"
+    },
+    {
+      "id": "F6",
+      "cita": "Macrisal. Tabla de aislamiento acústico de vidrios (valores Rw). https://www.macrisal.com/articulos/tabla-aislamiento-acustico-vidrios/",
+      "url": "https://www.macrisal.com/articulos/tabla-aislamiento-acustico-vidrios/"
+    },
+    {
+      "id": "F7",
+      "cita": "Extralum. Conózcanos (planta en Parque Activa, Grecia, Alajuela). https://www.extralum.com/conozcanos/",
+      "url": "https://www.extralum.com/conozcanos/"
+    },
+    {
+      "id": "F8",
+      "cita": "ISO 10077-1 / CTE España, Catálogo de Elementos Constructivos: Uf de marco metálico sin rotura de puente térmico = 5,7 W/m²·K."
+    },
+    {
+      "id": "F9",
+      "cita": "EN 13501-1 y Decisión 96/603/CE: vidrio y aluminio clasificados A1 sin necesidad de ensayo."
+    },
+    {
+      "id": "R03",
+      "cita": "Literatura técnica"
+    },
+    {
+      "id": "R05",
+      "cita": "Cálculo con F5"
+    },
+    {
+      "id": "R08",
+      "cita": "Cálculo con F14"
+    },
+    {
+      "id": "R09",
+      "cita": "Cálculo"
+    }
+  ]
+}

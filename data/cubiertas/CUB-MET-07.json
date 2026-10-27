@@ -1,0 +1,1229 @@
+{
+  "schema_version": "1.0",
+  "meta": {
+    "id": "CUB-MET-07",
+    "componente": "CUB",
+    "autor": "Jorge Rodríguez",
+    "estado_revision": "borrador",
+    "fecha_actualizacion": "2026-10-26",
+    "id_legado": "CUB-MET-05",
+    "origen_migracion": {
+      "archivo": "TP1_Ficha_Jorge_Cubiertas_250927.xlsx",
+      "hoja": "Ficha CUB-MET-06"
+    }
+  },
+  "campos": {
+    "id": {
+      "estado": "dato",
+      "valor": "CUB-MET-07",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "name": {
+      "estado": "dato",
+      "valor": "Cubierta tipo bandeja (standing seam) acero Zn-Al prepintado cal. 24",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ]
+    },
+    "record_type": {
+      "estado": "dato",
+      "valor": "sistema",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ]
+    },
+    "component": {
+      "estado": "dato",
+      "valor": "CUB"
+    },
+    "subcategory": {
+      "estado": "dato",
+      "valor": "Junta alzada (standing seam)",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ]
+    },
+    "country": {
+      "estado": "dato",
+      "valor": "CR",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ]
+    },
+    "manufacturer": {
+      "estado": "dato",
+      "valor": "Varios (perfiles genéricos tipo KR-18/SSR, Klip-Lok, 238T, etc.)",
+      "fuentes": [
+        {
+          "ref": "R93"
+        },
+        {
+          "ref": "R94"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Sistema genérico. No se logró verificar en línea una ficha técnica de un fabricante costarricense específico de junta alzada (Metalco publica solo cubierta ondulada, rectangular, teja y canaleta). Los datos de perfil provienen de fabricantes de México (Ternium KR-18) y EE.UU. (McElroy)."
+    },
+    "supplier": {
+      "estado": "no_disponible",
+      "evidencia": "E1",
+      "nota": "No se verificó en línea un proveedor/instalador CR con ficha pública; el sistema se suele contratar a instaladores con perfiladora portátil. Confirmar con Metalco, Demasa, ArcelorMittal CR o contratistas de techos industriales."
+    },
+    "description": {
+      "estado": "dato",
+      "valor": "Cubierta de lámina continua de acero con recubrimiento Zn-Al (AZ) prepintado, perfilada en sitio en bandejas de junta alzada (≈45,7 cm de ancho útil y ≈6,35 cm de peralte en el tipo KR-18), unidas por engatillado mecánico (engargolado) o encaje a presión y fijadas a la estructura con clips ocultos, sin perforar la lámina. Pensada para pendientes bajas y claros largos sin traslapes transversales.",
+      "fuentes": [
+        {
+          "ref": "R93"
+        },
+        {
+          "ref": "R95"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "keywords": {
+      "estado": "dato",
+      "valor": [
+        "junta alzada",
+        "standing seam",
+        "engatillado",
+        "engargolado",
+        "KR-18",
+        "clip oculto",
+        "fijación oculta",
+        "Zn-Al",
+        "Galvalume",
+        "Zintroalum",
+        "lámina continua",
+        "perfilado en sitio",
+        "pendiente baja"
+      ],
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ]
+    },
+    "main_material": {
+      "estado": "dato",
+      "valor": "Acero con recubrimiento metálico aleación aluminio-zinc (AZ50/AZ55, ASTM A792) prepintado (ASTM A755), calibre 24 (≈0,6 mm)",
+      "fuentes": [
+        {
+          "ref": "R95"
+        },
+        {
+          "ref": "R94"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Acerored indica recubrimiento Zintroalum AZ-50 y prepintado Pintro (epóxico+poliéster); McElroy estándar 24 GA Galvalume. En CR la norma equivalente para prepintado es INTE C406 (ASTM A755)."
+    },
+    "secondary_materials": {
+      "estado": "dato",
+      "valor": [
+        "Clips de acero galvanizado (fijos y deslizantes)",
+        "Tornillos autotaladrantes galvanizados 1/4\" x 1\"",
+        "Remaches",
+        "Sellador de junta (mastique butílico)",
+        "Cierres de espuma (closures)",
+        "Tapajuntas/botaguas de lámina prepintada"
+      ],
+      "fuentes": [
+        {
+          "ref": "R95"
+        },
+        {
+          "ref": "R94"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "layers": {
+      "estado": "dato",
+      "valor": [
+        "Estructura de soporte (clavadores/largueros metálicos o deck)",
+        "Aislamiento térmico / barrera de vapor (opcional)",
+        "Clip oculto atornillado al soporte",
+        "Lámina de junta alzada Zn-Al prepintada",
+        "Junta engatillada con sellador"
+      ],
+      "fuentes": [
+        {
+          "ref": "R93"
+        },
+        {
+          "ref": "R94"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "El orden de aislamiento depende del sistema; KR-18 declara compatibilidad con fibra de vidrio, poliestireno extruido y poliisocianurato."
+    },
+    "total_thickness": {
+      "estado": "dato",
+      "valor": 0.61,
+      "calificador": "=",
+      "unidad": "mm",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Espesor nominal de la lámina calibre 24 (0,0239 in ≈ 0,61 mm, incluyendo recubrimientos aprox.). Altura de la junta (peralte) del perfil KR-18: 63,5 mm (Acerored). El espesor real varía por fabricante; verificar ficha."
+    },
+    "commercial_dimensions": {
+      "estado": "dato",
+      "valor": "Ancho útil 45,72 cm (KR-18); peralte 6,35 cm; calibres 20, 22, 24, 26; largo continuo a medida perfilado en sitio hasta ~70 m (de planta 2,00–12,20 m). Otros perfiles: anchos 30–61 cm y juntas de 35–60 mm.",
+      "fuentes": [
+        {
+          "ref": "R95"
+        },
+        {
+          "ref": "R94"
+        },
+        {
+          "ref": "R96"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "density": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "surface_mass": {
+      "estado": "dato",
+      "valor": 5.85,
+      "calificador": "=",
+      "unidad": "kg/m²",
+      "fuentes": [
+        {
+          "ref": "R93"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Calibre 24 KR-18 (Ternium/AceroMart). Cal. 26: 4,99 kg/m²; cal. 22: 8,35 kg/m². Sin aislamiento."
+    },
+    "surface_finish": {
+      "estado": "dato",
+      "valor": "Prepintado de fábrica en bobina: primario + pintura de acabado poliéster (SMP/poliéster) o PVDF (Kynar 500) sobre Zn-Al; reverso con backer; también Zn-Al natural (Galvalume Plus con acrílico)",
+      "fuentes": [
+        {
+          "ref": "R95"
+        },
+        {
+          "ref": "R94"
+        },
+        {
+          "ref": "R97"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Metalco CR usa en sus láminas sistema primario 5 µm + color RUV4 18 µm + backer 10 µm (referencia de sistema de pintura local)."
+    },
+    "support_system": {
+      "estado": "dato",
+      "valor": "Clavadores/largueros metálicos (perfiles C o Z) en claros típicos de 1,0–1,75 m para cal. 24 según carga, o cubierta sólida (deck) según perfil",
+      "fuentes": [
+        {
+          "ref": "R93"
+        },
+        {
+          "ref": "R94"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "KR-18: claros máximos 1,0–1,75 m según calibre y número de apoyos. Perfiles de junta baja (138T) requieren deck sólido; 238T acepta estructura abierta."
+    },
+    "fastening": {
+      "estado": "dato",
+      "valor": "Fijación oculta mediante clips (fijos en un punto y deslizantes en el resto para absorber dilatación térmica), cada clip con 2 tornillos autotaladrantes galvanizados 1/4\" x 1\"; la lámina no se perfora",
+      "fuentes": [
+        {
+          "ref": "R95"
+        },
+        {
+          "ref": "R94"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "joints_seals": {
+      "estado": "dato",
+      "valor": "Junta longitudinal engatillada (engargolada) con máquina cerradora o de encaje a presión (snap-lock), con sellador de fábrica en la junta; sin traslapes transversales si se usa lámina continua; cierres de espuma en alero y cumbrera; tapajuntas, cumbrera, botaguas y canoas de lámina prepintada",
+      "fuentes": [
+        {
+          "ref": "R94"
+        },
+        {
+          "ref": "R95"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "installation_sequence": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "tools_labor": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "critical_point": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "recommended_uses": {
+      "estado": "dato",
+      "valor": [
+        "Cubiertas de naves industriales y bodegas",
+        "Edificios comerciales y centros comerciales",
+        "Edificios institucionales y educativos",
+        "Cubiertas de baja pendiente y grandes luces",
+        "Sustitución/re-techado de cubiertas existentes",
+        "Cubiertas con paneles solares (fijación con abrazaderas a la junta)"
+      ],
+      "fuentes": [
+        {
+          "ref": "R93"
+        },
+        {
+          "ref": "R98"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "building_types": {
+      "estado": "dato",
+      "valor": [
+        "Comercial",
+        "Institucional",
+        "Industrial",
+        "Salud",
+        "Vivienda"
+      ],
+      "fuentes": [
+        {
+          "ref": "R93"
+        },
+        {
+          "ref": "R98"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Uso predominante comercial, institucional e industrial; en vivienda y salud es posible pero menos frecuente en CR."
+    },
+    "location": {
+      "estado": "dato",
+      "valor": "Exterior",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "climates": {
+      "estado": "dato",
+      "valor": "Tropical húmedo lluvioso | Tropical seco | Zonas de lluvias intensas | Zonas de viento alto (con diseño de clips) | Costero (condicionado: ver restricciones)",
+      "fuentes": [
+        {
+          "ref": "R98"
+        },
+        {
+          "ref": "R99"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Muy adecuada para lluvias intensas por ausencia de perforaciones; en ambiente marino el sustrato Zn-Al tiene exclusión de garantía."
+    },
+    "imn_subregions": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "compatibility": {
+      "estado": "dato",
+      "valor": "Compatible con acero galvanizado/Zn-Al, aluminio, acero inoxidable, aislamientos de fibra de vidrio, poliestireno extruido y poliisocianurato. Incompatible con contacto o escorrentía de plomo, cobre o grafito, madera húmeda o tratada, concreto/mortero fresco y aislamientos húmedos.",
+      "fuentes": [
+        {
+          "ref": "R93"
+        },
+        {
+          "ref": "R99"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "use_restrictions": {
+      "estado": "pendiente",
+      "fuentes": [
+        {
+          "ref": "R99"
+        },
+        {
+          "ref": "R93"
+        },
+        {
+          "ref": "R100"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "labor_specialization": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "R95"
+        },
+        {
+          "ref": "R94"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Requiere perfiladora portátil, máquina engatilladora, control de clips fijos/deslizantes y detalles de remates; instaladores certificados suelen exigirse para garantías de estanqueidad."
+    },
+    "installation_complexity": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "R95"
+        },
+        {
+          "ref": "R94"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Mayor que lámina trapezoidal atornillada: perfilado en sitio, izado de láminas largas, alineación, clips y engatillado."
+    },
+    "national_availability": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Se usa en proyectos comerciales/industriales en CR, pero no se verificó en línea una ficha técnica de un fabricante o distribuidor nacional; oferta concentrada en contratistas especializados."
+    },
+    "installation_time": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "El perfilado en sitio en largos continuos elimina traslapes, pero clips y engatillado añaden tiempo frente a lámina trapezoidal atornillada."
+    },
+    "relative_cost": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "R96"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Costo superior a lámina ondulada/trapezoidal por clips, calibre 24, perfilado y mano de obra especializada; se describe como opción de gama alta."
+    },
+    "price_range": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "R96"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "No se encontró precio publicado en CR. Referencia Colombia (Ingetecho, solo material, sin transporte ni IVA): COP 36 378–51 200/m², cal. 26–24. Solicitar cotización local."
+    },
+    "mechanical_resistance": {
+      "estado": "dato",
+      "valor": "Acero ASTM A653 grado 37 (KR-18); capacidad de carga según tablas del fabricante para claros de 1,0–1,75 m",
+      "fuentes": [
+        {
+          "ref": "R93"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "impact_resistance": {
+      "estado": "dato",
+      "valor": "UL 2218 Clase 4 (perfil 138T/238T, 24 GA)",
+      "fuentes": [
+        {
+          "ref": "R94"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Valor de un fabricante EE.UU.; depende del perfil y calibre."
+    },
+    "abrasion_resistance": {
+      "estado": "no_disponible",
+      "evidencia": "E1",
+      "nota": "No se encontró ensayo de abrasión específico; el recubrimiento puede rayarse por tránsito o herramientas."
+    },
+    "durability_years": {
+      "estado": "dato",
+      "valor": 45,
+      "calificador": "=",
+      "unidad": "años",
+      "fuentes": [
+        {
+          "ref": "R99"
+        },
+        {
+          "ref": "R101"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Garantía limitada del sustrato Zn-Al AZ55 sin pintar: 45 años; AZ50 pintado: hasta 50 años (Sheffield) fuera de ambiente marino. Vida real depende del ambiente y mantenimiento."
+    },
+    "water_absorption": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Sin ensayo publicado. Acero recubierto y pintado: material no poroso, absorción despreciable."
+    },
+    "moisture_resistance": {
+      "estado": "dato",
+      "valor": 5,
+      "fuentes": [
+        {
+          "ref": "R98"
+        },
+        {
+          "ref": "R102"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Sistema sin perforaciones y juntas elevadas por encima del plano de agua; alta hermeticidad."
+    },
+    "condensation_risk": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "R99"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Lámina metálica de baja masa y alta conductividad: sin aislamiento/barrera de vapor hay alto riesgo de condensación en la cara inferior, lo que además afecta la garantía."
+    },
+    "corrosion_resistance": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "R99"
+        },
+        {
+          "ref": "R101"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Zn-Al + pintura ofrece buena resistencia en ambientes rurales/urbanos; baja en ambientes marinos o con agentes agresivos. Bordes cortados y rayones son puntos débiles."
+    },
+    "uv_resistance": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "R94"
+        },
+        {
+          "ref": "R97"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Pinturas poliéster/SMP presentan caleo y pérdida de color con el tiempo; PVDF mejora la retención. El sustrato metálico no se degrada por UV."
+    },
+    "marine_environment": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "R99"
+        }
+      ],
+      "evidencia": "E3",
+      "nota": "Garantías Zn-Al excluyen áreas a menos de 1500 ft (~457 m) del agua salada o con rocío salino; considerar aluminio o sistemas de pintura de alto desempeño."
+    },
+    "vapor_permeability": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "thermal_conductivity": {
+      "estado": "no_disponible",
+      "evidencia": "E1",
+      "nota": "No aplicable como dato de sistema; el acero tiene conductividad muy alta y su aporte a la resistencia térmica es despreciable."
+    },
+    "specific_heat": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "thermal_resistance": {
+      "estado": "no_disponible",
+      "evidencia": "E1",
+      "nota": "Sin aislamiento la resistencia del sistema es despreciable; depende del aislamiento añadido."
+    },
+    "u_value": {
+      "estado": "no_disponible",
+      "evidencia": "E1",
+      "nota": "Depende del aislamiento incorporado; no se encontró valor verificado del sistema."
+    },
+    "solar_reflectance": {
+      "estado": "dato",
+      "min": 0.25,
+      "max": 0.68,
+      "calificador": "rango",
+      "unidad": "0–1",
+      "fuentes": [
+        {
+          "ref": "R103"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Varía con el color: blanco ≈0,68, almendra ≈0,63, gris ≈0,37, rojo colonial ≈0,34, negro ≈0,25 (Zn-Al pintado, datos declarados ASTM E1980). Zn-Al natural 0,75 inicial y 0,50 envejecido."
+    },
+    "thermal_emittance": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "sri": {
+      "estado": "dato",
+      "min": 22.0,
+      "max": 85.0,
+      "calificador": "rango",
+      "unidad": "adimensional",
+      "fuentes": [
+        {
+          "ref": "R103"
+        },
+        {
+          "ref": "R104"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Blanco hasta ≈85; colores oscuros ≈22. Zn-Al sin pintar SRI 68 inicial, 26 envejecido (baja emitancia). Verificar SRI del color en CRRC."
+    },
+    "sound_insulation": {
+      "estado": "no_disponible",
+      "evidencia": "E1",
+      "nota": "No se encontró Rw/STC verificado para lámina sola; depende del aislamiento y cielo."
+    },
+    "sound_absorption": {
+      "estado": "no_disponible",
+      "evidencia": "E1",
+      "nota": "Lámina metálica sin perforar: absorción prácticamente nula; no se encontró valor publicado."
+    },
+    "fire_reaction": {
+      "estado": "dato",
+      "valor": "A1 (EN 13501-1, sin ensayo) si el recubrimiento poliéster ≤25 µm y ≤1,0 MJ/m²; UL 790/UL 263 Clase A declarada en perfiles de EE.UU.",
+      "fuentes": [
+        {
+          "ref": "R105"
+        },
+        {
+          "ref": "R94"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Decisión 2010/737/UE: chapa de acero 0,40–1,50 mm con recubrimiento poliéster ≤25 µm, reverso ≤15 µm. PVDF u otros recubrimientos requieren verificación."
+    },
+    "fire_resistance": {
+      "estado": "no_disponible",
+      "evidencia": "E1",
+      "nota": "La lámina por sí sola no aporta resistencia al fuego; depende del ensamblaje."
+    },
+    "smoke_class": {
+      "estado": "no_disponible",
+      "evidencia": "E1",
+      "nota": "Clase A1 implica aporte despreciable; no se encontró clasificación s1/s2 específica ni ASTM E84 del sistema."
+    },
+    "voc_emissions": {
+      "estado": "no_disponible",
+      "evidencia": "E1",
+      "nota": "Pintura aplicada y curada en fábrica (coil coating); no se encontró dato de emisión en uso."
+    },
+    "hazardous_substances": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Verificar ausencia de cromatos/plomo en pretratamiento y pintura con el fabricante."
+    },
+    "cleanability": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Superficie lisa prepintada, se limpia con agua y detergente suave; sin tornillos expuestos que acumulen suciedad."
+    },
+    "accessibility": {
+      "estado": "no_aplica",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "directamente (componente de cubierta)"
+    },
+    "healthcare_use": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Adecuada como cubierta exterior; exige control de condensación, ruido de lluvia y aislamiento térmico en recintos de salud."
+    },
+    "maintenance_frequency": {
+      "estado": "dato",
+      "valor": 12,
+      "calificador": "=",
+      "unidad": "meses",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Inspección y limpieza anual (idealmente antes de la estación lluviosa) y tras eventos de viento fuerte; en ambientes costeros o industriales, semestral."
+    },
+    "maintenance_actions": {
+      "estado": "dato",
+      "valor": "Limpiar hojas, sedimentos y limaduras metálicas; revisar juntas engatilladas, remates, tapajuntas y selladores; verificar canoas y bajantes; retocar rayones y bordes cortados con pintura compatible; revisar anclajes de equipos o paneles solares sobre la junta.",
+      "fuentes": [
+        {
+          "ref": "R99"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "repairability": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Retoques de pintura y sellos son sencillos, pero reparar una bandeja dañada exige desengatillar y reemplazar lámina continua de gran longitud."
+    },
+    "replaceability": {
+      "estado": "dato",
+      "valor": 2,
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Sustituir una bandeja de largo continuo requiere perfiladora en sitio y abrir juntas adyacentes."
+    },
+    "common_failures": {
+      "estado": "dato",
+      "valor": [
+        "Filtraciones en remates, cumbreras y penetraciones",
+        "Desengatillado o apertura de juntas por succión de viento",
+        "Arrugas u ondulación (oil canning)",
+        "Corrosión en bordes cortados y rayones",
+        "Caleo y decoloración de pintura",
+        "Condensación bajo la lámina",
+        "Ruido o deformaciones por dilatación térmica restringida"
+      ],
+      "fuentes": [
+        {
+          "ref": "R106"
+        },
+        {
+          "ref": "R99"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "failure_causes": {
+      "estado": "dato",
+      "valor": [
+        "Clips mal espaciados o insuficientes para la carga de viento",
+        "Uso de solo clips fijos sin clips deslizantes",
+        "Engatillado incompleto",
+        "Pendiente inferior a la mínima",
+        "Contacto con metales incompatibles o escorrentía de cobre",
+        "Rayado durante perfilado/instalación",
+        "Falta de barrera de vapor/ventilación",
+        "Ambiente marino"
+      ],
+      "fuentes": [
+        {
+          "ref": "R99"
+        },
+        {
+          "ref": "R106"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "corrective_action": {
+      "estado": "dato",
+      "valor": "Re-engatillar y sellar juntas abiertas; añadir o reubicar clips según cálculo de viento; reemplazar tapajuntas y selladores deteriorados; limpiar y repintar zonas corroídas; sustituir bandejas perforadas o muy deformadas.",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "origin": {
+      "estado": "dato",
+      "valor": "Importado",
+      "fuentes": [
+        {
+          "ref": "R97"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Bobinas de acero Zn-Al importadas; el perfilado se realiza localmente en sitio (valor agregado nacional)."
+    },
+    "transport_distance": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "recycled_content": {
+      "estado": "dato",
+      "valor": 25,
+      "calificador": "=",
+      "unidad": "%",
+      "fuentes": [
+        {
+          "ref": "R107"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Valor por defecto LEED para acero (post-consumo); puede ser mayor según ruta de producción (EAF). Solicitar dato del proveedor de la bobina."
+    },
+    "renewable": {
+      "estado": "dato",
+      "valor": "No",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "reusable": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Al ser de fijación oculta, las bandejas pueden desmontarse sin perforaciones, pero su largo a medida limita el reúso en otro proyecto."
+    },
+    "recyclable": {
+      "estado": "dato",
+      "valor": "Sí",
+      "fuentes": [
+        {
+          "ref": "R108"
+        },
+        {
+          "ref": "R107"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Acero 100 % reciclable; EPD-1045 considera tasa de reciclaje de 95 % al fin de vida."
+    },
+    "installation_waste": {
+      "estado": "dato",
+      "valor": 1,
+      "fuentes": [
+        {
+          "ref": "R102"
+        },
+        {
+          "ref": "R95"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Perfilado a medida en sitio: prácticamente cero desperdicio de lámina."
+    },
+    "epd_available": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "R109"
+        },
+        {
+          "ref": "R108"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Existen EPD de industria (MCA, EE.UU.) y de fabricantes específicos; no se identificó EPD de un proveedor en CR."
+    },
+    "embodied_carbon": {
+      "estado": "dato",
+      "valor": 9.47,
+      "calificador": "=",
+      "unidad": "kgCO2e/m²",
+      "fuentes": [
+        {
+          "ref": "R109"
+        }
+      ],
+      "evidencia": "E3",
+      "nota": "EPD de industria MCA, A1–A3, promedio de láminas perfiladas de acero prepintado (4,2 kg/m²). Para cal. 24 (5,85 kg/m²) el valor sería proporcionalmente mayor. Rango de EPD-1045: 6,3–19,8 kgCO₂e/m²."
+    },
+    "embodied_carbon_modules": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "environmental_certification": {
+      "estado": "no_disponible",
+      "evidencia": "E1",
+      "nota": "Puede aportar a LEED (contenido reciclado, techo frío según SRI del color)."
+    },
+    "end_of_life": {
+      "estado": "dato",
+      "valor": [
+        "Reciclaje",
+        "Reutilización"
+      ],
+      "fuentes": [
+        {
+          "ref": "R108"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "cr_region": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "seismic_condition": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "tradition_type": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "cr_standard": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "plan_requirements": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "advantages": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "limitations": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "graphics": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "minimum_slope": {
+      "estado": "dato",
+      "valor": 2,
+      "calificador": "=",
+      "unidad": "%",
+      "fuentes": [
+        {
+          "ref": "R93"
+        },
+        {
+          "ref": "R95"
+        },
+        {
+          "ref": "R94"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "KR-18 engargolado: hasta 2 %. Perfil 238T mecánico: 1/2:12 (≈4,2 %); perfiles de encaje a presión/junta baja: 1:12 (≈8,3 %). Garantías Zn-Al excluyen pendientes <1/4:12 (≈2 %)."
+    },
+    "maximum_length": {
+      "estado": "dato",
+      "valor": 70,
+      "calificador": "=",
+      "unidad": "m",
+      "fuentes": [
+        {
+          "ref": "R95"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Perfilado en sitio hasta ~70 m (KR-18); de planta 2,00–12,20 m. Longitudes grandes requieren detallar dilatación (clips deslizantes)."
+    },
+    "overlap_system": {
+      "estado": "dato",
+      "valor": "Sin traslape transversal (lámina continua de alero a cumbrera); unión longitudinal por junta alzada engatillada (engargolada) mecánicamente o de encaje a presión, con sellador en la junta",
+      "fuentes": [
+        {
+          "ref": "R93"
+        },
+        {
+          "ref": "R94"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "waterproofing": {
+      "estado": "dato",
+      "valor": [
+        "Junta alzada engatillada con sellador",
+        "Fijación oculta sin perforaciones",
+        "Cierres de espuma y tapajuntas"
+      ],
+      "fuentes": [
+        {
+          "ref": "R98"
+        },
+        {
+          "ref": "R94"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "wind_uplift": {
+      "estado": "dato",
+      "valor": 5027,
+      "calificador": "=",
+      "unidad": "Pa",
+      "fuentes": [
+        {
+          "ref": "R94"
+        },
+        {
+          "ref": "R110"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "UL 580 Clase 90 declarada para 138T/238T (24 GA); la Clase 90 corresponde a una presión combinada de 105 psf ≈ 5027 Pa (ensayo pasa/no pasa). Diseño real según ASTM E1592 y separación de clips; en CR, presión mínima de componentes 80 kg/m² (≈785 Pa) según Lineamientos CFIA 2023."
+    },
+    "rain_noise": {
+      "estado": "dato",
+      "valor": 61,
+      "calificador": "=",
+      "unidad": "dB",
+      "fuentes": [
+        {
+          "ref": "R111"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "≈61 dBA lámina metálica sobre estructura abierta sin aislamiento vs ≈52 dBA en ensamblaje completo con aislamiento/deck (Univ. de Luleå citada por McElroy). Equivale a nivel 4/5 sin aislamiento."
+    },
+    "walkability": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Transitable solo para mantenimiento, pisando sobre apoyos y cerca de las juntas; evitar pisar en el centro de la bandeja (abolladuras, oil canning)."
+    },
+    "insulation_compatibility": {
+      "estado": "dato",
+      "valor": [
+        "Fibra de vidrio",
+        "Poliestireno extruido",
+        "Poliisocianurato",
+        "Panel sándwich de junta alzada con poliuretano"
+      ],
+      "fuentes": [
+        {
+          "ref": "R93"
+        },
+        {
+          "ref": "R102"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "coating_life": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "R101"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "No se verificó garantía de pintura específica (SMP/PVDF) para CR; la garantía de sustrato Zn-Al pintado AZ50 llega a 50 años en EE.UU. Solicitar garantía de película al proveedor."
+    },
+    "roof_accessories": {
+      "estado": "dato",
+      "valor": [
+        "Clips fijos y deslizantes",
+        "Tornillos autotaladrantes galvanizados",
+        "Cumbrera",
+        "Tapajuntas y botaguas",
+        "Remates de alero y hastial",
+        "Cierres de espuma",
+        "Sellador butílico",
+        "Canoas y bajantes",
+        "Abrazaderas de junta (sin perforar) para equipos/paneles solares"
+      ],
+      "fuentes": [
+        {
+          "ref": "R95"
+        },
+        {
+          "ref": "R94"
+        }
+      ],
+      "evidencia": "E5"
+    }
+  },
+  "fuentes": [
+    {
+      "id": "PROPIO",
+      "cita": "Elaboración propia del estudiante (TP1).",
+      "tipo": "elaboracion_propia"
+    },
+    {
+      "id": "R100",
+      "cita": "CFIA, Lineamientos para el diseño por viento de edificaciones en Costa Rica (Alcance 48, La Gaceta 52, 2023) - https://cfia.or.cr/site/wp-content/uploads/2024/pdf/descargas/reglamentos/ejercicio/lineamientos-tecnicos-para-el-calculo-y-la-aplicacion-de-las-fuerzas-de-viento-en-el-disenio-y-construccion-de-edificaciones-en-costa-rica.pdf",
+      "url": "https://cfia.or.cr/site/wp-content/uploads/2024/pdf/descargas/reglamentos/ejercicio/lineamientos-tecnicos-para-el-calculo-y-la-aplicacion-de-las-fuerzas-de-viento-en-el-disenio-y-construccion-de-edificaciones-en-costa-rica.pdf"
+    },
+    {
+      "id": "R101",
+      "cita": "Sheffield Metals, garantías Galvalume 45/50 años - https://sheffieldmetals.com/learning-center/sheffield-metals-now-offering-45-and-50-year-galvalume-warranties/",
+      "url": "https://sheffieldmetals.com/learning-center/sheffield-metals-now-offering-45-and-50-year-galvalume-warranties/"
+    },
+    {
+      "id": "R102",
+      "cita": "Solimet, Cubierta Standing Seam - https://solimet.co/cubierta-standing-seam/",
+      "url": "https://solimet.co/cubierta-standing-seam/"
+    },
+    {
+      "id": "R103",
+      "cita": "The Roofing Brief, referencia de reflectancia/SRI (datos LBNL/CRRC) - https://theroofingbrief.com/roofing-solar-reflectance-sri-reference-2026/",
+      "url": "https://theroofingbrief.com/roofing-solar-reflectance-sri-reference-2026/"
+    },
+    {
+      "id": "R104",
+      "cita": "US DOE, Guidelines for Selecting Cool Roofs (2010) - https://www1.eere.energy.gov/buildings/publications/pdfs/corporate/coolroofguide.pdf",
+      "url": "https://www1.eere.energy.gov/buildings/publications/pdfs/corporate/coolroofguide.pdf"
+    },
+    {
+      "id": "R105",
+      "cita": "Decisión 2010/737/UE (reacción al fuego chapas de acero con recubrimiento poliéster) - https://www.legislation.gov.uk/eudn/2010/737",
+      "url": "https://www.legislation.gov.uk/eudn/2010/737"
+    },
+    {
+      "id": "R106",
+      "cita": "MBCI, ensayos de succión en junta alzada (ASTM E1592, FM 4471) - https://www.mbci.com/blog/understanding-wind-uplift-testing-standing-seam-roof-systems/",
+      "url": "https://www.mbci.com/blog/understanding-wind-uplift-testing-standing-seam-roof-systems/"
+    },
+    {
+      "id": "R107",
+      "cita": "MCA Technical Bulletin, contenido reciclado de paneles metálicos - https://metalconstruction.org/view/download.php/online-education/education-materials/edp-educational-files/recycled-content-of-metal-roofing-and-siding-panels",
+      "url": "https://metalconstruction.org/view/download.php/online-education/education-materials/edp-educational-files/recycled-content-of-metal-roofing-and-siding-panels"
+    },
+    {
+      "id": "R108",
+      "cita": "ICC-ES EPD-1045 Taylor Metal Products - https://icc-es.org/wp-content/uploads/report-directory/EPD-1045.pdf",
+      "url": "https://icc-es.org/wp-content/uploads/report-directory/EPD-1045.pdf"
+    },
+    {
+      "id": "R109",
+      "cita": "MCA, EPD industria para láminas de acero perfiladas (roll-formed cladding) - https://metalconstruction.org/view/download.php/online-education/education-materials/edp-educational-files/epd-for-formed-metal-sheets",
+      "url": "https://metalconstruction.org/view/download.php/online-education/education-materials/edp-educational-files/epd-for-formed-metal-sheets"
+    },
+    {
+      "id": "R110",
+      "cita": "ATAS Tech Tips Wind Uplift (UL 580) - https://atas.com/wp-content/uploads/2020/02/TechTipsWindUplift.pdf",
+      "url": "https://atas.com/wp-content/uploads/2020/02/TechTipsWindUplift.pdf"
+    },
+    {
+      "id": "R111",
+      "cita": "McElroy Metal, ruido de lluvia en techos metálicos (datos Univ. de Luleå) - https://blog.mcelroymetal.com/metal-roofing-and-siding/are-metal-roofs-noisy-when-it-rains",
+      "url": "https://blog.mcelroymetal.com/metal-roofing-and-siding/are-metal-roofs-noisy-when-it-rains"
+    },
+    {
+      "id": "R93",
+      "cita": "Ficha técnica KR-18 AceroMart/Ternium - https://www.aceromart.com/download/Lamina_Engargolada_SSR/KR-18-Ficha-Tecnica-AceroMart.pdf",
+      "url": "https://www.aceromart.com/download/Lamina_Engargolada_SSR/KR-18-Ficha-Tecnica-AceroMart.pdf"
+    },
+    {
+      "id": "R94",
+      "cita": "McElroy Metal 138T/238T - https://www.mcelroymetal.com/standing-seam-metal-roofing-systems/138t-238t",
+      "url": "https://www.mcelroymetal.com/standing-seam-metal-roofing-systems/138t-238t"
+    },
+    {
+      "id": "R95",
+      "cita": "Lámina engargolada KR-18, Acerored - https://www.acerored.com/lamina-engargolada-kr-18/",
+      "url": "https://www.acerored.com/lamina-engargolada-kr-18/"
+    },
+    {
+      "id": "R96",
+      "cita": "Ingetecho (Colombia), Cubierta Standing Seam 300 mm por m² - https://www.ingetecho.com/producto/cubierta-standing-seam-de-300-mm-x-por-m%C2%B2/",
+      "url": "https://www.ingetecho.com/producto/cubierta-standing-seam-de-300-mm-x-por-m%C2%B2/"
+    },
+    {
+      "id": "R97",
+      "cita": "Metalco FT Cubierta Rectangular (referencia de normas INTE/ASTM y sistema de pintura en CR) - https://metalco.net/wp-content/uploads/2024/02/FT_Cubierta-Rectangular_130224.pdf",
+      "url": "https://metalco.net/wp-content/uploads/2024/02/FT_Cubierta-Rectangular_130224.pdf"
+    },
+    {
+      "id": "R98",
+      "cita": "PROENCO Honduras, Techo Standing Seam - https://proenco.hn/techo-standing-seam-en-honduras/",
+      "url": "https://proenco.hn/techo-standing-seam-en-honduras/"
+    },
+    {
+      "id": "R99",
+      "cita": "Metal Sales, Garantía Galvalume AZ55 - https://www.metalsales.us.com/wp-content/uploads/2024/01/231208-Galvalume-Warranty.pdf",
+      "url": "https://www.metalsales.us.com/wp-content/uploads/2024/01/231208-Galvalume-Warranty.pdf"
+    }
+  ]
+}

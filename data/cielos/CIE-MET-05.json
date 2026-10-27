@@ -1,0 +1,719 @@
+{
+  "schema_version": "1.0",
+  "meta": {
+    "id": "CIE-MET-05",
+    "componente": "CIE",
+    "autor": "Sebastián",
+    "estado_revision": "borrador",
+    "fecha_actualizacion": "2026-10-26",
+    "id_legado": "CIE-05",
+    "origen_migracion": {
+      "archivo": "TP1_Ficha_Sebastian_Cielos_Completado.xlsx",
+      "hoja": "Ficha_Metalico"
+    }
+  },
+  "campos": {
+    "id": {
+      "estado": "dato",
+      "valor": "CIE-MET-05",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "name": {
+      "estado": "dato",
+      "valor": "MetalWorks Linear – Classics, artículo 5492, White, microperforado",
+      "fuentes": [
+        {
+          "ref": "R18"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "record_type": {
+      "estado": "dato",
+      "valor": "sistema",
+      "fuentes": [
+        {
+          "ref": "R18"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Clasificación del conjunto de cielo y soporte descrito."
+    },
+    "component": {
+      "estado": "dato",
+      "valor": "CIE"
+    },
+    "subcategory": {
+      "estado": "dato",
+      "valor": "Metal lineal microperforado",
+      "fuentes": [
+        {
+          "ref": "R18"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "country": {
+      "estado": "dato",
+      "valor": "CR",
+      "nota": "País de referencia de la plantilla. No indica país de fabricación."
+    },
+    "manufacturer": {
+      "estado": "dato",
+      "valor": "Armstrong World Industries",
+      "fuentes": [
+        {
+          "ref": "R19"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "supplier": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "description": {
+      "estado": "dato",
+      "valor": "Tablón lineal microperforado de acero, con vellón acústico, para interior.",
+      "fuentes": [
+        {
+          "ref": "R20"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "keywords": {
+      "estado": "dato",
+      "valor": [
+        "Acero, MetalWorks, microperforado, acústico, suspendido"
+      ],
+      "fuentes": [
+        {
+          "ref": "R21"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "main_material": {
+      "estado": "dato",
+      "valor": "Acero electrogalvanizado",
+      "fuentes": [
+        {
+          "ref": "R19"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "secondary_materials": {
+      "estado": "dato",
+      "valor": [
+        "Vellón acústico, soportes T y accesorios de montaje."
+      ],
+      "fuentes": [
+        {
+          "ref": "R22"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "No incluye el relleno opcional de fibra de vidrio en la configuración base."
+    },
+    "layers": {
+      "estado": "dato",
+      "valor": [
+        "Desde el recinto: tablón microperforado, vellón acústico y sistema de suspensión."
+      ],
+      "fuentes": [
+        {
+          "ref": "R22"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "total_thickness": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "R20"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Tablón: altura nominal 15,875 mm. Chapa: 0,7112 mm. No se declara altura total con suspensión."
+    },
+    "commercial_dimensions": {
+      "estado": "dato",
+      "valor": "2438,4 × 101,6 × 15,875 mm nominales",
+      "fuentes": [
+        {
+          "ref": "R18"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Conversión de 96 × 4 × 5/8 pulgadas. Variante 5492 de interior."
+    },
+    "density": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "surface_mass": {
+      "estado": "dato",
+      "valor": 7.860708,
+      "calificador": "=",
+      "unidad": "kg/m²",
+      "fuentes": [
+        {
+          "ref": "R19"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "kg/m² de tablones. Conversión de 1,61 lb/pie². Excluye suspensión."
+    },
+    "surface_finish": {
+      "estado": "dato",
+      "valor": "White con recubrimiento en polvo.",
+      "fuentes": [
+        {
+          "ref": "R19"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "support_system": {
+      "estado": "dato",
+      "valor": "Soporte de T principal 7177, Tes secundarias y moldura 5574.",
+      "fuentes": [
+        {
+          "ref": "R23"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "fastening": {
+      "estado": "dato",
+      "valor": "Encaje en lengüetas de soporte, resortes de presión y remaches según borde.",
+      "fuentes": [
+        {
+          "ref": "R24"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "joints_seals": {
+      "estado": "dato",
+      "valor": "Empalme 5495 para tablón de 4 pulgadas, moldura y tapas de extremo.",
+      "fuentes": [
+        {
+          "ref": "R25"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "installation_sequence": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "tools_labor": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "critical_point": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "recommended_uses": {
+      "estado": "dato",
+      "valor": [
+        "Cielo acústico interior, con integración de iluminación lineal."
+      ],
+      "fuentes": [
+        {
+          "ref": "R26"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "building_types": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "location": {
+      "estado": "dato",
+      "valor": "Interior",
+      "fuentes": [
+        {
+          "ref": "R18"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "La variante microperforada seleccionada no es la variante exterior M1."
+    },
+    "climates": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "imn_subregions": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "compatibility": {
+      "estado": "dato",
+      "valor": "Sistema de suspensión y accesorios MetalWorks/Axiom especificados.",
+      "fuentes": [
+        {
+          "ref": "R23"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "use_restrictions": {
+      "estado": "dato",
+      "valor": "Microperforados solo para interior. Almacenar secos y evitar daños del acabado.",
+      "fuentes": [
+        {
+          "ref": "R27"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "No se transfieren clases de carga de viento de los tablones exteriores sin perforar."
+    },
+    "labor_specialization": {
+      "estado": "no_disponible",
+      "nota": "Las fuentes no definen una calificación verificable de 1 a 5."
+    },
+    "installation_complexity": {
+      "estado": "no_disponible",
+      "nota": "Las fuentes no definen una calificación verificable de 1 a 5."
+    },
+    "national_availability": {
+      "estado": "no_disponible",
+      "nota": "Las fuentes no definen una calificación verificable de 1 a 5."
+    },
+    "installation_time": {
+      "estado": "no_disponible",
+      "nota": "Las fuentes no definen una calificación verificable de 1 a 5."
+    },
+    "relative_cost": {
+      "estado": "no_disponible",
+      "nota": "Las fuentes no definen una calificación verificable de 1 a 5."
+    },
+    "price_range": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "mechanical_resistance": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "impact_resistance": {
+      "estado": "dato",
+      "valor": "Resistencia al impacto indicada sin valor numérico.",
+      "fuentes": [
+        {
+          "ref": "R18"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Atributo cualitativo de la tabla. No se convierte a escala."
+    },
+    "abrasion_resistance": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "durability_years": {
+      "estado": "no_disponible",
+      "nota": "No se equipara garantía comercial con vida útil."
+    },
+    "water_absorption": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "moisture_resistance": {
+      "estado": "no_disponible",
+      "nota": "Las fuentes no definen una calificación verificable de 1 a 5."
+    },
+    "condensation_risk": {
+      "estado": "no_disponible",
+      "nota": "Las fuentes no definen una calificación verificable de 1 a 5."
+    },
+    "corrosion_resistance": {
+      "estado": "no_disponible",
+      "nota": "Las fuentes no definen una calificación verificable de 1 a 5."
+    },
+    "uv_resistance": {
+      "estado": "no_disponible",
+      "nota": "Las fuentes no definen una calificación verificable de 1 a 5."
+    },
+    "marine_environment": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "vapor_permeability": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "thermal_conductivity": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "specific_heat": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "thermal_resistance": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "u_value": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "solar_reflectance": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "thermal_emittance": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "sri": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "sound_insulation": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "sound_absorption": {
+      "estado": "dato",
+      "valor": 0.7,
+      "calificador": "=",
+      "unidad": "NRC",
+      "fuentes": [
+        {
+          "ref": "R18"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "NRC de 5492 con vellón. NRC 0,85 requiere relleno opcional de fibra de vidrio."
+    },
+    "fire_reaction": {
+      "estado": "dato",
+      "valor": "Clase A",
+      "fuentes": [
+        {
+          "ref": "R20"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Variante White. ASTM E84 y CAN/ULC S102; índice de llama ≤25."
+    },
+    "fire_resistance": {
+      "estado": "no_disponible",
+      "nota": "No se dispone de minutos para un ensamble completo identificado."
+    },
+    "smoke_class": {
+      "estado": "dato",
+      "valor": "Índice de humo desarrollado ≤50",
+      "fuentes": [
+        {
+          "ref": "R19"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "voc_emissions": {
+      "estado": "no_disponible",
+      "nota": "No se declara un valor de COV en g/L."
+    },
+    "hazardous_substances": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "cleanability": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "R18"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Admite lavado, restregado y desinfección. No se asigna escala 1–5."
+    },
+    "accessibility": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "healthcare_use": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "maintenance_frequency": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "maintenance_actions": {
+      "estado": "dato",
+      "valor": "Limpieza y desinfección mediante paño, niebla o atomizador, según indicación.",
+      "fuentes": [
+        {
+          "ref": "R20"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "La ficha remite al procedimiento de limpieza del fabricante; no fija frecuencia."
+    },
+    "repairability": {
+      "estado": "no_disponible",
+      "nota": "Las fuentes no definen una calificación verificable de 1 a 5."
+    },
+    "replaceability": {
+      "estado": "no_disponible",
+      "nota": "Las fuentes no definen una calificación verificable de 1 a 5."
+    },
+    "common_failures": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "failure_causes": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "corrective_action": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "origin": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "transport_distance": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "recycled_content": {
+      "estado": "dato",
+      "valor": 35,
+      "calificador": "=",
+      "unidad": "%",
+      "fuentes": [
+        {
+          "ref": "R28"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Hasta 35% de contenido reciclado. Límite declarado para la familia, no valor certificado de un lote."
+    },
+    "renewable": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "reusable": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "recyclable": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "installation_waste": {
+      "estado": "no_disponible",
+      "nota": "Las fuentes no definen una calificación verificable de 1 a 5."
+    },
+    "epd_available": {
+      "estado": "dato",
+      "valor": "Sí",
+      "fuentes": [
+        {
+          "ref": "R28"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "La ficha identifica disponibilidad de EPD. No incluye valor de carbono incorporado."
+    },
+    "embodied_carbon": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "embodied_carbon_modules": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "environmental_certification": {
+      "estado": "dato",
+      "valor": "Portafolio Sustain; EPD, HPD, Declare y CDPH de terceros indicados.",
+      "fuentes": [
+        {
+          "ref": "R21"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Atributos ambientales publicados por fabricante. No equivalen a certificación LEED del edificio."
+    },
+    "end_of_life": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "cr_region": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "seismic_condition": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "tradition_type": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "cr_standard": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "plan_requirements": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "advantages": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "limitations": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "graphics": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "modulation": {
+      "estado": "dato",
+      "valor": "Ancho nominal 101,6; soportes principales cada 1219,2.",
+      "fuentes": [
+        {
+          "ref": "R30"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "En mm. Soportes en incrementos de 50,8 mm. Ancho nominal incluye ranura."
+    },
+    "suspension_type": {
+      "estado": "dato",
+      "valor": "Colgantes de alambre y sistema de soporte T",
+      "fuentes": [
+        {
+          "ref": "R29"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "minimum_plenum": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "accessibility_above": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "R31"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Registros específicos solo interiores, máximo 914,4 × 914,4 mm. No es retiro libre de cualquier tablón."
+    },
+    "cac": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "sag_resistance": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "services_integration": {
+      "estado": "dato",
+      "valor": "Integración de luminarias lineales con ajustes de Tes, soportes y molduras.",
+      "fuentes": [
+        {
+          "ref": "R32"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Seguir detalle de sección 5; prever acceso a equipos que requieren servicio."
+    },
+    "wet_area_use": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    }
+  },
+  "fuentes": [
+    {
+      "id": "PROPIO",
+      "cita": "Elaboración propia del estudiante (TP1).",
+      "tipo": "elaboracion_propia"
+    },
+    {
+      "id": "R18",
+      "cita": "Armstrong, ficha MetalWorks Linear (2025), p.3"
+    },
+    {
+      "id": "R19",
+      "cita": "Armstrong, ficha MetalWorks Linear (2025), p.6"
+    },
+    {
+      "id": "R20",
+      "cita": "Armstrong, ficha MetalWorks Linear (2025), p.3, 6"
+    },
+    {
+      "id": "R21",
+      "cita": "Armstrong, ficha MetalWorks Linear (2025), p.1–3"
+    },
+    {
+      "id": "R22",
+      "cita": "Armstrong, ficha MetalWorks Linear (2025), p.3–5"
+    },
+    {
+      "id": "R23",
+      "cita": "Armstrong, ficha MetalWorks Linear (2025), p.4–5"
+    },
+    {
+      "id": "R24",
+      "cita": "Armstrong, instalación MetalWorks Linear, p.2–5"
+    },
+    {
+      "id": "R25",
+      "cita": "Armstrong, ficha MetalWorks Linear (2025), p.5–6"
+    },
+    {
+      "id": "R26",
+      "cita": "Armstrong, ficha MetalWorks Linear (2025), p.1, 3–4"
+    },
+    {
+      "id": "R27",
+      "cita": "Armstrong, instalación MetalWorks Linear, p.1"
+    },
+    {
+      "id": "R28",
+      "cita": "Armstrong, ficha MetalWorks Linear (2025), p.2–3"
+    },
+    {
+      "id": "R29",
+      "cita": "Armstrong, instalación MetalWorks Linear, p.2"
+    },
+    {
+      "id": "R30",
+      "cita": "Armstrong, instalación MetalWorks Linear, p.1–2"
+    },
+    {
+      "id": "R31",
+      "cita": "Armstrong, instalación MetalWorks Linear, p.8–9"
+    },
+    {
+      "id": "R32",
+      "cita": "Armstrong, instalación MetalWorks Linear, p.7–8"
+    }
+  ]
+}

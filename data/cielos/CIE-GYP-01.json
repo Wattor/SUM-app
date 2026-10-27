@@ -1,0 +1,702 @@
+{
+  "schema_version": "1.0",
+  "meta": {
+    "id": "CIE-GYP-01",
+    "componente": "CIE",
+    "autor": "Sebastián",
+    "estado_revision": "borrador",
+    "fecha_actualizacion": "2026-10-26",
+    "id_legado": "CIE-01",
+    "origen_migracion": {
+      "archivo": "TP1_Ficha_Sebastian_Cielos_Completado.xlsx",
+      "hoja": "Ficha"
+    }
+  },
+  "campos": {
+    "id": {
+      "estado": "dato",
+      "valor": "CIE-GYP-01",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "name": {
+      "estado": "dato",
+      "valor": "Cielo continuo SHEETROCK UltraLight de 1/2 pulgada",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "record_type": {
+      "estado": "dato",
+      "valor": "sistema",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Clasificación del conjunto de cielo y soporte descrito."
+    },
+    "component": {
+      "estado": "dato",
+      "valor": "CIE"
+    },
+    "subcategory": {
+      "estado": "dato",
+      "valor": "Gypsum continuo",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "country": {
+      "estado": "dato",
+      "valor": "CR",
+      "nota": "País de referencia de la plantilla. No indica país de fabricación."
+    },
+    "manufacturer": {
+      "estado": "dato",
+      "valor": "USG",
+      "fuentes": [
+        {
+          "ref": "R02"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "supplier": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "description": {
+      "estado": "dato",
+      "valor": "Panel ligero de yeso para cielo interior de una capa, sobre bastidores.",
+      "fuentes": [
+        {
+          "ref": "R03"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "keywords": {
+      "estado": "dato",
+      "valor": [
+        "Gypsum, yeso, UltraLight, cielo interior"
+      ],
+      "fuentes": [
+        {
+          "ref": "R04"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "main_material": {
+      "estado": "dato",
+      "valor": "Núcleo de yeso",
+      "fuentes": [
+        {
+          "ref": "R04"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "secondary_materials": {
+      "estado": "dato",
+      "valor": [
+        "Papel frontal y posterior, bastidores, fijadores, cinta y compuesto para juntas"
+      ],
+      "fuentes": [
+        {
+          "ref": "R03"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "layers": {
+      "estado": "dato",
+      "valor": [
+        "Desde el recinto: acabado, papel frontal, núcleo de yeso, papel posterior y bastidores."
+      ],
+      "fuentes": [
+        {
+          "ref": "R03"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Orden constructivo sintetizado a partir de la ficha."
+    },
+    "total_thickness": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "R02"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Panel: 12,7 mm (1/2 pulgada). Espesor total del sistema no declarado."
+    },
+    "commercial_dimensions": {
+      "estado": "dato",
+      "valor": "Panel de 48 pulgadas de ancho; largos de 8, 9, 10, 12, 14 o 16 pies.",
+      "fuentes": [
+        {
+          "ref": "R02"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Verificar disponibilidad local. Espesor: 1/2 pulgada."
+    },
+    "density": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "surface_mass": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "R02"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Peso del panel: 1,2–1,4 lb/pie². Se conserva el intervalo, sin elegir un peso único."
+    },
+    "surface_finish": {
+      "estado": "dato",
+      "valor": "Papel natural, juntas tratadas, primer y pintura o textura.",
+      "fuentes": [
+        {
+          "ref": "R03"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "support_system": {
+      "estado": "dato",
+      "valor": "Bastidores. Se documenta fijación a madera y canales resilientes RC-1.",
+      "fuentes": [
+        {
+          "ref": "R05"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "fastening": {
+      "estado": "dato",
+      "valor": "Sobre madera: tornillo tipo W de 1-1/4 pulgada cada 305 mm máximo en cielos.",
+      "fuentes": [
+        {
+          "ref": "R05"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "También admite clavos anulares 5d de 1-1/4 pulgada cada 178 mm."
+    },
+    "joints_seals": {
+      "estado": "dato",
+      "valor": "Bordes largos rebajados, cinta de papel y compuesto para juntas SHEETROCK.",
+      "fuentes": [
+        {
+          "ref": "R04"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "installation_sequence": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "tools_labor": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "critical_point": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "recommended_uses": {
+      "estado": "dato",
+      "valor": [
+        "Cielos interiores, construcción residencial, remodelación y reparación."
+      ],
+      "fuentes": [
+        {
+          "ref": "R04"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "building_types": {
+      "estado": "dato",
+      "valor": [
+        "Vivienda"
+      ],
+      "fuentes": [
+        {
+          "ref": "R04"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "location": {
+      "estado": "dato",
+      "valor": "Interior",
+      "fuentes": [
+        {
+          "ref": "R04"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "climates": {
+      "estado": "dato",
+      "valor": "Ambiente protegido de humedad continua, repetitiva o excesiva.",
+      "fuentes": [
+        {
+          "ref": "R04"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "imn_subregions": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "compatibility": {
+      "estado": "dato",
+      "valor": "Compatible con tratamientos para juntas, primer y acabados SHEETROCK indicados.",
+      "fuentes": [
+        {
+          "ref": "R04"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "use_restrictions": {
+      "estado": "dato",
+      "valor": "No portante. Evitar humedad excesiva y exposición prolongada a más de 52 °C.",
+      "fuentes": [
+        {
+          "ref": "R04"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "labor_specialization": {
+      "estado": "no_disponible",
+      "nota": "Las fuentes no definen una calificación verificable de 1 a 5."
+    },
+    "installation_complexity": {
+      "estado": "no_disponible",
+      "nota": "Las fuentes no definen una calificación verificable de 1 a 5."
+    },
+    "national_availability": {
+      "estado": "no_disponible",
+      "nota": "Las fuentes no definen una calificación verificable de 1 a 5."
+    },
+    "installation_time": {
+      "estado": "no_disponible",
+      "nota": "Las fuentes no definen una calificación verificable de 1 a 5."
+    },
+    "relative_cost": {
+      "estado": "no_disponible",
+      "nota": "Las fuentes no definen una calificación verificable de 1 a 5."
+    },
+    "price_range": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "mechanical_resistance": {
+      "estado": "dato",
+      "valor": "Flexión ASTM C473(B): cumple o supera 36 lbf paralela y 107 lbf perpendicular.",
+      "fuentes": [
+        {
+          "ref": "R05"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Resultados declarados por el fabricante."
+    },
+    "impact_resistance": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "abrasion_resistance": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "durability_years": {
+      "estado": "no_disponible",
+      "nota": "No se equipara garantía comercial con vida útil."
+    },
+    "water_absorption": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "moisture_resistance": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "R04"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Evitar humedad continua, repetitiva o excesiva. No se convierte esta restricción a escala 1–5."
+    },
+    "condensation_risk": {
+      "estado": "no_disponible",
+      "nota": "Las fuentes no definen una calificación verificable de 1 a 5."
+    },
+    "corrosion_resistance": {
+      "estado": "no_disponible",
+      "nota": "Las fuentes no definen una calificación verificable de 1 a 5."
+    },
+    "uv_resistance": {
+      "estado": "no_disponible",
+      "nota": "Las fuentes no definen una calificación verificable de 1 a 5."
+    },
+    "marine_environment": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "vapor_permeability": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "thermal_conductivity": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "specific_heat": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "thermal_resistance": {
+      "estado": "dato",
+      "valor": 0.08,
+      "calificador": "=",
+      "unidad": "m²·K/W",
+      "fuentes": [
+        {
+          "ref": "R02"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Valor R del panel, no del conjunto de cielo con cámara."
+    },
+    "u_value": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "solar_reflectance": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "thermal_emittance": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "sri": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "sound_insulation": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "sound_absorption": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "fire_reaction": {
+      "estado": "dato",
+      "valor": "Clase A",
+      "fuentes": [
+        {
+          "ref": "R06"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "ASTM E84: propagación de llama 15. Núcleo: pasa ASTM E136."
+    },
+    "fire_resistance": {
+      "estado": "no_disponible",
+      "nota": "No se dispone de minutos para un ensamble completo identificado."
+    },
+    "smoke_class": {
+      "estado": "dato",
+      "valor": "Índice de humo: 0",
+      "fuentes": [
+        {
+          "ref": "R05"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "ASTM E84. Es índice de ensayo, no clase europea de humo."
+    },
+    "voc_emissions": {
+      "estado": "no_disponible",
+      "nota": "No se declara un valor de COV en g/L."
+    },
+    "hazardous_substances": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "cleanability": {
+      "estado": "no_disponible",
+      "nota": "Las fuentes no definen una calificación verificable de 1 a 5."
+    },
+    "accessibility": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "healthcare_use": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "maintenance_frequency": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "maintenance_actions": {
+      "estado": "dato",
+      "valor": "Eliminar inmediatamente las fuentes de agua.",
+      "fuentes": [
+        {
+          "ref": "R04"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "La ficha no prescribe un programa periódico de mantenimiento."
+    },
+    "repairability": {
+      "estado": "no_disponible",
+      "nota": "Las fuentes no definen una calificación verificable de 1 a 5."
+    },
+    "replaceability": {
+      "estado": "no_disponible",
+      "nota": "Las fuentes no definen una calificación verificable de 1 a 5."
+    },
+    "common_failures": {
+      "estado": "dato",
+      "valor": [
+        "Riesgo de pandeo por almacenamiento sin apoyos suficientes."
+      ],
+      "fuentes": [
+        {
+          "ref": "R04"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Riesgo documentado; no se declara frecuencia de falla."
+    },
+    "failure_causes": {
+      "estado": "dato",
+      "valor": [
+        "Apoyo insuficiente de la longitud del panel durante el almacenamiento."
+      ],
+      "fuentes": [
+        {
+          "ref": "R04"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "corrective_action": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "origin": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "transport_distance": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "recycled_content": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "R04"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Papel frontal y posterior: 100% reciclado. No es el porcentaje del panel completo."
+    },
+    "renewable": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "reusable": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "recyclable": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "installation_waste": {
+      "estado": "no_disponible",
+      "nota": "Las fuentes no definen una calificación verificable de 1 a 5."
+    },
+    "epd_available": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "embodied_carbon": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "embodied_carbon_modules": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "environmental_certification": {
+      "estado": "dato",
+      "valor": "Validación de declaraciones ambientales UL Environment, según planta.",
+      "fuentes": [
+        {
+          "ref": "R04"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Bajas emisiones: cumplimiento CA 01350 declarado. No equivale a valor de COV en g/L."
+    },
+    "end_of_life": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "cr_region": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "seismic_condition": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "tradition_type": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "cr_standard": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "plan_requirements": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "advantages": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "limitations": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "graphics": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "modulation": {
+      "estado": "dato",
+      "valor": "Bastidores: 610 máximo, panel perpendicular; alternativa 405.",
+      "fuentes": [
+        {
+          "ref": "R05"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Distancias entre ejes en mm. Seguir las condiciones de orientación y acabado."
+    },
+    "suspension_type": {
+      "estado": "dato",
+      "valor": "Fijación sobre bastidores",
+      "fuentes": [
+        {
+          "ref": "R05"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "La ficha no define una altura ni un sistema único de colgantes."
+    },
+    "minimum_plenum": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "accessibility_above": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "cac": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "sag_resistance": {
+      "estado": "dato",
+      "valor": "Deflexión húmeda de cielo menor de 5/16 pulgada",
+      "fuentes": [
+        {
+          "ref": "R05"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "ASTM C473, según resultados de la ficha."
+    },
+    "services_integration": {
+      "estado": "no_disponible",
+      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+    },
+    "wet_area_use": {
+      "estado": "dato",
+      "valor_texto_original": "No para exposición continua o excesiva a humedad.",
+      "fuentes": [
+        {
+          "ref": "R04"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "No declara aptitud clínica específica."
+    }
+  },
+  "fuentes": [
+    {
+      "id": "PROPIO",
+      "cita": "Elaboración propia del estudiante (TP1).",
+      "tipo": "elaboracion_propia"
+    },
+    {
+      "id": "R01",
+      "cita": "USG, ficha SHEETROCK UltraLight, p.1–3"
+    },
+    {
+      "id": "R02",
+      "cita": "USG, ficha SHEETROCK UltraLight, p.3"
+    },
+    {
+      "id": "R03",
+      "cita": "USG, ficha SHEETROCK UltraLight, p.1–2"
+    },
+    {
+      "id": "R04",
+      "cita": "USG, ficha SHEETROCK UltraLight, p.1"
+    },
+    {
+      "id": "R05",
+      "cita": "USG, ficha SHEETROCK UltraLight, p.2"
+    },
+    {
+      "id": "R06",
+      "cita": "USG, ficha SHEETROCK UltraLight, p.2–3"
+    }
+  ]
+}

@@ -1,0 +1,1113 @@
+{
+  "schema_version": "1.0",
+  "meta": {
+    "id": "PIS-POR-02",
+    "componente": "PIS",
+    "autor": "Alejandro Sáenz Castro",
+    "estado_revision": "borrador",
+    "fecha_actualizacion": "2026-10-26",
+    "id_legado": "PIS-CR-02",
+    "origen_migracion": {
+      "archivo": "TP1_PISOS_ALEJANDRO_SAENZ_FUSION final.xlsx",
+      "hoja": "Ficha_02_Porcelanato"
+    }
+  },
+  "campos": {
+    "id": {
+      "estado": "dato",
+      "valor": "PIS-POR-02",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "name": {
+      "estado": "dato",
+      "valor": "Porcelanato (gres porcelánico)",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "record_type": {
+      "estado": "dato",
+      "valor": "sistema",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "component": {
+      "estado": "dato",
+      "valor": "PIS"
+    },
+    "subcategory": {
+      "estado": "dato",
+      "valor": "Revestimiento cerámico adherido (gres porcelánico)",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "country": {
+      "estado": "dato",
+      "valor": "CR",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "manufacturer": {
+      "estado": "dato",
+      "valor": "Varios: líneas españolas, italianas, mexicanas y centroamericanas (p. ej., Porcelanosa)",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "supplier": {
+      "estado": "dato",
+      "valor": "LOZA, Porceramica, Ceramicenter, Diseño Cerámico, ExpoCerámica, Samboro, EPA, Construex",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Salas de exhibición concentradas en la GAM."
+    },
+    "description": {
+      "estado": "dato",
+      "valor": "Baldosa de pasta compacta obtenida por prensado en seco de arcillas y feldespatos de alta pureza, cocida cerca de 1 200 °C, con absorción de agua menor a 0,5 %; se adhiere con adhesivo cementicio de alta prestación y junta mínima.",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "keywords": {
+      "estado": "dato",
+      "valor": [
+        "porcelanato",
+        "gres porcelánico",
+        "rectificado",
+        "gran formato",
+        "baja absorción",
+        "adhesivo C2",
+        "lippage"
+      ],
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "main_material": {
+      "estado": "dato",
+      "valor": "Gres porcelánico (grupo BIa, ISO 13006)",
+      "fuentes": [
+        {
+          "ref": "R05"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "secondary_materials": {
+      "estado": "dato",
+      "valor": [
+        "Adhesivo cementicio C2 / C2TE / C2S1",
+        "boquilla fina",
+        "niveladores tipo cuña-clip",
+        "sellador elástico perimetral"
+      ],
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "layers": {
+      "estado": "dato",
+      "valor": [
+        "1) Contrapiso nivelado con precisión",
+        "2) adhesivo cementicio de alta prestación (doble encolado en formatos grandes)",
+        "3) pieza de porcelanato",
+        "4) junta mínima con boquilla",
+        "+ junta perimetral"
+      ],
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "total_thickness": {
+      "estado": "dato",
+      "min": 15.0,
+      "max": 22.0,
+      "calificador": "rango",
+      "unidad": "mm",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Pieza 8–12 mm + adhesivo 5–10 mm."
+    },
+    "commercial_dimensions": {
+      "estado": "dato",
+      "valor": "9,8×59,3; 60×60; 60×120 cm y láminas > 1 m; espesor 8–12 mm",
+      "fuentes": [
+        {
+          "ref": "R06"
+        },
+        {
+          "ref": "R21"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "density": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "surface_mass": {
+      "estado": "dato",
+      "valor_texto_original": "19–27 kg/m²; densidad ≈ 2 300–2 400 kg/m³",
+      "fuentes": [
+        {
+          "ref": "R08"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Estimado para 8–12 mm."
+    },
+    "surface_finish": {
+      "estado": "dato",
+      "valor": "Mate, pulido, satinado, lapado, estructurado; imitación madera, piedra y cemento",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "support_system": {
+      "estado": "dato",
+      "valor": "Contrapiso o losa con planitud controlada (crítico en gran formato)",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "fastening": {
+      "estado": "dato",
+      "valor": "Adherida con adhesivo cementicio mejorado; doble encolado en piezas ≥ 60×60 cm",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "joints_seals": {
+      "estado": "dato",
+      "valor": "Junta de 1–2 mm (bordes rectificados); junta perimetral bajo zócalo; niveladores cuña-clip durante el fraguado",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "installation_sequence": {
+      "estado": "dato",
+      "valor": "Verificar planitud estricta del contrapiso · replantear con junta mínima · doble encolado con adhesivo C2 · colocar con niveladores cuña-clip · fraguado · emboquillar 1–2 mm · juntas de movimiento cada 5–6 m y perimetral.",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "tools_labor": {
+      "estado": "dato",
+      "valor": "Instalador con experiencia en gran formato; llana dentada, ventosas, cortadora de riel, niveladores cuña-clip.",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "PENDIENTE: rendimiento en m²/jornada."
+    },
+    "critical_point": {
+      "estado": "dato",
+      "valor": "Doble encolado y planitud del sustrato: sin ellos aparecen piezas huecas y desnivel entre piezas (lippage).",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "recommended_uses": {
+      "estado": "dato",
+      "valor": [
+        "Áreas sociales de vivienda media-alta",
+        "oficinas",
+        "comercio",
+        "hoteles",
+        "terrazas, andenes y bordes de piscina (líneas exteriores)"
+      ],
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "building_types": {
+      "estado": "dato",
+      "valor": [
+        "Vivienda",
+        "Comercial",
+        "Institucional"
+      ],
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "location": {
+      "estado": "dato",
+      "valor": "Ambos",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "climates": {
+      "estado": "dato",
+      "valor": "Cálido-húmedo; templado; costero; exteriores lluviosos",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "imn_subregions": {
+      "estado": "dato",
+      "valor": [
+        "TODAS"
+      ],
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "compatibility": {
+      "estado": "dato",
+      "valor": "Contrapiso de concreto, mortero, cerámica existente y piso radiante (con adhesivo flexible S1)",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "use_restrictions": {
+      "estado": "dato",
+      "valor": "Exige contrapiso muy plano; no usar adhesivo común; formatos grandes requieren cuidado en manipulación y en juntas de movimiento",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "labor_specialization": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Instalador con experiencia en gran formato y rectificado."
+    },
+    "installation_complexity": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "national_availability": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "installation_time": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "relative_cost": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Medio-alto; gran dispersión entre líneas nacionales e importadas."
+    },
+    "price_range": {
+      "estado": "dato",
+      "valor_texto_original": "₡3 990–₡16 000 / m² (material; ofertas en línea)",
+      "fuentes": [
+        {
+          "ref": "R21"
+        },
+        {
+          "ref": "R22"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Líneas europeas de gama alta superan con creces este rango."
+    },
+    "mechanical_resistance": {
+      "estado": "dato",
+      "valor": "Módulo de rotura ≥ 35 N/mm²; fuerza de rotura ≥ 1 300 N (e ≥ 7,5 mm)",
+      "fuentes": [
+        {
+          "ref": "R05"
+        }
+      ],
+      "evidencia": "E3",
+      "nota": "Requisitos grupo BIa."
+    },
+    "impact_resistance": {
+      "estado": "dato",
+      "valor": "Media: más duro que la cerámica pero frágil ante impacto sobre zonas huecas",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "abrasion_resistance": {
+      "estado": "dato",
+      "valor": "No esmaltado: abrasión profunda ≤ 175 mm³ (ISO 10545-6); esmaltado: PEI IV–V",
+      "fuentes": [
+        {
+          "ref": "R05"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "durability_years": {
+      "estado": "dato",
+      "valor": 30.0,
+      "calificador": "≥",
+      "unidad": "años",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Con instalación correcta."
+    },
+    "water_absorption": {
+      "estado": "dato",
+      "valor": 0.5,
+      "calificador": "≤",
+      "unidad": "%",
+      "fuentes": [
+        {
+          "ref": "R05"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "moisture_resistance": {
+      "estado": "dato",
+      "valor": 5,
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "condensation_risk": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Superficie fría."
+    },
+    "corrosion_resistance": {
+      "estado": "dato",
+      "valor": 5,
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "uv_resistance": {
+      "estado": "dato",
+      "valor": 5,
+      "fuentes": [
+        {
+          "ref": "R05"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "marine_environment": {
+      "estado": "dato",
+      "valor": "Sí",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Líneas exteriores; adhesivo C2 y juntas selladas."
+    },
+    "vapor_permeability": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "thermal_conductivity": {
+      "estado": "dato",
+      "valor": 1.3,
+      "calificador": "=",
+      "unidad": "W/(m·K)",
+      "fuentes": [
+        {
+          "ref": "R08"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "specific_heat": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "thermal_resistance": {
+      "estado": "dato",
+      "valor": 0.008,
+      "calificador": "=",
+      "unidad": "m²·K/W",
+      "fuentes": [
+        {
+          "ref": "R08"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Pieza de 10 mm (e/λ)."
+    },
+    "u_value": {
+      "estado": "no_aplica",
+      "evidencia": "E1",
+      "nota": "Depende del sistema completo."
+    },
+    "solar_reflectance": {
+      "estado": "no_disponible",
+      "evidencia": "E1",
+      "nota": "Varía con el color."
+    },
+    "thermal_emittance": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "sri": {
+      "estado": "no_disponible",
+      "evidencia": "E1"
+    },
+    "sound_insulation": {
+      "estado": "no_aplica",
+      "evidencia": "E1"
+    },
+    "sound_absorption": {
+      "estado": "dato",
+      "valor": 0.02,
+      "calificador": "≈",
+      "unidad": "NRC",
+      "fuentes": [
+        {
+          "ref": "R10"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Texto original: ≈ 0,02 (αw)"
+    },
+    "fire_reaction": {
+      "estado": "dato",
+      "valor": "A1fl",
+      "fuentes": [
+        {
+          "ref": "R11"
+        },
+        {
+          "ref": "R12"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "fire_resistance": {
+      "estado": "no_aplica",
+      "evidencia": "E1"
+    },
+    "smoke_class": {
+      "estado": "dato",
+      "valor": "Sin aporte (A1fl)",
+      "fuentes": [
+        {
+          "ref": "R11"
+        },
+        {
+          "ref": "R12"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "voc_emissions": {
+      "estado": "dato",
+      "valor": 0.0,
+      "calificador": "≈",
+      "unidad": "g/L",
+      "fuentes": [
+        {
+          "ref": "R13"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Emisiones dependen del adhesivo."
+    },
+    "hazardous_substances": {
+      "estado": "dato",
+      "valor": [
+        "Ninguna en uso",
+        "polvo de sílice al cortar"
+      ],
+      "fuentes": [
+        {
+          "ref": "R14"
+        }
+      ],
+      "evidencia": "E4"
+    },
+    "cleanability": {
+      "estado": "dato",
+      "valor": 5,
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Juntas mínimas."
+    },
+    "accessibility": {
+      "estado": "dato",
+      "valor": "Superficie firme y plana; usar acabados mate o antideslizantes (evitar pulido en rutas húmedas)",
+      "fuentes": [
+        {
+          "ref": "R18"
+        }
+      ],
+      "evidencia": "E4"
+    },
+    "healthcare_use": {
+      "estado": "dato",
+      "valor": "Sí",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Con junta mínima y boquilla epóxica."
+    },
+    "maintenance_frequency": {
+      "estado": "dato",
+      "valor": 12,
+      "calificador": "=",
+      "unidad": "meses",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Limpieza diaria o semanal; revisión de juntas anual; no requiere sellado."
+    },
+    "maintenance_actions": {
+      "estado": "dato",
+      "valor": "Limpieza con productos neutros; no requiere sellado periódico; revisar juntas perimetrales",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "repairability": {
+      "estado": "dato",
+      "valor": 2,
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Difícil por dureza y variación de tono entre lotes."
+    },
+    "replaceability": {
+      "estado": "dato",
+      "valor": 2,
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Guardar piezas de reposición del mismo lote."
+    },
+    "common_failures": {
+      "estado": "dato",
+      "valor": [
+        "Piezas \"huecas\"",
+        "fisuración o rotura frágil",
+        "desnivel entre piezas (lippage)",
+        "desprendimiento"
+      ],
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "failure_causes": {
+      "estado": "dato",
+      "valor": [
+        "Adhesivo inadecuado o mal peinado",
+        "contrapiso sin planitud",
+        "falta de doble encolado",
+        "ausencia de juntas de movimiento"
+      ],
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "corrective_action": {
+      "estado": "dato",
+      "valor": "Sustituir piezas huecas o rotas con adhesivo C2 y doble encolado; nivelar el sustrato antes de reinstalar",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "origin": {
+      "estado": "dato",
+      "valor": "Importado",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "transport_distance": {
+      "estado": "no_disponible",
+      "evidencia": "E1",
+      "nota": "Europa > 9 000 km; Centroamérica < 1 500 km."
+    },
+    "recycled_content": {
+      "estado": "no_disponible",
+      "evidencia": "E1"
+    },
+    "renewable": {
+      "estado": "dato",
+      "valor": "No",
+      "evidencia": "E4"
+    },
+    "reusable": {
+      "estado": "dato",
+      "valor": "No",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "recyclable": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "evidencia": "E4",
+      "nota": "Triturable como agregado."
+    },
+    "installation_waste": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Mermas por corte de gran formato."
+    },
+    "epd_available": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "evidencia": "E4",
+      "nota": "Frecuente en líneas españolas e italianas."
+    },
+    "embodied_carbon": {
+      "estado": "dato",
+      "valor_texto_original": "≈ 0,78 kgCO₂e/kg (≈ 18 kgCO₂e/m²)",
+      "fuentes": [
+        {
+          "ref": "R16"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Orden de magnitud; EPD europeas reportan valores similares."
+    },
+    "embodied_carbon_modules": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "environmental_certification": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "evidencia": "E4",
+      "nota": "Algunas líneas importadas con EPD o sellos europeos."
+    },
+    "end_of_life": {
+      "estado": "dato",
+      "valor": [
+        "Vertedero"
+      ],
+      "evidencia": "E4"
+    },
+    "cr_region": {
+      "estado": "dato",
+      "valor": "Vivienda media-alta, oficinas, comercio y hoteles; salas de exhibición en la GAM.",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "seismic_condition": {
+      "estado": "dato",
+      "valor": "No gobierna el acabado; las juntas del piso deben coincidir con las juntas estructurales y de la losa.",
+      "fuentes": [
+        {
+          "ref": "R19"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "tradition_type": {
+      "estado": "dato",
+      "valor": "Contemporáneo",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "cr_standard": {
+      "estado": "dato",
+      "valor": "Sin norma INTE de producto localizada: ISO 13006 (grupo BIa), ISO 10545, EN 12004 (C2). Ley 7600 y su reglamento (superficie firme, estable y antideslizante en rutas accesibles).",
+      "fuentes": [
+        {
+          "ref": "R20"
+        }
+      ],
+      "evidencia": "E3",
+      "nota": "PENDIENTE: verificar en INTECO."
+    },
+    "plan_requirements": {
+      "estado": "dato",
+      "valor": "Especificar formato, rectificado, adhesivo C2/C2S1, doble encolado, junta mínima, juntas de movimiento y tolerancia de planitud del contrapiso.",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "advantages": {
+      "estado": "dato",
+      "valor": "Absorción ≤ 0,5 %; muy resistente; junta mínima fácil de limpiar; interior y exterior; sin sellado.",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "limitations": {
+      "estado": "dato",
+      "valor": "Costo medio-alto; mano de obra especializada; exige contrapiso muy plano; importado; difícil de sustituir por variación de lotes.",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "graphics": {
+      "estado": "dato",
+      "valor": [
+        "Fotografías de la presentación TP1 · PENDIENTE: detalle de doble encolado y junta de movimiento."
+      ],
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Consignar fuente de cada imagen."
+    },
+    "traffic_level": {
+      "estado": "dato",
+      "valor": [
+        "Medio",
+        "Alto"
+      ],
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "slip_resistance": {
+      "estado": "dato",
+      "valor": "Pulido R9; mate R9–R10; exterior R11–R13; DCOF ≥ 0,42 en interior húmedo",
+      "fuentes": [
+        {
+          "ref": "R17"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "chemical_resistance": {
+      "estado": "dato",
+      "valor": "Clase UA / GA (ISO 10545-13)",
+      "fuentes": [
+        {
+          "ref": "R05"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "stain_resistance": {
+      "estado": "dato",
+      "valor": "Clase 5 (ISO 10545-14)",
+      "fuentes": [
+        {
+          "ref": "R05"
+        }
+      ],
+      "evidencia": "E3",
+      "nota": "Los pulidos sin sellar pueden retener manchas."
+    },
+    "substrate": {
+      "estado": "dato",
+      "valor": [
+        "Contrapiso o losa de concreto nivelado",
+        "mortero",
+        "cerámica existente"
+      ],
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "adhesive": {
+      "estado": "dato",
+      "valor": "Adhesivo cementicio mejorado C2, C2TE o C2S1 (EN 12004)",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "installation_thickness": {
+      "estado": "dato",
+      "min": 15.0,
+      "max": 22.0,
+      "calificador": "rango",
+      "unidad": "mm",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "joint_requirements": {
+      "estado": "dato",
+      "valor": "Junta mínima 1–2 mm; junta perimetral; juntas de movimiento cada 5–6 m en interior y sobre juntas de la losa",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E4"
+    },
+    "accessible_route": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "R18"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Sí con acabado mate o antideslizante; no pulido en áreas húmedas."
+    }
+  },
+  "fuentes": [
+    {
+      "id": "PROPIO",
+      "cita": "Elaboración propia del estudiante (TP1).",
+      "tipo": "elaboracion_propia"
+    },
+    {
+      "id": "R01",
+      "cita": "TP1 Pisos – documento ampliado y presentación (Sáenz, 2026)"
+    },
+    {
+      "id": "R05",
+      "cita": "ISO 13006 / serie ISO 10545"
+    },
+    {
+      "id": "R06",
+      "cita": "DOC"
+    },
+    {
+      "id": "R08",
+      "cita": "ISO 10456 (valores de diseño tabulados)"
+    },
+    {
+      "id": "R10",
+      "cita": "Tablas de absorción de materiales duros"
+    },
+    {
+      "id": "R11",
+      "cita": "EN 13501-1"
+    },
+    {
+      "id": "R12",
+      "cita": "Decisión 96/603/CE (clases A1 sin ensayo)"
+    },
+    {
+      "id": "R13",
+      "cita": "Material inerte"
+    },
+    {
+      "id": "R14",
+      "cita": "Buenas prácticas de corte"
+    },
+    {
+      "id": "R16",
+      "cita": "ICE Database v3.0 (Universidad de Bath)"
+    },
+    {
+      "id": "R17",
+      "cita": "DIN 51130 / ANSI A326.3 (DCOF)"
+    },
+    {
+      "id": "R18",
+      "cita": "Ley 7600"
+    },
+    {
+      "id": "R19",
+      "cita": "Criterio constructivo"
+    },
+    {
+      "id": "R20",
+      "cita": "Ver hoja Referencias"
+    },
+    {
+      "id": "R21",
+      "cita": "Samboro Costa Rica"
+    },
+    {
+      "id": "R22",
+      "cita": "ExpoCerámica (redes, 2025–2026)"
+    }
+  ]
+}

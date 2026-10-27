@@ -1,0 +1,1044 @@
+{
+  "schema_version": "1.0",
+  "meta": {
+    "id": "PAR-LIV-03",
+    "componente": "PAR",
+    "autor": "Óscar Quesada",
+    "estado_revision": "borrador",
+    "fecha_actualizacion": "2026-10-26",
+    "id_legado": "CR-PC-LIV-03",
+    "origen_migracion": {
+      "archivo": "TP1_Fichas_Oscar_Paredes_5.xlsx",
+      "hoja": "Ficha_Liviano"
+    }
+  },
+  "campos": {
+    "id": {
+      "estado": "dato",
+      "valor": "PAR-LIV-03",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "name": {
+      "estado": "dato",
+      "valor": "Muro liviano de fibrocemento y gypsum",
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "record_type": {
+      "estado": "dato",
+      "valor": "sistema",
+      "fuentes": [
+        {
+          "ref": "S0"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "component": {
+      "estado": "dato",
+      "valor": "PAR"
+    },
+    "subcategory": {
+      "estado": "dato",
+      "valor": "Bastidor galvanizado con revestimiento de placas",
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "country": {
+      "estado": "dato",
+      "valor": "CR",
+      "fuentes": [
+        {
+          "ref": "S0"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "manufacturer": {
+      "estado": "dato",
+      "valor": "Plycem (fibrocemento); gypsum y perfiles según especificación",
+      "fuentes": [
+        {
+          "ref": "L1"
+        },
+        {
+          "ref": "L2"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "supplier": {
+      "estado": "dato",
+      "valor": "Plycem y distribuidores locales; proveedor de gypsum y perfiles por definir",
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "description": {
+      "estado": "dato",
+      "valor": "Cerramiento liviano con bastidor de perfiles galvanizados, placa de fibrocemento exterior, barrera de agua/aire, cavidad con aislante opcional y placa de yeso interior.",
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "El panel exterior y la barrera cumplen funciones distintas."
+    },
+    "keywords": {
+      "estado": "dato",
+      "valor": [
+        "muro liviano",
+        "fibrocemento",
+        "PlyRock",
+        "gypsum",
+        "steel framing"
+      ],
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "main_material": {
+      "estado": "dato",
+      "valor": "Placas de fibrocemento PlyRock sobre bastidor galvanizado",
+      "fuentes": [
+        {
+          "ref": "L1"
+        },
+        {
+          "ref": "L2"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "secondary_materials": {
+      "estado": "dato",
+      "valor": [
+        "Placa de yeso interior",
+        "barrera de agua/aire",
+        "tornillos",
+        "sellos",
+        "masillas",
+        "aislante opcional"
+      ],
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E4"
+    },
+    "layers": {
+      "estado": "dato",
+      "valor": [
+        "Pintura exterior",
+        "fibrocemento",
+        "barrera de agua/aire",
+        "perfiles y cavidad (aislante opcional)",
+        "gypsum interior",
+        "pintura interior"
+      ],
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E4"
+    },
+    "total_thickness": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "El espesor varía con placa, perfil, aislante y acabado."
+    },
+    "commercial_dimensions": {
+      "estado": "dato",
+      "valor": "PlyRock: ancho 1219 mm; largo 2438, 3048 o 3657 mm; espesor 6, 8, 10, 12 o 14 mm",
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "6 mm solo interior; 8–14 mm aptos para interior/exterior según manual."
+    },
+    "density": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "surface_mass": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "L1"
+        },
+        {
+          "ref": "L2"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Calcular peso del ensamble según placa, perfil, aislante y gypsum seleccionados."
+    },
+    "surface_finish": {
+      "estado": "dato",
+      "valor": "Juntas tratadas y pintura o revestimiento compatible; gypsum pintado al interior",
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "support_system": {
+      "estado": "dato",
+      "valor": "Canales y postes galvanizados anclados a estructura principal",
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "fastening": {
+      "estado": "dato",
+      "valor": "Tornillos especificados para placa y perfil; anclajes mecánicos de canales a soporte",
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "joints_seals": {
+      "estado": "dato",
+      "valor": "Juntas de placa, esquinas, cantos, vanos y penetraciones con tratamiento y sello compatibles",
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "installation_sequence": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "tools_labor": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "critical_point": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "recommended_uses": {
+      "estado": "dato",
+      "valor": [
+        "Cerramientos exteriores no portantes",
+        "divisiones interiores",
+        "ampliaciones y niveles donde convenga reducir peso"
+      ],
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "building_types": {
+      "estado": "dato",
+      "valor": [
+        "Vivienda",
+        "Comercial",
+        "Institucional"
+      ],
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "location": {
+      "estado": "dato",
+      "valor": "Ambos",
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Gypsum ordinario se mantiene en interior seco; especificar placa adecuada en zonas húmedas."
+    },
+    "climates": {
+      "estado": "dato",
+      "valor": "Tropical húmedo o seco con barrera continua, drenaje de vanos y protección de base",
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E4"
+    },
+    "imn_subregions": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "compatibility": {
+      "estado": "dato",
+      "valor": "Compatible con estructura de concreto o acero y aislantes seleccionados; coordinar movimientos y pares metálicos",
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E4"
+    },
+    "use_restrictions": {
+      "estado": "dato",
+      "valor": "La placa de fibrocemento no sustituye la barrera de agua. No cargar elementos pesados sin refuerzos; no exponer gypsum ordinario a lluvia.",
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "labor_specialization": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Cuadrilla especializada en perfiles, placas, tratamiento de juntas y sellos."
+    },
+    "installation_complexity": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Precisa secuencia de bastidor, barrera, placas, instalaciones y juntas."
+    },
+    "national_availability": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "L1"
+        },
+        {
+          "ref": "L2"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Fibrocemento de oferta local; confirmar existencias de perfiles y accesorios."
+    },
+    "installation_time": {
+      "estado": "dato",
+      "valor": 2,
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Montaje seco relativamente rápido; curado de juntas y pintura añade tiempo."
+    },
+    "relative_cost": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Costo medio relativo; incluir barrera, sellos, refuerzos, aislante y acabado."
+    },
+    "price_range": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Cotizar m² terminado con capas y espesores definidos."
+    },
+    "mechanical_resistance": {
+      "estado": "dato",
+      "valor": "No portante; resistencia a viento y cargas laterales depende de bastidor, anclajes, placas y separación de postes",
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "impact_resistance": {
+      "estado": "dato",
+      "valor": "Media, dependiente de espesor de placa, separación de postes y refuerzos",
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "abrasion_resistance": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "L2"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Depende del acabado superficial."
+    },
+    "durability_years": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "L1"
+        },
+        {
+          "ref": "L2"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "No se encontró un valor verificable para este ensamble; requiere ficha, ensayo o cálculo del proyecto."
+    },
+    "water_absorption": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "L2"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "El valor de placa no representa la estanqueidad del ensamble."
+    },
+    "moisture_resistance": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Buen desempeño si barrera, juntas y base se mantienen; humedad oculta compromete yeso y perfiles."
+    },
+    "condensation_risk": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Depende de aislamiento, continuidad de barreras, ventilación y clima."
+    },
+    "corrosion_resistance": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Galvanizado protege perfiles si no hay agua atrapada ni cortes expuestos."
+    },
+    "uv_resistance": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "L2"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Pintura y acabado exterior requieren mantenimiento."
+    },
+    "marine_environment": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Revisar galvanizado, tornillería, barrera y frecuencia de mantenimiento."
+    },
+    "vapor_permeability": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "thermal_conductivity": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "L1"
+        },
+        {
+          "ref": "L2"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "No se encontró un valor verificable para este ensamble; requiere ficha, ensayo o cálculo del proyecto."
+    },
+    "specific_heat": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "thermal_resistance": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "La cavidad puede aislarse; R exige definir materiales y puentes térmicos."
+    },
+    "u_value": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Calcular para ensamble completo."
+    },
+    "solar_reflectance": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Depende del acabado."
+    },
+    "thermal_emittance": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "sri": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Depende del acabado."
+    },
+    "sound_insulation": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Depende de placas, cavidad, aislante y juntas."
+    },
+    "sound_absorption": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "No se encontró un valor verificable para este ensamble; requiere ficha, ensayo o cálculo del proyecto."
+    },
+    "fire_reaction": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Se requiere clasificación del conjunto y de cada placa/aislante."
+    },
+    "fire_resistance": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "No asignar minutos sin ensamble ensayado."
+    },
+    "smoke_class": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "No se encontró un valor verificable para este ensamble; requiere ficha, ensayo o cálculo del proyecto."
+    },
+    "voc_emissions": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Pintura, masilla y sellador gobiernan emisiones."
+    },
+    "hazardous_substances": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Consultar hojas de seguridad y controlar polvo de corte."
+    },
+    "cleanability": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Buena con acabado liso lavable y juntas sanas."
+    },
+    "accessibility": {
+      "estado": "dato",
+      "valor": "Permite integrar refuerzos para barras y accesorios si se planifican antes del cierre",
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "healthcare_use": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Requiere superficie lavable, resistente a limpieza y detalles higiénicos."
+    },
+    "maintenance_frequency": {
+      "estado": "dato",
+      "valor": 12,
+      "calificador": "=",
+      "unidad": "meses",
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Inspección anual y después de filtraciones o vientos intensos."
+    },
+    "maintenance_actions": {
+      "estado": "dato",
+      "valor": "Revisar sellos, juntas, esquinas, zócalos, vanos, pintura y penetraciones; corregir humedad antes de cerrar la cavidad",
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E4"
+    },
+    "repairability": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Placas y juntas localmente reparables; revisar barrera y perfiles si hubo humedad."
+    },
+    "replaceability": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Paneles y piezas pueden desmontarse por sectores si el detalle lo permite."
+    },
+    "common_failures": {
+      "estado": "dato",
+      "valor": [
+        "Fisuras en juntas",
+        "tornillos arrancados",
+        "filtración en vanos o base",
+        "moho del yeso",
+        "corrosión oculta"
+      ],
+      "fuentes": [
+        {
+          "ref": "L1"
+        },
+        {
+          "ref": "P2"
+        }
+      ],
+      "evidencia": "E4"
+    },
+    "failure_causes": {
+      "estado": "dato",
+      "valor": [
+        "Juntas y sellos mal ejecutados",
+        "barrera discontinua",
+        "fijación insuficiente",
+        "movimientos",
+        "agua atrapada"
+      ],
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E4"
+    },
+    "corrective_action": {
+      "estado": "dato",
+      "valor": "Localizar y detener filtración; abrir área afectada, secar y sustituir placas o perfiles deteriorados; rehacer barrera, juntas y acabado",
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E4"
+    },
+    "origin": {
+      "estado": "dato",
+      "valor_texto_original": "Nacional y componentes importados",
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Confirmar origen de perfiles, gypsum y aislante por proveedor."
+    },
+    "transport_distance": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "No se encontró un valor verificable para este ensamble; requiere ficha, ensayo o cálculo del proyecto."
+    },
+    "recycled_content": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "L1"
+        },
+        {
+          "ref": "L2"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "No se encontró un valor verificable para este ensamble; requiere ficha, ensayo o cálculo del proyecto."
+    },
+    "renewable": {
+      "estado": "dato",
+      "valor": "No",
+      "fuentes": [
+        {
+          "ref": "L2"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "El fibrocemento y los perfiles no son materiales renovables; contiene fibras celulósicas."
+    },
+    "reusable": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Desmontaje posible pero tornillos, masillas y cortes limitan la recuperación."
+    },
+    "recyclable": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Perfilería separable; gestión de placas depende de oferta local."
+    },
+    "installation_waste": {
+      "estado": "dato",
+      "valor": 2,
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Modulación reduce recortes; separar metal, placa y empaques."
+    },
+    "epd_available": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "L2"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "No se encontró un valor verificable para este ensamble; requiere ficha, ensayo o cálculo del proyecto."
+    },
+    "embodied_carbon": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "L2"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "No se encontró un valor verificable para este ensamble; requiere ficha, ensayo o cálculo del proyecto."
+    },
+    "embodied_carbon_modules": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "environmental_certification": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "L2"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "No se encontró un valor verificable para este ensamble; requiere ficha, ensayo o cálculo del proyecto."
+    },
+    "end_of_life": {
+      "estado": "dato",
+      "valor_texto_original": "Reciclaje parcial; vertedero según separación y gestor",
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "cr_region": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "seismic_condition": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "tradition_type": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "cr_standard": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "plan_requirements": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "advantages": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "limitations": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "graphics": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "wall_function": {
+      "estado": "dato",
+      "valor": "Cerramiento no portante; puede integrarse a sistema estructural diseñado",
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "system_thickness": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Depende de perfil, placas, aislante y acabados."
+    },
+    "maximum_height": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Determinar por diseño de viento, anclajes y separación de postes."
+    },
+    "modulation": {
+      "estado": "dato",
+      "valor": "Placa de 1219 mm de ancho; postes a 406 o 610 mm e/e según condición de diseño",
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "lateral_load": {
+      "estado": "dato",
+      "valor": "Resistencia a viento definida por perfiles, placas, tornillos, anclajes y cálculo",
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "capillary_absorption": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "L2"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "No se encontró un valor verificable para este ensamble; requiere ficha, ensayo o cálculo del proyecto."
+    },
+    "moisture_barrier": {
+      "estado": "dato",
+      "valor": "Barrera de agua/aire continua, vierteaguas, sellos y separación de placa respecto al suelo",
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E4"
+    },
+    "interior_finish": {
+      "estado": "dato",
+      "valor": "Gypsum con juntas tratadas y pintura compatible",
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E4"
+    },
+    "exterior_finish": {
+      "estado": "dato",
+      "valor": "Fibrocemento con juntas tratadas y recubrimiento exterior",
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "structural_connection": {
+      "estado": "dato",
+      "valor": "Canales anclados a losas, vigas o columnas; refuerzos en vanos y cargas suspendidas",
+      "fuentes": [
+        {
+          "ref": "L1"
+        }
+      ],
+      "evidencia": "E2"
+    }
+  },
+  "fuentes": [
+    {
+      "id": "PROPIO",
+      "cita": "Elaboración propia del estudiante (TP1).",
+      "tipo": "elaboracion_propia"
+    },
+    {
+      "id": "L1",
+      "cita": "Plycem. Manual de instalación PlyRock. https://plycem.com/wp-content/uploads/2022/02/Manual-de-instalacion-Plyrock.pdf",
+      "url": "https://plycem.com/wp-content/uploads/2022/02/Manual-de-instalacion-Plyrock.pdf"
+    },
+    {
+      "id": "L2",
+      "cita": "Plycem. Ficha técnica PlyRock. https://plycem.com/wp-content/uploads/2022/02/Ficha-tecnica-Plyrock.pdf",
+      "url": "https://plycem.com/wp-content/uploads/2022/02/Ficha-tecnica-Plyrock.pdf"
+    },
+    {
+      "id": "P2",
+      "cita": "MIVAH. Guía de campo: evaluación rápida de viviendas, actualización 2022. https://www.mivah.go.cr/Documentos/emergencias/Guia-de-Campo-2025.pdf",
+      "url": "https://www.mivah.go.cr/Documentos/emergencias/Guia-de-Campo-2025.pdf"
+    },
+    {
+      "id": "S0",
+      "cita": "Definición del estudio y plantilla del curso."
+    }
+  ]
+}

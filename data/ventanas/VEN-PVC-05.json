@@ -1,0 +1,1148 @@
+{
+  "schema_version": "1.0",
+  "meta": {
+    "id": "VEN-PVC-05",
+    "componente": "VEN",
+    "autor": "Juan Sandoval",
+    "estado_revision": "borrador",
+    "fecha_actualizacion": "2026-10-26",
+    "id_legado": "CR-VEN-05",
+    "origen_migracion": {
+      "archivo": "TP1_Ficha_Juan_Ventanas.xlsx",
+      "hoja": "Ficha (6) uPVC"
+    }
+  },
+  "campos": {
+    "id": {
+      "estado": "dato",
+      "valor": "VEN-PVC-05",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "name": {
+      "estado": "dato",
+      "valor": "Ventana de PVC (uPVC) REHAU Euro-Design 60 – abatible/oscilobatiente con DVH",
+      "fuentes": [
+        {
+          "ref": "F16"
+        },
+        {
+          "ref": "F17"
+        },
+        {
+          "ref": "F18"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Sistema de referencia; en CR se ofrecen también perfiles Tecnoperfiles y Muchtek."
+    },
+    "record_type": {
+      "estado": "dato",
+      "valor": "sistema",
+      "fuentes": [
+        {
+          "ref": "F16"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "component": {
+      "estado": "dato",
+      "valor": "VEN"
+    },
+    "subcategory": {
+      "estado": "dato",
+      "valor": "Ventana de PVC multicámara",
+      "fuentes": [
+        {
+          "ref": "F16"
+        },
+        {
+          "ref": "F18"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "country": {
+      "estado": "dato",
+      "valor": "CR",
+      "fuentes": [
+        {
+          "ref": "F18"
+        },
+        {
+          "ref": "F19"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Perfil importado, ensamblado e instalado en CR."
+    },
+    "manufacturer": {
+      "estado": "dato",
+      "valor": "REHAU (perfil)",
+      "fuentes": [
+        {
+          "ref": "F16"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Otros perfiles en el mercado: Tecnoperfiles, Muchtek."
+    },
+    "supplier": {
+      "estado": "dato",
+      "valor": "GronCR (REHAU), VIDSA (Muchtek, Tecnoperfiles), otros fabricantes locales",
+      "fuentes": [
+        {
+          "ref": "F18"
+        },
+        {
+          "ref": "F19"
+        }
+      ],
+      "evidencia": "E4"
+    },
+    "description": {
+      "estado": "dato",
+      "valor": "Ventana con perfiles de PVC rígido (PVC-U) de 60 mm y 3 cámaras, refuerzo interior de acero galvanizado, doble empaque EPDM y DVH. Admite aperturas abatible, oscilobatiente, proyectable, corrediza y fija.",
+      "fuentes": [
+        {
+          "ref": "F16"
+        },
+        {
+          "ref": "F17"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "La mejor opción térmica y acústica del grupo analizado."
+    },
+    "keywords": {
+      "estado": "dato",
+      "valor": [
+        "PVC",
+        "uPVC",
+        "REHAU",
+        "multicámara",
+        "DVH",
+        "oscilobatiente",
+        "aislamiento térmico",
+        "aislamiento acústico"
+      ],
+      "fuentes": [
+        {
+          "ref": "F16"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "main_material": {
+      "estado": "dato",
+      "valor": "PVC-U (cloruro de polivinilo rígido, sin plastificar)",
+      "fuentes": [
+        {
+          "ref": "F17"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "secondary_materials": {
+      "estado": "dato",
+      "valor": [
+        "Refuerzo de acero galvanizado",
+        "DVH",
+        "doble empaque EPDM",
+        "herrajes perimetrales de acero",
+        "foil decorativo opcional"
+      ],
+      "fuentes": [
+        {
+          "ref": "F16"
+        },
+        {
+          "ref": "F17"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "layers": {
+      "estado": "dato",
+      "valor": [
+        "1) Marco de PVC de 3 cámaras con refuerzo de acero → 2) Hoja de PVC de 3 cámaras con refuerzo → 3) Doble empaque EPDM → 4) Junquillo → 5) DVH → 6) Herraje perimetral (bisagras, cremona, manija)"
+      ],
+      "fuentes": [
+        {
+          "ref": "F16"
+        },
+        {
+          "ref": "F17"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "total_thickness": {
+      "estado": "dato",
+      "valor": 60,
+      "calificador": "=",
+      "unidad": "mm",
+      "fuentes": [
+        {
+          "ref": "F16"
+        },
+        {
+          "ref": "F17"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Profundidad constructiva de marco y hoja."
+    },
+    "commercial_dimensions": {
+      "estado": "dato",
+      "valor": "Hoja: hasta 1 100 ancho × 2 300 alto; hasta 75 kg",
+      "fuentes": [
+        {
+          "ref": "F17"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Fabricación bajo medida."
+    },
+    "density": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "surface_mass": {
+      "estado": "dato",
+      "min": 35.0,
+      "max": 40.0,
+      "calificador": "rango",
+      "unidad": "kg/m²",
+      "fuentes": [
+        {
+          "ref": "R09"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Texto original: ≈ 35 – 40 (con DVH 4/12/4) · Estimado: perfil de PVC ≈ 10–12 kg/m² + refuerzo de acero ≈ 4–5 kg/m² + DVH 4/12/4 ≈ 20 kg/m². Densidad PVC-U ≈ 1 400 kg/m³."
+    },
+    "surface_finish": {
+      "estado": "dato",
+      "valor": "Blanco en masa; foils decorativos (madera y colores)",
+      "fuentes": [
+        {
+          "ref": "F16"
+        },
+        {
+          "ref": "F18"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "support_system": {
+      "estado": "dato",
+      "valor": "Marco perimetral fijo al buque; hoja sobre bisagras con herraje perimetral",
+      "fuentes": [
+        {
+          "ref": "F16"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "fastening": {
+      "estado": "dato",
+      "valor": "Anclaje mecánico (tornillos o grapas) al buque; sellado con espuma y silicón",
+      "fuentes": [
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Práctica usual; confirmar con manual del sistema."
+    },
+    "joints_seals": {
+      "estado": "dato",
+      "valor": "Doble empaque EPDM con cierre a tope; drenaje por galce inclinado; herraje multipunto",
+      "fuentes": [
+        {
+          "ref": "F16"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "installation_sequence": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "tools_labor": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "critical_point": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "recommended_uses": {
+      "estado": "dato",
+      "valor": [
+        "Viviendas, hoteles, oficinas y hospitales que requieren aislamiento térmico y acústico, espacios climatizados y zonas con ruido o salinidad"
+      ],
+      "fuentes": [
+        {
+          "ref": "F16"
+        },
+        {
+          "ref": "F18"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "building_types": {
+      "estado": "dato",
+      "valor": [
+        "Vivienda",
+        "Comercial",
+        "Institucional",
+        "Salud"
+      ],
+      "fuentes": [
+        {
+          "ref": "F16"
+        },
+        {
+          "ref": "F18"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "location": {
+      "estado": "dato",
+      "valor": "Exterior",
+      "fuentes": [
+        {
+          "ref": "F16"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "climates": {
+      "estado": "dato",
+      "valor": "Todos: cálido húmedo, costero salino, lluvioso con viento y templado de altura",
+      "fuentes": [
+        {
+          "ref": "F17"
+        },
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "En el sol intenso de Guanacaste preferir colores claros para limitar la dilatación."
+    },
+    "imn_subregions": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "compatibility": {
+      "estado": "dato",
+      "valor": "Mampostería, concreto, estructura liviana",
+      "fuentes": [
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Prever holgura para dilatación térmica del PVC."
+    },
+    "use_restrictions": {
+      "estado": "dato",
+      "valor": "Perfiles oscuros se dilatan con el sol; menos rigidez que el aluminio en vanos grandes; hoja limitada a ≈ 75 kg; costo alto",
+      "fuentes": [
+        {
+          "ref": "F17"
+        },
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "labor_specialization": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Soldadura térmica de esquinas en taller especializado."
+    },
+    "installation_complexity": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Instalación en obra similar a otras abatibles."
+    },
+    "national_availability": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "F18"
+        },
+        {
+          "ref": "F19"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Varios fabricantes, concentrados en la GAM."
+    },
+    "installation_time": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "relative_cost": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "F4"
+        },
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Similar o superior a la línea española oscilobatiente."
+    },
+    "price_range": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "F18"
+        },
+        {
+          "ref": "F19"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Los proveedores no publican precios. Referencia: oscilobatiente de aluminio con DVH ₡150 000–220 000/m² (F4). Solicitar cotización."
+    },
+    "mechanical_resistance": {
+      "estado": "dato",
+      "valor": "Viento hasta clase C5/B5 (EN 12210)",
+      "fuentes": [
+        {
+          "ref": "F17"
+        }
+      ],
+      "evidencia": "E3",
+      "nota": "El refuerzo de acero da la rigidez."
+    },
+    "impact_resistance": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "F17"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Depende del vidrio (templado o laminado)."
+    },
+    "abrasion_resistance": {
+      "estado": "no_disponible",
+      "evidencia": "E1",
+      "nota": "Superficie lisa; puede rayarse."
+    },
+    "durability_years": {
+      "estado": "dato",
+      "min": 30.0,
+      "max": 50.0,
+      "calificador": "rango",
+      "unidad": "años",
+      "fuentes": [
+        {
+          "ref": "F19"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "VIDSA indica unos 50 años de vida útil."
+    },
+    "water_absorption": {
+      "estado": "no_aplica",
+      "evidencia": "E1",
+      "nota": "PVC-U prácticamente no absorbe agua."
+    },
+    "moisture_resistance": {
+      "estado": "dato",
+      "valor": 5,
+      "fuentes": [
+        {
+          "ref": "F17"
+        },
+        {
+          "ref": "F18"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Estanqueidad hasta clase 9A."
+    },
+    "condensation_risk": {
+      "estado": "dato",
+      "valor": 2,
+      "fuentes": [
+        {
+          "ref": "F16"
+        },
+        {
+          "ref": "F18"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Perfil multicámara “tibio” + DVH."
+    },
+    "corrosion_resistance": {
+      "estado": "dato",
+      "valor": 5,
+      "fuentes": [
+        {
+          "ref": "F18"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "El PVC no se oxida; el refuerzo queda protegido dentro del perfil."
+    },
+    "uv_resistance": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Estabilizado; los foils oscuros se decoloran y se calientan en sol tropical."
+    },
+    "marine_environment": {
+      "estado": "dato",
+      "valor": "Sí",
+      "fuentes": [
+        {
+          "ref": "F18"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Usar herrajes inoxidables."
+    },
+    "vapor_permeability": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "thermal_conductivity": {
+      "estado": "dato",
+      "valor": 0.16,
+      "calificador": "≈",
+      "unidad": "W/(m·K)",
+      "fuentes": [
+        {
+          "ref": "R03"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Texto original: ≈ 0,16 (PVC-U) · Unas 1 000 veces menor que el aluminio."
+    },
+    "specific_heat": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "thermal_resistance": {
+      "estado": "dato",
+      "valor": 0.36,
+      "calificador": "≈",
+      "unidad": "m²·K/W",
+      "fuentes": [
+        {
+          "ref": "R10"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "R = 1/Ug (2,8)."
+    },
+    "u_value": {
+      "estado": "dato",
+      "valor": 2.5,
+      "calificador": "≈",
+      "unidad": "W/(m²·K)",
+      "fuentes": [
+        {
+          "ref": "F16"
+        },
+        {
+          "ref": "F17"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Texto original: ≈ 2,5 (Uf = 1,4–1,6; Ug 4/12/4 = 2,8) · Uw estimado; con vidrio bajo emisivo y argón puede bajar de 1,5. F16 da Uf = 1,6 y F17 da 1,4."
+    },
+    "solar_reflectance": {
+      "estado": "dato",
+      "min": 0.12,
+      "max": 0.15,
+      "calificador": "rango",
+      "unidad": "0–1",
+      "fuentes": [
+        {
+          "ref": "R03"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "DVH claro/claro."
+    },
+    "thermal_emittance": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "sri": {
+      "estado": "no_aplica",
+      "evidencia": "E1"
+    },
+    "sound_insulation": {
+      "estado": "dato",
+      "valor_texto_original": "Hasta 44 – 45",
+      "fuentes": [
+        {
+          "ref": "F16"
+        },
+        {
+          "ref": "F17"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Valor máximo del sistema con vidrio acústico; con DVH 4/12/4 común ≈ 30–32."
+    },
+    "sound_absorption": {
+      "estado": "no_aplica",
+      "evidencia": "E1"
+    },
+    "fire_reaction": {
+      "estado": "no_disponible",
+      "evidencia": "E1",
+      "nota": "El PVC rígido es autoextinguible, pero combustible; no es A1 como el aluminio."
+    },
+    "fire_resistance": {
+      "estado": "no_disponible",
+      "evidencia": "E1",
+      "nota": "No es cortafuego."
+    },
+    "smoke_class": {
+      "estado": "no_disponible",
+      "evidencia": "E1",
+      "nota": "En incendio el PVC genera humo denso con gases ácidos (HCl)."
+    },
+    "voc_emissions": {
+      "estado": "no_disponible",
+      "evidencia": "E1",
+      "nota": "Emisión despreciable en uso."
+    },
+    "hazardous_substances": {
+      "estado": "dato",
+      "valor": [
+        "Aditivos estabilizantes del PVC"
+      ],
+      "fuentes": [
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Perfiles actuales usan estabilizantes de calcio-zinc; perfiles antiguos podían contener plomo."
+    },
+    "cleanability": {
+      "estado": "dato",
+      "valor": 5,
+      "fuentes": [
+        {
+          "ref": "F16"
+        },
+        {
+          "ref": "F18"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Superficie lisa; basta agua y jabón."
+    },
+    "accessibility": {
+      "estado": "dato",
+      "valor": "Manija única de palanca; apertura oscilobatiente ventila con seguridad",
+      "fuentes": [
+        {
+          "ref": "F16"
+        },
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Ubicar la manija a altura accesible (Ley 7600)."
+    },
+    "healthcare_use": {
+      "estado": "dato",
+      "valor": "Sí",
+      "fuentes": [
+        {
+          "ref": "F16"
+        },
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Superficies lisas y hermeticidad alta."
+    },
+    "maintenance_frequency": {
+      "estado": "dato",
+      "valor": 12,
+      "calificador": "=",
+      "unidad": "meses",
+      "fuentes": [
+        {
+          "ref": "F18"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Lavado y lubricación ocasional de herrajes."
+    },
+    "maintenance_actions": {
+      "estado": "dato",
+      "valor": "Lavar con agua y jabón; lubricar herrajes ocasionalmente; revisar empaques y drenajes",
+      "fuentes": [
+        {
+          "ref": "F18"
+        }
+      ],
+      "evidencia": "E4"
+    },
+    "repairability": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Herrajes y empaques repuestos; el perfil dañado no se repara fácilmente."
+    },
+    "replaceability": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "common_failures": {
+      "estado": "dato",
+      "valor": [
+        "Descuelgue o desajuste de la hoja",
+        "deformación por calor en perfiles oscuros",
+        "empañamiento del DVH",
+        "desgaste de empaques"
+      ],
+      "fuentes": [
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "failure_causes": {
+      "estado": "dato",
+      "valor": [
+        "Exposición solar extrema con colores oscuros",
+        "falta de refuerzo en vanos grandes",
+        "mala fijación",
+        "falta de ajuste de herrajes"
+      ],
+      "fuentes": [
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "corrective_action": {
+      "estado": "dato",
+      "valor": "Ajustar herrajes, cambiar empaques, sustituir la unidad DVH, reforzar o sustituir el perfil deformado",
+      "fuentes": [
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "origin": {
+      "estado": "dato",
+      "valor": "Importado",
+      "fuentes": [
+        {
+          "ref": "F18"
+        },
+        {
+          "ref": "F19"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Perfil importado; fabricación e instalación local."
+    },
+    "transport_distance": {
+      "estado": "no_disponible",
+      "evidencia": "E1",
+      "nota": "Depende de la planta de origen del perfil (América o Europa)."
+    },
+    "recycled_content": {
+      "estado": "no_disponible",
+      "evidencia": "E1"
+    },
+    "renewable": {
+      "estado": "dato",
+      "valor": "No",
+      "evidencia": "E1",
+      "nota": "Derivado de petróleo y sal."
+    },
+    "reusable": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "recyclable": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "F16"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "REHAU lo declara reciclable; en CR no hay un programa de reciclaje de perfiles de PVC."
+    },
+    "installation_waste": {
+      "estado": "dato",
+      "valor": 2,
+      "fuentes": [
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "epd_available": {
+      "estado": "no_disponible",
+      "evidencia": "E1",
+      "nota": "Verificar si el fabricante del perfil ofrece EPD."
+    },
+    "embodied_carbon": {
+      "estado": "dato",
+      "valor": 65.0,
+      "calificador": "≈",
+      "unidad": "kgCO2e/m²",
+      "fuentes": [
+        {
+          "ref": "R09"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Estimado: 12 kg de PVC × ≈ 2,4 ≈ 29 + 5 kg de acero × ≈ 2 ≈ 10 + 20 kg de vidrio × ≈ 1,2 ≈ 24."
+    },
+    "embodied_carbon_modules": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "environmental_certification": {
+      "estado": "no_disponible",
+      "evidencia": "E1"
+    },
+    "end_of_life": {
+      "estado": "dato",
+      "valor": [
+        "Vertedero"
+      ],
+      "fuentes": [
+        {
+          "ref": "F10"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Reciclaje técnicamente posible, pero sin programa en CR."
+    },
+    "cr_region": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "seismic_condition": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "tradition_type": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "cr_standard": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "plan_requirements": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "advantages": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "limitations": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "graphics": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "opening_type": {
+      "estado": "dato",
+      "valor": "Abatible; oscilobatiente (también proyectable, corrediza y fija)",
+      "fuentes": [
+        {
+          "ref": "F16"
+        },
+        {
+          "ref": "F17"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "frame_material": {
+      "estado": "dato",
+      "valor": "PVC-U multicámara con refuerzo de acero galvanizado",
+      "fuentes": [
+        {
+          "ref": "F16"
+        },
+        {
+          "ref": "F17"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "air_tightness": {
+      "estado": "dato",
+      "valor": "Clase 4 (EN 12207)",
+      "fuentes": [
+        {
+          "ref": "F17"
+        }
+      ],
+      "evidencia": "E3",
+      "nota": "Máxima clase de la norma (ensayo a 600 Pa)."
+    },
+    "glass_type": {
+      "estado": "dato",
+      "valor": "DVH (claro, bajo emisivo, acústico o de control solar)",
+      "fuentes": [
+        {
+          "ref": "F16"
+        },
+        {
+          "ref": "F17"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Admite también monolítico o laminado."
+    },
+    "glass_thickness": {
+      "estado": "dato",
+      "min": 3.0,
+      "max": 33.0,
+      "calificador": "rango",
+      "unidad": "mm",
+      "fuentes": [
+        {
+          "ref": "F17"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Texto original: 3 – 33 (DVH típico 4/12/4 = 20) · F16 indica hasta 36 mm con empaque especial."
+    },
+    "chamber_count": {
+      "estado": "dato",
+      "valor": 3,
+      "calificador": "=",
+      "fuentes": [
+        {
+          "ref": "F16"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "shgc": {
+      "estado": "dato",
+      "min": 0.7,
+      "max": 0.76,
+      "calificador": "rango",
+      "unidad": "0–1",
+      "fuentes": [
+        {
+          "ref": "R03"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "DVH claro/claro; con bajo emisivo solar ≈ 0,3–0,4."
+    },
+    "visible_transmittance": {
+      "estado": "dato",
+      "min": 0.78,
+      "max": 0.81,
+      "calificador": "rango",
+      "unidad": "0–1",
+      "fuentes": [
+        {
+          "ref": "R03"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "DVH claro/claro."
+    },
+    "water_tightness": {
+      "estado": "dato",
+      "valor": "600 (clase 9A, EN 12208)",
+      "fuentes": [
+        {
+          "ref": "F17"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "wind_load": {
+      "estado": "dato",
+      "valor": 2000.0,
+      "calificador": "=",
+      "unidad": "Pa",
+      "fuentes": [
+        {
+          "ref": "F17"
+        }
+      ],
+      "evidencia": "E3",
+      "nota": "Texto original: 2 000 (clase C5/B5, EN 12210) · P1 = 2 000 Pa para la clase 5."
+    },
+    "effective_opening": {
+      "estado": "dato",
+      "valor": 100.0,
+      "calificador": "≈",
+      "unidad": "%",
+      "fuentes": [
+        {
+          "ref": "F16"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Abatible libera todo el vano; en posición oscilante solo ventila por arriba."
+    },
+    "solar_protection": {
+      "estado": "dato",
+      "valor": "No integrada",
+      "fuentes": [
+        {
+          "ref": "F16"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Puede especificarse DVH con control solar."
+    },
+    "safety_glass": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "F16"
+        },
+        {
+          "ref": "F20"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Templado o laminado bajo pedido; obligatorio en áreas de riesgo según INTE C312:2019."
+    }
+  },
+  "fuentes": [
+    {
+      "id": "PROPIO",
+      "cita": "Elaboración propia del estudiante (TP1).",
+      "tipo": "elaboracion_propia"
+    },
+    {
+      "id": "F10",
+      "cita": "Investigación propia TP Ventanería (presentación, matriz de aplicabilidad y problemas comunes observados en Costa Rica)."
+    },
+    {
+      "id": "F16",
+      "cita": "REHAU Argentina. Euro-Design 60, información técnica. https://www.rehau.com/ar-es/ventanas-de-pvc/informaci%C3%B3n-t%C3%A9cnica/euro-design-60",
+      "url": "https://www.rehau.com/ar-es/ventanas-de-pvc/informaci%C3%B3n-t%C3%A9cnica/euro-design-60"
+    },
+    {
+      "id": "F17",
+      "cita": "Ficha técnica Sistema Euro-Design 60 (Abasur, distribuidor REHAU, 2025). https://abasur.com.uy/wp-content/uploads/2025/02/Euro-design-60-_Ficha.pdf",
+      "url": "https://abasur.com.uy/wp-content/uploads/2025/02/Euro-design-60-_Ficha.pdf"
+    },
+    {
+      "id": "F18",
+      "cita": "GronCR. Ventanas de PVC: más resistentes y herméticas. https://groncr.com/ventanas-de-pvc-mas-resistentes-y-hermeticas/",
+      "url": "https://groncr.com/ventanas-de-pvc-mas-resistentes-y-hermeticas/"
+    },
+    {
+      "id": "F19",
+      "cita": "VIDSA. Ventanas de PVC en Costa Rica. https://vidsa.cr/ventanas-de-pvc/",
+      "url": "https://vidsa.cr/ventanas-de-pvc/"
+    },
+    {
+      "id": "F20",
+      "cita": "INTE C312:2019, vidrio de seguridad en áreas de riesgo (citada en las fichas Extralum FT-031 y FT-137)."
+    },
+    {
+      "id": "F4",
+      "cita": "Vitrocentro. \"Ventanas de aluminio: precio en Costa Rica\" (14-abr-2026). https://vitrocentro.com/consejos/ventanas-de-aluminio-precio/",
+      "url": "https://vitrocentro.com/consejos/ventanas-de-aluminio-precio/"
+    },
+    {
+      "id": "R03",
+      "cita": "Literatura técnica"
+    },
+    {
+      "id": "R09",
+      "cita": "Cálculo"
+    },
+    {
+      "id": "R10",
+      "cita": "Cálculo con F17"
+    }
+  ]
+}

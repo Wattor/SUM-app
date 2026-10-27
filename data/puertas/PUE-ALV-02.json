@@ -1,0 +1,1072 @@
+{
+  "schema_version": "1.0",
+  "meta": {
+    "id": "PUE-ALV-02",
+    "componente": "PUE",
+    "autor": "Verónica",
+    "estado_revision": "borrador",
+    "fecha_actualizacion": "2026-10-26",
+    "id_legado": "PA-ALU-002",
+    "origen_migracion": {
+      "archivo": "TP1_Ficha_Veronica_Puertas_COMPLETADA.xlsx",
+      "hoja": "Solución B-Aluminio vidrio"
+    }
+  },
+  "campos": {
+    "id": {
+      "estado": "dato",
+      "valor": "PUE-ALV-02",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "name": {
+      "estado": "dato",
+      "valor": "Puerta corrediza de aluminio (sistemas Extralum) con vidrio de seguridad",
+      "fuentes": [
+        {
+          "ref": "R54"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "record_type": {
+      "estado": "dato",
+      "valor": "sistema",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Marco + hojas + vidrio + herrajes, no un material aislado"
+    },
+    "component": {
+      "estado": "dato",
+      "valor": "PUE"
+    },
+    "subcategory": {
+      "estado": "dato",
+      "valor": "Puerta corrediza / abatible / elevable de aluminio y vidrio",
+      "fuentes": [
+        {
+          "ref": "R54"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "country": {
+      "estado": "dato",
+      "valor": "CR",
+      "fuentes": [
+        {
+          "ref": "R04"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "manufacturer": {
+      "estado": "dato",
+      "valor": "Extralum S.A. (planta de manufactura en La Argentina de Grecia, Alajuela)",
+      "fuentes": [
+        {
+          "ref": "R55"
+        },
+        {
+          "ref": "R56"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "supplier": {
+      "estado": "dato",
+      "valor": "Extralum S.A. y red nacional de talleres vidrieros autorizados",
+      "fuentes": [
+        {
+          "ref": "R57"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "description": {
+      "estado": "dato",
+      "valor": "Marco y hojas móviles extruidas en aluminio 6063-T5 (sistemas Inowa, Europa, Akari, EXT45, EXTVista, Abatible Deluxe), con empaques EPDM de grado marino, rodamientos regulables y vidrio de seguridad (Fuertex templado, Vilax laminado o DVH).",
+      "fuentes": [
+        {
+          "ref": "R56"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "keywords": {
+      "estado": "dato",
+      "valor": [
+        "aluminio, Extralum, vidrio templado, vidrio laminado, DVH, corrediza, sistema Europa, EXTVista, EPDM"
+      ],
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "main_material": {
+      "estado": "dato",
+      "valor": "Aleación de aluminio arquitectónico 6063-T5",
+      "fuentes": [
+        {
+          "ref": "R56"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "secondary_materials": {
+      "estado": "dato",
+      "valor": [
+        "Vidrio de seguridad (Fuertex templado, Vilax laminado, DVH)",
+        "empaques EPDM grado marino",
+        "felpas de estanqueidad",
+        "rodamientos regulables",
+        "tornillería inoxidable"
+      ],
+      "fuentes": [
+        {
+          "ref": "R56"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "layers": {
+      "estado": "dato",
+      "valor": [
+        "1) Perfil de marco en aluminio 6063-T5",
+        "2) Riel inferior de desplazamiento",
+        "3) Vidrio de seguridad (Fuertex/Vilax/DVH)",
+        "4) Empaque perimetral EPDM grado marino",
+        "5) Rodamiento regulable de precisión"
+      ],
+      "fuentes": [
+        {
+          "ref": "R58"
+        },
+        {
+          "ref": "R56"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "total_thickness": {
+      "estado": "dato",
+      "valor_texto_original": "Espesor de pared de perfilería: 1,10-1,90 mm (Sistema Europa); sección vista de solo 25 mm en EXTVista",
+      "fuentes": [
+        {
+          "ref": "R58"
+        },
+        {
+          "ref": "R56"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "commercial_dimensions": {
+      "estado": "dato",
+      "valor": "EXTVista: hojas hasta 4,0x4,0 m y 450 kg/hoja; EXT45 corrediza hasta 200 kg/hoja, elevable hasta 400 kg/hoja; Sistema Europa plegable hasta 14 hojas (7 por dirección), apertura hasta 92% del vano; Abatible Deluxe hasta 120 kg con apertura hasta 105 grados",
+      "fuentes": [
+        {
+          "ref": "R59"
+        },
+        {
+          "ref": "R58"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "density": {
+      "estado": "dato",
+      "valor_texto_original": "Densidad del aluminio (aleación serie 6000): aprox. 2.700 kg/m3 (valor de la aleación, no del perfil Extralum específico)",
+      "fuentes": [
+        {
+          "ref": "R60"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Referencia general del material; no hay un dato de peso del perfil o la hoja terminada en los informes"
+    },
+    "surface_mass": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "surface_finish": {
+      "estado": "dato",
+      "valor": "Anodizado electroquímico (natural o bronce) o lacado con pintura de poliéster termoendurecible",
+      "fuentes": [
+        {
+          "ref": "R61"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "support_system": {
+      "estado": "dato",
+      "valor": "Vigas y columnas de concreto armado o marcos metálicos de fachada",
+      "fuentes": [
+        {
+          "ref": "R61"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "fastening": {
+      "estado": "dato",
+      "valor": "Tornillería de acero inoxidable 2\"x10 autorroscante con tacos de expansión plástica @ 50 cm",
+      "fuentes": [
+        {
+          "ref": "R61"
+        },
+        {
+          "ref": "R58"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "joints_seals": {
+      "estado": "dato",
+      "valor": "Sello elástico continuo de silicona estructural o poliuretano en juntas perimetrales; juntas de EPDM y neopreno en las hojas; barredores inferiores independientes; cierrapuertas hidráulico oculto (Abatible Deluxe)",
+      "fuentes": [
+        {
+          "ref": "R61"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "installation_sequence": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "tools_labor": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "critical_point": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "recommended_uses": {
+      "estado": "dato",
+      "valor": [
+        "Fachadas residenciales modernas, balcones y terrazas, hoteles costeros, accesos comerciales de alto tránsito"
+      ],
+      "fuentes": [
+        {
+          "ref": "R62"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "building_types": {
+      "estado": "dato",
+      "valor": [
+        "Vivienda",
+        "Comercial",
+        "Institucional"
+      ],
+      "fuentes": [
+        {
+          "ref": "R63"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Valores tomados de la lista controlada 'building_type'"
+    },
+    "location": {
+      "estado": "dato",
+      "valor": "Ambos",
+      "fuentes": [
+        {
+          "ref": "R62"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "uso predominante en exterior: fachadas, balcones y terrazas"
+    },
+    "climates": {
+      "estado": "dato",
+      "valor": "Climas húmedos, lluviosos y de alta salinidad; diseñado para tormentas tropicales severas, vientos huracanados e inundaciones repentinas",
+      "fuentes": [
+        {
+          "ref": "R64"
+        },
+        {
+          "ref": "R62"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "imn_subregions": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "compatibility": {
+      "estado": "dato",
+      "valor": "Compatible con vidrio Fuertex templado y Vilax laminado; requiere tornillería y herrajes de acero inoxidable",
+      "fuentes": [
+        {
+          "ref": "R65"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "use_restrictions": {
+      "estado": "dato",
+      "valor": "Incompatible con tornillería de hierro común (induce corrosión galvánica); instalación limitada si las losas presentan desviaciones de nivel mayores a 2 mm",
+      "fuentes": [
+        {
+          "ref": "R64"
+        },
+        {
+          "ref": "R57"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "labor_specialization": {
+      "estado": "dato",
+      "valor": 5,
+      "fuentes": [
+        {
+          "ref": "R66"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Escala 1-5 propia sobre la descripción cualitativa"
+    },
+    "installation_complexity": {
+      "estado": "dato",
+      "valor": 5,
+      "fuentes": [
+        {
+          "ref": "R67"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Escala 1-5 propia"
+    },
+    "national_availability": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "R68"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Escala 1-5 propia"
+    },
+    "installation_time": {
+      "estado": "no_disponible",
+      "nota": "Los informes no reportan un dato de tiempo de instalación distinto al de complejidad"
+    },
+    "relative_cost": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "R69"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Escala 1-5 propia"
+    },
+    "price_range": {
+      "estado": "dato",
+      "valor_texto_original": "Mamparas serie Aqua: c93.750-c119.999; sistemas de terraza serie Europa: aprox. c238.574,49; sistemas elevables EXT45/EXTVista a medida: presupuesto Medio-Alto a Alto sin precio fijo de catálogo. Colones IVAI",
+      "fuentes": [
+        {
+          "ref": "R70"
+        },
+        {
+          "ref": "R57"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "mechanical_resistance": {
+      "estado": "dato",
+      "valor": "Excepcional rigidez mecánica; soporta ráfagas de viento superiores a 120 km/h en fachadas de costa sin deformación dimensional",
+      "fuentes": [
+        {
+          "ref": "R71"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "impact_resistance": {
+      "estado": "dato",
+      "valor": "Alta con vidrio Fuertex templado (4-5 veces más resistente al impacto que el monolítico) y Vilax laminado (retiene fragmentos ante impacto)",
+      "fuentes": [
+        {
+          "ref": "R72"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "abrasion_resistance": {
+      "estado": "no_disponible"
+    },
+    "durability_years": {
+      "estado": "dato",
+      "valor_texto_original": "Supera los 40 años",
+      "fuentes": [
+        {
+          "ref": "R64"
+        },
+        {
+          "ref": "R57"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "water_absorption": {
+      "estado": "no_disponible",
+      "nota": "Material no absorbente por naturaleza (100% impermeable); no se reporta un porcentaje de absorción"
+    },
+    "moisture_resistance": {
+      "estado": "dato",
+      "valor": 5,
+      "fuentes": [
+        {
+          "ref": "R73"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Escala propia; 5 = máxima resistencia a la humedad"
+    },
+    "condensation_risk": {
+      "estado": "dato",
+      "valor": 1,
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "No se reportan patologías de condensación en los informes; el aluminio sin rotura de puente térmico puede generar condensación superficial en climas fríos, poco relevante en Costa Rica"
+    },
+    "corrosion_resistance": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "R74"
+        },
+        {
+          "ref": "R75"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Escala propia; alta resistencia si se instala correctamente, pero críticamente vulnerable a corrosión galvánica con tornillería de hierro"
+    },
+    "uv_resistance": {
+      "estado": "dato",
+      "valor": 5,
+      "fuentes": [
+        {
+          "ref": "R76"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Escala propia"
+    },
+    "marine_environment": {
+      "estado": "dato",
+      "valor": "Sí",
+      "fuentes": [
+        {
+          "ref": "R77"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "vapor_permeability": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "thermal_conductivity": {
+      "estado": "dato",
+      "valor_texto_original": "Aluminio: aprox. 160-200 W/m.K (conductividad térmica intrínseca del metal, muy superior a la de madera o vidrio)",
+      "fuentes": [
+        {
+          "ref": "R78"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Referencia general del metal, no del perfil específico Extralum"
+    },
+    "specific_heat": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "thermal_resistance": {
+      "estado": "no_disponible",
+      "nota": "La resistencia térmica del conjunto depende del vidrio (DVH) y no está reportada de forma aislada para el perfil"
+    },
+    "u_value": {
+      "estado": "dato",
+      "valor_texto_original": "Referencia general (no de esta ficha): perfiles de aluminio sin rotura de puente térmico Uf aprox. 5,6-7,0 W/m2.K; con vidrio DVH (Ug aprox. 1,1-3,3 W/m2.K) el conjunto Uw podría bajar a 3,5-5,5 W/m2.K",
+      "fuentes": [
+        {
+          "ref": "R79"
+        },
+        {
+          "ref": "R80"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Los informes no mencionan rotura de puente térmico (poliamida) en los sistemas Extralum descritos; se asume perfil estándar sin RPT, típico de climas tropicales donde prioriza hermeticidad al agua/viento sobre aislamiento térmico frente al frío"
+    },
+    "solar_reflectance": {
+      "estado": "no_disponible"
+    },
+    "thermal_emittance": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "sri": {
+      "estado": "no_disponible"
+    },
+    "sound_insulation": {
+      "estado": "dato",
+      "valor_texto_original": "Bajo con vidrio monolítico; excelente con DVH de 24-33,5 mm (mitiga ruido urbano y de hoteles de playa)",
+      "fuentes": [
+        {
+          "ref": "R65"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "sound_absorption": {
+      "estado": "no_disponible"
+    },
+    "fire_reaction": {
+      "estado": "dato",
+      "valor": "Incombustible (Euroclase A1, típico del aluminio como metal); se deforma y debilita sobre 600 grados C en incendios estructurales",
+      "fuentes": [
+        {
+          "ref": "R81"
+        },
+        {
+          "ref": "R82"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "La clase A1 es una referencia normativa general añadida por fuera de los informes entregados"
+    },
+    "fire_resistance": {
+      "estado": "no_disponible",
+      "nota": "No se reporta una clasificación de resistencia al fuego (EI/RF) certificada para el conjunto puerta+vidrio; la deformación sobre 600 grados C no equivale a una clase certificada"
+    },
+    "smoke_class": {
+      "estado": "no_disponible"
+    },
+    "voc_emissions": {
+      "estado": "no_disponible"
+    },
+    "hazardous_substances": {
+      "estado": "dato",
+      "valor": [
+        "Ninguna reportada",
+        "evitar contacto de tornillería de hierro común con el aluminio (riesgo de corrosión galvánica, no de toxicidad)"
+      ],
+      "fuentes": [
+        {
+          "ref": "R74"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "cleanability": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Superficie no porosa y lacada, fácil de limpiar; valor estimado, no un dato explícito de limpieza en los informes"
+    },
+    "accessibility": {
+      "estado": "dato",
+      "valor": "El marco inferior del sistema EXTVista puede empotrarse en el piso, logrando una transición plana sin resaltos (norma INTE W5:2021)",
+      "fuentes": [
+        {
+          "ref": "R83"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "healthcare_use": {
+      "estado": "no_disponible",
+      "nota": "No se reporta como solución recomendada para edificios de salud en los informes"
+    },
+    "maintenance_frequency": {
+      "estado": "dato",
+      "min": 3.0,
+      "max": 6.0,
+      "calificador": "rango",
+      "unidad": "meses",
+      "fuentes": [
+        {
+          "ref": "R84"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "maintenance_actions": {
+      "estado": "dato",
+      "valor": "Aspirar canales de desagüe y polvo del riel inferior cada 3-6 meses; lubricar anualmente los rodamientos mecánicos de la hoja corrediza",
+      "fuentes": [
+        {
+          "ref": "R57"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "repairability": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "R85"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Escala propia"
+    },
+    "replaceability": {
+      "estado": "no_disponible"
+    },
+    "common_failures": {
+      "estado": "dato",
+      "valor": [
+        "Corrosión galvánica costera, delaminación de vidrio laminado Vilax, desbordamiento pluvial de canales de evacuación, atascamiento mecánico de hojas corredizas"
+      ],
+      "fuentes": [
+        {
+          "ref": "R74"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "failure_causes": {
+      "estado": "dato",
+      "valor": [
+        "Tornillería de acero al carbono/hierro dulce en contacto con aluminio y brisa salina (celda galvánica) en Guanacaste (Nosara, Sámara, Tamarindo) y Jacó",
+        "desagües obstruidos con agua estancada bajo el vidrio Vilax",
+        "falta de limpieza de cámaras de descompresión en el Valle Central",
+        "arena y polvo costero que desgastan felpillas y rodamientos de latón"
+      ],
+      "fuentes": [
+        {
+          "ref": "R74"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "corrective_action": {
+      "estado": "dato",
+      "valor": "Especificar herrajes y tornillos exclusivamente de acero inoxidable; limpiar canales de drenaje periódicamente",
+      "fuentes": [
+        {
+          "ref": "R71"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "origin": {
+      "estado": "dato",
+      "valor": "Nacional",
+      "fuentes": [
+        {
+          "ref": "R86"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "perfilería extruida y tratada en la planta Extralum de La Argentina de Grecia, Alajuela); vidrio de seguridad de origen no especificado"
+    },
+    "transport_distance": {
+      "estado": "no_disponible"
+    },
+    "recycled_content": {
+      "estado": "no_disponible",
+      "nota": "No se reporta contenido reciclado del aluminio extruido de Extralum"
+    },
+    "renewable": {
+      "estado": "dato",
+      "valor": "No",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "reusable": {
+      "estado": "no_disponible",
+      "nota": "No se reporta reutilización directa de perfiles usados en los informes"
+    },
+    "recyclable": {
+      "estado": "dato",
+      "valor": "Sí",
+      "fuentes": [
+        {
+          "ref": "R87"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "installation_waste": {
+      "estado": "dato",
+      "valor": 2,
+      "fuentes": [
+        {
+          "ref": "R88"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Escala propia"
+    },
+    "epd_available": {
+      "estado": "no_disponible"
+    },
+    "embodied_carbon": {
+      "estado": "no_disponible"
+    },
+    "embodied_carbon_modules": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "environmental_certification": {
+      "estado": "no_disponible",
+      "nota": "No se menciona una certificación ambiental formal para el aluminio en los informes"
+    },
+    "end_of_life": {
+      "estado": "dato",
+      "valor": [
+        "Reciclaje"
+      ],
+      "fuentes": [
+        {
+          "ref": "R83"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "cr_region": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "seismic_condition": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "tradition_type": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "cr_standard": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "plan_requirements": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "advantages": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "limitations": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "graphics": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "opening_type": {
+      "estado": "dato",
+      "valor": "Corrediza (también abatible, plegable y elevable según el sistema Extralum específico)",
+      "fuentes": [
+        {
+          "ref": "R89"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "frame_material": {
+      "estado": "dato",
+      "valor": "Aluminio 6063-T5 anodizado o lacado",
+      "fuentes": [
+        {
+          "ref": "R56"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "air_tightness": {
+      "estado": "dato",
+      "valor": "Alta: empaques EPDM de grado marino, felpas densas, cámaras de descompresión y desagües integrados; el sistema Inowa garantiza 'hermeticidad absoluta' bajo presión de viento y lluvia",
+      "fuentes": [
+        {
+          "ref": "R59"
+        },
+        {
+          "ref": "R90"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "leaf_count": {
+      "estado": "dato",
+      "min": 1.0,
+      "max": 14.0,
+      "calificador": "rango",
+      "fuentes": [
+        {
+          "ref": "R59"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Texto original: 1 a 14 (el sistema plegable Europa admite hasta 14 hojas, 7 por dirección) · Escala del número de hojas construida a partir de la descripción del sistema plegable"
+    },
+    "nominal_dimensions": {
+      "estado": "dato",
+      "valor": "Hasta 4.000x4.000 mm (EXTVista, 450 kg/hoja); variable según el sistema (Europa, EXT45, Akari, Abatible Deluxe)",
+      "fuentes": [
+        {
+          "ref": "R56"
+        },
+        {
+          "ref": "R59"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "clear_width": {
+      "estado": "no_disponible",
+      "nota": "Varía ampliamente según el sistema y el número de hojas; los informes no reportan un paso libre estándar"
+    },
+    "leaf_material": {
+      "estado": "dato",
+      "valor": "Aluminio 6063-T5 con vidrio de seguridad (Fuertex, Vilax o DVH)",
+      "fuentes": [
+        {
+          "ref": "R56"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "use_frequency": {
+      "estado": "dato",
+      "valor": "Frecuente (fachadas y accesos de uso diario en vivienda, hoteles y comercios)",
+      "fuentes": [
+        {
+          "ref": "R62"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "opening_force": {
+      "estado": "no_disponible"
+    },
+    "hardware": {
+      "estado": "dato",
+      "valor": [
+        "Rodamientos regulables de precisión, cierres tipo 'pico de lora', cierrapuertas hidráulico oculto (Abatible Deluxe), herrajes anti-elevación patentados (EXT45), barredores inferiores independientes",
+        "tornillería exclusiva de acero inoxidable"
+      ],
+      "fuentes": [
+        {
+          "ref": "R59"
+        },
+        {
+          "ref": "R61"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "access_control": {
+      "estado": "dato",
+      "valor": "Cierre mecánico tipo 'pico de lora' o multipunto; no se reporta control de acceso electrónico para esta solución",
+      "fuentes": [
+        {
+          "ref": "R59"
+        }
+      ],
+      "evidencia": "E5"
+    }
+  },
+  "fuentes": [
+    {
+      "id": "PROPIO",
+      "cita": "Elaboración propia del estudiante (TP1).",
+      "tipo": "elaboracion_propia"
+    },
+    {
+      "id": "R04",
+      "cita": "Ficha (dato de encabezado)"
+    },
+    {
+      "id": "R54",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.3, título (pág. 5)"
+    },
+    {
+      "id": "R55",
+      "cita": "estudio-tecnico-puertas.pdf, secc. 3 (pág. 6)"
+    },
+    {
+      "id": "R56",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.3.1 (pág. 5)"
+    },
+    {
+      "id": "R57",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.3.2 (pág. 7)"
+    },
+    {
+      "id": "R58",
+      "cita": "Sistemas_Constructivos_para_Puertas_-_Costa_Rica.pdf, Solución B - 1/4"
+    },
+    {
+      "id": "R59",
+      "cita": "estudio-tecnico-puertas.pdf, secc. 3.1 (pág. 6)"
+    },
+    {
+      "id": "R60",
+      "cita": "Valor estándar de ingeniería de materiales para aleaciones de aluminio serie 6000 - fuera de los 4 PDF"
+    },
+    {
+      "id": "R61",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.3.1 (pág. 6)"
+    },
+    {
+      "id": "R62",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.3.2 (pág. 6)"
+    },
+    {
+      "id": "R63",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.3.2 (pág. 6): hoteles, accesos comerciales e infraestructura institucional"
+    },
+    {
+      "id": "R64",
+      "cita": "Sistemas_Constructivos_para_Puertas_-_Costa_Rica.pdf, Solución B - 2/4"
+    },
+    {
+      "id": "R65",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.3.3 (pág. 7-8)"
+    },
+    {
+      "id": "R66",
+      "cita": "Sistemas_Constructivos_para_Puertas_-_Costa_Rica.pdf, Solución B - 2/4 ('Alta - técnicos certificados Extralum')"
+    },
+    {
+      "id": "R67",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.3.2 (pág. 7): 'complejidad de instalación alta'"
+    },
+    {
+      "id": "R68",
+      "cita": "Sistemas_Constructivos_para_Puertas_-_Costa_Rica.pdf, Solución B - 2/4 ('Alta - planta Grecia + red de vidrieros')"
+    },
+    {
+      "id": "R69",
+      "cita": "Sistemas_Constructivos_para_Puertas_-_Costa_Rica.pdf, Solución B - 2/4 (marcador de costo relativo en 'Medio-Alto')"
+    },
+    {
+      "id": "R70",
+      "cita": "estudio-tecnico-puertas.pdf, pág. 7"
+    },
+    {
+      "id": "R71",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.3.3 (pág. 7)"
+    },
+    {
+      "id": "R72",
+      "cita": "guia-tecnica-materiales-puertas.pdf, secc. 2 (pág. 3)"
+    },
+    {
+      "id": "R73",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.3.3 (pág. 7): '100% impermeable a la humedad atmosférica y resistente a lluvias torrenciales'"
+    },
+    {
+      "id": "R74",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.3.4 (pág. 8)"
+    },
+    {
+      "id": "R75",
+      "cita": "Sistemas_Constructivos_para_Puertas_-_Costa_Rica.pdf, Solución B - 4/4"
+    },
+    {
+      "id": "R76",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.3.3 (pág. 7): lacado electrostático termoendurecible evita decoloración y descascarillamiento por UV"
+    },
+    {
+      "id": "R77",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.3.2 (pág. 6-7): diseñado específicamente para ambientes costeros con herrajes inoxidables"
+    },
+    {
+      "id": "R78",
+      "cita": "Valor estándar de ingeniería de materiales para aleaciones de aluminio - fuera de los 4 PDF"
+    },
+    {
+      "id": "R79",
+      "cita": "Grupo Ayuso, 'Transmitancia térmica en carpintería de aluminio'"
+    },
+    {
+      "id": "R80",
+      "cita": "catálogos de perfiles de aluminio sin RPT (Extrual, generadordeprecios.info) - fuera de los 4 PDF"
+    },
+    {
+      "id": "R81",
+      "cita": "Sistemas_Constructivos_para_Puertas_-_Costa_Rica.pdf, Solución B - 3/4"
+    },
+    {
+      "id": "R82",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.3.3 (pág. 8). Clasificación A1: norma EN 13501-1 (metales, clasificación por defecto sin ensayo) - fuera de los 4 PDF"
+    },
+    {
+      "id": "R83",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.3.3 (pág. 8)"
+    },
+    {
+      "id": "R84",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.3.2 (pág. 7): 'aspirar los canales de desagüe... cada 3 a 6 meses'"
+    },
+    {
+      "id": "R85",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.3.3 (pág. 7): sustitución de vidrio fracturado o rodajes en sitio sin demoler el marco empotrado"
+    },
+    {
+      "id": "R86",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.3.2 (pág. 6-7)"
+    },
+    {
+      "id": "R87",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.3.3 (pág. 8): 'el aluminio es un material 100% reciclable mediante fundición secundaria de bajísima huella de carbono'"
+    },
+    {
+      "id": "R88",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.3.3 (pág. 8): recortes de perfiles e inserciones de vidrio, no biodegradables pero valorizables"
+    },
+    {
+      "id": "R89",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.3, título y 5.3.1 (pág. 5)"
+    },
+    {
+      "id": "R90",
+      "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.3.1 (pág. 5-6)"
+    }
+  ]
+}

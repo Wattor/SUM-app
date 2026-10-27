@@ -1,0 +1,1180 @@
+{
+  "schema_version": "1.0",
+  "meta": {
+    "id": "PIS-EPO-06",
+    "componente": "PIS",
+    "autor": "Alejandro Sáenz Castro",
+    "estado_revision": "borrador",
+    "fecha_actualizacion": "2026-10-26",
+    "id_legado": "PIS-CR-06",
+    "origen_migracion": {
+      "archivo": "TP1_PISOS_ALEJANDRO_SAENZ_FUSION final.xlsx",
+      "hoja": "Ficha_06_Epoxico"
+    }
+  },
+  "campos": {
+    "id": {
+      "estado": "dato",
+      "valor": "PIS-EPO-06",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "name": {
+      "estado": "dato",
+      "valor": "Piso epóxico (sistemas autonivelante, multicapa con cuarzo y decorativos)",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "record_type": {
+      "estado": "dato",
+      "valor": "sistema",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "component": {
+      "estado": "dato",
+      "valor": "PIS"
+    },
+    "subcategory": {
+      "estado": "dato",
+      "valor": "Recubrimiento de resina continuo",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "country": {
+      "estado": "dato",
+      "valor": "CR",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "manufacturer": {
+      "estado": "dato",
+      "valor": "Fabricantes químicos internacionales; formulaciones de los aplicadores",
+      "fuentes": [
+        {
+          "ref": "R52"
+        },
+        {
+          "ref": "R53"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "supplier": {
+      "estado": "dato",
+      "valor": "Aditec (Aditec Químicos e Instalaciones); SobrePoxi",
+      "fuentes": [
+        {
+          "ref": "R06"
+        },
+        {
+          "ref": "R54"
+        },
+        {
+          "ref": "R55"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "description": {
+      "estado": "dato",
+      "valor": "Recubrimiento continuo de resina epóxica de alto contenido de sólidos que se adhiere químicamente a una losa de concreto preparada mecánicamente, con imprimante, capa base y capa de acabado UV; forma una superficie sin sisas, higiénica y resistente a químicos.",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "keywords": {
+      "estado": "dato",
+      "valor": [
+        "epóxico",
+        "resina",
+        "autonivelante",
+        "cuarzo",
+        "escamas",
+        "metálico",
+        "poliuretano",
+        "poliaspártico",
+        "delaminación",
+        "industrial"
+      ],
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "main_material": {
+      "estado": "dato",
+      "valor": "Resina epóxica bicomponente 100 % sólidos",
+      "fuentes": [
+        {
+          "ref": "R06"
+        },
+        {
+          "ref": "R53"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "secondary_materials": {
+      "estado": "dato",
+      "valor": [
+        "Imprimante epóxico",
+        "arena de cuarzo",
+        "escamas de vinilo",
+        "pigmentos metálicos",
+        "acabado de poliuretano alifático o poliaspártico",
+        "sellador flexible de juntas"
+      ],
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "layers": {
+      "estado": "dato",
+      "valor": [
+        "1) Losa de concreto sana, curada ≥ 28 días y con humedad controlada",
+        "2) perfil mecánico por desbaste o granallado",
+        "3) imprimante epóxico",
+        "4) capa base (autonivelante, multicapa con cuarzo, escamas o mortero)",
+        "5) acabado de poliuretano o poliaspártico UV"
+      ],
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "total_thickness": {
+      "estado": "dato",
+      "min": 0.3,
+      "max": 6.0,
+      "calificador": "rango",
+      "unidad": "mm",
+      "fuentes": [
+        {
+          "ref": "R06"
+        },
+        {
+          "ref": "R52"
+        },
+        {
+          "ref": "R53"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Recubrimiento 0,3–0,5; autonivelante 2–3; multicapa 3–5; mortero 4–6+ mm."
+    },
+    "commercial_dimensions": {
+      "estado": "dato",
+      "valor": "Sin formatos (sistema monolítico aplicado en sitio); se vende en kits por kg o por litro",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "density": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "surface_mass": {
+      "estado": "dato",
+      "valor_texto_original": "Resina ≈ 1 500–1 800 kg/m³; autonivelante 2 mm ≈ 3–3,6 kg/m²",
+      "fuentes": [
+        {
+          "ref": "R56"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "surface_finish": {
+      "estado": "dato",
+      "valor": "Liso alto brillo; satinado; antideslizante con cuarzo; escamas decorativas; metálico 3D",
+      "fuentes": [
+        {
+          "ref": "R53"
+        },
+        {
+          "ref": "R52"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "support_system": {
+      "estado": "dato",
+      "valor": "Losa de concreto existente (o cerámica/porcelanato bien adheridos, con preparación)",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "fastening": {
+      "estado": "dato",
+      "valor": "Adherencia química y mecánica al sustrato preparado (imprimante)",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "joints_seals": {
+      "estado": "dato",
+      "valor": "Se respetan las juntas de la losa y se sellan con material flexible; media caña sanitaria en encuentros con muros (salud y alimentos)",
+      "fuentes": [
+        {
+          "ref": "R06"
+        },
+        {
+          "ref": "R23"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "installation_sequence": {
+      "estado": "dato",
+      "valor": "Verificar curado (≥ 28 días) y humedad de la losa · perfil mecánico por desbaste o granallado · tratar fisuras y juntas · imprimante · capa base (autonivelante, multicapa con cuarzo o mortero) · acabado de poliuretano o poliaspártico · sellar juntas.",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "tools_labor": {
+      "estado": "dato",
+      "valor": "Aplicador especializado; desbastadora con extracción de polvo, mezclador, rodillos de púas, llanas.",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "PENDIENTE: rendimiento en m²/jornada."
+    },
+    "critical_point": {
+      "estado": "dato",
+      "valor": "Humedad y preparación del sustrato: son la causa de delaminación y ampollas, que no se corrigen tras el curado.",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "recommended_uses": {
+      "estado": "dato",
+      "valor": [
+        "Bodegas y logística",
+        "industria alimentaria y farmacéutica",
+        "laboratorios",
+        "hospitales y clínicas",
+        "talleres",
+        "parqueos",
+        "garajes, gimnasios, locales y áreas sociales (decorativo)"
+      ],
+      "fuentes": [
+        {
+          "ref": "R06"
+        },
+        {
+          "ref": "R52"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "building_types": {
+      "estado": "dato",
+      "valor": [
+        "Industrial",
+        "Salud",
+        "Comercial",
+        "Vivienda"
+      ],
+      "fuentes": [
+        {
+          "ref": "R06"
+        },
+        {
+          "ref": "R52"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "location": {
+      "estado": "dato",
+      "valor": "Interior",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Exterior solo con acabado alifático UV y agregado."
+    },
+    "climates": {
+      "estado": "dato",
+      "valor": "Interiores de cualquier clima; en losas sobre terreno húmedo requiere barrera de vapor o imprimante tolerante a humedad",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "imn_subregions": {
+      "estado": "dato",
+      "valor_texto_original": "Interiores en cualquier zona; barrera o imprimante tolerante a humedad en losas sobre terreno.",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "compatibility": {
+      "estado": "dato",
+      "valor": "Sobre concreto, cerámica o porcelanato con preparación; incompatible con concreto contaminado con aceites o selladores",
+      "fuentes": [
+        {
+          "ref": "R06"
+        },
+        {
+          "ref": "R53"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "use_restrictions": {
+      "estado": "no_aplica",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "r sobre concreto húmedo o sin preparar; amarillea al sol sin acabado UV; resbaladizo mojado sin agregado; temperatura de servicio limitada"
+    },
+    "labor_specialization": {
+      "estado": "dato",
+      "valor": 5,
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Errores de mezcla o humedad no se corrigen tras el curado."
+    },
+    "installation_complexity": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "national_availability": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Aplicadores especializados, concentrados en la GAM."
+    },
+    "installation_time": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "R53"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Transitable 24 h; uso completo 5–7 días."
+    },
+    "relative_cost": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Medio; sube con espesor y versión decorativa."
+    },
+    "price_range": {
+      "estado": "dato",
+      "valor_texto_original": "₡8 000–₡38 000 / m² instalado (≥ 30 m²)",
+      "fuentes": [
+        {
+          "ref": "R57"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Sólido ₡8–12 mil; escamas ₡12–18 mil; industrial ₡15–30 mil; metálico ₡22–38 mil."
+    },
+    "mechanical_resistance": {
+      "estado": "dato",
+      "valor": "Resistencia a compresión ≈ 60–100 MPa; adherencia > resistencia a tracción del concreto (falla en sustrato)",
+      "fuentes": [
+        {
+          "ref": "R56"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "impact_resistance": {
+      "estado": "dato",
+      "valor": "Alta en morteros; media en recubrimientos delgados",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "abrasion_resistance": {
+      "estado": "dato",
+      "valor": "Alta; Taber (ASTM D4060) según sistema",
+      "fuentes": [
+        {
+          "ref": "R58"
+        },
+        {
+          "ref": "R59"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "durability_years": {
+      "estado": "dato",
+      "min": 15.0,
+      "max": 20.0,
+      "calificador": "rango",
+      "unidad": "años",
+      "fuentes": [
+        {
+          "ref": "R53"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Con mantenimiento básico."
+    },
+    "water_absorption": {
+      "estado": "dato",
+      "valor": 0.0,
+      "calificador": "≈",
+      "unidad": "%",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Superficie impermeable."
+    },
+    "moisture_resistance": {
+      "estado": "dato",
+      "valor": 4,
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Superficie impermeable; vulnerable a humedad desde el sustrato."
+    },
+    "condensation_risk": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "corrosion_resistance": {
+      "estado": "dato",
+      "valor": 5,
+      "fuentes": [
+        {
+          "ref": "R52"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Protege el concreto frente a químicos."
+    },
+    "uv_resistance": {
+      "estado": "dato",
+      "valor": 2,
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Sin acabado alifático amarillea."
+    },
+    "marine_environment": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Interior; acabado UV si hay exposición."
+    },
+    "vapor_permeability": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "thermal_conductivity": {
+      "estado": "dato",
+      "valor": 0.2,
+      "calificador": "=",
+      "unidad": "W/(m·K)",
+      "fuentes": [
+        {
+          "ref": "R08"
+        }
+      ],
+      "evidencia": "E3",
+      "nota": "Resina epóxica."
+    },
+    "specific_heat": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "thermal_resistance": {
+      "estado": "dato",
+      "valor": 0.01,
+      "calificador": "=",
+      "unidad": "m²·K/W",
+      "fuentes": [
+        {
+          "ref": "R08"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Para 2 mm (despreciable)."
+    },
+    "u_value": {
+      "estado": "no_aplica",
+      "evidencia": "E1"
+    },
+    "solar_reflectance": {
+      "estado": "no_disponible",
+      "evidencia": "E1",
+      "nota": "Depende del color."
+    },
+    "thermal_emittance": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "sri": {
+      "estado": "no_disponible",
+      "evidencia": "E1"
+    },
+    "sound_insulation": {
+      "estado": "no_aplica",
+      "evidencia": "E1"
+    },
+    "sound_absorption": {
+      "estado": "dato",
+      "valor": 0.02,
+      "calificador": "≈",
+      "unidad": "NRC",
+      "fuentes": [
+        {
+          "ref": "R35"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Texto original: ≈ 0,02 (αw)"
+    },
+    "fire_reaction": {
+      "estado": "dato",
+      "valor": "Bfl-s1 (típico de pisos de resina)",
+      "fuentes": [
+        {
+          "ref": "R11"
+        },
+        {
+          "ref": "R60"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Verificar declaración del producto."
+    },
+    "fire_resistance": {
+      "estado": "no_aplica",
+      "evidencia": "E1"
+    },
+    "smoke_class": {
+      "estado": "dato",
+      "valor": "s1",
+      "fuentes": [
+        {
+          "ref": "R11"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "voc_emissions": {
+      "estado": "dato",
+      "valor": 50.0,
+      "calificador": "≤",
+      "unidad": "g/L",
+      "fuentes": [
+        {
+          "ref": "R61"
+        },
+        {
+          "ref": "R53"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Texto original: < 50 (sistemas 100 % sólidos) · Sistemas solventados emiten más."
+    },
+    "hazardous_substances": {
+      "estado": "dato",
+      "valor": [
+        "Resinas y endurecedores irritantes y sensibilizantes antes del curado"
+      ],
+      "fuentes": [
+        {
+          "ref": "R62"
+        }
+      ],
+      "evidencia": "E3",
+      "nota": "Inerte una vez curado."
+    },
+    "cleanability": {
+      "estado": "dato",
+      "valor": 5,
+      "fuentes": [
+        {
+          "ref": "R06"
+        },
+        {
+          "ref": "R52"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Superficie continua sin sisas."
+    },
+    "accessibility": {
+      "estado": "dato",
+      "valor": "Superficie continua sin desniveles; incorporar agregado antideslizante en rutas húmedas",
+      "fuentes": [
+        {
+          "ref": "R18"
+        }
+      ],
+      "evidencia": "E4"
+    },
+    "healthcare_use": {
+      "estado": "dato",
+      "valor": "Sí",
+      "fuentes": [
+        {
+          "ref": "R52"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Con media caña sanitaria y acabado adecuado."
+    },
+    "maintenance_frequency": {
+      "estado": "dato",
+      "valor": 1,
+      "calificador": "=",
+      "unidad": "meses",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Limpieza frecuente; renovación de la capa de acabado según tránsito."
+    },
+    "maintenance_actions": {
+      "estado": "dato",
+      "valor": "Barrido y fregado con detergente pH neutro; sin abrasivos ni solventes agresivos; renovar capa de acabado cuando pierde brillo o espesor",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "repairability": {
+      "estado": "dato",
+      "valor": 3,
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "Reparaciones sencillas pero visibles."
+    },
+    "replaceability": {
+      "estado": "dato",
+      "valor": 2,
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Requiere desbastar el sistema."
+    },
+    "common_failures": {
+      "estado": "dato",
+      "valor": [
+        "Delaminación",
+        "ampollas",
+        "reflejo de fisuras y juntas",
+        "amarillamiento",
+        "rayado y desgaste"
+      ],
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "failure_causes": {
+      "estado": "dato",
+      "valor": [
+        "Humedad o presión de vapor desde la losa",
+        "preparación deficiente (sin perfil, lechada superficial)",
+        "juntas no tratadas",
+        "exposición UV sin acabado",
+        "espesor insuficiente"
+      ],
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "corrective_action": {
+      "estado": "dato",
+      "valor": "Retirar zona afectada, controlar humedad (imprimante barrera), redesbastar y reaplicar; sellar juntas con material flexible; aplicar acabado UV",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "origin": {
+      "estado": "dato",
+      "valor": "Importado",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Resinas importadas; aplicación local."
+    },
+    "transport_distance": {
+      "estado": "no_disponible",
+      "evidencia": "E1"
+    },
+    "recycled_content": {
+      "estado": "no_disponible",
+      "evidencia": "E1"
+    },
+    "renewable": {
+      "estado": "dato",
+      "valor": "No",
+      "evidencia": "E4"
+    },
+    "reusable": {
+      "estado": "dato",
+      "valor": "No",
+      "evidencia": "E4"
+    },
+    "recyclable": {
+      "estado": "dato",
+      "valor": "No",
+      "evidencia": "E4",
+      "nota": "Termoestable."
+    },
+    "installation_waste": {
+      "estado": "dato",
+      "valor": 2,
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Envases y polvo de desbaste."
+    },
+    "epd_available": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "evidencia": "E4",
+      "nota": "Algunos fabricantes internacionales."
+    },
+    "embodied_carbon": {
+      "estado": "no_disponible",
+      "evidencia": "E1",
+      "nota": "Requiere EPD del producto específico."
+    },
+    "embodied_carbon_modules": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "environmental_certification": {
+      "estado": "no_disponible",
+      "evidencia": "E1"
+    },
+    "end_of_life": {
+      "estado": "dato",
+      "valor": [
+        "Vertedero"
+      ],
+      "evidencia": "E4",
+      "nota": "Se retira junto con la capa superficial del concreto."
+    },
+    "cr_region": {
+      "estado": "dato",
+      "valor": "Industria, logística, salud y laboratorios; decorativo en comercio y vivienda; aplicadores en la GAM.",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "seismic_condition": {
+      "estado": "dato",
+      "valor": "No gobierna el acabado; las juntas del piso deben coincidir con las juntas estructurales y de la losa.",
+      "fuentes": [
+        {
+          "ref": "R19"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "tradition_type": {
+      "estado": "dato",
+      "valor": "Contemporáneo",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "cr_standard": {
+      "estado": "dato",
+      "valor": "Sin norma nacional localizada: fichas técnicas del sistema; ASTM D4060 (abrasión); EN 13501-1. Ley 7600 y su reglamento (superficie firme, estable y antideslizante en rutas accesibles).",
+      "fuentes": [
+        {
+          "ref": "R20"
+        }
+      ],
+      "evidencia": "E2",
+      "nota": "Habilitación de servicios de salud: PENDIENTE verificar exigencias de piso del Ministerio de Salud."
+    },
+    "plan_requirements": {
+      "estado": "dato",
+      "valor": "Especificar sistema y espesor, preparación del sustrato, humedad máxima de la losa, agregado antideslizante, media caña sanitaria y tratamiento de juntas.",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "advantages": {
+      "estado": "dato",
+      "valor": "Superficie continua e higiénica; alta resistencia química y a abrasión; poco espesor; sobre piso existente.",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "limitations": {
+      "estado": "dato",
+      "valor": "Origen fósil; no reciclable; sensible a humedad del sustrato y a UV; mano de obra muy especializada; renovación del acabado.",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "graphics": {
+      "estado": "dato",
+      "valor": [
+        "Fotografías de la presentación TP1 · PENDIENTE: detalle de media caña sanitaria."
+      ],
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Consignar fuente de cada imagen."
+    },
+    "traffic_level": {
+      "estado": "dato",
+      "valor": [
+        "Medio",
+        "Industrial"
+      ],
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "slip_resistance": {
+      "estado": "dato",
+      "valor": "Liso R9; con cuarzo R10–R13",
+      "fuentes": [
+        {
+          "ref": "R41"
+        },
+        {
+          "ref": "R53"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "chemical_resistance": {
+      "estado": "dato",
+      "valor": "Alta frente a aceites, grasas, álcalis y ácidos diluidos",
+      "fuentes": [
+        {
+          "ref": "R52"
+        },
+        {
+          "ref": "R53"
+        }
+      ],
+      "evidencia": "E2"
+    },
+    "stain_resistance": {
+      "estado": "dato",
+      "valor": "Alta",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "substrate": {
+      "estado": "dato",
+      "valor": [
+        "Losa de concreto",
+        "cerámica o porcelanato existentes (con preparación)"
+      ],
+      "fuentes": [
+        {
+          "ref": "R06"
+        },
+        {
+          "ref": "R53"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "adhesive": {
+      "estado": "dato",
+      "valor": "Imprimante epóxico sobre perfil mecánico del concreto",
+      "fuentes": [
+        {
+          "ref": "R01"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "installation_thickness": {
+      "estado": "dato",
+      "min": 0.3,
+      "max": 6.0,
+      "calificador": "rango",
+      "unidad": "mm",
+      "fuentes": [
+        {
+          "ref": "R06"
+        },
+        {
+          "ref": "R52"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "joint_requirements": {
+      "estado": "dato",
+      "valor": "Respetar todas las juntas de la losa (contracción, construcción, aislamiento) y sellarlas con material flexible; tratar fisuras antes de aplicar",
+      "fuentes": [
+        {
+          "ref": "R06"
+        },
+        {
+          "ref": "R23"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "accessible_route": {
+      "estado": "dato",
+      "valor": "Sí",
+      "fuentes": [
+        {
+          "ref": "R18"
+        }
+      ],
+      "evidencia": "E4",
+      "nota": "Con agregado antideslizante en zonas húmedas."
+    }
+  },
+  "fuentes": [
+    {
+      "id": "PROPIO",
+      "cita": "Elaboración propia del estudiante (TP1).",
+      "tipo": "elaboracion_propia"
+    },
+    {
+      "id": "R01",
+      "cita": "TP1 Pisos – documento ampliado y presentación (Sáenz, 2026)"
+    },
+    {
+      "id": "R06",
+      "cita": "DOC"
+    },
+    {
+      "id": "R08",
+      "cita": "ISO 10456 (valores de diseño tabulados)"
+    },
+    {
+      "id": "R11",
+      "cita": "EN 13501-1"
+    },
+    {
+      "id": "R18",
+      "cita": "Ley 7600"
+    },
+    {
+      "id": "R19",
+      "cita": "Criterio constructivo"
+    },
+    {
+      "id": "R20",
+      "cita": "Ver hoja Referencias"
+    },
+    {
+      "id": "R23",
+      "cita": "ACI 302.1R / ACI 360R"
+    },
+    {
+      "id": "R35",
+      "cita": "Tablas de absorción"
+    },
+    {
+      "id": "R41",
+      "cita": "DIN 51130"
+    },
+    {
+      "id": "R52",
+      "cita": "Aditec"
+    },
+    {
+      "id": "R53",
+      "cita": "SobrePoxi"
+    },
+    {
+      "id": "R54",
+      "cita": "aditecsa.com"
+    },
+    {
+      "id": "R55",
+      "cita": "sobrepoxi.com"
+    },
+    {
+      "id": "R56",
+      "cita": "Fichas técnicas de resinas epóxicas"
+    },
+    {
+      "id": "R57",
+      "cita": "SobrePoxi, guía de precios 2026"
+    },
+    {
+      "id": "R58",
+      "cita": "Aditec (normas ASTM)"
+    },
+    {
+      "id": "R59",
+      "cita": "fichas técnicas"
+    },
+    {
+      "id": "R60",
+      "cita": "EN 13813"
+    },
+    {
+      "id": "R61",
+      "cita": "Fichas técnicas"
+    },
+    {
+      "id": "R62",
+      "cita": "Hojas de seguridad (SDS) de resinas"
+    }
+  ]
+}

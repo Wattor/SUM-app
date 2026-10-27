@@ -1,0 +1,44 @@
+id_ind,grupo,nombre_grupo,codigo,indicador
+IND01,A,Planteamiento Estructural (sistema constructivo del piso),A1,Eficiencia Sistema constructivo
+IND02,A,Planteamiento Estructural (sistema constructivo del piso),A2,Utilización de un sistema de ensamble o prefabricación
+IND03,A,Planteamiento Estructural (sistema constructivo del piso),A3,Operabilidad
+IND04,B,Características del Material,B1,Procedencia Natural
+IND05,B,Características del Material,B2,Procedencia Local
+IND06,B,Características del Material,B3,Durabilidad
+IND07,B,Características del Material,B4,Sistema Modular
+IND08,B,Características del Material,B5,Sistema abierto a partes intercambiables
+IND09,B,Características del Material,B6,Uso de componentes livianos
+IND10,B,Características del Material,B7,Índice de ahorro
+IND11,B,Características del Material,B8,Eficiencia - Estrategias de Uso
+IND12,C,Propiedades Físicas del Material,C1,Color
+IND13,C,Propiedades Físicas del Material,C2,% Dilatación
+IND14,C,Propiedades Físicas del Material,C3,Porosidad
+IND15,C,Propiedades Físicas del Material,C4,Cualidad Aislante
+IND16,C,Propiedades Físicas del Material,C5,Higroscopia (capacidad liberación y absorción de humedad)
+IND17,C,Propiedades Físicas del Material,C6,Energía Englobada
+IND18,C,Propiedades Físicas del Material,C7,Conductividad Térmica
+IND19,C,Propiedades Físicas del Material,C8,Densidad
+IND20,C,Propiedades Físicas del Material,C9,Calor Especifico
+IND21,D,Propiedades Químicas del Material,D1,Contenido de COV
+IND22,D,Propiedades Químicas del Material,D2,Radioactividad
+IND23,E,Producción,E1,Innovación Tecnológica
+IND24,E,Producción,E2,Uso de Materiales con contenido Reciclado
+IND25,E,Producción,E3,Eficiencia Productiva
+IND26,E,Producción,E4,Constructivilidad
+IND27,E,Producción,E5,Vida Útil
+IND28,F,Ejecución,F1,Reutilización Estructuras existentes
+IND29,F,Ejecución,F2,Índice de utilización de materiales acabados
+IND30,F,Ejecución,F3,Reutilización materiales extraídos del sitio
+IND31,F,Ejecución,F4,Uso - Reúso- Reciclaje de desechos de construcción
+IND32,G,Impacto,G1,% Emisiones Vapores y gases tóxicos
+IND33,G,Impacto,G2,Compatibilidad Ecológica
+IND34,G,Impacto,G3,Recurso Renovable - Irrenovable
+IND35,G,Impacto,G4,Efecto Invernadero
+IND36,G,Impacto,G5,Gestión de Desechos
+IND37,G,Impacto,G6,Atmosférico / Lumínico
+IND38,G,Impacto,G7,Suelos
+IND39,H,Costos,H1,Inversión Inicial vs. minimización a largo plazo
+IND40,H,Costos,H2,Costos de Construcción
+IND41,H,Costos,H3,Costos de mantenimiento y operabilidad
+IND42,H,Costos,H4,Viabilidad Comercial
+IND43,H,Costos,H5,Transporte

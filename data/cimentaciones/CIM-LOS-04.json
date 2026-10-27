@@ -1,0 +1,789 @@
+{
+  "schema_version": "1.0",
+  "meta": {
+    "id": "CIM-LOS-04",
+    "componente": "CIM",
+    "autor": "Michel Pardo Jara",
+    "estado_revision": "borrador",
+    "fecha_actualizacion": "2026-10-26",
+    "id_legado": "CR-CIM-04",
+    "origen_migracion": {
+      "archivo": "TP1 Fichas Cimentaciones Pardo.xlsx",
+      "hoja": "Ficha S4"
+    }
+  },
+  "campos": {
+    "id": {
+      "estado": "dato",
+      "valor": "CIM-LOS-04",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "name": {
+      "estado": "dato",
+      "valor": "Losa de fundación",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§4.1.1"
+        }
+      ],
+      "evidencia": "E3",
+      "nota": "Nombre genérico: sistema colado en sitio, sin marca comercial."
+    },
+    "record_type": {
+      "estado": "dato",
+      "valor": "sistema"
+    },
+    "component": {
+      "estado": "dato",
+      "valor": "CIM"
+    },
+    "subcategory": {
+      "estado": "dato",
+      "valor": "Superficial continua en dos direcciones",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§4.1.1 y §4.3.4"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "country": {
+      "estado": "dato",
+      "valor": "CR"
+    },
+    "manufacturer": {
+      "estado": "no_aplica",
+      "nota": "Sistema genérico colado en sitio; no hay fabricante único."
+    },
+    "supplier": {
+      "estado": "no_disponible",
+      "nota": "PENDIENTE: identificar al menos dos proveedores con precio verificable y fecha de consulta."
+    },
+    "description": {
+      "estado": "dato",
+      "valor": "Placa continua en dos direcciones que une todos los apoyos y da rigidez de conjunto. Para suelos muy blandos o sueltos y edificios altos donde otros sistemas traslapan áreas de fundación.",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§4.1.1"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "keywords": {
+      "estado": "dato",
+      "valor": [
+        "losa de fundación",
+        "losa flotante",
+        "losa rígida",
+        "losa flexible",
+        "asentamiento total"
+      ]
+    },
+    "main_material": {
+      "estado": "dato",
+      "valor": "Concreto reforzado en dos direcciones",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§4.3.4"
+        },
+        {
+          "ref": "CSCR",
+          "loc": "§13.10.3"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "secondary_materials": {
+      "estado": "dato",
+      "valor": [
+        "Vigas bajo cada pared en vivienda"
+      ],
+      "fuentes": [
+        {
+          "ref": "CSCR",
+          "loc": "§13.10.3"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "layers": {
+      "estado": "dato",
+      "valor": [
+        "1 Suelo soportante · 2 Losa de concreto reforzado en dos direcciones · 3 Vigas bajo cada pared (vivienda)"
+      ],
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§4.3.4"
+        },
+        {
+          "ref": "CSCR",
+          "loc": "§13.10.3"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "total_thickness": {
+      "estado": "no_disponible",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§4.3.4"
+        }
+      ],
+      "nota": "No tabulado: se deriva de la verificación de rigidez."
+    },
+    "commercial_dimensions": {
+      "estado": "dato",
+      "valor": "Se emplea cuando el área de cimentación supera el 60 % del área construida",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§4.1.1"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "density": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "surface_mass": {
+      "estado": "no_disponible",
+      "nota": "Depende del espesor de diseño."
+    },
+    "surface_finish": {
+      "estado": "no_aplica",
+      "nota": "La losa es también contrapiso: recibe el acabado de piso (fuera del alcance de esta ficha)."
+    },
+    "support_system": {
+      "estado": "dato",
+      "valor": "Losa rígida: presiones uniformes o linealmente variables. Losa flexible: presiones concentradas en apoyos, teoría de vigas sobre fundación elástica.",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§4.3.4.a-b"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "fastening": {
+      "estado": "dato",
+      "valor": "Monolítica: la losa es el encuentro.",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§4.3.4"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "joints_seals": {
+      "estado": "dato",
+      "valor": "Colado continuo, preferiblemente sin junta fría.",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§4.3.4.c"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "installation_sequence": {
+      "estado": "dato",
+      "valor": "Preparación y nivelación de la plataforma · armado en dos direcciones · colado continuo · curado. Resultante de cargas en el centro geométrico.",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§4.3.4.c"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "tools_labor": {
+      "estado": "no_disponible",
+      "nota": "PENDIENTE: colado de volumen alto en una operación; suministro de premezclado."
+    },
+    "critical_point": {
+      "estado": "dato",
+      "valor": "No emplazar la losa en el límite entre dos materiales de distinta compresibilidad.",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§4.3.4.b"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "recommended_uses": {
+      "estado": "dato",
+      "valor": [
+        "Suelos muy blandos o sueltos",
+        "edificios altos",
+        "área de cimentación > 60 % del área construida"
+      ],
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§4.1.1"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "building_types": {
+      "estado": "dato",
+      "valor": [
+        "Comercial",
+        "Institucional",
+        "Salud",
+        "Industrial"
+      ],
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§4.1.1"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "location": {
+      "estado": "dato",
+      "valor": "Exterior",
+      "nota": "Bajo nivel de terreno."
+    },
+    "climates": {
+      "estado": "dato",
+      "valor": "Todas las zonas del país",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "cap. 1"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "La cimentación responde al suelo, no al clima; el clima actúa a través del suelo: alta temperatura y precipitación sobre material volcánico producen los suelos problemáticos (CC §1.2)."
+    },
+    "imn_subregions": {
+      "estado": "dato",
+      "valor": [
+        "TODAS"
+      ],
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "cap. 1"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Ver campo climates."
+    },
+    "compatibility": {
+      "estado": "dato",
+      "valor": "Compatible con cualquier sistema de pared; vigas bajo cada pared en vivienda.",
+      "fuentes": [
+        {
+          "ref": "CSCR",
+          "loc": "§13.10.3"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "use_restrictions": {
+      "estado": "dato",
+      "valor": "No emplazar sobre cambio de compresibilidad. Losa flexible solo en terreno homogéneo. En colapsable, solo losa rígida y con estudio (alternativa discutible).",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§4.3.4.b y §4.4.2.c"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "labor_specialization": {
+      "estado": "dato",
+      "valor": 3,
+      "evidencia": "E1",
+      "nota": "Criterio del autor."
+    },
+    "installation_complexity": {
+      "estado": "dato",
+      "valor": 3,
+      "evidencia": "E1",
+      "nota": "Criterio del autor."
+    },
+    "national_availability": {
+      "estado": "dato",
+      "valor": 4,
+      "evidencia": "E1",
+      "nota": "Depende de planta de premezclado. Verificar."
+    },
+    "installation_time": {
+      "estado": "no_disponible",
+      "nota": "PENDIENTE: rendimientos con fuente costarricense."
+    },
+    "relative_cost": {
+      "estado": "dato",
+      "valor": 3,
+      "evidencia": "E1",
+      "nota": "Medio. Pendiente."
+    },
+    "price_range": {
+      "estado": "no_disponible",
+      "nota": "PENDIENTE: ₡/m²; única unidad nativa igual al denominador del selector."
+    },
+    "mechanical_resistance": {
+      "estado": "dato",
+      "valor": "Según verificación de rigidez; FS adecuado contra falla con excentricidad",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§4.3.4.d"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "impact_resistance": {
+      "estado": "no_aplica",
+      "nota": "Elemento enterrado."
+    },
+    "abrasion_resistance": {
+      "estado": "no_aplica",
+      "nota": "Elemento enterrado."
+    },
+    "durability_years": {
+      "estado": "no_disponible",
+      "nota": "Vida de diseño igual a la edificación; sin dato cuantificado en las fuentes."
+    },
+    "water_absorption": {
+      "estado": "no_disponible"
+    },
+    "moisture_resistance": {
+      "estado": "dato",
+      "valor": 4,
+      "evidencia": "E1",
+      "nota": "Criterio del autor."
+    },
+    "condensation_risk": {
+      "estado": "no_aplica",
+      "nota": "Elemento enterrado."
+    },
+    "corrosion_resistance": {
+      "estado": "no_disponible",
+      "nota": "VACÍO DECLARADO: no se localizó exigencia de ensayo de sulfatos ni cloruros para vivienda; el refuerzo bajo terreno es el primero en corroerse en franja costera."
+    },
+    "uv_resistance": {
+      "estado": "no_aplica",
+      "nota": "Elemento enterrado."
+    },
+    "marine_environment": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "evidencia": "E1",
+      "nota": "Sujeto al ensayo de agresividad química que la norma no exige (vacío declarado)."
+    },
+    "vapor_permeability": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "thermal_conductivity": {
+      "estado": "no_disponible",
+      "nota": "La losa también es contrapiso: interviene en el acople térmico con el suelo. Sin dato."
+    },
+    "specific_heat": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "thermal_resistance": {
+      "estado": "no_disponible",
+      "nota": "La losa también es contrapiso: interviene en el acople térmico con el suelo. Sin dato."
+    },
+    "u_value": {
+      "estado": "no_disponible",
+      "nota": "La losa también es contrapiso: interviene en el acople térmico con el suelo. Sin dato."
+    },
+    "solar_reflectance": {
+      "estado": "no_aplica",
+      "nota": "Elemento enterrado."
+    },
+    "thermal_emittance": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "sri": {
+      "estado": "no_aplica",
+      "nota": "Elemento enterrado."
+    },
+    "sound_insulation": {
+      "estado": "no_aplica"
+    },
+    "sound_absorption": {
+      "estado": "no_aplica"
+    },
+    "fire_reaction": {
+      "estado": "no_aplica",
+      "nota": "Elemento enterrado."
+    },
+    "fire_resistance": {
+      "estado": "no_aplica"
+    },
+    "smoke_class": {
+      "estado": "no_aplica"
+    },
+    "voc_emissions": {
+      "estado": "no_disponible"
+    },
+    "hazardous_substances": {
+      "estado": "no_disponible"
+    },
+    "cleanability": {
+      "estado": "no_aplica",
+      "nota": "Elemento enterrado."
+    },
+    "accessibility": {
+      "estado": "no_aplica"
+    },
+    "healthcare_use": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "evidencia": "E1",
+      "nota": "Sujeto al estudio de suelos y al filtro normativo del selector (caso EBAIS)."
+    },
+    "maintenance_frequency": {
+      "estado": "no_aplica",
+      "nota": "Sin mantenimiento: inaccesible después del colado."
+    },
+    "maintenance_actions": {
+      "estado": "dato",
+      "valor": "Ninguna. Control indirecto: vigilar fisuración de repellos (distorsión 0,001 l) y humedad en arranques de muro.",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "Cuadro 3.5"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "repairability": {
+      "estado": "dato",
+      "valor": 1,
+      "evidencia": "E1",
+      "nota": "Reversibilidad nula; reparar implica recalce."
+    },
+    "replaceability": {
+      "estado": "dato",
+      "valor": 1,
+      "evidencia": "E1",
+      "nota": "Un piso se sustituye; una cimentación no."
+    },
+    "common_failures": {
+      "estado": "no_disponible",
+      "nota": "PENDIENTE. Hipótesis: asentamiento diferencial de losa flexible en terreno heterogéneo; emplazamiento sobre cambio de compresibilidad; junta fría; excentricidad no resuelta."
+    },
+    "failure_causes": {
+      "estado": "dato",
+      "valor": [
+        "Ausencia o insuficiencia del estudio de suelos",
+        "control deficiente en obra"
+      ],
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "cap. 2"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Hipótesis a contrastar con expedientes LanammeUCR y entrevistas."
+    },
+    "corrective_action": {
+      "estado": "no_disponible",
+      "nota": "PENDIENTE."
+    },
+    "origin": {
+      "estado": "dato",
+      "valor": "Nacional",
+      "evidencia": "E1",
+      "nota": "Ídem."
+    },
+    "transport_distance": {
+      "estado": "no_disponible",
+      "nota": "Depende del sitio; RESET 6.5.12 pide comparar escenario nacional vs. importado."
+    },
+    "recycled_content": {
+      "estado": "no_disponible",
+      "nota": "RESET 6.5.5 pide ≥ 10 % en un material principal."
+    },
+    "renewable": {
+      "estado": "dato",
+      "valor": "No",
+      "evidencia": "E1"
+    },
+    "reusable": {
+      "estado": "dato",
+      "valor": "No",
+      "evidencia": "E1",
+      "nota": "Permanece en sitio; reversibilidad nula."
+    },
+    "recyclable": {
+      "estado": "no_disponible",
+      "nota": "El reciclaje del concreto enterrado no se documenta en las fuentes del proyecto."
+    },
+    "installation_waste": {
+      "estado": "dato",
+      "valor": 3,
+      "evidencia": "E1"
+    },
+    "epd_available": {
+      "estado": "no_disponible"
+    },
+    "embodied_carbon": {
+      "estado": "no_disponible",
+      "nota": "Cuantificar con la calculadora del ICCYC o similar (RESET 6.5.12)."
+    },
+    "embodied_carbon_modules": {
+      "estado": "pendiente",
+      "nota": "Campo nuevo del estándar v1.0: completar."
+    },
+    "environmental_certification": {
+      "estado": "dato",
+      "valor": "Sistema estándar de referencia de RESET 6.4.2 (losa flotante)",
+      "fuentes": [
+        {
+          "ref": "R05"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "end_of_life": {
+      "estado": "dato",
+      "valor": [
+        "Otro"
+      ],
+      "evidencia": "E1",
+      "nota": "Permanece enterrado; no se recupera."
+    },
+    "cr_region": {
+      "estado": "dato",
+      "valor": "Suelos muy blandos o sueltos; edificios altos",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§4.1.1"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "seismic_condition": {
+      "estado": "dato",
+      "valor": "Zonas II, III y IV; aef según tipo de sitio (S1–S4) y zona",
+      "fuentes": [
+        {
+          "ref": "CSCR",
+          "loc": "tabla 2.3"
+        }
+      ],
+      "evidencia": "E3",
+      "nota": "El tipo de sitio y la aef deben consignarse en planos (CSCR §16.2)."
+    },
+    "tradition_type": {
+      "estado": "dato",
+      "valor": "Contemporáneo",
+      "evidencia": "E1",
+      "nota": "Sistemas convencionales normados."
+    },
+    "cr_standard": {
+      "estado": "dato",
+      "valor": "CC §4.1.1, §4.3.4, Cuadro 3.5; CSCR §13.10.3; RESET 6.4.2",
+      "evidencia": "E3"
+    },
+    "plan_requirements": {
+      "estado": "dato",
+      "valor": "Estudio de suelos (laboratorio acreditado ante el ECA), tipo de sitio y capacidad soportante consignados en planos.",
+      "fuentes": [
+        {
+          "ref": "CSCR",
+          "loc": "§16.2 y §16.3"
+        },
+        {
+          "ref": "R03"
+        }
+      ],
+      "evidencia": "E5"
+    },
+    "advantages": {
+      "estado": "dato",
+      "valor": "Presión unitaria más baja; rigidez de conjunto; excavación somera; único caso con criterio de asentamiento total.",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§4.1.1, Cuadro 3.5"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "limitations": {
+      "estado": "dato",
+      "valor": "Volumen de concreto alto; la losa flexible no impide asentamiento diferencial en terreno heterogéneo; ventaja ambiental frente a S1 no cuantificada.",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§4.3.4"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "graphics": {
+      "estado": "dato",
+      "valor": [
+        "Fotografía de armado (presentación TP1) · PENDIENTE esquema de presiones en losa rígida vs. flexible"
+      ]
+    },
+    "depth_class": {
+      "estado": "dato",
+      "valor": "Superficial (Df/B ≤ 1)",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§4.1.1"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "design_criterion": {
+      "estado": "dato",
+      "valor": "Asentamiento total: único caso en que el Código lo admite, por tratarse de cimiento rígido",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "Cuadro 3.5"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "settlement_limit": {
+      "estado": "dato",
+      "min": 7.0,
+      "max": 30.0,
+      "calificador": "rango",
+      "unidad": "cm",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "Cuadro 3.5"
+        }
+      ],
+      "evidencia": "E3",
+      "nota": "Texto original: 7,0 – 30,0 (silos y placas) · Criterio aplicable."
+    },
+    "angular_distortion": {
+      "estado": "dato",
+      "valor_texto_original": "No gobierna en losa rígida",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "Cuadro 3.5"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "expansive_soil": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§4.4.1.c-d"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "como cimiento rígido, con presión de hinchamiento estimada por ensayo · El Código no nombra la losa: se asimila a cimiento rígido (criterio del autor)."
+    },
+    "collapsible_soil": {
+      "estado": "dato",
+      "valor": "Condicionado",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§4.4.2.c"
+        }
+      ],
+      "evidencia": "E3",
+      "nota": "losa rígida, alternativa discutible que debe estudiarse"
+    },
+    "liquefiable_soil": {
+      "estado": "dato",
+      "valor_texto_original": "No admitido con alto potencial demostrado",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "§4.4.3.c"
+        }
+      ],
+      "evidencia": "E3"
+    },
+    "min_exploration": {
+      "estado": "dato",
+      "valor": "Según Cuadro 2.1: de 2 perforaciones a 60 m y Df + 2 m (baja-baja) a 4 perforaciones a 20 m y Df + 5 m (alta-alta); en obra especial la define el geotecnista.",
+      "fuentes": [
+        {
+          "ref": "CC",
+          "loc": "Cuadro 2.1"
+        },
+        {
+          "ref": "R03"
+        }
+      ],
+      "evidencia": "E5",
+      "nota": "El costo de exploración escala con la complejidad geotécnica, no con el tamaño del edificio. Laboratorios acreditados ante el ECA."
+    },
+    "seismic_zone_effect": {
+      "estado": "no_disponible",
+      "nota": "Por diseño."
+    },
+    "excavation_safety": {
+      "estado": "dato",
+      "valor": "Junto a cimientos más someros: excavar por secciones y apuntalar los existentes si hay peligro de asentamiento.",
+      "fuentes": [
+        {
+          "ref": "R04"
+        }
+      ],
+      "evidencia": "E3"
+    }
+  },
+  "fuentes": [
+    {
+      "id": "PROPIO",
+      "cita": "Elaboración propia del estudiante (TP1).",
+      "tipo": "elaboracion_propia"
+    },
+    {
+      "id": "CC",
+      "cita": "[CC] Sigla usada por el estudiante; completar la referencia APA."
+    },
+    {
+      "id": "CSCR",
+      "cita": "[CSCR] Sigla usada por el estudiante; completar la referencia APA."
+    },
+    {
+      "id": "R03",
+      "cita": "RC art. 11"
+    },
+    {
+      "id": "R04",
+      "cita": "RC art. 410"
+    },
+    {
+      "id": "R05",
+      "cita": "RESET 6.4.2"
+    }
+  ]
+}
