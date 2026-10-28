@@ -209,13 +209,18 @@
     },
     "surface_mass": {
       "estado": "dato",
-      "valor_texto_original": "Resina ≈ 1 500–1 800 kg/m³; autonivelante 2 mm ≈ 3–3,6 kg/m²",
       "fuentes": [
         {
           "ref": "R56"
         }
       ],
-      "evidencia": "E2"
+      "evidencia": "E2",
+      "min": 3.0,
+      "max": 3.6,
+      "calificador": "rango",
+      "unidad": "kg/m²",
+      "certeza": "rango_literatura",
+      "nota": "Resina ≈ 1 500–1 800 kg/m³; autonivelante 2 mm ≈ 3–3,6 kg/m²"
     },
     "surface_finish": {
       "estado": "dato",
@@ -356,13 +361,16 @@
     },
     "imn_subregions": {
       "estado": "dato",
-      "valor_texto_original": "Interiores en cualquier zona; barrera o imprimante tolerante a humedad en losas sobre terreno.",
       "fuentes": [
         {
           "ref": "R01"
         }
       ],
-      "evidencia": "E5"
+      "evidencia": "E5",
+      "valor": [
+        "TODAS"
+      ],
+      "nota": "Interiores en cualquier zona; barrera o imprimante tolerante a humedad en losas sobre terreno."
     },
     "compatibility": {
       "estado": "dato",
@@ -443,14 +451,18 @@
     },
     "price_range": {
       "estado": "dato",
-      "valor_texto_original": "₡8 000–₡38 000 / m² instalado (≥ 30 m²)",
       "fuentes": [
         {
           "ref": "R57"
         }
       ],
       "evidencia": "E2",
-      "nota": "Sólido ₡8–12 mil; escamas ₡12–18 mil; industrial ₡15–30 mil; metálico ₡22–38 mil."
+      "nota": "Instalado (≥ 30 m²)",
+      "min": 8000.0,
+      "max": 38000.0,
+      "calificador": "rango",
+      "unidad": "CRC/m²",
+      "certeza": "rango_literatura"
     },
     "mechanical_resistance": {
       "estado": "dato",

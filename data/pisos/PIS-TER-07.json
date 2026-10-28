@@ -198,13 +198,18 @@
     },
     "surface_mass": {
       "estado": "dato",
-      "valor_texto_original": "≈ 55–80 kg/m² (baldosa 25–35 mm); densidad ≈ 2 200–2 400 kg/m³",
       "fuentes": [
         {
           "ref": "R67"
         }
       ],
-      "evidencia": "E4"
+      "evidencia": "E4",
+      "min": 55.0,
+      "max": 80.0,
+      "calificador": "rango",
+      "unidad": "kg/m²",
+      "certeza": "rango_literatura",
+      "nota": "≈ 55–80 kg/m² (baldosa 25–35 mm); densidad ≈ 2 200–2 400 kg/m³"
     },
     "surface_finish": {
       "estado": "dato",
@@ -1025,13 +1030,18 @@
     },
     "installation_thickness": {
       "estado": "dato",
-      "valor_texto_original": "45–70 (baldosa); 6–10 (epóxico)",
       "fuentes": [
         {
           "ref": "R01"
         }
       ],
-      "evidencia": "E1"
+      "evidencia": "E1",
+      "min": 45.0,
+      "max": 70.0,
+      "calificador": "rango",
+      "unidad": "mm",
+      "certeza": "rango_literatura",
+      "nota": "45–70 mm (baldosa); 6–10 mm (epóxico)"
     },
     "joint_requirements": {
       "estado": "dato",

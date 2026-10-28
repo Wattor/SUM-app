@@ -194,7 +194,6 @@
     },
     "surface_mass": {
       "estado": "dato",
-      "valor_texto_original": "Teca ≈ 600–700 kg/m³; parquet ≈ 7–9 kg/m²",
       "fuentes": [
         {
           "ref": "R08"
@@ -203,7 +202,13 @@
           "ref": "R45"
         }
       ],
-      "evidencia": "E4"
+      "evidencia": "E4",
+      "min": 7.0,
+      "max": 9.0,
+      "calificador": "rango",
+      "unidad": "kg/m²",
+      "certeza": "rango_literatura",
+      "nota": "Teca ≈ 600–700 kg/m³; parquet ≈ 7–9 kg/m²"
     },
     "surface_finish": {
       "estado": "dato",
@@ -330,13 +335,16 @@
     },
     "imn_subregions": {
       "estado": "dato",
-      "valor_texto_original": "Solo con HR 35–65 % o climatizado; en época lluviosa la HR supera el 80 % en buena parte del país.",
       "fuentes": [
         {
           "ref": "R01"
         }
       ],
-      "evidencia": "E5"
+      "evidencia": "E5",
+      "valor": [
+        "TODAS"
+      ],
+      "nota": "Solo con HR 35–65 % o climatizado; en época lluviosa la HR supera el 80 % en buena parte del país."
     },
     "compatibility": {
       "estado": "dato",
@@ -460,7 +468,6 @@
     },
     "durability_years": {
       "estado": "dato",
-      "valor_texto_original": "25–50+",
       "fuentes": [
         {
           "ref": "R06"
@@ -470,7 +477,12 @@
         }
       ],
       "evidencia": "E5",
-      "nota": "Con lijados y mantenimiento; maciza más larga."
+      "nota": "25–50+ años según mantenimiento y especie.",
+      "min": 25.0,
+      "max": 50.0,
+      "calificador": "rango",
+      "unidad": "años",
+      "certeza": "rango_literatura"
     },
     "water_absorption": {
       "estado": "no_disponible",
@@ -578,14 +590,14 @@
       "evidencia": "E1"
     },
     "sound_insulation": {
-      "estado": "dato",
-      "valor_texto_original": "Mejora de ruido de impacto con base acústica (ΔLw ≈ 15–20 dB)",
+      "estado": "no_aplica",
       "fuentes": [
         {
           "ref": "R42"
         }
       ],
-      "evidencia": "E2"
+      "evidencia": "E2",
+      "nota": "El acabado no aporta aislamiento a ruido aéreo (dB Rw) por sí solo; mejora de ruido de impacto con base acústica (ΔLw ≈ 15–20 dB)."
     },
     "sound_absorption": {
       "estado": "dato",
@@ -836,14 +848,17 @@
     },
     "embodied_carbon": {
       "estado": "dato",
-      "valor_texto_original": "≈ 0,3 kgCO₂e/kg (fósil, madera aserrada; sin carbono biogénico)",
       "fuentes": [
         {
           "ref": "R16"
         }
       ],
       "evidencia": "E4",
-      "nota": "Orden de magnitud; almacena carbono biogénico."
+      "nota": "≈ 0,3 kgCO₂e/kg (fósil, madera aserrada; sin carbono biogénico; ≈ 2,4 kgCO₂e/m² para parquet 8 kg/m²)",
+      "valor": 2.4,
+      "calificador": "≈",
+      "unidad": "kgCO2e/m²",
+      "certeza": "estimado_analogia"
     },
     "embodied_carbon_modules": {
       "estado": "pendiente",

@@ -189,13 +189,18 @@
     },
     "surface_mass": {
       "estado": "dato",
-      "valor_texto_original": "≈ 9–12 kg/m²; densidad del núcleo ≈ 1 900–2 100 kg/m³",
       "fuentes": [
         {
           "ref": "R31"
         }
       ],
-      "evidencia": "E2"
+      "evidencia": "E2",
+      "min": 9.0,
+      "max": 12.0,
+      "calificador": "rango",
+      "unidad": "kg/m²",
+      "certeza": "rango_literatura",
+      "nota": "≈ 9–12 kg/m²; densidad del núcleo ≈ 1 900–2 100 kg/m³"
     },
     "surface_finish": {
       "estado": "dato",
@@ -321,13 +326,16 @@
     },
     "imn_subregions": {
       "estado": "dato",
-      "valor_texto_original": "Interiores en cualquier zona, sin sol directo prolongado.",
       "fuentes": [
         {
           "ref": "R01"
         }
       ],
-      "evidencia": "E5"
+      "evidencia": "E5",
+      "valor": [
+        "TODAS"
+      ],
+      "nota": "Interiores en cualquier zona, sin sol directo prolongado."
     },
     "compatibility": {
       "estado": "dato",
@@ -404,14 +412,18 @@
     },
     "price_range": {
       "estado": "dato",
-      "valor_texto_original": "≈ ₡8 000–₡10 000 / m² (material, IVA incl.)",
       "fuentes": [
         {
           "ref": "R09"
         }
       ],
       "evidencia": "E2",
-      "nota": "Líneas premium sin PVC más caras."
+      "nota": "Material, IVA incl.",
+      "min": 8000.0,
+      "max": 10000.0,
+      "calificador": "rango",
+      "unidad": "CRC/m²",
+      "certeza": "rango_literatura"
     },
     "mechanical_resistance": {
       "estado": "dato",
@@ -580,15 +592,14 @@
       "evidencia": "E1"
     },
     "sound_insulation": {
-      "estado": "dato",
-      "valor_texto_original": "Mejora de ruido de impacto ΔLw ≈ 15–20 dB con underlayment",
+      "estado": "no_aplica",
       "fuentes": [
         {
           "ref": "R31"
         }
       ],
       "evidencia": "E2",
-      "nota": "Depende de la base acústica."
+      "nota": "El acabado no aporta aislamiento de ruido aéreo por sí solo; mejora de ruido de impacto ΔLw ≈ 15–20 dB con underlayment."
     },
     "sound_absorption": {
       "estado": "dato",

@@ -190,14 +190,18 @@
     },
     "surface_mass": {
       "estado": "dato",
-      "valor_texto_original": "19–27 kg/m²; densidad ≈ 2 300–2 400 kg/m³",
       "fuentes": [
         {
           "ref": "R08"
         }
       ],
       "evidencia": "E4",
-      "nota": "Estimado para 8–12 mm."
+      "nota": "19–27 kg/m²; densidad ≈ 2 300–2 400 kg/m³",
+      "min": 19.0,
+      "max": 27.0,
+      "calificador": "rango",
+      "unidad": "kg/m²",
+      "certeza": "rango_literatura"
     },
     "surface_finish": {
       "estado": "dato",
@@ -406,7 +410,6 @@
     },
     "price_range": {
       "estado": "dato",
-      "valor_texto_original": "₡3 990–₡16 000 / m² (material; ofertas en línea)",
       "fuentes": [
         {
           "ref": "R21"
@@ -416,7 +419,12 @@
         }
       ],
       "evidencia": "E2",
-      "nota": "Líneas europeas de gama alta superan con creces este rango."
+      "nota": "Material; ofertas en línea",
+      "min": 3990.0,
+      "max": 16000.0,
+      "calificador": "rango",
+      "unidad": "CRC/m²",
+      "certeza": "rango_literatura"
     },
     "mechanical_resistance": {
       "estado": "dato",
@@ -826,14 +834,17 @@
     },
     "embodied_carbon": {
       "estado": "dato",
-      "valor_texto_original": "≈ 0,78 kgCO₂e/kg (≈ 18 kgCO₂e/m²)",
       "fuentes": [
         {
           "ref": "R16"
         }
       ],
       "evidencia": "E4",
-      "nota": "Orden de magnitud; EPD europeas reportan valores similares."
+      "nota": "≈ 0,78 kgCO₂e/kg (≈ 18 kgCO₂e/m²)",
+      "valor": 18.0,
+      "calificador": "≈",
+      "unidad": "kgCO2e/m²",
+      "certeza": "estimado_analogia"
     },
     "embodied_carbon_modules": {
       "estado": "pendiente",
