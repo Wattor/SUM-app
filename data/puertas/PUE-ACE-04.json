@@ -181,12 +181,22 @@
       "evidencia": "E5"
     },
     "density": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "unidad": "kg/m³",
+      "fuentes": [
+        {
+          "ref": "INT-CEC",
+          "loc": "§3.2"
+        }
+      ],
+      "evidencia": "E4",
+      "certeza": "rango_literatura",
+      "valor": 7800,
+      "calificador": "=",
+      "nota": "Complemento de integración (nov. 2026), pendiente de validar por el autor. Valor de diseño genérico del material principal (fila «Acero», §3.2), no del producto ni del sistema; referido a 10 °C y humedad de equilibrio a 23 °C y 50 % HR: no describe el desempeño en servicio en trópico húmedo."
     },
     "surface_mass": {
-      "estado": "dato",
-      "valor_texto_original": "Peso de la hoja acorazada: más de 100-120 kg",
+      "estado": "no_disponible",
       "fuentes": [
         {
           "ref": "R122"
@@ -195,8 +205,7 @@
           "ref": "R123"
         }
       ],
-      "evidencia": "E5",
-      "nota": "Valor derivado de las referencias de peso citadas al describir la mano de obra y las patologías, no de una ficha técnica de peso directa"
+      "nota": "Valor derivado de las referencias de peso citadas al describir la mano de obra y las patologías, no de una ficha técnica de peso directa El autor dio el peso de la hoja (kg), no masa superficial en kg/m². Texto original del autor: «Peso de la hoja acorazada: más de 100-120 kg»."
     },
     "surface_finish": {
       "estado": "dato",
@@ -239,12 +248,26 @@
       "evidencia": "E5"
     },
     "installation_sequence": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Capas del sistema en el orden declarado: 1) Premarco de acero pesado (3 mm) → 2) Plancha electrogalvanizada perimetral → 3) Placa de manganeso anti-perforación → 4) Cerrojos multipunto (9 a 12 bulones) → 5) Bisagras soldadas de alta resistencia. Sistema de soporte: Paredes de alta capacidad portante: block de concreto relleno de mortero o concreto armado. Tipo de fijación: Pernos de expansión metálicos de 1/2\"x4\" @ 40 cm; garras metálicas de anclaje soldadas para el premarco. Juntas, sellos y accesorios: Juntas perimetrales de caucho sintético; empaques amortiguadores de silicona; sellador elástico de silicona acrílica de alta densidad en encuentros con muros.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (capas, soporte, fijación y juntas); pendiente de revisar y reescribir por el autor."
     },
     "tools_labor": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Especialización de mano de obra 5/5: Escala 1-5 propia. Complejidad de instalación 5/5: Escala 1-5 propia.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (escalas de mano de obra e instalación); pendiente de revisar y reescribir por el autor."
     },
     "critical_point": {
       "estado": "pendiente",
@@ -373,7 +396,6 @@
     },
     "price_range": {
       "estado": "dato",
-      "valor_texto_original": "Modelos básicos de liquidación desde c32.800 (Casper); unidades multipunto importadas c100.000-c140.000 (USD169-229 individuales, hasta USD779 dobles con vidrio templado); modelos premium bajo norma UNE-EN 1627 superan ampliamente estos rangos",
       "fuentes": [
         {
           "ref": "R133"
@@ -382,7 +404,12 @@
           "ref": "R117"
         }
       ],
-      "evidencia": "E2"
+      "evidencia": "E2",
+      "min": 32800,
+      "max": 140000,
+      "unidad": "CRC/unidad",
+      "calificador": "rango",
+      "nota": "Texto original del autor: «Modelos básicos de liquidación desde c32.800 (Casper); unidades multipunto importadas c100.000-c140.000 (USD169-229 individuales, hasta USD779 dobles con vidrio templado); modelos premium bajo norma UNE-EN 1627 superan ampliamente estos rangos»."
     },
     "mechanical_resistance": {
       "estado": "dato",
@@ -415,7 +442,6 @@
     },
     "durability_years": {
       "estado": "dato",
-      "valor_texto_original": "Supera los 35 años",
       "fuentes": [
         {
           "ref": "R128"
@@ -424,7 +450,11 @@
           "ref": "R117"
         }
       ],
-      "evidencia": "E5"
+      "evidencia": "E5",
+      "valor": 35,
+      "unidad": "años",
+      "calificador": "≥",
+      "nota": "Texto original del autor: «Supera los 35 años»."
     },
     "water_absorption": {
       "estado": "no_disponible",
@@ -485,18 +515,32 @@
     },
     "thermal_conductivity": {
       "estado": "dato",
-      "valor_texto_original": "Acero al carbono: aprox. 45-55 W/m.K (valor de referencia general del metal, muy superior al de la madera o el WPC)",
       "fuentes": [
         {
           "ref": "R139"
         }
       ],
       "evidencia": "E4",
-      "nota": "Referencia general del material, no del ensamblaje completo con núcleo aislante"
+      "nota": "Referencia general del material, no del ensamblaje completo con núcleo aislante Texto original del autor: «Acero al carbono: aprox. 45-55 W/m.K (valor de referencia general del metal, muy superior al de la madera o el WPC)».",
+      "min": 45,
+      "max": 55,
+      "unidad": "W/(m·K)",
+      "calificador": "rango"
     },
     "specific_heat": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "unidad": "J/(kg·K)",
+      "fuentes": [
+        {
+          "ref": "INT-CEC",
+          "loc": "§3.2"
+        }
+      ],
+      "evidencia": "E4",
+      "certeza": "rango_literatura",
+      "valor": 450,
+      "calificador": "=",
+      "nota": "Complemento de integración (nov. 2026), pendiente de validar por el autor. Valor de diseño genérico del material principal (fila «Acero», §3.2), no del producto ni del sistema; referido a 10 °C y humedad de equilibrio a 23 °C y 50 % HR: no describe el desempeño en servicio en trópico húmedo."
     },
     "thermal_resistance": {
       "estado": "no_disponible",
@@ -516,14 +560,13 @@
       "estado": "no_disponible"
     },
     "sound_insulation": {
-      "estado": "dato",
-      "valor_texto_original": "Sobresaliente con núcleos internos de lana de roca o poliuretano rígido (aislamiento acústico continuo para residencias urbanas, sin valor numérico en dB reportado)",
+      "estado": "no_disponible",
       "fuentes": [
         {
           "ref": "R127"
         }
       ],
-      "evidencia": "E5"
+      "nota": "Descripción cualitativa, sin valor en dB. Texto original del autor: «Sobresaliente con núcleos internos de lana de roca o poliuretano rígido (aislamiento acústico continuo para residencias urbanas, sin valor numérico en dB reportado)»."
     },
     "sound_absorption": {
       "estado": "no_disponible"
@@ -541,7 +584,6 @@
     },
     "fire_resistance": {
       "estado": "dato",
-      "valor_texto_original": "RF30 a RF60 (con núcleo de lana de roca o poliuretano rígido)",
       "fuentes": [
         {
           "ref": "R134"
@@ -550,7 +592,12 @@
           "ref": "R127"
         }
       ],
-      "evidencia": "E5"
+      "evidencia": "E5",
+      "min": 30,
+      "max": 60,
+      "unidad": "min",
+      "calificador": "rango",
+      "nota": "Texto original del autor: «RF30 a RF60 (con núcleo de lana de roca o poliuretano rígido)»."
     },
     "smoke_class": {
       "estado": "no_disponible"
@@ -744,8 +791,15 @@
       "evidencia": "E5"
     },
     "cr_region": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Condiciones climáticas declaradas en la ficha: Apto para todo el territorio nacional; expuesto al exterior requiere núcleo con lana de roca o poliuretano inyectado para mitigar el calentamiento del metal. Disponibilidad nacional 3/5.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (condiciones climáticas y disponibilidad nacional); pendiente de revisar y reescribir por el autor."
     },
     "seismic_condition": {
       "estado": "pendiente",
@@ -760,16 +814,37 @@
       "nota": "Campo nuevo del estándar v1.0: completar."
     },
     "plan_requirements": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Datos de la ficha que deben quedar indicados en planos y especificaciones: espesor total 50.0–70.0 mm; paso libre 850–950 mm; tipo de fijación: Pernos de expansión metálicos de 1/2\"x4\" @ 40 cm; garras metálicas de anclaje soldadas para el premarco; juntas, sellos y accesorios: Juntas perimetrales de caucho sintético; empaques amortiguadores de silicona; sellador elástico de silicona acrílica de alta densidad en encuentros con muros; herrajes: Cerrojos multipunto (9 a 12 bulones), bisagras soldadas de alta resistencia sobre balines, cilindro Mul-T-Lock de pines telescópicos, escudos anti-taladro, pasadores anti-palanca; cerraduras electrónicas compatibles (Nexxt c58.500, Tri Circle c20.959).",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (espesores, fijaciones, juntas y campos específicos); pendiente de revisar y reescribir por el autor."
     },
     "advantages": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Fortalezas según los datos de la ficha: resistencia a humedad 4/5; resistencia a radiación uv 5/5; residuos de instalación 1/5 (bajo); reciclable: Sí.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (escalas 1–5 y campos Sí/No); pendiente de revisar y reescribir por el autor."
     },
     "limitations": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Debilidades según los datos de la ficha: especialización de mano de obra 5/5 (alto); complejidad de instalación 5/5 (alto); material renovable: No. Restricciones de uso: Incompatible con muros ligeros de drywall sin marcos estructurales pesados; instalación costera limitada si la capa protectora de zinc sufre rayaduras severas. Principales fallas (patologías): Oxidación química de marcos, fisuras de fatiga en boquetes, desalineamiento y traba de bulones de cierre, corrosión costera por rayaduras superficiales.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (escalas 1–5, restricciones de uso y fallas frecuentes); pendiente de revisar y reescribir por el autor."
     },
     "graphics": {
       "estado": "pendiente",
@@ -823,14 +898,17 @@
     },
     "clear_width": {
       "estado": "dato",
-      "valor_texto_original": "Aprox. 850-950 mm",
       "fuentes": [
         {
           "ref": "PROPIO"
         }
       ],
       "evidencia": "E4",
-      "nota": "Estimación propia; no es un valor de paso libre medido o certificado en los informes"
+      "nota": "Estimación propia; no es un valor de paso libre medido o certificado en los informes Texto original del autor: «Aprox. 850-950 mm».",
+      "min": 850,
+      "max": 950,
+      "unidad": "mm",
+      "calificador": "rango"
     },
     "leaf_material": {
       "estado": "dato",
@@ -1031,6 +1109,18 @@
     {
       "id": "R150",
       "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.5.1 (pág. 11-12) y 5.5.3 (pág. 12-13)"
+    },
+    {
+      "id": "INT-CEC",
+      "tipo": "informe_institucional",
+      "fecha_consulta": "2026-11-16",
+      "url": "https://www.codigotecnico.org/Recursos/Aplicaciones/CatalogoElementosConstructivos.html",
+      "cita": "Instituto Eduardo Torroja de Ciencias de la Construcción, CEPCO y AICIA. (2010). Catálogo de Elementos Constructivos del CTE (versión 6.3, marzo de 2010), sección 3: Materiales y productos. Ministerio de Vivienda, España. Valores de diseño obtenidos según UNE-EN ISO 10456."
+    },
+    {
+      "id": "INT-SIN",
+      "tipo": "elaboracion_propia",
+      "cita": "Síntesis de integración (noviembre de 2026): texto armado automáticamente a partir de otros campos de la misma ficha. No es fuente externa."
     }
   ]
 }

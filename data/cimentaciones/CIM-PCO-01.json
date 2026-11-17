@@ -158,19 +158,29 @@
       "evidencia": "E3"
     },
     "density": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "unidad": "kg/m³",
+      "fuentes": [
+        {
+          "ref": "INT-CEC",
+          "loc": "§3.4.1"
+        }
+      ],
+      "evidencia": "E4",
+      "certeza": "rango_literatura",
+      "min": 2300,
+      "max": 2500,
+      "calificador": "rango",
+      "nota": "Complemento de integración (nov. 2026), pendiente de validar por el autor. Valor de diseño genérico del material principal (fila «Hormigón armado 2300 < ρ ≤ 2500», §3.4.1), no del producto ni del sistema; referido a 10 °C y humedad de equilibrio a 23 °C y 50 % HR: no describe el desempeño en servicio en trópico húmedo."
     },
     "surface_mass": {
-      "estado": "dato",
-      "valor_texto_original": "0,070 m³/ml y 2,69 kg/ml de acero (un piso) · 0,110 m³/ml y 5,88 kg/ml (dos pisos)",
+      "estado": "no_disponible",
       "fuentes": [
         {
           "ref": "R02"
         }
       ],
-      "evidencia": "E3",
-      "nota": "CALCULADO. Unidad adaptada a m³/ml. Supuestos: recubrimiento 5 cm, #3 a 0,560 kg/m, sin desperdicio ni traslapes. Densidad del concreto: No disponible en las fuentes del proyecto."
+      "nota": "CALCULADO. Unidad adaptada a m³/ml. Supuestos: recubrimiento 5 cm, #3 a 0,560 kg/m, sin desperdicio ni traslapes. Densidad del concreto: No disponible en las fuentes del proyecto. El autor dio volumen de concreto y acero por metro lineal, no masa superficial en kg/m². Texto original del autor: «0,070 m³/ml y 2,69 kg/ml de acero (un piso) · 0,110 m³/ml y 5,88 kg/ml (dos pisos)»."
     },
     "surface_finish": {
       "estado": "no_aplica",
@@ -277,7 +287,8 @@
     "location": {
       "estado": "dato",
       "valor": "Exterior",
-      "nota": "Bajo nivel de terreno."
+      "nota": "Bajo nivel de terreno.",
+      "evidencia": "E1"
     },
     "climates": {
       "estado": "dato",
@@ -418,16 +429,38 @@
       "nota": "Sujeto al ensayo de agresividad química que la norma no exige (vacío declarado)."
     },
     "vapor_permeability": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "unidad": "adimensional",
+      "fuentes": [
+        {
+          "ref": "INT-CEC",
+          "loc": "§3.4.1"
+        }
+      ],
+      "evidencia": "E4",
+      "certeza": "rango_literatura",
+      "valor": 80,
+      "calificador": "=",
+      "nota": "Complemento de integración (nov. 2026), pendiente de validar por el autor. Valor de diseño genérico del material principal (fila «Hormigón armado 2300 < ρ ≤ 2500», §3.4.1), no del producto ni del sistema; referido a 10 °C y humedad de equilibrio a 23 °C y 50 % HR: no describe el desempeño en servicio en trópico húmedo."
     },
     "thermal_conductivity": {
       "estado": "no_aplica",
       "nota": "Elemento enterrado."
     },
     "specific_heat": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "unidad": "J/(kg·K)",
+      "fuentes": [
+        {
+          "ref": "INT-CEC",
+          "loc": "§3.4.1"
+        }
+      ],
+      "evidencia": "E4",
+      "certeza": "rango_literatura",
+      "valor": 1000,
+      "calificador": "=",
+      "nota": "Complemento de integración (nov. 2026), pendiente de validar por el autor. Valor de diseño genérico del material principal (fila «Hormigón armado 2300 < ρ ≤ 2500», §3.4.1), no del producto ni del sistema; referido a 10 °C y humedad de equilibrio a 23 °C y 50 % HR: no describe el desempeño en servicio en trópico húmedo."
     },
     "thermal_resistance": {
       "estado": "no_aplica",
@@ -673,7 +706,8 @@
       "valor": [
         "Fotografía de armado (presentación TP1) · PENDIENTE sección propia placa-pared-contrapiso sobre CSCR fig. 17.1–17.2"
       ],
-      "nota": "Consignar fuente de cada imagen."
+      "nota": "Consignar fuente de cada imagen.",
+      "evidencia": "E1"
     },
     "depth_class": {
       "estado": "dato",
@@ -715,7 +749,6 @@
     },
     "angular_distortion": {
       "estado": "dato",
-      "valor_texto_original": "0,001 l (fisuración de repellos) · 0,001–0,002 l (muros de ladrillo, una planta)",
       "fuentes": [
         {
           "ref": "CC",
@@ -723,7 +756,11 @@
         }
       ],
       "evidencia": "E3",
-      "nota": "El repello se fisura antes que la estructura: patología visible en fachada con origen bajo tierra."
+      "nota": "El repello se fisura antes que la estructura: patología visible en fachada con origen bajo tierra. Texto original del autor: «0,001 l (fisuración de repellos) · 0,001–0,002 l (muros de ladrillo, una planta)».",
+      "min": 0.001,
+      "max": 0.002,
+      "unidad": "adimensional",
+      "calificador": "rango"
     },
     "expansive_soil": {
       "estado": "dato",
@@ -751,14 +788,15 @@
     },
     "liquefiable_soil": {
       "estado": "dato",
-      "valor_texto_original": "No admitido con alto potencial demostrado: usar cimentación profunda o mejorar el suelo",
       "fuentes": [
         {
           "ref": "CC",
           "loc": "§4.4.3.c"
         }
       ],
-      "evidencia": "E3"
+      "evidencia": "E3",
+      "valor": "No admitido",
+      "nota": "Texto original del autor: «No admitido con alto potencial demostrado: usar cimentación profunda o mejorar el suelo»."
     },
     "min_exploration": {
       "estado": "dato",
@@ -830,6 +868,13 @@
     {
       "id": "R06",
       "cita": "RESET 6.4"
+    },
+    {
+      "id": "INT-CEC",
+      "tipo": "informe_institucional",
+      "fecha_consulta": "2026-11-16",
+      "url": "https://www.codigotecnico.org/Recursos/Aplicaciones/CatalogoElementosConstructivos.html",
+      "cita": "Instituto Eduardo Torroja de Ciencias de la Construcción, CEPCO y AICIA. (2010). Catálogo de Elementos Constructivos del CTE (versión 6.3, marzo de 2010), sección 3: Materiales y productos. Ministerio de Vivienda, España. Valores de diseño obtenidos según UNE-EN ISO 10456."
     }
   ]
 }

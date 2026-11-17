@@ -204,19 +204,33 @@
       "nota": "Metalco también fabrica anchos de hasta 1,09 m (efectivo 0,99 m) según calibre."
     },
     "density": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "unidad": "kg/m³",
+      "fuentes": [
+        {
+          "ref": "INT-CEC",
+          "loc": "§3.2"
+        }
+      ],
+      "evidencia": "E4",
+      "certeza": "rango_literatura",
+      "valor": 7800,
+      "calificador": "=",
+      "nota": "Complemento de integración (nov. 2026), pendiente de validar por el autor. Valor de diseño genérico del material principal (fila «Acero», §3.2), no del producto ni del sistema; referido a 10 °C y humedad de equilibrio a 23 °C y 50 % HR: no describe el desempeño en servicio en trópico húmedo."
     },
     "surface_mass": {
       "estado": "dato",
-      "valor_texto_original": "≈3,9–4,0 (cal. 26); menor en cal. 28",
       "fuentes": [
         {
           "ref": "R20"
         }
       ],
       "evidencia": "E2",
-      "nota": "Derivado de la tabla de Metalco (peso por unidad, p.ej. 4,31 kg por lámina de 1,09 × 1,00 m cal. 26); la extracción de la tabla es poco legible, verificar con ficha impresa. La DAP usa 8,91 kg de producto como unidad declarada."
+      "nota": "Derivado de la tabla de Metalco (peso por unidad, p.ej. 4,31 kg por lámina de 1,09 × 1,00 m cal. 26); la extracción de la tabla es poco legible, verificar con ficha impresa. La DAP usa 8,91 kg de producto como unidad declarada. Texto original del autor: «≈3,9–4,0 (cal. 26); menor en cal. 28».",
+      "min": 3.9,
+      "max": 4.0,
+      "unidad": "kg/m²",
+      "calificador": "rango"
     },
     "surface_finish": {
       "estado": "dato",
@@ -262,12 +276,26 @@
       "evidencia": "E2"
     },
     "installation_sequence": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Capas del sistema en el orden declarado: Lámina ondulada Zn-Al 55% sin pintar (exterior) → Clavadores/largueros metálicos (RT o perfil C galvanizado) → Estructura principal de techo (cerchas o vigas) → (Opcional) aislante/barrera bajo lámina y cielo raso. Sistema de soporte: Clavadores (largueros) metálicos galvanizados sobre cerchas o vigas; separación según calibre y tabla del fabricante (del orden de 0,8–1,2 m). Tipo de fijación: Tornillos autoperforantes tipo Tek A14 × 2,5\" o × 5\" con arandela de neopreno, colocados solo en crestas; mínimo 3,2 tornillos/m². Juntas, sellos y accesorios: Traslapes lateral y longitudinal; arandelas de neopreno/EPDM en tornillos; cumbreras, botaguas y tapajuntas; sello/cinta en traslapes en pendientes bajas (opcional).",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (capas, soporte, fijación y juntas); pendiente de revisar y reescribir por el autor."
     },
     "tools_labor": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Especialización de mano de obra 2/5: Oficio de techador común en CR; requiere conocimiento básico de traslapes, pendientes y fijación en cresta. Complejidad de instalación 2/5: Láminas livianas, corte con tijera/cizalla, fijación con atornillador; complejidad aumenta en limahoyas y encuentros con muros. Tiempo relativo de instalación 1/5: Láminas de gran formato (hasta 12 m) y fijación rápida; entre las cubiertas de menor tiempo de instalación.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (escalas de mano de obra e instalación); pendiente de revisar y reescribir por el autor."
     },
     "critical_point": {
       "estado": "pendiente",
@@ -571,8 +599,19 @@
       "nota": "Valor del acero base; la lámina no aporta aislamiento térmico."
     },
     "specific_heat": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "unidad": "J/(kg·K)",
+      "fuentes": [
+        {
+          "ref": "INT-CEC",
+          "loc": "§3.2"
+        }
+      ],
+      "evidencia": "E4",
+      "certeza": "rango_literatura",
+      "valor": 450,
+      "calificador": "=",
+      "nota": "Complemento de integración (nov. 2026), pendiente de validar por el autor. Valor de diseño genérico del material principal (fila «Acero», §3.2), no del producto ni del sistema; referido a 10 °C y humedad de equilibrio a 23 °C y 50 % HR: no describe el desempeño en servicio en trópico húmedo."
     },
     "thermal_resistance": {
       "estado": "no_disponible",
@@ -596,7 +635,6 @@
     },
     "solar_reflectance": {
       "estado": "dato",
-      "valor_texto_original": "0,68 inicial; 0,55 envejecida",
       "fuentes": [
         {
           "ref": "R25"
@@ -606,7 +644,10 @@
         }
       ],
       "evidencia": "E5",
-      "nota": "Otra fuente (LBNL vía The Roofing Brief) reporta 0,75 inicial y 0,50 tras 3 años. Emitancia térmica muy baja (≈0,05 inicial), lo que limita su desempeño como 'techo frío'."
+      "nota": "Otra fuente (LBNL vía The Roofing Brief) reporta 0,75 inicial y 0,50 tras 3 años. Emitancia térmica muy baja (≈0,05 inicial), lo que limita su desempeño como 'techo frío'. Se registra el valor inicial; el envejecido que cita el autor es 0,55. Texto original del autor: «0,68 inicial; 0,55 envejecida».",
+      "valor": 0.68,
+      "unidad": "0–1",
+      "calificador": "="
     },
     "thermal_emittance": {
       "estado": "pendiente",
@@ -614,14 +655,16 @@
     },
     "sri": {
       "estado": "dato",
-      "valor_texto_original": "68 inicial; 26 envejecido (3 años)",
       "fuentes": [
         {
           "ref": "R26"
         }
       ],
       "evidencia": "E4",
-      "nota": "Valores LBNL (2009) citados por fuente secundaria; SRI según ASTM E1980. No se encontró SRI de Metalum en ficha del fabricante."
+      "nota": "Valores LBNL (2009) citados por fuente secundaria; SRI según ASTM E1980. No se encontró SRI de Metalum en ficha del fabricante. Se registra el valor inicial; el envejecido a 3 años que cita el autor es 26. Texto original del autor: «68 inicial; 26 envejecido (3 años)».",
+      "valor": 68,
+      "unidad": "adimensional",
+      "calificador": "="
     },
     "sound_insulation": {
       "estado": "no_disponible",
@@ -952,8 +995,15 @@
       "evidencia": "E1"
     },
     "cr_region": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Condiciones climáticas declaradas en la ficha: Cálido húmedo | Cálido seco | Templado de altura | Lluvioso (con pendiente y traslapes adecuados). Disponibilidad nacional 5/5.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (condiciones climáticas y disponibilidad nacional); pendiente de revisar y reescribir por el autor."
     },
     "seismic_condition": {
       "estado": "pendiente",
@@ -964,20 +1014,48 @@
       "nota": "Campo nuevo del estándar v1.0: completar."
     },
     "cr_standard": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Normativa y lineamientos costarricenses citados en la bibliografía de la ficha: CFIA, Lineamientos para el diseño por viento de edificaciones en CR (2023) [R28].",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (bibliografía de la ficha); pendiente de revisar y reescribir por el autor."
     },
     "plan_requirements": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Datos de la ficha que deben quedar indicados en planos y especificaciones: espesor total 0.32–0.46 mm; pendiente mínima 20 %; tipo de fijación: Tornillos autoperforantes tipo Tek A14 × 2,5\" o × 5\" con arandela de neopreno, colocados solo en crestas; mínimo 3,2 tornillos/m²; juntas, sellos y accesorios: Traslapes lateral y longitudinal; arandelas de neopreno/EPDM en tornillos; cumbreras, botaguas y tapajuntas; sello/cinta en traslapes en pendientes bajas (opcional); sistema de traslape: Traslape lateral de al menos una onda (93 mm en perfil de referencia) y traslape longitudinal en el sentido de la pendiente; instalar de canoa a cumbrera (de abajo hacia arriba); tornillos solo en crestas.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (espesores, fijaciones, juntas y campos específicos); pendiente de revisar y reescribir por el autor."
     },
     "advantages": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Fortalezas según los datos de la ficha: resistencia a humedad 4/5; resistencia a corrosión 4/5; resistencia a radiación uv 5/5; facilidad de sustitución 4/5; disponibilidad nacional 5/5; especialización de mano de obra 2/5 (bajo); complejidad de instalación 2/5 (bajo); tiempo relativo de instalación 1/5 (bajo); residuos de instalación 2/5 (bajo); reutilizable: Sí; reciclable: Sí.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (escalas 1–5 y campos Sí/No); pendiente de revisar y reescribir por el autor."
     },
     "limitations": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Debilidades según los datos de la ficha: riesgo de condensación 4/5 (alto); material renovable: No. Restricciones de uso: No apto sin precauciones en ambiente marino moderado/severo; no usar en pendientes bajas (<20% aprox.); evitar contacto con materiales incompatibles; sin aislamiento genera ruido de lluvia, ganancia térmica y condensación; no cortar con disco abrasivo ni sobre el techo; almacenar seco y ventilado (mancha de almacenamiento); diseñar fijaciones para succión de viento según Lineamientos CFIA. Principales fallas (patologías): Filtraciones en tornillos y traslapes; Corrosión en bordes cortados y perforaciones; Mancha de almacenamiento (óxido blanco/oscuro); Corrosión por contacto con materiales incompatibles; Abolladuras; Levantamiento por viento; Condensación bajo la lámina.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (escalas 1–5, restricciones de uso y fallas frecuentes); pendiente de revisar y reescribir por el autor."
     },
     "graphics": {
       "estado": "pendiente",
@@ -1198,6 +1276,18 @@
       "id": "R29",
       "cita": "Acoustics Australia AAS2018 p32, ruido de lluvia en lámina perfilada https://acoustics.asn.au/conference_proceedings/AAS2018/papers/p32.pdf",
       "url": "https://acoustics.asn.au/conference_proceedings/AAS2018/papers/p32.pdf"
+    },
+    {
+      "id": "INT-CEC",
+      "tipo": "informe_institucional",
+      "fecha_consulta": "2026-11-16",
+      "url": "https://www.codigotecnico.org/Recursos/Aplicaciones/CatalogoElementosConstructivos.html",
+      "cita": "Instituto Eduardo Torroja de Ciencias de la Construcción, CEPCO y AICIA. (2010). Catálogo de Elementos Constructivos del CTE (versión 6.3, marzo de 2010), sección 3: Materiales y productos. Ministerio de Vivienda, España. Valores de diseño obtenidos según UNE-EN ISO 10456."
+    },
+    {
+      "id": "INT-SIN",
+      "tipo": "elaboracion_propia",
+      "cita": "Síntesis de integración (noviembre de 2026): texto armado automáticamente a partir de otros campos de la misma ficha. No es fuente externa."
     }
   ]
 }

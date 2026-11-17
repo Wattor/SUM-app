@@ -31,7 +31,8 @@
           "ref": "PROPIO"
         }
       ],
-      "nota": "También llamado termopanel, panel termoacústico o panel aislado."
+      "nota": "También llamado termopanel, panel termoacústico o panel aislado.",
+      "evidencia": "E1"
     },
     "record_type": {
       "estado": "dato",
@@ -321,12 +322,26 @@
       "evidencia": "E5"
     },
     "installation_sequence": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Capas del sistema en el orden declarado: Lámina exterior de acero prepintado grecada (0,4–0,6 mm) → Núcleo de espuma PUR/PIR 30–120 mm (típico 50 mm) → Lámina interior de acero prepintado lisa o microperfilada (0,4–0,5 mm). Sistema de soporte: Largueros metálicos (perfiles C/Z o RT) sobre estructura de acero; separación según tabla de carga (típico 1,5–3,0 m para 50 mm). Tipo de fijación: Tornillos autoperforantes a través de la greca, con arandela de neopreno/EPDM y capellote (tapajuntas); algunos modelos llevan fijación oculta con clips. Juntas, sellos y accesorios: Traslape lateral machihembrado o de greca con junta de sellado; tapajuntas; cinta butílica y sellador en traslapes de cabeza; cierres de greca; cumbreras, botaguas y remates en el mismo acero prepintado.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (capas, soporte, fijación y juntas); pendiente de revisar y reescribir por el autor."
     },
     "tools_labor": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Especialización de mano de obra 3/5: Requiere cuadrilla con experiencia en cubiertas metálicas, izaje de paneles largos y remates. Es más especializado que la lámina simple, pero no exige certificación. Complejidad de instalación 3/5: El montaje es sencillo, un solo elemento, pero exige alineación, fijación a largueros, sellado de traslapes y manejo de piezas de hasta 16 m. Tiempo relativo de instalación 2/5: Es rápido: cubierta, aislamiento y cielo se instalan en una sola operación (1 m de ancho útil por pieza).",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (escalas de mano de obra e instalación); pendiente de revisar y reescribir por el autor."
     },
     "critical_point": {
       "estado": "pendiente",
@@ -1056,8 +1071,15 @@
       "nota": "El acero se recupera como chatarra y la espuma suele terminar en vertedero."
     },
     "cr_region": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Condiciones climáticas declaradas en la ficha: Cálido-húmedo | Cálido-seco | Templado de altura | Lluvioso | Costero (con recubrimiento adecuado). Disponibilidad nacional 4/5.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (condiciones climáticas y disponibilidad nacional); pendiente de revisar y reescribir por el autor."
     },
     "seismic_condition": {
       "estado": "pendiente",
@@ -1072,16 +1094,37 @@
       "nota": "Campo nuevo del estándar v1.0: completar."
     },
     "plan_requirements": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Datos de la ficha que deben quedar indicados en planos y especificaciones: espesor total 50 mm; pendiente mínima 7 %; tipo de fijación: Tornillos autoperforantes a través de la greca, con arandela de neopreno/EPDM y capellote (tapajuntas); algunos modelos llevan fijación oculta con clips; juntas, sellos y accesorios: Traslape lateral machihembrado o de greca con junta de sellado; tapajuntas; cinta butílica y sellador en traslapes de cabeza; cierres de greca; cumbreras, botaguas y remates en el mismo acero prepintado; sistema de traslape: Traslape lateral por greca solapada o machihembrado con junta; traslape de cabeza con retiro de espuma y lámina exterior sobrepuesta, mínimo 152 mm (6\") o 200–300 mm según pendiente, con cinta butílica y sellador.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (espesores, fijaciones, juntas y campos específicos); pendiente de revisar y reescribir por el autor."
     },
     "advantages": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Fortalezas según los datos de la ficha: resistencia a humedad 4/5; facilidad de limpieza 4/5; disponibilidad nacional 4/5; riesgo de condensación 2/5 (bajo); tiempo relativo de instalación 2/5 (bajo); residuos de instalación 2/5 (bajo); aplicación en edificios de salud: Sí.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (escalas 1–5 y campos Sí/No); pendiente de revisar y reescribir por el autor."
     },
     "limitations": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Debilidades según los datos de la ficha: facilidad de reparación 2/5; material renovable: No. Principales fallas (patologías): Filtraciones en traslapes y tornillos; Corrosión en bordes cortados y tornillería; Delaminación de lámina y espuma; Abolladuras por tránsito; Caleo y decoloración de la pintura; Condensación en juntas.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (escalas 1–5, restricciones de uso y fallas frecuentes); pendiente de revisar y reescribir por el autor."
     },
     "graphics": {
       "estado": "pendiente",
@@ -1348,6 +1391,11 @@
       "id": "R54",
       "cita": "rebuilt.eco – Kingspan KS1000RW 70 mm https://rebuilt.eco/product/6355d0c9-4851-4f1c-adde-6ddfa76bf2da",
       "url": "https://rebuilt.eco/product/6355d0c9-4851-4f1c-adde-6ddfa76bf2da"
+    },
+    {
+      "id": "INT-SIN",
+      "tipo": "elaboracion_propia",
+      "cita": "Síntesis de integración (noviembre de 2026): texto armado automáticamente a partir de otros campos de la misma ficha. No es fuente externa."
     }
   ]
 }

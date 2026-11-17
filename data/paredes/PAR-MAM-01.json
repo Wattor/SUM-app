@@ -284,12 +284,26 @@
       "nota": "Evitar juntas incompletas y entradas de agua en coronas y encuentros."
     },
     "installation_sequence": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Capas del sistema en el orden declarado: Acabado exterior → repello exterior → bloque + mortero + acero + grout → repello interior → acabado interior. Sistema de soporte: Cimentación o viga de fundación diseñada para recibir el muro; continuidad mediante refuerzo y viga corona. Tipo de fijación: Barras verticales ancladas a la fundación; refuerzo horizontal y conexiones a vigas o elementos de borde según diseño. Juntas, sellos y accesorios: Juntas de mortero; juntas de control o construcción donde lo indique el diseño; sellado en vanos, coronación y penetraciones.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (capas, soporte, fijación y juntas); pendiente de revisar y reescribir por el autor."
     },
     "tools_labor": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Especialización de mano de obra 3/5: Nivel medio. Cuadrilla típica: albañil, ayudante y armador; requiere control de plomo, nivel, juntas, refuerzo y grout. Complejidad de instalación 3/5: Complejidad media. Herramientas: mezcladora, herramientas de albañilería, nivel/plomada, cortadora y equipo para colocar/compactar grout. Tiempo relativo de instalación 3/5: Tiempo relativo medio: proceso húmedo y secuencial, condicionado por rendimiento, curado, refuerzo y acabados.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (escalas de mano de obra e instalación); pendiente de revisar y reescribir por el autor."
     },
     "critical_point": {
       "estado": "pendiente",
@@ -586,25 +600,49 @@
       "nota": "En costa se deben reforzar control de humedad, recubrimiento del acero, sellos, revestimientos y mantenimiento."
     },
     "vapor_permeability": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
-    },
-    "thermal_conductivity": {
-      "estado": "no_disponible",
+      "estado": "dato",
+      "unidad": "adimensional",
       "fuentes": [
         {
-          "ref": "S1"
-        },
-        {
-          "ref": "S4"
+          "ref": "INT-CEC",
+          "loc": "§3.4.2"
         }
       ],
-      "evidencia": "E5",
-      "nota": "Se requiere conductividad del bloque y definición completa del ensamble."
+      "evidencia": "E4",
+      "certeza": "estimado_analogia",
+      "valor": 10,
+      "calificador": "=",
+      "nota": "Complemento de integración (nov. 2026), pendiente de validar por el autor. Analogía: bloque de hormigón europeo del catálogo frente a la unidad N-15 (INTE) de la ficha. Valor de diseño genérico del material principal (fila «Bloque de hormigón convencional», §3.4.2), no del producto ni del sistema; referido a 10 °C y humedad de equilibrio a 23 °C y 50 % HR: no describe el desempeño en servicio en trópico húmedo."
+    },
+    "thermal_conductivity": {
+      "estado": "dato",
+      "unidad": "W/(m·K)",
+      "fuentes": [
+        {
+          "ref": "INT-CEC",
+          "loc": "§3.4.2"
+        }
+      ],
+      "evidencia": "E4",
+      "certeza": "estimado_analogia",
+      "valor": 1.18,
+      "calificador": "=",
+      "nota": "Complemento de integración (nov. 2026), pendiente de validar por el autor. Analogía: bloque de hormigón europeo del catálogo frente a la unidad N-15 (INTE) de la ficha. Valor de diseño genérico del material principal (fila «Bloque de hormigón convencional», §3.4.2), no del producto ni del sistema; referido a 10 °C y humedad de equilibrio a 23 °C y 50 % HR: no describe el desempeño en servicio en trópico húmedo. Nota previa del autor: «Se requiere conductividad del bloque y definición completa del ensamble.»."
     },
     "specific_heat": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "unidad": "J/(kg·K)",
+      "fuentes": [
+        {
+          "ref": "INT-CEC",
+          "loc": "§3.4.2"
+        }
+      ],
+      "evidencia": "E4",
+      "certeza": "estimado_analogia",
+      "valor": 1000,
+      "calificador": "=",
+      "nota": "Complemento de integración (nov. 2026), pendiente de validar por el autor. Analogía: bloque de hormigón europeo del catálogo frente a la unidad N-15 (INTE) de la ficha. Valor de diseño genérico del material principal (fila «Bloque de hormigón convencional», §3.4.2), no del producto ni del sistema; referido a 10 °C y humedad de equilibrio a 23 °C y 50 % HR: no describe el desempeño en servicio en trópico húmedo."
     },
     "thermal_resistance": {
       "estado": "no_disponible",
@@ -993,18 +1031,28 @@
     },
     "end_of_life": {
       "estado": "dato",
-      "valor_texto_original": "Reciclaje; vertedero si no existe separación o recepción",
       "fuentes": [
         {
           "ref": "S1"
         }
       ],
       "evidencia": "E2",
-      "nota": "Priorizar separación y reciclaje; confirmar condiciones de recepción antes de transportar."
+      "nota": "Priorizar separación y reciclaje; confirmar condiciones de recepción antes de transportar. Texto original del autor: «Reciclaje; vertedero si no existe separación o recepción».",
+      "valor": [
+        "Reciclaje",
+        "Vertedero"
+      ]
     },
     "cr_region": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Condiciones climáticas declaradas en la ficha: Tropical húmedo; tropical seco; zonas altas, con detalle de humedad y acondicionamiento térmico. Disponibilidad nacional 5/5.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (condiciones climáticas y disponibilidad nacional); pendiente de revisar y reescribir por el autor."
     },
     "seismic_condition": {
       "estado": "pendiente",
@@ -1015,20 +1063,48 @@
       "nota": "Campo nuevo del estándar v1.0: completar."
     },
     "cr_standard": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Normativa y lineamientos costarricenses citados en la bibliografía de la ficha: CFIA. Código Sísmico de Costa Rica 2010, revisión 2014, capítulo 9 Mampostería estructural [S2].",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (bibliografía de la ficha); pendiente de revisar y reescribir por el autor."
     },
     "plan_requirements": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Datos de la ficha que deben quedar indicados en planos y especificaciones: espesor total 180 mm; espesor del sistema 150 mm; tipo de fijación: Barras verticales ancladas a la fundación; refuerzo horizontal y conexiones a vigas o elementos de borde según diseño; juntas, sellos y accesorios: Juntas de mortero; juntas de control o construcción donde lo indique el diseño; sellado en vanos, coronación y penetraciones; barrera de humedad: Control de agua mediante repello o recubrimiento exterior, sellos en vanos y penetraciones, protección de coronación y detalle de base contra ascenso capilar; fijación a estructura: Barras verticales ancladas a fundación o viga; refuerzo horizontal y viga corona conectados a elementos de borde conforme al diseño.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (espesores, fijaciones, juntas y campos específicos); pendiente de revisar y reescribir por el autor."
     },
     "advantages": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Fortalezas según los datos de la ficha: resistencia a humedad 4/5; resistencia a radiación uv 4/5; facilidad de limpieza 4/5; facilidad de reparación 4/5; disponibilidad nacional 5/5.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (escalas 1–5 y campos Sí/No); pendiente de revisar y reescribir por el autor."
     },
     "limitations": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Debilidades según los datos de la ficha: facilidad de sustitución 2/5; material renovable: No. Restricciones de uso: No usar unidades clase C como mampostería estructural. No ejecutar muros de retención ni alturas especiales sin diseño. Evitar cortes, rozas o perforaciones no coordinadas. Principales fallas (patologías): Fisuras diagonales; fisuras en vanos o encuentros; humedad y eflorescencia; desprendimiento de repello; juntas incompletas; vacíos de grout.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (escalas 1–5, restricciones de uso y fallas frecuentes); pendiente de revisar y reescribir por el autor."
     },
     "graphics": {
       "estado": "pendiente",
@@ -1218,6 +1294,18 @@
       "id": "S6",
       "cita": "CONCREPAL. Bloques de concreto: oferta y datos técnicos de Block 15. https://www.concrepal.com/productos/bloques-de-concreto-2/",
       "url": "https://www.concrepal.com/productos/bloques-de-concreto-2/"
+    },
+    {
+      "id": "INT-CEC",
+      "tipo": "informe_institucional",
+      "fecha_consulta": "2026-11-16",
+      "url": "https://www.codigotecnico.org/Recursos/Aplicaciones/CatalogoElementosConstructivos.html",
+      "cita": "Instituto Eduardo Torroja de Ciencias de la Construcción, CEPCO y AICIA. (2010). Catálogo de Elementos Constructivos del CTE (versión 6.3, marzo de 2010), sección 3: Materiales y productos. Ministerio de Vivienda, España. Valores de diseño obtenidos según UNE-EN ISO 10456."
+    },
+    {
+      "id": "INT-SIN",
+      "tipo": "elaboracion_propia",
+      "cita": "Síntesis de integración (noviembre de 2026): texto armado automáticamente a partir de otros campos de la misma ficha. No es fuente externa."
     }
   ]
 }

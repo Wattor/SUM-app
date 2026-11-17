@@ -30,7 +30,8 @@
         {
           "ref": "PROPIO"
         }
-      ]
+      ],
+      "evidencia": "E1"
     },
     "record_type": {
       "estado": "dato",
@@ -196,8 +197,19 @@
       "evidencia": "E5"
     },
     "density": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "unidad": "kg/m³",
+      "fuentes": [
+        {
+          "ref": "INT-CEC",
+          "loc": "§3.2"
+        }
+      ],
+      "evidencia": "E4",
+      "certeza": "rango_literatura",
+      "valor": 7800,
+      "calificador": "=",
+      "nota": "Complemento de integración (nov. 2026), pendiente de validar por el autor. Valor de diseño genérico del material principal (fila «Acero», §3.2), no del producto ni del sistema; referido a 10 °C y humedad de equilibrio a 23 °C y 50 % HR: no describe el desempeño en servicio en trópico húmedo."
     },
     "surface_mass": {
       "estado": "dato",
@@ -261,12 +273,26 @@
       "evidencia": "E5"
     },
     "installation_sequence": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Capas del sistema en el orden declarado: Pintura de color RUV4 (≥18 µm) → primer (≥5 µm) → galvanizado Z180 → núcleo de acero → galvanizado Z180 → backer RUV4 (≥10 µm). Sistema de soporte: Clavadores (largueros) de acero galvanizado tipo perfil C o RT; separación según tabla de carga del fabricante. Tipo de fijación: Tornillo autotaladrante Tek A14 con arandela de neopreno, solo en crestas; mínimo 3,2 tornillos/m². Juntas, sellos y accesorios: Traslape lateral de una cresta con sellador butílico o poliuretano; traslape transversal ≥20 cm con sellador; cumbreras, botaguas, tapajuntas y cierres de onda.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (capas, soporte, fijación y juntas); pendiente de revisar y reescribir por el autor."
     },
     "tools_labor": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Especialización de mano de obra 2/5: Instalación conocida por cuadrillas generales en CR; requiere cuidado en alineación, torque de tornillos y traslapes. Complejidad de instalación 2/5: Sistema de fijación expuesta simple; complejidad en remates, canoas y cumbreras. Tiempo relativo de instalación 2/5: Láminas largas (hasta 14 m) y livianas cubren rápido; tiempo relativo bajo.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (escalas de mano de obra e instalación); pendiente de revisar y reescribir por el autor."
     },
     "critical_point": {
       "estado": "pendiente",
@@ -566,8 +592,19 @@
       "nota": "Valor genérico del acero; la capa de pintura es despreciable."
     },
     "specific_heat": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "unidad": "J/(kg·K)",
+      "fuentes": [
+        {
+          "ref": "INT-CEC",
+          "loc": "§3.2"
+        }
+      ],
+      "evidencia": "E4",
+      "certeza": "rango_literatura",
+      "valor": 450,
+      "calificador": "=",
+      "nota": "Complemento de integración (nov. 2026), pendiente de validar por el autor. Valor de diseño genérico del material principal (fila «Acero», §3.2), no del producto ni del sistema; referido a 10 °C y humedad de equilibrio a 23 °C y 50 % HR: no describe el desempeño en servicio en trópico húmedo."
     },
     "thermal_resistance": {
       "estado": "dato",
@@ -824,7 +861,6 @@
     },
     "origin": {
       "estado": "dato",
-      "valor_texto_original": "Nacional | Importado",
       "fuentes": [
         {
           "ref": "R01"
@@ -834,7 +870,8 @@
         }
       ],
       "evidencia": "E5",
-      "nota": "Conformado y pintado en CR (Metalco); la bobina de acero es importada."
+      "nota": "Conformado y pintado en CR (Metalco); la bobina de acero es importada. Texto original del autor: «Nacional | Importado».",
+      "valor": "Mixto"
     },
     "transport_distance": {
       "estado": "no_disponible",
@@ -951,8 +988,15 @@
       "evidencia": "E5"
     },
     "cr_region": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Condiciones climáticas declaradas en la ficha: Tropical húmedo | tropical seco | montaña/templado | costero moderado (condicionado). Disponibilidad nacional 5/5.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (condiciones climáticas y disponibilidad nacional); pendiente de revisar y reescribir por el autor."
     },
     "seismic_condition": {
       "estado": "pendiente",
@@ -963,20 +1007,48 @@
       "nota": "Campo nuevo del estándar v1.0: completar."
     },
     "cr_standard": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Normativa y lineamientos costarricenses citados en la bibliografía de la ficha: Lineamientos técnicos fuerzas de viento CR (CFIA 2023) [R09].",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (bibliografía de la ficha); pendiente de revisar y reescribir por el autor."
     },
     "plan_requirements": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Datos de la ficha que deben quedar indicados en planos y especificaciones: espesor total 0.46 mm; pendiente mínima 20 %; tipo de fijación: Tornillo autotaladrante Tek A14 con arandela de neopreno, solo en crestas; mínimo 3,2 tornillos/m²; juntas, sellos y accesorios: Traslape lateral de una cresta con sellador butílico o poliuretano; traslape transversal ≥20 cm con sellador; cumbreras, botaguas, tapajuntas y cierres de onda; sistema de traslape: Traslape lateral de una cresta con sellador butílico o poliuretano y marca de trazabilidad oculta; traslape de extremo ≥20 cm con sellador; instalar de canoa a cumbrera y contra el viento dominante.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (espesores, fijaciones, juntas y campos específicos); pendiente de revisar y reescribir por el autor."
     },
     "advantages": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Fortalezas según los datos de la ficha: resistencia a humedad 4/5; facilidad de limpieza 4/5; facilidad de sustitución 4/5; disponibilidad nacional 5/5; especialización de mano de obra 2/5 (bajo); complejidad de instalación 2/5 (bajo); tiempo relativo de instalación 2/5 (bajo); residuos de instalación 2/5 (bajo); reciclable: Sí.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (escalas 1–5 y campos Sí/No); pendiente de revisar y reescribir por el autor."
     },
     "limitations": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Debilidades según los datos de la ficha: riesgo de condensación 4/5 (alto); material renovable: No. Restricciones de uso: No cortar con disco abrasivo; no almacenar a la intemperie ni con humedad atrapada; pendiente mínima según fabricante (20% Ternium); uso en ambiente marino severo o industrial agresivo condicionado a PVDF/mayor recubrimiento; requiere diseño por viento (Lineamientos CFIA 2023); no apta como superficie transitable habitual. Principales fallas (patologías): Goteras en tornillos y traslapes; corrosión en bordes cortados y traslapes; decoloración y entizado de la pintura; condensación; abolladuras; desprendimiento por viento; ruido por lluvia y dilatación.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (escalas 1–5, restricciones de uso y fallas frecuentes); pendiente de revisar y reescribir por el autor."
     },
     "graphics": {
       "estado": "pendiente",
@@ -1194,6 +1266,18 @@
       "id": "R14",
       "cita": "AAS 2018 p32, ruido de lluvia en lámina de acero https://acoustics.asn.au/conference_proceedings/AAS2018/papers/p32.pdf",
       "url": "https://acoustics.asn.au/conference_proceedings/AAS2018/papers/p32.pdf"
+    },
+    {
+      "id": "INT-CEC",
+      "tipo": "informe_institucional",
+      "fecha_consulta": "2026-11-16",
+      "url": "https://www.codigotecnico.org/Recursos/Aplicaciones/CatalogoElementosConstructivos.html",
+      "cita": "Instituto Eduardo Torroja de Ciencias de la Construcción, CEPCO y AICIA. (2010). Catálogo de Elementos Constructivos del CTE (versión 6.3, marzo de 2010), sección 3: Materiales y productos. Ministerio de Vivienda, España. Valores de diseño obtenidos según UNE-EN ISO 10456."
+    },
+    {
+      "id": "INT-SIN",
+      "tipo": "elaboracion_propia",
+      "cita": "Síntesis de integración (noviembre de 2026): texto armado automáticamente a partir de otros campos de la misma ficha. No es fuente externa."
     }
   ]
 }

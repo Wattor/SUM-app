@@ -186,7 +186,8 @@
     },
     "joints_seals": {
       "estado": "dato",
-      "valor": "Sin juntas."
+      "valor": "Sin juntas.",
+      "evidencia": "E1"
     },
     "installation_sequence": {
       "estado": "dato",
@@ -247,7 +248,8 @@
     "location": {
       "estado": "dato",
       "valor": "Exterior",
-      "nota": "Bajo nivel de terreno."
+      "nota": "Bajo nivel de terreno.",
+      "evidencia": "E1"
     },
     "climates": {
       "estado": "dato",
@@ -638,7 +640,8 @@
       "estado": "dato",
       "valor": [
         "Fotografía de compactación (presentación TP1) · PENDIENTE esquema de las dos geometrías de sustitución (2:1)"
-      ]
+      ],
+      "evidencia": "E1"
     },
     "depth_class": {
       "estado": "dato",
@@ -664,26 +667,24 @@
       "evidencia": "E3"
     },
     "settlement_limit": {
-      "estado": "dato",
-      "valor_texto_original": "Según la placa que soporta",
+      "estado": "no_disponible",
       "fuentes": [
         {
           "ref": "CC",
           "loc": "Cuadro 3.5"
         }
       ],
-      "evidencia": "E3"
+      "nota": "Depende de la placa que soporta. Texto original del autor: «Según la placa que soporta»."
     },
     "angular_distortion": {
-      "estado": "dato",
-      "valor_texto_original": "Según la placa que soporta",
+      "estado": "no_disponible",
       "fuentes": [
         {
           "ref": "CC",
           "loc": "Cuadro 3.5"
         }
       ],
-      "evidencia": "E3"
+      "nota": "Depende de la placa que soporta. Texto original del autor: «Según la placa que soporta»."
     },
     "expansive_soil": {
       "estado": "dato",
@@ -710,14 +711,15 @@
     },
     "liquefiable_soil": {
       "estado": "dato",
-      "valor_texto_original": "No admitido con alto potencial demostrado",
       "fuentes": [
         {
           "ref": "CC",
           "loc": "§4.4.3.c"
         }
       ],
-      "evidencia": "E3"
+      "evidencia": "E3",
+      "valor": "No admitido",
+      "nota": "Texto original del autor: «No admitido con alto potencial demostrado»."
     },
     "min_exploration": {
       "estado": "dato",

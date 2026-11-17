@@ -194,8 +194,19 @@
       "nota": "El espesor de vidrio se define con la velocidad de viento y la altura sobre el terreno."
     },
     "density": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "unidad": "kg/m³",
+      "fuentes": [
+        {
+          "ref": "INT-CEC",
+          "loc": "§3.2"
+        }
+      ],
+      "evidencia": "E4",
+      "certeza": "rango_literatura",
+      "valor": 2800,
+      "calificador": "=",
+      "nota": "Complemento de integración (nov. 2026), pendiente de validar por el autor. Valor de diseño genérico del material principal (fila «Aluminio, aleaciones de», §3.2), no del producto ni del sistema; referido a 10 °C y humedad de equilibrio a 23 °C y 50 % HR: no describe el desempeño en servicio en trópico húmedo."
     },
     "surface_mass": {
       "estado": "dato",
@@ -257,12 +268,26 @@
       "nota": "Kit multipunto a partir de 770 mm de altura de hoja."
     },
     "installation_sequence": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Capas del sistema en el orden declarado: 1) Contramarco de 2 o 3 vías → 2) Marco de vidrio 6 mm y marco lateral agarradera → 3) Adaptador de enganche → 4) Empaque EPDM → 5) Vidrio → 6) Rodines, cerradura multipunto, topes cortaviento y tapas de drenaje → 7) Cedazo opcional. Sistema de soporte: Contramarco perimetral apoyado en el buque; hojas sobre rodines de nylon de 40 kg por par o rodín tándem. Tipo de fijación: Tornillos con taco al buque a través del contramarco; ensamble con escuadras de alineamiento. Juntas, sellos y accesorios: Sellos y empaques EPDM; topes cortaviento de 2 y 3 vías; tapas de drenaje con válvula; kit multipunto con manilla, cerradura doble de embutir o de impacto; haladeras.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (capas, soporte, fijación y juntas); pendiente de revisar y reescribir por el autor."
     },
     "tools_labor": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Especialización de mano de obra 3/5: Hojas grandes y pesadas y herrajes multipunto. Complejidad de instalación 3/5. Tiempo relativo de instalación 3/5: Más tiempo por el tamaño y peso de las hojas.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (escalas de mano de obra e instalación); pendiente de revisar y reescribir por el autor."
     },
     "critical_point": {
       "estado": "pendiente",
@@ -532,17 +557,31 @@
     },
     "thermal_conductivity": {
       "estado": "dato",
-      "valor_texto_original": "≈ 200 (aluminio 6063); ≈ 1,0 (vidrio)",
       "fuentes": [
         {
           "ref": "R03"
         }
       ],
-      "evidencia": "E4"
+      "evidencia": "E4",
+      "valor": 200,
+      "unidad": "W/(m·K)",
+      "calificador": "≈",
+      "nota": "Valor del aluminio del marco; el autor da ≈ 1,0 para el vidrio. Texto original del autor: «≈ 200 (aluminio 6063); ≈ 1,0 (vidrio)»."
     },
     "specific_heat": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "unidad": "J/(kg·K)",
+      "fuentes": [
+        {
+          "ref": "INT-CEC",
+          "loc": "§3.2"
+        }
+      ],
+      "evidencia": "E4",
+      "certeza": "rango_literatura",
+      "valor": 880,
+      "calificador": "=",
+      "nota": "Complemento de integración (nov. 2026), pendiente de validar por el autor. Valor de diseño genérico del material principal (fila «Aluminio, aleaciones de», §3.2), no del producto ni del sistema; referido a 10 °C y humedad de equilibrio a 23 °C y 50 % HR: no describe el desempeño en servicio en trópico húmedo."
     },
     "thermal_resistance": {
       "estado": "dato",
@@ -594,7 +633,6 @@
     },
     "sound_insulation": {
       "estado": "dato",
-      "valor_texto_original": "≈ 25 – 28 (sistema); vidrio 6 mm solo = 30–32",
       "fuentes": [
         {
           "ref": "F6"
@@ -604,7 +642,11 @@
         }
       ],
       "evidencia": "E1",
-      "nota": "Mejor que las corredizas livianas por los topes cortaviento y el multipunto."
+      "nota": "Mejor que las corredizas livianas por los topes cortaviento y el multipunto. Texto original del autor: «≈ 25 – 28 (sistema); vidrio 6 mm solo = 30–32».",
+      "min": 25,
+      "max": 28,
+      "unidad": "dB (Rw)",
+      "calificador": "rango"
     },
     "sound_absorption": {
       "estado": "no_aplica",
@@ -785,14 +827,17 @@
     },
     "transport_distance": {
       "estado": "dato",
-      "valor_texto_original": "≈ 40 (GAM) – 250 (La Cruz)",
       "fuentes": [
         {
           "ref": "F7"
         }
       ],
       "evidencia": "E1",
-      "nota": "Desde Grecia."
+      "nota": "Desde Grecia. Texto original del autor: «≈ 40 (GAM) – 250 (La Cruz)».",
+      "min": 40,
+      "max": 250,
+      "unidad": "km",
+      "calificador": "rango"
     },
     "recycled_content": {
       "estado": "no_disponible",
@@ -888,8 +933,15 @@
       "evidencia": "E4"
     },
     "cr_region": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Condiciones climáticas declaradas en la ficha: Cálido húmedo, cálido seco y templado; zonas con más viento que la línea nacional. Disponibilidad nacional 5/5.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (condiciones climáticas y disponibilidad nacional); pendiente de revisar y reescribir por el autor."
     },
     "seismic_condition": {
       "estado": "pendiente",
@@ -900,20 +952,48 @@
       "nota": "Campo nuevo del estándar v1.0: completar."
     },
     "cr_standard": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Normativa y lineamientos costarricenses citados en la bibliografía de la ficha: INTE C312:2019, vidrio de seguridad en áreas de riesgo (citada en las fichas Extralum FT-031 y FT-137) [F20].",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (bibliografía de la ficha); pendiente de revisar y reescribir por el autor."
     },
     "plan_requirements": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Datos de la ficha que deben quedar indicados en planos y especificaciones: espesor del vidrio 6.0 mm; tipo de fijación: Tornillos con taco al buque a través del contramarco; ensamble con escuadras de alineamiento; juntas, sellos y accesorios: Sellos y empaques EPDM; topes cortaviento de 2 y 3 vías; tapas de drenaje con válvula; kit multipunto con manilla, cerradura doble de embutir o de impacto; haladeras; tipo de vidrio: Monolítico; templado FUERTEX®; laminado VILAX® 3+3.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (espesores, fijaciones, juntas y campos específicos); pendiente de revisar y reescribir por el autor."
     },
     "advantages": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Fortalezas según los datos de la ficha: resistencia a humedad 4/5; resistencia a radiación uv 4/5; facilidad de limpieza 4/5; facilidad de reparación 4/5; disponibilidad nacional 5/5; residuos de instalación 2/5 (bajo); reciclable: Sí.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (escalas 1–5 y campos Sí/No); pendiente de revisar y reescribir por el autor."
     },
     "limitations": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Debilidades según los datos de la ficha: riesgo de condensación 4/5 (alto); material renovable: No. Restricciones de uso: Sistema corredizo con control acústico limitado; la versión clásica no admite DVH (usar la versión FT-129 para DVH); el vidrio se dimensiona por viento y altura. Principales fallas (patologías): Desgaste de rodines por peso; descuadre del multipunto; filtración en umbrales; corrosión en costa.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (escalas 1–5, restricciones de uso y fallas frecuentes); pendiente de revisar y reescribir por el autor."
     },
     "graphics": {
       "estado": "pendiente",
@@ -1139,6 +1219,18 @@
     {
       "id": "R07",
       "cita": "Cálculo con F13 y F3"
+    },
+    {
+      "id": "INT-CEC",
+      "tipo": "informe_institucional",
+      "fecha_consulta": "2026-11-16",
+      "url": "https://www.codigotecnico.org/Recursos/Aplicaciones/CatalogoElementosConstructivos.html",
+      "cita": "Instituto Eduardo Torroja de Ciencias de la Construcción, CEPCO y AICIA. (2010). Catálogo de Elementos Constructivos del CTE (versión 6.3, marzo de 2010), sección 3: Materiales y productos. Ministerio de Vivienda, España. Valores de diseño obtenidos según UNE-EN ISO 10456."
+    },
+    {
+      "id": "INT-SIN",
+      "tipo": "elaboracion_propia",
+      "cita": "Síntesis de integración (noviembre de 2026): texto armado automáticamente a partir de otros campos de la misma ficha. No es fuente externa."
     }
   ]
 }

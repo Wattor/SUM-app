@@ -228,12 +228,26 @@
       "evidencia": "E5"
     },
     "installation_sequence": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Capas del sistema en el orden declarado: 1) Marco ajustable de WPC → 2) Hoja extruida de WPC (45 mm) → 3) Junta elástica amortiguadora perimetral → 4) Bisagras de acero inoxidable AISI 304 → 5) Tapajuntas telescópico a presión. Sistema de soporte: Mampostería de concreto/block repellada o tabiquería de drywall con perfiles de acero galvanizado calibre 20. Tipo de fijación: Tornillería autorroscante especial de acero galvanizado de 2\" para el marco; cuñas plásticas de nivelación. Juntas, sellos y accesorios: Juntas elásticas amortiguadoras de caucho sintético; sellado con acrílico o silicona acética en encuentros con la pared; tapajuntas telescópicos a presión.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (capas, soporte, fijación y juntas); pendiente de revisar y reescribir por el autor."
     },
     "tools_labor": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Especialización de mano de obra 2/5: Escala 1-5 propia. Complejidad de instalación 2/5: Escala 1-5 propia.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (escalas de mano de obra e instalación); pendiente de revisar y reescribir por el autor."
     },
     "critical_point": {
       "estado": "pendiente",
@@ -364,7 +378,6 @@
     },
     "price_range": {
       "estado": "dato",
-      "valor_texto_original": "Kit precolgado completo (marco + bisagras + juntas): aprox. c119.124,04 IVAI (aprox. USD 150-220)",
       "fuentes": [
         {
           "ref": "R103"
@@ -373,7 +386,11 @@
           "ref": "R92"
         }
       ],
-      "evidencia": "E2"
+      "evidencia": "E2",
+      "valor": 119124.04,
+      "unidad": "CRC/unidad",
+      "calificador": "≈",
+      "nota": "Texto original del autor: «Kit precolgado completo (marco + bisagras + juntas): aprox. c119.124,04 IVAI (aprox. USD 150-220)»."
     },
     "mechanical_resistance": {
       "estado": "dato",
@@ -400,7 +417,6 @@
     },
     "durability_years": {
       "estado": "dato",
-      "valor_texto_original": "Supera los 30 años",
       "fuentes": [
         {
           "ref": "R98"
@@ -409,7 +425,11 @@
           "ref": "R92"
         }
       ],
-      "evidencia": "E5"
+      "evidencia": "E5",
+      "valor": 30,
+      "unidad": "años",
+      "calificador": "≥",
+      "nota": "Texto original del autor: «Supera los 30 años»."
     },
     "water_absorption": {
       "estado": "dato",
@@ -500,14 +520,13 @@
       "estado": "no_disponible"
     },
     "sound_insulation": {
-      "estado": "dato",
-      "valor_texto_original": "Adecuado aislamiento termoacústico para dormitorios y oficinas, atribuido a la densidad de la hoja de 45 mm y al sellado amortiguador perimetral (sin valor numérico en dB reportado)",
+      "estado": "no_disponible",
       "fuentes": [
         {
           "ref": "R97"
         }
       ],
-      "evidencia": "E5"
+      "nota": "Descripción cualitativa, sin valor en dB. Texto original del autor: «Adecuado aislamiento termoacústico para dormitorios y oficinas, atribuido a la densidad de la hoja de 45 mm y al sellado amortiguador perimetral (sin valor numérico en dB reportado)»."
     },
     "sound_absorption": {
       "estado": "no_disponible"
@@ -707,8 +726,15 @@
       "evidencia": "E5"
     },
     "cr_region": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Condiciones climáticas declaradas en la ficha: Humedad relativa extrema (RH > 80%), zonas montañosas frías y lluviosas (Heredia, Coronado, Cartago, Alajuela), brisa costera constante. Disponibilidad nacional 4/5.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (condiciones climáticas y disponibilidad nacional); pendiente de revisar y reescribir por el autor."
     },
     "seismic_condition": {
       "estado": "pendiente",
@@ -723,16 +749,37 @@
       "nota": "Campo nuevo del estándar v1.0: completar."
     },
     "plan_requirements": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Datos de la ficha que deben quedar indicados en planos y especificaciones: espesor total 45.0 mm; paso libre 600–900 mm; tipo de fijación: Tornillería autorroscante especial de acero galvanizado de 2\" para el marco; cuñas plásticas de nivelación; juntas, sellos y accesorios: Juntas elásticas amortiguadoras de caucho sintético; sellado con acrílico o silicona acética en encuentros con la pared; tapajuntas telescópicos a presión; herrajes: Bisagras de acero inoxidable AISI 304; tapajuntas telescópicos a presión; cuñas plásticas de nivelación; tornillería autorroscante galvanizada de 2\".",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (espesores, fijaciones, juntas y campos específicos); pendiente de revisar y reescribir por el autor."
     },
     "advantages": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Fortalezas según los datos de la ficha: resistencia a humedad 5/5; facilidad de limpieza 5/5; disponibilidad nacional 4/5; riesgo de condensación 1/5 (bajo); especialización de mano de obra 2/5 (bajo); complejidad de instalación 2/5 (bajo); residuos de instalación 1/5 (bajo); aplicación en edificios de salud: Sí; reciclable: Sí.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (escalas 1–5 y campos Sí/No); pendiente de revisar y reescribir por el autor."
     },
     "limitations": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Debilidades según los datos de la ficha: resistencia a radiación uv 2/5; facilidad de reparación 2/5; material renovable: No. Restricciones de uso: Incompatible con exteriores expuestos de forma continua a la radiación solar de mediodía; sobre 60 grados C en superficie se degradan las resinas termoplásticas internas. Principales fallas (patologías): Pandeo por radiación solar directa, desprendimiento mecánico de bisagras, desajuste de tapajuntas telescópicos.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (escalas 1–5, restricciones de uso y fallas frecuentes); pendiente de revisar y reescribir por el autor."
     },
     "graphics": {
       "estado": "pendiente",
@@ -786,14 +833,17 @@
     },
     "clear_width": {
       "estado": "dato",
-      "valor_texto_original": "Aprox. 600-900 mm",
       "fuentes": [
         {
           "ref": "PROPIO"
         }
       ],
       "evidencia": "E4",
-      "nota": "Estimación propia; no es un valor de paso libre medido o certificado en los informes"
+      "nota": "Estimación propia; no es un valor de paso libre medido o certificado en los informes Texto original del autor: «Aprox. 600-900 mm».",
+      "min": 600,
+      "max": 900,
+      "unidad": "mm",
+      "calificador": "rango"
     },
     "leaf_material": {
       "estado": "dato",
@@ -947,6 +997,11 @@
     {
       "id": "R99",
       "cita": "Sistemas_Constructivos_para_Puertas_-_Costa_Rica.pdf, Solución C - 2/4 ('Baja-media - kit precolgado industrializado')"
+    },
+    {
+      "id": "INT-SIN",
+      "tipo": "elaboracion_propia",
+      "cita": "Síntesis de integración (noviembre de 2026): texto armado automáticamente a partir de otros campos de la misma ficha. No es fuente externa."
     }
   ]
 }

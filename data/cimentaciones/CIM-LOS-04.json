@@ -154,8 +154,20 @@
       "evidencia": "E3"
     },
     "density": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "unidad": "kg/m³",
+      "fuentes": [
+        {
+          "ref": "INT-CEC",
+          "loc": "§3.4.1"
+        }
+      ],
+      "evidencia": "E4",
+      "certeza": "rango_literatura",
+      "min": 2300,
+      "max": 2500,
+      "calificador": "rango",
+      "nota": "Complemento de integración (nov. 2026), pendiente de validar por el autor. Valor de diseño genérico del material principal (fila «Hormigón armado 2300 < ρ ≤ 2500», §3.4.1), no del producto ni del sistema; referido a 10 °C y humedad de equilibrio a 23 °C y 50 % HR: no describe el desempeño en servicio en trópico húmedo."
     },
     "surface_mass": {
       "estado": "no_disponible",
@@ -258,7 +270,8 @@
     "location": {
       "estado": "dato",
       "valor": "Exterior",
-      "nota": "Bajo nivel de terreno."
+      "nota": "Bajo nivel de terreno.",
+      "evidencia": "E1"
     },
     "climates": {
       "estado": "dato",
@@ -391,16 +404,49 @@
       "nota": "Sujeto al ensayo de agresividad química que la norma no exige (vacío declarado)."
     },
     "vapor_permeability": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "unidad": "adimensional",
+      "fuentes": [
+        {
+          "ref": "INT-CEC",
+          "loc": "§3.4.1"
+        }
+      ],
+      "evidencia": "E4",
+      "certeza": "rango_literatura",
+      "valor": 80,
+      "calificador": "=",
+      "nota": "Complemento de integración (nov. 2026), pendiente de validar por el autor. Valor de diseño genérico del material principal (fila «Hormigón armado 2300 < ρ ≤ 2500», §3.4.1), no del producto ni del sistema; referido a 10 °C y humedad de equilibrio a 23 °C y 50 % HR: no describe el desempeño en servicio en trópico húmedo."
     },
     "thermal_conductivity": {
-      "estado": "no_disponible",
-      "nota": "La losa también es contrapiso: interviene en el acople térmico con el suelo. Sin dato."
+      "estado": "dato",
+      "unidad": "W/(m·K)",
+      "fuentes": [
+        {
+          "ref": "INT-CEC",
+          "loc": "§3.4.1"
+        }
+      ],
+      "evidencia": "E4",
+      "certeza": "rango_literatura",
+      "valor": 2.3,
+      "calificador": "=",
+      "nota": "Complemento de integración (nov. 2026), pendiente de validar por el autor. Valor de diseño genérico del material principal (fila «Hormigón armado 2300 < ρ ≤ 2500», §3.4.1), no del producto ni del sistema; referido a 10 °C y humedad de equilibrio a 23 °C y 50 % HR: no describe el desempeño en servicio en trópico húmedo. Nota previa del autor: «La losa también es contrapiso: interviene en el acople térmico con el suelo. Sin dato.»."
     },
     "specific_heat": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "unidad": "J/(kg·K)",
+      "fuentes": [
+        {
+          "ref": "INT-CEC",
+          "loc": "§3.4.1"
+        }
+      ],
+      "evidencia": "E4",
+      "certeza": "rango_literatura",
+      "valor": 1000,
+      "calificador": "=",
+      "nota": "Complemento de integración (nov. 2026), pendiente de validar por el autor. Valor de diseño genérico del material principal (fila «Hormigón armado 2300 < ρ ≤ 2500», §3.4.1), no del producto ni del sistema; referido a 10 °C y humedad de equilibrio a 23 °C y 50 % HR: no describe el desempeño en servicio en trópico húmedo."
     },
     "thermal_resistance": {
       "estado": "no_disponible",
@@ -644,7 +690,8 @@
       "estado": "dato",
       "valor": [
         "Fotografía de armado (presentación TP1) · PENDIENTE esquema de presiones en losa rígida vs. flexible"
-      ]
+      ],
+      "evidencia": "E1"
     },
     "depth_class": {
       "estado": "dato",
@@ -684,15 +731,14 @@
       "nota": "Texto original: 7,0 – 30,0 (silos y placas) · Criterio aplicable."
     },
     "angular_distortion": {
-      "estado": "dato",
-      "valor_texto_original": "No gobierna en losa rígida",
+      "estado": "no_aplica",
       "fuentes": [
         {
           "ref": "CC",
           "loc": "Cuadro 3.5"
         }
       ],
-      "evidencia": "E3"
+      "nota": "Texto original del autor: «No gobierna en losa rígida»."
     },
     "expansive_soil": {
       "estado": "dato",
@@ -720,14 +766,15 @@
     },
     "liquefiable_soil": {
       "estado": "dato",
-      "valor_texto_original": "No admitido con alto potencial demostrado",
       "fuentes": [
         {
           "ref": "CC",
           "loc": "§4.4.3.c"
         }
       ],
-      "evidencia": "E3"
+      "evidencia": "E3",
+      "valor": "No admitido",
+      "nota": "Texto original del autor: «No admitido con alto potencial demostrado»."
     },
     "min_exploration": {
       "estado": "dato",
@@ -784,6 +831,13 @@
     {
       "id": "R05",
       "cita": "RESET 6.4.2"
+    },
+    {
+      "id": "INT-CEC",
+      "tipo": "informe_institucional",
+      "fecha_consulta": "2026-11-16",
+      "url": "https://www.codigotecnico.org/Recursos/Aplicaciones/CatalogoElementosConstructivos.html",
+      "cita": "Instituto Eduardo Torroja de Ciencias de la Construcción, CEPCO y AICIA. (2010). Catálogo de Elementos Constructivos del CTE (versión 6.3, marzo de 2010), sección 3: Materiales y productos. Ministerio de Vivienda, España. Valores de diseño obtenidos según UNE-EN ISO 10456."
     }
   ]
 }

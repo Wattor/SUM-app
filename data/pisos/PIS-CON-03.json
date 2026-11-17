@@ -420,14 +420,18 @@
     },
     "price_range": {
       "estado": "dato",
-      "valor_texto_original": "₡3 000–₡15 000 / m² (pulido según técnica)",
       "fuentes": [
         {
           "ref": "R01"
         }
       ],
       "evidencia": "E2",
-      "nota": "No incluye la losa de concreto."
+      "nota": "Pulido según técnica",
+      "min": 3000.0,
+      "max": 15000.0,
+      "calificador": "rango",
+      "unidad": "CRC/m²",
+      "certeza": "rango_literatura"
     },
     "mechanical_resistance": {
       "estado": "dato",
@@ -479,14 +483,18 @@
     },
     "water_absorption": {
       "estado": "dato",
-      "valor_texto_original": "≈ 3–8 sin sellar; baja con densificado y sellado",
       "fuentes": [
         {
           "ref": "R26"
         }
       ],
       "evidencia": "E4",
-      "nota": "Depende de la relación a/c y del sellado."
+      "nota": "≈ 3–8 % sin sellar; baja con densificado y sellado",
+      "min": 3.0,
+      "max": 8.0,
+      "calificador": "rango",
+      "unidad": "%",
+      "certeza": "rango_literatura"
     },
     "moisture_resistance": {
       "estado": "dato",
@@ -543,8 +551,19 @@
       "nota": "Requiere concreto de baja permeabilidad y recubrimiento adecuado."
     },
     "vapor_permeability": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "unidad": "adimensional",
+      "fuentes": [
+        {
+          "ref": "INT-CEC",
+          "loc": "§3.4.1"
+        }
+      ],
+      "evidencia": "E4",
+      "certeza": "rango_literatura",
+      "valor": 80,
+      "calificador": "=",
+      "nota": "Complemento de integración (nov. 2026), pendiente de validar por el autor. Valor de diseño genérico del material principal (fila «Hormigón en masa 2300 ≤ ρ ≤ 2600», §3.4.1), no del producto ni del sistema; referido a 10 °C y humedad de equilibrio a 23 °C y 50 % HR: no describe el desempeño en servicio en trópico húmedo."
     },
     "thermal_conductivity": {
       "estado": "dato",
@@ -560,8 +579,19 @@
       "evidencia": "E3"
     },
     "specific_heat": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "unidad": "J/(kg·K)",
+      "fuentes": [
+        {
+          "ref": "INT-CEC",
+          "loc": "§3.4.1"
+        }
+      ],
+      "evidencia": "E4",
+      "certeza": "rango_literatura",
+      "valor": 1000,
+      "calificador": "=",
+      "nota": "Complemento de integración (nov. 2026), pendiente de validar por el autor. Valor de diseño genérico del material principal (fila «Hormigón en masa 2300 ≤ ρ ≤ 2600», §3.4.1), no del producto ni del sistema; referido a 10 °C y humedad de equilibrio a 23 °C y 50 % HR: no describe el desempeño en servicio en trópico húmedo."
     },
     "thermal_resistance": {
       "estado": "dato",
@@ -873,14 +903,18 @@
     },
     "embodied_carbon": {
       "estado": "dato",
-      "valor_texto_original": "≈ 0,10–0,15 kgCO₂e/kg de concreto (≈ 25–35 kgCO₂e/m² para 100 mm)",
       "fuentes": [
         {
           "ref": "R16"
         }
       ],
       "evidencia": "E4",
-      "nota": "Orden de magnitud; el pulido añade poco."
+      "nota": "≈ 0,10–0,15 kgCO₂e/kg de concreto (≈ 25–35 kgCO₂e/m² para 100 mm)",
+      "min": 25.0,
+      "max": 35.0,
+      "calificador": "rango",
+      "unidad": "kgCO2e/m²",
+      "certeza": "estimado_analogia"
     },
     "embodied_carbon_modules": {
       "estado": "pendiente",
@@ -1051,13 +1085,18 @@
     },
     "installation_thickness": {
       "estado": "dato",
-      "valor_texto_original": "100–200 (losa) o 50–75 (carpeta)",
       "fuentes": [
         {
           "ref": "R23"
         }
       ],
-      "evidencia": "E4"
+      "evidencia": "E4",
+      "min": 50.0,
+      "max": 200.0,
+      "calificador": "rango",
+      "unidad": "mm",
+      "certeza": "rango_literatura",
+      "nota": "100–200 mm (losa) o 50–75 mm (carpeta)"
     },
     "joint_requirements": {
       "estado": "dato",
@@ -1163,6 +1202,13 @@
     {
       "id": "R30",
       "cita": "Estimación: planta de premezclado a obra en la GAM"
+    },
+    {
+      "id": "INT-CEC",
+      "tipo": "informe_institucional",
+      "fecha_consulta": "2026-11-16",
+      "url": "https://www.codigotecnico.org/Recursos/Aplicaciones/CatalogoElementosConstructivos.html",
+      "cita": "Instituto Eduardo Torroja de Ciencias de la Construcción, CEPCO y AICIA. (2010). Catálogo de Elementos Constructivos del CTE (versión 6.3, marzo de 2010), sección 3: Materiales y productos. Ministerio de Vivienda, España. Valores de diseño obtenidos según UNE-EN ISO 10456."
     }
   ]
 }

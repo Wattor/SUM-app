@@ -1,4 +1,11 @@
-"""Genera plantillas/Plantilla_Ficha_SUM_<COMP>.xlsx desde el diccionario (una por componente).
+"""Genera las plantillas de captura desde el diccionario, tres por componente:
+
+  plantillas/Plantilla_Ficha_SUM_<COMP>.xlsx    ficha completa (todos los campos del estándar)
+  plantillas/Plantilla_Rapida_SUM_<COMP>.xlsx   ficha rápida: solo los campos que la app usa para evaluar
+                                                (para transcribir una ficha técnica de fabricante)
+  plantillas/Plantilla_Ficha_SUM_<COMP>.json    ficha en blanco en formato JSON
+
+Las tres se suben a la app (pestaña Fichas) con los botones «Importar plantilla Excel llena» e «Importar ficha .json».
 
 Uso:  python scripts/generar_plantillas.py
 """
@@ -14,6 +21,18 @@ RAIZ = pathlib.Path(__file__).resolve().parent.parent
 DIC = list(csv.DictReader(open(RAIZ / "estandar" / "diccionario_campos.csv", encoding="utf-8")))
 LISTAS = json.load(open(RAIZ / "estandar" / "listas.json", encoding="utf-8"))
 OUT = RAIZ / "plantillas"
+CFG = json.load(open(RAIZ / "estandar" / "indicadores_app.json", encoding="utf-8"))
+BASE_RAPIDA = ["name", "description", "record_type", "main_material", "location", "layers"]
+
+
+def claves_rapida(comp):
+    """Mismos campos que el formulario «desde una ficha técnica» de la app."""
+    ks = set(BASE_RAPIDA)
+    for i in CFG["indicadores"] + [{"clave": a["campo"], "componentes": a.get("componentes")} for a in CFG["alertas"]]:
+        if not i.get("componentes") or comp in i["componentes"]:
+            ks.add(i["clave"])
+    ks |= {r["clave"] for r in DIC if r["seccion"] == "Específico"}
+    return ks
 
 COLS = ["Sección", "Clave", "Campo", "Tipo", "Obligatorio", "Estado", "Valor", "Mín", "Máx", "Calificador",
         "Unidad", "Fuentes (ID; ID)", "Localizador", "Evidencia", "Certeza", "Justificación (escalas)", "Nota"]
@@ -49,13 +68,16 @@ def hoja_listas(wb):
     return ws
 
 
-def generar(comp):
+def generar(comp, rapida=False):
     info = LISTAS["component"][comp]
     filas = [r for r in DIC if r["componentes"] == "TODOS" or comp in r["componentes"].split("|")]
+    if rapida:
+        ks = claves_rapida(comp)
+        filas = [r for r in filas if r["clave"] in ks]
     wb = Workbook()
     ws = wb.active
     ws.title = "Ficha"
-    ws["A1"] = f"FICHA SUM v1.0 · {info['nombre'].upper()}"
+    ws["A1"] = f"FICHA SUM v1.0 · {info['nombre'].upper()}" + (" · PLANTILLA RÁPIDA (desde una ficha técnica)" if rapida else "")
     ws["A1"].font = Font(bold=True, size=14, color=AZUL)
     ws["A2"], ws["C2"], ws["E2"], ws["G2"] = "Autor", "", "ID ficha", f"{comp}-XXX-01"
     ws["A3"] = ("Una plantilla = una ficha. Estado: dato / no_disponible / no_aplica / pendiente. "
@@ -142,20 +164,32 @@ def generar(comp):
         ("8. Certeza (calidad del número): verificado · rango_literatura · estimado_analogia. E1 nunca es 'verificado'.", False),
         ("9. Escalas 1–5: la Justificación es obligatoria (qué criterio sostiene el puntaje).", False),
         ("10. Valor de laboratorio ≠ desempeño en servicio en clima tropical húmedo: dejalo explícito en la Nota.", False),
-        ("11. Convertí a JSON con:  python scripts/importar_plantilla.py <archivo.xlsx>  y validá con  python scripts/validar.py", False),
+        ("11. Subila a la app: pestaña Fichas → «Importar plantilla Excel llena». Se evalúa de inmediato junto a las demás.", False),
+        ("12. Para el repositorio: python scripts/importar_plantilla.py <archivo.xlsx>  y validá con  python scripts/validar.py", False),
+        ("13. Si transcribís una ficha técnica de fabricante: registrala en Fuentes (p. ej. ID FT01, tipo ficha_tecnica), citá FT01 en cada dato y usá Evidencia E2.", False),
+        ("14. Solo se escribe lo que tiene respaldo. Lo que no tengás queda en 'pendiente' o 'no_disponible': no puntúa, pero tampoco inventa.", False),
     ]
     for i, (t, b) in enumerate(txt, start=1):
         wi.cell(i, 1, t).font = Font(bold=b, size=13 if b else 11, color=AZUL if b else "000000")
     wi.column_dimensions["A"].width = 130
     hoja_listas(wb)
     OUT.mkdir(exist_ok=True)
-    p = OUT / f"Plantilla_Ficha_SUM_{comp}.xlsx"
+    p = OUT / f"Plantilla_{'Rapida' if rapida else 'Ficha'}_SUM_{comp}.xlsx"
     wb.active = 1
     wb.save(p)
     return p, len(filas)
 
 
 if __name__ == "__main__":
+    import datetime
     for comp in LISTAS["component"]:
-        p, n = generar(comp)
-        print(f"{p.name}: {n} campos")
+        for rap in (False, True):
+            p, n = generar(comp, rap)
+            print(f"{p.name}: {n} campos")
+        campos = {r["clave"]: {"estado": "pendiente"} for r in DIC if r["componentes"] == "TODOS" or comp in r["componentes"].split("|")}
+        campos["id"] = {"estado": "dato", "valor": f"{comp}-XXX-01", "fuentes": [{"ref": "PROPIO"}], "evidencia": "E1"}
+        campos["component"] = {"estado": "dato", "valor": comp}
+        ficha = {"schema_version": "1.0", "meta": {"id": f"{comp}-XXX-01", "componente": comp, "autor": "", "estado_revision": "borrador", "fecha_actualizacion": datetime.date.today().isoformat()},
+                 "campos": campos, "fuentes": [{"id": "PROPIO", "cita": "Elaboración propia.", "tipo": "elaboracion_propia"}]}
+        json.dump(ficha, open(OUT / f"Plantilla_Ficha_SUM_{comp}.json", "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+        print(f"Plantilla_Ficha_SUM_{comp}.json: {len(campos)} campos")

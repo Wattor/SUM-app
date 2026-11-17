@@ -166,19 +166,29 @@
       "nota": "Pared 15 cm y longitud libre < 6 m: la diferencia de concreto entre zonas es +59,1 % (cálculo del autor)."
     },
     "density": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "unidad": "kg/m³",
+      "fuentes": [
+        {
+          "ref": "INT-CEC",
+          "loc": "§3.4.1"
+        }
+      ],
+      "evidencia": "E4",
+      "certeza": "rango_literatura",
+      "min": 2300,
+      "max": 2500,
+      "calificador": "rango",
+      "nota": "Complemento de integración (nov. 2026), pendiente de validar por el autor. Valor de diseño genérico del material principal (fila «Hormigón armado 2300 < ρ ≤ 2500», §3.4.1), no del producto ni del sistema; referido a 10 °C y humedad de equilibrio a 23 °C y 50 % HR: no describe el desempeño en servicio en trópico húmedo."
     },
     "surface_mass": {
-      "estado": "dato",
-      "valor_texto_original": "0,175 m³ (zona II-III) · 0,300 m³ (zona IV) de concreto por placa",
+      "estado": "no_disponible",
       "fuentes": [
         {
           "ref": "R08"
         }
       ],
-      "evidencia": "E3",
-      "nota": "CALCULADO. +71,4 % de concreto y excavación por cambio de zona, sin varillas adicionales."
+      "nota": "CALCULADO. +71,4 % de concreto y excavación por cambio de zona, sin varillas adicionales. El autor dio volumen de concreto por placa (m³), no masa superficial en kg/m². Texto original del autor: «0,175 m³ (zona II-III) · 0,300 m³ (zona IV) de concreto por placa»."
     },
     "surface_finish": {
       "estado": "no_aplica",
@@ -292,7 +302,8 @@
     "location": {
       "estado": "dato",
       "valor": "Exterior",
-      "nota": "Bajo nivel de terreno."
+      "nota": "Bajo nivel de terreno.",
+      "evidencia": "E1"
     },
     "climates": {
       "estado": "dato",
@@ -425,16 +436,38 @@
       "nota": "Sujeto al ensayo de agresividad química que la norma no exige (vacío declarado)."
     },
     "vapor_permeability": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "unidad": "adimensional",
+      "fuentes": [
+        {
+          "ref": "INT-CEC",
+          "loc": "§3.4.1"
+        }
+      ],
+      "evidencia": "E4",
+      "certeza": "rango_literatura",
+      "valor": 80,
+      "calificador": "=",
+      "nota": "Complemento de integración (nov. 2026), pendiente de validar por el autor. Valor de diseño genérico del material principal (fila «Hormigón armado 2300 < ρ ≤ 2500», §3.4.1), no del producto ni del sistema; referido a 10 °C y humedad de equilibrio a 23 °C y 50 % HR: no describe el desempeño en servicio en trópico húmedo."
     },
     "thermal_conductivity": {
       "estado": "no_aplica",
       "nota": "Elemento enterrado."
     },
     "specific_heat": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "unidad": "J/(kg·K)",
+      "fuentes": [
+        {
+          "ref": "INT-CEC",
+          "loc": "§3.4.1"
+        }
+      ],
+      "evidencia": "E4",
+      "certeza": "rango_literatura",
+      "valor": 1000,
+      "calificador": "=",
+      "nota": "Complemento de integración (nov. 2026), pendiente de validar por el autor. Valor de diseño genérico del material principal (fila «Hormigón armado 2300 < ρ ≤ 2500», §3.4.1), no del producto ni del sistema; referido a 10 °C y humedad de equilibrio a 23 °C y 50 % HR: no describe el desempeño en servicio en trópico húmedo."
     },
     "thermal_resistance": {
       "estado": "no_aplica",
@@ -676,7 +709,8 @@
       "estado": "dato",
       "valor": [
         "Render de placa aislada (presentación TP1) · PENDIENTE esquema comparativo zona II-III vs. IV a la misma escala"
-      ]
+      ],
+      "evidencia": "E1"
     },
     "depth_class": {
       "estado": "dato",
@@ -717,14 +751,18 @@
     },
     "angular_distortion": {
       "estado": "dato",
-      "valor_texto_original": "0,0025–0,004 l (marcos de concreto reforzado)",
       "fuentes": [
         {
           "ref": "CC",
           "loc": "Cuadro 3.5"
         }
       ],
-      "evidencia": "E3"
+      "evidencia": "E3",
+      "min": 0.0025,
+      "max": 0.004,
+      "unidad": "adimensional",
+      "calificador": "rango",
+      "nota": "Texto original del autor: «0,0025–0,004 l (marcos de concreto reforzado)»."
     },
     "expansive_soil": {
       "estado": "dato",
@@ -740,14 +778,15 @@
     },
     "collapsible_soil": {
       "estado": "dato",
-      "valor_texto_original": "No permitido, salvo estudio muy cuidadoso de asentamiento diferencial",
       "fuentes": [
         {
           "ref": "CC",
           "loc": "§4.4.2.d"
         }
       ],
-      "evidencia": "E3"
+      "evidencia": "E3",
+      "valor": "No admitido",
+      "nota": "Texto original del autor: «No permitido, salvo estudio muy cuidadoso de asentamiento diferencial»."
     },
     "liquefiable_soil": {
       "estado": "dato",
@@ -832,6 +871,13 @@
     {
       "id": "R08",
       "cita": "Cálculo del autor sobre CSCR tablas 17.5"
+    },
+    {
+      "id": "INT-CEC",
+      "tipo": "informe_institucional",
+      "fecha_consulta": "2026-11-16",
+      "url": "https://www.codigotecnico.org/Recursos/Aplicaciones/CatalogoElementosConstructivos.html",
+      "cita": "Instituto Eduardo Torroja de Ciencias de la Construcción, CEPCO y AICIA. (2010). Catálogo de Elementos Constructivos del CTE (versión 6.3, marzo de 2010), sección 3: Materiales y productos. Ministerio de Vivienda, España. Valores de diseño obtenidos según UNE-EN ISO 10456."
     }
   ]
 }

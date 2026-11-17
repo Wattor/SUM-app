@@ -264,7 +264,8 @@
     "location": {
       "estado": "dato",
       "valor": "Exterior",
-      "nota": "Bajo nivel de terreno."
+      "nota": "Bajo nivel de terreno.",
+      "evidencia": "E1"
     },
     "climates": {
       "estado": "dato",
@@ -666,7 +667,8 @@
       "estado": "dato",
       "valor": [
         "Fotografía de pilotes (presentación TP1) · PENDIENTE esquema de pilote, micropilote y viga separada del terreno"
-      ]
+      ],
+      "evidencia": "E1"
     },
     "depth_class": {
       "estado": "dato",
@@ -695,15 +697,14 @@
       "nota": "Gobierna la capacidad del pilote."
     },
     "angular_distortion": {
-      "estado": "dato",
-      "valor_texto_original": "Según la superestructura",
+      "estado": "no_disponible",
       "fuentes": [
         {
           "ref": "CC",
           "loc": "Cuadro 3.5"
         }
       ],
-      "evidencia": "E3"
+      "nota": "Depende de la superestructura. Texto original del autor: «Según la superestructura»."
     },
     "expansive_soil": {
       "estado": "dato",
@@ -731,7 +732,6 @@
     },
     "liquefiable_soil": {
       "estado": "dato",
-      "valor_texto_original": "Recomendado, con estabilidad garantizada por capas no licuables dentro del fuste",
       "fuentes": [
         {
           "ref": "CC",
@@ -739,7 +739,8 @@
         }
       ],
       "evidencia": "E3",
-      "nota": "Casos documentados: Limón 1991 y Cóbano 1990, en infraestructura, no en edificación (CC §8.1.7)."
+      "nota": "Casos documentados: Limón 1991 y Cóbano 1990, en infraestructura, no en edificación (CC §8.1.7). Texto original del autor: «Recomendado, con estabilidad garantizada por capas no licuables dentro del fuste».",
+      "valor": "Recomendado"
     },
     "min_exploration": {
       "estado": "dato",

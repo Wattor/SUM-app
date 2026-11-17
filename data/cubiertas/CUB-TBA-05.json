@@ -30,7 +30,8 @@
         {
           "ref": "PROPIO"
         }
-      ]
+      ],
+      "evidencia": "E1"
     },
     "record_type": {
       "estado": "dato",
@@ -213,8 +214,19 @@
       "nota": "Dimensión de Colono tomada del título del producto en buscador; ficha no verificada."
     },
     "density": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "unidad": "kg/m³",
+      "fuentes": [
+        {
+          "ref": "INT-CEC",
+          "loc": "§3.14"
+        }
+      ],
+      "evidencia": "E4",
+      "certeza": "rango_literatura",
+      "valor": 2000,
+      "calificador": "=",
+      "nota": "Complemento de integración (nov. 2026), pendiente de validar por el autor. Valor de diseño genérico del material principal (fila «Teja de arcilla cocida», §3.14), no del producto ni del sistema; referido a 10 °C y humedad de equilibrio a 23 °C y 50 % HR: no describe el desempeño en servicio en trópico húmedo."
     },
     "surface_mass": {
       "estado": "dato",
@@ -279,12 +291,26 @@
       "evidencia": "E2"
     },
     "installation_sequence": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Capas del sistema en el orden declarado: Estructura (cerchas/vigas de madera o acero) → Soporte continuo opcional (entablado, losa, fibrocemento o lámina metálica) → Membrana impermeable bajo teja → Rastreles/contraclavadores para cámara ventilada → Clavadores → Teja canal → Teja cobija → Piezas de cumbrera y remates. Sistema de soporte: Clavadores de madera tratada o perfiles metálicos galvanizados (tubo/RT) sobre cerchas o vigas; alternativamente losa o entablado con membrana y rastreles que generen cámara ventilada. Tipo de fijación: Clavo o tornillo galvanizado/inoxidable por la perforación de la pieza | Gancho o clip metálico | Alambre de cobre o galvanizado atado al clavador | Espuma/adhesivo de poliuretano (densidad ≥25 kg/m³) | Mortero (práctica tradicional en cumbreras y aleros). Juntas, sellos y accesorios: Solape canal-cobija | Cumbreras/caballetes fijados en seco o con mortero | Peineta o barrera antipájaros en alero | Remates laterales | Limahoyas con canal metálico o membrana | Tejas de ventilación.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (capas, soporte, fijación y juntas); pendiente de revisar y reescribir por el autor."
     },
     "tools_labor": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Especialización de mano de obra 4/5: Requiere oficio para replanteo de clavadores, alineación de hiladas, solapes, cortes y remates; la mano de obra tradicional existe en CR pero es cada vez más escasa. Complejidad de instalación 4/5: Colocación pieza a pieza, fijaciones múltiples, cumbreras, limatesas, limahoyas y ventilación; mayor que láminas. Tiempo relativo de instalación 4/5: Instalación manual pieza por pieza (del orden de decenas de piezas por m²), mucho más lenta que la lámina metálica.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (escalas de mano de obra e instalación); pendiente de revisar y reescribir por el autor."
     },
     "critical_point": {
       "estado": "pendiente",
@@ -583,22 +609,49 @@
       "nota": "La cerámica no se ve afectada por cloruros; usar fijaciones inoxidables o de cobre y clavadores protegidos."
     },
     "vapor_permeability": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
-    },
-    "thermal_conductivity": {
-      "estado": "no_disponible",
+      "estado": "dato",
+      "unidad": "adimensional",
       "fuentes": [
         {
-          "ref": "PROPIO"
+          "ref": "INT-CEC",
+          "loc": "§3.14"
         }
       ],
-      "evidencia": "E1",
-      "nota": "No se verificó un valor en fuente abierta. Los valores tabulados para cerámica densa (ISO 10456) rondan 1 W/m·K, sin confirmar aquí. Densidad ≈2000 kg/m³ (EPD)."
+      "evidencia": "E4",
+      "certeza": "rango_literatura",
+      "valor": 30,
+      "calificador": "=",
+      "nota": "Complemento de integración (nov. 2026), pendiente de validar por el autor. Valor de diseño genérico del material principal (fila «Teja de arcilla cocida», §3.14), no del producto ni del sistema; referido a 10 °C y humedad de equilibrio a 23 °C y 50 % HR: no describe el desempeño en servicio en trópico húmedo."
+    },
+    "thermal_conductivity": {
+      "estado": "dato",
+      "unidad": "W/(m·K)",
+      "fuentes": [
+        {
+          "ref": "INT-CEC",
+          "loc": "§3.14"
+        }
+      ],
+      "evidencia": "E4",
+      "certeza": "rango_literatura",
+      "valor": 1.0,
+      "calificador": "=",
+      "nota": "Complemento de integración (nov. 2026), pendiente de validar por el autor. Valor de diseño genérico del material principal (fila «Teja de arcilla cocida», §3.14), no del producto ni del sistema; referido a 10 °C y humedad de equilibrio a 23 °C y 50 % HR: no describe el desempeño en servicio en trópico húmedo. Nota previa del autor: «No se verificó un valor en fuente abierta. Los valores tabulados para cerámica densa (ISO 10456) rondan 1 W/m·K, sin confirmar aquí. Densidad ≈2000 kg/m³ (EPD).»."
     },
     "specific_heat": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "unidad": "J/(kg·K)",
+      "fuentes": [
+        {
+          "ref": "INT-CEC",
+          "loc": "§3.14"
+        }
+      ],
+      "evidencia": "E4",
+      "certeza": "rango_literatura",
+      "valor": 800,
+      "calificador": "=",
+      "nota": "Complemento de integración (nov. 2026), pendiente de validar por el autor. Valor de diseño genérico del material principal (fila «Teja de arcilla cocida», §3.14), no del producto ni del sistema; referido a 10 °C y humedad de equilibrio a 23 °C y 50 % HR: no describe el desempeño en servicio en trópico húmedo."
     },
     "thermal_resistance": {
       "estado": "no_disponible",
@@ -856,13 +909,14 @@
     },
     "origin": {
       "estado": "dato",
-      "valor_texto_original": "Nacional | Importado",
       "fuentes": [
         {
           "ref": "R55"
         }
       ],
-      "evidencia": "E2"
+      "evidencia": "E2",
+      "valor": "Mixto",
+      "nota": "Texto original del autor: «Nacional | Importado»."
     },
     "transport_distance": {
       "estado": "no_disponible",
@@ -984,8 +1038,15 @@
       "nota": "Escenario EPD: 75 % reutilización, 25 % vertedero."
     },
     "cr_region": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Condiciones climáticas declaradas en la ficha: Cálido húmedo | Cálido seco | Templado de altura (Valle Central) | Lluvioso con pendiente adecuada. Disponibilidad nacional 3/5.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (condiciones climáticas y disponibilidad nacional); pendiente de revisar y reescribir por el autor."
     },
     "seismic_condition": {
       "estado": "pendiente",
@@ -1000,16 +1061,37 @@
       "nota": "Campo nuevo del estándar v1.0: completar."
     },
     "plan_requirements": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Datos de la ficha que deben quedar indicados en planos y especificaciones: espesor total 15 mm; pendiente mínima 26 %; tipo de fijación: Clavo o tornillo galvanizado/inoxidable por la perforación de la pieza | Gancho o clip metálico | Alambre de cobre o galvanizado atado al clavador | Espuma/adhesivo de poliuretano (densidad ≥25 kg/m³) | Mortero (práctica tradicional en cumbreras y aleros); juntas, sellos y accesorios: Solape canal-cobija | Cumbreras/caballetes fijados en seco o con mortero | Peineta o barrera antipájaros en alero | Remates laterales | Limahoyas con canal metálico o membrana | Tejas de ventilación; sistema de traslape: Hiladas alternas de canal y cobija (teja árabe); solape longitudinal de 70–150 mm según pendiente y zona (a menor pendiente, mayor solape); la cobija cubre los bordes de dos canales contiguas.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (espesores, fijaciones, juntas y campos específicos); pendiente de revisar y reescribir por el autor."
     },
     "advantages": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Fortalezas según los datos de la ficha: resistencia a humedad 4/5; resistencia a corrosión 5/5; resistencia a radiación uv 5/5; facilidad de reparación 4/5; facilidad de sustitución 4/5; riesgo de condensación 2/5 (bajo); aptitud para ambiente marino: Sí; reutilizable: Sí.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (escalas 1–5 y campos Sí/No); pendiente de revisar y reescribir por el autor."
     },
     "limitations": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Debilidades según los datos de la ficha: especialización de mano de obra 4/5 (alto); complejidad de instalación 4/5 (alto); tiempo relativo de instalación 4/5 (alto); material renovable: No; transitabilidad: No. Principales fallas (patologías): Teja rota o fisurada; Desplazamiento o deslizamiento de piezas; Filtraciones en solapes, limahoyas y cumbreras; Musgo, algas y líquenes; Desprendimiento de cumbreras con mortero; Pudrición de clavadores de madera; Caída de tejas en sismo o viento.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (escalas 1–5, restricciones de uso y fallas frecuentes); pendiente de revisar y reescribir por el autor."
     },
     "graphics": {
       "estado": "pendiente",
@@ -1238,6 +1320,18 @@
       "id": "R69",
       "cita": "Construction Specifier, Building on solar reflectance: clay and concrete tile - https://www.constructionspecifier.com/building-on-solar-reflectance-meeting-cool-roof-standards-with-concrete-and-clay-tile/",
       "url": "https://www.constructionspecifier.com/building-on-solar-reflectance-meeting-cool-roof-standards-with-concrete-and-clay-tile/"
+    },
+    {
+      "id": "INT-CEC",
+      "tipo": "informe_institucional",
+      "fecha_consulta": "2026-11-16",
+      "url": "https://www.codigotecnico.org/Recursos/Aplicaciones/CatalogoElementosConstructivos.html",
+      "cita": "Instituto Eduardo Torroja de Ciencias de la Construcción, CEPCO y AICIA. (2010). Catálogo de Elementos Constructivos del CTE (versión 6.3, marzo de 2010), sección 3: Materiales y productos. Ministerio de Vivienda, España. Valores de diseño obtenidos según UNE-EN ISO 10456."
+    },
+    {
+      "id": "INT-SIN",
+      "tipo": "elaboracion_propia",
+      "cita": "Síntesis de integración (noviembre de 2026): texto armado automáticamente a partir de otros campos de la misma ficha. No es fuente externa."
     }
   ]
 }

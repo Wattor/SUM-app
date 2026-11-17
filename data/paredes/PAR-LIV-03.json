@@ -243,12 +243,26 @@
       "evidencia": "E2"
     },
     "installation_sequence": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Capas del sistema en el orden declarado: Pintura exterior → fibrocemento → barrera de agua/aire → perfiles y cavidad (aislante opcional) → gypsum interior → pintura interior. Sistema de soporte: Canales y postes galvanizados anclados a estructura principal. Tipo de fijación: Tornillos especificados para placa y perfil; anclajes mecánicos de canales a soporte. Juntas, sellos y accesorios: Juntas de placa, esquinas, cantos, vanos y penetraciones con tratamiento y sello compatibles.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (capas, soporte, fijación y juntas); pendiente de revisar y reescribir por el autor."
     },
     "tools_labor": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Especialización de mano de obra 4/5: Cuadrilla especializada en perfiles, placas, tratamiento de juntas y sellos. Complejidad de instalación 3/5: Precisa secuencia de bastidor, barrera, placas, instalaciones y juntas. Tiempo relativo de instalación 2/5: Montaje seco relativamente rápido; curado de juntas y pintura añade tiempo.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (escalas de mano de obra e instalación); pendiente de revisar y reescribir por el autor."
     },
     "critical_point": {
       "estado": "pendiente",
@@ -762,14 +776,14 @@
     },
     "origin": {
       "estado": "dato",
-      "valor_texto_original": "Nacional y componentes importados",
       "fuentes": [
         {
           "ref": "L1"
         }
       ],
       "evidencia": "E2",
-      "nota": "Confirmar origen de perfiles, gypsum y aislante por proveedor."
+      "nota": "Confirmar origen de perfiles, gypsum y aislante por proveedor. Texto original del autor: «Nacional y componentes importados».",
+      "valor": "Mixto"
     },
     "transport_distance": {
       "estado": "no_disponible",
@@ -874,17 +888,28 @@
     },
     "end_of_life": {
       "estado": "dato",
-      "valor_texto_original": "Reciclaje parcial; vertedero según separación y gestor",
       "fuentes": [
         {
           "ref": "L1"
         }
       ],
-      "evidencia": "E1"
+      "evidencia": "E1",
+      "valor": [
+        "Reciclaje",
+        "Vertedero"
+      ],
+      "nota": "Texto original del autor: «Reciclaje parcial; vertedero según separación y gestor»."
     },
     "cr_region": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Condiciones climáticas declaradas en la ficha: Tropical húmedo o seco con barrera continua, drenaje de vanos y protección de base. Disponibilidad nacional 4/5.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (condiciones climáticas y disponibilidad nacional); pendiente de revisar y reescribir por el autor."
     },
     "seismic_condition": {
       "estado": "pendiente",
@@ -899,16 +924,37 @@
       "nota": "Campo nuevo del estándar v1.0: completar."
     },
     "plan_requirements": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Datos de la ficha que deben quedar indicados en planos y especificaciones: tipo de fijación: Tornillos especificados para placa y perfil; anclajes mecánicos de canales a soporte; juntas, sellos y accesorios: Juntas de placa, esquinas, cantos, vanos y penetraciones con tratamiento y sello compatibles; barrera de humedad: Barrera de agua/aire continua, vierteaguas, sellos y separación de placa respecto al suelo; fijación a estructura: Canales anclados a losas, vigas o columnas; refuerzos en vanos y cargas suspendidas.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (espesores, fijaciones, juntas y campos específicos); pendiente de revisar y reescribir por el autor."
     },
     "advantages": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Fortalezas según los datos de la ficha: facilidad de limpieza 4/5; facilidad de reparación 4/5; facilidad de sustitución 4/5; disponibilidad nacional 4/5; tiempo relativo de instalación 2/5 (bajo); residuos de instalación 2/5 (bajo).",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (escalas 1–5 y campos Sí/No); pendiente de revisar y reescribir por el autor."
     },
     "limitations": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Debilidades según los datos de la ficha: especialización de mano de obra 4/5 (alto); material renovable: No. Restricciones de uso: La placa de fibrocemento no sustituye la barrera de agua. No cargar elementos pesados sin refuerzos; no exponer gypsum ordinario a lluvia. Principales fallas (patologías): Fisuras en juntas; tornillos arrancados; filtración en vanos o base; moho del yeso; corrosión oculta.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (escalas 1–5, restricciones de uso y fallas frecuentes); pendiente de revisar y reescribir por el autor."
     },
     "graphics": {
       "estado": "pendiente",
@@ -1039,6 +1085,11 @@
     {
       "id": "S0",
       "cita": "Definición del estudio y plantilla del curso."
+    },
+    {
+      "id": "INT-SIN",
+      "tipo": "elaboracion_propia",
+      "cita": "Síntesis de integración (noviembre de 2026): texto armado automáticamente a partir de otros campos de la misma ficha. No es fuente externa."
     }
   ]
 }

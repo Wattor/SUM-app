@@ -1,0 +1,296 @@
+{
+ "_nota": "Umbrales y reglas de la Matriz de Clima de Sitio v1.0 (oct. 2026). PROPUESTA METODOLÓGICA calibrable por el docente; no es normativa.",
+ "exigencias": [
+  {
+   "codigo": "E_CAL",
+   "nombre": "Calor",
+   "dato": "T máx media (°C)",
+   "exige": "Carga térmica, dilatación, degradación de polímeros y selladores"
+  },
+  {
+   "codigo": "E_FRIO",
+   "nombre": "Frío",
+   "dato": "T mín media (°C)",
+   "exige": "Condensación superficial, confort en altura, desempeño aislante"
+  },
+  {
+   "codigo": "E_LLUV",
+   "nombre": "Lluvia",
+   "dato": "Precipitación anual (mm)",
+   "exige": "Escorrentía, lluvia con viento, absorción capilar"
+  },
+  {
+   "codigo": "E_PERS",
+   "nombre": "Persistencia de humedad",
+   "dato": "Días con lluvia",
+   "exige": "Tiempo de humectación: hongos, pudrición, corrosión, eflorescencias"
+  },
+  {
+   "codigo": "E_SECA",
+   "nombre": "Estacionalidad seca",
+   "dato": "Meses secos",
+   "exige": "Radiación UV sostenida, fisuración por secado, polvo"
+  },
+  {
+   "codigo": "E_AMPL",
+   "nombre": "Amplitud térmica",
+   "dato": "T máx − T mín (°C)",
+   "exige": "Ciclos de dilatación–contracción, fatiga de juntas"
+  },
+  {
+   "codigo": "E_SAL",
+   "nombre": "Ambiente salino",
+   "dato": "Distancia a la costa o Costera S/N",
+   "exige": "Cloruros: corrosión de acero y armaduras (ISO 9223)"
+  },
+  {
+   "codigo": "E_SIS",
+   "nombre": "Sismicidad",
+   "dato": "Zona sísmica CSCR-2010",
+   "exige": "Demanda sísmica sobre sistema estructural y uniones"
+  },
+  {
+   "codigo": "E_VIE",
+   "nombre": "Viento",
+   "dato": "Zona de viento CFIA",
+   "exige": "Presión y succión en cubiertas y cerramientos, lluvia impulsada"
+  }
+ ],
+ "umbrales": {
+  "E_CAL": {
+   "variable": "Tmáx (°C)",
+   "n1": 27,
+   "n2": 30,
+   "n3": 32,
+   "sentido": "≥"
+  },
+  "E_FRIO": {
+   "variable": "Tmín (°C)",
+   "n1": 18,
+   "n2": 15,
+   "n3": 12,
+   "sentido": "≤"
+  },
+  "E_LLUV": {
+   "variable": "Precipitación anual (mm)",
+   "n1": 2000,
+   "n2": 3000,
+   "n3": 4000,
+   "sentido": "≥"
+  },
+  "E_PERS": {
+   "variable": "Días con lluvia al año",
+   "n1": 120,
+   "n2": 160,
+   "n3": 200,
+   "sentido": "≥"
+  },
+  "E_SECA": {
+   "variable": "Meses secos",
+   "n1": 2,
+   "n2": 3,
+   "n3": 5,
+   "sentido": "≥"
+  },
+  "E_AMPL": {
+   "variable": "Tmáx − Tmín (°C)",
+   "n1": 8,
+   "n2": 10,
+   "n3": 12,
+   "sentido": "≥"
+  }
+ },
+ "salinidad_km": {
+  "n3": 1,
+  "n2": 3,
+  "n1": 10
+ },
+ "ajuste_sombra_alta": -1,
+ "ajuste_sombra_baja": 0,
+ "ajuste_viento_protegido": -1,
+ "ajuste_viento_expuesto": 1,
+ "gradiente_termico_C_por_km": 6.5,
+ "viento_cfia": {
+  "I": 1,
+  "II": 1,
+  "III": 2,
+  "IV": 2,
+  "V": 3
+ },
+ "sismica_cscr": {
+  "II": 1,
+  "III": 2,
+  "IV": 3
+ },
+ "umbral_alerta_critica": 0.2,
+ "mes_seco_mm": 75,
+ "dia_lluvia_mm": 1.0,
+ "dimensiones": [
+  {
+   "id": "termico",
+   "nombre": "Térmico",
+   "cod": "TER",
+   "peso_base": 1
+  },
+  {
+   "id": "higrotermico",
+   "nombre": "Higrotérmico",
+   "cod": "HIG",
+   "peso_base": 1
+  },
+  {
+   "id": "mecanico",
+   "nombre": "Mecánico-estructural",
+   "cod": "MEC",
+   "peso_base": 1
+  },
+  {
+   "id": "durabilidad",
+   "nombre": "Durabilidad y mantenimiento",
+   "cod": "DUR",
+   "peso_base": 1
+  },
+  {
+   "id": "ambiental",
+   "nombre": "Ambiental / ACV",
+   "cod": "AMB",
+   "peso_base": 1
+  },
+  {
+   "id": "constructibilidad",
+   "nombre": "Constructibilidad",
+   "cod": "CON",
+   "peso_base": 1
+  }
+ ],
+ "sensibilidad": {
+  "E_CAL": {
+   "valores": [
+    2,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   "porque": "Carga térmica sobre la envolvente; envejecimiento de polímeros"
+  },
+  "E_FRIO": {
+   "valores": [
+    2,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "porque": "Aislamiento y riesgo de condensación superficial"
+  },
+  "E_LLUV": {
+   "valores": [
+    0,
+    2,
+    0,
+    1,
+    0,
+    1
+   ],
+   "porque": "Absorción capilar, estanqueidad, obra bajo lluvia"
+  },
+  "E_PERS": {
+   "valores": [
+    0,
+    2,
+    0,
+    2,
+    0,
+    0
+   ],
+   "porque": "Humectación prolongada: biodeterioro y corrosión"
+  },
+  "E_SECA": {
+   "valores": [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   "porque": "Radiación sostenida, UV y fisuración por secado"
+  },
+  "E_AMPL": {
+   "valores": [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   "porque": "Ciclos térmicos: dilatación, juntas, fatiga"
+  },
+  "E_SAL": {
+   "valores": [
+    0,
+    0,
+    1,
+    2,
+    0,
+    0
+   ],
+   "porque": "Corrosión de metales y armaduras por cloruros"
+  },
+  "E_SIS": {
+   "valores": [
+    0,
+    0,
+    2,
+    0,
+    0,
+    1
+   ],
+   "porque": "Demanda sísmica: masa, ductilidad, uniones"
+  },
+  "E_VIE": {
+   "valores": [
+    0,
+    1,
+    2,
+    0,
+    0,
+    1
+   ],
+   "porque": "Succión y presión; lluvia impulsada; fijaciones"
+  }
+ },
+ "pendientes_docente": [
+  "PARAM sección C: verificar la equivalencia zona de viento CFIA → nivel 0–3 (Figura 3-1 de los Lineamientos).",
+  "PARAM sección B: calibrar los cortes de salinidad por distancia y los ajustes de microclima.",
+  "PESOS: calibrar la sensibilidad exigencia × dimensión con el grupo.",
+  "ZONAS: los datos de subregión son preliminares, igual que en la BD."
+ ],
+ "fuentes": [
+  {
+   "id": "IMN",
+   "cita": "Solano, J. y Villalobos, R. (1996). Regiones y subregiones climáticas de Costa Rica. Instituto Meteorológico Nacional. https://www.imn.ac.cr/documents/10179/20909/Regionalizaci%C3%B3n+clim%C3%A1tica+de+Costa+Rica"
+  },
+  {
+   "id": "CSCR",
+   "cita": "CFIA (2011). Código Sísmico de Costa Rica 2010, Tabla 2.1. https://www.codigosismico.or.cr/descargas/CSCR2010.pdf"
+  },
+  {
+   "id": "Viento",
+   "cita": "CFIA (2023). Lineamientos para el diseño por viento de edificaciones en Costa Rica. Alcance N.º 48, La Gaceta N.º 52, 21/03/2023."
+  },
+  {
+   "id": "Atmósfera",
+   "cita": "ISO 2533:1975. Standard Atmosphere (gradiente 6,5 K/km en la troposfera)."
+  },
+  {
+   "id": "Corrosión",
+   "cita": "ISO 9223:2012. Corrosion of metals and alloys — Corrosivity of atmospheres (referencia conceptual para E_SAL)."
+  }
+ ],
+ "min_dimensiones": 3
+}

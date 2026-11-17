@@ -1,0 +1,255 @@
+{
+  "schema": "sum.sitio/1.0",
+  "sitio": {
+    "id": "vc3_ebais_tierra_blanca",
+    "nombre": "EBAIS Tierra Blanca",
+    "ubicacion": "Cartago, Cartago, distrito Tierra Blanca (entrada por Ruta 401)",
+    "lat": 9.9307,
+    "lon": -83.8894,
+    "id_zona": "VC3",
+    "subregion": "Faldas Cordillera Volcánica Central (>1500 msnm)",
+    "region": "Valle Central",
+    "elaborado_por": "Alejandro Sáenz Castro",
+    "fecha": "2026-11-03"
+  },
+  "clima": {
+    "precipitacion_anual": {
+      "valor": 1450,
+      "unidad": "mm",
+      "origen": "Estación o sitio",
+      "ajustado_por_altitud": false,
+      "valor_subregion": 2820,
+      "fuente": "IMN (2009), Mapas de precipitación media anual: el mínimo de lluvia del país «1400-1500 mm» incluye «Cartago-Tierra Blanca» en el Valle Central Oriental. Coincide con Linda Vista, El Guarco (IMN, 1400 msnm, 1951-2017): 1480,4 mm. Se toma 1450 mm.",
+      "certeza": "[rango de literatura]"
+    },
+    "t_max_media": {
+      "valor": 19.3,
+      "unidad": "°C",
+      "origen": "Estación ajustada por altitud",
+      "ajustado_por_altitud": true,
+      "valor_subregion": 21,
+      "fuente": "IMN, estación Finca #3 (Llano Grande), 2220 msnm, ~2 km al E del sitio: promedio de las máximas mensuales publicadas en los Boletines Meteorológicos Mensuales (feb, mar, may, jul, set, nov, dic; 2007-2023). La hoja corrige a 2080 msnm (+0,9 °C).",
+      "certeza": "[estimado por analogía]"
+    },
+    "t_min_media": {
+      "valor": 10.9,
+      "unidad": "°C",
+      "origen": "Estación ajustada por altitud",
+      "ajustado_por_altitud": true,
+      "valor_subregion": 10,
+      "fuente": "IMN, Finca #3 (Llano Grande), 2220 msnm: promedio de las mínimas mensuales publicadas en los Boletines Mensuales (mismos meses, 2007-2023). Corregida por altitud en la hoja.",
+      "certeza": "[estimado por analogía]"
+    },
+    "t_media": {
+      "valor": 15.1,
+      "unidad": "°C",
+      "origen": "Estación ajustada por altitud",
+      "ajustado_por_altitud": true,
+      "valor_subregion": 15,
+      "fuente": "IMN, Finca #3 (Llano Grande), 2220 msnm: (Tmáx + Tmín)/2 de los Boletines Mensuales. Contraste: Potrero Cerrado (1950 msnm), mayo 2023, Tmed 17,2 °C (Llano Grande, mismo mes: 16,3 °C).",
+      "certeza": "[estimado por analogía]"
+    },
+    "dias_con_lluvia": {
+      "valor": 134,
+      "unidad": "días",
+      "origen": "Estación o sitio",
+      "ajustado_por_altitud": false,
+      "valor_subregion": 147,
+      "fuente": "IMN, Descripción del clima del cantón El Guarco, estación Linda Vista (1400 msnm, 1951-2017), Cuadro 6: suma de los días con lluvia ≥ 1 mm mensuales = 134 (el texto del documento dice 128). Mismo dato que usa el EPW.",
+      "certeza": "[estimado por analogía]"
+    },
+    "meses_secos": {
+      "valor": 5,
+      "unidad": "meses",
+      "origen": "Estación o sitio",
+      "ajustado_por_altitud": false,
+      "valor_subregion": 0,
+      "fuente": "Linda Vista (IMN, 1951-2017), Cuadro 1: dic, ene, feb, mar y abr bajo 75 mm (58,1 / 32,7 / 19,7 / 16,0 / 45,3 mm), criterio de mes seco del IMN (<75 mm). El régimen Pacífico del sitio no coincide con VC3 (0 meses secos).",
+      "certeza": "[estimado por analogía]"
+    },
+    "zona_sismica_cscr": {
+      "valor": "III",
+      "unidad": "II/III/IV",
+      "origen": "Estación o sitio",
+      "ajustado_por_altitud": false,
+      "valor_subregion": "III",
+      "fuente": "CSCR-2010 (rev. 2014), Tabla 2.1, fila «1. Cartago · Todos · III»",
+      "certeza": "[verificado]"
+    },
+    "hr_media_anual": {
+      "valor": 84.8,
+      "unidad": "%",
+      "origen": "Estación o sitio",
+      "ajustado_por_altitud": false,
+      "valor_subregion": null,
+      "fuente": "TierraBlanca_Cartago_CRI_sintetico.epw (EPW sintético, 2026-11-03): media de las 8760 h. HR construida con el perfil mensual de Linda Vista (IMN, Fig. 14) + 3 puntos por altitud y nubosidad del sitio.",
+      "certeza": "[estimado por analogía]"
+    },
+    "radiacion_global": {
+      "valor": 3.9,
+      "unidad": "kWh/m²·día",
+      "origen": "Estación o sitio",
+      "ajustado_por_altitud": false,
+      "valor_subregion": null,
+      "fuente": "TierraBlanca_Cartago_CRI_sintetico.epw: GHI media 3,95 kWh/m²·día, calibrada con la radiación global medida en la estación ITCR, Cartago (1360 msnm, 1997-2017; IMN, Descripción del clima El Guarco, Fig. 12): 14,2 MJ/m²·día. IMN (1987) da 18 MJ para San José e Irazú (dato antiguo, por insolación).",
+      "certeza": "[estimado por analogía]"
+    }
+  },
+  "microclima": {
+    "altitud_sitio_msnm": 2080,
+    "altitud_estacion_msnm": 2220,
+    "distancia_costa_km": 63,
+    "zona_viento_cfia": "III",
+    "exposicion_viento": "Expuesto",
+    "sombra_envolvente": "Baja",
+    "orientacion_fachada": null,
+    "fuentes": {
+      "Altitud del sitio": {
+        "fuente": "Elevación del distrito Tierra Blanca (División Territorial Administrativa, citada en Wikipedia). Pendiente: cota del lote en SNIT o hoja IGN 1:50 000.",
+        "certeza": "[rango de literatura]"
+      },
+      "Altitud de la estación IMN de referencia": {
+        "fuente": "Altitud de la estación IMN Finca #3 (Llano Grande), según los Boletines Meteorológicos Mensuales del IMN.",
+        "certeza": "[verificado]"
+      },
+      "Distancia a la línea de costa": {
+        "fuente": "Distancia en línea recta desde las coordenadas del distrito a la costa más cercana (Pacífico, Quepos). El Caribe (Limón) queda a ~94 km.",
+        "certeza": "[estimado por analogía]"
+      },
+      "Zona de viento CFIA (Lineamientos 2023)": {
+        "fuente": "CFIA (2023), Lineamientos para el diseño por viento, Tabla 3-1: «Cartago · Cartago · Todos · III»",
+        "certeza": "[verificado]"
+      },
+      "Exposición al viento": {
+        "fuente": "Lote en ladera abierta de las faldas del Irazú, con vista panorámica y entorno agrícola sin barreras. Confirmar en sitio.",
+        "certeza": null
+      },
+      "Sombra sobre la envolvente": {
+        "fuente": "Entorno de cultivos (papa y hortalizas) con poca arborización: sombra baja sobre la envolvente. Depende del proyecto.",
+        "certeza": null
+      },
+      "Orientación de la fachada principal": {
+        "fuente": "Se define con la implantación del EBAIS: dejar vacía hasta tener la planta de conjunto.",
+        "certeza": null
+      }
+    }
+  },
+  "exigencias": {
+    "E_CAL": {
+      "nombre": "Calor",
+      "dato": 19.3,
+      "nivel_clima": 0,
+      "ajuste_microclima": 0,
+      "nivel": 0
+    },
+    "E_FRIO": {
+      "nombre": "Frío",
+      "dato": 10.9,
+      "nivel_clima": 3,
+      "ajuste_microclima": 0,
+      "nivel": 3
+    },
+    "E_LLUV": {
+      "nombre": "Lluvia",
+      "dato": 1450,
+      "nivel_clima": 0,
+      "ajuste_microclima": 0,
+      "nivel": 0
+    },
+    "E_PERS": {
+      "nombre": "Persistencia de humedad",
+      "dato": 134,
+      "nivel_clima": 1,
+      "ajuste_microclima": 0,
+      "nivel": 1
+    },
+    "E_SECA": {
+      "nombre": "Estacionalidad seca",
+      "dato": 5,
+      "nivel_clima": 3,
+      "ajuste_microclima": 0,
+      "nivel": 3
+    },
+    "E_AMPL": {
+      "nombre": "Amplitud térmica",
+      "dato": 8.4,
+      "nivel_clima": 1,
+      "ajuste_microclima": 0,
+      "nivel": 1
+    },
+    "E_SAL": {
+      "nombre": "Ambiente salino",
+      "dato": "63 km",
+      "nivel_clima": 0,
+      "ajuste_microclima": 0,
+      "nivel": 0
+    },
+    "E_SIS": {
+      "nombre": "Sismicidad",
+      "dato": "III",
+      "nivel_clima": 2,
+      "ajuste_microclima": 0,
+      "nivel": 2
+    },
+    "E_VIE": {
+      "nombre": "Viento",
+      "dato": "Zona III",
+      "nivel_clima": 2,
+      "ajuste_microclima": 1,
+      "nivel": 3
+    }
+  },
+  "exigencia_total": 13,
+  "exigencias_dominantes": [
+    "E_FRIO",
+    "E_SECA",
+    "E_VIE"
+  ],
+  "datos_pendientes": 0,
+  "pesos_dimension": {
+    "termico": {
+      "nombre": "Térmico",
+      "peso_base": 1,
+      "factor_climatico": 1.5556,
+      "peso": 0.1848,
+      "prioridad": 2
+    },
+    "higrotermico": {
+      "nombre": "Higrotérmico",
+      "peso_base": 1,
+      "factor_climatico": 1.4444,
+      "peso": 0.1716,
+      "prioridad": 4
+    },
+    "mecanico": {
+      "nombre": "Mecánico-estructural",
+      "peso_base": 1,
+      "factor_climatico": 1.6111,
+      "peso": 0.1914,
+      "prioridad": 1
+    },
+    "durabilidad": {
+      "nombre": "Durabilidad y mantenimiento",
+      "peso_base": 1,
+      "factor_climatico": 1.25,
+      "peso": 0.1485,
+      "prioridad": 5
+    },
+    "ambiental": {
+      "nombre": "Ambiental / ACV",
+      "peso_base": 1,
+      "factor_climatico": 1,
+      "peso": 0.1188,
+      "prioridad": 6
+    },
+    "constructibilidad": {
+      "nombre": "Constructibilidad",
+      "peso_base": 1,
+      "factor_climatico": 1.5556,
+      "peso": 0.1848,
+      "prioridad": 2
+    }
+  },
+  "regla_puntaje": "puntaje_sitio = sum(puntaje_dimension_0a3 * peso) / 3",
+  "origen_archivo": "Matriz_Clima_Sitio_EBAIS_Tierra_Blanca.xlsx"
+}

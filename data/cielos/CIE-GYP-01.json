@@ -156,8 +156,20 @@
       "nota": "Verificar disponibilidad local. Espesor: 1/2 pulgada."
     },
     "density": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "unidad": "kg/m³",
+      "fuentes": [
+        {
+          "ref": "INT-CEC",
+          "loc": "§3.6.2"
+        }
+      ],
+      "evidencia": "E4",
+      "certeza": "rango_literatura",
+      "min": 750,
+      "max": 900,
+      "calificador": "rango",
+      "nota": "Complemento de integración (nov. 2026), pendiente de validar por el autor. Valor de diseño genérico del material principal (fila «Placa de yeso laminado (PYL)», §3.6.2), no del producto ni del sistema; referido a 10 °C y humedad de equilibrio a 23 °C y 50 % HR: no describe el desempeño en servicio en trópico húmedo."
     },
     "surface_mass": {
       "estado": "no_disponible",
@@ -211,8 +223,15 @@
       "evidencia": "E2"
     },
     "installation_sequence": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Capas del sistema en el orden declarado: Desde el recinto: acabado, papel frontal, núcleo de yeso, papel posterior y bastidores. Sistema de soporte: Bastidores. Se documenta fijación a madera y canales resilientes RC-1. Tipo de fijación: Sobre madera: tornillo tipo W de 1-1/4 pulgada cada 305 mm máximo en cielos. Juntas, sellos y accesorios: Bordes largos rebajados, cinta de papel y compuesto para juntas SHEETROCK.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (capas, soporte, fijación y juntas); pendiente de revisar y reescribir por el autor."
     },
     "tools_labor": {
       "estado": "pendiente",
@@ -368,16 +387,49 @@
       "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
     },
     "vapor_permeability": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "unidad": "adimensional",
+      "fuentes": [
+        {
+          "ref": "INT-CEC",
+          "loc": "§3.6.2"
+        }
+      ],
+      "evidencia": "E4",
+      "certeza": "rango_literatura",
+      "valor": 4,
+      "calificador": "=",
+      "nota": "Complemento de integración (nov. 2026), pendiente de validar por el autor. Valor de diseño genérico del material principal (fila «Placa de yeso laminado (PYL)», §3.6.2), no del producto ni del sistema; referido a 10 °C y humedad de equilibrio a 23 °C y 50 % HR: no describe el desempeño en servicio en trópico húmedo."
     },
     "thermal_conductivity": {
-      "estado": "no_disponible",
-      "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
+      "estado": "dato",
+      "unidad": "W/(m·K)",
+      "fuentes": [
+        {
+          "ref": "INT-CEC",
+          "loc": "§3.6.2"
+        }
+      ],
+      "evidencia": "E4",
+      "certeza": "rango_literatura",
+      "valor": 0.25,
+      "calificador": "=",
+      "nota": "Complemento de integración (nov. 2026), pendiente de validar por el autor. Valor de diseño genérico del material principal (fila «Placa de yeso laminado (PYL)», §3.6.2), no del producto ni del sistema; referido a 10 °C y humedad de equilibrio a 23 °C y 50 % HR: no describe el desempeño en servicio en trópico húmedo. Nota previa del autor: «No declarado para esta solución en las fuentes técnicas del ZIP.»."
     },
     "specific_heat": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "unidad": "J/(kg·K)",
+      "fuentes": [
+        {
+          "ref": "INT-CEC",
+          "loc": "§3.6.2"
+        }
+      ],
+      "evidencia": "E4",
+      "certeza": "rango_literatura",
+      "valor": 1000,
+      "calificador": "=",
+      "nota": "Complemento de integración (nov. 2026), pendiente de validar por el autor. Valor de diseño genérico del material principal (fila «Placa de yeso laminado (PYL)», §3.6.2), no del producto ni del sistema; referido a 10 °C y humedad de equilibrio a 23 °C y 50 % HR: no describe el desempeño en servicio en trópico húmedo."
     },
     "thermal_resistance": {
       "estado": "dato",
@@ -576,8 +628,15 @@
       "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
     },
     "cr_region": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Condiciones climáticas declaradas en la ficha: Ambiente protegido de humedad continua, repetitiva o excesiva.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (condiciones climáticas y disponibilidad nacional); pendiente de revisar y reescribir por el autor."
     },
     "seismic_condition": {
       "estado": "pendiente",
@@ -592,16 +651,30 @@
       "nota": "Campo nuevo del estándar v1.0: completar."
     },
     "plan_requirements": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Datos de la ficha que deben quedar indicados en planos y especificaciones: tipo de fijación: Sobre madera: tornillo tipo W de 1-1/4 pulgada cada 305 mm máximo en cielos; juntas, sellos y accesorios: Bordes largos rebajados, cinta de papel y compuesto para juntas SHEETROCK; tipo de suspensión: Fijación sobre bastidores.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (espesores, fijaciones, juntas y campos específicos); pendiente de revisar y reescribir por el autor."
     },
     "advantages": {
       "estado": "pendiente",
       "nota": "Campo nuevo del estándar v1.0: completar."
     },
     "limitations": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Debilidades según los datos de la ficha: uso en zonas húmedas o clínicas: No. Restricciones de uso: No portante. Evitar humedad excesiva y exposición prolongada a más de 52 °C. Principales fallas (patologías): Riesgo de pandeo por almacenamiento sin apoyos suficientes.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (escalas 1–5, restricciones de uso y fallas frecuentes); pendiente de revisar y reescribir por el autor."
     },
     "graphics": {
       "estado": "pendiente",
@@ -658,14 +731,14 @@
     },
     "wet_area_use": {
       "estado": "dato",
-      "valor_texto_original": "No para exposición continua o excesiva a humedad.",
       "fuentes": [
         {
           "ref": "R04"
         }
       ],
       "evidencia": "E2",
-      "nota": "No declara aptitud clínica específica."
+      "nota": "No declara aptitud clínica específica. Texto original del autor: «No para exposición continua o excesiva a humedad.».",
+      "valor": "No"
     }
   },
   "fuentes": [
@@ -697,6 +770,18 @@
     {
       "id": "R06",
       "cita": "USG, ficha SHEETROCK UltraLight, p.2–3"
+    },
+    {
+      "id": "INT-CEC",
+      "tipo": "informe_institucional",
+      "fecha_consulta": "2026-11-16",
+      "url": "https://www.codigotecnico.org/Recursos/Aplicaciones/CatalogoElementosConstructivos.html",
+      "cita": "Instituto Eduardo Torroja de Ciencias de la Construcción, CEPCO y AICIA. (2010). Catálogo de Elementos Constructivos del CTE (versión 6.3, marzo de 2010), sección 3: Materiales y productos. Ministerio de Vivienda, España. Valores de diseño obtenidos según UNE-EN ISO 10456."
+    },
+    {
+      "id": "INT-SIN",
+      "tipo": "elaboracion_propia",
+      "cita": "Síntesis de integración (noviembre de 2026): texto armado automáticamente a partir de otros campos de la misma ficha. No es fuente externa."
     }
   ]
 }

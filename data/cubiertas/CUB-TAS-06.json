@@ -30,7 +30,8 @@
         {
           "ref": "PROPIO"
         }
-      ]
+      ],
+      "evidencia": "E1"
     },
     "record_type": {
       "estado": "dato",
@@ -238,8 +239,19 @@
       "evidencia": "E5"
     },
     "density": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "unidad": "kg/m³",
+      "fuentes": [
+        {
+          "ref": "INT-CEC",
+          "loc": "§3.12"
+        }
+      ],
+      "evidencia": "E4",
+      "certeza": "estimado_analogia",
+      "valor": 1100,
+      "calificador": "=",
+      "nota": "Complemento de integración (nov. 2026), pendiente de validar por el autor. Analogía: lámina bituminosa del catálogo frente a la teja asfáltica con velo de fibra de vidrio. Valor de diseño genérico del material principal (fila «Betún fieltro o lámina», §3.12), no del producto ni del sistema; referido a 10 °C y humedad de equilibrio a 23 °C y 50 % HR: no describe el desempeño en servicio en trópico húmedo."
     },
     "surface_mass": {
       "estado": "dato",
@@ -320,12 +332,26 @@
       "evidencia": "E5"
     },
     "installation_sequence": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Capas del sistema en el orden declarado: Estructura (cerchas/clavadores de madera o perfiles metálicos) → Entablado OSB ≥11,1 mm o plywood ≥9,5 mm → Goterón metálico en alero → Membrana autoadherible en aleros, limahoyas y penetraciones → Fieltro/subcapa sintética en toda la superficie → Hilada de arranque → Tejas laminadas clavadas → Cumbrera con teja de cumbrera y ventilación. Sistema de soporte: Entablado continuo y sólido (plywood ≥9,5 mm u OSB ≥11,1 mm, APA) con separación 3–6 mm entre tableros, sobre cerchas o clavadores de madera o perfiles metálicos. Tipo de fijación: Clavado: 4 clavos por teja (6 en zonas de viento alto o pendientes >21:12, más cemento asfáltico); clavos galvanizados, inoxidables o de aluminio, vástago ≥12 ga (2,7 mm), cabeza ≥9,5 mm, penetración ≥19 mm en el entablado o 6 mm a través (ASTM F1667); más autosellado por banda adhesiva. Juntas, sellos y accesorios: Traslape escalonado de hiladas con bandas de sellante autoadherente activadas por calor; hilada de arranque en aleros; tejas de cumbrera; limahoyas abiertas metálicas o cerradas/tejidas con membrana; tapajuntas escalonados en muros; botaguas y goterón metálico; cemento asfáltico en puntos singulares.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (capas, soporte, fijación y juntas); pendiente de revisar y reescribir por el autor."
     },
     "tools_labor": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Especialización de mano de obra 3/5: Técnica de clavado sencilla, pero las garantías exigen instaladores capacitados y precisión en la línea de clavado, limahoyas, tapajuntas y ventilación; en CR la instalan contratistas especializados. Complejidad de instalación 3/5: Muchos pasos (entablado, subcapa, membrana, arranque, hiladas, cumbrera, tapajuntas) aunque con herramientas simples; se adapta bien a geometrías complejas. Tiempo relativo de instalación 3/5: Más lento que lámina metálica por la colocación del entablado, subcapa y piezas pequeñas; más rápido que teja de barro o concreto.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (escalas de mano de obra e instalación); pendiente de revisar y reescribir por el autor."
     },
     "critical_point": {
       "estado": "pendiente",
@@ -651,22 +677,49 @@
       "nota": "La teja no se corroe, pero en la costa conviene usar clavos de acero inoxidable y tapajuntas de aluminio o inoxidable, especificar gránulos antialgas y verificar la clasificación de viento. Las fichas consultadas no traen exclusiones costeras."
     },
     "vapor_permeability": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
-    },
-    "thermal_conductivity": {
-      "estado": "no_disponible",
+      "estado": "dato",
+      "unidad": "adimensional",
       "fuentes": [
         {
-          "ref": "PROPIO"
+          "ref": "INT-CEC",
+          "loc": "§3.12"
         }
       ],
-      "evidencia": "E1",
-      "nota": "No se encontró λ publicado; ver resistencia térmica."
+      "evidencia": "E4",
+      "certeza": "estimado_analogia",
+      "valor": 50000,
+      "calificador": "=",
+      "nota": "Complemento de integración (nov. 2026), pendiente de validar por el autor. Analogía: lámina bituminosa del catálogo frente a la teja asfáltica con velo de fibra de vidrio. Valor de diseño genérico del material principal (fila «Betún fieltro o lámina», §3.12), no del producto ni del sistema; referido a 10 °C y humedad de equilibrio a 23 °C y 50 % HR: no describe el desempeño en servicio en trópico húmedo."
+    },
+    "thermal_conductivity": {
+      "estado": "dato",
+      "unidad": "W/(m·K)",
+      "fuentes": [
+        {
+          "ref": "INT-CEC",
+          "loc": "§3.12"
+        }
+      ],
+      "evidencia": "E4",
+      "certeza": "estimado_analogia",
+      "valor": 0.23,
+      "calificador": "=",
+      "nota": "Complemento de integración (nov. 2026), pendiente de validar por el autor. Analogía: lámina bituminosa del catálogo frente a la teja asfáltica con velo de fibra de vidrio. Valor de diseño genérico del material principal (fila «Betún fieltro o lámina», §3.12), no del producto ni del sistema; referido a 10 °C y humedad de equilibrio a 23 °C y 50 % HR: no describe el desempeño en servicio en trópico húmedo. Nota previa del autor: «No se encontró λ publicado; ver resistencia térmica.»."
     },
     "specific_heat": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "unidad": "J/(kg·K)",
+      "fuentes": [
+        {
+          "ref": "INT-CEC",
+          "loc": "§3.12"
+        }
+      ],
+      "evidencia": "E4",
+      "certeza": "estimado_analogia",
+      "valor": 1000,
+      "calificador": "=",
+      "nota": "Complemento de integración (nov. 2026), pendiente de validar por el autor. Analogía: lámina bituminosa del catálogo frente a la teja asfáltica con velo de fibra de vidrio. Valor de diseño genérico del material principal (fila «Betún fieltro o lámina», §3.12), no del producto ni del sistema; referido a 10 °C y humedad de equilibrio a 23 °C y 50 % HR: no describe el desempeño en servicio en trópico húmedo."
     },
     "thermal_resistance": {
       "estado": "dato",
@@ -1091,8 +1144,15 @@
       "nota": "La EPD asume 100 % a vertedero; el reciclaje en pavimentos existe en EE.UU., pero no se verificó en CR."
     },
     "cr_region": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Condiciones climáticas declaradas en la ficha: Tropical húmedo lluvioso (con antialgas y ventilación) | Tropical seco | Zonas de montaña/frías | Zonas de viento alto (con clasificación D7158 Clase H/D3161 Clase F y 6 clavos) | Costero (condicionado). Disponibilidad nacional 3/5.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (condiciones climáticas y disponibilidad nacional); pendiente de revisar y reescribir por el autor."
     },
     "seismic_condition": {
       "estado": "pendiente",
@@ -1103,20 +1163,48 @@
       "nota": "Campo nuevo del estándar v1.0: completar."
     },
     "cr_standard": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Normativa y lineamientos costarricenses citados en la bibliografía de la ficha: CFIA, Lineamientos para el diseño por viento de edificaciones en Costa Rica (2023) - [R85].",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (bibliografía de la ficha); pendiente de revisar y reescribir por el autor."
     },
     "plan_requirements": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Datos de la ficha que deben quedar indicados en planos y especificaciones: pendiente mínima 17 %; tipo de fijación: Clavado: 4 clavos por teja (6 en zonas de viento alto o pendientes >21:12, más cemento asfáltico); clavos galvanizados, inoxidables o de aluminio, vástago ≥12 ga (2,7 mm), cabeza ≥9,5 mm, penetración ≥19 mm en el entablado o 6 mm a través (ASTM F1667); más autosellado por banda adhesiva; juntas, sellos y accesorios: Traslape escalonado de hiladas con bandas de sellante autoadherente activadas por calor; hilada de arranque en aleros; tejas de cumbrera; limahoyas abiertas metálicas o cerradas/tejidas con membrana; tapajuntas escalonados en muros; botaguas y goterón metálico; cemento asfáltico en puntos singulares; sistema de traslape: Hiladas horizontales traslapadas con exposición de 143–149 mm y desfase de juntas de ≈25 cm (10\") entre hiladas, selladas por bandas adhesivas activadas por calor; subcapa traslapada en sentido del agua (≥5 cm en fieltro; mitad del ancho + 5 cm en doble capa).",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (espesores, fijaciones, juntas y campos específicos); pendiente de revisar y reescribir por el autor."
     },
     "advantages": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Fortalezas según los datos de la ficha: resistencia a humedad 4/5; resistencia a corrosión 5/5; resistencia a radiación uv 4/5; facilidad de reparación 4/5; facilidad de sustitución 4/5.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (escalas 1–5 y campos Sí/No); pendiente de revisar y reescribir por el autor."
     },
     "limitations": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Debilidades según los datos de la ficha: material renovable: No; reutilizable: No. Principales fallas (patologías): Desprendimiento/voladura de tejas por viento; Falla del sello adhesivo; Pérdida de gránulos; Ampollas; Ondulación (curling); Microfisuras; Manchas de algas y musgo; Filtraciones en tapajuntas, limahoyas y penetraciones; Clavos levantados; Pudrición/deformación del entablado OSB.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (escalas 1–5, restricciones de uso y fallas frecuentes); pendiente de revisar y reescribir por el autor."
     },
     "graphics": {
       "estado": "pendiente",
@@ -1402,6 +1490,18 @@
       "id": "R92",
       "cita": "ARMA, Asphalt Shingle Recycling - https://www.asphaltroofing.org/asphalt-shingle-recycling/",
       "url": "https://www.asphaltroofing.org/asphalt-shingle-recycling/"
+    },
+    {
+      "id": "INT-CEC",
+      "tipo": "informe_institucional",
+      "fecha_consulta": "2026-11-16",
+      "url": "https://www.codigotecnico.org/Recursos/Aplicaciones/CatalogoElementosConstructivos.html",
+      "cita": "Instituto Eduardo Torroja de Ciencias de la Construcción, CEPCO y AICIA. (2010). Catálogo de Elementos Constructivos del CTE (versión 6.3, marzo de 2010), sección 3: Materiales y productos. Ministerio de Vivienda, España. Valores de diseño obtenidos según UNE-EN ISO 10456."
+    },
+    {
+      "id": "INT-SIN",
+      "tipo": "elaboracion_propia",
+      "cita": "Síntesis de integración (noviembre de 2026): texto armado automáticamente a partir de otros campos de la misma ficha. No es fuente externa."
     }
   ]
 }

@@ -1,0 +1,327 @@
+{
+  "schema_version": "1.0",
+  "meta": {
+    "id": "CIE-XXX-01",
+    "componente": "CIE",
+    "autor": "",
+    "estado_revision": "borrador",
+    "fecha_actualizacion": "2026-11-16"
+  },
+  "campos": {
+    "id": {
+      "estado": "dato",
+      "valor": "CIE-XXX-01",
+      "fuentes": [
+        {
+          "ref": "PROPIO"
+        }
+      ],
+      "evidencia": "E1"
+    },
+    "name": {
+      "estado": "pendiente"
+    },
+    "record_type": {
+      "estado": "pendiente"
+    },
+    "component": {
+      "estado": "dato",
+      "valor": "CIE"
+    },
+    "subcategory": {
+      "estado": "pendiente"
+    },
+    "country": {
+      "estado": "pendiente"
+    },
+    "manufacturer": {
+      "estado": "pendiente"
+    },
+    "supplier": {
+      "estado": "pendiente"
+    },
+    "description": {
+      "estado": "pendiente"
+    },
+    "keywords": {
+      "estado": "pendiente"
+    },
+    "main_material": {
+      "estado": "pendiente"
+    },
+    "secondary_materials": {
+      "estado": "pendiente"
+    },
+    "layers": {
+      "estado": "pendiente"
+    },
+    "total_thickness": {
+      "estado": "pendiente"
+    },
+    "commercial_dimensions": {
+      "estado": "pendiente"
+    },
+    "density": {
+      "estado": "pendiente"
+    },
+    "surface_mass": {
+      "estado": "pendiente"
+    },
+    "surface_finish": {
+      "estado": "pendiente"
+    },
+    "support_system": {
+      "estado": "pendiente"
+    },
+    "fastening": {
+      "estado": "pendiente"
+    },
+    "joints_seals": {
+      "estado": "pendiente"
+    },
+    "installation_sequence": {
+      "estado": "pendiente"
+    },
+    "tools_labor": {
+      "estado": "pendiente"
+    },
+    "critical_point": {
+      "estado": "pendiente"
+    },
+    "recommended_uses": {
+      "estado": "pendiente"
+    },
+    "building_types": {
+      "estado": "pendiente"
+    },
+    "location": {
+      "estado": "pendiente"
+    },
+    "climates": {
+      "estado": "pendiente"
+    },
+    "imn_subregions": {
+      "estado": "pendiente"
+    },
+    "compatibility": {
+      "estado": "pendiente"
+    },
+    "use_restrictions": {
+      "estado": "pendiente"
+    },
+    "labor_specialization": {
+      "estado": "pendiente"
+    },
+    "installation_complexity": {
+      "estado": "pendiente"
+    },
+    "national_availability": {
+      "estado": "pendiente"
+    },
+    "installation_time": {
+      "estado": "pendiente"
+    },
+    "relative_cost": {
+      "estado": "pendiente"
+    },
+    "price_range": {
+      "estado": "pendiente"
+    },
+    "mechanical_resistance": {
+      "estado": "pendiente"
+    },
+    "impact_resistance": {
+      "estado": "pendiente"
+    },
+    "abrasion_resistance": {
+      "estado": "pendiente"
+    },
+    "durability_years": {
+      "estado": "pendiente"
+    },
+    "water_absorption": {
+      "estado": "pendiente"
+    },
+    "moisture_resistance": {
+      "estado": "pendiente"
+    },
+    "condensation_risk": {
+      "estado": "pendiente"
+    },
+    "corrosion_resistance": {
+      "estado": "pendiente"
+    },
+    "uv_resistance": {
+      "estado": "pendiente"
+    },
+    "marine_environment": {
+      "estado": "pendiente"
+    },
+    "vapor_permeability": {
+      "estado": "pendiente"
+    },
+    "thermal_conductivity": {
+      "estado": "pendiente"
+    },
+    "specific_heat": {
+      "estado": "pendiente"
+    },
+    "thermal_resistance": {
+      "estado": "pendiente"
+    },
+    "u_value": {
+      "estado": "pendiente"
+    },
+    "solar_reflectance": {
+      "estado": "pendiente"
+    },
+    "thermal_emittance": {
+      "estado": "pendiente"
+    },
+    "sri": {
+      "estado": "pendiente"
+    },
+    "sound_insulation": {
+      "estado": "pendiente"
+    },
+    "sound_absorption": {
+      "estado": "pendiente"
+    },
+    "fire_reaction": {
+      "estado": "pendiente"
+    },
+    "fire_resistance": {
+      "estado": "pendiente"
+    },
+    "smoke_class": {
+      "estado": "pendiente"
+    },
+    "voc_emissions": {
+      "estado": "pendiente"
+    },
+    "hazardous_substances": {
+      "estado": "pendiente"
+    },
+    "cleanability": {
+      "estado": "pendiente"
+    },
+    "accessibility": {
+      "estado": "pendiente"
+    },
+    "healthcare_use": {
+      "estado": "pendiente"
+    },
+    "maintenance_frequency": {
+      "estado": "pendiente"
+    },
+    "maintenance_actions": {
+      "estado": "pendiente"
+    },
+    "repairability": {
+      "estado": "pendiente"
+    },
+    "replaceability": {
+      "estado": "pendiente"
+    },
+    "common_failures": {
+      "estado": "pendiente"
+    },
+    "failure_causes": {
+      "estado": "pendiente"
+    },
+    "corrective_action": {
+      "estado": "pendiente"
+    },
+    "origin": {
+      "estado": "pendiente"
+    },
+    "transport_distance": {
+      "estado": "pendiente"
+    },
+    "recycled_content": {
+      "estado": "pendiente"
+    },
+    "renewable": {
+      "estado": "pendiente"
+    },
+    "reusable": {
+      "estado": "pendiente"
+    },
+    "recyclable": {
+      "estado": "pendiente"
+    },
+    "installation_waste": {
+      "estado": "pendiente"
+    },
+    "epd_available": {
+      "estado": "pendiente"
+    },
+    "embodied_carbon": {
+      "estado": "pendiente"
+    },
+    "embodied_carbon_modules": {
+      "estado": "pendiente"
+    },
+    "environmental_certification": {
+      "estado": "pendiente"
+    },
+    "end_of_life": {
+      "estado": "pendiente"
+    },
+    "cr_region": {
+      "estado": "pendiente"
+    },
+    "seismic_condition": {
+      "estado": "pendiente"
+    },
+    "tradition_type": {
+      "estado": "pendiente"
+    },
+    "cr_standard": {
+      "estado": "pendiente"
+    },
+    "plan_requirements": {
+      "estado": "pendiente"
+    },
+    "advantages": {
+      "estado": "pendiente"
+    },
+    "limitations": {
+      "estado": "pendiente"
+    },
+    "graphics": {
+      "estado": "pendiente"
+    },
+    "modulation": {
+      "estado": "pendiente"
+    },
+    "suspension_type": {
+      "estado": "pendiente"
+    },
+    "minimum_plenum": {
+      "estado": "pendiente"
+    },
+    "accessibility_above": {
+      "estado": "pendiente"
+    },
+    "cac": {
+      "estado": "pendiente"
+    },
+    "sag_resistance": {
+      "estado": "pendiente"
+    },
+    "services_integration": {
+      "estado": "pendiente"
+    },
+    "wet_area_use": {
+      "estado": "pendiente"
+    }
+  },
+  "fuentes": [
+    {
+      "id": "PROPIO",
+      "cita": "Elaboración propia.",
+      "tipo": "elaboracion_propia"
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "schema": "sum.sitio/1.0",
+  "sitio": {
+    "id": "pn2_la_cruz_centro",
+    "nombre": "La Cruz centro",
+    "ubicacion": "Guanacaste, La Cruz, distrito La Cruz",
+    "lat": 11.072,
+    "lon": -85.635,
+    "id_zona": "PN2",
+    "subregion": "Central del Pacífico Norte",
+    "region": "Pacífico Norte",
+    "elaborado_por": "Juan Vicente Sandoval Hidalgo",
+    "fecha": "2026-11-02"
+  },
+  "clima": {
+    "precipitacion_anual": {
+      "valor": 2016.5,
+      "unidad": "mm",
+      "origen": "Estación o sitio",
+      "ajustado_por_altitud": false,
+      "valor_subregion": 1800,
+      "fuente": "MINAE-DCC (2023), Plan de Acción para la Adaptación Climática, Cantón de La Cruz, §4.1.1, p. 34: precipitación media registrada en La Cruz 2.016,5 mm/año (datos IMN; estación de referencia más cercana: Peñas Blancas). Valor cantonal: el plan da 1.526 mm en Santa Elena y 3.235 mm en Santa Cecilia.",
+      "certeza": "[estimado por analogía]"
+    },
+    "t_max_media": {
+      "valor": 29.6,
+      "unidad": "°C",
+      "origen": "Estación o sitio",
+      "ajustado_por_altitud": false,
+      "valor_subregion": 33,
+      "fuente": "MINAE-DCC (2023), Plan cantonal La Cruz, §4.1.1, p. 35 y Fig. 8: «Tª máxima media de 29,6 ºC en La Cruz» (mapa de isotermas IMN). Sin corrección por altitud: no se copió una estación, D29 vacía. Contraste: el EPW Meteonorm del parque da 32,1 °C (+2,5 °C).",
+      "certeza": "[estimado por analogía]"
+    },
+    "t_min_media": {
+      "valor": 21.7,
+      "unidad": "°C",
+      "origen": "Estación o sitio",
+      "ajustado_por_altitud": false,
+      "valor_subregion": 22,
+      "fuente": "MINAE-DCC (2023), Plan cantonal La Cruz, §4.1.1, p. 35 y Fig. 9: «La Tª mínima media en La Cruz es de 21,7 ºC». Contraste: EPW Meteonorm 24,9 °C.",
+      "certeza": "[estimado por analogía]"
+    },
+    "t_media": {
+      "valor": 25.7,
+      "unidad": "°C",
+      "origen": "Estación o sitio",
+      "ajustado_por_altitud": false,
+      "valor_subregion": 28,
+      "fuente": "Media aritmética de D17 y D18 [(29,6 + 21,7) / 2 = 25,65]; el plan cantonal no publica la T media. La subregión PN2 (28 °C) representa la llanura baja del Tempisque, más cálida.",
+      "certeza": "[estimado por analogía]"
+    },
+    "dias_con_lluvia": {
+      "valor": 97,
+      "unidad": "días",
+      "origen": "Subregión",
+      "ajustado_por_altitud": false,
+      "valor_subregion": 97,
+      "fuente": "Sin dato verificado de estación: se hereda PN2 (97 días). El plan cantonal no reporta días con lluvia.",
+      "certeza": null
+    },
+    "meses_secos": {
+      "valor": 5,
+      "unidad": "meses",
+      "origen": "Subregión",
+      "ajustado_por_altitud": false,
+      "valor_subregion": 5,
+      "fuente": "Se hereda PN2 (5 meses). Respaldo: el plan cantonal (IMN 2021) da época seca dic–mar y lluviosa may–oct (abril y noviembre de transición); el EPW del parque suma solo 42 mm de dic a abr.",
+      "certeza": null
+    },
+    "zona_sismica_cscr": {
+      "valor": "III",
+      "unidad": "II/III/IV",
+      "origen": "Estación o sitio",
+      "ajustado_por_altitud": false,
+      "valor_subregion": "IV",
+      "fuente": "CSCR-2010 (rev. 2014), Tabla 2.1, Guanacaste, cantón La Cruz: «La Cruz · III» (Santa Cecilia y Garita = II; Santa Elena = III)",
+      "certeza": "[verificado]"
+    },
+    "hr_media_anual": {
+      "valor": 68,
+      "unidad": "%",
+      "origen": "Estación o sitio",
+      "ajustado_por_altitud": false,
+      "valor_subregion": null,
+      "fuente": "EPW Meteonorm 8.0.2, parque de La Cruz (año típico sintético): HR media 59 % (dic–abr), 73 % (may–ago), 78 % (set–nov); promedio ponderado por meses ≈ 68 %. No es dato medido del IMN.",
+      "certeza": "[estimado por analogía]"
+    },
+    "radiacion_global": {
+      "valor": 5.6,
+      "unidad": "kWh/m²·día",
+      "origen": "Estación o sitio",
+      "ajustado_por_altitud": false,
+      "valor_subregion": null,
+      "fuente": "EPW Meteonorm 8.0.2, parque de La Cruz: 2.028 kWh/m²·año sobre plano horizontal ÷ 365 = 5,6 kWh/m²·día (5,9 en dic–abr; 5,2 en set–nov). Año típico sintético, no medición IMN.",
+      "certeza": "[estimado por analogía]"
+    }
+  },
+  "microclima": {
+    "altitud_sitio_msnm": 255,
+    "altitud_estacion_msnm": null,
+    "distancia_costa_km": 3.7,
+    "zona_viento_cfia": "V",
+    "exposicion_viento": "Expuesto",
+    "sombra_envolvente": "Media",
+    "orientacion_fachada": null,
+    "fuentes": {
+      "Altitud del sitio": {
+        "fuente": "Elevación de la cabecera del distrito La Cruz (Ley de División Territorial, SCIJ 2019, vía Wikipedia). El encabezado del EPW del parque da 232 m. En un proyecto real: cota del lote en hoja IGN 1:50 000 o SNIT.",
+        "certeza": "[rango de literatura]"
+      },
+      "Altitud de la estación IMN de referencia": {
+        "fuente": "Vacía a propósito: las temperaturas de D17–D19 salen de mapas de isotermas del plan cantonal, no de una estación con altitud conocida; no se aplica corrección.",
+        "certeza": null
+      },
+      "Distancia a la línea de costa": {
+        "fuente": "Medida en línea recta del parque central (11,072 N; −85,635 O) a la costa de Bahía Salinas (≈ 11,066 N; −85,668 O) sobre máscara tierra/mar global de 1 km (GLOBE/NOAA): 3,7 km ± 0,5 km. Verificar en SNIT: queda cerca del corte de 3 km (nivel 2).",
+        "certeza": "[rango de literatura]"
+      },
+      "Zona de viento CFIA (Lineamientos 2023)": {
+        "fuente": "CFIA (2023), Lineamientos de viento, Tabla 3-1: «Guanacaste · La Cruz · La Cruz · V» (Santa Cecilia = I; La Garita y Santa Elena = V)",
+        "certeza": "[verificado]"
+      },
+      "Exposición al viento": {
+        "fuente": "Cabecera en borde de meseta, abierta a los alisios del E–ENE que entran por el istmo hacia el Lago de Nicaragua; el IMN reportó ráfagas de 98,6–114 km/h en la estación La Cruz (2023–2025).",
+        "certeza": null
+      },
+      "Sombra sobre la envolvente": {
+        "fuente": "Supuesto didáctico: centro urbano con arborización parcial; depende del lote y del proyecto.",
+        "certeza": null
+      },
+      "Orientación de la fachada principal": {
+        "fuente": "Se define con el proyecto: dejar vacío hasta tener implantación (recomendación climática: eje largo E–O).",
+        "certeza": null
+      }
+    }
+  },
+  "exigencias": {
+    "E_CAL": {
+      "nombre": "Calor",
+      "dato": 29.6,
+      "nivel_clima": 1,
+      "ajuste_microclima": 0,
+      "nivel": 1
+    },
+    "E_FRIO": {
+      "nombre": "Frío",
+      "dato": 21.7,
+      "nivel_clima": 0,
+      "ajuste_microclima": 0,
+      "nivel": 0
+    },
+    "E_LLUV": {
+      "nombre": "Lluvia",
+      "dato": 2016.5,
+      "nivel_clima": 1,
+      "ajuste_microclima": 0,
+      "nivel": 1
+    },
+    "E_PERS": {
+      "nombre": "Persistencia de humedad",
+      "dato": 97,
+      "nivel_clima": 0,
+      "ajuste_microclima": 0,
+      "nivel": 0
+    },
+    "E_SECA": {
+      "nombre": "Estacionalidad seca",
+      "dato": 5,
+      "nivel_clima": 3,
+      "ajuste_microclima": 0,
+      "nivel": 3
+    },
+    "E_AMPL": {
+      "nombre": "Amplitud térmica",
+      "dato": 7.9,
+      "nivel_clima": 0,
+      "ajuste_microclima": 0,
+      "nivel": 0
+    },
+    "E_SAL": {
+      "nombre": "Ambiente salino",
+      "dato": "3.7 km",
+      "nivel_clima": 1,
+      "ajuste_microclima": 0,
+      "nivel": 1
+    },
+    "E_SIS": {
+      "nombre": "Sismicidad",
+      "dato": "III",
+      "nivel_clima": 2,
+      "ajuste_microclima": 0,
+      "nivel": 2
+    },
+    "E_VIE": {
+      "nombre": "Viento",
+      "dato": "Zona V",
+      "nivel_clima": 3,
+      "ajuste_microclima": 1,
+      "nivel": 3
+    }
+  },
+  "exigencia_total": 11,
+  "exigencias_dominantes": [
+    "E_SECA",
+    "E_VIE"
+  ],
+  "datos_pendientes": 0,
+  "pesos_dimension": {
+    "termico": {
+      "nombre": "Térmico",
+      "peso_base": 1,
+      "factor_climatico": 1.2778,
+      "peso": 0.1573,
+      "prioridad": 4
+    },
+    "higrotermico": {
+      "nombre": "Higrotérmico",
+      "peso_base": 1,
+      "factor_climatico": 1.2778,
+      "peso": 0.1573,
+      "prioridad": 4
+    },
+    "mecanico": {
+      "nombre": "Mecánico-estructural",
+      "peso_base": 1,
+      "factor_climatico": 1.6111,
+      "peso": 0.1983,
+      "prioridad": 2
+    },
+    "durabilidad": {
+      "nombre": "Durabilidad y mantenimiento",
+      "peso_base": 1,
+      "factor_climatico": 1.2917,
+      "peso": 0.159,
+      "prioridad": 3
+    },
+    "ambiental": {
+      "nombre": "Ambiental / ACV",
+      "peso_base": 1,
+      "factor_climatico": 1,
+      "peso": 0.1231,
+      "prioridad": 6
+    },
+    "constructibilidad": {
+      "nombre": "Constructibilidad",
+      "peso_base": 1,
+      "factor_climatico": 1.6667,
+      "peso": 0.2051,
+      "prioridad": 1
+    }
+  },
+  "regla_puntaje": "puntaje_sitio = sum(puntaje_dimension_0a3 * peso) / 3",
+  "origen_archivo": "Matriz_Clima_Sitio_La_Cruz_1.xlsx"
+}

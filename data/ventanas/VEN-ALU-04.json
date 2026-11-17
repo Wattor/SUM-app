@@ -196,8 +196,19 @@
       "evidencia": "E2"
     },
     "density": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "unidad": "kg/m³",
+      "fuentes": [
+        {
+          "ref": "INT-CEC",
+          "loc": "§3.2"
+        }
+      ],
+      "evidencia": "E4",
+      "certeza": "rango_literatura",
+      "valor": 2800,
+      "calificador": "=",
+      "nota": "Complemento de integración (nov. 2026), pendiente de validar por el autor. Valor de diseño genérico del material principal (fila «Aluminio, aleaciones de», §3.2), no del producto ni del sistema; referido a 10 °C y humedad de equilibrio a 23 °C y 50 % HR: no describe el desempeño en servicio en trópico húmedo."
     },
     "surface_mass": {
       "estado": "dato",
@@ -260,12 +271,26 @@
       "evidencia": "E5"
     },
     "installation_sequence": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Capas del sistema en el orden declarado: 1) Contramarco 54,5 mm (fijo al buque) → 2) Marco de apertura interna 75 mm → 3) Hoja → 4) Envidriador (4,4–24,4 mm) + empaque EPDM → 5) Vidrio o DVH → 6) Herrajes: bisagras, cremona, manija, cerraderos, limitadores. Sistema de soporte: Contramarco perimetral al buque; la hoja cuelga de bisagras (ocultas) y gira hacia el interior. Tipo de fijación: Anclaje mecánico del contramarco al buque; perfiles con sistema de clipado premontado y bulones premontados. Juntas, sellos y accesorios: Empaques EPDM en el envidriador y el marco; herraje perimetral con cierre multipunto; sello perimetral de silicón.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (capas, soporte, fijación y juntas); pendiente de revisar y reescribir por el autor."
     },
     "tools_labor": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Especialización de mano de obra 4/5: Herrajes perimetrales y ajuste fino. Complejidad de instalación 4/5: El clipado premontado reduce tiempos en taller. Tiempo relativo de instalación 4/5.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (escalas de mano de obra e instalación); pendiente de revisar y reescribir por el autor."
     },
     "critical_point": {
       "estado": "pendiente",
@@ -535,17 +560,31 @@
     },
     "thermal_conductivity": {
       "estado": "dato",
-      "valor_texto_original": "≈ 200 (aluminio 6063); ≈ 1,0 (vidrio)",
       "fuentes": [
         {
           "ref": "R03"
         }
       ],
-      "evidencia": "E4"
+      "evidencia": "E4",
+      "valor": 200,
+      "unidad": "W/(m·K)",
+      "calificador": "≈",
+      "nota": "Valor del aluminio del marco; el autor da ≈ 1,0 para el vidrio. Texto original del autor: «≈ 200 (aluminio 6063); ≈ 1,0 (vidrio)»."
     },
     "specific_heat": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "unidad": "J/(kg·K)",
+      "fuentes": [
+        {
+          "ref": "INT-CEC",
+          "loc": "§3.2"
+        }
+      ],
+      "evidencia": "E4",
+      "certeza": "rango_literatura",
+      "valor": 880,
+      "calificador": "=",
+      "nota": "Complemento de integración (nov. 2026), pendiente de validar por el autor. Valor de diseño genérico del material principal (fila «Aluminio, aleaciones de», §3.2), no del producto ni del sistema; referido a 10 °C y humedad de equilibrio a 23 °C y 50 % HR: no describe el desempeño en servicio en trópico húmedo."
     },
     "thermal_resistance": {
       "estado": "dato",
@@ -562,7 +601,6 @@
     },
     "u_value": {
       "estado": "dato",
-      "valor_texto_original": "≈ 3,7 con DVH de aire (Ug ≈ 2,8; Uf metal sin RPT = 5,7)",
       "fuentes": [
         {
           "ref": "F8"
@@ -572,7 +610,10 @@
         }
       ],
       "evidencia": "E1",
-      "nota": "Uw estimado = 0,7 × Ug + 0,3 × Uf. Con vidrio monolítico ≈ 5,8."
+      "nota": "Uw estimado = 0,7 × Ug + 0,3 × Uf. Con vidrio monolítico ≈ 5,8. Texto original del autor: «≈ 3,7 con DVH de aire (Ug ≈ 2,8; Uf metal sin RPT = 5,7)».",
+      "valor": 3.7,
+      "unidad": "W/(m²·K)",
+      "calificador": "≈"
     },
     "solar_reflectance": {
       "estado": "dato",
@@ -786,13 +827,17 @@
     },
     "transport_distance": {
       "estado": "dato",
-      "valor_texto_original": "≈ 40 (GAM) – 250 (La Cruz)",
       "fuentes": [
         {
           "ref": "F7"
         }
       ],
-      "evidencia": "E1"
+      "evidencia": "E1",
+      "min": 40,
+      "max": 250,
+      "unidad": "km",
+      "calificador": "rango",
+      "nota": "Texto original del autor: «≈ 40 (GAM) – 250 (La Cruz)»."
     },
     "recycled_content": {
       "estado": "no_disponible",
@@ -888,8 +933,15 @@
       "evidencia": "E4"
     },
     "cr_region": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Condiciones climáticas declaradas en la ficha: Todos, incluido lluvioso con viento (Caribe, zona norte) y espacios climatizados. Disponibilidad nacional 4/5.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (condiciones climáticas y disponibilidad nacional); pendiente de revisar y reescribir por el autor."
     },
     "seismic_condition": {
       "estado": "pendiente",
@@ -904,16 +956,37 @@
       "nota": "Campo nuevo del estándar v1.0: completar."
     },
     "plan_requirements": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Datos de la ficha que deben quedar indicados en planos y especificaciones: espesor total 75 mm; espesor del vidrio 6–12 mm; tipo de fijación: Anclaje mecánico del contramarco al buque; perfiles con sistema de clipado premontado y bulones premontados; juntas, sellos y accesorios: Empaques EPDM en el envidriador y el marco; herraje perimetral con cierre multipunto; sello perimetral de silicón; tipo de vidrio: Templado FUERTEX®; laminado VILAX® (incluye SentryGlass®); DVH.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (espesores, fijaciones, juntas y campos específicos); pendiente de revisar y reescribir por el autor."
     },
     "advantages": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Fortalezas según los datos de la ficha: resistencia a humedad 5/5; resistencia a radiación uv 4/5; facilidad de limpieza 5/5; disponibilidad nacional 4/5; residuos de instalación 2/5 (bajo); aplicación en edificios de salud: Sí; reciclable: Sí; vidrio de seguridad (inte c312): Sí.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (escalas 1–5 y campos Sí/No); pendiente de revisar y reescribir por el autor."
     },
     "limitations": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Debilidades según los datos de la ficha: especialización de mano de obra 4/5 (alto); complejidad de instalación 4/5 (alto); tiempo relativo de instalación 4/5 (alto); material renovable: No. Restricciones de uso: La hoja abierta invade el interior (considerar muebles y cortinas); costo alto; no tiene rotura de puente térmico declarada. Principales fallas (patologías): Descuelgue de la hoja; desajuste del herraje; pérdida de hermeticidad del DVH (empañamiento interno); desgaste de empaques.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (escalas 1–5, restricciones de uso y fallas frecuentes); pendiente de revisar y reescribir por el autor."
     },
     "graphics": {
       "estado": "pendiente",
@@ -968,7 +1041,6 @@
     },
     "glass_thickness": {
       "estado": "dato",
-      "valor_texto_original": "6 – 12 (monolítico); DVH 24 – 30",
       "fuentes": [
         {
           "ref": "F14"
@@ -978,7 +1050,11 @@
         }
       ],
       "evidencia": "E2",
-      "nota": "Separador del DVH de 11,5–16 mm."
+      "nota": "Separador del DVH de 11,5–16 mm. Vidrio monolítico; con DVH el autor indica 24–30 mm. Texto original del autor: «6 – 12 (monolítico); DVH 24 – 30».",
+      "min": 6,
+      "max": 12,
+      "unidad": "mm",
+      "calificador": "rango"
     },
     "chamber_count": {
       "estado": "no_disponible",
@@ -1145,6 +1221,18 @@
     {
       "id": "R09",
       "cita": "Cálculo"
+    },
+    {
+      "id": "INT-CEC",
+      "tipo": "informe_institucional",
+      "fecha_consulta": "2026-11-16",
+      "url": "https://www.codigotecnico.org/Recursos/Aplicaciones/CatalogoElementosConstructivos.html",
+      "cita": "Instituto Eduardo Torroja de Ciencias de la Construcción, CEPCO y AICIA. (2010). Catálogo de Elementos Constructivos del CTE (versión 6.3, marzo de 2010), sección 3: Materiales y productos. Ministerio de Vivienda, España. Valores de diseño obtenidos según UNE-EN ISO 10456."
+    },
+    {
+      "id": "INT-SIN",
+      "tipo": "elaboracion_propia",
+      "cita": "Síntesis de integración (noviembre de 2026): texto armado automáticamente a partir de otros campos de la misma ficha. No es fuente externa."
     }
   ]
 }

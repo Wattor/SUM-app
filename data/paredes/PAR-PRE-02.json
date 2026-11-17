@@ -178,8 +178,20 @@
       "nota": "El manual incluye columnas 120 × 140 mm para casos más altos."
     },
     "density": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "unidad": "kg/m³",
+      "fuentes": [
+        {
+          "ref": "INT-CEC",
+          "loc": "§3.4.1"
+        }
+      ],
+      "evidencia": "E4",
+      "certeza": "rango_literatura",
+      "min": 2300,
+      "max": 2500,
+      "calificador": "rango",
+      "nota": "Complemento de integración (nov. 2026), pendiente de validar por el autor. Valor de diseño genérico del material principal (fila «Hormigón armado 2300 < ρ ≤ 2500», §3.4.1), no del producto ni del sistema; referido a 10 °C y humedad de equilibrio a 23 °C y 50 % HR: no describe el desempeño en servicio en trópico húmedo."
     },
     "surface_mass": {
       "estado": "no_disponible",
@@ -232,12 +244,26 @@
       "evidencia": "E2"
     },
     "installation_sequence": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Capas del sistema en el orden declarado: Acabado exterior → baldosa de concreto → acabado interior. En juntas: mortero → en bordes: columnas ranuradas y solera. Sistema de soporte: Dados de fundación unidos por tirante perimetral; columnas empotradas y solera superior. Tipo de fijación: Baldosas deslizadas por ranuras; mortero en encuentros; solera fijada a conexiones roscadas de columnas. Juntas, sellos y accesorios: Juntas de mortero entre baldosas y columnas, sellado de encuentros y botaguas.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (capas, soporte, fijación y juntas); pendiente de revisar y reescribir por el autor."
     },
     "tools_labor": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Especialización de mano de obra 2/5: Montaje manual con cuadrilla de cuatro personas; requiere control de alineación, plomo y juntas. Complejidad de instalación 2/5: Replanteo, excavación, dados, colocación de columnas y baldosas, solera y juntas. Tiempo relativo de instalación 2/5: Menor tiempo relativo que mampostería tradicional en repetición; escala 1=rápido.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (escalas de mano de obra e instalación); pendiente de revisar y reescribir por el autor."
     },
     "critical_point": {
       "estado": "pendiente",
@@ -496,22 +522,49 @@
       "nota": "Verificar recubrimientos, exposición a cloruros, juntas y mantenimiento."
     },
     "vapor_permeability": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
-    },
-    "thermal_conductivity": {
-      "estado": "no_disponible",
+      "estado": "dato",
+      "unidad": "adimensional",
       "fuentes": [
         {
-          "ref": "P1"
+          "ref": "INT-CEC",
+          "loc": "§3.4.1"
         }
       ],
-      "evidencia": "E2",
-      "nota": "No se encontró un valor verificable para este ensamble; requiere ficha, ensayo o cálculo del proyecto."
+      "evidencia": "E4",
+      "certeza": "rango_literatura",
+      "valor": 80,
+      "calificador": "=",
+      "nota": "Complemento de integración (nov. 2026), pendiente de validar por el autor. Valor de diseño genérico del material principal (fila «Hormigón armado 2300 < ρ ≤ 2500», §3.4.1), no del producto ni del sistema; referido a 10 °C y humedad de equilibrio a 23 °C y 50 % HR: no describe el desempeño en servicio en trópico húmedo."
+    },
+    "thermal_conductivity": {
+      "estado": "dato",
+      "unidad": "W/(m·K)",
+      "fuentes": [
+        {
+          "ref": "INT-CEC",
+          "loc": "§3.4.1"
+        }
+      ],
+      "evidencia": "E4",
+      "certeza": "rango_literatura",
+      "valor": 2.3,
+      "calificador": "=",
+      "nota": "Complemento de integración (nov. 2026), pendiente de validar por el autor. Valor de diseño genérico del material principal (fila «Hormigón armado 2300 < ρ ≤ 2500», §3.4.1), no del producto ni del sistema; referido a 10 °C y humedad de equilibrio a 23 °C y 50 % HR: no describe el desempeño en servicio en trópico húmedo. Nota previa del autor: «No se encontró un valor verificable para este ensamble; requiere ficha, ensayo o cálculo del proyecto.»."
     },
     "specific_heat": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "unidad": "J/(kg·K)",
+      "fuentes": [
+        {
+          "ref": "INT-CEC",
+          "loc": "§3.4.1"
+        }
+      ],
+      "evidencia": "E4",
+      "certeza": "rango_literatura",
+      "valor": 1000,
+      "calificador": "=",
+      "nota": "Complemento de integración (nov. 2026), pendiente de validar por el autor. Valor de diseño genérico del material principal (fila «Hormigón armado 2300 < ρ ≤ 2500», §3.4.1), no del producto ni del sistema; referido a 10 °C y humedad de equilibrio a 23 °C y 50 % HR: no describe el desempeño en servicio en trópico húmedo."
     },
     "thermal_resistance": {
       "estado": "no_disponible",
@@ -867,17 +920,28 @@
     },
     "end_of_life": {
       "estado": "dato",
-      "valor_texto_original": "Reciclaje; vertedero según separación y gestor",
       "fuentes": [
         {
           "ref": "P1"
         }
       ],
-      "evidencia": "E1"
+      "evidencia": "E1",
+      "valor": [
+        "Reciclaje",
+        "Vertedero"
+      ],
+      "nota": "Texto original del autor: «Reciclaje; vertedero según separación y gestor»."
     },
     "cr_region": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Condiciones climáticas declaradas en la ficha: Tropical húmedo y seco con control de agua en juntas, base, vanos y cubierta. Disponibilidad nacional 4/5.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (condiciones climáticas y disponibilidad nacional); pendiente de revisar y reescribir por el autor."
     },
     "seismic_condition": {
       "estado": "pendiente",
@@ -892,16 +956,37 @@
       "nota": "Campo nuevo del estándar v1.0: completar."
     },
     "plan_requirements": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Datos de la ficha que deben quedar indicados en planos y especificaciones: tipo de fijación: Baldosas deslizadas por ranuras; mortero en encuentros; solera fijada a conexiones roscadas de columnas; juntas, sellos y accesorios: Juntas de mortero entre baldosas y columnas, sellado de encuentros y botaguas; barrera de humedad: Sellos y mortero en juntas, botaguas, zócalo y drenaje perimetral; fijación a estructura: Columnas empotradas en dados y unidas por tirante inferior y solera superior.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (espesores, fijaciones, juntas y campos específicos); pendiente de revisar y reescribir por el autor."
     },
     "advantages": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Fortalezas según los datos de la ficha: resistencia a radiación uv 4/5; facilidad de limpieza 4/5; disponibilidad nacional 4/5; especialización de mano de obra 2/5 (bajo); complejidad de instalación 2/5 (bajo); tiempo relativo de instalación 2/5 (bajo); residuos de instalación 2/5 (bajo).",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (escalas 1–5 y campos Sí/No); pendiente de revisar y reescribir por el autor."
     },
     "limitations": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Debilidades según los datos de la ficha: facilidad de sustitución 2/5; material renovable: No. Restricciones de uso: Sistema de referencia para construcciones de un nivel. No cortar columnas pretensadas; muros de retención exigen piezas y diseño especiales. Principales fallas (patologías): Juntas abiertas; filtración; fisuras o despuntes de baldosas; desprendimiento de repello; pérdida de plomo.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (escalas 1–5, restricciones de uso y fallas frecuentes); pendiente de revisar y reescribir por el autor."
     },
     "graphics": {
       "estado": "pendiente",
@@ -1027,6 +1112,18 @@
     {
       "id": "S0",
       "cita": "Definición del estudio y plantilla del curso."
+    },
+    {
+      "id": "INT-CEC",
+      "tipo": "informe_institucional",
+      "fecha_consulta": "2026-11-16",
+      "url": "https://www.codigotecnico.org/Recursos/Aplicaciones/CatalogoElementosConstructivos.html",
+      "cita": "Instituto Eduardo Torroja de Ciencias de la Construcción, CEPCO y AICIA. (2010). Catálogo de Elementos Constructivos del CTE (versión 6.3, marzo de 2010), sección 3: Materiales y productos. Ministerio de Vivienda, España. Valores de diseño obtenidos según UNE-EN ISO 10456."
+    },
+    {
+      "id": "INT-SIN",
+      "tipo": "elaboracion_propia",
+      "cita": "Síntesis de integración (noviembre de 2026): texto armado automáticamente a partir de otros campos de la misma ficha. No es fuente externa."
     }
   ]
 }

@@ -185,19 +185,34 @@
       "evidencia": "E5"
     },
     "density": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "unidad": "kg/m³",
+      "fuentes": [
+        {
+          "ref": "INT-CEC",
+          "loc": "§3.14"
+        }
+      ],
+      "evidencia": "E4",
+      "certeza": "rango_literatura",
+      "valor": 2500,
+      "calificador": "=",
+      "nota": "Complemento de integración (nov. 2026), pendiente de validar por el autor. Valor de diseño genérico del material principal (fila «Plaqueta o baldosa de gres», §3.14), no del producto ni del sistema; referido a 10 °C y humedad de equilibrio a 23 °C y 50 % HR: no describe el desempeño en servicio en trópico húmedo."
     },
     "surface_mass": {
       "estado": "dato",
-      "valor_texto_original": "19–27 kg/m²; densidad ≈ 2 300–2 400 kg/m³",
       "fuentes": [
         {
           "ref": "R08"
         }
       ],
       "evidencia": "E4",
-      "nota": "Estimado para 8–12 mm."
+      "nota": "19–27 kg/m²; densidad ≈ 2 300–2 400 kg/m³",
+      "min": 19.0,
+      "max": 27.0,
+      "calificador": "rango",
+      "unidad": "kg/m²",
+      "certeza": "rango_literatura"
     },
     "surface_finish": {
       "estado": "dato",
@@ -406,7 +421,6 @@
     },
     "price_range": {
       "estado": "dato",
-      "valor_texto_original": "₡3 990–₡16 000 / m² (material; ofertas en línea)",
       "fuentes": [
         {
           "ref": "R21"
@@ -416,18 +430,25 @@
         }
       ],
       "evidencia": "E2",
-      "nota": "Líneas europeas de gama alta superan con creces este rango."
+      "nota": "Material; ofertas en línea",
+      "min": 3990.0,
+      "max": 16000.0,
+      "calificador": "rango",
+      "unidad": "CRC/m²",
+      "certeza": "rango_literatura"
     },
     "mechanical_resistance": {
       "estado": "dato",
-      "valor": "Módulo de rotura ≥ 35 N/mm²; fuerza de rotura ≥ 1 300 N (e ≥ 7,5 mm)",
+      "valor": 35,
       "fuentes": [
         {
           "ref": "R05"
         }
       ],
       "evidencia": "E3",
-      "nota": "Requisitos grupo BIa."
+      "nota": "Requisitos grupo BIa. Módulo de rotura a flexión. Texto original del autor: «Módulo de rotura ≥ 35 N/mm²; fuerza de rotura ≥ 1 300 N (e ≥ 7,5 mm)».",
+      "unidad": "MPa",
+      "calificador": "≥"
     },
     "impact_resistance": {
       "estado": "dato",
@@ -527,8 +548,19 @@
       "nota": "Líneas exteriores; adhesivo C2 y juntas selladas."
     },
     "vapor_permeability": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "unidad": "adimensional",
+      "fuentes": [
+        {
+          "ref": "INT-CEC",
+          "loc": "§3.14"
+        }
+      ],
+      "evidencia": "E4",
+      "certeza": "rango_literatura",
+      "valor": 30,
+      "calificador": "=",
+      "nota": "Complemento de integración (nov. 2026), pendiente de validar por el autor. Valor de diseño genérico del material principal (fila «Plaqueta o baldosa de gres», §3.14), no del producto ni del sistema; referido a 10 °C y humedad de equilibrio a 23 °C y 50 % HR: no describe el desempeño en servicio en trópico húmedo."
     },
     "thermal_conductivity": {
       "estado": "dato",
@@ -543,8 +575,19 @@
       "evidencia": "E3"
     },
     "specific_heat": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "unidad": "J/(kg·K)",
+      "fuentes": [
+        {
+          "ref": "INT-CEC",
+          "loc": "§3.14"
+        }
+      ],
+      "evidencia": "E4",
+      "certeza": "rango_literatura",
+      "valor": 1000,
+      "calificador": "=",
+      "nota": "Complemento de integración (nov. 2026), pendiente de validar por el autor. Valor de diseño genérico del material principal (fila «Plaqueta o baldosa de gres», §3.14), no del producto ni del sistema; referido a 10 °C y humedad de equilibrio a 23 °C y 50 % HR: no describe el desempeño en servicio en trópico húmedo."
     },
     "thermal_resistance": {
       "estado": "dato",
@@ -826,14 +869,17 @@
     },
     "embodied_carbon": {
       "estado": "dato",
-      "valor_texto_original": "≈ 0,78 kgCO₂e/kg (≈ 18 kgCO₂e/m²)",
       "fuentes": [
         {
           "ref": "R16"
         }
       ],
       "evidencia": "E4",
-      "nota": "Orden de magnitud; EPD europeas reportan valores similares."
+      "nota": "≈ 0,78 kgCO₂e/kg (≈ 18 kgCO₂e/m²)",
+      "valor": 18.0,
+      "calificador": "≈",
+      "unidad": "kgCO2e/m²",
+      "certeza": "estimado_analogia"
     },
     "embodied_carbon_modules": {
       "estado": "pendiente",
@@ -1108,6 +1154,13 @@
     {
       "id": "R22",
       "cita": "ExpoCerámica (redes, 2025–2026)"
+    },
+    {
+      "id": "INT-CEC",
+      "tipo": "informe_institucional",
+      "fecha_consulta": "2026-11-16",
+      "url": "https://www.codigotecnico.org/Recursos/Aplicaciones/CatalogoElementosConstructivos.html",
+      "cita": "Instituto Eduardo Torroja de Ciencias de la Construcción, CEPCO y AICIA. (2010). Catálogo de Elementos Constructivos del CTE (versión 6.3, marzo de 2010), sección 3: Materiales y productos. Ministerio de Vivienda, España. Valores de diseño obtenidos según UNE-EN ISO 10456."
     }
   ]
 }

@@ -30,7 +30,8 @@
         {
           "ref": "PROPIO"
         }
-      ]
+      ],
+      "evidencia": "E1"
     },
     "record_type": {
       "estado": "dato",
@@ -202,8 +203,19 @@
       "evidencia": "E5"
     },
     "density": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "unidad": "kg/m³",
+      "fuentes": [
+        {
+          "ref": "INT-CEC",
+          "loc": "§3.2"
+        }
+      ],
+      "evidencia": "E4",
+      "certeza": "rango_literatura",
+      "valor": 7800,
+      "calificador": "=",
+      "nota": "Complemento de integración (nov. 2026), pendiente de validar por el autor. Valor de diseño genérico del material principal (fila «Acero», §3.2), no del producto ni del sistema; referido a 10 °C y humedad de equilibrio a 23 °C y 50 % HR: no describe el desempeño en servicio en trópico húmedo."
     },
     "surface_mass": {
       "estado": "dato",
@@ -276,12 +288,26 @@
       "evidencia": "E5"
     },
     "installation_sequence": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Capas del sistema en el orden declarado: Estructura de soporte (clavadores/largueros metálicos o deck) → Aislamiento térmico / barrera de vapor (opcional) → Clip oculto atornillado al soporte → Lámina de junta alzada Zn-Al prepintada → Junta engatillada con sellador. Sistema de soporte: Clavadores/largueros metálicos (perfiles C o Z) en claros típicos de 1,0–1,75 m para cal. 24 según carga, o cubierta sólida (deck) según perfil. Tipo de fijación: Fijación oculta mediante clips (fijos en un punto y deslizantes en el resto para absorber dilatación térmica), cada clip con 2 tornillos autotaladrantes galvanizados 1/4\" x 1\"; la lámina no se perfora. Juntas, sellos y accesorios: Junta longitudinal engatillada (engargolada) con máquina cerradora o de encaje a presión (snap-lock), con sellador de fábrica en la junta; sin traslapes transversales si se usa lámina continua; cierres de espuma en alero y cumbrera; tapajuntas, cumbrera, botaguas y canoas de lámina prepintada.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (capas, soporte, fijación y juntas); pendiente de revisar y reescribir por el autor."
     },
     "tools_labor": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Especialización de mano de obra 4/5: Requiere perfiladora portátil, máquina engatilladora, control de clips fijos/deslizantes y detalles de remates; instaladores certificados suelen exigirse para garantías de estanqueidad. Complejidad de instalación 4/5: Mayor que lámina trapezoidal atornillada: perfilado en sitio, izado de láminas largas, alineación, clips y engatillado. Tiempo relativo de instalación 3/5: El perfilado en sitio en largos continuos elimina traslapes, pero clips y engatillado añaden tiempo frente a lámina trapezoidal atornillada.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (escalas de mano de obra e instalación); pendiente de revisar y reescribir por el autor."
     },
     "critical_point": {
       "estado": "pendiente",
@@ -575,13 +601,34 @@
       "nota": "Campo nuevo del estándar v1.0: completar."
     },
     "thermal_conductivity": {
-      "estado": "no_disponible",
-      "evidencia": "E1",
-      "nota": "No aplicable como dato de sistema; el acero tiene conductividad muy alta y su aporte a la resistencia térmica es despreciable."
+      "estado": "dato",
+      "unidad": "W/(m·K)",
+      "fuentes": [
+        {
+          "ref": "INT-CEC",
+          "loc": "§3.2"
+        }
+      ],
+      "evidencia": "E4",
+      "certeza": "rango_literatura",
+      "valor": 50,
+      "calificador": "=",
+      "nota": "Complemento de integración (nov. 2026), pendiente de validar por el autor. Valor de diseño genérico del material principal (fila «Acero», §3.2), no del producto ni del sistema; referido a 10 °C y humedad de equilibrio a 23 °C y 50 % HR: no describe el desempeño en servicio en trópico húmedo. Nota previa del autor: «No aplicable como dato de sistema; el acero tiene conductividad muy alta y su aporte a la resistencia térmica es despreciable.»."
     },
     "specific_heat": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "unidad": "J/(kg·K)",
+      "fuentes": [
+        {
+          "ref": "INT-CEC",
+          "loc": "§3.2"
+        }
+      ],
+      "evidencia": "E4",
+      "certeza": "rango_literatura",
+      "valor": 450,
+      "calificador": "=",
+      "nota": "Complemento de integración (nov. 2026), pendiente de validar por el autor. Valor de diseño genérico del material principal (fila «Acero», §3.2), no del producto ni del sistema; referido a 10 °C y humedad de equilibrio a 23 °C y 50 % HR: no describe el desempeño en servicio en trópico húmedo."
     },
     "thermal_resistance": {
       "estado": "no_disponible",
@@ -939,8 +986,15 @@
       "evidencia": "E5"
     },
     "cr_region": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Condiciones climáticas declaradas en la ficha: Tropical húmedo lluvioso | Tropical seco | Zonas de lluvias intensas | Zonas de viento alto (con diseño de clips) | Costero (condicionado: ver restricciones). Disponibilidad nacional 3/5.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (condiciones climáticas y disponibilidad nacional); pendiente de revisar y reescribir por el autor."
     },
     "seismic_condition": {
       "estado": "pendiente",
@@ -951,20 +1005,48 @@
       "nota": "Campo nuevo del estándar v1.0: completar."
     },
     "cr_standard": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Normativa y lineamientos costarricenses citados en la bibliografía de la ficha: CFIA, Lineamientos para el diseño por viento de edificaciones en Costa Rica (Alcance 48, La Gaceta 52, 2023) - [R100]; Metalco FT Cubierta Rectangular (referencia de normas INTE/ASTM y sistema de pintura en CR) - [R97].",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (bibliografía de la ficha); pendiente de revisar y reescribir por el autor."
     },
     "plan_requirements": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Datos de la ficha que deben quedar indicados en planos y especificaciones: espesor total 0.61 mm; pendiente mínima 2 %; tipo de fijación: Fijación oculta mediante clips (fijos en un punto y deslizantes en el resto para absorber dilatación térmica), cada clip con 2 tornillos autotaladrantes galvanizados 1/4\" x 1\"; la lámina no se perfora; juntas, sellos y accesorios: Junta longitudinal engatillada (engargolada) con máquina cerradora o de encaje a presión (snap-lock), con sellador de fábrica en la junta; sin traslapes transversales si se usa lámina continua; cierres de espuma en alero y cumbrera; tapajuntas, cumbrera, botaguas y canoas de lámina prepintada; sistema de traslape: Sin traslape transversal (lámina continua de alero a cumbrera); unión longitudinal por junta alzada engatillada (engargolada) mecánicamente o de encaje a presión, con sellador en la junta.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (espesores, fijaciones, juntas y campos específicos); pendiente de revisar y reescribir por el autor."
     },
     "advantages": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Fortalezas según los datos de la ficha: resistencia a humedad 5/5; resistencia a corrosión 4/5; resistencia a radiación uv 4/5; facilidad de limpieza 4/5; residuos de instalación 1/5 (bajo); reciclable: Sí.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (escalas 1–5 y campos Sí/No); pendiente de revisar y reescribir por el autor."
     },
     "limitations": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Debilidades según los datos de la ficha: facilidad de sustitución 2/5; riesgo de condensación 4/5 (alto); especialización de mano de obra 4/5 (alto); complejidad de instalación 4/5 (alto); material renovable: No. Principales fallas (patologías): Filtraciones en remates, cumbreras y penetraciones; Desengatillado o apertura de juntas por succión de viento; Arrugas u ondulación (oil canning); Corrosión en bordes cortados y rayones; Caleo y decoloración de pintura; Condensación bajo la lámina; Ruido o deformaciones por dilatación térmica restringida.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (escalas 1–5, restricciones de uso y fallas frecuentes); pendiente de revisar y reescribir por el autor."
     },
     "graphics": {
       "estado": "pendiente",
@@ -1224,6 +1306,18 @@
       "id": "R99",
       "cita": "Metal Sales, Garantía Galvalume AZ55 - https://www.metalsales.us.com/wp-content/uploads/2024/01/231208-Galvalume-Warranty.pdf",
       "url": "https://www.metalsales.us.com/wp-content/uploads/2024/01/231208-Galvalume-Warranty.pdf"
+    },
+    {
+      "id": "INT-CEC",
+      "tipo": "informe_institucional",
+      "fecha_consulta": "2026-11-16",
+      "url": "https://www.codigotecnico.org/Recursos/Aplicaciones/CatalogoElementosConstructivos.html",
+      "cita": "Instituto Eduardo Torroja de Ciencias de la Construcción, CEPCO y AICIA. (2010). Catálogo de Elementos Constructivos del CTE (versión 6.3, marzo de 2010), sección 3: Materiales y productos. Ministerio de Vivienda, España. Valores de diseño obtenidos según UNE-EN ISO 10456."
+    },
+    {
+      "id": "INT-SIN",
+      "tipo": "elaboracion_propia",
+      "cita": "Síntesis de integración (noviembre de 2026): texto armado automáticamente a partir de otros campos de la misma ficha. No es fuente externa."
     }
   ]
 }

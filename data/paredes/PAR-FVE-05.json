@@ -283,12 +283,26 @@
       "nota": "La ficha ACOM describe una fachada sellada; la cámara ventilada requiere detalle específico de proyecto."
     },
     "installation_sequence": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Capas del sistema en el orden declarado: Piel exterior → cámara ventilada y drenada → subestructura → aislamiento opcional → barrera de agua/aire → muro de respaldo. Sistema de soporte: Muro de respaldo y estructura principal capaces de recibir ménsulas, viento y peso de paneles. Tipo de fijación: Ménsulas y perfiles con anclajes calculados; panel fijado mecánicamente según sistema. Juntas, sellos y accesorios: Juntas abiertas o drenadas, remates, mallas antiinsectos, cortafuegos de cámara y sellos en encuentros.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (capas, soporte, fijación y juntas); pendiente de revisar y reescribir por el autor."
     },
     "tools_labor": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Especialización de mano de obra 5/5: Requiere proyecto de fachada, taller, montaje en altura, anclajes y control de agua. Complejidad de instalación 4/5: Modulación, ménsulas, continuidad de barrera, cámara, remates y dilataciones. Tiempo relativo de instalación 3/5: Paneles prefabricados agilizan montaje, pero subestructura y remates requieren precisión.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (escalas de mano de obra e instalación); pendiente de revisar y reescribir por el autor."
     },
     "critical_point": {
       "estado": "pendiente",
@@ -515,8 +529,7 @@
       "nota": "Depende de ambiente, fijaciones, recubrimiento y mantenimiento."
     },
     "water_absorption": {
-      "estado": "dato",
-      "valor_texto_original": "Paneles metálicos no absorben agua; la estanqueidad corresponde al respaldo y detalles",
+      "estado": "no_aplica",
       "fuentes": [
         {
           "ref": "F1"
@@ -525,7 +538,7 @@
           "ref": "F3"
         }
       ],
-      "evidencia": "E4"
+      "nota": "Texto original del autor: «Paneles metálicos no absorben agua; la estanqueidad corresponde al respaldo y detalles»."
     },
     "moisture_resistance": {
       "estado": "dato",
@@ -871,7 +884,6 @@
     },
     "origin": {
       "estado": "dato",
-      "valor_texto_original": "ACM: suministro local con componentes industrializados; acero patinable: procedencia por confirmar",
       "fuentes": [
         {
           "ref": "F2"
@@ -880,7 +892,9 @@
           "ref": "F3"
         }
       ],
-      "evidencia": "E4"
+      "evidencia": "E4",
+      "valor": "Mixto",
+      "nota": "Texto original del autor: «ACM: suministro local con componentes industrializados; acero patinable: procedencia por confirmar»."
     },
     "transport_distance": {
       "estado": "no_disponible",
@@ -1005,7 +1019,6 @@
     },
     "end_of_life": {
       "estado": "dato",
-      "valor_texto_original": "Reciclaje de metales; ACM sujeto a separación y gestor; resto según tratamiento",
       "fuentes": [
         {
           "ref": "F2"
@@ -1014,11 +1027,23 @@
           "ref": "F3"
         }
       ],
-      "evidencia": "E4"
+      "evidencia": "E4",
+      "valor": [
+        "Reciclaje",
+        "Otro"
+      ],
+      "nota": "Texto original del autor: «Reciclaje de metales; ACM sujeto a separación y gestor; resto según tratamiento»."
     },
     "cr_region": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Condiciones climáticas declaradas en la ficha: Tropical húmedo y seco si la cámara drena y seca; acero patinable requiere evaluar salinidad y humedad persistente. Disponibilidad nacional 3/5.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (condiciones climáticas y disponibilidad nacional); pendiente de revisar y reescribir por el autor."
     },
     "seismic_condition": {
       "estado": "pendiente",
@@ -1033,16 +1058,37 @@
       "nota": "Campo nuevo del estándar v1.0: completar."
     },
     "plan_requirements": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Datos de la ficha que deben quedar indicados en planos y especificaciones: tipo de fijación: Ménsulas y perfiles con anclajes calculados; panel fijado mecánicamente según sistema; juntas, sellos y accesorios: Juntas abiertas o drenadas, remates, mallas antiinsectos, cortafuegos de cámara y sellos en encuentros; barrera de humedad: Barrera continua sobre respaldo, vierteaguas y cámara drenada con entradas/salidas de aire; fijación a estructura: Ménsulas ancladas a estructura y perfiles portapanel con juntas de movimiento calculadas.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (espesores, fijaciones, juntas y campos específicos); pendiente de revisar y reescribir por el autor."
     },
     "advantages": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Fortalezas según los datos de la ficha: resistencia a humedad 4/5; resistencia a radiación uv 4/5; facilidad de reparación 4/5; facilidad de sustitución 4/5; residuos de instalación 2/5 (bajo).",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (escalas 1–5 y campos Sí/No); pendiente de revisar y reescribir por el autor."
     },
     "limitations": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Debilidades según los datos de la ficha: especialización de mano de obra 5/5 (alto); complejidad de instalación 4/5 (alto); material renovable: No. Restricciones de uso: No es muro portante ni barrera de agua por sí solo. Verificar núcleo/reacción al fuego del ACM y evitar acero patinable en ambientes salinos o de humedad continua sin evaluación. Principales fallas (patologías): Filtración por barrera o remates; paneles sueltos; dilatación; corrosión galvánica; manchas por escorrentía del acero.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (escalas 1–5, restricciones de uso y fallas frecuentes); pendiente de revisar y reescribir por el autor."
     },
     "graphics": {
       "estado": "pendiente",
@@ -1185,6 +1231,11 @@
     {
       "id": "S0",
       "cita": "Definición del estudio y plantilla del curso."
+    },
+    {
+      "id": "INT-SIN",
+      "tipo": "elaboracion_propia",
+      "cita": "Síntesis de integración (noviembre de 2026): texto armado automáticamente a partir de otros campos de la misma ficha. No es fuente externa."
     }
   ]
 }

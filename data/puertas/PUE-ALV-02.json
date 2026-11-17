@@ -159,8 +159,7 @@
       "evidencia": "E5"
     },
     "total_thickness": {
-      "estado": "dato",
-      "valor_texto_original": "Espesor de pared de perfilería: 1,10-1,90 mm (Sistema Europa); sección vista de solo 25 mm en EXTVista",
+      "estado": "no_disponible",
       "fuentes": [
         {
           "ref": "R58"
@@ -169,7 +168,7 @@
           "ref": "R56"
         }
       ],
-      "evidencia": "E5"
+      "nota": "El autor dio el espesor de pared del perfil (1,10–1,90 mm), no el espesor total del elemento. Texto original del autor: «Espesor de pared de perfilería: 1,10-1,90 mm (Sistema Europa); sección vista de solo 25 mm en EXTVista»."
     },
     "commercial_dimensions": {
       "estado": "dato",
@@ -186,14 +185,16 @@
     },
     "density": {
       "estado": "dato",
-      "valor_texto_original": "Densidad del aluminio (aleación serie 6000): aprox. 2.700 kg/m3 (valor de la aleación, no del perfil Extralum específico)",
       "fuentes": [
         {
           "ref": "R60"
         }
       ],
       "evidencia": "E4",
-      "nota": "Referencia general del material; no hay un dato de peso del perfil o la hoja terminada en los informes"
+      "nota": "Referencia general del material; no hay un dato de peso del perfil o la hoja terminada en los informes Texto original del autor: «Densidad del aluminio (aleación serie 6000): aprox. 2.700 kg/m3 (valor de la aleación, no del perfil Extralum específico)».",
+      "valor": 2700,
+      "unidad": "kg/m³",
+      "calificador": "≈"
     },
     "surface_mass": {
       "estado": "pendiente",
@@ -243,12 +244,26 @@
       "evidencia": "E5"
     },
     "installation_sequence": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Capas del sistema en el orden declarado: 1) Perfil de marco en aluminio 6063-T5 → 2) Riel inferior de desplazamiento → 3) Vidrio de seguridad (Fuertex/Vilax/DVH) → 4) Empaque perimetral EPDM grado marino → 5) Rodamiento regulable de precisión. Sistema de soporte: Vigas y columnas de concreto armado o marcos metálicos de fachada. Tipo de fijación: Tornillería de acero inoxidable 2\"x10 autorroscante con tacos de expansión plástica @ 50 cm. Juntas, sellos y accesorios: Sello elástico continuo de silicona estructural o poliuretano en juntas perimetrales; juntas de EPDM y neopreno en las hojas; barredores inferiores independientes; cierrapuertas hidráulico oculto (Abatible Deluxe).",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (capas, soporte, fijación y juntas); pendiente de revisar y reescribir por el autor."
     },
     "tools_labor": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Especialización de mano de obra 5/5: Escala 1-5 propia sobre la descripción cualitativa. Complejidad de instalación 5/5: Escala 1-5 propia.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (escalas de mano de obra e instalación); pendiente de revisar y reescribir por el autor."
     },
     "critical_point": {
       "estado": "pendiente",
@@ -382,7 +397,6 @@
     },
     "price_range": {
       "estado": "dato",
-      "valor_texto_original": "Mamparas serie Aqua: c93.750-c119.999; sistemas de terraza serie Europa: aprox. c238.574,49; sistemas elevables EXT45/EXTVista a medida: presupuesto Medio-Alto a Alto sin precio fijo de catálogo. Colones IVAI",
       "fuentes": [
         {
           "ref": "R70"
@@ -391,7 +405,12 @@
           "ref": "R57"
         }
       ],
-      "evidencia": "E2"
+      "evidencia": "E2",
+      "min": 93750,
+      "max": 238574.49,
+      "unidad": "CRC/unidad",
+      "calificador": "rango",
+      "nota": "Texto original del autor: «Mamparas serie Aqua: c93.750-c119.999; sistemas de terraza serie Europa: aprox. c238.574,49; sistemas elevables EXT45/EXTVista a medida: presupuesto Medio-Alto a Alto sin precio fijo de catálogo. Colones IVAI»."
     },
     "mechanical_resistance": {
       "estado": "dato",
@@ -418,7 +437,6 @@
     },
     "durability_years": {
       "estado": "dato",
-      "valor_texto_original": "Supera los 40 años",
       "fuentes": [
         {
           "ref": "R64"
@@ -427,7 +445,11 @@
           "ref": "R57"
         }
       ],
-      "evidencia": "E5"
+      "evidencia": "E5",
+      "valor": 40,
+      "unidad": "años",
+      "calificador": "≥",
+      "nota": "Texto original del autor: «Supera los 40 años»."
     },
     "water_absorption": {
       "estado": "no_disponible",
@@ -496,18 +518,32 @@
     },
     "thermal_conductivity": {
       "estado": "dato",
-      "valor_texto_original": "Aluminio: aprox. 160-200 W/m.K (conductividad térmica intrínseca del metal, muy superior a la de madera o vidrio)",
       "fuentes": [
         {
           "ref": "R78"
         }
       ],
       "evidencia": "E4",
-      "nota": "Referencia general del metal, no del perfil específico Extralum"
+      "nota": "Referencia general del metal, no del perfil específico Extralum Texto original del autor: «Aluminio: aprox. 160-200 W/m.K (conductividad térmica intrínseca del metal, muy superior a la de madera o vidrio)».",
+      "min": 160,
+      "max": 200,
+      "unidad": "W/(m·K)",
+      "calificador": "rango"
     },
     "specific_heat": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "unidad": "J/(kg·K)",
+      "fuentes": [
+        {
+          "ref": "INT-CEC",
+          "loc": "§3.2"
+        }
+      ],
+      "evidencia": "E4",
+      "certeza": "rango_literatura",
+      "valor": 880,
+      "calificador": "=",
+      "nota": "Complemento de integración (nov. 2026), pendiente de validar por el autor. Valor de diseño genérico del material principal (fila «Aluminio, aleaciones de», §3.2), no del producto ni del sistema; referido a 10 °C y humedad de equilibrio a 23 °C y 50 % HR: no describe el desempeño en servicio en trópico húmedo."
     },
     "thermal_resistance": {
       "estado": "no_disponible",
@@ -515,7 +551,6 @@
     },
     "u_value": {
       "estado": "dato",
-      "valor_texto_original": "Referencia general (no de esta ficha): perfiles de aluminio sin rotura de puente térmico Uf aprox. 5,6-7,0 W/m2.K; con vidrio DVH (Ug aprox. 1,1-3,3 W/m2.K) el conjunto Uw podría bajar a 3,5-5,5 W/m2.K",
       "fuentes": [
         {
           "ref": "R79"
@@ -525,7 +560,11 @@
         }
       ],
       "evidencia": "E4",
-      "nota": "Los informes no mencionan rotura de puente térmico (poliamida) en los sistemas Extralum descritos; se asume perfil estándar sin RPT, típico de climas tropicales donde prioriza hermeticidad al agua/viento sobre aislamiento térmico frente al frío"
+      "nota": "Los informes no mencionan rotura de puente térmico (poliamida) en los sistemas Extralum descritos; se asume perfil estándar sin RPT, típico de climas tropicales donde prioriza hermeticidad al agua/viento sobre aislamiento térmico frente al frío Texto original del autor: «Referencia general (no de esta ficha): perfiles de aluminio sin rotura de puente térmico Uf aprox. 5,6-7,0 W/m2.K; con vidrio DVH (Ug aprox. 1,1-3,3 W/m2.K) el conjunto Uw podría bajar a 3,5-5,5 W/m2.K».",
+      "min": 5.6,
+      "max": 7.0,
+      "unidad": "W/(m²·K)",
+      "calificador": "rango"
     },
     "solar_reflectance": {
       "estado": "no_disponible"
@@ -538,14 +577,13 @@
       "estado": "no_disponible"
     },
     "sound_insulation": {
-      "estado": "dato",
-      "valor_texto_original": "Bajo con vidrio monolítico; excelente con DVH de 24-33,5 mm (mitiga ruido urbano y de hoteles de playa)",
+      "estado": "no_disponible",
       "fuentes": [
         {
           "ref": "R65"
         }
       ],
-      "evidencia": "E5"
+      "nota": "Descripción cualitativa, sin valor en dB. Texto original del autor: «Bajo con vidrio monolítico; excelente con DVH de 24-33,5 mm (mitiga ruido urbano y de hoteles de playa)»."
     },
     "sound_absorption": {
       "estado": "no_disponible"
@@ -766,8 +804,15 @@
       "evidencia": "E5"
     },
     "cr_region": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Condiciones climáticas declaradas en la ficha: Climas húmedos, lluviosos y de alta salinidad; diseñado para tormentas tropicales severas, vientos huracanados e inundaciones repentinas. Disponibilidad nacional 4/5.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (condiciones climáticas y disponibilidad nacional); pendiente de revisar y reescribir por el autor."
     },
     "seismic_condition": {
       "estado": "pendiente",
@@ -782,16 +827,37 @@
       "nota": "Campo nuevo del estándar v1.0: completar."
     },
     "plan_requirements": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Datos de la ficha que deben quedar indicados en planos y especificaciones: tipo de fijación: Tornillería de acero inoxidable 2\"x10 autorroscante con tacos de expansión plástica @ 50 cm; juntas, sellos y accesorios: Sello elástico continuo de silicona estructural o poliuretano en juntas perimetrales; juntas de EPDM y neopreno en las hojas; barredores inferiores independientes; cierrapuertas hidráulico oculto (Abatible Deluxe); herrajes: Rodamientos regulables de precisión, cierres tipo 'pico de lora', cierrapuertas hidráulico oculto (Abatible Deluxe), herrajes anti-elevación patentados (EXT45), barredores inferiores independientes; tornillería exclusiva de acero inoxidable.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (espesores, fijaciones, juntas y campos específicos); pendiente de revisar y reescribir por el autor."
     },
     "advantages": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Fortalezas según los datos de la ficha: resistencia a humedad 5/5; resistencia a corrosión 4/5; resistencia a radiación uv 5/5; facilidad de limpieza 4/5; facilidad de reparación 4/5; disponibilidad nacional 4/5; riesgo de condensación 1/5 (bajo); residuos de instalación 2/5 (bajo); aptitud para ambiente marino: Sí; reciclable: Sí.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (escalas 1–5 y campos Sí/No); pendiente de revisar y reescribir por el autor."
     },
     "limitations": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Debilidades según los datos de la ficha: especialización de mano de obra 5/5 (alto); complejidad de instalación 5/5 (alto); material renovable: No. Restricciones de uso: Incompatible con tornillería de hierro común (induce corrosión galvánica); instalación limitada si las losas presentan desviaciones de nivel mayores a 2 mm. Principales fallas (patologías): Corrosión galvánica costera, delaminación de vidrio laminado Vilax, desbordamiento pluvial de canales de evacuación, atascamiento mecánico de hojas corredizas.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (escalas 1–5, restricciones de uso y fallas frecuentes); pendiente de revisar y reescribir por el autor."
     },
     "graphics": {
       "estado": "pendiente",
@@ -1067,6 +1133,18 @@
     {
       "id": "R90",
       "cita": "reporte-analisis-materiales-puertas.pdf, secc. 5.3.1 (pág. 5-6)"
+    },
+    {
+      "id": "INT-CEC",
+      "tipo": "informe_institucional",
+      "fecha_consulta": "2026-11-16",
+      "url": "https://www.codigotecnico.org/Recursos/Aplicaciones/CatalogoElementosConstructivos.html",
+      "cita": "Instituto Eduardo Torroja de Ciencias de la Construcción, CEPCO y AICIA. (2010). Catálogo de Elementos Constructivos del CTE (versión 6.3, marzo de 2010), sección 3: Materiales y productos. Ministerio de Vivienda, España. Valores de diseño obtenidos según UNE-EN ISO 10456."
+    },
+    {
+      "id": "INT-SIN",
+      "tipo": "elaboracion_propia",
+      "cita": "Síntesis de integración (noviembre de 2026): texto armado automáticamente a partir de otros campos de la misma ficha. No es fuente externa."
     }
   ]
 }

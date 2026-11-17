@@ -1,0 +1,593 @@
+{
+ "_version": "1.1",
+ "_nota": "Reglas con que la app convierte los datos de la ficha en puntajes 0–3 por dimensión y en alertas clima × material. PROPUESTA METODOLÓGICA (nov. 2026): la calibra el docente con el grupo; no es normativa. Editar este archivo y volver a correr scripts/construir_app.py.",
+ "normalizacion": {
+  "escala_1_5": "(v−1)/4×3 ; invertida si sentido = menor",
+  "booleano": "Sí = 3 · Condicionado = 1,5 · No = 0",
+  "numero": "relativa al conjunto comparado del mismo componente: proporcional (v/máx o mín/v)×3, o mín–máx; rangos → punto medio; solo misma unidad",
+  "texto_o_clase": "no se puntúa automáticamente: se muestra y admite puntaje manual",
+  "solape": "Los indicadores con el mismo «grupo» cuentan una sola vez por dimensión (se promedia el grupo).",
+  "analogias": "Un dato de complemento (fuente INT-) con certeza estimado_analogia se muestra pero no puntúa."
+ },
+ "indicadores": [
+  {
+   "clave": "thermal_conductivity",
+   "dim": "termico",
+   "sentido": "menor",
+   "activo": true,
+   "nota": "Cualidad aislante del material principal (menor λ = mejor). No puntúa en cubiertas, puertas ni ventanas: en láminas delgadas y marcos la λ del material no describe el elemento; ahí gobiernan U, R, reflectancia y SHGC. En pisos o cuando se busca masa térmica el sentido puede invertirse: revisar.",
+   "componentes": [
+    "PAR",
+    "PIS",
+    "CIE"
+   ],
+   "grupo": "aislamiento"
+  },
+  {
+   "clave": "thermal_resistance",
+   "dim": "termico",
+   "sentido": "mayor",
+   "activo": true,
+   "grupo": "aislamiento"
+  },
+  {
+   "clave": "u_value",
+   "dim": "termico",
+   "sentido": "menor",
+   "activo": true,
+   "grupo": "aislamiento"
+  },
+  {
+   "clave": "solar_reflectance",
+   "dim": "termico",
+   "sentido": "mayor",
+   "activo": true,
+   "si": "E_CAL>=1",
+   "nota": "Solo puntúa si el sitio tiene exigencia de calor.",
+   "grupo": "respuesta_solar"
+  },
+  {
+   "clave": "thermal_emittance",
+   "dim": "termico",
+   "sentido": "mayor",
+   "activo": true,
+   "si": "E_CAL>=1",
+   "grupo": "respuesta_solar"
+  },
+  {
+   "clave": "sri",
+   "dim": "termico",
+   "sentido": "mayor",
+   "activo": true,
+   "si": "E_CAL>=1",
+   "grupo": "respuesta_solar"
+  },
+  {
+   "clave": "shgc",
+   "dim": "termico",
+   "sentido": "menor",
+   "activo": true,
+   "si": "E_CAL>=1",
+   "sentido_alterno": {
+    "si": "E_FRIO>=2",
+    "sentido": "mayor"
+   },
+   "nota": "Con calor: menor ganancia solar es mejor. En sitio frío sin calor: mayor ganancia es mejor."
+  },
+  {
+   "clave": "visible_transmittance",
+   "dim": "termico",
+   "sentido": "mayor",
+   "activo": false,
+   "nota": "Inactivo por defecto: más transmitancia puede ser deslumbramiento o ganancia solar; depende de orientación, sombra y uso."
+  },
+  {
+   "clave": "effective_opening",
+   "dim": "termico",
+   "sentido": "mayor",
+   "activo": true,
+   "si": "E_CAL>=1",
+   "nota": "Ventilación natural: puntúa si hay exigencia de calor."
+  },
+  {
+   "clave": "specific_heat",
+   "dim": "termico",
+   "sentido": "mayor",
+   "activo": false,
+   "nota": "Inercia térmica: útil con amplitud térmica alta; activar según estrategia del proyecto."
+  },
+  {
+   "clave": "density",
+   "dim": "termico",
+   "sentido": "mayor",
+   "activo": false,
+   "nota": "No puntúa: la masa térmica útil depende de espesor, calor específico, exposición y enfriamiento nocturno, no de la densidad sola. Se muestra para el análisis por capas."
+  },
+  {
+   "clave": "water_absorption",
+   "dim": "higrotermico",
+   "sentido": "menor",
+   "activo": true
+  },
+  {
+   "clave": "moisture_resistance",
+   "dim": "higrotermico",
+   "sentido": "mayor",
+   "activo": true
+  },
+  {
+   "clave": "condensation_risk",
+   "dim": "higrotermico",
+   "sentido": "menor",
+   "activo": true,
+   "nota": "Escala 1–5 donde 5 = mayor riesgo."
+  },
+  {
+   "clave": "wet_area_use",
+   "dim": "higrotermico",
+   "sentido": "mayor",
+   "activo": true,
+   "mapa": {
+    "Sí": 3,
+    "Condicionado": 1.5,
+    "No": 0
+   }
+  },
+  {
+   "clave": "vapor_permeability",
+   "dim": "higrotermico",
+   "sentido": "menor",
+   "activo": false,
+   "nota": "μ: el sentido depende de la posición de la capa en el cerramiento."
+  },
+  {
+   "clave": "surface_mass",
+   "dim": "mecanico",
+   "sentido": "menor",
+   "activo": true,
+   "si": "E_SIS>=2",
+   "componentes": [
+    "CUB",
+    "CIE",
+    "PAR",
+    "PUE",
+    "VEN"
+   ],
+   "nota": "Propuesta: con demanda sísmica media o alta, menor masa del elemento no estructural reduce la demanda inercial. Calibrar."
+  },
+  {
+   "clave": "mechanical_resistance",
+   "dim": "mecanico",
+   "sentido": "mayor",
+   "activo": true,
+   "nota": "Solo puntúa si la ficha la trae como número con unidad y hay otra alternativa con la misma unidad. Verificar que se compare la misma propiedad (compresión con compresión, flexión con flexión)."
+  },
+  {
+   "clave": "wind_uplift",
+   "dim": "mecanico",
+   "sentido": "mayor",
+   "activo": true,
+   "nota": "Capacidad resistente a succión declarada (no demanda). Verificar fijaciones y condiciones de ensayo."
+  },
+  {
+   "clave": "wind_load",
+   "dim": "mecanico",
+   "sentido": "mayor",
+   "activo": true,
+   "nota": "Capacidad resistente declarada del sistema (no demanda). No sustituye la verificación capacidad frente a demanda."
+  },
+  {
+   "clave": "expansive_soil",
+   "dim": "mecanico",
+   "sentido": "mayor",
+   "activo": true,
+   "mapa": {
+    "Recomendado": 3,
+    "Condicionado": 2,
+    "No recomendado": 1,
+    "No admitido": 0
+   }
+  },
+  {
+   "clave": "collapsible_soil",
+   "dim": "mecanico",
+   "sentido": "mayor",
+   "activo": true,
+   "mapa": {
+    "Recomendado": 3,
+    "Condicionado": 2,
+    "No recomendado": 1,
+    "No admitido": 0
+   }
+  },
+  {
+   "clave": "liquefiable_soil",
+   "dim": "mecanico",
+   "sentido": "mayor",
+   "activo": true,
+   "mapa": {
+    "Recomendado": 3,
+    "Condicionado": 2,
+    "No recomendado": 1,
+    "No admitido": 0
+   }
+  },
+  {
+   "clave": "durability_years",
+   "dim": "durabilidad",
+   "sentido": "mayor",
+   "activo": true
+  },
+  {
+   "clave": "corrosion_resistance",
+   "dim": "durabilidad",
+   "sentido": "mayor",
+   "activo": true
+  },
+  {
+   "clave": "uv_resistance",
+   "dim": "durabilidad",
+   "sentido": "mayor",
+   "activo": true
+  },
+  {
+   "clave": "marine_environment",
+   "dim": "durabilidad",
+   "sentido": "mayor",
+   "activo": true,
+   "si": "E_SAL>=1",
+   "mapa": {
+    "Sí": 3,
+    "Condicionado": 1.5,
+    "No": 0
+   }
+  },
+  {
+   "clave": "maintenance_frequency",
+   "dim": "durabilidad",
+   "sentido": "mayor",
+   "activo": true,
+   "nota": "Meses entre mantenimientos: intervalo mayor = menor exigencia."
+  },
+  {
+   "clave": "repairability",
+   "dim": "durabilidad",
+   "sentido": "mayor",
+   "activo": true
+  },
+  {
+   "clave": "replaceability",
+   "dim": "durabilidad",
+   "sentido": "mayor",
+   "activo": true
+  },
+  {
+   "clave": "coating_life",
+   "dim": "durabilidad",
+   "sentido": "mayor",
+   "activo": true
+  },
+  {
+   "clave": "origin",
+   "dim": "ambiental",
+   "sentido": "mayor",
+   "activo": true,
+   "mapa": {
+    "Local": 3,
+    "Nacional": 2,
+    "Mixto": 1.5,
+    "Importado": 0
+   }
+  },
+  {
+   "clave": "transport_distance",
+   "dim": "ambiental",
+   "sentido": "menor",
+   "activo": true
+  },
+  {
+   "clave": "recycled_content",
+   "dim": "ambiental",
+   "sentido": "mayor",
+   "activo": true
+  },
+  {
+   "clave": "renewable",
+   "dim": "ambiental",
+   "sentido": "mayor",
+   "activo": true,
+   "mapa": {
+    "Sí": 3,
+    "Condicionado": 1.5,
+    "No": 0
+   }
+  },
+  {
+   "clave": "reusable",
+   "dim": "ambiental",
+   "sentido": "mayor",
+   "activo": true,
+   "mapa": {
+    "Sí": 3,
+    "Condicionado": 1.5,
+    "No": 0
+   }
+  },
+  {
+   "clave": "recyclable",
+   "dim": "ambiental",
+   "sentido": "mayor",
+   "activo": true,
+   "mapa": {
+    "Sí": 3,
+    "Condicionado": 1.5,
+    "No": 0
+   }
+  },
+  {
+   "clave": "installation_waste",
+   "dim": "ambiental",
+   "sentido": "menor",
+   "activo": true,
+   "nota": "Escala 1–5 donde 5 = más residuos."
+  },
+  {
+   "clave": "epd_available",
+   "dim": "ambiental",
+   "sentido": "mayor",
+   "activo": false,
+   "mapa": {
+    "Sí": 3,
+    "Condicionado": 1.5,
+    "No": 0
+   },
+   "nota": "Inactivo por defecto: una EPD acredita calidad de información, no menor impacto ambiental."
+  },
+  {
+   "clave": "embodied_carbon",
+   "dim": "ambiental",
+   "sentido": "menor",
+   "activo": true,
+   "nota": "Solo se comparan valores con la misma unidad funcional."
+  },
+  {
+   "clave": "labor_specialization",
+   "dim": "constructibilidad",
+   "sentido": "menor",
+   "activo": true,
+   "nota": "Escala 1–5 donde 5 = más especialización requerida."
+  },
+  {
+   "clave": "installation_complexity",
+   "dim": "constructibilidad",
+   "sentido": "menor",
+   "activo": true
+  },
+  {
+   "clave": "installation_time",
+   "dim": "constructibilidad",
+   "sentido": "menor",
+   "activo": true
+  },
+  {
+   "clave": "national_availability",
+   "dim": "constructibilidad",
+   "sentido": "mayor",
+   "activo": true
+  },
+  {
+   "clave": "walkability",
+   "dim": "constructibilidad",
+   "sentido": "mayor",
+   "activo": true,
+   "mapa": {
+    "Sí": 3,
+    "Condicionado": 1.5,
+    "No": 0
+   }
+  },
+  {
+   "clave": "accessibility_above",
+   "dim": "constructibilidad",
+   "sentido": "mayor",
+   "activo": true,
+   "mapa": {
+    "Sí": 3,
+    "Condicionado": 1.5,
+    "No": 0
+   }
+  }
+ ],
+ "alertas": [
+  {
+   "id": "SAL-01",
+   "si": "E_SAL>=2",
+   "campo": "marine_environment",
+   "prueba": {
+    "igual": "No"
+   },
+   "severidad": "critica",
+   "mensaje": "La ficha declara que NO es apto para ambiente marino y el sitio tiene ambiente salino {nivel}/3."
+  },
+  {
+   "id": "SAL-02",
+   "si": "E_SAL>=2",
+   "campo": "marine_environment",
+   "prueba": {
+    "igual": "Condicionado"
+   },
+   "severidad": "atencion",
+   "mensaje": "Aptitud marina condicionada: revisar la condición en la nota de la ficha (sitio salino {nivel}/3)."
+  },
+  {
+   "id": "SAL-03",
+   "si": "E_SAL>=2",
+   "campo": "corrosion_resistance",
+   "prueba": {
+    "menor_igual": 2
+   },
+   "severidad": "critica",
+   "mensaje": "Resistencia a corrosión ≤ 2/5 en ambiente salino {nivel}/3 (cloruros, ISO 9223)."
+  },
+  {
+   "id": "SAL-04",
+   "si": "E_SAL>=2",
+   "campo": "marine_environment",
+   "prueba": {
+    "sin_dato": true
+   },
+   "severidad": "dato",
+   "mensaje": "Sitio salino {nivel}/3 y la ficha no documenta aptitud para ambiente marino."
+  },
+  {
+   "id": "HUM-01",
+   "si": "E_PERS>=2",
+   "campo": "moisture_resistance",
+   "prueba": {
+    "menor_igual": 2
+   },
+   "severidad": "critica",
+   "mensaje": "Resistencia a humedad ≤ 2/5 con persistencia de humedad {nivel}/3 (biodeterioro, hongos)."
+  },
+  {
+   "id": "HUM-02",
+   "si": "E_LLUV>=2",
+   "campo": "moisture_resistance",
+   "prueba": {
+    "menor_igual": 2
+   },
+   "severidad": "critica",
+   "mensaje": "Resistencia a humedad ≤ 2/5 con exigencia de lluvia {nivel}/3.",
+   "solo_exterior": true
+  },
+  {
+   "id": "HUM-03",
+   "si": "E_PERS>=2",
+   "campo": "corrosion_resistance",
+   "prueba": {
+    "menor_igual": 2
+   },
+   "severidad": "atencion",
+   "mensaje": "Resistencia a corrosión ≤ 2/5 con tiempo de humectación alto ({nivel}/3)."
+  },
+  {
+   "id": "CON-01",
+   "si": "E_FRIO>=2",
+   "campo": "condensation_risk",
+   "prueba": {
+    "mayor_igual": 4
+   },
+   "severidad": "critica",
+   "mensaje": "Riesgo de condensación ≥ 4/5 en sitio frío ({nivel}/3): condensación superficial o intersticial probable."
+  },
+  {
+   "id": "CON-02",
+   "si": "E_AMPL>=2",
+   "campo": "condensation_risk",
+   "prueba": {
+    "mayor_igual": 4
+   },
+   "severidad": "atencion",
+   "mensaje": "Riesgo de condensación ≥ 4/5 con amplitud térmica {nivel}/3 (enfriamiento nocturno)."
+  },
+  {
+   "id": "UV-01",
+   "si": "E_SECA>=2",
+   "campo": "uv_resistance",
+   "prueba": {
+    "menor_igual": 2
+   },
+   "severidad": "critica",
+   "mensaje": "Resistencia UV ≤ 2/5 con estación seca marcada ({nivel}/3): radiación sostenida.",
+   "solo_exterior": true
+  },
+  {
+   "id": "VIE-01",
+   "si": "E_VIE>=2",
+   "campo": "wind_uplift",
+   "prueba": {
+    "sin_dato": true
+   },
+   "severidad": "dato",
+   "mensaje": "Viento {nivel}/3 y la ficha no trae la resistencia a succión de viento: dato a exigir al fabricante.",
+   "componentes": [
+    "CUB"
+   ]
+  },
+  {
+   "id": "VIE-02",
+   "si": "E_VIE>=2",
+   "campo": "wind_load",
+   "prueba": {
+    "sin_dato": true
+   },
+   "severidad": "dato",
+   "mensaje": "Viento {nivel}/3 y la ficha no trae la resistencia a carga de viento.",
+   "componentes": [
+    "VEN"
+   ]
+  },
+  {
+   "id": "VIE-03",
+   "si": "E_VIE>=2",
+   "campo": "water_tightness",
+   "prueba": {
+    "sin_dato": true
+   },
+   "severidad": "dato",
+   "mensaje": "Viento {nivel}/3 (lluvia impulsada) y la ficha no trae la estanqueidad al agua.",
+   "componentes": [
+    "VEN"
+   ]
+  },
+  {
+   "id": "CAL-01",
+   "si": "E_CAL>=2",
+   "campo": "solar_reflectance",
+   "prueba": {
+    "sin_dato": true
+   },
+   "severidad": "dato",
+   "mensaje": "Calor {nivel}/3 y la ficha no trae la reflectancia solar de la cubierta.",
+   "componentes": [
+    "CUB"
+   ]
+  },
+  {
+   "id": "CAL-02",
+   "si": "E_CAL>=2",
+   "campo": "shgc",
+   "prueba": {
+    "mayor_igual": 0.6
+   },
+   "severidad": "atencion",
+   "mensaje": "SHGC ≥ 0,60 con exigencia de calor {nivel}/3: requiere protección solar exterior.",
+   "componentes": [
+    "VEN"
+   ]
+  },
+  {
+   "id": "LLU-01",
+   "si": "E_LLUV>=2",
+   "campo": "rain_noise",
+   "prueba": {
+    "sin_dato": true
+   },
+   "severidad": "dato",
+   "mensaje": "Lluvia {nivel}/3 y la ficha no documenta el ruido por impacto de lluvia.",
+   "componentes": [
+    "CUB"
+   ]
+  },
+  {
+   "id": "SIS-01",
+   "si": "E_SIS>=2",
+   "campo": "seismic_condition",
+   "prueba": {
+    "sin_dato": true
+   },
+   "severidad": "dato",
+   "mensaje": "Sismicidad {nivel}/3 y la ficha no desarrolla la condición sísmica relevante (CSCR)."
+  }
+ ]
+}

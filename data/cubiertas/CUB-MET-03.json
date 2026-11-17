@@ -31,7 +31,8 @@
           "ref": "PROPIO"
         }
       ],
-      "nota": "Referencias comerciales en CR: Metalco Teja Colonial y Teja Toledo; también se comercializan Arquiteja (Ferromax) y teja española de otros fabricantes regionales. Variante premium: acero Zn-Al con gránulos de piedra (tipo DECRA)."
+      "nota": "Referencias comerciales en CR: Metalco Teja Colonial y Teja Toledo; también se comercializan Arquiteja (Ferromax) y teja española de otros fabricantes regionales. Variante premium: acero Zn-Al con gránulos de piedra (tipo DECRA).",
+      "evidencia": "E1"
     },
     "record_type": {
       "estado": "dato",
@@ -205,8 +206,19 @@
       "nota": "Metalco Colonial: ancho útil 0,97 m, grada 35 cm, 2–10 gradas. Toledo: ancho útil 1,03 m, grada 30 cm, 2–15 gradas. Ternium: cubriente 1,05 m, largos 0,96–6,06 m."
     },
     "density": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "unidad": "kg/m³",
+      "fuentes": [
+        {
+          "ref": "INT-CEC",
+          "loc": "§3.2"
+        }
+      ],
+      "evidencia": "E4",
+      "certeza": "rango_literatura",
+      "valor": 7800,
+      "calificador": "=",
+      "nota": "Complemento de integración (nov. 2026), pendiente de validar por el autor. Valor de diseño genérico del material principal (fila «Acero», §3.2), no del producto ni del sistema; referido a 10 °C y humedad de equilibrio a 23 °C y 50 % HR: no describe el desempeño en servicio en trópico húmedo."
     },
     "surface_mass": {
       "estado": "dato",
@@ -278,12 +290,26 @@
       "evidencia": "E5"
     },
     "installation_sequence": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Capas del sistema en el orden declarado: Pintura de acabado (cara superior, ≈18 µm) → Primer (≈5 µm) → Tratamiento de conversión → Recubrimiento metálico Zn o Zn-Al → Acero base → Recubrimiento metálico → Primer → Backer (cara inferior, ≈10 µm). Sistema de soporte: Clavadores/largueros de perfil metálico (RT, C) o madera, a 0,60–0,90 m según perfil (múltiplos del paso de grada). Tipo de fijación: Tornillo autoperforante punta broca con arandela metálica y sello de neopreno/EPDM, ≈5–6 por m²; Colonial fija en valles y cose en crestas, Toledo fija en crestas. Juntas, sellos y accesorios: Traslape longitudinal con lagrimal anti-capilaridad; traslape lateral de una onda; cumbrera, limatesa, limahoya, botaguas, tapichel y sellador de poliuretano o butilo.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (capas, soporte, fijación y juntas); pendiente de revisar y reescribir por el autor."
     },
     "tools_labor": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Especialización de mano de obra 2/5: Instalación similar a lámina ondulada/esmaltada; requiere cuidado en alineación de gradas, traslapes y fijación, pero mano de obra común de techadores en CR. Complejidad de instalación 2/5: Láminas livianas y de gran formato; mayor complejidad que lámina ondulada por la modulación de clavadores al paso de grada y los remates. Tiempo relativo de instalación 2/5: Rápida: láminas de hasta ≈4,5 m cubren >4 m² por pieza; más lenta que lámina rectangular por remates.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (escalas de mano de obra e instalación); pendiente de revisar y reescribir por el autor."
     },
     "critical_point": {
       "estado": "pendiente",
@@ -571,8 +597,19 @@
       "nota": "Valor típico de literatura para acero al carbono; no declarado en fichas."
     },
     "specific_heat": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "unidad": "J/(kg·K)",
+      "fuentes": [
+        {
+          "ref": "INT-CEC",
+          "loc": "§3.2"
+        }
+      ],
+      "evidencia": "E4",
+      "certeza": "rango_literatura",
+      "valor": 450,
+      "calificador": "=",
+      "nota": "Complemento de integración (nov. 2026), pendiente de validar por el autor. Valor de diseño genérico del material principal (fila «Acero», §3.2), no del producto ni del sistema; referido a 10 °C y humedad de equilibrio a 23 °C y 50 % HR: no describe el desempeño en servicio en trópico húmedo."
     },
     "thermal_resistance": {
       "estado": "no_disponible",
@@ -935,8 +972,15 @@
       "evidencia": "E1"
     },
     "cr_region": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Condiciones climáticas declaradas en la ficha: Cálido húmedo | Templado de altura | Lluvioso | Cálido seco (con aislamiento bajo cubierta). Disponibilidad nacional 5/5.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (condiciones climáticas y disponibilidad nacional); pendiente de revisar y reescribir por el autor."
     },
     "seismic_condition": {
       "estado": "pendiente",
@@ -947,20 +991,48 @@
       "nota": "Campo nuevo del estándar v1.0: completar."
     },
     "cr_standard": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Normativa y lineamientos costarricenses citados en la bibliografía de la ficha: Código Sísmico CR, consultas viento (Lineamientos técnicos de viento 2021) [R37].",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (bibliografía de la ficha); pendiente de revisar y reescribir por el autor."
     },
     "plan_requirements": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Datos de la ficha que deben quedar indicados en planos y especificaciones: espesor total 0.46 mm; pendiente mínima 25 %; tipo de fijación: Tornillo autoperforante punta broca con arandela metálica y sello de neopreno/EPDM, ≈5–6 por m²; Colonial fija en valles y cose en crestas, Toledo fija en crestas; juntas, sellos y accesorios: Traslape longitudinal con lagrimal anti-capilaridad; traslape lateral de una onda; cumbrera, limatesa, limahoya, botaguas, tapichel y sellador de poliuretano o butilo; sistema de traslape: Traslape longitudinal de una grada con lagrimal (corte de capilaridad); traslape lateral de una onda/cresta en sentido contrario a vientos dominantes, cosido en crestas.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (espesores, fijaciones, juntas y campos específicos); pendiente de revisar y reescribir por el autor."
     },
     "advantages": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Fortalezas según los datos de la ficha: resistencia a humedad 4/5; facilidad de limpieza 4/5; facilidad de sustitución 4/5; disponibilidad nacional 5/5; especialización de mano de obra 2/5 (bajo); complejidad de instalación 2/5 (bajo); tiempo relativo de instalación 2/5 (bajo); residuos de instalación 2/5 (bajo); reciclable: Sí.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (escalas 1–5 y campos Sí/No); pendiente de revisar y reescribir por el autor."
     },
     "limitations": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Debilidades según los datos de la ficha: riesgo de condensación 4/5 (alto); material renovable: No. Principales fallas (patologías): Corrosión en bordes cortados y traslapes; Filtraciones en tornillos y traslapes; Decoloración y caleo de la pintura; Abolladuras por pisadas o impacto; Levantamiento por viento; Condensación y goteo interior; Ruido de lluvia.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (escalas 1–5, restricciones de uso y fallas frecuentes); pendiente de revisar y reescribir por el autor."
     },
     "graphics": {
       "estado": "pendiente",
@@ -1171,6 +1243,18 @@
       "id": "R39",
       "cita": "EPD COLORBOND steel 0,45 mm AM100 (EPD-IES-0022238) https://www.environdec.com/library/epd22238",
       "url": "https://www.environdec.com/library/epd22238"
+    },
+    {
+      "id": "INT-CEC",
+      "tipo": "informe_institucional",
+      "fecha_consulta": "2026-11-16",
+      "url": "https://www.codigotecnico.org/Recursos/Aplicaciones/CatalogoElementosConstructivos.html",
+      "cita": "Instituto Eduardo Torroja de Ciencias de la Construcción, CEPCO y AICIA. (2010). Catálogo de Elementos Constructivos del CTE (versión 6.3, marzo de 2010), sección 3: Materiales y productos. Ministerio de Vivienda, España. Valores de diseño obtenidos según UNE-EN ISO 10456."
+    },
+    {
+      "id": "INT-SIN",
+      "tipo": "elaboracion_propia",
+      "cita": "Síntesis de integración (noviembre de 2026): texto armado automáticamente a partir de otros campos de la misma ficha. No es fuente externa."
     }
   ]
 }

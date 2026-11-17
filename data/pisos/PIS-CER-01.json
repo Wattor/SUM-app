@@ -198,19 +198,34 @@
       "evidencia": "E5"
     },
     "density": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "unidad": "kg/m³",
+      "fuentes": [
+        {
+          "ref": "INT-CEC",
+          "loc": "§3.14"
+        }
+      ],
+      "evidencia": "E4",
+      "certeza": "rango_literatura",
+      "valor": 2300,
+      "calificador": "=",
+      "nota": "Complemento de integración (nov. 2026), pendiente de validar por el autor. Valor de diseño genérico del material principal (fila «Azulejo cerámico», §3.14), no del producto ni del sistema; referido a 10 °C y humedad de equilibrio a 23 °C y 50 % HR: no describe el desempeño en servicio en trópico húmedo."
     },
     "surface_mass": {
       "estado": "dato",
-      "valor_texto_original": "16–20 kg/m² (pieza); densidad ≈ 2 000–2 300 kg/m³",
       "fuentes": [
         {
           "ref": "R08"
         }
       ],
       "evidencia": "E4",
-      "nota": "Estimado a partir de densidad cerámica y espesor 7–9 mm."
+      "nota": "16–20 kg/m² (pieza); densidad ≈ 2 000–2 300 kg/m³; estimado a partir de densidad cerámica y espesor 7–9 mm.",
+      "min": 16.0,
+      "max": 20.0,
+      "calificador": "rango",
+      "unidad": "kg/m²",
+      "certeza": "rango_literatura"
     },
     "surface_finish": {
       "estado": "dato",
@@ -428,25 +443,31 @@
     },
     "price_range": {
       "estado": "dato",
-      "valor_texto_original": "₡3 990–₡16 000 / m² (material, IVA incl.)",
       "fuentes": [
         {
           "ref": "R09"
         }
       ],
       "evidencia": "E2",
-      "nota": "Precio de pieza; no incluye adhesivo ni mano de obra."
+      "nota": "Material, IVA incl.",
+      "min": 3990.0,
+      "max": 16000.0,
+      "calificador": "rango",
+      "unidad": "CRC/m²",
+      "certeza": "rango_literatura"
     },
     "mechanical_resistance": {
       "estado": "dato",
-      "valor": "Módulo de rotura ≥ 22 N/mm²; fuerza de rotura ≥ 1 000 N (e ≥ 7,5 mm)",
+      "valor": 22,
       "fuentes": [
         {
           "ref": "R05"
         }
       ],
       "evidencia": "E3",
-      "nota": "Requisitos para grupo BIIa; varía según grupo y fabricante."
+      "nota": "Requisitos para grupo BIIa; varía según grupo y fabricante. Módulo de rotura a flexión. Texto original del autor: «Módulo de rotura ≥ 22 N/mm²; fuerza de rotura ≥ 1 000 N (e ≥ 7,5 mm)».",
+      "unidad": "MPa",
+      "calificador": "≥"
     },
     "impact_resistance": {
       "estado": "dato",
@@ -484,13 +505,18 @@
     },
     "water_absorption": {
       "estado": "dato",
-      "valor_texto_original": "3–10 (grupos BIIa–BIIb); > 10 en BIII",
       "fuentes": [
         {
           "ref": "R05"
         }
       ],
-      "evidencia": "E3"
+      "evidencia": "E3",
+      "min": 3.0,
+      "max": 10.0,
+      "calificador": "rango",
+      "unidad": "%",
+      "certeza": "verificado",
+      "nota": "Grupos BIIa–BIIb (3–10 %); > 10 % en BIII"
     },
     "moisture_resistance": {
       "estado": "dato",
@@ -565,8 +591,19 @@
       "nota": "Valor tabulado para baldosa cerámica."
     },
     "specific_heat": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "unidad": "J/(kg·K)",
+      "fuentes": [
+        {
+          "ref": "INT-CEC",
+          "loc": "§3.14"
+        }
+      ],
+      "evidencia": "E4",
+      "certeza": "rango_literatura",
+      "valor": 840,
+      "calificador": "=",
+      "nota": "Complemento de integración (nov. 2026), pendiente de validar por el autor. Valor de diseño genérico del material principal (fila «Azulejo cerámico», §3.14), no del producto ni del sistema; referido a 10 °C y humedad de equilibrio a 23 °C y 50 % HR: no describe el desempeño en servicio en trópico húmedo."
     },
     "thermal_resistance": {
       "estado": "dato",
@@ -855,14 +892,17 @@
     },
     "embodied_carbon": {
       "estado": "dato",
-      "valor_texto_original": "≈ 0,78 kgCO₂e/kg (≈ 14 kgCO₂e/m²)",
       "fuentes": [
         {
           "ref": "R16"
         }
       ],
       "evidencia": "E4",
-      "nota": "Orden de magnitud para baldosa cerámica; no incluye adhesivo."
+      "nota": "≈ 0,78 kgCO₂e/kg (≈ 14 kgCO₂e/m²)",
+      "valor": 14.0,
+      "calificador": "≈",
+      "unidad": "kgCO2e/m²",
+      "certeza": "estimado_analogia"
     },
     "embodied_carbon_modules": {
       "estado": "pendiente",
@@ -1154,6 +1194,13 @@
     {
       "id": "R20",
       "cita": "Ver hoja Referencias"
+    },
+    {
+      "id": "INT-CEC",
+      "tipo": "informe_institucional",
+      "fecha_consulta": "2026-11-16",
+      "url": "https://www.codigotecnico.org/Recursos/Aplicaciones/CatalogoElementosConstructivos.html",
+      "cita": "Instituto Eduardo Torroja de Ciencias de la Construcción, CEPCO y AICIA. (2010). Catálogo de Elementos Constructivos del CTE (versión 6.3, marzo de 2010), sección 3: Materiales y productos. Ministerio de Vivienda, España. Valores de diseño obtenidos según UNE-EN ISO 10456."
     }
   ]
 }

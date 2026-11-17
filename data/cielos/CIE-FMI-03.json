@@ -215,8 +215,15 @@
       "nota": "Opciones de borde en ficha de Fibra Mineral, p.1."
     },
     "installation_sequence": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Capas del sistema en el orden declarado: Desde el recinto: pintura texturada, panel de fibra mineral, retícula T y tensores. Sistema de soporte: Retícula T con perfiles principales, secundarios y angular perimetral. Tipo de fijación: Tensores de alambre galvanizado calibre 18 sobre perfiles principales. Juntas, sellos y accesorios: Borde recto o biselado; asegurar placas con pasadores o prensas.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (capas, soporte, fijación y juntas); pendiente de revisar y reescribir por el autor."
     },
     "tools_labor": {
       "estado": "pendiente",
@@ -552,8 +559,15 @@
       "nota": "No declarado para esta solución en las fuentes técnicas del ZIP."
     },
     "cr_region": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Condiciones climáticas declaradas en la ficha: Espacios con aire acondicionado y humedad ambiental controlada.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (condiciones climáticas y disponibilidad nacional); pendiente de revisar y reescribir por el autor."
     },
     "seismic_condition": {
       "estado": "pendiente",
@@ -568,16 +582,30 @@
       "nota": "Campo nuevo del estándar v1.0: completar."
     },
     "plan_requirements": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Datos de la ficha que deben quedar indicados en planos y especificaciones: tipo de fijación: Tensores de alambre galvanizado calibre 18 sobre perfiles principales; juntas, sellos y accesorios: Borde recto o biselado; asegurar placas con pasadores o prensas; tipo de suspensión: Suspendida mediante retícula T y tensores.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (espesores, fijaciones, juntas y campos específicos); pendiente de revisar y reescribir por el autor."
     },
     "advantages": {
       "estado": "pendiente",
       "nota": "Campo nuevo del estándar v1.0: completar."
     },
     "limitations": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Restricciones de uso: Transportar y almacenar cubierto, seco y protegido contra humedad.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (escalas 1–5, restricciones de uso y fallas frecuentes); pendiente de revisar y reescribir por el autor."
     },
     "graphics": {
       "estado": "pendiente",
@@ -680,6 +708,11 @@
     {
       "id": "R13",
       "cita": "Plycem, guía rápida Fibra Mineral, p.1"
+    },
+    {
+      "id": "INT-SIN",
+      "tipo": "elaboracion_propia",
+      "cita": "Síntesis de integración (noviembre de 2026): texto armado automáticamente a partir de otros campos de la misma ficha. No es fuente externa."
     }
   ]
 }

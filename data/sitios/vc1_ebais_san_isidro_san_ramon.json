@@ -1,0 +1,245 @@
+{
+  "schema": "sum.sitio/1.0",
+  "sitio": {
+    "id": "vc1_ebais_san_isidro_san_ramon",
+    "nombre": "EBAIS EN SAN ISIDRO DE SAN RAMÓN, ALAJUELA",
+    "ubicacion": "Alajuela, San Ramón, San Isidro",
+    "lat": 10.084725,
+    "lon": -84.446372,
+    "id_zona": "VC1",
+    "subregion": "Valle Central Occidental",
+    "region": "Valle Central",
+    "elaborado_por": "JORGE MARIO RODRÍGUEZ MURILLO",
+    "fecha": "2026-11-01"
+  },
+  "clima": {
+    "precipitacion_anual": {
+      "valor": 1950,
+      "unidad": "mm",
+      "origen": "Subregión",
+      "ajustado_por_altitud": false,
+      "valor_subregion": 1950,
+      "fuente": null,
+      "certeza": null
+    },
+    "t_max_media": {
+      "valor": 27,
+      "unidad": "°C",
+      "origen": "Subregión",
+      "ajustado_por_altitud": false,
+      "valor_subregion": 27,
+      "fuente": null,
+      "certeza": null
+    },
+    "t_min_media": {
+      "valor": 18,
+      "unidad": "°C",
+      "origen": "Subregión",
+      "ajustado_por_altitud": false,
+      "valor_subregion": 18,
+      "fuente": null,
+      "certeza": null
+    },
+    "t_media": {
+      "valor": 21.7,
+      "unidad": "°C",
+      "origen": "Estación ajustada por altitud",
+      "ajustado_por_altitud": true,
+      "valor_subregion": 22,
+      "fuente": "CBE Clima Tool, archivo climático EPW «San Ramón Alajuela» (lat 10,088; lon −84,47; 1062 msnm), datos 2000–2010: temperatura media anual (corregida por altitud en E19)",
+      "certeza": "[estimado por analogía]"
+    },
+    "dias_con_lluvia": {
+      "valor": 129,
+      "unidad": "días",
+      "origen": "Subregión",
+      "ajustado_por_altitud": false,
+      "valor_subregion": 129,
+      "fuente": null,
+      "certeza": null
+    },
+    "meses_secos": {
+      "valor": 5,
+      "unidad": "meses",
+      "origen": "Subregión",
+      "ajustado_por_altitud": false,
+      "valor_subregion": 5,
+      "fuente": null,
+      "certeza": null
+    },
+    "zona_sismica_cscr": {
+      "valor": "III",
+      "unidad": "II/III/IV",
+      "origen": "Estación o sitio",
+      "ajustado_por_altitud": false,
+      "valor_subregion": "III",
+      "fuente": "CFIA (2011), CSCR-2010, Tabla 2.1: Alajuela, San Ramón, todos los distritos = zona III",
+      "certeza": "[verificado]"
+    },
+    "hr_media_anual": {
+      "valor": null,
+      "unidad": "%",
+      "origen": "Sin dato",
+      "ajustado_por_altitud": false,
+      "valor_subregion": null,
+      "fuente": null,
+      "certeza": null
+    },
+    "radiacion_global": {
+      "valor": 5.1,
+      "unidad": "kWh/m²·día",
+      "origen": "Estación o sitio",
+      "ajustado_por_altitud": false,
+      "valor_subregion": null,
+      "fuente": "CBE Clima Tool, archivo climático EPW «San Ramón Alajuela» (lat 10,088; lon −84,47; 1062 msnm), datos 2000–2010: radiación horizontal acumulada 1874,8 kWh/m²·año ÷ 365 días",
+      "certeza": "[estimado por analogía]"
+    }
+  },
+  "microclima": {
+    "altitud_sitio_msnm": 1160,
+    "altitud_estacion_msnm": 1062,
+    "distancia_costa_km": 37.16,
+    "zona_viento_cfia": "III",
+    "exposicion_viento": "Normal",
+    "sombra_envolvente": "Media",
+    "orientacion_fachada": "O",
+    "fuentes": {
+      "Altitud de la estación IMN de referencia": {
+        "fuente": "Elevación del archivo climático EPW (CBE Clima Tool), ver EVIDENCIAS",
+        "certeza": "[verificado]"
+      },
+      "Distancia a la línea de costa": {
+        "fuente": "Medición en línea recta en Google Earth hasta la costa de Tárcoles (ver EVIDENCIAS)",
+        "certeza": "[verificado]"
+      },
+      "Zona de viento CFIA (Lineamientos 2023)": {
+        "fuente": "CFIA (2023), Lineamientos para el diseño por viento, Tabla 3-1: Alajuela, San Ramón, San Isidro = zona III",
+        "certeza": "[verificado]"
+      }
+    }
+  },
+  "exigencias": {
+    "E_CAL": {
+      "nombre": "Calor",
+      "dato": 27,
+      "nivel_clima": 1,
+      "ajuste_microclima": 0,
+      "nivel": 1
+    },
+    "E_FRIO": {
+      "nombre": "Frío",
+      "dato": 18,
+      "nivel_clima": 1,
+      "ajuste_microclima": 0,
+      "nivel": 1
+    },
+    "E_LLUV": {
+      "nombre": "Lluvia",
+      "dato": 1950,
+      "nivel_clima": 0,
+      "ajuste_microclima": 0,
+      "nivel": 0
+    },
+    "E_PERS": {
+      "nombre": "Persistencia de humedad",
+      "dato": 129,
+      "nivel_clima": 1,
+      "ajuste_microclima": 0,
+      "nivel": 1
+    },
+    "E_SECA": {
+      "nombre": "Estacionalidad seca",
+      "dato": 5,
+      "nivel_clima": 3,
+      "ajuste_microclima": 0,
+      "nivel": 3
+    },
+    "E_AMPL": {
+      "nombre": "Amplitud térmica",
+      "dato": 9,
+      "nivel_clima": 1,
+      "ajuste_microclima": 0,
+      "nivel": 1
+    },
+    "E_SAL": {
+      "nombre": "Ambiente salino",
+      "dato": "37.16 km",
+      "nivel_clima": 0,
+      "ajuste_microclima": 0,
+      "nivel": 0
+    },
+    "E_SIS": {
+      "nombre": "Sismicidad",
+      "dato": "III",
+      "nivel_clima": 2,
+      "ajuste_microclima": 0,
+      "nivel": 2
+    },
+    "E_VIE": {
+      "nombre": "Viento",
+      "dato": "Zona III",
+      "nivel_clima": 2,
+      "ajuste_microclima": 0,
+      "nivel": 2
+    }
+  },
+  "exigencia_total": 11,
+  "exigencias_dominantes": [
+    "E_SECA"
+  ],
+  "datos_pendientes": 0,
+  "pesos_dimension": {
+    "termico": {
+      "nombre": "Térmico",
+      "peso_base": 2,
+      "factor_climatico": 1.4444,
+      "peso": 0.2251,
+      "prioridad": 2
+    },
+    "higrotermico": {
+      "nombre": "Higrotérmico",
+      "peso_base": 1.5,
+      "factor_climatico": 1.2778,
+      "peso": 0.1494,
+      "prioridad": 4
+    },
+    "mecanico": {
+      "nombre": "Mecánico-estructural",
+      "peso_base": 2,
+      "factor_climatico": 1.5,
+      "peso": 0.2338,
+      "prioridad": 1
+    },
+    "durabilidad": {
+      "nombre": "Durabilidad y mantenimiento",
+      "peso_base": 2,
+      "factor_climatico": 1.2917,
+      "peso": 0.2013,
+      "prioridad": 3
+    },
+    "ambiental": {
+      "nombre": "Ambiental / ACV",
+      "peso_base": 1,
+      "factor_climatico": 1,
+      "peso": 0.0779,
+      "prioridad": 6
+    },
+    "constructibilidad": {
+      "nombre": "Constructibilidad",
+      "peso_base": 1,
+      "factor_climatico": 1.4444,
+      "peso": 0.1126,
+      "prioridad": 5
+    }
+  },
+  "pesos_base_del_autor": [
+    2,
+    1.5,
+    2,
+    2,
+    1,
+    1
+  ],
+  "regla_puntaje": "puntaje_sitio = sum(puntaje_dimension_0a3 * peso) / 3",
+  "origen_archivo": "Matriz_Clima_Sitio_Jorge_Mario_Rodriguez_Murillo_corregida.xlsx"
+}

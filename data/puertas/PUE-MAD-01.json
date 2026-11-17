@@ -179,14 +179,17 @@
     },
     "density": {
       "estado": "dato",
-      "valor_texto_original": "Densidad básica de la madera (no del elemento fabricado): laurel (Cordia alliodora) 380-620 kg/m3 en CR, prom. ~450-500 kg/m3; cedro amargo (Cedrela odorata) ~340-390 kg/m3",
       "fuentes": [
         {
           "ref": "R11"
         }
       ],
       "evidencia": "E4",
-      "nota": "Dato de densidad de la madera en bruto, no del peso de la hoja ya fabricada; no aparece en los informes entregados"
+      "nota": "Dato de densidad de la madera en bruto, no del peso de la hoja ya fabricada; no aparece en los informes entregados Texto original del autor: «Densidad básica de la madera (no del elemento fabricado): laurel (Cordia alliodora) 380-620 kg/m3 en CR, prom. ~450-500 kg/m3; cedro amargo (Cedrela odorata) ~340-390 kg/m3».",
+      "min": 380,
+      "max": 620,
+      "unidad": "kg/m³",
+      "calificador": "rango"
     },
     "surface_mass": {
       "estado": "pendiente",
@@ -239,12 +242,26 @@
       "evidencia": "E5"
     },
     "installation_sequence": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Capas del sistema en el orden declarado: 1) Marco de seguridad de madera (laurel/pino) 38x100 mm → 2) Bastidor perimetral con peinazos → 3) Panel flotante, 5 a 7 tableros por hoja → 4) Bisagras de acero 3\"x3\" (3 a 4 unidades) → 5) Burlete/guardapolvo de PVC de 90 cm en la base. Sistema de soporte: Boquetes de mampostería de concreto curado o subestructura metálica pesada en drywall reforzado. Tipo de fijación: Tornillos expansivos 3\"x1/4\" @ 60 cm para fijar el marco; uniones espigadas del bastidor con adhesivo PVA D3/D4. Juntas, sellos y accesorios: Masilla acrílica elástica pintable en juntas marco-mampostería; burlete/guardapolvo de PVC Hunter de 90 cm; molduras batientes de laurel 12x50 mm o 12x25 mm en los remates.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (capas, soporte, fijación y juntas); pendiente de revisar y reescribir por el autor."
     },
     "tools_labor": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Especialización de mano de obra 4/5: Escala 1-5 propia, construida a partir de la descripción cualitativa 'media-alta' del informe. Complejidad de instalación 4/5: Escala 1-5 propia sobre la misma descripción 'media-alta'.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (escalas de mano de obra e instalación); pendiente de revisar y reescribir por el autor."
     },
     "critical_point": {
       "estado": "pendiente",
@@ -382,7 +399,6 @@
     },
     "price_range": {
       "estado": "dato",
-      "valor_texto_original": "Gama económica: c18.900 (puerta blanca interna) a c33.752 (pino interior). Gama media: c89.950-99.950 (laurel 5-6 tableros). Gama alta: c87.000 (cedro 7 tableros) + marco de laurel c26.470,25. Todo en colones costarricenses IVAI",
       "fuentes": [
         {
           "ref": "R23"
@@ -391,7 +407,12 @@
           "ref": "R06"
         }
       ],
-      "evidencia": "E2"
+      "evidencia": "E2",
+      "min": 18900,
+      "max": 99950,
+      "unidad": "CRC/unidad",
+      "calificador": "rango",
+      "nota": "Texto original del autor: «Gama económica: c18.900 (puerta blanca interna) a c33.752 (pino interior). Gama media: c89.950-99.950 (laurel 5-6 tableros). Gama alta: c87.000 (cedro 7 tableros) + marco de laurel c26.470,25. Todo en colones costarricenses IVAI»."
     },
     "mechanical_resistance": {
       "estado": "dato",
@@ -419,7 +440,6 @@
     },
     "durability_years": {
       "estado": "dato",
-      "valor_texto_original": "10-15 años (laurel/pino tratados); 35+ años (cedro/teca densos)",
       "fuentes": [
         {
           "ref": "R16"
@@ -428,7 +448,12 @@
           "ref": "R06"
         }
       ],
-      "evidencia": "E5"
+      "evidencia": "E5",
+      "min": 10,
+      "max": 35,
+      "unidad": "años",
+      "calificador": "rango",
+      "nota": "El autor distingue 10–15 años (laurel o pino tratados) y 35 o más (cedro o teca). Texto original del autor: «10-15 años (laurel/pino tratados); 35+ años (cedro/teca densos)»."
     },
     "water_absorption": {
       "estado": "no_disponible",
@@ -485,12 +510,22 @@
       "evidencia": "E5"
     },
     "vapor_permeability": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "unidad": "adimensional",
+      "fuentes": [
+        {
+          "ref": "INT-CEC",
+          "loc": "§3.3.1"
+        }
+      ],
+      "evidencia": "E4",
+      "certeza": "rango_literatura",
+      "valor": 50,
+      "calificador": "=",
+      "nota": "Complemento de integración (nov. 2026), pendiente de validar por el autor. Valor de diseño genérico del material principal (fila «Frondosas (madera)», §3.3.1), no del producto ni del sistema; referido a 10 °C y humedad de equilibrio a 23 °C y 50 % HR: no describe el desempeño en servicio en trópico húmedo."
     },
     "thermal_conductivity": {
       "estado": "dato",
-      "valor_texto_original": "Aprox. 0,12-0,17 W/m.K (rango típico de referencia para madera blanda/semidura)",
       "fuentes": [
         {
           "ref": "R30"
@@ -500,15 +535,29 @@
         }
       ],
       "evidencia": "E4",
-      "nota": "Estimación general para madera de densidad media-baja; no es un valor de ensayo específico de laurel o cedro amargo"
+      "nota": "Estimación general para madera de densidad media-baja; no es un valor de ensayo específico de laurel o cedro amargo Texto original del autor: «Aprox. 0,12-0,17 W/m.K (rango típico de referencia para madera blanda/semidura)».",
+      "min": 0.12,
+      "max": 0.17,
+      "unidad": "W/(m·K)",
+      "calificador": "rango"
     },
     "specific_heat": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "unidad": "J/(kg·K)",
+      "fuentes": [
+        {
+          "ref": "INT-CEC",
+          "loc": "§3.3.1"
+        }
+      ],
+      "evidencia": "E4",
+      "certeza": "rango_literatura",
+      "valor": 1600,
+      "calificador": "=",
+      "nota": "Complemento de integración (nov. 2026), pendiente de validar por el autor. Valor de diseño genérico del material principal (fila «Frondosas (madera)», §3.3.1), no del producto ni del sistema; referido a 10 °C y humedad de equilibrio a 23 °C y 50 % HR: no describe el desempeño en servicio en trópico húmedo."
     },
     "thermal_resistance": {
       "estado": "dato",
-      "valor_texto_original": "R aprox. 0,28 m2.K/W (hoja de 40 mm; calculado como e/lambda = 0,04 m / 0,145 W/m.K)",
       "fuentes": [
         {
           "ref": "R32"
@@ -518,11 +567,13 @@
         }
       ],
       "evidencia": "E1",
-      "nota": "Derivado, no medido. Depende directamente de la conductividad térmica estimada en la fila 47"
+      "nota": "Derivado, no medido. Depende directamente de la conductividad térmica estimada en la fila 47 Texto original del autor: «R aprox. 0,28 m2.K/W (hoja de 40 mm; calculado como e/lambda = 0,04 m / 0,145 W/m.K)».",
+      "valor": 0.28,
+      "unidad": "m²·K/W",
+      "calificador": "≈"
     },
     "u_value": {
       "estado": "dato",
-      "valor_texto_original": "Referencia general (no de esta ficha): aprox. 1,8-2,9 W/m2.K para puertas de madera maciza sin núcleo cortafuego, espesor 40-57mm (ej. puerta EI30 Vicaima de 44-57mm: UD=1,8 W/m2.K)",
       "fuentes": [
         {
           "ref": "R34"
@@ -532,7 +583,11 @@
         }
       ],
       "evidencia": "E4",
-      "nota": "Valor de catálogos europeos de puertas de madera maciza en general; no específico de cedro/laurel costarricense ni ensayado para este sistema"
+      "nota": "Valor de catálogos europeos de puertas de madera maciza en general; no específico de cedro/laurel costarricense ni ensayado para este sistema Texto original del autor: «Referencia general (no de esta ficha): aprox. 1,8-2,9 W/m2.K para puertas de madera maciza sin núcleo cortafuego, espesor 40-57mm (ej. puerta EI30 Vicaima de 44-57mm: UD=1,8 W/m2.K)».",
+      "min": 1.8,
+      "max": 2.9,
+      "unidad": "W/(m²·K)",
+      "calificador": "rango"
     },
     "solar_reflectance": {
       "estado": "no_disponible"
@@ -546,13 +601,17 @@
     },
     "sound_insulation": {
       "estado": "dato",
-      "valor_texto_original": "25-30 dB (Rw aprox.) en hojas de 45 mm",
       "fuentes": [
         {
           "ref": "R36"
         }
       ],
-      "evidencia": "E5"
+      "evidencia": "E5",
+      "min": 25,
+      "max": 30,
+      "unidad": "dB (Rw)",
+      "calificador": "rango",
+      "nota": "Texto original del autor: «25-30 dB (Rw aprox.) en hojas de 45 mm»."
     },
     "sound_absorption": {
       "estado": "no_disponible"
@@ -572,8 +631,7 @@
       "nota": "La clase D-s2,d0 es una referencia normativa general añadida por fuera de los informes entregados"
     },
     "fire_resistance": {
-      "estado": "dato",
-      "valor_texto_original": "El sistema descrito (sin núcleo cortafuego) no alcanza una clasificación certificada. Como referencia general, puertas de madera maciza con bastidor + tablero + juntas intumescentes sí certifican EI30 (30 min) según EN 1634-1/EN 13501-2 (equivalente a RF-30 en normativa NBE-CPI)",
+      "estado": "no_disponible",
       "fuentes": [
         {
           "ref": "R39"
@@ -582,8 +640,7 @@
           "ref": "R40"
         }
       ],
-      "evidencia": "E4",
-      "nota": "Valor de referencia para la categoría general \"puerta de madera maciza certificada\"; el sistema de los informes de Verónica no reporta núcleo cortafuego, por lo que no aplicaría automáticamente"
+      "nota": "Valor de referencia para la categoría general \"puerta de madera maciza certificada\"; el sistema de los informes de Verónica no reporta núcleo cortafuego, por lo que no aplicaría automáticamente El sistema descrito no alcanza una clasificación certificada. Texto original del autor: «El sistema descrito (sin núcleo cortafuego) no alcanza una clasificación certificada. Como referencia general, puertas de madera maciza con bastidor + tablero + juntas intumescentes sí certifican EI30 (30 min) según EN 1634-1/EN 13501-2 (equivalente a RF-30 en normativa NBE-CPI)»."
     },
     "smoke_class": {
       "estado": "dato",
@@ -812,8 +869,15 @@
       "evidencia": "E5"
     },
     "cr_region": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Condiciones climáticas declaradas en la ficha: Climas secos, humedad moderada o interiores con aire acondicionado; en fachadas exteriores requiere protección física permanente (aleros, pórticos o marquesinas) contra la escorrentía directa. Disponibilidad nacional 5/5.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (condiciones climáticas y disponibilidad nacional); pendiente de revisar y reescribir por el autor."
     },
     "seismic_condition": {
       "estado": "pendiente",
@@ -828,16 +892,37 @@
       "nota": "Campo nuevo del estándar v1.0: completar."
     },
     "plan_requirements": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Datos de la ficha que deben quedar indicados en planos y especificaciones: espesor total 38.0–45.0 mm; paso libre 750–950 mm; tipo de fijación: Tornillos expansivos 3\"x1/4\" @ 60 cm para fijar el marco; uniones espigadas del bastidor con adhesivo PVA D3/D4; juntas, sellos y accesorios: Masilla acrílica elástica pintable en juntas marco-mampostería; burlete/guardapolvo de PVC Hunter de 90 cm; molduras batientes de laurel 12x50 mm o 12x25 mm en los remates; herrajes: Bisagras de acero 3\"x3\" (3 a 4 unidades; ej. National c2.075, Yale c3.700); cerradura/llavín de doble paso de embutir (Yale 610/810-50 c21.450-c25.450; Vera/Hermex c8.450-c9.995); burlete de PVC Hunter en la base.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (espesores, fijaciones, juntas y campos específicos); pendiente de revisar y reescribir por el autor."
     },
     "advantages": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Fortalezas según los datos de la ficha: facilidad de limpieza 4/5; facilidad de reparación 5/5; disponibilidad nacional 5/5; residuos de instalación 2/5 (bajo); material renovable: Sí; reutilizable: Sí; reciclable: Sí.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (escalas 1–5 y campos Sí/No); pendiente de revisar y reescribir por el autor."
     },
     "limitations": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Debilidades según los datos de la ficha: resistencia a humedad 2/5; resistencia a radiación uv 1/5; riesgo de condensación 4/5 (alto); especialización de mano de obra 4/5 (alto); complejidad de instalación 4/5 (alto); aptitud para ambiente marino: No. Restricciones de uso: Incompatible con contacto directo con suelos húmedos o tierra, zonas costeras salinas de alta escorrentía, y baños cerrados con ventilación deficiente. Principales fallas (patologías): Alabeo (cupping), torcedura (twisting), hinchazón y traba mecánica, meteorización y pérdida de lignina, ataque de comején (subterráneo y de madera seca) y psócidos.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (escalas 1–5, restricciones de uso y fallas frecuentes); pendiente de revisar y reescribir por el autor."
     },
     "graphics": {
       "estado": "pendiente",
@@ -891,14 +976,17 @@
     },
     "clear_width": {
       "estado": "dato",
-      "valor_texto_original": "Aprox. 750-950 mm",
       "fuentes": [
         {
           "ref": "PROPIO"
         }
       ],
       "evidencia": "E4",
-      "nota": "Estimación propia; no es un valor de paso libre medido o certificado en los informes"
+      "nota": "Estimación propia; no es un valor de paso libre medido o certificado en los informes Texto original del autor: «Aprox. 750-950 mm».",
+      "min": 750,
+      "max": 950,
+      "unidad": "mm",
+      "calificador": "rango"
     },
     "leaf_material": {
       "estado": "dato",
@@ -1166,6 +1254,18 @@
     {
       "id": "R53",
       "cita": "estudio-tecnico-puertas.pdf, pág. 10 (tabla de herrajes)"
+    },
+    {
+      "id": "INT-CEC",
+      "tipo": "informe_institucional",
+      "fecha_consulta": "2026-11-16",
+      "url": "https://www.codigotecnico.org/Recursos/Aplicaciones/CatalogoElementosConstructivos.html",
+      "cita": "Instituto Eduardo Torroja de Ciencias de la Construcción, CEPCO y AICIA. (2010). Catálogo de Elementos Constructivos del CTE (versión 6.3, marzo de 2010), sección 3: Materiales y productos. Ministerio de Vivienda, España. Valores de diseño obtenidos según UNE-EN ISO 10456."
+    },
+    {
+      "id": "INT-SIN",
+      "tipo": "elaboracion_propia",
+      "cita": "Síntesis de integración (noviembre de 2026): texto armado automáticamente a partir de otros campos de la misma ficha. No es fuente externa."
     }
   ]
 }

@@ -204,18 +204,34 @@
       "evidencia": "E5"
     },
     "density": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "unidad": "kg/m³",
+      "fuentes": [
+        {
+          "ref": "INT-CEC",
+          "loc": "§3.9.1"
+        }
+      ],
+      "evidencia": "E4",
+      "certeza": "rango_literatura",
+      "valor": 1200,
+      "calificador": "=",
+      "nota": "Complemento de integración (nov. 2026), pendiente de validar por el autor. Valor de diseño genérico del material principal (fila «Resina epoxi», §3.9.1), no del producto ni del sistema; referido a 10 °C y humedad de equilibrio a 23 °C y 50 % HR: no describe el desempeño en servicio en trópico húmedo."
     },
     "surface_mass": {
       "estado": "dato",
-      "valor_texto_original": "Resina ≈ 1 500–1 800 kg/m³; autonivelante 2 mm ≈ 3–3,6 kg/m²",
       "fuentes": [
         {
           "ref": "R56"
         }
       ],
-      "evidencia": "E2"
+      "evidencia": "E2",
+      "min": 3.0,
+      "max": 3.6,
+      "calificador": "rango",
+      "unidad": "kg/m²",
+      "certeza": "rango_literatura",
+      "nota": "Resina ≈ 1 500–1 800 kg/m³; autonivelante 2 mm ≈ 3–3,6 kg/m²"
     },
     "surface_finish": {
       "estado": "dato",
@@ -356,13 +372,16 @@
     },
     "imn_subregions": {
       "estado": "dato",
-      "valor_texto_original": "Interiores en cualquier zona; barrera o imprimante tolerante a humedad en losas sobre terreno.",
       "fuentes": [
         {
           "ref": "R01"
         }
       ],
-      "evidencia": "E5"
+      "evidencia": "E5",
+      "valor": [
+        "TODAS"
+      ],
+      "nota": "Interiores en cualquier zona; barrera o imprimante tolerante a humedad en losas sobre terreno."
     },
     "compatibility": {
       "estado": "dato",
@@ -443,14 +462,18 @@
     },
     "price_range": {
       "estado": "dato",
-      "valor_texto_original": "₡8 000–₡38 000 / m² instalado (≥ 30 m²)",
       "fuentes": [
         {
           "ref": "R57"
         }
       ],
       "evidencia": "E2",
-      "nota": "Sólido ₡8–12 mil; escamas ₡12–18 mil; industrial ₡15–30 mil; metálico ₡22–38 mil."
+      "nota": "Instalado (≥ 30 m²)",
+      "min": 8000.0,
+      "max": 38000.0,
+      "calificador": "rango",
+      "unidad": "CRC/m²",
+      "certeza": "rango_literatura"
     },
     "mechanical_resistance": {
       "estado": "dato",
@@ -567,8 +590,19 @@
       "nota": "Interior; acabado UV si hay exposición."
     },
     "vapor_permeability": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "unidad": "adimensional",
+      "fuentes": [
+        {
+          "ref": "INT-CEC",
+          "loc": "§3.9.1"
+        }
+      ],
+      "evidencia": "E4",
+      "certeza": "rango_literatura",
+      "valor": 10000,
+      "calificador": "=",
+      "nota": "Complemento de integración (nov. 2026), pendiente de validar por el autor. Valor de diseño genérico del material principal (fila «Resina epoxi», §3.9.1), no del producto ni del sistema; referido a 10 °C y humedad de equilibrio a 23 °C y 50 % HR: no describe el desempeño en servicio en trópico húmedo."
     },
     "thermal_conductivity": {
       "estado": "dato",
@@ -584,8 +618,19 @@
       "nota": "Resina epóxica."
     },
     "specific_heat": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "unidad": "J/(kg·K)",
+      "fuentes": [
+        {
+          "ref": "INT-CEC",
+          "loc": "§3.9.1"
+        }
+      ],
+      "evidencia": "E4",
+      "certeza": "rango_literatura",
+      "valor": 1400,
+      "calificador": "=",
+      "nota": "Complemento de integración (nov. 2026), pendiente de validar por el autor. Valor de diseño genérico del material principal (fila «Resina epoxi», §3.9.1), no del producto ni del sistema; referido a 10 °C y humedad de equilibrio a 23 °C y 50 % HR: no describe el desempeño en servicio en trópico húmedo."
     },
     "thermal_resistance": {
       "estado": "dato",
@@ -1175,6 +1220,13 @@
     {
       "id": "R62",
       "cita": "Hojas de seguridad (SDS) de resinas"
+    },
+    {
+      "id": "INT-CEC",
+      "tipo": "informe_institucional",
+      "fecha_consulta": "2026-11-16",
+      "url": "https://www.codigotecnico.org/Recursos/Aplicaciones/CatalogoElementosConstructivos.html",
+      "cita": "Instituto Eduardo Torroja de Ciencias de la Construcción, CEPCO y AICIA. (2010). Catálogo de Elementos Constructivos del CTE (versión 6.3, marzo de 2010), sección 3: Materiales y productos. Ministerio de Vivienda, España. Valores de diseño obtenidos según UNE-EN ISO 10456."
     }
   ]
 }

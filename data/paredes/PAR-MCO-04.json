@@ -253,12 +253,26 @@
       "evidencia": "E2"
     },
     "installation_sequence": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Capas del sistema en el orden declarado: Vidrio exterior o DVH → empaques y sellos → montantes/travesaños → cámara y antepecho cuando corresponda → conexión interior. Sistema de soporte: Losa, vigas o elementos principales que reciben anclajes calculados. Tipo de fijación: Anclajes mecánicos a estructura; presores/tapas o silicón estructural según variante. Juntas, sellos y accesorios: EPDM, silicones, juntas de movimiento, drenajes y sellos perimetrales.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (capas, soporte, fijación y juntas); pendiente de revisar y reescribir por el autor."
     },
     "tools_labor": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Especialización de mano de obra 5/5: Diseño de fachada, fabricación, vidrio, izaje, sellado y pruebas especializados. Complejidad de instalación 5/5: Tolerancias, drenajes, sellos y secuencia de montaje críticos. Tiempo relativo de instalación 3/5: Fabricación previa acelera obra; instalación depende de acceso, izaje y pruebas.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (escalas de mano de obra e instalación); pendiente de revisar y reescribir por el autor."
     },
     "critical_point": {
       "estado": "pendiente",
@@ -795,7 +809,6 @@
     },
     "origin": {
       "estado": "dato",
-      "valor_texto_original": "Fabricación local con componentes nacionales e importados",
       "fuentes": [
         {
           "ref": "V1"
@@ -804,7 +817,9 @@
           "ref": "V2"
         }
       ],
-      "evidencia": "E4"
+      "evidencia": "E4",
+      "valor": "Mixto",
+      "nota": "Texto original del autor: «Fabricación local con componentes nacionales e importados»."
     },
     "transport_distance": {
       "estado": "no_disponible",
@@ -905,17 +920,28 @@
     },
     "end_of_life": {
       "estado": "dato",
-      "valor_texto_original": "Reciclaje parcial de aluminio y vidrio; otros residuos según gestor",
       "fuentes": [
         {
           "ref": "V1"
         }
       ],
-      "evidencia": "E1"
+      "evidencia": "E1",
+      "valor": [
+        "Reciclaje",
+        "Otro"
+      ],
+      "nota": "Texto original del autor: «Reciclaje parcial de aluminio y vidrio; otros residuos según gestor»."
     },
     "cr_region": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Condiciones climáticas declaradas en la ficha: Tropical húmedo y seco con diseño de lluvia impulsada, radiación, viento y condensación. Disponibilidad nacional 4/5.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (condiciones climáticas y disponibilidad nacional); pendiente de revisar y reescribir por el autor."
     },
     "seismic_condition": {
       "estado": "pendiente",
@@ -930,16 +956,37 @@
       "nota": "Campo nuevo del estándar v1.0: completar."
     },
     "plan_requirements": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Datos de la ficha que deben quedar indicados en planos y especificaciones: tipo de fijación: Anclajes mecánicos a estructura; presores/tapas o silicón estructural según variante; juntas, sellos y accesorios: EPDM, silicones, juntas de movimiento, drenajes y sellos perimetrales; barrera de humedad: Drenaje y sellos en perfiles; continuidad de barrera en antepecho y encuentro con estructura; fijación a estructura: Anclajes calculados a losas o vigas, con tolerancia para movimiento térmico y deriva.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (espesores, fijaciones, juntas y campos específicos); pendiente de revisar y reescribir por el autor."
     },
     "advantages": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Fortalezas según los datos de la ficha: resistencia a humedad 4/5; resistencia a corrosión 4/5; resistencia a radiación uv 4/5; disponibilidad nacional 4/5; residuos de instalación 2/5 (bajo).",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (escalas 1–5 y campos Sí/No); pendiente de revisar y reescribir por el autor."
     },
     "limitations": {
-      "estado": "pendiente",
-      "nota": "Campo nuevo del estándar v1.0: completar."
+      "estado": "dato",
+      "valor": "Debilidades según los datos de la ficha: riesgo de condensación 4/5 (alto); especialización de mano de obra 5/5 (alto); complejidad de instalación 5/5 (alto); material renovable: No. Restricciones de uso: No es estructura portante. Verificar viento, deriva sísmica, vidrio de seguridad, cortafuego y acceso de mantenimiento. Principales fallas (patologías): Filtración; condensación; sellos envejecidos; drenajes obstruidos; vidrio roto; tapas flojas.",
+      "fuentes": [
+        {
+          "ref": "INT-SIN"
+        }
+      ],
+      "evidencia": "E1",
+      "nota": "Síntesis de integración (nov. 2026) armada con datos de esta misma ficha (escalas 1–5, restricciones de uso y fallas frecuentes); pendiente de revisar y reescribir por el autor."
     },
     "graphics": {
       "estado": "pendiente",
@@ -1079,6 +1126,11 @@
       "id": "V3",
       "cita": "Extralum. IT-063 Consideraciones constructivas de fachadas unitizadas. https://www.extralum.com/wp-content/uploads/2022/05/IT-063-Consideraciones-constructivas-para-la-instalacion-del-sistema-de-fachadas-prefabricadas-unitizadas-de-muro-cortina.pdf",
       "url": "https://www.extralum.com/wp-content/uploads/2022/05/IT-063-Consideraciones-constructivas-para-la-instalacion-del-sistema-de-fachadas-prefabricadas-unitizadas-de-muro-cortina.pdf"
+    },
+    {
+      "id": "INT-SIN",
+      "tipo": "elaboracion_propia",
+      "cita": "Síntesis de integración (noviembre de 2026): texto armado automáticamente a partir de otros campos de la misma ficha. No es fuente externa."
     }
   ]
 }

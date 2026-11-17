@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0e5a4a">
+<title>SUM · Selección y Uso de Materiales</title>
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<header class="top">
+  <div class="fila">
+    <div class="marca">
+      <div class="logo" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M2 11 12 4l10 7"/><path d="M5 10v9h14v-9"/><path d="M9 19v-5h6v5"/><path d="M12 4V2"/></svg></div>
+      <div>
+        <h1>SUM <small>Selección y Uso de Materiales</small></h1>
+        <div class="sub">Maestría en Arquitectura Tropical · UCR · Materiales y Técnicas Avanzadas</div>
+      </div>
+    </div>
+    <div class="chip-sitio" id="chip"></div>
+  </div>
+  <nav class="tabs" id="tabs" aria-label="Secciones"></nav>
+</header>
+<main id="app"><p>Cargando datos…</p></main>
+<footer id="pie"></footer>
+<div id="toast" role="status" aria-live="polite"></div>
+<a class="oculto" href="#app">Saltar al contenido</a>
+<input type="file" id="f-epw" accept=".epw,.txt">
+<input type="file" id="f-epw2" accept=".epw,.txt">
+<input type="file" id="f-matriz" accept=".xlsx">
+<input type="file" id="f-sitio" accept=".json">
+<input type="file" id="f-ficha" accept=".json" multiple>
+<input type="file" id="f-plantilla" accept=".xlsx" multiple>
+<script src="datos.js"></script>
+<script src="motor.js"></script>
+<script src="ui.js"></script>
+</body>
+</html>

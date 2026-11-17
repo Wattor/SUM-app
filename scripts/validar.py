@@ -122,7 +122,7 @@ def main():
     ap.add_argument("rutas", nargs="*")
     ap.add_argument("--reporte")
     a = ap.parse_args()
-    rutas = [pathlib.Path(p) for p in a.rutas] or sorted((RAIZ / "data").glob("*/*.json"))
+    rutas = [pathlib.Path(p) for p in a.rutas] or sorted(q for q in (RAIZ / "data").glob("*/*.json") if q.parent.name != "sitios")
     rutas = [p for p in rutas if p.name != "materiales.json"]
     res = [validar_ficha(p.resolve()) for p in rutas]
     for r in res:
